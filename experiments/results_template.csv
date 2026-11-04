@@ -1,0 +1,1 @@
+experiment_id,instance_id,seed,method,code_commit,config_sha256,source_id,disturbance,frozen_ratio,w,B,status,utility,removed_count,added_count,retained_count,retained_movement_s,strict_feasible,urgent_scheduled,frozen_violations,window_violations,window_rejected_candidates,feasible_candidates,control_latency_ms,total_latency_ms,failure_reason

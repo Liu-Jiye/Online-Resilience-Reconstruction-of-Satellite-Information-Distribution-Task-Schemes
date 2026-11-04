@@ -1,0 +1,25 @@
+{
+  "status": "documented_not_reproduced",
+  "source": "S04 section 5.1 and Tables 1-9",
+  "instance_count": 50,
+  "candidate_task_count": 100,
+  "horizon_s": 5400,
+  "disturbances": ["cancellation", "urgent_insertion", "reward_update"],
+  "reported_frozen_ratios": [0.0, 0.6],
+  "reported_budget_sweep": [0, 1, 2, 3, 5],
+  "default_insertion_budget": 2,
+  "neighborhood_width": null,
+  "original_seeds": null,
+  "generator_revision": null,
+  "hardware": null,
+  "learned_prior_puct": {
+    "simulations": 40,
+    "max_depth": 12,
+    "top_k": 20,
+    "exploration_constant": 1.5,
+    "guidance_depth": 2,
+    "weights": null
+  },
+  "intersatellite_constraints_validated": false,
+  "adaptive_parameters_validated": false
+}
