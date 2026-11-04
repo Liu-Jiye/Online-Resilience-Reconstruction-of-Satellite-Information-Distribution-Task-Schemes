@@ -2,6 +2,8 @@
 
 S02 要求优先多个公开数据源、逐字段判断是否可用，并提供可复现基线。当前材料没有已选定公开数据或可运行的原方法代码。本页提供研究入口和核验清单，不宣称已完成数据下载或基线复现。
 
+2026-11-04 补充：已核验 CelesTrak Starlink/OneWeb JSON、IPC 2002 Satellite 时序域、ALNS 软件入口和 OR-Tools 文档，形成 [完整实验方案](../experiments/complete_experimental_plan.md)。下表保留初始候选调查记录；最新选择、规模与证据状态以完整方案第 4、6、12 节及 [来源核验记录](../experiments/source_verification.json) 为准。没有完成可运行基线复现。
+
 ## 公开数据候选
 
 | 入口 | 能提供什么 | 仍需补什么 | 当前状态 |

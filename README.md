@@ -11,6 +11,7 @@
 3. 先处理 [原稿问题与证据边界](docs/02_audit.md)，再开展论文修改。
 4. 按 [后续任务清单](docs/03_roadmap.md) 恢复代码、补充约束与实验。
 5. 实现时使用 [方法接口与约束](docs/04_method_contract.md)、[数据规范](data/README.md) 和 [实验协议](experiments/README.md)。
+6. 开展实验时按 [完整实验方案](experiments/complete_experimental_plan.md) 执行，配套 [机器可读设计](experiments/configs/experimental_design_v1.json) 明确模型、数据规模、指标、基线、消融和验收。
 
 ## 目录
 

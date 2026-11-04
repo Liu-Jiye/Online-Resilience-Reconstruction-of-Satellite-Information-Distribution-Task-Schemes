@@ -1,0 +1,16 @@
+{
+  "checked_on": "2026-11-04",
+  "scope": "Read-only URL and content checks; not algorithm reproduction or licensing clearance",
+  "resources": [
+    {"name": "CelesTrak GP fields", "url": "https://celestrak.org/NORAD/documentation/gp-data-formats.php", "http_status": 200},
+    {"name": "Starlink GP JSON", "url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=starlink&FORMAT=json", "http_status": 200, "records_at_check": 11155, "records_after_filtering": null, "field_examples": ["NORAD_CAT_ID", "EPOCH", "MEAN_MOTION", "ECCENTRICITY", "INCLINATION", "RA_OF_ASC_NODE", "ARG_OF_PERICENTER", "MEAN_ANOMALY", "BSTAR"]},
+    {"name": "OneWeb GP JSON", "url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=oneweb&FORMAT=json", "http_status": 200, "records_at_check": 651, "records_after_filtering": null},
+    {"name": "Old single-object example", "url": "https://celestrak.org/NORAD/elements/gp.php?CATNR=44713&FORMAT=JSON", "http_status": 404, "used_for_experiments": false},
+    {"name": "IPC temporal satellite", "url": "https://github.com/potassco/pddl-instances/tree/master/ipc-2002/domains/satellite-time-automatic", "api_status": 200, "confirmed_entries": ["domain.pddl", "instances", "README.md", "additional-notes"], "repository_commit": "cf19edf7c53d1540ddbb396c642595e0926ee552", "problem_file_count": 20, "parsed_valid_independent_instance_count": null},
+    {"name": "IPC simple temporal satellite", "url": "https://github.com/potassco/pddl-instances/tree/master/ipc-2002/domains/satellite-time-simple-automatic", "api_status": 200, "confirmed_entries": ["domain.pddl", "instances", "README.md", "additional-notes"], "problem_file_count": 20, "parsed_valid_independent_instance_count": null},
+    {"name": "ALNS", "url": "https://github.com/N-Wouda/ALNS", "api_status": 200, "license_reported_by_api": "MIT", "repository_commit": "5ef1fd1171e6be49c947cd3e56e485509b9c1d64", "satellite_adapter_available_here": false},
+    {"name": "OR-Tools scheduling documentation", "url": "https://developers.google.com/optimization/scheduling/job_shop", "http_status": 200, "source_repository": "https://github.com/google/or-tools"},
+    {"name": "Skyfield satellite documentation", "url": "https://rhodesmill.org/skyfield/earth-satellites.html", "http_status": 200, "sgp4_repository_link": "https://github.com/brandon-rhodes/python-sgp4"},
+    {"name": "Satellite GNN MCTS paper", "url": "https://arxiv.org/html/2408.15041", "http_status": 200, "title": "Improved Earth Observation Satellite Scheduling with Graph Neural Networks and Monte Carlo Tree Search", "author_official_runnable_repository_confirmed": false}
+  ]
+}
