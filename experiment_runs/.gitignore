@@ -1,0 +1,9 @@
+# Only experimental artifacts inside this directory are affected.
+data/raw/
+data/processed/
+runs/*/
+.venv/
+.cache/
+.pytest_cache/
+__pycache__/
+*.py[cod]

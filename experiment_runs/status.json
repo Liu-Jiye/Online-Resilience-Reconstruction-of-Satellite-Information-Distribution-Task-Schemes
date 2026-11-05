@@ -1,0 +1,56 @@
+{
+  "initialized_on": "2026-11-05",
+  "timezone": "Asia/Shanghai",
+  "workspace_status": "initialized",
+  "source_commit": "42209f4c776e227e2fefa0c47777ac547095a7a8",
+  "write_scope": "experiment_runs/",
+  "existing_files_modified": false,
+  "results_available": false,
+  "algorithm_implemented": false,
+  "next_stage": "P0",
+  "stages": {
+    "P0": {
+      "status": "not_started",
+      "run_ids": [],
+      "report": null
+    },
+    "P1": {
+      "status": "not_started",
+      "run_ids": [],
+      "report": null
+    },
+    "P2": {
+      "status": "not_started",
+      "run_ids": [],
+      "report": null
+    },
+    "P3": {
+      "status": "not_started",
+      "run_ids": [],
+      "report": null
+    },
+    "P4": {
+      "status": "not_started",
+      "run_ids": [],
+      "report": null
+    },
+    "P5": {
+      "status": "not_started",
+      "run_ids": [],
+      "report": null
+    },
+    "P6": {
+      "status": "not_started",
+      "run_ids": [],
+      "report": null
+    }
+  },
+  "missing_original_artifacts": [
+    "algorithm_source",
+    "instance_generator",
+    "original_seeds",
+    "per_instance_logs",
+    "learned_weights"
+  ],
+  "implementation_policy": "If original artifacts remain unavailable, explicitly label a paper-based reimplementation; do not claim exact historical reproduction."
+}

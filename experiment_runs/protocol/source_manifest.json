@@ -1,0 +1,20 @@
+{
+  "source_repository": "https://github.com/Liu-Jiye/Online-Resilience-Reconstruction-of-Satellite-Information-Distribution-Task-Schemes",
+  "source_commit": "42209f4c776e227e2fefa0c47777ac547095a7a8",
+  "protocol_version": "1.0",
+  "captured_at_utc": "2026-11-05T09:00:07.634053+00:00",
+  "files": [
+    {
+      "source_path": "experiments/complete_experimental_plan.md",
+      "snapshot_path": "protocol/complete_experimental_plan.v1.md",
+      "sha256": "0d4dcdb5d588cb8af7d4dba0360f9739ba74fc4b0339b90d8e112aae0413e17d",
+      "size_bytes": 44967
+    },
+    {
+      "source_path": "experiments/configs/experimental_design_v1.json",
+      "snapshot_path": "protocol/experimental_design_v1.json",
+      "sha256": "f0a28b2a5ac7d22925f438bcc7d50876745e80dc674afaba66083d61ba0c8f4d",
+      "size_bytes": 5221
+    }
+  ]
+}
