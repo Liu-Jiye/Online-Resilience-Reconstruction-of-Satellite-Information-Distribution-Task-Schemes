@@ -1,0 +1,299 @@
+{
+  "selected_from_train": {
+    "medium": {
+      "N": 500,
+      "h": 0.8
+    },
+    "high": null
+  },
+  "train_candidates": {
+    "medium": [
+      {
+        "N": 100,
+        "h": 0.0,
+        "eligible": false,
+        "reasons": [
+          "D1:competition_outside_range",
+          "D1:blocked_count_too_low",
+          "D1:probe_competition_too_low",
+          "D2-S:competition_outside_range",
+          "D2-S:blocked_count_too_low",
+          "D2-S:probe_competition_too_low",
+          "D2-O:competition_outside_range",
+          "D2-O:blocked_count_too_low",
+          "D2-O:probe_competition_too_low"
+        ]
+      },
+      {
+        "N": 100,
+        "h": 0.5,
+        "eligible": false,
+        "reasons": [
+          "D1:competition_outside_range",
+          "D1:blocked_count_too_low",
+          "D1:probe_competition_too_low",
+          "D2-S:competition_outside_range",
+          "D2-S:blocked_count_too_low",
+          "D2-S:probe_competition_too_low",
+          "D2-O:competition_outside_range",
+          "D2-O:blocked_count_too_low",
+          "D2-O:probe_competition_too_low"
+        ]
+      },
+      {
+        "N": 100,
+        "h": 0.8,
+        "eligible": false,
+        "reasons": [
+          "D1:competition_outside_range",
+          "D1:blocked_count_too_low",
+          "D2-S:competition_outside_range",
+          "D2-S:blocked_count_too_low",
+          "D2-S:probe_competition_too_low",
+          "D2-O:competition_outside_range",
+          "D2-O:blocked_count_too_low",
+          "D2-O:probe_competition_too_low"
+        ]
+      },
+      {
+        "N": 200,
+        "h": 0.0,
+        "eligible": false,
+        "reasons": [
+          "D1:competition_outside_range",
+          "D1:blocked_count_too_low",
+          "D1:probe_competition_too_low",
+          "D2-S:competition_outside_range",
+          "D2-S:blocked_count_too_low",
+          "D2-S:probe_competition_too_low",
+          "D2-O:competition_outside_range",
+          "D2-O:blocked_count_too_low",
+          "D2-O:probe_competition_too_low"
+        ]
+      },
+      {
+        "N": 200,
+        "h": 0.5,
+        "eligible": false,
+        "reasons": [
+          "D1:competition_outside_range",
+          "D2-S:competition_outside_range",
+          "D2-S:blocked_count_too_low",
+          "D2-S:probe_competition_too_low",
+          "D2-O:competition_outside_range"
+        ]
+      },
+      {
+        "N": 200,
+        "h": 0.8,
+        "eligible": false,
+        "reasons": [
+          "D2-S:competition_outside_range",
+          "D2-O:competition_outside_range"
+        ]
+      },
+      {
+        "N": 500,
+        "h": 0.0,
+        "eligible": false,
+        "reasons": [
+          "D2-S:competition_outside_range",
+          "D2-O:competition_outside_range"
+        ]
+      },
+      {
+        "N": 500,
+        "h": 0.5,
+        "eligible": false,
+        "reasons": [
+          "D2-S:competition_outside_range"
+        ]
+      },
+      {
+        "N": 500,
+        "h": 0.8,
+        "eligible": true,
+        "reasons": []
+      }
+    ],
+    "high": [
+      {
+        "N": 100,
+        "h": 0.0,
+        "eligible": false,
+        "reasons": [
+          "D1:competition_outside_range",
+          "D1:blocked_count_too_low",
+          "D1:probe_competition_too_low",
+          "D1:N_lower_than_medium",
+          "D1:high_medium_gap_too_low",
+          "D2-S:competition_outside_range",
+          "D2-S:blocked_count_too_low",
+          "D2-S:probe_competition_too_low",
+          "D2-S:N_lower_than_medium",
+          "D2-S:high_medium_gap_too_low",
+          "D2-O:competition_outside_range",
+          "D2-O:blocked_count_too_low",
+          "D2-O:probe_competition_too_low",
+          "D2-O:N_lower_than_medium",
+          "D2-O:high_medium_gap_too_low"
+        ]
+      },
+      {
+        "N": 100,
+        "h": 0.5,
+        "eligible": false,
+        "reasons": [
+          "D1:competition_outside_range",
+          "D1:blocked_count_too_low",
+          "D1:probe_competition_too_low",
+          "D1:N_lower_than_medium",
+          "D1:high_medium_gap_too_low",
+          "D2-S:competition_outside_range",
+          "D2-S:blocked_count_too_low",
+          "D2-S:probe_competition_too_low",
+          "D2-S:N_lower_than_medium",
+          "D2-S:high_medium_gap_too_low",
+          "D2-O:competition_outside_range",
+          "D2-O:blocked_count_too_low",
+          "D2-O:probe_competition_too_low",
+          "D2-O:N_lower_than_medium",
+          "D2-O:high_medium_gap_too_low"
+        ]
+      },
+      {
+        "N": 100,
+        "h": 0.8,
+        "eligible": false,
+        "reasons": [
+          "D1:competition_outside_range",
+          "D1:blocked_count_too_low",
+          "D1:probe_competition_too_low",
+          "D1:N_lower_than_medium",
+          "D1:high_medium_gap_too_low",
+          "D2-S:competition_outside_range",
+          "D2-S:blocked_count_too_low",
+          "D2-S:probe_competition_too_low",
+          "D2-S:N_lower_than_medium",
+          "D2-S:high_medium_gap_too_low",
+          "D2-O:competition_outside_range",
+          "D2-O:blocked_count_too_low",
+          "D2-O:probe_competition_too_low",
+          "D2-O:N_lower_than_medium",
+          "D2-O:high_medium_gap_too_low"
+        ]
+      },
+      {
+        "N": 200,
+        "h": 0.0,
+        "eligible": false,
+        "reasons": [
+          "D1:competition_outside_range",
+          "D1:blocked_count_too_low",
+          "D1:probe_competition_too_low",
+          "D1:N_lower_than_medium",
+          "D1:high_medium_gap_too_low",
+          "D2-S:competition_outside_range",
+          "D2-S:blocked_count_too_low",
+          "D2-S:probe_competition_too_low",
+          "D2-S:N_lower_than_medium",
+          "D2-S:high_medium_gap_too_low",
+          "D2-O:competition_outside_range",
+          "D2-O:blocked_count_too_low",
+          "D2-O:probe_competition_too_low",
+          "D2-O:N_lower_than_medium",
+          "D2-O:high_medium_gap_too_low"
+        ]
+      },
+      {
+        "N": 200,
+        "h": 0.5,
+        "eligible": false,
+        "reasons": [
+          "D1:competition_outside_range",
+          "D1:blocked_count_too_low",
+          "D1:probe_competition_too_low",
+          "D1:N_lower_than_medium",
+          "D1:high_medium_gap_too_low",
+          "D2-S:competition_outside_range",
+          "D2-S:blocked_count_too_low",
+          "D2-S:probe_competition_too_low",
+          "D2-S:N_lower_than_medium",
+          "D2-S:high_medium_gap_too_low",
+          "D2-O:competition_outside_range",
+          "D2-O:blocked_count_too_low",
+          "D2-O:probe_competition_too_low",
+          "D2-O:N_lower_than_medium",
+          "D2-O:high_medium_gap_too_low"
+        ]
+      },
+      {
+        "N": 200,
+        "h": 0.8,
+        "eligible": false,
+        "reasons": [
+          "D1:competition_outside_range",
+          "D1:blocked_count_too_low",
+          "D1:probe_competition_too_low",
+          "D1:N_lower_than_medium",
+          "D1:high_medium_gap_too_low",
+          "D2-S:competition_outside_range",
+          "D2-S:blocked_count_too_low",
+          "D2-S:probe_competition_too_low",
+          "D2-S:N_lower_than_medium",
+          "D2-S:high_medium_gap_too_low",
+          "D2-O:competition_outside_range",
+          "D2-O:blocked_count_too_low",
+          "D2-O:probe_competition_too_low",
+          "D2-O:N_lower_than_medium",
+          "D2-O:high_medium_gap_too_low"
+        ]
+      },
+      {
+        "N": 500,
+        "h": 0.0,
+        "eligible": false,
+        "reasons": [
+          "D1:competition_outside_range",
+          "D1:probe_competition_too_low",
+          "D1:high_medium_gap_too_low",
+          "D2-S:competition_outside_range",
+          "D2-S:probe_competition_too_low",
+          "D2-S:high_medium_gap_too_low",
+          "D2-O:competition_outside_range",
+          "D2-O:probe_competition_too_low",
+          "D2-O:high_medium_gap_too_low"
+        ]
+      },
+      {
+        "N": 500,
+        "h": 0.5,
+        "eligible": false,
+        "reasons": [
+          "D1:competition_outside_range",
+          "D1:high_medium_gap_too_low",
+          "D2-S:competition_outside_range",
+          "D2-S:probe_competition_too_low",
+          "D2-S:high_medium_gap_too_low",
+          "D2-O:competition_outside_range",
+          "D2-O:probe_competition_too_low",
+          "D2-O:high_medium_gap_too_low"
+        ]
+      },
+      {
+        "N": 500,
+        "h": 0.8,
+        "eligible": false,
+        "reasons": [
+          "D1:competition_outside_range",
+          "D1:high_medium_gap_too_low",
+          "D2-S:competition_outside_range",
+          "D2-S:high_medium_gap_too_low",
+          "D2-O:competition_outside_range",
+          "D2-O:high_medium_gap_too_low"
+        ]
+      }
+    ]
+  },
+  "selection_used_repair_results": false
+}

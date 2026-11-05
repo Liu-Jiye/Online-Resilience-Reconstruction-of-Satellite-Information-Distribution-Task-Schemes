@@ -1,0 +1,22 @@
+[
+  {
+    "path": "experiment_runs/reports/p2/P2-20261105T114327Z/acceptance_manifest.json",
+    "sha256": "eb0e6ff6efcedc3b7e4bb8bca7416b5fefeda53de783d1b67c0d0b3e956fe987"
+  },
+  {
+    "path": "experiment_runs/reports/p2/P2-urgent-diagnostic-20261105T122345Z/acceptance_manifest.json",
+    "sha256": "37ea1633458e03b21b11536857476d9582fd017c1ab91009e0fcc672c0aa1eb0"
+  },
+  {
+    "path": "experiment_runs/reports/p2/P2-urgent-supplement-20261105T123731Z/acceptance_manifest.json",
+    "sha256": "a80e15c9eec9fccfee785a152e1aea8cc583846a140089d4e45f81e8e4342eec"
+  },
+  {
+    "path": "experiment_runs/reports/p2/P2C-20261105T132557Z/acceptance_manifest.json",
+    "sha256": "40596fe1e60ec243135c1bdcb9cf399b8b1ddf3e610bde063c84225b66925320"
+  },
+  {
+    "path": "experiment_runs/reports/p1/P1-current-entry-fix-v1/acceptance_manifest.json",
+    "sha256": "360c1a49e5d69e5b5717d7215b993f4a99edab1227986361b7a9e08195804927"
+  }
+]

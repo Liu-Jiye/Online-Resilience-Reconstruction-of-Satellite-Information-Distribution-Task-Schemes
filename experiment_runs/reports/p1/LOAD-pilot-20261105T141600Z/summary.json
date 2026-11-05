@@ -1,0 +1,39 @@
+{
+  "base_scenarios": 150,
+  "attempted_contexts": 1350,
+  "valid_contexts": 1350,
+  "failed_contexts": 0,
+  "default_reproduced": 150,
+  "train_validation_counts": {
+    "train": 675,
+    "validation": 675
+  },
+  "offline_generation_diagnostics_wall_s": 61.0151977,
+  "selection": {
+    "default": {
+      "N": 100,
+      "h": 0.0,
+      "preserved": true
+    },
+    "new_layers": {
+      "medium": {
+        "candidate": {
+          "N": 500,
+          "h": 0.8
+        },
+        "frozen": true,
+        "validation_reasons": []
+      },
+      "high": {
+        "frozen": false,
+        "reason": "no_training_candidate"
+      }
+    },
+    "validation_fallback_performed": false,
+    "P3_started": false,
+    "repair_methods_run": []
+  },
+  "P3_started": false,
+  "test_instances": 0,
+  "repair_methods_run": []
+}

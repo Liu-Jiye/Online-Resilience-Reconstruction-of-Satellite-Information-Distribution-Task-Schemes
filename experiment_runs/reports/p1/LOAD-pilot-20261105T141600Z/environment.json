@@ -1,0 +1,42 @@
+{
+  "at_utc": "2026-11-05T14:16:00.885716+00:00",
+  "python": "3.14.0 (tags/v3.14.0:ebf955d, Oct  7 2025, 10:15:03) [MSC v.1944 64 bit (AMD64)]",
+  "os": "Windows-11-10.0.26200-SP0",
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "purpose": "offline load generation and diagnostics only",
+  "pip_freeze": [
+    "absl-py==2.5.1",
+    "certifi==2026.10.23",
+    "colorama==0.4.6",
+    "contourpy==1.4.0",
+    "cycler==0.12.1",
+    "fonttools==4.68.0",
+    "immutabledict==4.3.1",
+    "iniconfig==2.3.1",
+    "jplephem==2.24",
+    "kiwisolver==1.5.1",
+    "matplotlib==3.11.2",
+    "numpy==2.3.5",
+    "ortools==9.15.6755",
+    "packaging==26.3",
+    "pandas==3.1.1",
+    "pillow==13.0.0",
+    "pluggy==1.7.0",
+    "protobuf==6.33.6",
+    "Pygments==2.21.0",
+    "pyparsing==3.3.3",
+    "pytest==9.1.1",
+    "python-dateutil==4.0.0",
+    "sgp4==2.27",
+    "skyfield==1.55",
+    "typing_extensions==4.16.0",
+    "tzdata==2026.6"
+  ],
+  "GPU_used": false,
+  "repair_methods_run": []
+}
