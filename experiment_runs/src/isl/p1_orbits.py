@@ -133,7 +133,9 @@ def scan_runs(times, mask, refine):
         bounds.insert(0, float(times[0]))
     if mask[-1]:
         bounds.append(float(times[-1]))
-    return list(zip(bounds[::2], bounds[1::2]))
+    # A crossing less than the refinement tolerance from a segment endpoint
+    # can conservatively collapse to a single point. It is not a window.
+    return [(start, end) for start, end in zip(bounds[::2], bounds[1::2]) if end > start]
 
 
 def build_contacts(records, origin, offset_s, step_s=5, horizon=5400):

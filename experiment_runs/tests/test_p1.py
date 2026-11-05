@@ -55,6 +55,12 @@ def test_fine_scan_can_detect_subcoarse_window():
     assert len(audit['missed_at_5s']) == 1 and audit['missed_retained_at_5s'] == 0
 
 
+@pytest.mark.parametrize('truth', [lambda t: t <= .01, lambda t: t >= 9.99])
+def test_subtolerance_endpoint_marker_is_not_a_zero_length_window(truth):
+    times = np.arange(0, 11, 5.)
+    assert scan_runs(times, np.array([truth(t) for t in times]), truth) == []
+
+
 def test_screen_dedup_filters_counts_and_epoch_preserved():
     normal = record()
     old = {**normal, 'EPOCH': '2023-12-31T12:00:00'}
