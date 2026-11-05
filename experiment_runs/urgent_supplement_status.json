@@ -1,0 +1,16 @@
+{
+  "study": "P2-urgent-supplement-v2",
+  "run_id": "P2-urgent-supplement-20261105T123731Z",
+  "approved_A_complete": true,
+  "old_urgent_replayed": 67,
+  "new_natural_events": 200,
+  "pressure_bounded_execution_complete": true,
+  "pressure_target_met": false,
+  "pressure_collected": 52,
+  "pressure_target": 100,
+  "pressure_shortfall": 48,
+  "pressure_generation_rules_relaxed": false,
+  "independent_audit_passed": true,
+  "P3_started": false,
+  "next_protocol_change_requires_user_decision": true
+}

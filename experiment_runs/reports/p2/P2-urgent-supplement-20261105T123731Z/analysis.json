@@ -1,0 +1,165 @@
+{
+  "cohorts": {
+    "old_replay": {
+      "events": 67,
+      "labels": {
+        "no_physical_opportunity": 52,
+        "direct_insert": 6,
+        "calendar_blocks_all": 8,
+        "one_removal": 1
+      },
+      "gained_service_entries": [
+        "old-010.json",
+        "old-019.json",
+        "old-055.json",
+        "old-061.json"
+      ],
+      "versions": {
+        "v1": {
+          "PALR_ms_mean": 3.9420089552238804,
+          "PALR_ms_p95": 8.308419999999996,
+          "PALR_ms_max": 21.0171,
+          "exact_ms_max": 81.5938,
+          "all_valid_plans": 67,
+          "exact_actual_over_30s": 0,
+          "full_optimum_match": 59
+        },
+        "v2": {
+          "PALR_ms_mean": 4.291091044776119,
+          "PALR_ms_p95": 10.540459999999998,
+          "PALR_ms_max": 16.1782,
+          "exact_ms_max": 61.239,
+          "all_valid_plans": 67,
+          "exact_actual_over_30s": 0,
+          "full_optimum_match": 59
+        }
+      }
+    },
+    "natural": {
+      "events": 200,
+      "labels": {
+        "calendar_blocks_all": 17,
+        "no_physical_opportunity": 160,
+        "direct_insert": 19,
+        "frozen_blocks_remaining": 3,
+        "one_removal": 1
+      },
+      "gained_service_entries": [
+        "natural-002.json",
+        "natural-020.json",
+        "natural-030.json",
+        "natural-046.json",
+        "natural-050.json",
+        "natural-102.json",
+        "natural-110.json",
+        "natural-133.json",
+        "natural-134.json",
+        "natural-162.json",
+        "natural-163.json"
+      ],
+      "versions": {
+        "v1": {
+          "PALR_ms_mean": 3.9110614999999997,
+          "PALR_ms_p95": 11.105594999999997,
+          "PALR_ms_max": 34.4212,
+          "exact_ms_max": 51.8188,
+          "all_valid_plans": 200,
+          "exact_actual_over_30s": 0,
+          "full_optimum_match": 164
+        },
+        "v2": {
+          "PALR_ms_mean": 3.7703705000000003,
+          "PALR_ms_p95": 10.382359999999998,
+          "PALR_ms_max": 18.3185,
+          "exact_ms_max": 69.2825,
+          "all_valid_plans": 200,
+          "exact_actual_over_30s": 0,
+          "full_optimum_match": 164
+        }
+      }
+    },
+    "pressure": {
+      "events": 52,
+      "labels": {
+        "direct_insert": 25,
+        "one_removal": 25,
+        "multiple_removals": 2
+      },
+      "gained_service_entries": [
+        "pressure-g0-000.json",
+        "pressure-g0-003.json",
+        "pressure-g0-004.json",
+        "pressure-g0-005.json",
+        "pressure-g0-006.json",
+        "pressure-g0-007.json",
+        "pressure-g0-009.json",
+        "pressure-g0-010.json",
+        "pressure-g0-012.json",
+        "pressure-g0-013.json",
+        "pressure-g0-014.json",
+        "pressure-g0-015.json",
+        "pressure-g0-016.json",
+        "pressure-g0-017.json",
+        "pressure-g0-020.json",
+        "pressure-g0-022.json",
+        "pressure-g0-024.json"
+      ],
+      "versions": {
+        "v1": {
+          "PALR_ms_mean": 12.266098076923075,
+          "PALR_ms_p95": 26.533935,
+          "PALR_ms_max": 29.3692,
+          "exact_ms_max": 56.862,
+          "all_valid_plans": 52,
+          "exact_actual_over_30s": 0,
+          "full_optimum_match": 38
+        },
+        "v2": {
+          "PALR_ms_mean": 16.07055576923077,
+          "PALR_ms_p95": 32.42130999999999,
+          "PALR_ms_max": 45.4971,
+          "exact_ms_max": 60.3267,
+          "all_valid_plans": 52,
+          "exact_actual_over_30s": 0,
+          "full_optimum_match": 38
+        }
+      }
+    }
+  },
+  "pressure_groups": {
+    "direct_insert": {
+      "events": 25,
+      "v1_PALR_service_success": 8,
+      "v2_PALR_service_success": 25,
+      "v1_exact_service_feasible": 8,
+      "v2_exact_service_feasible": 25
+    },
+    "one_removal": {
+      "events": 25,
+      "v1_PALR_service_success": 25,
+      "v2_PALR_service_success": 25,
+      "v1_exact_service_feasible": 25,
+      "v2_exact_service_feasible": 25
+    },
+    "multiple_removals": {
+      "events": 2,
+      "v1_PALR_service_success": 0,
+      "v2_PALR_service_success": 0,
+      "v1_exact_service_feasible": 2,
+      "v2_exact_service_feasible": 2
+    },
+    "outside_neighborhood": {
+      "events": 0,
+      "v1_PALR_service_success": 0,
+      "v2_PALR_service_success": 0,
+      "v1_exact_service_feasible": 0,
+      "v2_exact_service_feasible": 0
+    }
+  },
+  "P3_started": false,
+  "created_at_utc": "2026-11-05T12:40:07.048277+00:00",
+  "summary_script_sha256": "fc6f3ebb62e27a39975089966b3fdd8b41cedde344ccb5f7b89b67440f009631",
+  "pressure_target_satisfied": false,
+  "pressure_shortfall": 48,
+  "statistical_or_main_test_claims": false
+}

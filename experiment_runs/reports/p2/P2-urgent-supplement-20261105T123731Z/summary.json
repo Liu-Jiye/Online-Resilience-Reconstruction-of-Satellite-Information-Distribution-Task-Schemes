@@ -1,0 +1,175 @@
+{
+  "study": "P2-urgent-supplement-v2",
+  "run_id": "P2-urgent-supplement-20261105T123731Z",
+  "cohorts": {
+    "old_replay": {
+      "events": 67,
+      "v1": {
+        "PALR_service_success": 3,
+        "PALR_online_service_success": 3,
+        "PALR_timeouts": 0,
+        "exact_service_feasible": 3,
+        "exact_statuses": {
+          "OPTIMAL": 67
+        },
+        "exact_service_certificates": {
+          "service_proven_infeasible": 64,
+          "service_feasible": 3
+        }
+      },
+      "v2": {
+        "PALR_service_success": 7,
+        "PALR_online_service_success": 7,
+        "PALR_timeouts": 0,
+        "exact_service_feasible": 7,
+        "exact_statuses": {
+          "OPTIMAL": 67
+        },
+        "exact_service_certificates": {
+          "service_proven_infeasible": 60,
+          "service_feasible": 7
+        }
+      },
+      "paired_PALR_service_gains": 4,
+      "paired_PALR_service_losses": 0
+    },
+    "natural": {
+      "events": 200,
+      "v1": {
+        "PALR_service_success": 9,
+        "PALR_online_service_success": 9,
+        "PALR_timeouts": 0,
+        "exact_service_feasible": 9,
+        "exact_statuses": {
+          "OPTIMAL": 200
+        },
+        "exact_service_certificates": {
+          "service_proven_infeasible": 191,
+          "service_feasible": 9
+        }
+      },
+      "v2": {
+        "PALR_service_success": 20,
+        "PALR_online_service_success": 20,
+        "PALR_timeouts": 0,
+        "exact_service_feasible": 20,
+        "exact_statuses": {
+          "OPTIMAL": 200
+        },
+        "exact_service_certificates": {
+          "service_proven_infeasible": 180,
+          "service_feasible": 20
+        }
+      },
+      "paired_PALR_service_gains": 11,
+      "paired_PALR_service_losses": 0
+    },
+    "pressure": {
+      "events": 52,
+      "v1": {
+        "PALR_service_success": 33,
+        "PALR_online_service_success": 33,
+        "PALR_timeouts": 0,
+        "exact_service_feasible": 35,
+        "exact_statuses": {
+          "OPTIMAL": 52
+        },
+        "exact_service_certificates": {
+          "service_proven_infeasible": 17,
+          "service_feasible": 35
+        }
+      },
+      "v2": {
+        "PALR_service_success": 50,
+        "PALR_online_service_success": 50,
+        "PALR_timeouts": 0,
+        "exact_service_feasible": 52,
+        "exact_statuses": {
+          "OPTIMAL": 52
+        },
+        "exact_service_certificates": {
+          "service_feasible": 52
+        }
+      },
+      "paired_PALR_service_gains": 17,
+      "paired_PALR_service_losses": 0
+    }
+  },
+  "input_summary": {
+    "natural_attempts": 374,
+    "natural_valid_bases": 300,
+    "natural_generation_failures": 74,
+    "natural_selected_events": 200,
+    "pressure": {
+      "direct_insert": {
+        "attempts": 246,
+        "accepted": 25,
+        "target": 25,
+        "shortfall": 0,
+        "observed_categories_and_failures": {
+          "no_physical_opportunity": 194,
+          "calendar_blocks_all": 23,
+          "direct_insert": 25,
+          "generation_failed:No contact pair available for contact-conditioned task draw": 2,
+          "generation_failed:empty_reference": 1,
+          "one_removal": 1
+        }
+      },
+      "one_removal": {
+        "attempts": 4558,
+        "accepted": 25,
+        "target": 25,
+        "shortfall": 0,
+        "observed_categories_and_failures": {
+          "no_physical_opportunity": 3744,
+          "calendar_blocks_all": 364,
+          "direct_insert": 376,
+          "frozen_blocks_remaining": 31,
+          "generation_failed:No contact pair available for contact-conditioned task draw": 5,
+          "one_removal": 25,
+          "generation_failed:empty_reference": 9,
+          "multiple_removals": 4
+        }
+      },
+      "multiple_removals": {
+        "attempts": 5000,
+        "accepted": 2,
+        "target": 25,
+        "shortfall": 23,
+        "observed_categories_and_failures": {
+          "no_physical_opportunity": 4104,
+          "direct_insert": 431,
+          "calendar_blocks_all": 380,
+          "frozen_blocks_remaining": 42,
+          "one_removal": 31,
+          "multiple_removals": 2,
+          "generation_failed:empty_reference": 5,
+          "generation_failed:No contact pair available for contact-conditioned task draw": 5
+        }
+      },
+      "outside_neighborhood": {
+        "attempts": 5000,
+        "accepted": 0,
+        "target": 25,
+        "shortfall": 25,
+        "observed_categories_and_failures": {
+          "no_physical_opportunity": 4109,
+          "direct_insert": 443,
+          "one_removal": 27,
+          "frozen_blocks_remaining": 39,
+          "calendar_blocks_all": 362,
+          "multiple_removals": 3,
+          "generation_failed:No contact pair available for contact-conditioned task draw": 11,
+          "generation_failed:empty_reference": 6
+        }
+      }
+    },
+    "pressure_selected_events": 52,
+    "pressure_attempts": 14804,
+    "P3_started": false,
+    "selection_used_PALR_results": false,
+    "all_new_inputs_frozen_before_solver_runs": true
+  },
+  "P3_started": false,
+  "old_results_overwritten": false
+}

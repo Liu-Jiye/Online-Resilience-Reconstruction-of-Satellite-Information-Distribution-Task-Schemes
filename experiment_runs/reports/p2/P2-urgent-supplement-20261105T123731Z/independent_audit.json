@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "verified_at_utc": "2026-11-05T12:38:50.414034+00:00",
+  "cohorts": {
+    "old_replay": 67,
+    "natural": 200,
+    "pressure": 52
+  },
+  "all_natural_attempts_regenerated": 374,
+  "natural_valid_bases_regenerated": 300,
+  "pressure_accepted_attempts_regenerated": 52,
+  "pressure_rejected_attempts_sampled": 400,
+  "pressure_attempt_metadata_all_checked": 14804,
+  "all_event_labels_independently_recomputed": 319,
+  "plans_validated": 1276,
+  "models_and_responses_checked": 1150,
+  "models_replayed": 1150,
+  "phase_statuses": {
+    "INFEASIBLE": 512,
+    "OPTIMAL": 638
+  },
+  "old_P2_accepted_files_unchanged": true,
+  "verifier_sha256": "2e8ca336660fd898c48e99fbf5a5273f52dcfad8027a03b64029927ba5025ece",
+  "P3_started": false
+}
