@@ -1,16 +1,19 @@
 {
   "initialized_on": "2026-11-05",
   "timezone": "Asia/Shanghai",
-  "workspace_status": "initialized",
+  "workspace_status": "P0_in_progress",
   "source_commit": "42209f4c776e227e2fefa0c47777ac547095a7a8",
   "write_scope": "experiment_runs/",
-  "existing_files_modified": false,
+  "original_repository_files_modified": false,
   "results_available": false,
-  "algorithm_implemented": false,
+  "algorithm_implemented": true,
+  "implementation_version": "0.1.0",
+  "implemented_methods": ["Minimal-Repair", "Frozen-Greedy", "Fixed-PALR"],
+  "stage_execution_policy": "Only the user-specified stage; produce its report, then stop pending the user's next instruction.",
   "next_stage": "P0",
   "stages": {
     "P0": {
-      "status": "not_started",
+      "status": "in_progress",
       "run_ids": [],
       "report": null
     },

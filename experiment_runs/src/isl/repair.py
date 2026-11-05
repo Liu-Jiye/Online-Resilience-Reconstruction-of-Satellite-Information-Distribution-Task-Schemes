@@ -1,0 +1,289 @@
+"""Deterministic fixed PALR and two basic frozen-aware baselines."""
+from bisect import bisect_left
+from dataclasses import asdict
+from math import isfinite
+from time import perf_counter_ns
+from .models import ordered
+from .placement import earliest, opportunities
+from .validation import validate
+from .metrics import scored_metrics, selection_key
+
+
+class DeadlineReached(Exception):
+    pass
+
+
+class Timer:
+    def __init__(self, budget_ms, clock):
+        if not isfinite(budget_ms) or budget_ms < 0:
+            raise ValueError('invalid response budget')
+        self.clock = clock
+        self.start = clock()
+        self.budget_ns = int(budget_ms * 1_000_000)
+        self.end = self.start + self.budget_ns
+
+    def guard(self):
+        if self.clock() >= self.end:
+            raise DeadlineReached
+
+
+def center_and_region(case, instance, w):
+    """Original indices only; multi-impact lower median approved by user."""
+    reference, event = case.reference, case.event
+    positions = {p.task_id: i for i, p in enumerate(reference)}
+    affected = event.cancelled if event.kind == 'cancellation' else tuple(k for k, _ in event.rewards)
+    indices = sorted(positions[t] for t in affected if t in positions)
+    if indices:
+        center = indices[(len(indices) - 1) // 2]
+    else:
+        targets = (event.urgent,) if event.urgent else tuple(instance.task_map[t] for t in sorted(affected))
+        midpoints = []
+        for t in targets:
+            starts = opportunities(instance, t)
+            if starts:
+                # Each admissible start interval contributes its midpoint; take
+                # the lower median across intervals/tasks, never a resource guess.
+                midpoints.extend((left + right) / 2 for left, right in starts)
+        if midpoints and reference:
+            midpoints.sort()
+            midpoint = midpoints[(len(midpoints) - 1) // 2]
+            center = min(len(reference) - 1, bisect_left([p.start for p in reference], midpoint))
+        else:
+            center = case.frozen_count
+    center = max(case.frozen_count, center)
+    indices = tuple(i for i in range(case.frozen_count, len(reference)) if abs(i - center) <= w)
+    spans = [(reference[i].start, reference[i].end) for i in indices]
+    if spans:
+        spans = [(min(a for a, _ in spans), max(b for _, b in spans))]
+    spans += [(p.start, p.end) for p in reference if p.task_id in event.cancelled]
+    if not indices and event.urgent:
+        spans += [(left, right + event.urgent.duration) for left, right in opportunities(instance, event.urgent)]
+    return center, indices, tuple(spans)
+
+
+def run_method(case, method='Fixed-PALR', *, w=5, B=None, budget_ms=50, clock=perf_counter_ns):
+    if method not in {'Fixed-PALR', 'Minimal-Repair', 'Frozen-Greedy'}:
+        raise ValueError('unimplemented method')
+    if type(w) is not int or w < 0:
+        raise ValueError('w must be a nonnegative integer')
+    if B is None:
+        B = 2 if method == 'Fixed-PALR' else 5
+    if type(B) is not int or not 0 <= B <= 5:
+        raise ValueError('B must be an integer in [0,5]')
+    timer = Timer(budget_ms, clock)
+    timings = {'input_and_baseline_ns': 0, 'filter_ns': 0, 'repair_ns': 0,
+               'accepted_validation_ns': 0, 'final_validation_ns': 0, 'control_ns': 0}
+    instance = None
+    plan, initial, trace, forced, forced_reasons = (), (), [], [], {}
+    admissions, verified, conflict, exhausted = 0, False, False, False
+    center, indices, spans = None, (), ()
+    rejection_window, rejection_resource = set(), set()
+    n_feas_initial = None
+    census_complete = False
+    unchanged = ()
+    stop_reason = 'no_improvement'
+    original_ids = {p.task_id for p in case.reference}
+
+    def audit(candidate, count=None, candidate_trace=None):
+        before = clock()
+        result = validate(instance, candidate, frozen=case.frozen, cancelled=case.event.cancelled,
+                          original_ids=original_ids, budget=B,
+                          admissions=admissions if count is None else count,
+                          initial=initial, trace=trace if candidate_trace is None else candidate_trace,
+                          unchanged=unchanged)
+        timings['accepted_validation_ns'] += clock() - before
+        return result
+
+    def edit_record(old, new):
+        old_map, new_map = {p.task_id: p for p in old}, {p.task_id: p for p in new}
+        removed = sorted(t for t in old_map if old_map[t] != new_map.get(t))
+        added = [asdict(new_map[t]) for t in sorted(new_map) if new_map[t] != old_map.get(t)]
+        return {'removed': removed, 'added': added}
+
+    def accept(candidate):
+        nonlocal plan, admissions, trace, verified
+        step = edit_record(plan, candidate)
+        count = admissions + sum(raw['task_id'] not in original_ids for raw in step['added'])
+        candidate_trace = trace + [step]
+        timer.guard()
+        check = audit(candidate, count, candidate_trace)
+        timer.guard()  # Do not accept a candidate whose validation exceeded deadline.
+        if not check.feasible:
+            raise AssertionError(check.errors)
+        plan, admissions, trace, verified = candidate, count, candidate_trace, True
+
+    try:
+        timer.guard()
+        begin = clock()
+        validation_before = timings['accepted_validation_ns']
+        base_check = validate(case.base, case.reference)
+        if not base_check.feasible:
+            raise ValueError('invalid original reference: ' + repr(base_check.errors))
+        instance = case.effective_instance()
+        # Frozen conflicts are checked before deleting any editable item.
+        frozen_check = validate(instance, case.frozen, frozen=case.frozen, cancelled=case.event.cancelled)
+        if not frozen_check.feasible:
+            conflict = True
+            stop_reason = 'frozen_conflict'
+            forced_reasons['frozen'] = list(frozen_check.errors)
+        else:
+            baseline = list(case.frozen)
+            for p in case.reference[case.frozen_count:]:
+                timer.guard()
+                if p.task_id in case.event.cancelled:
+                    continue
+                check = validate(instance, ordered(tuple(baseline) + (p,)))
+                if check.feasible:
+                    baseline.append(p)
+                else:
+                    forced.append(p.task_id)
+                    forced_reasons[p.task_id] = list(check.errors)
+            initial = ordered(baseline)
+            check = audit(initial, 0, [])
+            timer.guard()
+            if not check.feasible:
+                raise AssertionError(check.errors)
+            plan, verified = initial, True
+        timings['input_and_baseline_ns'] = clock() - begin - (timings['accepted_validation_ns'] - validation_before)
+        timer.guard()
+        if conflict or not case.event.applicable:
+            stop_reason = 'frozen_conflict' if conflict else 'not_applicable'
+        else:
+            begin = clock()
+            center, indices, spans = center_and_region(case, instance, w)
+            editable_ids = {case.reference[i].task_id for i in indices}
+            if method == 'Fixed-PALR':
+                unchanged = tuple(p for p in initial if p.task_id not in editable_ids)
+            cancelled = set(case.event.cancelled)
+            frozen_ids = {p.task_id for p in case.frozen}
+            pool = [t for t in instance.tasks if t.id not in cancelled and t.id not in frozen_ids
+                    and (method != 'Fixed-PALR' or t.id not in original_ids or t.id in editable_ids)
+                    and (method != 'Fixed-PALR' or any(t.release < b and a < t.deadline for a, b in spans))]
+            pool.sort(key=lambda t: t.id)
+            if method == 'Fixed-PALR':
+                current_ids = {p.task_id for p in plan}
+                n_feas_initial = 0
+                for task in pool:
+                    timer.guard()
+                    if task.id in current_ids:
+                        continue
+                    if not opportunities(instance, task):
+                        rejection_window.add(task.id)
+                    elif earliest(instance, task, plan, timer.guard) is None:
+                        rejection_resource.add(task.id)
+                    else:
+                        n_feas_initial += 1
+                census_complete = True
+            timings['filter_ns'] = clock() - begin
+            timer.guard()
+            begin = clock()
+            validation_before = timings['accepted_validation_ns']
+            if method == 'Minimal-Repair':
+                if case.event.urgent and B > 0:
+                    item = earliest(instance, case.event.urgent, plan, timer.guard)
+                    if item:
+                        accept(ordered(plan + (item,)))
+                stop_reason = 'minimal_repair_complete'
+            elif method == 'Frozen-Greedy':
+                # Rebuild is a tentative candidate, not an accepted operation
+                # sequence. Each new candidate task is inserted only once.
+                rebuilt = case.frozen
+                count = 0
+                ranked = sorted(pool, key=lambda t: (not (case.event.urgent and t.id == case.event.urgent.id),
+                                                     t.density_key))
+                for t in ranked:
+                    timer.guard()
+                    if t.id not in original_ids and count >= B:
+                        continue
+                    item = earliest(instance, t, rebuilt, timer.guard)
+                    if item:
+                        candidate = ordered(rebuilt + (item,))
+                        c = validate(instance, candidate, frozen=case.frozen, cancelled=cancelled)
+                        timer.guard()
+                        if not c.feasible:
+                            raise AssertionError(c.errors)
+                        rebuilt = candidate
+                        count += t.id not in original_ids
+                        if selection_key(case, rebuilt, forced) < selection_key(case, plan, forced):
+                            accept(rebuilt)
+                stop_reason = 'greedy_rebuild_complete'
+            else:
+                while admissions < B:
+                    timer.guard()
+                    best, best_key = None, selection_key(case, plan, forced)
+                    current_ids = {p.task_id for p in plan}
+                    # Retention is incumbent. Enumerate one-item replacements
+                    # before insertion; only strict lexicographic improvements.
+                    removals = sorted((p for p in plan if p.task_id in editable_ids), key=lambda p: p.task_id)
+                    for removed in removals + [None]:
+                        reduced = tuple(p for p in plan if removed is None or p.task_id != removed.task_id)
+                        for task in pool:
+                            timer.guard()
+                            if task.id in current_ids:
+                                continue
+                            if not opportunities(instance, task):
+                                continue
+                            item = earliest(instance, task, reduced, timer.guard)
+                            if item is None:
+                                continue
+                            candidate = ordered(reduced + (item,))
+                            key = selection_key(case, candidate, forced)
+                            if key < best_key:
+                                # Independent whole-plan check for candidates,
+                                # in addition to validation at acceptance.
+                                if not validate(instance, candidate, frozen=case.frozen, cancelled=cancelled).feasible:
+                                    raise AssertionError('search produced an invalid candidate')
+                                timer.guard()
+                                best, best_key = candidate, key
+                    if best is None:
+                        break
+                    accept(best)
+                stop_reason = 'admission_budget_exhausted' if admissions >= B else 'no_improvement'
+            timings['repair_ns'] = clock() - begin - (timings['accepted_validation_ns'] - validation_before)
+    except DeadlineReached:
+        exhausted = True
+        stop_reason = 'cooperative_deadline'
+
+    # Full final validation is inside the measured response, even on an expired
+    # incumbent. Late valid outputs remain auditable but have U_exec=0.
+    final_check = None
+    if verified and instance is not None and not conflict:
+        begin = clock()
+        final_check = validate(instance, plan, frozen=case.frozen, cancelled=case.event.cancelled,
+                               original_ids=original_ids, budget=B, admissions=admissions,
+                               initial=initial, trace=trace, unchanged=unchanged)
+        timings['final_validation_ns'] = clock() - begin
+    end = clock()
+    total = end - timer.start
+    if conflict:
+        status = 'frozen_conflict'
+    elif total > timer.budget_ns or not verified:
+        status = 'timeout'
+    elif not case.event.applicable:
+        status = 'not_applicable'
+    elif final_check is not None and final_check.feasible:
+        status = 'feasible'
+    else:
+        status = 'no_feasible_repair_found'
+    metrics = scored_metrics(case, plan, final_check, total, timer.budget_ns, verified and not conflict, forced)
+    timings['unattributed_ns'] = total - sum(timings.values())
+    return {
+        'method': method, 'version': '0.1.0', 'model': 'ISL', 'provenance': 'paper_based_reimplementation',
+        'event_id': case.event.id, 'instance_id': case.base.id, 'event_seed': case.event.seed,
+        'status': status, 'stop_reason': stop_reason, 'cooperative_deadline_reached': exhausted,
+        'w': w, 'B': B, 'budget_ms': budget_ms, 'center_index': center, 'editable_indices': list(indices),
+        'parameter_trace': [{'phase': 'fixed_configuration', 'w': w if method == 'Fixed-PALR' else None, 'B': B}],
+        'frozen_count': case.frozen_count,
+        'w_role': 'symmetric_original_index_neighborhood' if method == 'Fixed-PALR' else 'unused_by_baseline',
+        'candidate_spans': list(spans), 'admissions_cumulative': admissions,
+        'forced_removed': forced, 'forced_reasons': forced_reasons,
+        'initial_plan': [asdict(p) for p in initial], 'plan': [asdict(p) for p in plan],
+        'trace': trace, 'validated': verified and final_check is not None,
+        'validation': final_check.to_dict() if final_check else None,
+        'R_window_ids': sorted(rejection_window), 'R_resource_ids': sorted(rejection_resource),
+        'n_feas_initial': n_feas_initial if census_complete else None,
+        'candidate_census_complete': census_complete,
+        'unchanged_outside_E': [asdict(p) for p in unchanged],
+        'rejection_statistic_scope': 'initial_pool_relative_to_verified_baseline;null_n_feas_if_census_incomplete',
+        'timings_ns': timings, 'total_ns': total, 'metrics': metrics,
+    }

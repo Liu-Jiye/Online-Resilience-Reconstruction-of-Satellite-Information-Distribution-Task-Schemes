@@ -1,0 +1,20 @@
+{
+  "stage": "P0",
+  "protocol_version": "1.0",
+  "implementation_version": "0.1.0",
+  "model": "ISL",
+  "methods": ["Minimal-Repair", "Frozen-Greedy", "Fixed-PALR"],
+  "fixed_palr": {"w": 5, "B": 2},
+  "baseline_B_max": 5,
+  "response_budget_ms": 50,
+  "fixture_seed": null,
+  "event_seed_start": 100051,
+  "frozen_ratios": [0, 0.6],
+  "intensities": [0.2, 0.8],
+  "warmup_calls": 20,
+  "fixture_scope": "one_hand_authored_micro_fixture;12_protocol_events;36_method_calls;not_P1_or_main_test",
+  "center_decision": "user_approved_lower_median_2026-11-05",
+  "historical_reproduction": false,
+  "performance_claims_allowed": false,
+  "stages_to_execute": ["P0"]
+}

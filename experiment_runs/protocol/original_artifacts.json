@@ -1,0 +1,31 @@
+{
+  "registered_on": "2026-11-05",
+  "repository_baseline_commit": "cd2d660ae1952783a39e53c221cdf0343faec050",
+  "scope": "Files available in the repository and this chat; no claim about artifacts elsewhere on the author's devices",
+  "evidence_paths": [
+    "README.md",
+    "src/README.md",
+    "docs/00_materials.md",
+    "docs/02_audit.md",
+    "experiments/configs/original_protocol.json"
+  ],
+  "artifacts": [
+    {"name": "original_algorithm_source", "status": "not_provided"},
+    {"name": "original_instance_generator_and_parameters", "status": "not_provided"},
+    {"name": "original_instance_and_search_seeds", "status": "not_provided"},
+    {"name": "original_reference_plans_and_events", "status": "not_provided"},
+    {"name": "original_per_instance_results_and_timing_logs", "status": "not_provided"},
+    {"name": "learned_priors_weights_and_training_splits", "status": "not_provided"},
+    {"name": "original_runtime_environment", "status": "not_provided"}
+  ],
+  "implementation_identity": "paper_based_ISL_reimplementation",
+  "hist_status": "not_implemented; exact historical reproduction unavailable",
+  "historical_results_imported_as_new_results": false,
+  "decision": "Proceed with the P0 ISL implementation explicitly requested by the user; do not invent missing historical settings or logs.",
+  "approved_semantic_decision": {
+    "approved_by": "user_in_this_chat",
+    "approved_on": "2026-11-05",
+    "multi_cancellation_center": "lower_median_original_plan_index",
+    "reward_center": "lower_median_changed_scheduled_index; otherwise feasible_start_interval_midpoint_mapping; fallback_first_editable"
+  }
+}
