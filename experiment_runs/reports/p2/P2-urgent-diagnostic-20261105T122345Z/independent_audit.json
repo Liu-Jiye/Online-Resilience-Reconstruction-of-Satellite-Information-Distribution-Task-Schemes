@@ -1,0 +1,17 @@
+{
+  "passed": true,
+  "run_id": "P2-urgent-diagnostic-20261105T122345Z",
+  "verified_at_utc": "2026-11-05T12:27:19.048107+00:00",
+  "all_67_layers_recomputed": true,
+  "paired_models_replayed": 134,
+  "paired_statuses": {
+    "INFEASIBLE": 124,
+    "OPTIMAL": 10
+  },
+  "old_P2_accepted_files_unchanged": true,
+  "avoided_filter_only_service_failures": 4,
+  "rule_revision_applied": false,
+  "pressure_instances_generated": 0,
+  "P3_started": false,
+  "verifier_sha256": "75d70dbba03c73c6538f6e061c66acc2438c5f7a2eb30f477d4763d2e12d3df5"
+}

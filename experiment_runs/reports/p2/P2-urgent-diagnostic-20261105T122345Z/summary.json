@@ -1,0 +1,38 @@
+{
+  "diagnosed_events": 67,
+  "original_eligibility_excluded": 61,
+  "first_eliminating_layer_counts": {
+    "no_physical_opportunity": 52,
+    "original_PALR_service_success": 3,
+    "eligibility_only_exclusion": 4,
+    "calendar_blocks_all": 8
+  },
+  "nonexclusive_layer_feasible_event_counts": {
+    "physical": 15,
+    "physical_and_calendar": 7,
+    "physical_calendar_frozen": 7,
+    "physical_calendar_all_immutable": 7,
+    "physical_calendar_full_reference": 6,
+    "frozen_without_calendar": 15,
+    "E_exterior_without_frozen_or_calendar": 15
+  },
+  "original_excluded_by_first_eliminating_layer": {
+    "no_physical_opportunity": 49,
+    "eligibility_only_exclusion": 4,
+    "calendar_blocks_all": 8
+  },
+  "avoidable_service_failures_from_eligibility_filter": 4,
+  "paired_original_statuses": {
+    "INFEASIBLE": 64,
+    "OPTIMAL": 3
+  },
+  "paired_exempt_statuses": {
+    "INFEASIBLE": 60,
+    "OPTIMAL": 7
+  },
+  "conditional_cases_needing_E_edits": 1,
+  "conclusion_scope": "Existing 67 P2 events only; eligibility exclusion association is not causal evidence",
+  "rule_revision_applied": false,
+  "pressure_instances_generated": 0,
+  "P3_started": false
+}

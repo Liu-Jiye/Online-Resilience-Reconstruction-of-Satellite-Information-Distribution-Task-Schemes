@@ -1,0 +1,19 @@
+{
+  "study": "P2-urgent-diagnostic-v1",
+  "run_id": "P2-urgent-diagnostic-20261105T122345Z",
+  "created_at_utc": "2026-11-05T12:23:58.811155+00:00",
+  "source_commit": "1010c807d7437554de2dfcd92681dbd1dd769358",
+  "source_P2_acceptance_sha256": "eb0e6ff6efcedc3b7e4bb8bca7416b5fefeda53de783d1b67c0d0b3e956fe987",
+  "source_cases_sha256": "be743068698bb1dd64d50ce61db3a7d4a7482900ad7759fe80194553b93fed3d",
+  "diagnostic_script_sha256": "d80a3779c0efefd3a9717c3872746bb2123a0dec6f4f78613becb4e85c1e2349",
+  "config_sha256": "a5a65d3e440b212ce556e74c370a915070933f187b277449f7760ee2abd67bf8",
+  "artifact_sha256": {
+    "config.json": "3b6fc5afcd6aba0371f58207a9e07a1557a42e0291c93a2980f92616449266cb",
+    "diagnostics.json": "b0222ff36ff3cff9ebc9e85df758817a1aaa46cc31938c1ccf7f9866ff50b9fa",
+    "environment.json": "dd9eedc6b3d5de32f54fa92733487bb951333c3f77badeaaa1de1600c92508e9",
+    "paired_solver_evidence.zip": "2dc220c29cbe8323d011a316183b2cd18459ad2fc5718b5f37004625e8d60176",
+    "per_event_diagnosis.csv": "01b8b7154d329d2eb5e8ef864e83ac15cb88b7b178674110002983e846bbed50",
+    "summary.json": "c3f39b3d93bb52985cc1b4f1db6d5e81b6a881b8bfdd4b202a7651a2520e694f"
+  },
+  "all_61_exclusions_checked_not_selected_by_outcome": true
+}

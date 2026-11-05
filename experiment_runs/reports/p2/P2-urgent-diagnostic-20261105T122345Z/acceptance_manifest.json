@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "study": "P2-urgent-diagnostic-v1",
+  "run_id": "P2-urgent-diagnostic-20261105T122345Z",
+  "accepted_at_utc": "2026-11-05T12:29:02.887129+00:00",
+  "unit_tests_passed": 147,
+  "paired_models_replayed": 134,
+  "all_previous_P2_accepted_file_hashes_preserved": true,
+  "old_P2_acceptance_sha256": "eb0e6ff6efcedc3b7e4bb8bca7416b5fefeda53de783d1b67c0d0b3e956fe987",
+  "rule_revision_applied": false,
+  "pressure_instances_generated": 0,
+  "P3_started": false,
+  "decisions_pending": [
+    "urgent_eligibility_v2_and_new_natural_confirmation",
+    "independent_100_event_mechanism_pressure_group"
+  ],
+  "file_sha256": {
+    "experiment_runs/configs/p2_urgent_diagnostic.json": "a5a65d3e440b212ce556e74c370a915070933f187b277449f7760ee2abd67bf8",
+    "experiment_runs/protocol/P2_URGENT_REVISION_PROPOSAL.md": "d8bd0cc59bf6521a547a1f40e873769f81c6d996871eb35de0b6b50d04692bad",
+    "experiment_runs/reports/p2/P2-urgent-diagnostic-20261105T122345Z/config.json": "3b6fc5afcd6aba0371f58207a9e07a1557a42e0291c93a2980f92616449266cb",
+    "experiment_runs/reports/p2/P2-urgent-diagnostic-20261105T122345Z/diagnostics.json": "b0222ff36ff3cff9ebc9e85df758817a1aaa46cc31938c1ccf7f9866ff50b9fa",
+    "experiment_runs/reports/p2/P2-urgent-diagnostic-20261105T122345Z/environment.json": "dd9eedc6b3d5de32f54fa92733487bb951333c3f77badeaaa1de1600c92508e9",
+    "experiment_runs/reports/p2/P2-urgent-diagnostic-20261105T122345Z/independent_audit.json": "625684f59581f5a89c3237e4fe9028090d93b7ff6912b86ec1ee98a45005c404",
+    "experiment_runs/reports/p2/P2-urgent-diagnostic-20261105T122345Z/manifest.json": "791f345c6e2e093944a731e61da36a61e662b814fe0589cf8cc9a4743928bb59",
+    "experiment_runs/reports/p2/P2-urgent-diagnostic-20261105T122345Z/paired_solver_evidence.zip": "2dc220c29cbe8323d011a316183b2cd18459ad2fc5718b5f37004625e8d60176",
+    "experiment_runs/reports/p2/P2-urgent-diagnostic-20261105T122345Z/per_event_diagnosis.csv": "01b8b7154d329d2eb5e8ef864e83ac15cb88b7b178674110002983e846bbed50",
+    "experiment_runs/reports/p2/P2-urgent-diagnostic-20261105T122345Z/pytest.txt": "bdaa1a1c96185add659c58637f22d60d36a867a2dff0bac58ce81473aad9447d",
+    "experiment_runs/reports/p2/P2-urgent-diagnostic-20261105T122345Z/pytest.xml": "93a893d6debd4be7fc3d4e86abcf24dcf76d98e3b8892db98746c77ded0efecb",
+    "experiment_runs/reports/p2/P2-urgent-diagnostic-20261105T122345Z/summary.json": "c3f39b3d93bb52985cc1b4f1db6d5e81b6a881b8bfdd4b202a7651a2520e694f",
+    "experiment_runs/reports/P2_URGENT_DIAGNOSTIC_REPORT.md": "451eb08cfcda3252e46fb0f63a544bf8eaa09a5d42fdac342ee0c50498f045c1",
+    "experiment_runs/scripts/diagnose_p2_urgent.py": "d80a3779c0efefd3a9717c3872746bb2123a0dec6f4f78613becb4e85c1e2349",
+    "experiment_runs/scripts/verify_p2_urgent_diagnostic.py": "75d70dbba03c73c6538f6e061c66acc2438c5f7a2eb30f477d4763d2e12d3df5",
+    "experiment_runs/tests/test_p2_urgent_diagnostic.py": "fc41e1c6e6756528862b110e7475d1151206dafb34222dbf90dc7e9f6076027f"
+  }
+}

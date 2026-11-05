@@ -1,0 +1,43 @@
+{
+  "study": "P2-urgent-diagnostic-v1",
+  "purpose": "Diagnose the 67 existing urgent events; no selection, generation, tuning or main-test inference",
+  "source_run": "reports/p2/P2-20261105T114327Z",
+  "source_inputs": "reports/p2/P2-inputs-v1",
+  "selection": "all and only original 67 urgent events in frozen order",
+  "w": 5,
+  "B": 2,
+  "integer_start_enumeration": "every integer start from release through deadline-duration inclusive",
+  "nested_layers": [
+    "physical",
+    "physical_and_calendar",
+    "physical_calendar_frozen",
+    "physical_calendar_all_immutable",
+    "physical_calendar_full_reference"
+  ],
+  "additional_checks": [
+    "frozen_without_calendar",
+    "E_exterior_without_frozen_or_calendar"
+  ],
+  "counterfactual": "Only force this event urgent task into allowed IDs; same tasks, windows, calendar, frozen fields, E, exterior reservations and B",
+  "CP_SAT_workers": 1,
+  "CP_SAT_seed": 11,
+  "CP_SAT_limit_s_per_probe": 30,
+  "probes_per_event": [
+    "original_eligibility_urgent_required",
+    "urgent_eligibility_exempt_urgent_required"
+  ],
+  "classification_order": [
+    "no_physical_opportunity",
+    "calendar_blocks_all",
+    "frozen_blocks_remaining",
+    "E_exterior_blocks_remaining",
+    "eligibility_only_exclusion",
+    "PALR_service_search_failure",
+    "original_PALR_service_success"
+  ],
+  "classification_note": "First eliminating layer, not unique causal blame when restrictions overlap; retain individual and joint feasible-start sets",
+  "old_results_overwritten": false,
+  "rule_revision_applied": false,
+  "pressure_instances_generated": 0,
+  "next_stage_authorized": false
+}
