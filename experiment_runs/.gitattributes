@@ -1,4 +1,5 @@
 # Preserve evidence bytes so recorded SHA-256 survives Git checkout/download.
 reports/p0/** -text whitespace=cr-at-eol
+reports/p1/** -text whitespace=cr-at-eol
 environment/*.txt text eol=lf
 .gitattributes text eol=lf

@@ -1,0 +1,34 @@
+{
+  "counts": {
+    "input": 651,
+    "invalid_identity_epoch": 0,
+    "duplicate_records_removed": 0,
+    "unique_latest": 651,
+    "excluded_mean_motion": 0,
+    "excluded_eccentricity": 1,
+    "excluded_perigee": 0,
+    "excluded_epoch_age": 0,
+    "excluded_sgp4_or_earth": 0,
+    "eligible": 650
+  },
+  "excluded": {
+    "mean_motion": [],
+    "eccentricity": [
+      48212
+    ],
+    "perigee": [],
+    "epoch_age": [],
+    "sgp4_or_earth": []
+  },
+  "t_ref_utc": "2026-11-04T18:12:47.887776+00:00",
+  "median_epoch_population": "deduplicated_records_with_parseable_epoch_before_orbit_filters",
+  "screening_step_s": 60,
+  "screening_relative_band_s": [
+    -43200,
+    43200
+  ],
+  "mu_km3_s2": 398600.8,
+  "earth_radius_km": 6378.137,
+  "perigee_eligible_min_km": 513.7884364704523,
+  "perigee_eligible_max_km": 1224.020499562469
+}

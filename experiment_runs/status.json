@@ -1,7 +1,7 @@
 {
   "initialized_on": "2026-11-05",
   "timezone": "Asia/Shanghai",
-  "workspace_status": "P0_complete_waiting_for_user_stage_instruction",
+  "workspace_status": "P1_in_progress",
   "source_commit": "42209f4c776e227e2fefa0c47777ac547095a7a8",
   "write_scope": "experiment_runs/",
   "original_repository_files_modified": false,
@@ -12,7 +12,7 @@
   "correctness_evidence_available": true,
   "stage_execution_policy": "Only the user-specified stage; produce its report, then stop pending the user's next instruction.",
   "next_stage": "P1",
-  "next_stage_authorized": false,
+  "next_stage_authorized": true,
   "stages": {
     "P0": {
       "status": "complete",
@@ -26,7 +26,7 @@
       "historical_exact_reproduction": false
     },
     "P1": {
-      "status": "not_started",
+      "status": "in_progress",
       "run_ids": [],
       "report": null
     },
