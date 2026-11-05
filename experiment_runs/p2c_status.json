@@ -1,0 +1,18 @@
+{
+  "study": "P2C-controlled-v1",
+  "run_id": "P2C-20261105T132557Z",
+  "status": "completed",
+  "events": 200,
+  "core_certified": 150,
+  "groups": {"direct": 25, "single": 50, "double": 25, "triple": 25, "outside": 50, "hard": 25},
+  "generation_failures": 0,
+  "uncertified": 0,
+  "replacements": 0,
+  "models_replayed": 1025,
+  "method_plans_validated": 900,
+  "PALR_timeouts": 1,
+  "regression_tests_passed": 171,
+  "population_representativeness_claimed": false,
+  "P3_started": false,
+  "algorithm_operators_modified": false
+}

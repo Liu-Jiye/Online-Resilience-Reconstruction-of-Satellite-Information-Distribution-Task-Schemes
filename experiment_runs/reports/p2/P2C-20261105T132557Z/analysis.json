@@ -1,0 +1,67 @@
+{
+  "observations": 900,
+  "PALR_runs": 450,
+  "exact_runs": 450,
+  "timeouts": [
+    {
+      "entry": "case-183.json",
+      "group": "hard",
+      "method": "v2_PALR_w5",
+      "status": "timeout",
+      "service_success": false,
+      "valid_plan": true,
+      "total_ms": 50.395,
+      "timeout": true,
+      "urgent_certificate": null,
+      "online_success": false,
+      "U_raw": 713,
+      "N_drop": 0,
+      "N_add": 0,
+      "M_all": 0
+    }
+  ],
+  "all_plans_valid": true,
+  "core_events": 150,
+  "timings": {
+    "v1_PALR_w5": {
+      "n": 200,
+      "mean_ms": 6.973944,
+      "p95_ms": 20.615199999999994,
+      "max_ms": 42.0921
+    },
+    "v1_exact_w5": {
+      "n": 200,
+      "mean_ms": 40.733062,
+      "p95_ms": 89.23324999999994,
+      "max_ms": 205.5352
+    },
+    "v2_PALR_w20": {
+      "n": 50,
+      "mean_ms": 12.713885999999997,
+      "p95_ms": 24.87373499999998,
+      "max_ms": 32.9588
+    },
+    "v2_PALR_w5": {
+      "n": 200,
+      "mean_ms": 7.844591,
+      "p95_ms": 18.712494999999976,
+      "max_ms": 50.395
+    },
+    "v2_exact_w20": {
+      "n": 50,
+      "mean_ms": 38.779318,
+      "p95_ms": 77.44062999999997,
+      "max_ms": 121.3841
+    },
+    "v2_exact_w5": {
+      "n": 200,
+      "mean_ms": 40.222677000000004,
+      "p95_ms": 90.91847999999996,
+      "max_ms": 340.7542
+    }
+  },
+  "exact_actual_over30s": 0,
+  "analysis_script_sha256": "9fd4d75c892e584e342a4154a0129893c33f0aa83585afb75a95311dcc3aefe4",
+  "P3_started": false,
+  "population_statistical_claims": false
+}

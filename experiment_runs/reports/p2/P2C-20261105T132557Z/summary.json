@@ -1,0 +1,428 @@
+{
+  "groups": {
+    "direct": {
+      "events": 25,
+      "methods": {
+        "v1_PALR_w5": {
+          "service_success": 0,
+          "timeouts": 0,
+          "statuses": {
+            "feasible": 25
+          },
+          "valid_plans": 25,
+          "mean_ms": 4.228776,
+          "metrics_means": {
+            "U_raw": 613.12,
+            "N_drop": 0.0,
+            "N_add": 0.0,
+            "M_all": 0.0
+          }
+        },
+        "v1_exact_w5": {
+          "service_success": 0,
+          "timeouts": 0,
+          "statuses": {
+            "OPTIMAL": 25
+          },
+          "valid_plans": 25,
+          "mean_ms": 35.705464,
+          "metrics_means": {
+            "U_raw": 613.12,
+            "N_drop": 0.0,
+            "N_add": 0.0,
+            "M_all": 0.0
+          }
+        },
+        "v2_PALR_w5": {
+          "service_success": 25,
+          "timeouts": 0,
+          "statuses": {
+            "feasible": 25
+          },
+          "valid_plans": 25,
+          "mean_ms": 12.092176,
+          "metrics_means": {
+            "U_raw": 1613.12,
+            "N_drop": 0.0,
+            "N_add": 1.0,
+            "M_all": 0.0
+          }
+        },
+        "v2_exact_w5": {
+          "service_success": 25,
+          "timeouts": 0,
+          "statuses": {
+            "OPTIMAL": 25
+          },
+          "valid_plans": 25,
+          "mean_ms": 25.074392,
+          "metrics_means": {
+            "U_raw": 1613.12,
+            "N_drop": 0.0,
+            "N_add": 1.0,
+            "M_all": 0.0
+          }
+        }
+      }
+    },
+    "single": {
+      "events": 50,
+      "methods": {
+        "v1_PALR_w5": {
+          "service_success": 50,
+          "timeouts": 0,
+          "statuses": {
+            "feasible": 50
+          },
+          "valid_plans": 50,
+          "mean_ms": 10.189830000000002,
+          "metrics_means": {
+            "U_raw": 1570.08,
+            "N_drop": 1.0,
+            "N_add": 1.0,
+            "M_all": 0.0
+          }
+        },
+        "v1_exact_w5": {
+          "service_success": 50,
+          "timeouts": 0,
+          "statuses": {
+            "OPTIMAL": 50
+          },
+          "valid_plans": 50,
+          "mean_ms": 25.475800000000003,
+          "metrics_means": {
+            "U_raw": 1570.08,
+            "N_drop": 1.0,
+            "N_add": 1.0,
+            "M_all": 0.0
+          }
+        },
+        "v2_PALR_w5": {
+          "service_success": 50,
+          "timeouts": 0,
+          "statuses": {
+            "feasible": 50
+          },
+          "valid_plans": 50,
+          "mean_ms": 8.44609,
+          "metrics_means": {
+            "U_raw": 1570.08,
+            "N_drop": 1.0,
+            "N_add": 1.0,
+            "M_all": 0.0
+          }
+        },
+        "v2_exact_w5": {
+          "service_success": 50,
+          "timeouts": 0,
+          "statuses": {
+            "OPTIMAL": 50
+          },
+          "valid_plans": 50,
+          "mean_ms": 25.70479,
+          "metrics_means": {
+            "U_raw": 1570.08,
+            "N_drop": 1.0,
+            "N_add": 1.0,
+            "M_all": 0.0
+          }
+        }
+      }
+    },
+    "double": {
+      "events": 25,
+      "methods": {
+        "v1_PALR_w5": {
+          "service_success": 0,
+          "timeouts": 0,
+          "statuses": {
+            "feasible": 25
+          },
+          "valid_plans": 25,
+          "mean_ms": 5.283656,
+          "metrics_means": {
+            "U_raw": 589.72,
+            "N_drop": 0.0,
+            "N_add": 0.0,
+            "M_all": 0.0
+          }
+        },
+        "v1_exact_w5": {
+          "service_success": 25,
+          "timeouts": 0,
+          "statuses": {
+            "OPTIMAL": 25
+          },
+          "valid_plans": 25,
+          "mean_ms": 32.860016,
+          "metrics_means": {
+            "U_raw": 1530.88,
+            "N_drop": 2.0,
+            "N_add": 1.0,
+            "M_all": 0.0
+          }
+        },
+        "v2_PALR_w5": {
+          "service_success": 0,
+          "timeouts": 0,
+          "statuses": {
+            "feasible": 25
+          },
+          "valid_plans": 25,
+          "mean_ms": 6.2302,
+          "metrics_means": {
+            "U_raw": 589.72,
+            "N_drop": 0.0,
+            "N_add": 0.0,
+            "M_all": 0.0
+          }
+        },
+        "v2_exact_w5": {
+          "service_success": 25,
+          "timeouts": 0,
+          "statuses": {
+            "OPTIMAL": 25
+          },
+          "valid_plans": 25,
+          "mean_ms": 25.770523999999995,
+          "metrics_means": {
+            "U_raw": 1530.88,
+            "N_drop": 2.0,
+            "N_add": 1.0,
+            "M_all": 0.0
+          }
+        }
+      }
+    },
+    "triple": {
+      "events": 25,
+      "methods": {
+        "v1_PALR_w5": {
+          "service_success": 0,
+          "timeouts": 0,
+          "statuses": {
+            "feasible": 25
+          },
+          "valid_plans": 25,
+          "mean_ms": 6.058724000000001,
+          "metrics_means": {
+            "U_raw": 616.2,
+            "N_drop": 0.0,
+            "N_add": 0.0,
+            "M_all": 0.0
+          }
+        },
+        "v1_exact_w5": {
+          "service_success": 25,
+          "timeouts": 0,
+          "statuses": {
+            "OPTIMAL": 25
+          },
+          "valid_plans": 25,
+          "mean_ms": 24.642032,
+          "metrics_means": {
+            "U_raw": 1527.88,
+            "N_drop": 3.0,
+            "N_add": 1.0,
+            "M_all": 0.0
+          }
+        },
+        "v2_PALR_w5": {
+          "service_success": 0,
+          "timeouts": 0,
+          "statuses": {
+            "feasible": 25
+          },
+          "valid_plans": 25,
+          "mean_ms": 4.055788000000001,
+          "metrics_means": {
+            "U_raw": 616.2,
+            "N_drop": 0.0,
+            "N_add": 0.0,
+            "M_all": 0.0
+          }
+        },
+        "v2_exact_w5": {
+          "service_success": 25,
+          "timeouts": 0,
+          "statuses": {
+            "OPTIMAL": 25
+          },
+          "valid_plans": 25,
+          "mean_ms": 24.49928,
+          "metrics_means": {
+            "U_raw": 1527.88,
+            "N_drop": 3.0,
+            "N_add": 1.0,
+            "M_all": 0.0
+          }
+        }
+      }
+    },
+    "outside": {
+      "events": 50,
+      "methods": {
+        "v1_PALR_w5": {
+          "service_success": 0,
+          "timeouts": 0,
+          "statuses": {
+            "feasible": 50
+          },
+          "valid_plans": 50,
+          "mean_ms": 6.84118,
+          "metrics_means": {
+            "U_raw": 597.06,
+            "N_drop": 0.0,
+            "N_add": 0.0,
+            "M_all": 0.0
+          }
+        },
+        "v1_exact_w5": {
+          "service_success": 0,
+          "timeouts": 0,
+          "statuses": {
+            "OPTIMAL": 50
+          },
+          "valid_plans": 50,
+          "mean_ms": 59.382206000000004,
+          "metrics_means": {
+            "U_raw": 597.06,
+            "N_drop": 0.0,
+            "N_add": 0.0,
+            "M_all": 0.0
+          }
+        },
+        "v2_PALR_w20": {
+          "service_success": 50,
+          "timeouts": 0,
+          "statuses": {
+            "feasible": 50
+          },
+          "valid_plans": 50,
+          "mean_ms": 12.713885999999997,
+          "metrics_means": {
+            "U_raw": 1566.92,
+            "N_drop": 1.0,
+            "N_add": 1.0,
+            "M_all": 0.0
+          }
+        },
+        "v2_PALR_w5": {
+          "service_success": 0,
+          "timeouts": 0,
+          "statuses": {
+            "feasible": 50
+          },
+          "valid_plans": 50,
+          "mean_ms": 6.424644,
+          "metrics_means": {
+            "U_raw": 597.06,
+            "N_drop": 0.0,
+            "N_add": 0.0,
+            "M_all": 0.0
+          }
+        },
+        "v2_exact_w20": {
+          "service_success": 50,
+          "timeouts": 0,
+          "statuses": {
+            "OPTIMAL": 50
+          },
+          "valid_plans": 50,
+          "mean_ms": 38.779318,
+          "metrics_means": {
+            "U_raw": 1566.92,
+            "N_drop": 1.0,
+            "N_add": 1.0,
+            "M_all": 0.0
+          }
+        },
+        "v2_exact_w5": {
+          "service_success": 0,
+          "timeouts": 0,
+          "statuses": {
+            "OPTIMAL": 50
+          },
+          "valid_plans": 50,
+          "mean_ms": 58.083934,
+          "metrics_means": {
+            "U_raw": 597.06,
+            "N_drop": 0.0,
+            "N_add": 0.0,
+            "M_all": 0.0
+          }
+        }
+      }
+    },
+    "hard": {
+      "events": 25,
+      "methods": {
+        "v1_PALR_w5": {
+          "service_success": 0,
+          "timeouts": 0,
+          "statuses": {
+            "feasible": 25
+          },
+          "valid_plans": 25,
+          "mean_ms": 6.158376,
+          "metrics_means": {
+            "U_raw": 610.6,
+            "N_drop": 0.0,
+            "N_add": 0.0,
+            "M_all": 0.0
+          }
+        },
+        "v1_exact_w5": {
+          "service_success": 0,
+          "timeouts": 0,
+          "statuses": {
+            "OPTIMAL": 25
+          },
+          "valid_plans": 25,
+          "mean_ms": 62.940972,
+          "metrics_means": {
+            "U_raw": 610.6,
+            "N_drop": 0.0,
+            "N_add": 0.0,
+            "M_all": 0.0
+          }
+        },
+        "v2_PALR_w5": {
+          "service_success": 0,
+          "timeouts": 1,
+          "statuses": {
+            "feasible": 24,
+            "timeout": 1
+          },
+          "valid_plans": 25,
+          "mean_ms": 10.637096000000001,
+          "metrics_means": {
+            "U_raw": 610.6,
+            "N_drop": 0.0,
+            "N_add": 0.0,
+            "M_all": 0.0
+          }
+        },
+        "v2_exact_w5": {
+          "service_success": 0,
+          "timeouts": 0,
+          "statuses": {
+            "OPTIMAL": 25
+          },
+          "valid_plans": 25,
+          "mean_ms": 78.859772,
+          "metrics_means": {
+            "U_raw": 610.6,
+            "N_drop": 0.0,
+            "N_add": 0.0,
+            "M_all": 0.0
+          }
+        }
+      }
+    }
+  },
+  "events": 200,
+  "core": 150,
+  "P3_started": false
+}

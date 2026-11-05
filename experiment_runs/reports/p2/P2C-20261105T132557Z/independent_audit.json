@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "events_regenerated": 200,
+  "core": 150,
+  "all_labels_recomputed": 200,
+  "plans_validated": 900,
+  "all_models_replayed": 1025,
+  "category_statuses": {
+    "OPTIMAL": 175,
+    "INFEASIBLE": 225
+  },
+  "method_phase_statuses": {
+    "INFEASIBLE": 175,
+    "OPTIMAL": 450
+  },
+  "prior_acceptance": [
+    {
+      "path": "experiment_runs/reports/p2/P2-20261105T114327Z/acceptance_manifest.json",
+      "sha256": "eb0e6ff6efcedc3b7e4bb8bca7416b5fefeda53de783d1b67c0d0b3e956fe987"
+    },
+    {
+      "path": "experiment_runs/reports/p2/P2-urgent-diagnostic-20261105T122345Z/acceptance_manifest.json",
+      "sha256": "37ea1633458e03b21b11536857476d9582fd017c1ab91009e0fcc672c0aa1eb0"
+    },
+    {
+      "path": "experiment_runs/reports/p2/P2-urgent-supplement-20261105T123731Z/acceptance_manifest.json",
+      "sha256": "a80e15c9eec9fccfee785a152e1aea8cc583846a140089d4e45f81e8e4342eec"
+    }
+  ],
+  "P3_started": false
+}

@@ -1,0 +1,72 @@
+{
+  "captured_at_utc": "2026-11-05T13:25:58.643208+00:00",
+  "python_version": "3.14.0",
+  "python_executable": "C:\\Users\\25735\\Documents\\Codex\\2026-11-05\\https-github-com-liu-jiye-online-2\\work\\repository\\experiment_runs\\.venv\\Scripts\\python.exe",
+  "os": "Windows-11-10.0.26200-SP0",
+  "machine": "AMD64",
+  "processor": "Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",
+  "logical_cpu_count": 18,
+  "python_implementation": "CPython",
+  "clock": {
+    "name": "perf_counter_ns",
+    "resolution_s": 1e-07
+  },
+  "pip_freeze": [
+    "absl-py==2.5.1",
+    "certifi==2026.10.23",
+    "colorama==0.4.6",
+    "contourpy==1.4.0",
+    "cycler==0.12.1",
+    "fonttools==4.68.0",
+    "immutabledict==4.3.1",
+    "iniconfig==2.3.1",
+    "jplephem==2.24",
+    "kiwisolver==1.5.1",
+    "matplotlib==3.11.2",
+    "numpy==2.3.5",
+    "ortools==9.15.6755",
+    "packaging==26.3",
+    "pandas==3.1.1",
+    "pillow==13.0.0",
+    "pluggy==1.7.0",
+    "protobuf==6.33.6",
+    "Pygments==2.21.0",
+    "pyparsing==3.3.3",
+    "pytest==9.1.1",
+    "python-dateutil==4.0.0",
+    "sgp4==2.27",
+    "skyfield==1.55",
+    "typing_extensions==4.16.0",
+    "tzdata==2026.6"
+  ],
+  "method_worker_threads": 1,
+  "threading_note": "One logical processor affinity; numerical thread environment set to 1; CP-SAT workers 1.",
+  "affinity_pinned": true,
+  "frequency_policy": "not_controlled",
+  "container_image_digest": null,
+  "gpu_used": false,
+  "target_main_environment_met": false,
+  "scope": "P2C controlled paired study",
+  "hardware_query_exit_code": 0,
+  "hardware": {
+    "cpu": [
+      {
+        "Name": "Intel(R) Core(TM) Ultra 5 125H",
+        "NumberOfCores": 14,
+        "NumberOfLogicalProcessors": 18
+      }
+    ],
+    "total_physical_memory_bytes": 33832394752
+  },
+  "actual_affinity": {
+    "original_mask": 262143,
+    "actual_mask": 1,
+    "logical_processor": 0
+  },
+  "thread_environment": {
+    "OMP_NUM_THREADS": "1",
+    "OPENBLAS_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  }
+}

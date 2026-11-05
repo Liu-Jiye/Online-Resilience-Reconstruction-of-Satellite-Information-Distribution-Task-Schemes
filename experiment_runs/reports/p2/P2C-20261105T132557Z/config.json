@@ -1,0 +1,9 @@
+{
+  "B": 2,
+  "w": 5,
+  "wide_w": 20,
+  "heuristic_ms": 50,
+  "exact_s": 30,
+  "seed": 220000,
+  "P3_started": false
+}
