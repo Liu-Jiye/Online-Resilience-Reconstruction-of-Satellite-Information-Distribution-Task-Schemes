@@ -1,0 +1,516 @@
+{
+  "passed": true,
+  "stage": "P2",
+  "run_id": "P2-20261105T114327Z",
+  "audited_at_utc": "2026-11-05T11:45:55.614228+00:00",
+  "attempts_reproduced": 366,
+  "valid_bases_reproduced": 300,
+  "events_reproduced": 200,
+  "exact_plans_checked": 200,
+  "heuristic_plans_checked": 400,
+  "native_models_and_responses_checked": 264,
+  "native_phase_statuses": {
+    "OPTIMAL": 200,
+    "INFEASIBLE": 64
+  },
+  "native_models_replayed": 264,
+  "urgent_exhaustive_integer_start_checks": [
+    {
+      "event_ordinal": 1,
+      "certificate": "service_proven_infeasible",
+      "eligible": false,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 4,
+      "certificate": "service_proven_infeasible",
+      "eligible": false,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 7,
+      "certificate": "service_feasible",
+      "eligible": true,
+      "integer_start_count": 82,
+      "first_feasible_start": 420
+    },
+    {
+      "event_ordinal": 10,
+      "certificate": "service_proven_infeasible",
+      "eligible": false,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 13,
+      "certificate": "service_proven_infeasible",
+      "eligible": false,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 16,
+      "certificate": "service_proven_infeasible",
+      "eligible": false,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 19,
+      "certificate": "service_proven_infeasible",
+      "eligible": false,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 22,
+      "certificate": "service_proven_infeasible",
+      "eligible": false,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 25,
+      "certificate": "service_proven_infeasible",
+      "eligible": false,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 28,
+      "certificate": "service_proven_infeasible",
+      "eligible": false,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 31,
+      "certificate": "service_proven_infeasible",
+      "eligible": false,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 34,
+      "certificate": "service_proven_infeasible",
+      "eligible": false,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 37,
+      "certificate": "service_proven_infeasible",
+      "eligible": false,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 40,
+      "certificate": "service_proven_infeasible",
+      "eligible": false,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 43,
+      "certificate": "service_proven_infeasible",
+      "eligible": false,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 46,
+      "certificate": "service_proven_infeasible",
+      "eligible": false,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 49,
+      "certificate": "service_proven_infeasible",
+      "eligible": false,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 52,
+      "certificate": "service_proven_infeasible",
+      "eligible": false,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 55,
+      "certificate": "service_proven_infeasible",
+      "eligible": false,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 58,
+      "certificate": "service_proven_infeasible",
+      "eligible": false,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 61,
+      "certificate": "service_proven_infeasible",
+      "eligible": false,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 64,
+      "certificate": "service_proven_infeasible",
+      "eligible": false,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 67,
+      "certificate": "service_proven_infeasible",
+      "eligible": false,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 70,
+      "certificate": "service_proven_infeasible",
+      "eligible": false,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 73,
+      "certificate": "service_proven_infeasible",
+      "eligible": true,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 76,
+      "certificate": "service_proven_infeasible",
+      "eligible": false,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 79,
+      "certificate": "service_proven_infeasible",
+      "eligible": false,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 82,
+      "certificate": "service_proven_infeasible",
+      "eligible": false,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 85,
+      "certificate": "service_proven_infeasible",
+      "eligible": true,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 88,
+      "certificate": "service_proven_infeasible",
+      "eligible": false,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 91,
+      "certificate": "service_proven_infeasible",
+      "eligible": false,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 94,
+      "certificate": "service_proven_infeasible",
+      "eligible": false,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 97,
+      "certificate": "service_proven_infeasible",
+      "eligible": true,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 100,
+      "certificate": "service_proven_infeasible",
+      "eligible": false,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 103,
+      "certificate": "service_proven_infeasible",
+      "eligible": false,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 106,
+      "certificate": "service_proven_infeasible",
+      "eligible": false,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 109,
+      "certificate": "service_feasible",
+      "eligible": true,
+      "integer_start_count": 73,
+      "first_feasible_start": 387
+    },
+    {
+      "event_ordinal": 112,
+      "certificate": "service_proven_infeasible",
+      "eligible": false,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 115,
+      "certificate": "service_proven_infeasible",
+      "eligible": false,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 118,
+      "certificate": "service_proven_infeasible",
+      "eligible": false,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 121,
+      "certificate": "service_proven_infeasible",
+      "eligible": false,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 124,
+      "certificate": "service_proven_infeasible",
+      "eligible": false,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 127,
+      "certificate": "service_proven_infeasible",
+      "eligible": false,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 130,
+      "certificate": "service_proven_infeasible",
+      "eligible": false,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 133,
+      "certificate": "service_proven_infeasible",
+      "eligible": false,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 136,
+      "certificate": "service_proven_infeasible",
+      "eligible": false,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 139,
+      "certificate": "service_proven_infeasible",
+      "eligible": false,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 142,
+      "certificate": "service_proven_infeasible",
+      "eligible": false,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 145,
+      "certificate": "service_proven_infeasible",
+      "eligible": false,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 148,
+      "certificate": "service_proven_infeasible",
+      "eligible": false,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 151,
+      "certificate": "service_proven_infeasible",
+      "eligible": false,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 154,
+      "certificate": "service_proven_infeasible",
+      "eligible": false,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 157,
+      "certificate": "service_proven_infeasible",
+      "eligible": false,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 160,
+      "certificate": "service_proven_infeasible",
+      "eligible": false,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 163,
+      "certificate": "service_proven_infeasible",
+      "eligible": false,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 166,
+      "certificate": "service_proven_infeasible",
+      "eligible": false,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 169,
+      "certificate": "service_feasible",
+      "eligible": true,
+      "integer_start_count": 80,
+      "first_feasible_start": 210
+    },
+    {
+      "event_ordinal": 172,
+      "certificate": "service_proven_infeasible",
+      "eligible": false,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 175,
+      "certificate": "service_proven_infeasible",
+      "eligible": false,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 178,
+      "certificate": "service_proven_infeasible",
+      "eligible": false,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 181,
+      "certificate": "service_proven_infeasible",
+      "eligible": false,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 184,
+      "certificate": "service_proven_infeasible",
+      "eligible": false,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 187,
+      "certificate": "service_proven_infeasible",
+      "eligible": false,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 190,
+      "certificate": "service_proven_infeasible",
+      "eligible": false,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 193,
+      "certificate": "service_proven_infeasible",
+      "eligible": false,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 196,
+      "certificate": "service_proven_infeasible",
+      "eligible": false,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    },
+    {
+      "event_ordinal": 199,
+      "certificate": "service_proven_infeasible",
+      "eligible": false,
+      "integer_start_count": 0,
+      "first_feasible_start": null
+    }
+  ],
+  "timing": {
+    "exact": {
+      "mean_ms": 33.663418,
+      "p50_ms": 30.562649999999998,
+      "p95_ms": 59.17889499999999,
+      "p99_ms": 84.060313,
+      "max_ms": 90.6118
+    },
+    "heuristic_50ms": {
+      "mean_ms": 6.4965305,
+      "p50_ms": 5.0231,
+      "p95_ms": 18.22586,
+      "p99_ms": 27.170809999999978,
+      "max_ms": 29.6489
+    },
+    "heuristic_30s": {
+      "mean_ms": 6.157078,
+      "p50_ms": 4.12995,
+      "p95_ms": 16.12740999999999,
+      "p99_ms": 25.627284,
+      "max_ms": 47.4089
+    }
+  },
+  "outside_experiment_runs_changes": [],
+  "source_baseline_commit": "f8cd6afd8a8a33d43c9f178ae186bf42f9de18dc",
+  "verifier_script_sha256": "308f7009dbcc8f3c0ec7c11a4ec928b7ad347648301c5da3d3d1cd6328a3dad6",
+  "test_instances_generated": 0,
+  "next_stages_executed": []
+}

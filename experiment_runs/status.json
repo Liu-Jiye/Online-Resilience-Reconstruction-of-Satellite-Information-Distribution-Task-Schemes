@@ -1,7 +1,7 @@
 {
   "initialized_on": "2026-11-05",
   "timezone": "Asia/Shanghai",
-  "workspace_status": "P2_in_progress",
+  "workspace_status": "P2_complete",
   "source_commit": "42209f4c776e227e2fefa0c47777ac547095a7a8",
   "write_scope": "experiment_runs/",
   "original_repository_files_modified": false,
@@ -15,8 +15,8 @@
   ],
   "correctness_evidence_available": true,
   "stage_execution_policy": "Only the user-specified stage; produce its report, then stop pending the user's next instruction.",
-  "next_stage": "P2",
-  "next_stage_authorized": true,
+  "next_stage": "P3",
+  "next_stage_authorized": false,
   "stages": {
     "P0": {
       "status": "complete",
@@ -54,9 +54,37 @@
       "freeze": "reports/p1/P1-20261105T110427Z/protocol_freeze.json"
     },
     "P2": {
-      "status": "in_progress",
-      "run_ids": [],
-      "report": null
+      "status": "complete",
+      "run_ids": [
+        "P2-20261105T114327Z"
+      ],
+      "report": "reports/P2_REPORT.md",
+      "source_commit": "4de3790c13e01b20b8d58299effb8b1082b72922",
+      "input_directory": "reports/p2/P2-inputs-v1",
+      "generation_attempts": 366,
+      "generation_failures": 66,
+      "valid_base_instances": 300,
+      "events": 200,
+      "final_event_statuses": {
+        "OPTIMAL": 200,
+        "INFEASIBLE": 0,
+        "FEASIBLE": 0,
+        "UNKNOWN": 0
+      },
+      "native_phase_statuses": {
+        "OPTIMAL": 200,
+        "INFEASIBLE": 64,
+        "FEASIBLE": 0,
+        "UNKNOWN": 0
+      },
+      "urgent_service_feasible": 3,
+      "urgent_service_proven_infeasible": 64,
+      "native_models_replayed": 264,
+      "unit_tests_passed": 140,
+      "exact_total_over_30s_count": 0,
+      "test_instances_generated": 0,
+      "fixed_PALR_full_lexicographic_optimum": 173,
+      "exact_reference_version": "1.0"
     },
     "P3": {
       "status": "not_started",
@@ -87,5 +115,5 @@
     "learned_weights"
   ],
   "implementation_policy": "If original artifacts remain unavailable, explicitly label a paper-based reimplementation; do not claim exact historical reproduction.",
-  "results_scope": "P0 correctness and P1 offline pilots only; no research repair performance or test results"
+  "results_scope": "P0 correctness, P1 offline pilots and P2 small discrete exact alignment only; no main-test results"
 }

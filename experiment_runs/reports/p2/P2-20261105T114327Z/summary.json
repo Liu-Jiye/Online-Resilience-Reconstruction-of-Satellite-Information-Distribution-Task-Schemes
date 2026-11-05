@@ -1,0 +1,36 @@
+{
+  "stage": "P2",
+  "event_count": 200,
+  "base_instances_generated": 300,
+  "exact_statuses": {
+    "OPTIMAL": 200
+  },
+  "urgent_certificates": {
+    "not_applicable": 133,
+    "service_proven_infeasible": 64,
+    "service_feasible": 3
+  },
+  "exact_total_over_30s_count": 0,
+  "events_not_applicable": 0,
+  "run_wall_s": 11.3361523,
+  "test_instances_generated": 0,
+  "next_stages_executed": [],
+  "heuristic_50ms": {
+    "statuses": {
+      "feasible": 200
+    },
+    "valid_plans": 200,
+    "service_success": 136,
+    "online_success": 136,
+    "matches_proven_lexicographic_optimum": 173
+  },
+  "heuristic_30s": {
+    "statuses": {
+      "feasible": 200
+    },
+    "valid_plans": 200,
+    "service_success": 136,
+    "online_success": 136,
+    "matches_proven_lexicographic_optimum": 173
+  }
+}
