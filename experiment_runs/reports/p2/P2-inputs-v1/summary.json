@@ -1,0 +1,52 @@
+{
+  "attempts": 366,
+  "valid_bases": 300,
+  "generation_failures": 66,
+  "failure_reasons": {
+    "No contact pair available for contact-conditioned task draw": 59,
+    "empty_reference": 7
+  },
+  "event_count": 200,
+  "distinct_selected_bases": 200,
+  "kind_counts": {
+    "cancellation": 67,
+    "urgent_insertion": 67,
+    "reward_update": 66
+  },
+  "scenario_counts": {
+    "cancellation:FR=0:q=0.2": 17,
+    "urgent_insertion:FR=0:q=0.2": 17,
+    "reward_update:FR=0:q=0.2": 17,
+    "cancellation:FR=0:q=0.8": 17,
+    "urgent_insertion:FR=0:q=0.8": 17,
+    "reward_update:FR=0:q=0.8": 17,
+    "cancellation:FR=0.6:q=0.2": 17,
+    "urgent_insertion:FR=0.6:q=0.2": 17,
+    "reward_update:FR=0.6:q=0.2": 16,
+    "cancellation:FR=0.6:q=0.8": 16,
+    "urgent_insertion:FR=0.6:q=0.8": 16,
+    "reward_update:FR=0.6:q=0.8": 16
+  },
+  "combination_kind_counts": {
+    "0:cancellation": 12,
+    "0:urgent_insertion": 11,
+    "0:reward_update": 11,
+    "1:urgent_insertion": 12,
+    "1:reward_update": 11,
+    "1:cancellation": 11,
+    "2:reward_update": 11,
+    "2:cancellation": 11,
+    "2:urgent_insertion": 11,
+    "3:reward_update": 11,
+    "3:cancellation": 11,
+    "3:urgent_insertion": 11,
+    "4:reward_update": 11,
+    "4:cancellation": 11,
+    "4:urgent_insertion": 11,
+    "5:reward_update": 11,
+    "5:cancellation": 11,
+    "5:urgent_insertion": 11
+  },
+  "test_instances_generated": 0,
+  "selection_used_solver_or_heuristic_performance": false
+}

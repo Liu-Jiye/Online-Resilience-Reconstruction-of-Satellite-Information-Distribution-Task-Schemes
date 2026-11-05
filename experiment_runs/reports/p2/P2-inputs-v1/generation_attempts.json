@@ -1,0 +1,5858 @@
+[
+  {
+    "instance_id": "P2-n10-s4-attempt-000",
+    "seed": 110000,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 0,
+    "component_seeds": {
+      "contacts": 12274461839391250509,
+      "calendar": 6219536559475718766,
+      "tasks": 360216544766034409,
+      "segment": 6642278121677281946
+    },
+    "status": "valid",
+    "reference_count": 6
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-001",
+    "seed": 110001,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 1,
+    "component_seeds": {
+      "contacts": 3694884994819603529,
+      "calendar": 17510157747013862502,
+      "tasks": 6491474931166568358,
+      "segment": 14743088288928556502
+    },
+    "status": "valid",
+    "reference_count": 5
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-002",
+    "seed": 110002,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 2,
+    "component_seeds": {
+      "contacts": 1337400770801051117,
+      "calendar": 16017276451383910277,
+      "tasks": 6046732895426549357,
+      "segment": 16925403777086770659
+    },
+    "status": "valid",
+    "reference_count": 3
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-003",
+    "seed": 110003,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 3,
+    "component_seeds": {
+      "contacts": 5094934026359556892,
+      "calendar": 13727848652429519483,
+      "tasks": 7802733866175972435,
+      "segment": 6315355916657404209
+    },
+    "status": "valid",
+    "reference_count": 6
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-004",
+    "seed": 110004,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 4,
+    "component_seeds": {
+      "contacts": 18357145249089803342,
+      "calendar": 17570794429963238981,
+      "tasks": 10190172970837307039,
+      "segment": 15379260236608894072
+    },
+    "status": "generation_failed",
+    "reason": "No contact pair available for contact-conditioned task draw"
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-005",
+    "seed": 110005,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 5,
+    "component_seeds": {
+      "contacts": 12287110640184774461,
+      "calendar": 9280625789524005304,
+      "tasks": 2148749672948867344,
+      "segment": 4868398096537636450
+    },
+    "status": "valid",
+    "reference_count": 4
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-006",
+    "seed": 110006,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 6,
+    "component_seeds": {
+      "contacts": 8832288727308298768,
+      "calendar": 15144167753503496094,
+      "tasks": 13838433557209197228,
+      "segment": 12875815640667406254
+    },
+    "status": "valid",
+    "reference_count": 3
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-007",
+    "seed": 110007,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 7,
+    "component_seeds": {
+      "contacts": 8751318287577964542,
+      "calendar": 7803241501656669158,
+      "tasks": 11197279918464062711,
+      "segment": 1354577179602148132
+    },
+    "status": "valid",
+    "reference_count": 2
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-008",
+    "seed": 110008,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 8,
+    "component_seeds": {
+      "contacts": 6450358813658475001,
+      "calendar": 11393329399775115151,
+      "tasks": 10739062913844140178,
+      "segment": 16394708589388095871
+    },
+    "status": "generation_failed",
+    "reason": "No contact pair available for contact-conditioned task draw"
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-009",
+    "seed": 110009,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 9,
+    "component_seeds": {
+      "contacts": 1290503410901104818,
+      "calendar": 1787429555464879016,
+      "tasks": 15992941331203057634,
+      "segment": 2684153026073163414
+    },
+    "status": "generation_failed",
+    "reason": "No contact pair available for contact-conditioned task draw"
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-010",
+    "seed": 110010,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 10,
+    "component_seeds": {
+      "contacts": 3863954356141578961,
+      "calendar": 5381826801250559323,
+      "tasks": 5106557896063640593,
+      "segment": 2315776598882490579
+    },
+    "status": "valid",
+    "reference_count": 5
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-011",
+    "seed": 110011,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 11,
+    "component_seeds": {
+      "contacts": 17549226028017350463,
+      "calendar": 16666464912765515651,
+      "tasks": 8162884559116345640,
+      "segment": 4537544255713469460
+    },
+    "status": "valid",
+    "reference_count": 5
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-012",
+    "seed": 110012,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 12,
+    "component_seeds": {
+      "contacts": 2342333308687307589,
+      "calendar": 5544344974416262205,
+      "tasks": 5576082311193947980,
+      "segment": 17743242809284150395
+    },
+    "status": "valid",
+    "reference_count": 6
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-013",
+    "seed": 110013,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 13,
+    "component_seeds": {
+      "contacts": 12229921852853370866,
+      "calendar": 15958583744381082253,
+      "tasks": 4481872226691006215,
+      "segment": 11491068924631953676
+    },
+    "status": "valid",
+    "reference_count": 8
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-014",
+    "seed": 110014,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 14,
+    "component_seeds": {
+      "contacts": 14606671659884830099,
+      "calendar": 16772526199359649940,
+      "tasks": 3046451838799661928,
+      "segment": 2551605216204484387
+    },
+    "status": "generation_failed",
+    "reason": "No contact pair available for contact-conditioned task draw"
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-015",
+    "seed": 110015,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 15,
+    "component_seeds": {
+      "contacts": 16949402866777288469,
+      "calendar": 8574717623713986885,
+      "tasks": 7941333504439929200,
+      "segment": 14239424538884387032
+    },
+    "status": "generation_failed",
+    "reason": "No contact pair available for contact-conditioned task draw"
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-016",
+    "seed": 110016,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 16,
+    "component_seeds": {
+      "contacts": 4625081060591688723,
+      "calendar": 14577055160593476396,
+      "tasks": 2350542821859332348,
+      "segment": 15325302413455726463
+    },
+    "status": "valid",
+    "reference_count": 4
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-017",
+    "seed": 110017,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 17,
+    "component_seeds": {
+      "contacts": 1290310700477042472,
+      "calendar": 6962331141134057205,
+      "tasks": 16936853082057377718,
+      "segment": 16283820708887902749
+    },
+    "status": "valid",
+    "reference_count": 3
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-018",
+    "seed": 110018,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 18,
+    "component_seeds": {
+      "contacts": 6788318902267223079,
+      "calendar": 10650747175026970599,
+      "tasks": 7645232688184623788,
+      "segment": 14281783620037352974
+    },
+    "status": "generation_failed",
+    "reason": "No contact pair available for contact-conditioned task draw"
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-019",
+    "seed": 110019,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 19,
+    "component_seeds": {
+      "contacts": 79130032526716385,
+      "calendar": 10693826133217637352,
+      "tasks": 12399198518648758697,
+      "segment": 1076418298346980601
+    },
+    "status": "valid",
+    "reference_count": 3
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-020",
+    "seed": 110020,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 20,
+    "component_seeds": {
+      "contacts": 3440747471971175030,
+      "calendar": 7513311719021274292,
+      "tasks": 13246593582918946755,
+      "segment": 4137798533945069100
+    },
+    "status": "valid",
+    "reference_count": 3
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-021",
+    "seed": 110021,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 21,
+    "component_seeds": {
+      "contacts": 9704521375102898102,
+      "calendar": 17728934239384049185,
+      "tasks": 6721063362378149600,
+      "segment": 14750736606043912153
+    },
+    "status": "valid",
+    "reference_count": 4
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-022",
+    "seed": 110022,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 22,
+    "component_seeds": {
+      "contacts": 5429101215030541567,
+      "calendar": 5150687744081389602,
+      "tasks": 2775229913277400824,
+      "segment": 16644317277162846329
+    },
+    "status": "generation_failed",
+    "reason": "No contact pair available for contact-conditioned task draw"
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-023",
+    "seed": 110023,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 23,
+    "component_seeds": {
+      "contacts": 4106767521349132136,
+      "calendar": 4950684865189715762,
+      "tasks": 7780311007727234913,
+      "segment": 1554778504579720054
+    },
+    "status": "generation_failed",
+    "reason": "No contact pair available for contact-conditioned task draw"
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-024",
+    "seed": 110024,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 24,
+    "component_seeds": {
+      "contacts": 16545130782971595159,
+      "calendar": 17931268117693260098,
+      "tasks": 1462852046298943367,
+      "segment": 7240702675901778789
+    },
+    "status": "generation_failed",
+    "reason": "empty_reference"
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-025",
+    "seed": 110025,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 25,
+    "component_seeds": {
+      "contacts": 13616026546356137630,
+      "calendar": 17935640772117492730,
+      "tasks": 17971326702606767686,
+      "segment": 6874811531512668178
+    },
+    "status": "valid",
+    "reference_count": 4
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-026",
+    "seed": 110026,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 26,
+    "component_seeds": {
+      "contacts": 15603026576033041582,
+      "calendar": 1604791581038163873,
+      "tasks": 6025565971080031886,
+      "segment": 6057180803687141856
+    },
+    "status": "valid",
+    "reference_count": 4
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-027",
+    "seed": 110027,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 27,
+    "component_seeds": {
+      "contacts": 3215630390594995118,
+      "calendar": 9827052407171349572,
+      "tasks": 11729551436969813340,
+      "segment": 2636834724414648392
+    },
+    "status": "generation_failed",
+    "reason": "No contact pair available for contact-conditioned task draw"
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-028",
+    "seed": 110028,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 28,
+    "component_seeds": {
+      "contacts": 5489612123137115197,
+      "calendar": 1331634602243714498,
+      "tasks": 8908085769187940567,
+      "segment": 14024006226080695470
+    },
+    "status": "valid",
+    "reference_count": 7
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-029",
+    "seed": 110029,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 29,
+    "component_seeds": {
+      "contacts": 11418345606040650631,
+      "calendar": 580834141438501104,
+      "tasks": 7583882041806306454,
+      "segment": 6958327216205569607
+    },
+    "status": "valid",
+    "reference_count": 6
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-030",
+    "seed": 110030,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 30,
+    "component_seeds": {
+      "contacts": 8199406100031860667,
+      "calendar": 15584638607715015141,
+      "tasks": 4195293235732386514,
+      "segment": 7795360044538602896
+    },
+    "status": "valid",
+    "reference_count": 6
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-031",
+    "seed": 110031,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 31,
+    "component_seeds": {
+      "contacts": 2936940262589054913,
+      "calendar": 6360650877978565305,
+      "tasks": 9353080437607093194,
+      "segment": 5977490240078720522
+    },
+    "status": "valid",
+    "reference_count": 3
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-032",
+    "seed": 110032,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 32,
+    "component_seeds": {
+      "contacts": 1662707781289192989,
+      "calendar": 363963021888848299,
+      "tasks": 16845986576020121607,
+      "segment": 16839006685653704308
+    },
+    "status": "valid",
+    "reference_count": 3
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-033",
+    "seed": 110033,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 33,
+    "component_seeds": {
+      "contacts": 12725881895124921432,
+      "calendar": 1800708411771841272,
+      "tasks": 319663146797302558,
+      "segment": 17396074886810816350
+    },
+    "status": "valid",
+    "reference_count": 4
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-034",
+    "seed": 110034,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 34,
+    "component_seeds": {
+      "contacts": 7573559207738868680,
+      "calendar": 5237781969928738303,
+      "tasks": 16574444353846437927,
+      "segment": 8911214901528605574
+    },
+    "status": "valid",
+    "reference_count": 5
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-035",
+    "seed": 110035,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 35,
+    "component_seeds": {
+      "contacts": 408821763684992627,
+      "calendar": 13588892096633858647,
+      "tasks": 11254737976458817505,
+      "segment": 836368409803009078
+    },
+    "status": "generation_failed",
+    "reason": "No contact pair available for contact-conditioned task draw"
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-036",
+    "seed": 110036,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 36,
+    "component_seeds": {
+      "contacts": 4694953147267294828,
+      "calendar": 3026372415044212607,
+      "tasks": 1149918482341897011,
+      "segment": 9453679746420685516
+    },
+    "status": "valid",
+    "reference_count": 7
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-037",
+    "seed": 110037,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 37,
+    "component_seeds": {
+      "contacts": 14395177982305004212,
+      "calendar": 517966415740577863,
+      "tasks": 4689678796061720497,
+      "segment": 6797640768334920857
+    },
+    "status": "valid",
+    "reference_count": 9
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-038",
+    "seed": 110038,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 38,
+    "component_seeds": {
+      "contacts": 503608480389307217,
+      "calendar": 6175911436667701316,
+      "tasks": 1436186872786923007,
+      "segment": 10288884303906471003
+    },
+    "status": "valid",
+    "reference_count": 5
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-039",
+    "seed": 110039,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 39,
+    "component_seeds": {
+      "contacts": 4394469869423931120,
+      "calendar": 12118875731746465645,
+      "tasks": 12884763330270407170,
+      "segment": 9369229438707803449
+    },
+    "status": "valid",
+    "reference_count": 5
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-040",
+    "seed": 110040,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 40,
+    "component_seeds": {
+      "contacts": 17173855472052684372,
+      "calendar": 10386415781631847031,
+      "tasks": 7598778253952675652,
+      "segment": 10396192921903525461
+    },
+    "status": "valid",
+    "reference_count": 4
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-041",
+    "seed": 110041,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 41,
+    "component_seeds": {
+      "contacts": 18131807427801223006,
+      "calendar": 12512657477703091693,
+      "tasks": 3766189078055982273,
+      "segment": 5225309215673041430
+    },
+    "status": "valid",
+    "reference_count": 3
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-042",
+    "seed": 110042,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 42,
+    "component_seeds": {
+      "contacts": 14933495280195010334,
+      "calendar": 8791730521632327259,
+      "tasks": 4136621872533260694,
+      "segment": 2747171406171946926
+    },
+    "status": "generation_failed",
+    "reason": "No contact pair available for contact-conditioned task draw"
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-043",
+    "seed": 110043,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 43,
+    "component_seeds": {
+      "contacts": 9997652251158754658,
+      "calendar": 15985411255091539745,
+      "tasks": 7509059499506607849,
+      "segment": 2116360783263794053
+    },
+    "status": "generation_failed",
+    "reason": "No contact pair available for contact-conditioned task draw"
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-044",
+    "seed": 110044,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 44,
+    "component_seeds": {
+      "contacts": 919324564069933411,
+      "calendar": 10808966443218529041,
+      "tasks": 11769902436385075044,
+      "segment": 2510727569544435554
+    },
+    "status": "valid",
+    "reference_count": 4
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-045",
+    "seed": 110045,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 45,
+    "component_seeds": {
+      "contacts": 174046183456013843,
+      "calendar": 8575201968460366894,
+      "tasks": 16998992348445823044,
+      "segment": 10518436518926007746
+    },
+    "status": "valid",
+    "reference_count": 7
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-046",
+    "seed": 110046,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 46,
+    "component_seeds": {
+      "contacts": 6382256584752524585,
+      "calendar": 6572459958868894371,
+      "tasks": 11749742448118352373,
+      "segment": 14945205758039420449
+    },
+    "status": "valid",
+    "reference_count": 5
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-047",
+    "seed": 110047,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 47,
+    "component_seeds": {
+      "contacts": 13443517745187966064,
+      "calendar": 5890308344020379138,
+      "tasks": 8008852474036409145,
+      "segment": 14547051295112955803
+    },
+    "status": "valid",
+    "reference_count": 3
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-048",
+    "seed": 110048,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 48,
+    "component_seeds": {
+      "contacts": 279565398289940298,
+      "calendar": 1540677014785856695,
+      "tasks": 7661806582726441722,
+      "segment": 13929696168330201659
+    },
+    "status": "generation_failed",
+    "reason": "No contact pair available for contact-conditioned task draw"
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-049",
+    "seed": 110049,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 49,
+    "component_seeds": {
+      "contacts": 10234791368590906778,
+      "calendar": 18394599638985530675,
+      "tasks": 276066764152713469,
+      "segment": 3465380941659974826
+    },
+    "status": "valid",
+    "reference_count": 5
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-050",
+    "seed": 110050,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 50,
+    "component_seeds": {
+      "contacts": 8057413553892823401,
+      "calendar": 2009338493141365116,
+      "tasks": 5890880158437962184,
+      "segment": 12926643645144500809
+    },
+    "status": "valid",
+    "reference_count": 4
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-051",
+    "seed": 110051,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 51,
+    "component_seeds": {
+      "contacts": 7135284573011252648,
+      "calendar": 13933138224107578326,
+      "tasks": 8570689956288152116,
+      "segment": 5184933845615545988
+    },
+    "status": "valid",
+    "reference_count": 7
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-052",
+    "seed": 110052,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 52,
+    "component_seeds": {
+      "contacts": 7335947844646158627,
+      "calendar": 5040217397688117702,
+      "tasks": 10332769070996694751,
+      "segment": 6095872967435067582
+    },
+    "status": "valid",
+    "reference_count": 3
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-053",
+    "seed": 110053,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 53,
+    "component_seeds": {
+      "contacts": 9562967264387832357,
+      "calendar": 9648129185969485112,
+      "tasks": 16764128144801328247,
+      "segment": 371913724894601091
+    },
+    "status": "valid",
+    "reference_count": 2
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-054",
+    "seed": 110054,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 54,
+    "component_seeds": {
+      "contacts": 2175813961603413089,
+      "calendar": 11219446665532546510,
+      "tasks": 9583159251348664236,
+      "segment": 2699896944205228189
+    },
+    "status": "valid",
+    "reference_count": 5
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-055",
+    "seed": 110055,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 55,
+    "component_seeds": {
+      "contacts": 5030480135910571012,
+      "calendar": 12899422971590113360,
+      "tasks": 16760030754398203163,
+      "segment": 15291401608146393237
+    },
+    "status": "generation_failed",
+    "reason": "No contact pair available for contact-conditioned task draw"
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-056",
+    "seed": 110056,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 56,
+    "component_seeds": {
+      "contacts": 13735226839526882965,
+      "calendar": 10530881643824584221,
+      "tasks": 11781259112823677310,
+      "segment": 13441714709670220702
+    },
+    "status": "valid",
+    "reference_count": 6
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-057",
+    "seed": 110057,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 57,
+    "component_seeds": {
+      "contacts": 3674480905655964064,
+      "calendar": 2818264228864776782,
+      "tasks": 538756088046575259,
+      "segment": 14528267410542199595
+    },
+    "status": "valid",
+    "reference_count": 1
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-058",
+    "seed": 110058,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 58,
+    "component_seeds": {
+      "contacts": 4831938832226460959,
+      "calendar": 15375521126929741559,
+      "tasks": 1684346274027522094,
+      "segment": 4444801666185137360
+    },
+    "status": "generation_failed",
+    "reason": "No contact pair available for contact-conditioned task draw"
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-059",
+    "seed": 110059,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 59,
+    "component_seeds": {
+      "contacts": 9539984786002666630,
+      "calendar": 1793285504031201997,
+      "tasks": 17220094778913712308,
+      "segment": 2397951977156606237
+    },
+    "status": "valid",
+    "reference_count": 2
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-060",
+    "seed": 110060,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 60,
+    "component_seeds": {
+      "contacts": 9260239939949967900,
+      "calendar": 4518761424334644132,
+      "tasks": 11868677721859240736,
+      "segment": 10250393906998021753
+    },
+    "status": "valid",
+    "reference_count": 2
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-061",
+    "seed": 110061,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 61,
+    "component_seeds": {
+      "contacts": 1528587598118354700,
+      "calendar": 17011391954301543656,
+      "tasks": 3278879484296471125,
+      "segment": 8438572838127136057
+    },
+    "status": "valid",
+    "reference_count": 5
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-062",
+    "seed": 110062,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 62,
+    "component_seeds": {
+      "contacts": 13765978623905789926,
+      "calendar": 2501420422509029581,
+      "tasks": 11064459941866895873,
+      "segment": 5256403232254652618
+    },
+    "status": "generation_failed",
+    "reason": "No contact pair available for contact-conditioned task draw"
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-063",
+    "seed": 110063,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 63,
+    "component_seeds": {
+      "contacts": 16705687861132272070,
+      "calendar": 7533908523364249425,
+      "tasks": 11545876739344518840,
+      "segment": 12244504527012787937
+    },
+    "status": "generation_failed",
+    "reason": "empty_reference"
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-064",
+    "seed": 110064,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 64,
+    "component_seeds": {
+      "contacts": 504782698244449977,
+      "calendar": 12254754718646544648,
+      "tasks": 14929727710328449709,
+      "segment": 3924278394227849499
+    },
+    "status": "generation_failed",
+    "reason": "No contact pair available for contact-conditioned task draw"
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-065",
+    "seed": 110065,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 65,
+    "component_seeds": {
+      "contacts": 7225646835316570687,
+      "calendar": 4341257861825306728,
+      "tasks": 12988480340243405168,
+      "segment": 4920735786335209474
+    },
+    "status": "valid",
+    "reference_count": 1
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-066",
+    "seed": 110066,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 66,
+    "component_seeds": {
+      "contacts": 16499633742613574390,
+      "calendar": 11557784589262647248,
+      "tasks": 12735640528441187050,
+      "segment": 7317631563299405425
+    },
+    "status": "valid",
+    "reference_count": 5
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-067",
+    "seed": 110067,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 67,
+    "component_seeds": {
+      "contacts": 9357000453910492857,
+      "calendar": 12281065261494255849,
+      "tasks": 2319650945973462147,
+      "segment": 18092134479352680207
+    },
+    "status": "generation_failed",
+    "reason": "empty_reference"
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-068",
+    "seed": 110068,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 68,
+    "component_seeds": {
+      "contacts": 10543555385964655259,
+      "calendar": 5756065314994232852,
+      "tasks": 16170293715121763944,
+      "segment": 2070548404747260902
+    },
+    "status": "valid",
+    "reference_count": 3
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-069",
+    "seed": 110069,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 69,
+    "component_seeds": {
+      "contacts": 2389811462483311923,
+      "calendar": 16323638721085305321,
+      "tasks": 3894377094249792700,
+      "segment": 15899183561093920962
+    },
+    "status": "generation_failed",
+    "reason": "No contact pair available for contact-conditioned task draw"
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-070",
+    "seed": 110070,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 70,
+    "component_seeds": {
+      "contacts": 13767566011506446915,
+      "calendar": 15545817934858775386,
+      "tasks": 1403332294379520039,
+      "segment": 15233247712091563204
+    },
+    "status": "generation_failed",
+    "reason": "No contact pair available for contact-conditioned task draw"
+  },
+  {
+    "instance_id": "P2-n10-s4-attempt-071",
+    "seed": 110071,
+    "combination_index": 0,
+    "candidates": 10,
+    "satellites": 4,
+    "attempt": 71,
+    "component_seeds": {
+      "contacts": 15319881326824934266,
+      "calendar": 18220365636001739901,
+      "tasks": 17999004149443042471,
+      "segment": 944158743880470969
+    },
+    "status": "valid",
+    "reference_count": 6
+  },
+  {
+    "instance_id": "P2-n10-s8-attempt-000",
+    "seed": 111000,
+    "combination_index": 1,
+    "candidates": 10,
+    "satellites": 8,
+    "attempt": 0,
+    "component_seeds": {
+      "contacts": 15899574419511904668,
+      "calendar": 5451890916763405986,
+      "tasks": 2034882357519351418,
+      "segment": 406781987352181387
+    },
+    "status": "valid",
+    "reference_count": 5
+  },
+  {
+    "instance_id": "P2-n10-s8-attempt-001",
+    "seed": 111001,
+    "combination_index": 1,
+    "candidates": 10,
+    "satellites": 8,
+    "attempt": 1,
+    "component_seeds": {
+      "contacts": 17020977039596475438,
+      "calendar": 3445630969691865116,
+      "tasks": 9937223713616835790,
+      "segment": 3463248815530446762
+    },
+    "status": "generation_failed",
+    "reason": "empty_reference"
+  },
+  {
+    "instance_id": "P2-n10-s8-attempt-002",
+    "seed": 111002,
+    "combination_index": 1,
+    "candidates": 10,
+    "satellites": 8,
+    "attempt": 2,
+    "component_seeds": {
+      "contacts": 3611920659012070085,
+      "calendar": 8136705402433914611,
+      "tasks": 6188909148788430684,
+      "segment": 6532729386370865659
+    },
+    "status": "valid",
+    "reference_count": 3
+  },
+  {
+    "instance_id": "P2-n10-s8-attempt-003",
+    "seed": 111003,
+    "combination_index": 1,
+    "candidates": 10,
+    "satellites": 8,
+    "attempt": 3,
+    "component_seeds": {
+      "contacts": 16584079609751014422,
+      "calendar": 9300215386364882713,
+      "tasks": 4128261446453979365,
+      "segment": 44135700635853641
+    },
+    "status": "valid",
+    "reference_count": 4
+  },
+  {
+    "instance_id": "P2-n10-s8-attempt-004",
+    "seed": 111004,
+    "combination_index": 1,
+    "candidates": 10,
+    "satellites": 8,
+    "attempt": 4,
+    "component_seeds": {
+      "contacts": 12301001939780447840,
+      "calendar": 6400903561008324033,
+      "tasks": 11890942256448323231,
+      "segment": 1907509996144419990
+    },
+    "status": "valid",
+    "reference_count": 4
+  },
+  {
+    "instance_id": "P2-n10-s8-attempt-005",
+    "seed": 111005,
+    "combination_index": 1,
+    "candidates": 10,
+    "satellites": 8,
+    "attempt": 5,
+    "component_seeds": {
+      "contacts": 1576322308900837291,
+      "calendar": 1922414822134261996,
+      "tasks": 12456746714712274168,
+      "segment": 14528605365748377460
+    },
+    "status": "valid",
+    "reference_count": 4
+  },
+  {
+    "instance_id": "P2-n10-s8-attempt-006",
+    "seed": 111006,
+    "combination_index": 1,
+    "candidates": 10,
+    "satellites": 8,
+    "attempt": 6,
+    "component_seeds": {
+      "contacts": 11797852528645259716,
+      "calendar": 975418163549691538,
+      "tasks": 13115652829459782178,
+      "segment": 17104656403082786466
+    },
+    "status": "valid",
+    "reference_count": 2
+  },
+  {
+    "instance_id": "P2-n10-s8-attempt-007",
+    "seed": 111007,
+    "combination_index": 1,
+    "candidates": 10,
+    "satellites": 8,
+    "attempt": 7,
+    "component_seeds": {
+      "contacts": 8811469645019232030,
+      "calendar": 1541361948600505713,
+      "tasks": 12820846990528661289,
+      "segment": 16686583377978516337
+    },
+    "status": "valid",
+    "reference_count": 6
+  },
+  {
+    "instance_id": "P2-n10-s8-attempt-008",
+    "seed": 111008,
+    "combination_index": 1,
+    "candidates": 10,
+    "satellites": 8,
+    "attempt": 8,
+    "component_seeds": {
+      "contacts": 10503867272100493230,
+      "calendar": 9628680119763714408,
+      "tasks": 8116049400543804209,
+      "segment": 16198245669016327037
+    },
+    "status": "valid",
+    "reference_count": 5
+  },
+  {
+    "instance_id": "P2-n10-s8-attempt-009",
+    "seed": 111009,
+    "combination_index": 1,
+    "candidates": 10,
+    "satellites": 8,
+    "attempt": 9,
+    "component_seeds": {
+      "contacts": 13280040205901648943,
+      "calendar": 11775893873362953619,
+      "tasks": 11091347720913447287,
+      "segment": 9784886152345558743
+    },
+    "status": "valid",
+    "reference_count": 1
+  },
+  {
+    "instance_id": "P2-n10-s8-attempt-010",
+    "seed": 111010,
+    "combination_index": 1,
+    "candidates": 10,
+    "satellites": 8,
+    "attempt": 10,
+    "component_seeds": {
+      "contacts": 11571310926631217500,
+      "calendar": 13972865508401841809,
+      "tasks": 363410240097643200,
+      "segment": 3518217478511361447
+    },
+    "status": "valid",
+    "reference_count": 5
+  },
+  {
+    "instance_id": "P2-n10-s8-attempt-011",
+    "seed": 111011,
+    "combination_index": 1,
+    "candidates": 10,
+    "satellites": 8,
+    "attempt": 11,
+    "component_seeds": {
+      "contacts": 10806475831605672662,
+      "calendar": 412987976203353536,
+      "tasks": 904712648697622980,
+      "segment": 15181531608326102756
+    },
+    "status": "valid",
+    "reference_count": 5
+  },
+  {
+    "instance_id": "P2-n10-s8-attempt-012",
+    "seed": 111012,
+    "combination_index": 1,
+    "candidates": 10,
+    "satellites": 8,
+    "attempt": 12,
+    "component_seeds": {
+      "contacts": 5721689859456083320,
+      "calendar": 11107454677817838435,
+      "tasks": 5166305180898725946,
+      "segment": 6125795972009845810
+    },
+    "status": "valid",
+    "reference_count": 5
+  },
+  {
+    "instance_id": "P2-n10-s8-attempt-013",
+    "seed": 111013,
+    "combination_index": 1,
+    "candidates": 10,
+    "satellites": 8,
+    "attempt": 13,
+    "component_seeds": {
+      "contacts": 14210385079795988236,
+      "calendar": 12242673433427651364,
+      "tasks": 7294980035105387327,
+      "segment": 2074106234265085840
+    },
+    "status": "valid",
+    "reference_count": 3
+  },
+  {
+    "instance_id": "P2-n10-s8-attempt-014",
+    "seed": 111014,
+    "combination_index": 1,
+    "candidates": 10,
+    "satellites": 8,
+    "attempt": 14,
+    "component_seeds": {
+      "contacts": 7086719634032996858,
+      "calendar": 1602936960124145760,
+      "tasks": 10708876793383812650,
+      "segment": 5136761870820985196
+    },
+    "status": "valid",
+    "reference_count": 2
+  },
+  {
+    "instance_id": "P2-n10-s8-attempt-015",
+    "seed": 111015,
+    "combination_index": 1,
+    "candidates": 10,
+    "satellites": 8,
+    "attempt": 15,
+    "component_seeds": {
+      "contacts": 2544537955864429745,
+      "calendar": 16553629735113782006,
+      "tasks": 981048004262657077,
+      "segment": 17035788992513399981
+    },
+    "status": "valid",
+    "reference_count": 6
+  },
+  {
+    "instance_id": "P2-n10-s8-attempt-016",
+    "seed": 111016,
+    "combination_index": 1,
+    "candidates": 10,
+    "satellites": 8,
+    "attempt": 16,
+    "component_seeds": {
+      "contacts": 5974754513063938933,
+      "calendar": 18360211454864026362,
+      "tasks": 10205610391811738255,
+      "segment": 9846555331592831255
+    },
+    "status": "valid",
+    "reference_count": 3
+  },
+  {
+    "instance_id": "P2-n10-s8-attempt-017",
+    "seed": 111017,
+    "combination_index": 1,
+    "candidates": 10,
+    "satellites": 8,
+    "attempt": 17,
+    "component_seeds": {
+      "contacts": 4741311761879851795,
+      "calendar": 15328620940591839524,
+      "tasks": 17147040698409702162,
+      "segment": 12398998149853791576
+    },
+    "status": "valid",
+    "reference_count": 4
+  },
+  {
+    "instance_id": "P2-n10-s8-attempt-018",
+    "seed": 111018,
+    "combination_index": 1,
+    "candidates": 10,
+    "satellites": 8,
+    "attempt": 18,
+    "component_seeds": {
+      "contacts": 159657503373548930,
+      "calendar": 12252751595156864839,
+      "tasks": 6498385874090870432,
+      "segment": 12513601084513030526
+    },
+    "status": "valid",
+    "reference_count": 4
+  },
+  {
+    "instance_id": "P2-n10-s8-attempt-019",
+    "seed": 111019,
+    "combination_index": 1,
+    "candidates": 10,
+    "satellites": 8,
+    "attempt": 19,
+    "component_seeds": {
+      "contacts": 8668846440182211831,
+      "calendar": 5405117091477872328,
+      "tasks": 3591976815625753222,
+      "segment": 12426221528580265646
+    },
+    "status": "valid",
+    "reference_count": 6
+  },
+  {
+    "instance_id": "P2-n10-s8-attempt-020",
+    "seed": 111020,
+    "combination_index": 1,
+    "candidates": 10,
+    "satellites": 8,
+    "attempt": 20,
+    "component_seeds": {
+      "contacts": 14199747271615096575,
+      "calendar": 5497705354477811679,
+      "tasks": 4904777311332380369,
+      "segment": 4867491208563756147
+    },
+    "status": "valid",
+    "reference_count": 6
+  },
+  {
+    "instance_id": "P2-n10-s8-attempt-021",
+    "seed": 111021,
+    "combination_index": 1,
+    "candidates": 10,
+    "satellites": 8,
+    "attempt": 21,
+    "component_seeds": {
+      "contacts": 12652224761480055546,
+      "calendar": 12383921900865374301,
+      "tasks": 5514171712767210507,
+      "segment": 2157440495466698641
+    },
+    "status": "valid",
+    "reference_count": 5
+  },
+  {
+    "instance_id": "P2-n10-s8-attempt-022",
+    "seed": 111022,
+    "combination_index": 1,
+    "candidates": 10,
+    "satellites": 8,
+    "attempt": 22,
+    "component_seeds": {
+      "contacts": 8293993965340103344,
+      "calendar": 13079087914314025735,
+      "tasks": 8707215313559660267,
+      "segment": 10776143536044618252
+    },
+    "status": "valid",
+    "reference_count": 2
+  },
+  {
+    "instance_id": "P2-n10-s8-attempt-023",
+    "seed": 111023,
+    "combination_index": 1,
+    "candidates": 10,
+    "satellites": 8,
+    "attempt": 23,
+    "component_seeds": {
+      "contacts": 6174378986972378815,
+      "calendar": 960448711989192297,
+      "tasks": 17918453527629960092,
+      "segment": 6330030875484553244
+    },
+    "status": "valid",
+    "reference_count": 4
+  },
+  {
+    "instance_id": "P2-n10-s8-attempt-024",
+    "seed": 111024,
+    "combination_index": 1,
+    "candidates": 10,
+    "satellites": 8,
+    "attempt": 24,
+    "component_seeds": {
+      "contacts": 1859425338150120860,
+      "calendar": 6582295919097011734,
+      "tasks": 2823005062268739198,
+      "segment": 9416863342705403477
+    },
+    "status": "valid",
+    "reference_count": 4
+  },
+  {
+    "instance_id": "P2-n10-s8-attempt-025",
+    "seed": 111025,
+    "combination_index": 1,
+    "candidates": 10,
+    "satellites": 8,
+    "attempt": 25,
+    "component_seeds": {
+      "contacts": 12428557010747225226,
+      "calendar": 9433171784239197299,
+      "tasks": 5145561734704269654,
+      "segment": 11311121268055045987
+    },
+    "status": "valid",
+    "reference_count": 5
+  },
+  {
+    "instance_id": "P2-n10-s8-attempt-026",
+    "seed": 111026,
+    "combination_index": 1,
+    "candidates": 10,
+    "satellites": 8,
+    "attempt": 26,
+    "component_seeds": {
+      "contacts": 7633796203787478509,
+      "calendar": 143824475293650391,
+      "tasks": 16876541663931313816,
+      "segment": 1675872645697361129
+    },
+    "status": "valid",
+    "reference_count": 8
+  },
+  {
+    "instance_id": "P2-n10-s8-attempt-027",
+    "seed": 111027,
+    "combination_index": 1,
+    "candidates": 10,
+    "satellites": 8,
+    "attempt": 27,
+    "component_seeds": {
+      "contacts": 8993526838795959368,
+      "calendar": 13840446496481038008,
+      "tasks": 12616131012418433295,
+      "segment": 10189804997660029708
+    },
+    "status": "valid",
+    "reference_count": 8
+  },
+  {
+    "instance_id": "P2-n10-s8-attempt-028",
+    "seed": 111028,
+    "combination_index": 1,
+    "candidates": 10,
+    "satellites": 8,
+    "attempt": 28,
+    "component_seeds": {
+      "contacts": 18237548687616495225,
+      "calendar": 7003610850117156691,
+      "tasks": 11689524661971809688,
+      "segment": 16040168009981348402
+    },
+    "status": "valid",
+    "reference_count": 4
+  },
+  {
+    "instance_id": "P2-n10-s8-attempt-029",
+    "seed": 111029,
+    "combination_index": 1,
+    "candidates": 10,
+    "satellites": 8,
+    "attempt": 29,
+    "component_seeds": {
+      "contacts": 9143508218439668226,
+      "calendar": 16362929859208369209,
+      "tasks": 2931796904920561904,
+      "segment": 15539528248214769412
+    },
+    "status": "valid",
+    "reference_count": 4
+  },
+  {
+    "instance_id": "P2-n10-s8-attempt-030",
+    "seed": 111030,
+    "combination_index": 1,
+    "candidates": 10,
+    "satellites": 8,
+    "attempt": 30,
+    "component_seeds": {
+      "contacts": 5196985605104515290,
+      "calendar": 8743390340963881545,
+      "tasks": 11077477698284929584,
+      "segment": 11734785445667447195
+    },
+    "status": "valid",
+    "reference_count": 6
+  },
+  {
+    "instance_id": "P2-n10-s8-attempt-031",
+    "seed": 111031,
+    "combination_index": 1,
+    "candidates": 10,
+    "satellites": 8,
+    "attempt": 31,
+    "component_seeds": {
+      "contacts": 5720050449105577837,
+      "calendar": 11372861971059905655,
+      "tasks": 9427497760561001585,
+      "segment": 11827517513401412934
+    },
+    "status": "valid",
+    "reference_count": 7
+  },
+  {
+    "instance_id": "P2-n10-s8-attempt-032",
+    "seed": 111032,
+    "combination_index": 1,
+    "candidates": 10,
+    "satellites": 8,
+    "attempt": 32,
+    "component_seeds": {
+      "contacts": 11707898446754013842,
+      "calendar": 8510649659175955061,
+      "tasks": 6424211312795526318,
+      "segment": 1143067619465743622
+    },
+    "status": "valid",
+    "reference_count": 4
+  },
+  {
+    "instance_id": "P2-n10-s8-attempt-033",
+    "seed": 111033,
+    "combination_index": 1,
+    "candidates": 10,
+    "satellites": 8,
+    "attempt": 33,
+    "component_seeds": {
+      "contacts": 15628576253346727943,
+      "calendar": 520200253458747210,
+      "tasks": 15863396255822866015,
+      "segment": 13100102448236375912
+    },
+    "status": "valid",
+    "reference_count": 3
+  },
+  {
+    "instance_id": "P2-n10-s8-attempt-034",
+    "seed": 111034,
+    "combination_index": 1,
+    "candidates": 10,
+    "satellites": 8,
+    "attempt": 34,
+    "component_seeds": {
+      "contacts": 17466694328291231918,
+      "calendar": 5070244640566437884,
+      "tasks": 11360039237645675283,
+      "segment": 7250858029039644454
+    },
+    "status": "valid",
+    "reference_count": 7
+  },
+  {
+    "instance_id": "P2-n10-s8-attempt-035",
+    "seed": 111035,
+    "combination_index": 1,
+    "candidates": 10,
+    "satellites": 8,
+    "attempt": 35,
+    "component_seeds": {
+      "contacts": 15554120529785986375,
+      "calendar": 223618827632175303,
+      "tasks": 10638055943641710580,
+      "segment": 12314925809809283979
+    },
+    "status": "valid",
+    "reference_count": 4
+  },
+  {
+    "instance_id": "P2-n10-s8-attempt-036",
+    "seed": 111036,
+    "combination_index": 1,
+    "candidates": 10,
+    "satellites": 8,
+    "attempt": 36,
+    "component_seeds": {
+      "contacts": 8803270680246497485,
+      "calendar": 4863309533004552710,
+      "tasks": 2856371378726657972,
+      "segment": 9442530023407372916
+    },
+    "status": "valid",
+    "reference_count": 5
+  },
+  {
+    "instance_id": "P2-n10-s8-attempt-037",
+    "seed": 111037,
+    "combination_index": 1,
+    "candidates": 10,
+    "satellites": 8,
+    "attempt": 37,
+    "component_seeds": {
+      "contacts": 6422161691140955110,
+      "calendar": 5124887149498173678,
+      "tasks": 6174743300796570814,
+      "segment": 15174489545954297425
+    },
+    "status": "valid",
+    "reference_count": 4
+  },
+  {
+    "instance_id": "P2-n10-s8-attempt-038",
+    "seed": 111038,
+    "combination_index": 1,
+    "candidates": 10,
+    "satellites": 8,
+    "attempt": 38,
+    "component_seeds": {
+      "contacts": 13626442899437911192,
+      "calendar": 16250384964274202417,
+      "tasks": 16952510793159303973,
+      "segment": 1911482138172597246
+    },
+    "status": "valid",
+    "reference_count": 6
+  },
+  {
+    "instance_id": "P2-n10-s8-attempt-039",
+    "seed": 111039,
+    "combination_index": 1,
+    "candidates": 10,
+    "satellites": 8,
+    "attempt": 39,
+    "component_seeds": {
+      "contacts": 4418760873967937648,
+      "calendar": 11417268890606830270,
+      "tasks": 6366567322139692205,
+      "segment": 1344094478839699928
+    },
+    "status": "valid",
+    "reference_count": 5
+  },
+  {
+    "instance_id": "P2-n10-s8-attempt-040",
+    "seed": 111040,
+    "combination_index": 1,
+    "candidates": 10,
+    "satellites": 8,
+    "attempt": 40,
+    "component_seeds": {
+      "contacts": 14784566222205872327,
+      "calendar": 4684563797487486257,
+      "tasks": 13565047896027636846,
+      "segment": 17624292729931922634
+    },
+    "status": "valid",
+    "reference_count": 2
+  },
+  {
+    "instance_id": "P2-n10-s8-attempt-041",
+    "seed": 111041,
+    "combination_index": 1,
+    "candidates": 10,
+    "satellites": 8,
+    "attempt": 41,
+    "component_seeds": {
+      "contacts": 3099260460518242017,
+      "calendar": 17215305860226088513,
+      "tasks": 15200264328941443809,
+      "segment": 8400279394159327048
+    },
+    "status": "valid",
+    "reference_count": 5
+  },
+  {
+    "instance_id": "P2-n10-s8-attempt-042",
+    "seed": 111042,
+    "combination_index": 1,
+    "candidates": 10,
+    "satellites": 8,
+    "attempt": 42,
+    "component_seeds": {
+      "contacts": 18156424999939298898,
+      "calendar": 11441810706234647963,
+      "tasks": 12114078442774049033,
+      "segment": 12181213411056207368
+    },
+    "status": "valid",
+    "reference_count": 4
+  },
+  {
+    "instance_id": "P2-n10-s8-attempt-043",
+    "seed": 111043,
+    "combination_index": 1,
+    "candidates": 10,
+    "satellites": 8,
+    "attempt": 43,
+    "component_seeds": {
+      "contacts": 11554134658330888255,
+      "calendar": 16052513662572449582,
+      "tasks": 14515530995744958921,
+      "segment": 11684501076269157924
+    },
+    "status": "valid",
+    "reference_count": 3
+  },
+  {
+    "instance_id": "P2-n10-s8-attempt-044",
+    "seed": 111044,
+    "combination_index": 1,
+    "candidates": 10,
+    "satellites": 8,
+    "attempt": 44,
+    "component_seeds": {
+      "contacts": 9118777773619361972,
+      "calendar": 10539677449539012050,
+      "tasks": 15965738089101592637,
+      "segment": 9114149178918679779
+    },
+    "status": "valid",
+    "reference_count": 1
+  },
+  {
+    "instance_id": "P2-n10-s8-attempt-045",
+    "seed": 111045,
+    "combination_index": 1,
+    "candidates": 10,
+    "satellites": 8,
+    "attempt": 45,
+    "component_seeds": {
+      "contacts": 1093032622163096461,
+      "calendar": 1065355089866138725,
+      "tasks": 15128089667865159647,
+      "segment": 16510579632359505501
+    },
+    "status": "valid",
+    "reference_count": 7
+  },
+  {
+    "instance_id": "P2-n10-s8-attempt-046",
+    "seed": 111046,
+    "combination_index": 1,
+    "candidates": 10,
+    "satellites": 8,
+    "attempt": 46,
+    "component_seeds": {
+      "contacts": 2427330444373962467,
+      "calendar": 15512410285593618795,
+      "tasks": 11002479391493933229,
+      "segment": 8592413642422301173
+    },
+    "status": "valid",
+    "reference_count": 5
+  },
+  {
+    "instance_id": "P2-n10-s8-attempt-047",
+    "seed": 111047,
+    "combination_index": 1,
+    "candidates": 10,
+    "satellites": 8,
+    "attempt": 47,
+    "component_seeds": {
+      "contacts": 10419557952487769277,
+      "calendar": 9285023950633234118,
+      "tasks": 1848283577912329630,
+      "segment": 6996570055027643247
+    },
+    "status": "valid",
+    "reference_count": 5
+  },
+  {
+    "instance_id": "P2-n10-s8-attempt-048",
+    "seed": 111048,
+    "combination_index": 1,
+    "candidates": 10,
+    "satellites": 8,
+    "attempt": 48,
+    "component_seeds": {
+      "contacts": 4535043408385183681,
+      "calendar": 8701620804410618133,
+      "tasks": 12743058516881206884,
+      "segment": 13043054232591999009
+    },
+    "status": "valid",
+    "reference_count": 7
+  },
+  {
+    "instance_id": "P2-n10-s8-attempt-049",
+    "seed": 111049,
+    "combination_index": 1,
+    "candidates": 10,
+    "satellites": 8,
+    "attempt": 49,
+    "component_seeds": {
+      "contacts": 11372336174927567609,
+      "calendar": 6055772477866592602,
+      "tasks": 1320550736967848026,
+      "segment": 1057997708618533801
+    },
+    "status": "valid",
+    "reference_count": 6
+  },
+  {
+    "instance_id": "P2-n10-s8-attempt-050",
+    "seed": 111050,
+    "combination_index": 1,
+    "candidates": 10,
+    "satellites": 8,
+    "attempt": 50,
+    "component_seeds": {
+      "contacts": 17655256434853603065,
+      "calendar": 10210264233814314840,
+      "tasks": 1409483391115549447,
+      "segment": 4651332999472524666
+    },
+    "status": "valid",
+    "reference_count": 1
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-000",
+    "seed": 112000,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 0,
+    "component_seeds": {
+      "contacts": 6776343277191088864,
+      "calendar": 4014198597646380915,
+      "tasks": 2156800117598887631,
+      "segment": 15914714025239902646
+    },
+    "status": "valid",
+    "reference_count": 8
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-001",
+    "seed": 112001,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 1,
+    "component_seeds": {
+      "contacts": 6635175225491860580,
+      "calendar": 837403515185744024,
+      "tasks": 1299169668013610496,
+      "segment": 4008129839879169477
+    },
+    "status": "valid",
+    "reference_count": 5
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-002",
+    "seed": 112002,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 2,
+    "component_seeds": {
+      "contacts": 1744413873253398074,
+      "calendar": 659584015546453929,
+      "tasks": 2462402287925065341,
+      "segment": 17586195438537708014
+    },
+    "status": "valid",
+    "reference_count": 10
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-003",
+    "seed": 112003,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 3,
+    "component_seeds": {
+      "contacts": 16672827774884066009,
+      "calendar": 2709091679854170799,
+      "tasks": 9963203183222759684,
+      "segment": 18063201421358556436
+    },
+    "status": "valid",
+    "reference_count": 8
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-004",
+    "seed": 112004,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 4,
+    "component_seeds": {
+      "contacts": 2447321358559478350,
+      "calendar": 15587150919960709476,
+      "tasks": 1251878951554084649,
+      "segment": 2811180678331782811
+    },
+    "status": "valid",
+    "reference_count": 10
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-005",
+    "seed": 112005,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 5,
+    "component_seeds": {
+      "contacts": 16552870309578101172,
+      "calendar": 15789129900835232966,
+      "tasks": 9541456777095507140,
+      "segment": 14169844617960119127
+    },
+    "status": "valid",
+    "reference_count": 7
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-006",
+    "seed": 112006,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 6,
+    "component_seeds": {
+      "contacts": 2059733208839541170,
+      "calendar": 16309667673886262326,
+      "tasks": 17608130480424248910,
+      "segment": 16474278805387778367
+    },
+    "status": "generation_failed",
+    "reason": "No contact pair available for contact-conditioned task draw"
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-007",
+    "seed": 112007,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 7,
+    "component_seeds": {
+      "contacts": 6023996433365191690,
+      "calendar": 16579987184921238220,
+      "tasks": 7777193399338783477,
+      "segment": 5475035069970980433
+    },
+    "status": "generation_failed",
+    "reason": "No contact pair available for contact-conditioned task draw"
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-008",
+    "seed": 112008,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 8,
+    "component_seeds": {
+      "contacts": 6542762915153102625,
+      "calendar": 16820951244739855590,
+      "tasks": 125831249605191923,
+      "segment": 13295667553168986901
+    },
+    "status": "valid",
+    "reference_count": 11
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-009",
+    "seed": 112009,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 9,
+    "component_seeds": {
+      "contacts": 12220287394826676741,
+      "calendar": 11353063457597864335,
+      "tasks": 2737204214313505763,
+      "segment": 8279908676023995470
+    },
+    "status": "valid",
+    "reference_count": 12
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-010",
+    "seed": 112010,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 10,
+    "component_seeds": {
+      "contacts": 15894169782150519347,
+      "calendar": 12417004309841773361,
+      "tasks": 12426814175964526066,
+      "segment": 4086755599538411369
+    },
+    "status": "valid",
+    "reference_count": 4
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-011",
+    "seed": 112011,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 11,
+    "component_seeds": {
+      "contacts": 9980708890813181269,
+      "calendar": 4154172969188342683,
+      "tasks": 4782649999919817876,
+      "segment": 4923925526435660607
+    },
+    "status": "valid",
+    "reference_count": 8
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-012",
+    "seed": 112012,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 12,
+    "component_seeds": {
+      "contacts": 4678393822079891033,
+      "calendar": 12561345183109233224,
+      "tasks": 8576841780787508210,
+      "segment": 10406610726350028732
+    },
+    "status": "generation_failed",
+    "reason": "No contact pair available for contact-conditioned task draw"
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-013",
+    "seed": 112013,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 13,
+    "component_seeds": {
+      "contacts": 15401389690124318427,
+      "calendar": 15384848940079653983,
+      "tasks": 12457618856895379348,
+      "segment": 3572356140203488372
+    },
+    "status": "generation_failed",
+    "reason": "No contact pair available for contact-conditioned task draw"
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-014",
+    "seed": 112014,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 14,
+    "component_seeds": {
+      "contacts": 6524260548283982050,
+      "calendar": 1364530375814003685,
+      "tasks": 7993020141429796124,
+      "segment": 15723098180108337018
+    },
+    "status": "valid",
+    "reference_count": 7
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-015",
+    "seed": 112015,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 15,
+    "component_seeds": {
+      "contacts": 3102178105361043382,
+      "calendar": 15948313860710597149,
+      "tasks": 4018250437368406221,
+      "segment": 17162355640171577994
+    },
+    "status": "valid",
+    "reference_count": 7
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-016",
+    "seed": 112016,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 16,
+    "component_seeds": {
+      "contacts": 10753197376150285528,
+      "calendar": 15762863598117256470,
+      "tasks": 1207527700383564660,
+      "segment": 18145234677347200675
+    },
+    "status": "generation_failed",
+    "reason": "No contact pair available for contact-conditioned task draw"
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-017",
+    "seed": 112017,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 17,
+    "component_seeds": {
+      "contacts": 10429396695667348303,
+      "calendar": 2519883947773392031,
+      "tasks": 8663590067554701755,
+      "segment": 4560331923327820596
+    },
+    "status": "generation_failed",
+    "reason": "No contact pair available for contact-conditioned task draw"
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-018",
+    "seed": 112018,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 18,
+    "component_seeds": {
+      "contacts": 7332838397826687111,
+      "calendar": 17692462821480806400,
+      "tasks": 16164851336336614698,
+      "segment": 1222852398116410907
+    },
+    "status": "valid",
+    "reference_count": 6
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-019",
+    "seed": 112019,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 19,
+    "component_seeds": {
+      "contacts": 9244393371161469278,
+      "calendar": 13762858989688606653,
+      "tasks": 2483216422657315253,
+      "segment": 9700529648909756460
+    },
+    "status": "valid",
+    "reference_count": 8
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-020",
+    "seed": 112020,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 20,
+    "component_seeds": {
+      "contacts": 536975033829950236,
+      "calendar": 1744008986194171012,
+      "tasks": 11067745863025238357,
+      "segment": 1065834582789620551
+    },
+    "status": "valid",
+    "reference_count": 10
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-021",
+    "seed": 112021,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 21,
+    "component_seeds": {
+      "contacts": 12828615799444651918,
+      "calendar": 1724432371720497236,
+      "tasks": 16203548911269821719,
+      "segment": 17918558002309857758
+    },
+    "status": "valid",
+    "reference_count": 5
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-022",
+    "seed": 112022,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 22,
+    "component_seeds": {
+      "contacts": 12725238972198329256,
+      "calendar": 334249894268008050,
+      "tasks": 17349064891175476908,
+      "segment": 14158741414908927553
+    },
+    "status": "generation_failed",
+    "reason": "No contact pair available for contact-conditioned task draw"
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-023",
+    "seed": 112023,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 23,
+    "component_seeds": {
+      "contacts": 4123846596986581407,
+      "calendar": 14608409798832848268,
+      "tasks": 11778069383616687023,
+      "segment": 18173045343080839817
+    },
+    "status": "generation_failed",
+    "reason": "No contact pair available for contact-conditioned task draw"
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-024",
+    "seed": 112024,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 24,
+    "component_seeds": {
+      "contacts": 5316074009263093184,
+      "calendar": 14256109679981997807,
+      "tasks": 2125690197483198809,
+      "segment": 13285360259254435150
+    },
+    "status": "valid",
+    "reference_count": 7
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-025",
+    "seed": 112025,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 25,
+    "component_seeds": {
+      "contacts": 12537076726257020094,
+      "calendar": 17730057737211720363,
+      "tasks": 15951023612654319409,
+      "segment": 16945647988248991162
+    },
+    "status": "valid",
+    "reference_count": 15
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-026",
+    "seed": 112026,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 26,
+    "component_seeds": {
+      "contacts": 5976226471875763954,
+      "calendar": 14734283182487052180,
+      "tasks": 10569155075107453714,
+      "segment": 16878177570830679378
+    },
+    "status": "valid",
+    "reference_count": 10
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-027",
+    "seed": 112027,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 27,
+    "component_seeds": {
+      "contacts": 14126629920159680472,
+      "calendar": 5178958034302991964,
+      "tasks": 14418369518813127887,
+      "segment": 13517554659182795454
+    },
+    "status": "generation_failed",
+    "reason": "No contact pair available for contact-conditioned task draw"
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-028",
+    "seed": 112028,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 28,
+    "component_seeds": {
+      "contacts": 1855653894478917570,
+      "calendar": 4740979975044387173,
+      "tasks": 17331146891260929657,
+      "segment": 8729029423227051961
+    },
+    "status": "generation_failed",
+    "reason": "No contact pair available for contact-conditioned task draw"
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-029",
+    "seed": 112029,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 29,
+    "component_seeds": {
+      "contacts": 9694492515939782548,
+      "calendar": 15584485398198915661,
+      "tasks": 16687310650244852755,
+      "segment": 1953712406134887430
+    },
+    "status": "valid",
+    "reference_count": 13
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-030",
+    "seed": 112030,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 30,
+    "component_seeds": {
+      "contacts": 18357996527545143964,
+      "calendar": 11732104006971755310,
+      "tasks": 10728920882821225533,
+      "segment": 12518860520422555443
+    },
+    "status": "valid",
+    "reference_count": 10
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-031",
+    "seed": 112031,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 31,
+    "component_seeds": {
+      "contacts": 8667266427103845706,
+      "calendar": 5134796888520932856,
+      "tasks": 2780074333882515142,
+      "segment": 4986538660411376650
+    },
+    "status": "valid",
+    "reference_count": 4
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-032",
+    "seed": 112032,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 32,
+    "component_seeds": {
+      "contacts": 12231718606308098246,
+      "calendar": 4411860711282579207,
+      "tasks": 17724904764408240130,
+      "segment": 5268369224850480012
+    },
+    "status": "valid",
+    "reference_count": 5
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-033",
+    "seed": 112033,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 33,
+    "component_seeds": {
+      "contacts": 6936913469149325226,
+      "calendar": 3811830193416507524,
+      "tasks": 8942974478326784337,
+      "segment": 1937178915597419011
+    },
+    "status": "valid",
+    "reference_count": 12
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-034",
+    "seed": 112034,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 34,
+    "component_seeds": {
+      "contacts": 16559660248471486238,
+      "calendar": 8664365135113840590,
+      "tasks": 7236303536155554496,
+      "segment": 7871486330050460173
+    },
+    "status": "valid",
+    "reference_count": 10
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-035",
+    "seed": 112035,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 35,
+    "component_seeds": {
+      "contacts": 1879585296709844488,
+      "calendar": 12785133536832892581,
+      "tasks": 16667656539304211689,
+      "segment": 2356235949219911762
+    },
+    "status": "valid",
+    "reference_count": 4
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-036",
+    "seed": 112036,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 36,
+    "component_seeds": {
+      "contacts": 3963012447823477833,
+      "calendar": 10799658460907337836,
+      "tasks": 2199650501713591682,
+      "segment": 771003156027388649
+    },
+    "status": "generation_failed",
+    "reason": "No contact pair available for contact-conditioned task draw"
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-037",
+    "seed": 112037,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 37,
+    "component_seeds": {
+      "contacts": 11144402389569167207,
+      "calendar": 7879566384192222815,
+      "tasks": 7437701335444305841,
+      "segment": 17428020392750682793
+    },
+    "status": "valid",
+    "reference_count": 11
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-038",
+    "seed": 112038,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 38,
+    "component_seeds": {
+      "contacts": 3147856314526665945,
+      "calendar": 17381980223872813667,
+      "tasks": 5581521683716126653,
+      "segment": 303085647604172624
+    },
+    "status": "generation_failed",
+    "reason": "No contact pair available for contact-conditioned task draw"
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-039",
+    "seed": 112039,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 39,
+    "component_seeds": {
+      "contacts": 7678496669202141073,
+      "calendar": 683530486176341856,
+      "tasks": 14837283345781841970,
+      "segment": 17016855637762708605
+    },
+    "status": "generation_failed",
+    "reason": "No contact pair available for contact-conditioned task draw"
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-040",
+    "seed": 112040,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 40,
+    "component_seeds": {
+      "contacts": 8244270253478285136,
+      "calendar": 11249779671082723409,
+      "tasks": 4798118669149625822,
+      "segment": 6746908546570149487
+    },
+    "status": "valid",
+    "reference_count": 5
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-041",
+    "seed": 112041,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 41,
+    "component_seeds": {
+      "contacts": 3260251400996531084,
+      "calendar": 6054883212727118902,
+      "tasks": 18258198174356755236,
+      "segment": 1038385400150776156
+    },
+    "status": "valid",
+    "reference_count": 2
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-042",
+    "seed": 112042,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 42,
+    "component_seeds": {
+      "contacts": 5810957218186210880,
+      "calendar": 18135637205400447541,
+      "tasks": 12825929041467330858,
+      "segment": 2174337065555912080
+    },
+    "status": "valid",
+    "reference_count": 6
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-043",
+    "seed": 112043,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 43,
+    "component_seeds": {
+      "contacts": 13041146990868540537,
+      "calendar": 95520438611372044,
+      "tasks": 2794446922044026147,
+      "segment": 3910705742315900748
+    },
+    "status": "generation_failed",
+    "reason": "No contact pair available for contact-conditioned task draw"
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-044",
+    "seed": 112044,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 44,
+    "component_seeds": {
+      "contacts": 14005354935404105124,
+      "calendar": 3654043864709958503,
+      "tasks": 16151320088331997613,
+      "segment": 2326495155861999367
+    },
+    "status": "generation_failed",
+    "reason": "No contact pair available for contact-conditioned task draw"
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-045",
+    "seed": 112045,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 45,
+    "component_seeds": {
+      "contacts": 4546172989198836826,
+      "calendar": 1109279873343798684,
+      "tasks": 16851086808135705440,
+      "segment": 789106136467811781
+    },
+    "status": "valid",
+    "reference_count": 5
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-046",
+    "seed": 112046,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 46,
+    "component_seeds": {
+      "contacts": 5051026522104811838,
+      "calendar": 6199617951784307288,
+      "tasks": 15050391923301598030,
+      "segment": 1516593530078774010
+    },
+    "status": "valid",
+    "reference_count": 11
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-047",
+    "seed": 112047,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 47,
+    "component_seeds": {
+      "contacts": 12582460637016858743,
+      "calendar": 7526525403148902248,
+      "tasks": 18159759761022197948,
+      "segment": 2149470662718391985
+    },
+    "status": "generation_failed",
+    "reason": "No contact pair available for contact-conditioned task draw"
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-048",
+    "seed": 112048,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 48,
+    "component_seeds": {
+      "contacts": 15161777955174498736,
+      "calendar": 7628624407844703381,
+      "tasks": 17307672605629184808,
+      "segment": 5881616771422613878
+    },
+    "status": "valid",
+    "reference_count": 9
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-049",
+    "seed": 112049,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 49,
+    "component_seeds": {
+      "contacts": 9368624177407433300,
+      "calendar": 14535471347460264144,
+      "tasks": 2724638118216753922,
+      "segment": 14135799610946104210
+    },
+    "status": "valid",
+    "reference_count": 2
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-050",
+    "seed": 112050,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 50,
+    "component_seeds": {
+      "contacts": 13640480956558587660,
+      "calendar": 419723074594139325,
+      "tasks": 4075167527595209225,
+      "segment": 17242619279469258373
+    },
+    "status": "generation_failed",
+    "reason": "No contact pair available for contact-conditioned task draw"
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-051",
+    "seed": 112051,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 51,
+    "component_seeds": {
+      "contacts": 12601459361254387278,
+      "calendar": 16502754027427137032,
+      "tasks": 16886405125720293930,
+      "segment": 17496355584179182907
+    },
+    "status": "valid",
+    "reference_count": 9
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-052",
+    "seed": 112052,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 52,
+    "component_seeds": {
+      "contacts": 15375597448212978979,
+      "calendar": 17664439690843131134,
+      "tasks": 17419814910516561727,
+      "segment": 9331078345215915740
+    },
+    "status": "valid",
+    "reference_count": 12
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-053",
+    "seed": 112053,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 53,
+    "component_seeds": {
+      "contacts": 13526793883221160250,
+      "calendar": 18139170314422498447,
+      "tasks": 13479016317400401870,
+      "segment": 5169993279725415119
+    },
+    "status": "generation_failed",
+    "reason": "No contact pair available for contact-conditioned task draw"
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-054",
+    "seed": 112054,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 54,
+    "component_seeds": {
+      "contacts": 13221570417506614340,
+      "calendar": 4661702224269057165,
+      "tasks": 17937580001034902494,
+      "segment": 18160404299533867553
+    },
+    "status": "generation_failed",
+    "reason": "empty_reference"
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-055",
+    "seed": 112055,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 55,
+    "component_seeds": {
+      "contacts": 180964260699344344,
+      "calendar": 159832193945949366,
+      "tasks": 4309937080205815007,
+      "segment": 7218084277431784539
+    },
+    "status": "valid",
+    "reference_count": 6
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-056",
+    "seed": 112056,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 56,
+    "component_seeds": {
+      "contacts": 6649556922909794365,
+      "calendar": 14184291335502873799,
+      "tasks": 6899233475962108464,
+      "segment": 8895107275173189085
+    },
+    "status": "valid",
+    "reference_count": 7
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-057",
+    "seed": 112057,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 57,
+    "component_seeds": {
+      "contacts": 9898451308128684886,
+      "calendar": 14160014583069658381,
+      "tasks": 12339491576255082096,
+      "segment": 12157723681537060941
+    },
+    "status": "valid",
+    "reference_count": 7
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-058",
+    "seed": 112058,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 58,
+    "component_seeds": {
+      "contacts": 17680262219038555889,
+      "calendar": 4206329434596532342,
+      "tasks": 16564325345001249774,
+      "segment": 1210953594030566445
+    },
+    "status": "valid",
+    "reference_count": 9
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-059",
+    "seed": 112059,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 59,
+    "component_seeds": {
+      "contacts": 16640099089944826235,
+      "calendar": 2812549449632535495,
+      "tasks": 14343016468014855893,
+      "segment": 18202349187969681138
+    },
+    "status": "valid",
+    "reference_count": 5
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-060",
+    "seed": 112060,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 60,
+    "component_seeds": {
+      "contacts": 17990045388613105252,
+      "calendar": 17243279360296823262,
+      "tasks": 6349916722746173760,
+      "segment": 8685060539163774303
+    },
+    "status": "valid",
+    "reference_count": 10
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-061",
+    "seed": 112061,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 61,
+    "component_seeds": {
+      "contacts": 8088594194157001727,
+      "calendar": 4289561948166943943,
+      "tasks": 17056116877029537248,
+      "segment": 17704949782492526163
+    },
+    "status": "valid",
+    "reference_count": 11
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-062",
+    "seed": 112062,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 62,
+    "component_seeds": {
+      "contacts": 3980044675293433384,
+      "calendar": 5097945145437130218,
+      "tasks": 16933013869422142754,
+      "segment": 8360919125423158428
+    },
+    "status": "valid",
+    "reference_count": 8
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-063",
+    "seed": 112063,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 63,
+    "component_seeds": {
+      "contacts": 15077411576187993086,
+      "calendar": 7620377523369233896,
+      "tasks": 10991444928277914831,
+      "segment": 3025452763708488960
+    },
+    "status": "valid",
+    "reference_count": 10
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-064",
+    "seed": 112064,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 64,
+    "component_seeds": {
+      "contacts": 3046646140947547820,
+      "calendar": 5347023453383808475,
+      "tasks": 14456042275676682435,
+      "segment": 14559872638872329077
+    },
+    "status": "generation_failed",
+    "reason": "No contact pair available for contact-conditioned task draw"
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-065",
+    "seed": 112065,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 65,
+    "component_seeds": {
+      "contacts": 8281001244503399801,
+      "calendar": 9786021408479869190,
+      "tasks": 13305039239042587355,
+      "segment": 4316999622822672536
+    },
+    "status": "generation_failed",
+    "reason": "No contact pair available for contact-conditioned task draw"
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-066",
+    "seed": 112066,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 66,
+    "component_seeds": {
+      "contacts": 15312185709055986905,
+      "calendar": 16921393192646686411,
+      "tasks": 5378078284013840048,
+      "segment": 9784146231721371352
+    },
+    "status": "valid",
+    "reference_count": 4
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-067",
+    "seed": 112067,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 67,
+    "component_seeds": {
+      "contacts": 8006572491302986427,
+      "calendar": 13774890105983933824,
+      "tasks": 9307664049541922455,
+      "segment": 1310620102428810816
+    },
+    "status": "valid",
+    "reference_count": 10
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-068",
+    "seed": 112068,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 68,
+    "component_seeds": {
+      "contacts": 15137941474341597757,
+      "calendar": 6574976755996384401,
+      "tasks": 309890006525019861,
+      "segment": 1061800362596963875
+    },
+    "status": "valid",
+    "reference_count": 6
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-069",
+    "seed": 112069,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 69,
+    "component_seeds": {
+      "contacts": 9375906360777093125,
+      "calendar": 7837191489330952018,
+      "tasks": 4714830200625944205,
+      "segment": 17989900525861547470
+    },
+    "status": "generation_failed",
+    "reason": "No contact pair available for contact-conditioned task draw"
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-070",
+    "seed": 112070,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 70,
+    "component_seeds": {
+      "contacts": 14909788604553716318,
+      "calendar": 1540329014172464306,
+      "tasks": 16976829425811230578,
+      "segment": 10536638959420388465
+    },
+    "status": "valid",
+    "reference_count": 7
+  },
+  {
+    "instance_id": "P2-n20-s4-attempt-071",
+    "seed": 112071,
+    "combination_index": 2,
+    "candidates": 20,
+    "satellites": 4,
+    "attempt": 71,
+    "component_seeds": {
+      "contacts": 15733560721411725046,
+      "calendar": 641493388477438605,
+      "tasks": 286970569039573331,
+      "segment": 15794797117140179554
+    },
+    "status": "valid",
+    "reference_count": 7
+  },
+  {
+    "instance_id": "P2-n20-s8-attempt-000",
+    "seed": 113000,
+    "combination_index": 3,
+    "candidates": 20,
+    "satellites": 8,
+    "attempt": 0,
+    "component_seeds": {
+      "contacts": 9491241073097990992,
+      "calendar": 17352482338698120588,
+      "tasks": 15464103107653563724,
+      "segment": 561185486850797601
+    },
+    "status": "valid",
+    "reference_count": 9
+  },
+  {
+    "instance_id": "P2-n20-s8-attempt-001",
+    "seed": 113001,
+    "combination_index": 3,
+    "candidates": 20,
+    "satellites": 8,
+    "attempt": 1,
+    "component_seeds": {
+      "contacts": 17674858945321112680,
+      "calendar": 17860196647427487728,
+      "tasks": 12695477457653183539,
+      "segment": 17340536141485541655
+    },
+    "status": "valid",
+    "reference_count": 6
+  },
+  {
+    "instance_id": "P2-n20-s8-attempt-002",
+    "seed": 113002,
+    "combination_index": 3,
+    "candidates": 20,
+    "satellites": 8,
+    "attempt": 2,
+    "component_seeds": {
+      "contacts": 16086496096804618862,
+      "calendar": 15590864928913402218,
+      "tasks": 1964969673491614913,
+      "segment": 10424896104264014544
+    },
+    "status": "valid",
+    "reference_count": 9
+  },
+  {
+    "instance_id": "P2-n20-s8-attempt-003",
+    "seed": 113003,
+    "combination_index": 3,
+    "candidates": 20,
+    "satellites": 8,
+    "attempt": 3,
+    "component_seeds": {
+      "contacts": 11269893323061988901,
+      "calendar": 7276511498070023942,
+      "tasks": 5013405057823280447,
+      "segment": 18326198850902794488
+    },
+    "status": "valid",
+    "reference_count": 7
+  },
+  {
+    "instance_id": "P2-n20-s8-attempt-004",
+    "seed": 113004,
+    "combination_index": 3,
+    "candidates": 20,
+    "satellites": 8,
+    "attempt": 4,
+    "component_seeds": {
+      "contacts": 7913838235841264596,
+      "calendar": 2303045867824391737,
+      "tasks": 2989108441383806991,
+      "segment": 11232815741112720730
+    },
+    "status": "valid",
+    "reference_count": 12
+  },
+  {
+    "instance_id": "P2-n20-s8-attempt-005",
+    "seed": 113005,
+    "combination_index": 3,
+    "candidates": 20,
+    "satellites": 8,
+    "attempt": 5,
+    "component_seeds": {
+      "contacts": 18016597074594902180,
+      "calendar": 7229120911053837854,
+      "tasks": 1668442347703520287,
+      "segment": 11004997389654369874
+    },
+    "status": "valid",
+    "reference_count": 5
+  },
+  {
+    "instance_id": "P2-n20-s8-attempt-006",
+    "seed": 113006,
+    "combination_index": 3,
+    "candidates": 20,
+    "satellites": 8,
+    "attempt": 6,
+    "component_seeds": {
+      "contacts": 15756402885932870143,
+      "calendar": 12545577089406276728,
+      "tasks": 8602965071652244058,
+      "segment": 11297587439194915789
+    },
+    "status": "valid",
+    "reference_count": 8
+  },
+  {
+    "instance_id": "P2-n20-s8-attempt-007",
+    "seed": 113007,
+    "combination_index": 3,
+    "candidates": 20,
+    "satellites": 8,
+    "attempt": 7,
+    "component_seeds": {
+      "contacts": 33729505785175627,
+      "calendar": 2567495424533567792,
+      "tasks": 16770574645692290843,
+      "segment": 5839210603824519421
+    },
+    "status": "valid",
+    "reference_count": 8
+  },
+  {
+    "instance_id": "P2-n20-s8-attempt-008",
+    "seed": 113008,
+    "combination_index": 3,
+    "candidates": 20,
+    "satellites": 8,
+    "attempt": 8,
+    "component_seeds": {
+      "contacts": 3382938403388760706,
+      "calendar": 782006795946839997,
+      "tasks": 12917465127293103699,
+      "segment": 9786973440353668120
+    },
+    "status": "valid",
+    "reference_count": 7
+  },
+  {
+    "instance_id": "P2-n20-s8-attempt-009",
+    "seed": 113009,
+    "combination_index": 3,
+    "candidates": 20,
+    "satellites": 8,
+    "attempt": 9,
+    "component_seeds": {
+      "contacts": 17849770971315037177,
+      "calendar": 1262722145859882464,
+      "tasks": 18227502858180558164,
+      "segment": 15524370063881533893
+    },
+    "status": "valid",
+    "reference_count": 13
+  },
+  {
+    "instance_id": "P2-n20-s8-attempt-010",
+    "seed": 113010,
+    "combination_index": 3,
+    "candidates": 20,
+    "satellites": 8,
+    "attempt": 10,
+    "component_seeds": {
+      "contacts": 12796254524866057868,
+      "calendar": 1781462925260021000,
+      "tasks": 124813107618530475,
+      "segment": 18025500862979588652
+    },
+    "status": "valid",
+    "reference_count": 3
+  },
+  {
+    "instance_id": "P2-n20-s8-attempt-011",
+    "seed": 113011,
+    "combination_index": 3,
+    "candidates": 20,
+    "satellites": 8,
+    "attempt": 11,
+    "component_seeds": {
+      "contacts": 5645993740366909208,
+      "calendar": 6984229201681703941,
+      "tasks": 12975892666493176205,
+      "segment": 4819710643300772309
+    },
+    "status": "valid",
+    "reference_count": 4
+  },
+  {
+    "instance_id": "P2-n20-s8-attempt-012",
+    "seed": 113012,
+    "combination_index": 3,
+    "candidates": 20,
+    "satellites": 8,
+    "attempt": 12,
+    "component_seeds": {
+      "contacts": 5396624937737848144,
+      "calendar": 2111878471739580430,
+      "tasks": 5997926954491732178,
+      "segment": 15374195275375511405
+    },
+    "status": "valid",
+    "reference_count": 9
+  },
+  {
+    "instance_id": "P2-n20-s8-attempt-013",
+    "seed": 113013,
+    "combination_index": 3,
+    "candidates": 20,
+    "satellites": 8,
+    "attempt": 13,
+    "component_seeds": {
+      "contacts": 17615233120003550122,
+      "calendar": 9833260023684993729,
+      "tasks": 5632246687717389043,
+      "segment": 9499316343192689000
+    },
+    "status": "valid",
+    "reference_count": 6
+  },
+  {
+    "instance_id": "P2-n20-s8-attempt-014",
+    "seed": 113014,
+    "combination_index": 3,
+    "candidates": 20,
+    "satellites": 8,
+    "attempt": 14,
+    "component_seeds": {
+      "contacts": 14846915294154192830,
+      "calendar": 5524659649888346085,
+      "tasks": 18335681772091368008,
+      "segment": 12238834817451655783
+    },
+    "status": "valid",
+    "reference_count": 13
+  },
+  {
+    "instance_id": "P2-n20-s8-attempt-015",
+    "seed": 113015,
+    "combination_index": 3,
+    "candidates": 20,
+    "satellites": 8,
+    "attempt": 15,
+    "component_seeds": {
+      "contacts": 17961917537063468834,
+      "calendar": 9879075020527702791,
+      "tasks": 6423326643473535185,
+      "segment": 11890637859362995415
+    },
+    "status": "valid",
+    "reference_count": 5
+  },
+  {
+    "instance_id": "P2-n20-s8-attempt-016",
+    "seed": 113016,
+    "combination_index": 3,
+    "candidates": 20,
+    "satellites": 8,
+    "attempt": 16,
+    "component_seeds": {
+      "contacts": 17469736507685779348,
+      "calendar": 14324836314776979863,
+      "tasks": 3283779929421696735,
+      "segment": 7185198918137133518
+    },
+    "status": "valid",
+    "reference_count": 6
+  },
+  {
+    "instance_id": "P2-n20-s8-attempt-017",
+    "seed": 113017,
+    "combination_index": 3,
+    "candidates": 20,
+    "satellites": 8,
+    "attempt": 17,
+    "component_seeds": {
+      "contacts": 5570156655780282498,
+      "calendar": 6255349573785980648,
+      "tasks": 398109833414483458,
+      "segment": 12641900495255945512
+    },
+    "status": "valid",
+    "reference_count": 9
+  },
+  {
+    "instance_id": "P2-n20-s8-attempt-018",
+    "seed": 113018,
+    "combination_index": 3,
+    "candidates": 20,
+    "satellites": 8,
+    "attempt": 18,
+    "component_seeds": {
+      "contacts": 6970838360290132427,
+      "calendar": 727898867529487938,
+      "tasks": 13315673870688947601,
+      "segment": 408290607787653171
+    },
+    "status": "valid",
+    "reference_count": 9
+  },
+  {
+    "instance_id": "P2-n20-s8-attempt-019",
+    "seed": 113019,
+    "combination_index": 3,
+    "candidates": 20,
+    "satellites": 8,
+    "attempt": 19,
+    "component_seeds": {
+      "contacts": 17581677544386144022,
+      "calendar": 6666441504493997640,
+      "tasks": 16624330285285687130,
+      "segment": 13867058897708319913
+    },
+    "status": "valid",
+    "reference_count": 11
+  },
+  {
+    "instance_id": "P2-n20-s8-attempt-020",
+    "seed": 113020,
+    "combination_index": 3,
+    "candidates": 20,
+    "satellites": 8,
+    "attempt": 20,
+    "component_seeds": {
+      "contacts": 8240318612267153072,
+      "calendar": 12228020706458408068,
+      "tasks": 12565237015470626905,
+      "segment": 1022608211524585644
+    },
+    "status": "valid",
+    "reference_count": 10
+  },
+  {
+    "instance_id": "P2-n20-s8-attempt-021",
+    "seed": 113021,
+    "combination_index": 3,
+    "candidates": 20,
+    "satellites": 8,
+    "attempt": 21,
+    "component_seeds": {
+      "contacts": 8699173953077092526,
+      "calendar": 16354107923884158605,
+      "tasks": 8571329793661189115,
+      "segment": 13950412367674588827
+    },
+    "status": "valid",
+    "reference_count": 8
+  },
+  {
+    "instance_id": "P2-n20-s8-attempt-022",
+    "seed": 113022,
+    "combination_index": 3,
+    "candidates": 20,
+    "satellites": 8,
+    "attempt": 22,
+    "component_seeds": {
+      "contacts": 4148521773990086281,
+      "calendar": 16094001116863836064,
+      "tasks": 7421944111107510820,
+      "segment": 1793062160356875173
+    },
+    "status": "valid",
+    "reference_count": 10
+  },
+  {
+    "instance_id": "P2-n20-s8-attempt-023",
+    "seed": 113023,
+    "combination_index": 3,
+    "candidates": 20,
+    "satellites": 8,
+    "attempt": 23,
+    "component_seeds": {
+      "contacts": 12123655202683103232,
+      "calendar": 15187519150712474767,
+      "tasks": 18166061941776938347,
+      "segment": 10045859496004009429
+    },
+    "status": "valid",
+    "reference_count": 13
+  },
+  {
+    "instance_id": "P2-n20-s8-attempt-024",
+    "seed": 113024,
+    "combination_index": 3,
+    "candidates": 20,
+    "satellites": 8,
+    "attempt": 24,
+    "component_seeds": {
+      "contacts": 16332998722227167412,
+      "calendar": 13866557074170992569,
+      "tasks": 6689549761946202894,
+      "segment": 17528532640961662152
+    },
+    "status": "valid",
+    "reference_count": 10
+  },
+  {
+    "instance_id": "P2-n20-s8-attempt-025",
+    "seed": 113025,
+    "combination_index": 3,
+    "candidates": 20,
+    "satellites": 8,
+    "attempt": 25,
+    "component_seeds": {
+      "contacts": 16167776865947687296,
+      "calendar": 765789017975191958,
+      "tasks": 18297111113119821545,
+      "segment": 5784142374362705990
+    },
+    "status": "valid",
+    "reference_count": 5
+  },
+  {
+    "instance_id": "P2-n20-s8-attempt-026",
+    "seed": 113026,
+    "combination_index": 3,
+    "candidates": 20,
+    "satellites": 8,
+    "attempt": 26,
+    "component_seeds": {
+      "contacts": 11138095838037151817,
+      "calendar": 13360075050516991055,
+      "tasks": 8927996123448990364,
+      "segment": 16795213756208780653
+    },
+    "status": "valid",
+    "reference_count": 9
+  },
+  {
+    "instance_id": "P2-n20-s8-attempt-027",
+    "seed": 113027,
+    "combination_index": 3,
+    "candidates": 20,
+    "satellites": 8,
+    "attempt": 27,
+    "component_seeds": {
+      "contacts": 4993300168802664517,
+      "calendar": 12475233798457611328,
+      "tasks": 3453225480548927771,
+      "segment": 14636948992331486751
+    },
+    "status": "valid",
+    "reference_count": 4
+  },
+  {
+    "instance_id": "P2-n20-s8-attempt-028",
+    "seed": 113028,
+    "combination_index": 3,
+    "candidates": 20,
+    "satellites": 8,
+    "attempt": 28,
+    "component_seeds": {
+      "contacts": 7330438535361624527,
+      "calendar": 8363394613166420677,
+      "tasks": 17851609869453328699,
+      "segment": 10437600503611188090
+    },
+    "status": "valid",
+    "reference_count": 14
+  },
+  {
+    "instance_id": "P2-n20-s8-attempt-029",
+    "seed": 113029,
+    "combination_index": 3,
+    "candidates": 20,
+    "satellites": 8,
+    "attempt": 29,
+    "component_seeds": {
+      "contacts": 117219285219560828,
+      "calendar": 10603637301861477379,
+      "tasks": 722902958338177734,
+      "segment": 12542614733910455701
+    },
+    "status": "valid",
+    "reference_count": 10
+  },
+  {
+    "instance_id": "P2-n20-s8-attempt-030",
+    "seed": 113030,
+    "combination_index": 3,
+    "candidates": 20,
+    "satellites": 8,
+    "attempt": 30,
+    "component_seeds": {
+      "contacts": 17250637618814064349,
+      "calendar": 15318050463159429916,
+      "tasks": 14029180986871371876,
+      "segment": 9215727391056351413
+    },
+    "status": "valid",
+    "reference_count": 12
+  },
+  {
+    "instance_id": "P2-n20-s8-attempt-031",
+    "seed": 113031,
+    "combination_index": 3,
+    "candidates": 20,
+    "satellites": 8,
+    "attempt": 31,
+    "component_seeds": {
+      "contacts": 14845609642542769597,
+      "calendar": 17097893702706094432,
+      "tasks": 17158489858988763244,
+      "segment": 12382987806531140142
+    },
+    "status": "valid",
+    "reference_count": 12
+  },
+  {
+    "instance_id": "P2-n20-s8-attempt-032",
+    "seed": 113032,
+    "combination_index": 3,
+    "candidates": 20,
+    "satellites": 8,
+    "attempt": 32,
+    "component_seeds": {
+      "contacts": 13507591899745278798,
+      "calendar": 5329925089531652343,
+      "tasks": 12810636634319193860,
+      "segment": 5179235271478975914
+    },
+    "status": "valid",
+    "reference_count": 7
+  },
+  {
+    "instance_id": "P2-n20-s8-attempt-033",
+    "seed": 113033,
+    "combination_index": 3,
+    "candidates": 20,
+    "satellites": 8,
+    "attempt": 33,
+    "component_seeds": {
+      "contacts": 10998274820464430368,
+      "calendar": 8524366618075578418,
+      "tasks": 13493005023784096682,
+      "segment": 826913934450833007
+    },
+    "status": "valid",
+    "reference_count": 11
+  },
+  {
+    "instance_id": "P2-n20-s8-attempt-034",
+    "seed": 113034,
+    "combination_index": 3,
+    "candidates": 20,
+    "satellites": 8,
+    "attempt": 34,
+    "component_seeds": {
+      "contacts": 15002742587568302536,
+      "calendar": 15256624574269543359,
+      "tasks": 7552511585659665528,
+      "segment": 4089940376831833715
+    },
+    "status": "valid",
+    "reference_count": 11
+  },
+  {
+    "instance_id": "P2-n20-s8-attempt-035",
+    "seed": 113035,
+    "combination_index": 3,
+    "candidates": 20,
+    "satellites": 8,
+    "attempt": 35,
+    "component_seeds": {
+      "contacts": 4846765254979214912,
+      "calendar": 8852490695321032940,
+      "tasks": 3635874616204805007,
+      "segment": 5051660078043803882
+    },
+    "status": "valid",
+    "reference_count": 5
+  },
+  {
+    "instance_id": "P2-n20-s8-attempt-036",
+    "seed": 113036,
+    "combination_index": 3,
+    "candidates": 20,
+    "satellites": 8,
+    "attempt": 36,
+    "component_seeds": {
+      "contacts": 18234418119283156169,
+      "calendar": 11832573985424885217,
+      "tasks": 11488350683445472079,
+      "segment": 15536367343516970547
+    },
+    "status": "valid",
+    "reference_count": 6
+  },
+  {
+    "instance_id": "P2-n20-s8-attempt-037",
+    "seed": 113037,
+    "combination_index": 3,
+    "candidates": 20,
+    "satellites": 8,
+    "attempt": 37,
+    "component_seeds": {
+      "contacts": 17512000140114791086,
+      "calendar": 3627329428968255788,
+      "tasks": 2322663375207854796,
+      "segment": 4201696037215409091
+    },
+    "status": "valid",
+    "reference_count": 5
+  },
+  {
+    "instance_id": "P2-n20-s8-attempt-038",
+    "seed": 113038,
+    "combination_index": 3,
+    "candidates": 20,
+    "satellites": 8,
+    "attempt": 38,
+    "component_seeds": {
+      "contacts": 6144455633456068438,
+      "calendar": 6721784388745994642,
+      "tasks": 18177902847024001853,
+      "segment": 5702699786779949422
+    },
+    "status": "valid",
+    "reference_count": 4
+  },
+  {
+    "instance_id": "P2-n20-s8-attempt-039",
+    "seed": 113039,
+    "combination_index": 3,
+    "candidates": 20,
+    "satellites": 8,
+    "attempt": 39,
+    "component_seeds": {
+      "contacts": 13289261086767713678,
+      "calendar": 3652251507486955899,
+      "tasks": 4113833541054363686,
+      "segment": 16241877086674789721
+    },
+    "status": "valid",
+    "reference_count": 9
+  },
+  {
+    "instance_id": "P2-n20-s8-attempt-040",
+    "seed": 113040,
+    "combination_index": 3,
+    "candidates": 20,
+    "satellites": 8,
+    "attempt": 40,
+    "component_seeds": {
+      "contacts": 7532902732522383953,
+      "calendar": 962154708020484168,
+      "tasks": 2245642037190341966,
+      "segment": 3754603647776128224
+    },
+    "status": "valid",
+    "reference_count": 10
+  },
+  {
+    "instance_id": "P2-n20-s8-attempt-041",
+    "seed": 113041,
+    "combination_index": 3,
+    "candidates": 20,
+    "satellites": 8,
+    "attempt": 41,
+    "component_seeds": {
+      "contacts": 5963162739665717468,
+      "calendar": 220185541683616274,
+      "tasks": 11326230293907859964,
+      "segment": 4106251566855997590
+    },
+    "status": "valid",
+    "reference_count": 13
+  },
+  {
+    "instance_id": "P2-n20-s8-attempt-042",
+    "seed": 113042,
+    "combination_index": 3,
+    "candidates": 20,
+    "satellites": 8,
+    "attempt": 42,
+    "component_seeds": {
+      "contacts": 2215043342155489395,
+      "calendar": 6378305609295240915,
+      "tasks": 2350500673751694109,
+      "segment": 9662656088960414909
+    },
+    "status": "valid",
+    "reference_count": 12
+  },
+  {
+    "instance_id": "P2-n20-s8-attempt-043",
+    "seed": 113043,
+    "combination_index": 3,
+    "candidates": 20,
+    "satellites": 8,
+    "attempt": 43,
+    "component_seeds": {
+      "contacts": 12354597985387593708,
+      "calendar": 11404391776168230475,
+      "tasks": 12869369279061549647,
+      "segment": 15455850685394965560
+    },
+    "status": "valid",
+    "reference_count": 9
+  },
+  {
+    "instance_id": "P2-n20-s8-attempt-044",
+    "seed": 113044,
+    "combination_index": 3,
+    "candidates": 20,
+    "satellites": 8,
+    "attempt": 44,
+    "component_seeds": {
+      "contacts": 18223047206370555925,
+      "calendar": 1410121954126101297,
+      "tasks": 2768908991655747986,
+      "segment": 4491037761182099419
+    },
+    "status": "valid",
+    "reference_count": 5
+  },
+  {
+    "instance_id": "P2-n20-s8-attempt-045",
+    "seed": 113045,
+    "combination_index": 3,
+    "candidates": 20,
+    "satellites": 8,
+    "attempt": 45,
+    "component_seeds": {
+      "contacts": 4434787855446944356,
+      "calendar": 3000095658518452897,
+      "tasks": 5287525733638063180,
+      "segment": 5966309348441669845
+    },
+    "status": "valid",
+    "reference_count": 12
+  },
+  {
+    "instance_id": "P2-n20-s8-attempt-046",
+    "seed": 113046,
+    "combination_index": 3,
+    "candidates": 20,
+    "satellites": 8,
+    "attempt": 46,
+    "component_seeds": {
+      "contacts": 723264309126518482,
+      "calendar": 12359778251146467970,
+      "tasks": 17421523932019017590,
+      "segment": 6909226261882946366
+    },
+    "status": "valid",
+    "reference_count": 13
+  },
+  {
+    "instance_id": "P2-n20-s8-attempt-047",
+    "seed": 113047,
+    "combination_index": 3,
+    "candidates": 20,
+    "satellites": 8,
+    "attempt": 47,
+    "component_seeds": {
+      "contacts": 5189940087333759796,
+      "calendar": 7312945866738611045,
+      "tasks": 16405814990909928513,
+      "segment": 2870524175454007708
+    },
+    "status": "valid",
+    "reference_count": 10
+  },
+  {
+    "instance_id": "P2-n20-s8-attempt-048",
+    "seed": 113048,
+    "combination_index": 3,
+    "candidates": 20,
+    "satellites": 8,
+    "attempt": 48,
+    "component_seeds": {
+      "contacts": 12656478401764740107,
+      "calendar": 17034742552804825426,
+      "tasks": 8744647005590742618,
+      "segment": 15922169957636128629
+    },
+    "status": "valid",
+    "reference_count": 7
+  },
+  {
+    "instance_id": "P2-n20-s8-attempt-049",
+    "seed": 113049,
+    "combination_index": 3,
+    "candidates": 20,
+    "satellites": 8,
+    "attempt": 49,
+    "component_seeds": {
+      "contacts": 9362594175476295975,
+      "calendar": 812131541507206142,
+      "tasks": 17792697153042298949,
+      "segment": 3464815287728801614
+    },
+    "status": "valid",
+    "reference_count": 6
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-000",
+    "seed": 114000,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 0,
+    "component_seeds": {
+      "contacts": 12428318132395634467,
+      "calendar": 1019983029272480927,
+      "tasks": 5523459213887661611,
+      "segment": 6202258887127417295
+    },
+    "status": "valid",
+    "reference_count": 11
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-001",
+    "seed": 114001,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 1,
+    "component_seeds": {
+      "contacts": 16596659317001788041,
+      "calendar": 14007722371392448564,
+      "tasks": 12924778713033465069,
+      "segment": 14904980037948855679
+    },
+    "status": "valid",
+    "reference_count": 1
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-002",
+    "seed": 114002,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 2,
+    "component_seeds": {
+      "contacts": 1922198298141706087,
+      "calendar": 11318485001930769651,
+      "tasks": 12603612122054621165,
+      "segment": 14257331574159850216
+    },
+    "status": "valid",
+    "reference_count": 14
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-003",
+    "seed": 114003,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 3,
+    "component_seeds": {
+      "contacts": 8746551700940770738,
+      "calendar": 215417581589316185,
+      "tasks": 16153246395648973658,
+      "segment": 6891398637887923813
+    },
+    "status": "valid",
+    "reference_count": 9
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-004",
+    "seed": 114004,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 4,
+    "component_seeds": {
+      "contacts": 16725786841148803699,
+      "calendar": 5311997188350353230,
+      "tasks": 1377713585851045503,
+      "segment": 2496198125221544308
+    },
+    "status": "valid",
+    "reference_count": 10
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-005",
+    "seed": 114005,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 5,
+    "component_seeds": {
+      "contacts": 2996281657384088254,
+      "calendar": 2015275173555799773,
+      "tasks": 5324321030255964949,
+      "segment": 13789914461840706376
+    },
+    "status": "valid",
+    "reference_count": 12
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-006",
+    "seed": 114006,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 6,
+    "component_seeds": {
+      "contacts": 15526645162319847009,
+      "calendar": 18056877735441827601,
+      "tasks": 1153426794113587902,
+      "segment": 6755871761768044014
+    },
+    "status": "valid",
+    "reference_count": 5
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-007",
+    "seed": 114007,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 7,
+    "component_seeds": {
+      "contacts": 10402589420126086596,
+      "calendar": 10272865557502869361,
+      "tasks": 15205846800990348793,
+      "segment": 2293561308603176356
+    },
+    "status": "valid",
+    "reference_count": 13
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-008",
+    "seed": 114008,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 8,
+    "component_seeds": {
+      "contacts": 12549534677301476092,
+      "calendar": 9999709106811995639,
+      "tasks": 8119390225556854737,
+      "segment": 7556634986345114626
+    },
+    "status": "generation_failed",
+    "reason": "No contact pair available for contact-conditioned task draw"
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-009",
+    "seed": 114009,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 9,
+    "component_seeds": {
+      "contacts": 6452496412604152249,
+      "calendar": 15673479691484861419,
+      "tasks": 12812185573289468761,
+      "segment": 2855095268001181807
+    },
+    "status": "valid",
+    "reference_count": 6
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-010",
+    "seed": 114010,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 10,
+    "component_seeds": {
+      "contacts": 3020086569485330471,
+      "calendar": 15489178571478634282,
+      "tasks": 4911121319888155343,
+      "segment": 6658210698471015881
+    },
+    "status": "valid",
+    "reference_count": 14
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-011",
+    "seed": 114011,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 11,
+    "component_seeds": {
+      "contacts": 6520059791807225478,
+      "calendar": 14910479557068116225,
+      "tasks": 15157915168685699975,
+      "segment": 16871268837611107094
+    },
+    "status": "generation_failed",
+    "reason": "No contact pair available for contact-conditioned task draw"
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-012",
+    "seed": 114012,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 12,
+    "component_seeds": {
+      "contacts": 2083139723153920434,
+      "calendar": 6772907473247974216,
+      "tasks": 5414598093770702084,
+      "segment": 1269173991216617064
+    },
+    "status": "generation_failed",
+    "reason": "No contact pair available for contact-conditioned task draw"
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-013",
+    "seed": 114013,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 13,
+    "component_seeds": {
+      "contacts": 8002240733423600866,
+      "calendar": 14071243573264177545,
+      "tasks": 5342006120256507325,
+      "segment": 279583594474410587
+    },
+    "status": "valid",
+    "reference_count": 5
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-014",
+    "seed": 114014,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 14,
+    "component_seeds": {
+      "contacts": 9609969561300989884,
+      "calendar": 9418461950607242198,
+      "tasks": 270030162704099193,
+      "segment": 11802455526813418321
+    },
+    "status": "valid",
+    "reference_count": 15
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-015",
+    "seed": 114015,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 15,
+    "component_seeds": {
+      "contacts": 12940468506195119952,
+      "calendar": 10930600961911248,
+      "tasks": 3547790051295157745,
+      "segment": 12685488799133401245
+    },
+    "status": "generation_failed",
+    "reason": "No contact pair available for contact-conditioned task draw"
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-016",
+    "seed": 114016,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 16,
+    "component_seeds": {
+      "contacts": 14019468138185974609,
+      "calendar": 3881623164260868466,
+      "tasks": 10850393163003858979,
+      "segment": 18225851853453828541
+    },
+    "status": "valid",
+    "reference_count": 19
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-017",
+    "seed": 114017,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 17,
+    "component_seeds": {
+      "contacts": 10133589937403487144,
+      "calendar": 10809852195435131332,
+      "tasks": 1320072562011729100,
+      "segment": 6096155088480989516
+    },
+    "status": "valid",
+    "reference_count": 8
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-018",
+    "seed": 114018,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 18,
+    "component_seeds": {
+      "contacts": 2695726171155481424,
+      "calendar": 1036036393781539768,
+      "tasks": 11489382714252105730,
+      "segment": 16555316119972173098
+    },
+    "status": "valid",
+    "reference_count": 17
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-019",
+    "seed": 114019,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 19,
+    "component_seeds": {
+      "contacts": 3712816406426680109,
+      "calendar": 6340615934268208701,
+      "tasks": 17837834156155860281,
+      "segment": 15137343927958715194
+    },
+    "status": "valid",
+    "reference_count": 13
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-020",
+    "seed": 114020,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 20,
+    "component_seeds": {
+      "contacts": 8191546306803041379,
+      "calendar": 4397926427677173665,
+      "tasks": 6320217083793172072,
+      "segment": 14843456444716231267
+    },
+    "status": "valid",
+    "reference_count": 6
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-021",
+    "seed": 114021,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 21,
+    "component_seeds": {
+      "contacts": 9757158295524626072,
+      "calendar": 9184762351707855014,
+      "tasks": 16012970017271882834,
+      "segment": 2504674083282793488
+    },
+    "status": "valid",
+    "reference_count": 12
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-022",
+    "seed": 114022,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 22,
+    "component_seeds": {
+      "contacts": 305813540940617370,
+      "calendar": 7295969253024544725,
+      "tasks": 6082913289825905975,
+      "segment": 15639255481727222058
+    },
+    "status": "valid",
+    "reference_count": 17
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-023",
+    "seed": 114023,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 23,
+    "component_seeds": {
+      "contacts": 10591449449151613467,
+      "calendar": 2489720334480219720,
+      "tasks": 5620367154777894630,
+      "segment": 9538589831902495010
+    },
+    "status": "generation_failed",
+    "reason": "empty_reference"
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-024",
+    "seed": 114024,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 24,
+    "component_seeds": {
+      "contacts": 9508715465490417073,
+      "calendar": 13456613954983312073,
+      "tasks": 15181429645020368637,
+      "segment": 7581220216832997940
+    },
+    "status": "valid",
+    "reference_count": 6
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-025",
+    "seed": 114025,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 25,
+    "component_seeds": {
+      "contacts": 10004003682041962726,
+      "calendar": 12245089468090565177,
+      "tasks": 12857294657807823541,
+      "segment": 2118774906067800258
+    },
+    "status": "valid",
+    "reference_count": 10
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-026",
+    "seed": 114026,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 26,
+    "component_seeds": {
+      "contacts": 7616705151635312240,
+      "calendar": 10160650161134038219,
+      "tasks": 10524904671465152702,
+      "segment": 15685934983214627632
+    },
+    "status": "valid",
+    "reference_count": 4
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-027",
+    "seed": 114027,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 27,
+    "component_seeds": {
+      "contacts": 8588738490205452901,
+      "calendar": 10809483469242557325,
+      "tasks": 10638326752253339963,
+      "segment": 8076498817430811384
+    },
+    "status": "valid",
+    "reference_count": 3
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-028",
+    "seed": 114028,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 28,
+    "component_seeds": {
+      "contacts": 10621317874101621787,
+      "calendar": 4114101204541627641,
+      "tasks": 9752379822528203566,
+      "segment": 14418264938066445710
+    },
+    "status": "generation_failed",
+    "reason": "No contact pair available for contact-conditioned task draw"
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-029",
+    "seed": 114029,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 29,
+    "component_seeds": {
+      "contacts": 14665549286939498704,
+      "calendar": 15653135475557967355,
+      "tasks": 2455616930610864630,
+      "segment": 7354175242372083759
+    },
+    "status": "valid",
+    "reference_count": 17
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-030",
+    "seed": 114030,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 30,
+    "component_seeds": {
+      "contacts": 9261979788753222325,
+      "calendar": 13369145590120858599,
+      "tasks": 234059861693316811,
+      "segment": 15014999042330805118
+    },
+    "status": "valid",
+    "reference_count": 11
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-031",
+    "seed": 114031,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 31,
+    "component_seeds": {
+      "contacts": 273151239850908286,
+      "calendar": 15194759971807912926,
+      "tasks": 17630064848540821536,
+      "segment": 953685558247766975
+    },
+    "status": "valid",
+    "reference_count": 8
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-032",
+    "seed": 114032,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 32,
+    "component_seeds": {
+      "contacts": 17631170321200376577,
+      "calendar": 660838121608374713,
+      "tasks": 16328348849376611002,
+      "segment": 6536100223161948137
+    },
+    "status": "valid",
+    "reference_count": 12
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-033",
+    "seed": 114033,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 33,
+    "component_seeds": {
+      "contacts": 2462843909611705279,
+      "calendar": 16425646394955844115,
+      "tasks": 316523513557830594,
+      "segment": 12288562742598786778
+    },
+    "status": "valid",
+    "reference_count": 3
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-034",
+    "seed": 114034,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 34,
+    "component_seeds": {
+      "contacts": 14081944908542565413,
+      "calendar": 4589944737712944949,
+      "tasks": 2275313339965867184,
+      "segment": 7837265326584494082
+    },
+    "status": "generation_failed",
+    "reason": "No contact pair available for contact-conditioned task draw"
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-035",
+    "seed": 114035,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 35,
+    "component_seeds": {
+      "contacts": 17216120660700759850,
+      "calendar": 6473391060085389388,
+      "tasks": 14202668703117828860,
+      "segment": 13712865706449039853
+    },
+    "status": "generation_failed",
+    "reason": "No contact pair available for contact-conditioned task draw"
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-036",
+    "seed": 114036,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 36,
+    "component_seeds": {
+      "contacts": 9840396646843851695,
+      "calendar": 17204106922510868150,
+      "tasks": 6740303488679145133,
+      "segment": 15248986536059141826
+    },
+    "status": "generation_failed",
+    "reason": "No contact pair available for contact-conditioned task draw"
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-037",
+    "seed": 114037,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 37,
+    "component_seeds": {
+      "contacts": 14139204704986368418,
+      "calendar": 1619895164600046540,
+      "tasks": 13025809735146168839,
+      "segment": 1199630044989691222
+    },
+    "status": "valid",
+    "reference_count": 4
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-038",
+    "seed": 114038,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 38,
+    "component_seeds": {
+      "contacts": 7231170593588327599,
+      "calendar": 8323917743145372093,
+      "tasks": 5194938787613803866,
+      "segment": 16428652222957914985
+    },
+    "status": "generation_failed",
+    "reason": "No contact pair available for contact-conditioned task draw"
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-039",
+    "seed": 114039,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 39,
+    "component_seeds": {
+      "contacts": 17479677692524442815,
+      "calendar": 18384901249890862004,
+      "tasks": 9754829981734818158,
+      "segment": 9298905994165836646
+    },
+    "status": "valid",
+    "reference_count": 5
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-040",
+    "seed": 114040,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 40,
+    "component_seeds": {
+      "contacts": 7038935622420204081,
+      "calendar": 12265752554470070804,
+      "tasks": 7326026133844166715,
+      "segment": 6994942453997401521
+    },
+    "status": "generation_failed",
+    "reason": "No contact pair available for contact-conditioned task draw"
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-041",
+    "seed": 114041,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 41,
+    "component_seeds": {
+      "contacts": 4258995787902472634,
+      "calendar": 16727476454027247859,
+      "tasks": 14461044397236140682,
+      "segment": 365459764347178636
+    },
+    "status": "generation_failed",
+    "reason": "No contact pair available for contact-conditioned task draw"
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-042",
+    "seed": 114042,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 42,
+    "component_seeds": {
+      "contacts": 17600145282121585404,
+      "calendar": 4729921125685521788,
+      "tasks": 17269920467001030486,
+      "segment": 1140415137142267785
+    },
+    "status": "valid",
+    "reference_count": 11
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-043",
+    "seed": 114043,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 43,
+    "component_seeds": {
+      "contacts": 12429625488744340732,
+      "calendar": 17517958816092922534,
+      "tasks": 3621248480742756365,
+      "segment": 10158311817272703037
+    },
+    "status": "valid",
+    "reference_count": 13
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-044",
+    "seed": 114044,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 44,
+    "component_seeds": {
+      "contacts": 6658588816125819924,
+      "calendar": 5746312114208714963,
+      "tasks": 18003755281120289255,
+      "segment": 11239940334375823012
+    },
+    "status": "generation_failed",
+    "reason": "No contact pair available for contact-conditioned task draw"
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-045",
+    "seed": 114045,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 45,
+    "component_seeds": {
+      "contacts": 13557916201930119617,
+      "calendar": 12764342202866524307,
+      "tasks": 9004105236714966531,
+      "segment": 7127522349080106873
+    },
+    "status": "generation_failed",
+    "reason": "No contact pair available for contact-conditioned task draw"
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-046",
+    "seed": 114046,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 46,
+    "component_seeds": {
+      "contacts": 589425142612107331,
+      "calendar": 4708312844212124309,
+      "tasks": 7179836225254151305,
+      "segment": 12990655649486808517
+    },
+    "status": "generation_failed",
+    "reason": "No contact pair available for contact-conditioned task draw"
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-047",
+    "seed": 114047,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 47,
+    "component_seeds": {
+      "contacts": 13726853370888824478,
+      "calendar": 1682990096149499177,
+      "tasks": 3980700847392470303,
+      "segment": 7733254414125223596
+    },
+    "status": "generation_failed",
+    "reason": "No contact pair available for contact-conditioned task draw"
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-048",
+    "seed": 114048,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 48,
+    "component_seeds": {
+      "contacts": 6058237680460495829,
+      "calendar": 12590072919546242845,
+      "tasks": 6658778830480154652,
+      "segment": 3784784915093130631
+    },
+    "status": "valid",
+    "reference_count": 12
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-049",
+    "seed": 114049,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 49,
+    "component_seeds": {
+      "contacts": 5735343847152606545,
+      "calendar": 14083267249387196303,
+      "tasks": 850898906629021063,
+      "segment": 6183042143015878071
+    },
+    "status": "valid",
+    "reference_count": 10
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-050",
+    "seed": 114050,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 50,
+    "component_seeds": {
+      "contacts": 3257328026447380333,
+      "calendar": 13727645976718275362,
+      "tasks": 1213035986700610007,
+      "segment": 436782651387331391
+    },
+    "status": "valid",
+    "reference_count": 5
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-051",
+    "seed": 114051,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 51,
+    "component_seeds": {
+      "contacts": 10441350206348062383,
+      "calendar": 3581308325360424191,
+      "tasks": 10262840885828274881,
+      "segment": 14773520982424216571
+    },
+    "status": "valid",
+    "reference_count": 18
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-052",
+    "seed": 114052,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 52,
+    "component_seeds": {
+      "contacts": 14984315412078346358,
+      "calendar": 17264723783129815959,
+      "tasks": 8360723628173325794,
+      "segment": 8767751082498127286
+    },
+    "status": "valid",
+    "reference_count": 8
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-053",
+    "seed": 114053,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 53,
+    "component_seeds": {
+      "contacts": 4130636426033310154,
+      "calendar": 5153444997138086357,
+      "tasks": 8779195717553854660,
+      "segment": 8506553569866635274
+    },
+    "status": "valid",
+    "reference_count": 5
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-054",
+    "seed": 114054,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 54,
+    "component_seeds": {
+      "contacts": 13753392659982722165,
+      "calendar": 8110842638569382461,
+      "tasks": 3753131909553679350,
+      "segment": 11472938928048803575
+    },
+    "status": "valid",
+    "reference_count": 17
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-055",
+    "seed": 114055,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 55,
+    "component_seeds": {
+      "contacts": 1010743034578637617,
+      "calendar": 9946103478521035248,
+      "tasks": 6525290760914325507,
+      "segment": 12978059548457442704
+    },
+    "status": "generation_failed",
+    "reason": "No contact pair available for contact-conditioned task draw"
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-056",
+    "seed": 114056,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 56,
+    "component_seeds": {
+      "contacts": 17999533441061990755,
+      "calendar": 13932828091577061449,
+      "tasks": 12085816360253648410,
+      "segment": 18247288130258084899
+    },
+    "status": "valid",
+    "reference_count": 11
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-057",
+    "seed": 114057,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 57,
+    "component_seeds": {
+      "contacts": 745248158944856678,
+      "calendar": 14419484800052059391,
+      "tasks": 6632511703446836638,
+      "segment": 9543532260004080857
+    },
+    "status": "generation_failed",
+    "reason": "No contact pair available for contact-conditioned task draw"
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-058",
+    "seed": 114058,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 58,
+    "component_seeds": {
+      "contacts": 9574482083136798583,
+      "calendar": 15592307787902004533,
+      "tasks": 15370549006086484075,
+      "segment": 18238152094768340281
+    },
+    "status": "valid",
+    "reference_count": 11
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-059",
+    "seed": 114059,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 59,
+    "component_seeds": {
+      "contacts": 14270465518508733145,
+      "calendar": 1832215874800245742,
+      "tasks": 7459623854922842092,
+      "segment": 1250886514743549821
+    },
+    "status": "valid",
+    "reference_count": 10
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-060",
+    "seed": 114060,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 60,
+    "component_seeds": {
+      "contacts": 9944516308150484522,
+      "calendar": 8624670762566182844,
+      "tasks": 1873045723603350398,
+      "segment": 8431255157086989622
+    },
+    "status": "valid",
+    "reference_count": 10
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-061",
+    "seed": 114061,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 61,
+    "component_seeds": {
+      "contacts": 6797570860976894502,
+      "calendar": 16490472311207001291,
+      "tasks": 17305763838134175995,
+      "segment": 16253634195404249959
+    },
+    "status": "valid",
+    "reference_count": 12
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-062",
+    "seed": 114062,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 62,
+    "component_seeds": {
+      "contacts": 8416381247226504537,
+      "calendar": 14018579336366615882,
+      "tasks": 15719338403082222469,
+      "segment": 11742889984145034174
+    },
+    "status": "generation_failed",
+    "reason": "No contact pair available for contact-conditioned task draw"
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-063",
+    "seed": 114063,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 63,
+    "component_seeds": {
+      "contacts": 7629813159741242595,
+      "calendar": 9571244543995545160,
+      "tasks": 11341063600849780312,
+      "segment": 6643665158612216546
+    },
+    "status": "generation_failed",
+    "reason": "empty_reference"
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-064",
+    "seed": 114064,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 64,
+    "component_seeds": {
+      "contacts": 10007128775929474241,
+      "calendar": 1706196845757370044,
+      "tasks": 10162473191390532676,
+      "segment": 17226009842514854220
+    },
+    "status": "generation_failed",
+    "reason": "No contact pair available for contact-conditioned task draw"
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-065",
+    "seed": 114065,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 65,
+    "component_seeds": {
+      "contacts": 434727196333257351,
+      "calendar": 10711318189544766675,
+      "tasks": 6070805137452725624,
+      "segment": 7667677670650680379
+    },
+    "status": "valid",
+    "reference_count": 14
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-066",
+    "seed": 114066,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 66,
+    "component_seeds": {
+      "contacts": 1506624351287559936,
+      "calendar": 13045052904577982880,
+      "tasks": 16308411448201187701,
+      "segment": 12889058345103048625
+    },
+    "status": "valid",
+    "reference_count": 14
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-067",
+    "seed": 114067,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 67,
+    "component_seeds": {
+      "contacts": 8315068301456058295,
+      "calendar": 4887212927869506128,
+      "tasks": 14025936909480477525,
+      "segment": 12416697854892131569
+    },
+    "status": "valid",
+    "reference_count": 13
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-068",
+    "seed": 114068,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 68,
+    "component_seeds": {
+      "contacts": 870027217109982197,
+      "calendar": 7337094778378538136,
+      "tasks": 7319564703407362620,
+      "segment": 2031781880668748516
+    },
+    "status": "valid",
+    "reference_count": 7
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-069",
+    "seed": 114069,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 69,
+    "component_seeds": {
+      "contacts": 841215146186354621,
+      "calendar": 7024763936388998515,
+      "tasks": 2637156628581651311,
+      "segment": 9841566182593511918
+    },
+    "status": "valid",
+    "reference_count": 8
+  },
+  {
+    "instance_id": "P2-n30-s4-attempt-070",
+    "seed": 114070,
+    "combination_index": 4,
+    "candidates": 30,
+    "satellites": 4,
+    "attempt": 70,
+    "component_seeds": {
+      "contacts": 17397041384928159108,
+      "calendar": 15036233922665097379,
+      "tasks": 17405009799565675693,
+      "segment": 13256508186109053917
+    },
+    "status": "valid",
+    "reference_count": 7
+  },
+  {
+    "instance_id": "P2-n30-s8-attempt-000",
+    "seed": 115000,
+    "combination_index": 5,
+    "candidates": 30,
+    "satellites": 8,
+    "attempt": 0,
+    "component_seeds": {
+      "contacts": 3721605937912085908,
+      "calendar": 17453880104158437318,
+      "tasks": 2309484252291525755,
+      "segment": 10356206143390314653
+    },
+    "status": "valid",
+    "reference_count": 11
+  },
+  {
+    "instance_id": "P2-n30-s8-attempt-001",
+    "seed": 115001,
+    "combination_index": 5,
+    "candidates": 30,
+    "satellites": 8,
+    "attempt": 1,
+    "component_seeds": {
+      "contacts": 7226683183475397093,
+      "calendar": 11819651801597669005,
+      "tasks": 16590640392033424634,
+      "segment": 16918101279748333420
+    },
+    "status": "valid",
+    "reference_count": 14
+  },
+  {
+    "instance_id": "P2-n30-s8-attempt-002",
+    "seed": 115002,
+    "combination_index": 5,
+    "candidates": 30,
+    "satellites": 8,
+    "attempt": 2,
+    "component_seeds": {
+      "contacts": 7562617174212882052,
+      "calendar": 9547360994017900668,
+      "tasks": 535313940931962129,
+      "segment": 7268471255018214566
+    },
+    "status": "valid",
+    "reference_count": 13
+  },
+  {
+    "instance_id": "P2-n30-s8-attempt-003",
+    "seed": 115003,
+    "combination_index": 5,
+    "candidates": 30,
+    "satellites": 8,
+    "attempt": 3,
+    "component_seeds": {
+      "contacts": 16774725954579509073,
+      "calendar": 7925414162804888675,
+      "tasks": 14498924968462709570,
+      "segment": 2771472209539810916
+    },
+    "status": "valid",
+    "reference_count": 13
+  },
+  {
+    "instance_id": "P2-n30-s8-attempt-004",
+    "seed": 115004,
+    "combination_index": 5,
+    "candidates": 30,
+    "satellites": 8,
+    "attempt": 4,
+    "component_seeds": {
+      "contacts": 7367792235261740653,
+      "calendar": 654738326173931314,
+      "tasks": 10416913169583554531,
+      "segment": 2440876244723805661
+    },
+    "status": "valid",
+    "reference_count": 16
+  },
+  {
+    "instance_id": "P2-n30-s8-attempt-005",
+    "seed": 115005,
+    "combination_index": 5,
+    "candidates": 30,
+    "satellites": 8,
+    "attempt": 5,
+    "component_seeds": {
+      "contacts": 3679278120238059108,
+      "calendar": 13306685534940635330,
+      "tasks": 15611084182989179540,
+      "segment": 4698284860876909447
+    },
+    "status": "valid",
+    "reference_count": 13
+  },
+  {
+    "instance_id": "P2-n30-s8-attempt-006",
+    "seed": 115006,
+    "combination_index": 5,
+    "candidates": 30,
+    "satellites": 8,
+    "attempt": 6,
+    "component_seeds": {
+      "contacts": 9846080580706769649,
+      "calendar": 15133102624604198784,
+      "tasks": 6354292727435355104,
+      "segment": 16539818925063154549
+    },
+    "status": "valid",
+    "reference_count": 13
+  },
+  {
+    "instance_id": "P2-n30-s8-attempt-007",
+    "seed": 115007,
+    "combination_index": 5,
+    "candidates": 30,
+    "satellites": 8,
+    "attempt": 7,
+    "component_seeds": {
+      "contacts": 13800056490710788807,
+      "calendar": 6221232921595639249,
+      "tasks": 369550273295758926,
+      "segment": 10138641803190945760
+    },
+    "status": "valid",
+    "reference_count": 11
+  },
+  {
+    "instance_id": "P2-n30-s8-attempt-008",
+    "seed": 115008,
+    "combination_index": 5,
+    "candidates": 30,
+    "satellites": 8,
+    "attempt": 8,
+    "component_seeds": {
+      "contacts": 3776635242979651527,
+      "calendar": 2655698149044864387,
+      "tasks": 11172092970379091162,
+      "segment": 951095535823181148
+    },
+    "status": "valid",
+    "reference_count": 12
+  },
+  {
+    "instance_id": "P2-n30-s8-attempt-009",
+    "seed": 115009,
+    "combination_index": 5,
+    "candidates": 30,
+    "satellites": 8,
+    "attempt": 9,
+    "component_seeds": {
+      "contacts": 11953167519898043848,
+      "calendar": 10837036183048961248,
+      "tasks": 8884478715230250816,
+      "segment": 15596389923282636487
+    },
+    "status": "valid",
+    "reference_count": 11
+  },
+  {
+    "instance_id": "P2-n30-s8-attempt-010",
+    "seed": 115010,
+    "combination_index": 5,
+    "candidates": 30,
+    "satellites": 8,
+    "attempt": 10,
+    "component_seeds": {
+      "contacts": 12206743555702662714,
+      "calendar": 4952770392163674194,
+      "tasks": 18250851513733547800,
+      "segment": 12849056796627820004
+    },
+    "status": "valid",
+    "reference_count": 17
+  },
+  {
+    "instance_id": "P2-n30-s8-attempt-011",
+    "seed": 115011,
+    "combination_index": 5,
+    "candidates": 30,
+    "satellites": 8,
+    "attempt": 11,
+    "component_seeds": {
+      "contacts": 4692068049883163905,
+      "calendar": 14909536829763278393,
+      "tasks": 13092694539819735810,
+      "segment": 17078056129163191008
+    },
+    "status": "valid",
+    "reference_count": 12
+  },
+  {
+    "instance_id": "P2-n30-s8-attempt-012",
+    "seed": 115012,
+    "combination_index": 5,
+    "candidates": 30,
+    "satellites": 8,
+    "attempt": 12,
+    "component_seeds": {
+      "contacts": 11005264782104824610,
+      "calendar": 7662225500299794293,
+      "tasks": 11165332842108785592,
+      "segment": 4566519507598121187
+    },
+    "status": "valid",
+    "reference_count": 17
+  },
+  {
+    "instance_id": "P2-n30-s8-attempt-013",
+    "seed": 115013,
+    "combination_index": 5,
+    "candidates": 30,
+    "satellites": 8,
+    "attempt": 13,
+    "component_seeds": {
+      "contacts": 17758646982346249435,
+      "calendar": 18125240859517569965,
+      "tasks": 693183644108402462,
+      "segment": 18151220037946900696
+    },
+    "status": "valid",
+    "reference_count": 10
+  },
+  {
+    "instance_id": "P2-n30-s8-attempt-014",
+    "seed": 115014,
+    "combination_index": 5,
+    "candidates": 30,
+    "satellites": 8,
+    "attempt": 14,
+    "component_seeds": {
+      "contacts": 5232776699688506764,
+      "calendar": 392377455475753752,
+      "tasks": 7624663790064328231,
+      "segment": 3994087489069072589
+    },
+    "status": "valid",
+    "reference_count": 19
+  },
+  {
+    "instance_id": "P2-n30-s8-attempt-015",
+    "seed": 115015,
+    "combination_index": 5,
+    "candidates": 30,
+    "satellites": 8,
+    "attempt": 15,
+    "component_seeds": {
+      "contacts": 570437617984693673,
+      "calendar": 14137712361503159514,
+      "tasks": 2318007217297799043,
+      "segment": 8253447171723698344
+    },
+    "status": "valid",
+    "reference_count": 17
+  },
+  {
+    "instance_id": "P2-n30-s8-attempt-016",
+    "seed": 115016,
+    "combination_index": 5,
+    "candidates": 30,
+    "satellites": 8,
+    "attempt": 16,
+    "component_seeds": {
+      "contacts": 9929093505551048417,
+      "calendar": 6554007867751713446,
+      "tasks": 3751842778015791663,
+      "segment": 3914992785142262063
+    },
+    "status": "valid",
+    "reference_count": 17
+  },
+  {
+    "instance_id": "P2-n30-s8-attempt-017",
+    "seed": 115017,
+    "combination_index": 5,
+    "candidates": 30,
+    "satellites": 8,
+    "attempt": 17,
+    "component_seeds": {
+      "contacts": 1982333452387697804,
+      "calendar": 6359249438601206402,
+      "tasks": 15872717564261770645,
+      "segment": 13935563346835764681
+    },
+    "status": "valid",
+    "reference_count": 18
+  },
+  {
+    "instance_id": "P2-n30-s8-attempt-018",
+    "seed": 115018,
+    "combination_index": 5,
+    "candidates": 30,
+    "satellites": 8,
+    "attempt": 18,
+    "component_seeds": {
+      "contacts": 1616727297928386308,
+      "calendar": 17335200712628807385,
+      "tasks": 9131513594645227278,
+      "segment": 529870093691928913
+    },
+    "status": "valid",
+    "reference_count": 18
+  },
+  {
+    "instance_id": "P2-n30-s8-attempt-019",
+    "seed": 115019,
+    "combination_index": 5,
+    "candidates": 30,
+    "satellites": 8,
+    "attempt": 19,
+    "component_seeds": {
+      "contacts": 3295212658085874812,
+      "calendar": 14643011441012525985,
+      "tasks": 4730621239350003639,
+      "segment": 10325164284494090293
+    },
+    "status": "valid",
+    "reference_count": 10
+  },
+  {
+    "instance_id": "P2-n30-s8-attempt-020",
+    "seed": 115020,
+    "combination_index": 5,
+    "candidates": 30,
+    "satellites": 8,
+    "attempt": 20,
+    "component_seeds": {
+      "contacts": 8080579713381577500,
+      "calendar": 3873288328714813437,
+      "tasks": 4362125147234356258,
+      "segment": 12069527313637731145
+    },
+    "status": "valid",
+    "reference_count": 13
+  },
+  {
+    "instance_id": "P2-n30-s8-attempt-021",
+    "seed": 115021,
+    "combination_index": 5,
+    "candidates": 30,
+    "satellites": 8,
+    "attempt": 21,
+    "component_seeds": {
+      "contacts": 12979093090966330886,
+      "calendar": 16653245282001307648,
+      "tasks": 10086488829201592332,
+      "segment": 6688878329617511045
+    },
+    "status": "valid",
+    "reference_count": 11
+  },
+  {
+    "instance_id": "P2-n30-s8-attempt-022",
+    "seed": 115022,
+    "combination_index": 5,
+    "candidates": 30,
+    "satellites": 8,
+    "attempt": 22,
+    "component_seeds": {
+      "contacts": 8260523037235002365,
+      "calendar": 1151754583652964504,
+      "tasks": 13556128676011306442,
+      "segment": 7545492383103212626
+    },
+    "status": "valid",
+    "reference_count": 12
+  },
+  {
+    "instance_id": "P2-n30-s8-attempt-023",
+    "seed": 115023,
+    "combination_index": 5,
+    "candidates": 30,
+    "satellites": 8,
+    "attempt": 23,
+    "component_seeds": {
+      "contacts": 5139869106875089633,
+      "calendar": 9997843760085277446,
+      "tasks": 3266048811826182861,
+      "segment": 8507159995808861536
+    },
+    "status": "valid",
+    "reference_count": 10
+  },
+  {
+    "instance_id": "P2-n30-s8-attempt-024",
+    "seed": 115024,
+    "combination_index": 5,
+    "candidates": 30,
+    "satellites": 8,
+    "attempt": 24,
+    "component_seeds": {
+      "contacts": 18154856581529299735,
+      "calendar": 12887042475668931176,
+      "tasks": 9895776920252422346,
+      "segment": 10653578434337632121
+    },
+    "status": "valid",
+    "reference_count": 8
+  },
+  {
+    "instance_id": "P2-n30-s8-attempt-025",
+    "seed": 115025,
+    "combination_index": 5,
+    "candidates": 30,
+    "satellites": 8,
+    "attempt": 25,
+    "component_seeds": {
+      "contacts": 274743473898535108,
+      "calendar": 192314670433912750,
+      "tasks": 6394938885316455144,
+      "segment": 4876348154614415994
+    },
+    "status": "valid",
+    "reference_count": 14
+  },
+  {
+    "instance_id": "P2-n30-s8-attempt-026",
+    "seed": 115026,
+    "combination_index": 5,
+    "candidates": 30,
+    "satellites": 8,
+    "attempt": 26,
+    "component_seeds": {
+      "contacts": 8868988376931277078,
+      "calendar": 7220088772633446104,
+      "tasks": 280309065795936827,
+      "segment": 2959951623073307773
+    },
+    "status": "valid",
+    "reference_count": 17
+  },
+  {
+    "instance_id": "P2-n30-s8-attempt-027",
+    "seed": 115027,
+    "combination_index": 5,
+    "candidates": 30,
+    "satellites": 8,
+    "attempt": 27,
+    "component_seeds": {
+      "contacts": 4730947583664060435,
+      "calendar": 8237760794203235574,
+      "tasks": 13312495284886194524,
+      "segment": 11790217795669833540
+    },
+    "status": "valid",
+    "reference_count": 12
+  },
+  {
+    "instance_id": "P2-n30-s8-attempt-028",
+    "seed": 115028,
+    "combination_index": 5,
+    "candidates": 30,
+    "satellites": 8,
+    "attempt": 28,
+    "component_seeds": {
+      "contacts": 13128863591206032700,
+      "calendar": 7610037252621060948,
+      "tasks": 15995322448179253164,
+      "segment": 5868497895845344855
+    },
+    "status": "valid",
+    "reference_count": 7
+  },
+  {
+    "instance_id": "P2-n30-s8-attempt-029",
+    "seed": 115029,
+    "combination_index": 5,
+    "candidates": 30,
+    "satellites": 8,
+    "attempt": 29,
+    "component_seeds": {
+      "contacts": 7450548024142862229,
+      "calendar": 4587458883959963158,
+      "tasks": 16618252859168879520,
+      "segment": 326576911787410238
+    },
+    "status": "valid",
+    "reference_count": 12
+  },
+  {
+    "instance_id": "P2-n30-s8-attempt-030",
+    "seed": 115030,
+    "combination_index": 5,
+    "candidates": 30,
+    "satellites": 8,
+    "attempt": 30,
+    "component_seeds": {
+      "contacts": 11546874508336115555,
+      "calendar": 2112637875220377777,
+      "tasks": 17523261847349105885,
+      "segment": 6198433993471483041
+    },
+    "status": "valid",
+    "reference_count": 18
+  },
+  {
+    "instance_id": "P2-n30-s8-attempt-031",
+    "seed": 115031,
+    "combination_index": 5,
+    "candidates": 30,
+    "satellites": 8,
+    "attempt": 31,
+    "component_seeds": {
+      "contacts": 3394080775339731800,
+      "calendar": 10773381612805872320,
+      "tasks": 14605721894594291366,
+      "segment": 4127280458231913205
+    },
+    "status": "valid",
+    "reference_count": 16
+  },
+  {
+    "instance_id": "P2-n30-s8-attempt-032",
+    "seed": 115032,
+    "combination_index": 5,
+    "candidates": 30,
+    "satellites": 8,
+    "attempt": 32,
+    "component_seeds": {
+      "contacts": 10589027659526977733,
+      "calendar": 2743444267113192470,
+      "tasks": 5891812414286773078,
+      "segment": 8691822780940307770
+    },
+    "status": "valid",
+    "reference_count": 13
+  },
+  {
+    "instance_id": "P2-n30-s8-attempt-033",
+    "seed": 115033,
+    "combination_index": 5,
+    "candidates": 30,
+    "satellites": 8,
+    "attempt": 33,
+    "component_seeds": {
+      "contacts": 15189435597146830704,
+      "calendar": 9131615212087992361,
+      "tasks": 5276125423019006090,
+      "segment": 1934736745353361503
+    },
+    "status": "valid",
+    "reference_count": 8
+  },
+  {
+    "instance_id": "P2-n30-s8-attempt-034",
+    "seed": 115034,
+    "combination_index": 5,
+    "candidates": 30,
+    "satellites": 8,
+    "attempt": 34,
+    "component_seeds": {
+      "contacts": 8714096199899035868,
+      "calendar": 17172506925117428698,
+      "tasks": 10293461679976401192,
+      "segment": 15338219600088337021
+    },
+    "status": "valid",
+    "reference_count": 13
+  },
+  {
+    "instance_id": "P2-n30-s8-attempt-035",
+    "seed": 115035,
+    "combination_index": 5,
+    "candidates": 30,
+    "satellites": 8,
+    "attempt": 35,
+    "component_seeds": {
+      "contacts": 1902418237393915662,
+      "calendar": 12852412603045416272,
+      "tasks": 3357034510970876856,
+      "segment": 12775950535750534706
+    },
+    "status": "valid",
+    "reference_count": 15
+  },
+  {
+    "instance_id": "P2-n30-s8-attempt-036",
+    "seed": 115036,
+    "combination_index": 5,
+    "candidates": 30,
+    "satellites": 8,
+    "attempt": 36,
+    "component_seeds": {
+      "contacts": 12851157523122089679,
+      "calendar": 13921002962289192903,
+      "tasks": 16364383145647303236,
+      "segment": 1964710855770466592
+    },
+    "status": "valid",
+    "reference_count": 15
+  },
+  {
+    "instance_id": "P2-n30-s8-attempt-037",
+    "seed": 115037,
+    "combination_index": 5,
+    "candidates": 30,
+    "satellites": 8,
+    "attempt": 37,
+    "component_seeds": {
+      "contacts": 2268666167664026364,
+      "calendar": 492151845756922461,
+      "tasks": 11699570496235804110,
+      "segment": 18220045462610014278
+    },
+    "status": "valid",
+    "reference_count": 11
+  },
+  {
+    "instance_id": "P2-n30-s8-attempt-038",
+    "seed": 115038,
+    "combination_index": 5,
+    "candidates": 30,
+    "satellites": 8,
+    "attempt": 38,
+    "component_seeds": {
+      "contacts": 13713378294742266533,
+      "calendar": 14044320672507137522,
+      "tasks": 8399151319902779427,
+      "segment": 620353418961681674
+    },
+    "status": "valid",
+    "reference_count": 10
+  },
+  {
+    "instance_id": "P2-n30-s8-attempt-039",
+    "seed": 115039,
+    "combination_index": 5,
+    "candidates": 30,
+    "satellites": 8,
+    "attempt": 39,
+    "component_seeds": {
+      "contacts": 14331614291668855713,
+      "calendar": 6374581927096326952,
+      "tasks": 554464858748889488,
+      "segment": 8062707127649198131
+    },
+    "status": "valid",
+    "reference_count": 12
+  },
+  {
+    "instance_id": "P2-n30-s8-attempt-040",
+    "seed": 115040,
+    "combination_index": 5,
+    "candidates": 30,
+    "satellites": 8,
+    "attempt": 40,
+    "component_seeds": {
+      "contacts": 15711038627003413522,
+      "calendar": 2836622226317212690,
+      "tasks": 13523097557287096026,
+      "segment": 7090085310321284327
+    },
+    "status": "valid",
+    "reference_count": 12
+  },
+  {
+    "instance_id": "P2-n30-s8-attempt-041",
+    "seed": 115041,
+    "combination_index": 5,
+    "candidates": 30,
+    "satellites": 8,
+    "attempt": 41,
+    "component_seeds": {
+      "contacts": 16622141421862974257,
+      "calendar": 8598904778552725074,
+      "tasks": 11553067558522707661,
+      "segment": 12659126183888230833
+    },
+    "status": "valid",
+    "reference_count": 17
+  },
+  {
+    "instance_id": "P2-n30-s8-attempt-042",
+    "seed": 115042,
+    "combination_index": 5,
+    "candidates": 30,
+    "satellites": 8,
+    "attempt": 42,
+    "component_seeds": {
+      "contacts": 5826674053624612687,
+      "calendar": 1825244606376151901,
+      "tasks": 1261071989625528448,
+      "segment": 14678209320591606363
+    },
+    "status": "valid",
+    "reference_count": 9
+  },
+  {
+    "instance_id": "P2-n30-s8-attempt-043",
+    "seed": 115043,
+    "combination_index": 5,
+    "candidates": 30,
+    "satellites": 8,
+    "attempt": 43,
+    "component_seeds": {
+      "contacts": 15405197202316626568,
+      "calendar": 53632072832692264,
+      "tasks": 3211036766577268007,
+      "segment": 2907580989120284928
+    },
+    "status": "valid",
+    "reference_count": 7
+  },
+  {
+    "instance_id": "P2-n30-s8-attempt-044",
+    "seed": 115044,
+    "combination_index": 5,
+    "candidates": 30,
+    "satellites": 8,
+    "attempt": 44,
+    "component_seeds": {
+      "contacts": 5734060015926494066,
+      "calendar": 7418349620364816911,
+      "tasks": 17366303679176877035,
+      "segment": 10595439174983671702
+    },
+    "status": "valid",
+    "reference_count": 13
+  },
+  {
+    "instance_id": "P2-n30-s8-attempt-045",
+    "seed": 115045,
+    "combination_index": 5,
+    "candidates": 30,
+    "satellites": 8,
+    "attempt": 45,
+    "component_seeds": {
+      "contacts": 15865291974499679499,
+      "calendar": 15386106358178011581,
+      "tasks": 6106022969702754554,
+      "segment": 4931904491411559741
+    },
+    "status": "valid",
+    "reference_count": 19
+  },
+  {
+    "instance_id": "P2-n30-s8-attempt-046",
+    "seed": 115046,
+    "combination_index": 5,
+    "candidates": 30,
+    "satellites": 8,
+    "attempt": 46,
+    "component_seeds": {
+      "contacts": 8172785387661209605,
+      "calendar": 16781184137117261076,
+      "tasks": 8774116464162885617,
+      "segment": 7774069059766622778
+    },
+    "status": "valid",
+    "reference_count": 16
+  },
+  {
+    "instance_id": "P2-n30-s8-attempt-047",
+    "seed": 115047,
+    "combination_index": 5,
+    "candidates": 30,
+    "satellites": 8,
+    "attempt": 47,
+    "component_seeds": {
+      "contacts": 4862060680005369055,
+      "calendar": 17531439289956386766,
+      "tasks": 7400014302207669,
+      "segment": 14996633440889373889
+    },
+    "status": "valid",
+    "reference_count": 8
+  },
+  {
+    "instance_id": "P2-n30-s8-attempt-048",
+    "seed": 115048,
+    "combination_index": 5,
+    "candidates": 30,
+    "satellites": 8,
+    "attempt": 48,
+    "component_seeds": {
+      "contacts": 6507667262264904480,
+      "calendar": 1147646328166993752,
+      "tasks": 12510644156217704499,
+      "segment": 14870014319221832735
+    },
+    "status": "valid",
+    "reference_count": 11
+  },
+  {
+    "instance_id": "P2-n30-s8-attempt-049",
+    "seed": 115049,
+    "combination_index": 5,
+    "candidates": 30,
+    "satellites": 8,
+    "attempt": 49,
+    "component_seeds": {
+      "contacts": 7276523959889120922,
+      "calendar": 2248620478391912939,
+      "tasks": 7529505000736114181,
+      "segment": 5171494158889771771
+    },
+    "status": "valid",
+    "reference_count": 10
+  }
+]
