@@ -1,0 +1,15 @@
+{
+  "audited_at_utc": "2026-11-05T10:27:58.623770+00:00",
+  "stage": "P0",
+  "source_hashes_verified": 17,
+  "artifact_hashes_verified": 8,
+  "event_method_rows_independently_revalidated": 36,
+  "metrics_and_timing_sums_recomputed": true,
+  "deterministic_single_case_replay_agrees": true,
+  "single_case_replay_sha256": "e5bb83d6095937a9f27cb885932e76541962ee99c7fd9eb0e6959340b8f465ac",
+  "original_files_outside_experiment_runs_changed": [],
+  "audit_script_sha256": "487975acdbecad9e97b1598d4f9a8de0804943a4490871e25d1b9a5c39f5a263",
+  "manifest_sha256": "207231ba49a58eef33127fc6294ebff6a6e61b881d91377fc261a3178a0589a8",
+  "source_commit": "833829f562accd478c39586f076d6b935bf373a3",
+  "passed": true
+}

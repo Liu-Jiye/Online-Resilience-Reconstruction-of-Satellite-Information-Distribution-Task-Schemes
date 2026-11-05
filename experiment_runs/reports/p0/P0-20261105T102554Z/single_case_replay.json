@@ -1,0 +1,532 @@
+{
+  "method": "Fixed-PALR",
+  "version": "0.1.0",
+  "model": "ISL",
+  "provenance": "paper_based_reimplementation",
+  "event_id": "P0-hand-authored-001:cancellation:FR=0:q=0.2:seed=100051",
+  "instance_id": "P0-hand-authored-001",
+  "event_seed": 100051,
+  "status": "feasible",
+  "stop_reason": "no_improvement",
+  "cooperative_deadline_reached": false,
+  "w": 5,
+  "B": 2,
+  "budget_ms": 50,
+  "center_index": 6,
+  "editable_indices": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "parameter_trace": [
+    {
+      "phase": "fixed_configuration",
+      "w": 5,
+      "B": 2
+    }
+  ],
+  "frozen_count": 0,
+  "w_role": "symmetric_original_index_neighborhood",
+  "candidate_spans": [
+    [
+      20,
+      126
+    ],
+    [
+      42,
+      53
+    ],
+    [
+      77,
+      83
+    ],
+    [
+      83,
+      94
+    ]
+  ],
+  "admissions_cumulative": 0,
+  "forced_removed": [],
+  "forced_reasons": {},
+  "initial_plan": [
+    {
+      "task_id": "t08",
+      "sender": "A",
+      "receiver": "B",
+      "start": 0,
+      "end": 16
+    },
+    {
+      "task_id": "t09",
+      "sender": "C",
+      "receiver": "B",
+      "start": 20,
+      "end": 26
+    },
+    {
+      "task_id": "t05",
+      "sender": "C",
+      "receiver": "B",
+      "start": 26,
+      "end": 42
+    },
+    {
+      "task_id": "t06",
+      "sender": "A",
+      "receiver": "D",
+      "start": 60,
+      "end": 66
+    },
+    {
+      "task_id": "t10",
+      "sender": "A",
+      "receiver": "D",
+      "start": 66,
+      "end": 77
+    },
+    {
+      "task_id": "t04",
+      "sender": "A",
+      "receiver": "B",
+      "start": 77,
+      "end": 88
+    },
+    {
+      "task_id": "t11",
+      "sender": "C",
+      "receiver": "D",
+      "start": 94,
+      "end": 110
+    },
+    {
+      "task_id": "t02",
+      "sender": "A",
+      "receiver": "D",
+      "start": 110,
+      "end": 126
+    }
+  ],
+  "plan": [
+    {
+      "task_id": "t08",
+      "sender": "A",
+      "receiver": "B",
+      "start": 0,
+      "end": 16
+    },
+    {
+      "task_id": "t09",
+      "sender": "C",
+      "receiver": "B",
+      "start": 20,
+      "end": 26
+    },
+    {
+      "task_id": "t05",
+      "sender": "C",
+      "receiver": "B",
+      "start": 26,
+      "end": 42
+    },
+    {
+      "task_id": "t06",
+      "sender": "A",
+      "receiver": "D",
+      "start": 60,
+      "end": 66
+    },
+    {
+      "task_id": "t10",
+      "sender": "A",
+      "receiver": "D",
+      "start": 66,
+      "end": 77
+    },
+    {
+      "task_id": "t04",
+      "sender": "A",
+      "receiver": "B",
+      "start": 77,
+      "end": 88
+    },
+    {
+      "task_id": "t11",
+      "sender": "C",
+      "receiver": "D",
+      "start": 94,
+      "end": 110
+    },
+    {
+      "task_id": "t02",
+      "sender": "A",
+      "receiver": "D",
+      "start": 110,
+      "end": 126
+    }
+  ],
+  "trace": [],
+  "validated": true,
+  "validation": {
+    "feasible": true,
+    "errors": [],
+    "window_ids": [],
+    "resource_pairs": [],
+    "unique_task_pairs": [],
+    "frozen_violations": 0,
+    "calendar_conflicts": 0
+  },
+  "R_window_ids": [],
+  "R_resource_ids": [
+    "t00"
+  ],
+  "n_feas_initial": 0,
+  "candidate_census_complete": true,
+  "unchanged_outside_E": [
+    {
+      "task_id": "t08",
+      "sender": "A",
+      "receiver": "B",
+      "start": 0,
+      "end": 16
+    }
+  ],
+  "rejection_statistic_scope": "initial_pool_relative_to_verified_baseline;null_n_feas_if_census_incomplete",
+  "timings_ns": {
+    "input_and_baseline_ns": 208800,
+    "filter_ns": 46300,
+    "repair_ns": 407400,
+    "accepted_validation_ns": 36900,
+    "final_validation_ns": 45100,
+    "control_ns": 0,
+    "unattributed_ns": 8100
+  },
+  "total_ns": 752600,
+  "metrics": {
+    "U_raw": 545,
+    "N_cancel": 3,
+    "N_forced": 0,
+    "N_surv": 8,
+    "N_drop": 0,
+    "N_add": 0,
+    "N_sym": 0,
+    "D_drop": 0.0,
+    "D_add": 0.0,
+    "D_sym": 0.0,
+    "K": 8,
+    "K_edit": 8,
+    "M_all": 0,
+    "M_mean": 0.0,
+    "M_edit": 0,
+    "M_edit_mean": 0.0,
+    "M_norm": 0.0,
+    "applicable": true,
+    "strict_feasible": true,
+    "service_success": true,
+    "strict_urgent_success": null,
+    "within_budget": true,
+    "online_success": true,
+    "valid_output": true,
+    "U": 545,
+    "U_exec": 545,
+    "L_total_ms": 0.7526,
+    "V_window": 0,
+    "V_resource": 0,
+    "V_resource_unique_task_pairs": 0,
+    "V_calendar": 0,
+    "V_frozen": 0,
+    "V_budget": 0
+  },
+  "case": {
+    "base": {
+      "id": "P0-hand-authored-001",
+      "satellites": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "tasks": [
+        {
+          "id": "t00",
+          "sender": "A",
+          "receiver": "B",
+          "release": 0,
+          "deadline": 120,
+          "data_bits": 500000000,
+          "rate_bps": 100000000,
+          "utility": 20
+        },
+        {
+          "id": "t01",
+          "sender": "C",
+          "receiver": "B",
+          "release": 20,
+          "deadline": 160,
+          "data_bits": 1000000000,
+          "rate_bps": 100000000,
+          "utility": 27
+        },
+        {
+          "id": "t02",
+          "sender": "A",
+          "receiver": "D",
+          "release": 40,
+          "deadline": 200,
+          "data_bits": 1500000000,
+          "rate_bps": 100000000,
+          "utility": 34
+        },
+        {
+          "id": "t03",
+          "sender": "C",
+          "receiver": "D",
+          "release": 60,
+          "deadline": 120,
+          "data_bits": 500000000,
+          "rate_bps": 100000000,
+          "utility": 41
+        },
+        {
+          "id": "t04",
+          "sender": "A",
+          "receiver": "B",
+          "release": 0,
+          "deadline": 160,
+          "data_bits": 1000000000,
+          "rate_bps": 100000000,
+          "utility": 48
+        },
+        {
+          "id": "t05",
+          "sender": "C",
+          "receiver": "B",
+          "release": 20,
+          "deadline": 200,
+          "data_bits": 1500000000,
+          "rate_bps": 100000000,
+          "utility": 55
+        },
+        {
+          "id": "t06",
+          "sender": "A",
+          "receiver": "D",
+          "release": 40,
+          "deadline": 120,
+          "data_bits": 500000000,
+          "rate_bps": 100000000,
+          "utility": 62
+        },
+        {
+          "id": "t07",
+          "sender": "C",
+          "receiver": "D",
+          "release": 60,
+          "deadline": 160,
+          "data_bits": 1000000000,
+          "rate_bps": 100000000,
+          "utility": 69
+        },
+        {
+          "id": "t08",
+          "sender": "A",
+          "receiver": "B",
+          "release": 0,
+          "deadline": 200,
+          "data_bits": 1500000000,
+          "rate_bps": 100000000,
+          "utility": 76
+        },
+        {
+          "id": "t09",
+          "sender": "C",
+          "receiver": "B",
+          "release": 20,
+          "deadline": 120,
+          "data_bits": 500000000,
+          "rate_bps": 100000000,
+          "utility": 83
+        },
+        {
+          "id": "t10",
+          "sender": "A",
+          "receiver": "D",
+          "release": 40,
+          "deadline": 160,
+          "data_bits": 1000000000,
+          "rate_bps": 100000000,
+          "utility": 90
+        },
+        {
+          "id": "t11",
+          "sender": "C",
+          "receiver": "D",
+          "release": 60,
+          "deadline": 200,
+          "data_bits": 1500000000,
+          "rate_bps": 100000000,
+          "utility": 97
+        }
+      ],
+      "contacts": [
+        {
+          "id": "c0",
+          "sender": "A",
+          "receiver": "B",
+          "start": 0,
+          "end": 240
+        },
+        {
+          "id": "c1",
+          "sender": "C",
+          "receiver": "B",
+          "start": 0,
+          "end": 240
+        },
+        {
+          "id": "c2",
+          "sender": "A",
+          "receiver": "D",
+          "start": 0,
+          "end": 240
+        },
+        {
+          "id": "c3",
+          "sender": "C",
+          "receiver": "D",
+          "start": 0,
+          "end": 240
+        }
+      ],
+      "calendar": [
+        {
+          "resource": "A",
+          "start": 30,
+          "end": 60
+        },
+        {
+          "resource": "B",
+          "start": 90,
+          "end": 120
+        }
+      ],
+      "horizon": 5400
+    },
+    "reference": [
+      {
+        "task_id": "t08",
+        "sender": "A",
+        "receiver": "B",
+        "start": 0,
+        "end": 16
+      },
+      {
+        "task_id": "t09",
+        "sender": "C",
+        "receiver": "B",
+        "start": 20,
+        "end": 26
+      },
+      {
+        "task_id": "t05",
+        "sender": "C",
+        "receiver": "B",
+        "start": 26,
+        "end": 42
+      },
+      {
+        "task_id": "t01",
+        "sender": "C",
+        "receiver": "B",
+        "start": 42,
+        "end": 53
+      },
+      {
+        "task_id": "t06",
+        "sender": "A",
+        "receiver": "D",
+        "start": 60,
+        "end": 66
+      },
+      {
+        "task_id": "t10",
+        "sender": "A",
+        "receiver": "D",
+        "start": 66,
+        "end": 77
+      },
+      {
+        "task_id": "t03",
+        "sender": "C",
+        "receiver": "D",
+        "start": 77,
+        "end": 83
+      },
+      {
+        "task_id": "t04",
+        "sender": "A",
+        "receiver": "B",
+        "start": 77,
+        "end": 88
+      },
+      {
+        "task_id": "t07",
+        "sender": "C",
+        "receiver": "D",
+        "start": 83,
+        "end": 94
+      },
+      {
+        "task_id": "t11",
+        "sender": "C",
+        "receiver": "D",
+        "start": 94,
+        "end": 110
+      },
+      {
+        "task_id": "t02",
+        "sender": "A",
+        "receiver": "D",
+        "start": 110,
+        "end": 126
+      }
+    ],
+    "event": {
+      "id": "P0-hand-authored-001:cancellation:FR=0:q=0.2:seed=100051",
+      "kind": "cancellation",
+      "seed": 100051,
+      "intensity": 0.2,
+      "cancelled": [
+        "t01",
+        "t03",
+        "t07"
+      ],
+      "rewards": [],
+      "urgent": null,
+      "applicable": true
+    },
+    "frozen_count": 0,
+    "post_event_contacts": null
+  },
+  "case_sha256": "58f139d686b5b097372de1097beb568e362342689e80ab3320cfb53bf025b97e",
+  "source_commit": "833829f562accd478c39586f076d6b935bf373a3",
+  "python_version": "3.14.0",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "source_sha256": {
+    "src/isl/__init__.py": "3db3a908474eafe1bf9044fbc7c42d38fb2a2c59d5beae317151f7eb464a64f6",
+    "src/isl/calendar.py": "130108a99fe1025b2beca0baf658d480e49fb651bfa78a45efd5bc19a3a8c98c",
+    "src/isl/events.py": "24ca09c963bffaa7b389d8ad89ea683a91262d78088a7508b8b8ec3891a4a746",
+    "src/isl/metrics.py": "d0b72d1b73cfd3553aef3b35447182a4810118783762d3e4c2959b0d7e6c96de",
+    "src/isl/models.py": "9bc427c6c5d3fd3e2db7fbb9f227055b56fb80716a34d376fd80142208ea24e2",
+    "src/isl/placement.py": "c3d7eb7a6579609f856b79e0314d4af4b5439e028f6c5d57e0c95e1f2f0733f5",
+    "src/isl/reference.py": "489bd59389a11c4079243df81cdd167fc45bce98c34d5f4ce780828c645c93ca",
+    "src/isl/repair.py": "b44c1dabbc4656ad693bf0f91905ddd3d28d3fa41b96179628d50c212e0e95c9",
+    "src/isl/validation.py": "d2fa280ffc1984c715fd6ca8a1c93da9447cdcb3ccf0353828f7e195e5415733"
+  }
+}

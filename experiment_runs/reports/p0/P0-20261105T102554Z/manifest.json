@@ -1,0 +1,52 @@
+{
+  "stage": "P0",
+  "implementation_version": "0.1.0",
+  "protocol_version": "1.0",
+  "run_id": "P0-20261105T102554Z",
+  "finished_at_utc": "2026-11-05T10:26:00.163050+00:00",
+  "source_commit": "833829f562accd478c39586f076d6b935bf373a3",
+  "git_status_at_capture": "?? experiment_runs/reports/p0/",
+  "source_sha256": {
+    "experiment_runs/configs/p0.json": "2e8681617aae7b1d4ff84de8a1475daaa6cefddfef39dab5b8bf7d7d3ce5101f",
+    "experiment_runs/environment/requirements-p0.lock.txt": "83e0011a42587eeb0fc8d10e97a054d3dcc462859da1d33032f564ea97d1feb6",
+    "experiment_runs/protocol/P0_IMPLEMENTATION_CONTRACT.md": "0c171fe4fcde83bb9d87eb819c48efc63ec8a4e581e4201909b77585c66d1c49",
+    "experiment_runs/scripts/run_case.py": "a537891b01f7c91d821e2eadd1272458bb91ea67fa583c115835d38eb34c9d0e",
+    "experiment_runs/scripts/run_p0.py": "823a4d0af380216ebd63b9ddc1c414303e0adfe01fe6647ac67a7bb6c9e1afad",
+    "experiment_runs/src/isl/__init__.py": "3db3a908474eafe1bf9044fbc7c42d38fb2a2c59d5beae317151f7eb464a64f6",
+    "experiment_runs/src/isl/calendar.py": "130108a99fe1025b2beca0baf658d480e49fb651bfa78a45efd5bc19a3a8c98c",
+    "experiment_runs/src/isl/events.py": "24ca09c963bffaa7b389d8ad89ea683a91262d78088a7508b8b8ec3891a4a746",
+    "experiment_runs/src/isl/metrics.py": "d0b72d1b73cfd3553aef3b35447182a4810118783762d3e4c2959b0d7e6c96de",
+    "experiment_runs/src/isl/models.py": "9bc427c6c5d3fd3e2db7fbb9f227055b56fb80716a34d376fd80142208ea24e2",
+    "experiment_runs/src/isl/placement.py": "c3d7eb7a6579609f856b79e0314d4af4b5439e028f6c5d57e0c95e1f2f0733f5",
+    "experiment_runs/src/isl/reference.py": "489bd59389a11c4079243df81cdd167fc45bce98c34d5f4ce780828c645c93ca",
+    "experiment_runs/src/isl/repair.py": "b44c1dabbc4656ad693bf0f91905ddd3d28d3fa41b96179628d50c212e0e95c9",
+    "experiment_runs/src/isl/validation.py": "d2fa280ffc1984c715fd6ca8a1c93da9447cdcb3ccf0353828f7e195e5415733",
+    "experiment_runs/tests/conftest.py": "913c05f7955adcd80897351506a44875274982430339bf49cb0bf69681793b26",
+    "experiment_runs/tests/test_constraints.py": "2ace29c232b4e5a01f01646033f4b9fe7c72ea73b402c972c78039b10423fc48",
+    "experiment_runs/tests/test_repair.py": "dd63085ff316a97f69e27a87d494749d97fe39ae48ba286238cfbfdc80134cdb"
+  },
+  "command": [
+    "C:\\Users\\25735\\Documents\\Codex\\2026-11-05\\https-github-com-liu-jiye-online-2\\work\\repository\\experiment_runs\\.venv\\Scripts\\python.exe",
+    "experiment_runs/scripts/run_p0.py"
+  ],
+  "artifact_sha256": {
+    "cases.json": "bdf2fcafb9d4c14ec9c8222679fa977452a09f3fa03c1268b8be3da80be4f6d0",
+    "config.json": "7523d38181841d316fd4b4fe810439b890a9081921105503647fd13cee5aeb77",
+    "environment.json": "e9e7034cf4b6d354773b0892df0e3a55c57d917c78ee881324d8ea7d407dc0cf",
+    "pytest.txt": "c6b3decf6bde406f7b5d702e42b4d31be5531d39b9602cc18bbf73232ee2e182",
+    "pytest.xml": "38a119461d01936d31044b5b9b0125b4a154f7d901f564392bf191ceeb7835c3",
+    "reference.json": "628cd4064275e3706a1104adb0c61558354a40ef5568ad1f7b8281b0edb4012b",
+    "results.jsonl": "4c33f5e5a00ac0b74523c3421ba73e7d08e2d64612a67cf383ffe776692f4e45",
+    "summary.json": "6192c72e605d0678a8b94ab9c07402209b66c147aca325cb9ed33f259fe5da9a"
+  },
+  "all_acceptance_tests_passed": true,
+  "scientific_results_available": false,
+  "instance_seed": null,
+  "instance_seed_reason": "Hand-authored deterministic micro fixture; no random instance generator was run.",
+  "event_seed_interval": [
+    100051,
+    100062
+  ],
+  "search_seed": null,
+  "search_seed_reason": "All three P0 methods are deterministic; no stochastic search is implemented here."
+}

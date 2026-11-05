@@ -1,0 +1,52 @@
+{
+  "stage": "P0",
+  "unit_tests_passed": 115,
+  "cases": 12,
+  "method_calls": 36,
+  "scope": "correctness_smoke_only_not_research_performance",
+  "by_method": {
+    "Minimal-Repair": {
+      "total_events": 12,
+      "N_applicable": 12,
+      "N_na": 0,
+      "strict_feasible_numerator": 12,
+      "online_success_numerator": 10,
+      "urgent_success_numerator": 2,
+      "N_urgent": 4,
+      "valid_output_numerator": 12,
+      "U_exec_mean": 636.1666666666666,
+      "conditional_U_mean": 636.1666666666666,
+      "conditional_U_denominator": 12
+    },
+    "Frozen-Greedy": {
+      "total_events": 12,
+      "N_applicable": 12,
+      "N_na": 0,
+      "strict_feasible_numerator": 12,
+      "online_success_numerator": 11,
+      "urgent_success_numerator": 3,
+      "N_urgent": 4,
+      "valid_output_numerator": 12,
+      "U_exec_mean": 669.8333333333334,
+      "conditional_U_mean": 669.8333333333334,
+      "conditional_U_denominator": 12
+    },
+    "Fixed-PALR": {
+      "total_events": 12,
+      "N_applicable": 12,
+      "N_na": 0,
+      "strict_feasible_numerator": 12,
+      "online_success_numerator": 10,
+      "urgent_success_numerator": 2,
+      "N_urgent": 4,
+      "valid_output_numerator": 12,
+      "U_exec_mean": 643.1666666666666,
+      "conditional_U_mean": 643.1666666666666,
+      "conditional_U_denominator": 12
+    }
+  },
+  "statuses": {
+    "feasible": 36
+  },
+  "next_stages_executed": []
+}

@@ -1,0 +1,3315 @@
+[
+  {
+    "base": {
+      "id": "P0-hand-authored-001",
+      "satellites": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "tasks": [
+        {
+          "id": "t00",
+          "sender": "A",
+          "receiver": "B",
+          "release": 0,
+          "deadline": 120,
+          "data_bits": 500000000,
+          "rate_bps": 100000000,
+          "utility": 20
+        },
+        {
+          "id": "t01",
+          "sender": "C",
+          "receiver": "B",
+          "release": 20,
+          "deadline": 160,
+          "data_bits": 1000000000,
+          "rate_bps": 100000000,
+          "utility": 27
+        },
+        {
+          "id": "t02",
+          "sender": "A",
+          "receiver": "D",
+          "release": 40,
+          "deadline": 200,
+          "data_bits": 1500000000,
+          "rate_bps": 100000000,
+          "utility": 34
+        },
+        {
+          "id": "t03",
+          "sender": "C",
+          "receiver": "D",
+          "release": 60,
+          "deadline": 120,
+          "data_bits": 500000000,
+          "rate_bps": 100000000,
+          "utility": 41
+        },
+        {
+          "id": "t04",
+          "sender": "A",
+          "receiver": "B",
+          "release": 0,
+          "deadline": 160,
+          "data_bits": 1000000000,
+          "rate_bps": 100000000,
+          "utility": 48
+        },
+        {
+          "id": "t05",
+          "sender": "C",
+          "receiver": "B",
+          "release": 20,
+          "deadline": 200,
+          "data_bits": 1500000000,
+          "rate_bps": 100000000,
+          "utility": 55
+        },
+        {
+          "id": "t06",
+          "sender": "A",
+          "receiver": "D",
+          "release": 40,
+          "deadline": 120,
+          "data_bits": 500000000,
+          "rate_bps": 100000000,
+          "utility": 62
+        },
+        {
+          "id": "t07",
+          "sender": "C",
+          "receiver": "D",
+          "release": 60,
+          "deadline": 160,
+          "data_bits": 1000000000,
+          "rate_bps": 100000000,
+          "utility": 69
+        },
+        {
+          "id": "t08",
+          "sender": "A",
+          "receiver": "B",
+          "release": 0,
+          "deadline": 200,
+          "data_bits": 1500000000,
+          "rate_bps": 100000000,
+          "utility": 76
+        },
+        {
+          "id": "t09",
+          "sender": "C",
+          "receiver": "B",
+          "release": 20,
+          "deadline": 120,
+          "data_bits": 500000000,
+          "rate_bps": 100000000,
+          "utility": 83
+        },
+        {
+          "id": "t10",
+          "sender": "A",
+          "receiver": "D",
+          "release": 40,
+          "deadline": 160,
+          "data_bits": 1000000000,
+          "rate_bps": 100000000,
+          "utility": 90
+        },
+        {
+          "id": "t11",
+          "sender": "C",
+          "receiver": "D",
+          "release": 60,
+          "deadline": 200,
+          "data_bits": 1500000000,
+          "rate_bps": 100000000,
+          "utility": 97
+        }
+      ],
+      "contacts": [
+        {
+          "id": "c0",
+          "sender": "A",
+          "receiver": "B",
+          "start": 0,
+          "end": 240
+        },
+        {
+          "id": "c1",
+          "sender": "C",
+          "receiver": "B",
+          "start": 0,
+          "end": 240
+        },
+        {
+          "id": "c2",
+          "sender": "A",
+          "receiver": "D",
+          "start": 0,
+          "end": 240
+        },
+        {
+          "id": "c3",
+          "sender": "C",
+          "receiver": "D",
+          "start": 0,
+          "end": 240
+        }
+      ],
+      "calendar": [
+        {
+          "resource": "A",
+          "start": 30,
+          "end": 60
+        },
+        {
+          "resource": "B",
+          "start": 90,
+          "end": 120
+        }
+      ],
+      "horizon": 5400
+    },
+    "reference": [
+      {
+        "task_id": "t08",
+        "sender": "A",
+        "receiver": "B",
+        "start": 0,
+        "end": 16
+      },
+      {
+        "task_id": "t09",
+        "sender": "C",
+        "receiver": "B",
+        "start": 20,
+        "end": 26
+      },
+      {
+        "task_id": "t05",
+        "sender": "C",
+        "receiver": "B",
+        "start": 26,
+        "end": 42
+      },
+      {
+        "task_id": "t01",
+        "sender": "C",
+        "receiver": "B",
+        "start": 42,
+        "end": 53
+      },
+      {
+        "task_id": "t06",
+        "sender": "A",
+        "receiver": "D",
+        "start": 60,
+        "end": 66
+      },
+      {
+        "task_id": "t10",
+        "sender": "A",
+        "receiver": "D",
+        "start": 66,
+        "end": 77
+      },
+      {
+        "task_id": "t03",
+        "sender": "C",
+        "receiver": "D",
+        "start": 77,
+        "end": 83
+      },
+      {
+        "task_id": "t04",
+        "sender": "A",
+        "receiver": "B",
+        "start": 77,
+        "end": 88
+      },
+      {
+        "task_id": "t07",
+        "sender": "C",
+        "receiver": "D",
+        "start": 83,
+        "end": 94
+      },
+      {
+        "task_id": "t11",
+        "sender": "C",
+        "receiver": "D",
+        "start": 94,
+        "end": 110
+      },
+      {
+        "task_id": "t02",
+        "sender": "A",
+        "receiver": "D",
+        "start": 110,
+        "end": 126
+      }
+    ],
+    "event": {
+      "id": "P0-hand-authored-001:cancellation:FR=0:q=0.2:seed=100051",
+      "kind": "cancellation",
+      "seed": 100051,
+      "intensity": 0.2,
+      "cancelled": [
+        "t01",
+        "t03",
+        "t07"
+      ],
+      "rewards": [],
+      "urgent": null,
+      "applicable": true
+    },
+    "frozen_count": 0,
+    "post_event_contacts": null
+  },
+  {
+    "base": {
+      "id": "P0-hand-authored-001",
+      "satellites": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "tasks": [
+        {
+          "id": "t00",
+          "sender": "A",
+          "receiver": "B",
+          "release": 0,
+          "deadline": 120,
+          "data_bits": 500000000,
+          "rate_bps": 100000000,
+          "utility": 20
+        },
+        {
+          "id": "t01",
+          "sender": "C",
+          "receiver": "B",
+          "release": 20,
+          "deadline": 160,
+          "data_bits": 1000000000,
+          "rate_bps": 100000000,
+          "utility": 27
+        },
+        {
+          "id": "t02",
+          "sender": "A",
+          "receiver": "D",
+          "release": 40,
+          "deadline": 200,
+          "data_bits": 1500000000,
+          "rate_bps": 100000000,
+          "utility": 34
+        },
+        {
+          "id": "t03",
+          "sender": "C",
+          "receiver": "D",
+          "release": 60,
+          "deadline": 120,
+          "data_bits": 500000000,
+          "rate_bps": 100000000,
+          "utility": 41
+        },
+        {
+          "id": "t04",
+          "sender": "A",
+          "receiver": "B",
+          "release": 0,
+          "deadline": 160,
+          "data_bits": 1000000000,
+          "rate_bps": 100000000,
+          "utility": 48
+        },
+        {
+          "id": "t05",
+          "sender": "C",
+          "receiver": "B",
+          "release": 20,
+          "deadline": 200,
+          "data_bits": 1500000000,
+          "rate_bps": 100000000,
+          "utility": 55
+        },
+        {
+          "id": "t06",
+          "sender": "A",
+          "receiver": "D",
+          "release": 40,
+          "deadline": 120,
+          "data_bits": 500000000,
+          "rate_bps": 100000000,
+          "utility": 62
+        },
+        {
+          "id": "t07",
+          "sender": "C",
+          "receiver": "D",
+          "release": 60,
+          "deadline": 160,
+          "data_bits": 1000000000,
+          "rate_bps": 100000000,
+          "utility": 69
+        },
+        {
+          "id": "t08",
+          "sender": "A",
+          "receiver": "B",
+          "release": 0,
+          "deadline": 200,
+          "data_bits": 1500000000,
+          "rate_bps": 100000000,
+          "utility": 76
+        },
+        {
+          "id": "t09",
+          "sender": "C",
+          "receiver": "B",
+          "release": 20,
+          "deadline": 120,
+          "data_bits": 500000000,
+          "rate_bps": 100000000,
+          "utility": 83
+        },
+        {
+          "id": "t10",
+          "sender": "A",
+          "receiver": "D",
+          "release": 40,
+          "deadline": 160,
+          "data_bits": 1000000000,
+          "rate_bps": 100000000,
+          "utility": 90
+        },
+        {
+          "id": "t11",
+          "sender": "C",
+          "receiver": "D",
+          "release": 60,
+          "deadline": 200,
+          "data_bits": 1500000000,
+          "rate_bps": 100000000,
+          "utility": 97
+        }
+      ],
+      "contacts": [
+        {
+          "id": "c0",
+          "sender": "A",
+          "receiver": "B",
+          "start": 0,
+          "end": 240
+        },
+        {
+          "id": "c1",
+          "sender": "C",
+          "receiver": "B",
+          "start": 0,
+          "end": 240
+        },
+        {
+          "id": "c2",
+          "sender": "A",
+          "receiver": "D",
+          "start": 0,
+          "end": 240
+        },
+        {
+          "id": "c3",
+          "sender": "C",
+          "receiver": "D",
+          "start": 0,
+          "end": 240
+        }
+      ],
+      "calendar": [
+        {
+          "resource": "A",
+          "start": 30,
+          "end": 60
+        },
+        {
+          "resource": "B",
+          "start": 90,
+          "end": 120
+        }
+      ],
+      "horizon": 5400
+    },
+    "reference": [
+      {
+        "task_id": "t08",
+        "sender": "A",
+        "receiver": "B",
+        "start": 0,
+        "end": 16
+      },
+      {
+        "task_id": "t09",
+        "sender": "C",
+        "receiver": "B",
+        "start": 20,
+        "end": 26
+      },
+      {
+        "task_id": "t05",
+        "sender": "C",
+        "receiver": "B",
+        "start": 26,
+        "end": 42
+      },
+      {
+        "task_id": "t01",
+        "sender": "C",
+        "receiver": "B",
+        "start": 42,
+        "end": 53
+      },
+      {
+        "task_id": "t06",
+        "sender": "A",
+        "receiver": "D",
+        "start": 60,
+        "end": 66
+      },
+      {
+        "task_id": "t10",
+        "sender": "A",
+        "receiver": "D",
+        "start": 66,
+        "end": 77
+      },
+      {
+        "task_id": "t03",
+        "sender": "C",
+        "receiver": "D",
+        "start": 77,
+        "end": 83
+      },
+      {
+        "task_id": "t04",
+        "sender": "A",
+        "receiver": "B",
+        "start": 77,
+        "end": 88
+      },
+      {
+        "task_id": "t07",
+        "sender": "C",
+        "receiver": "D",
+        "start": 83,
+        "end": 94
+      },
+      {
+        "task_id": "t11",
+        "sender": "C",
+        "receiver": "D",
+        "start": 94,
+        "end": 110
+      },
+      {
+        "task_id": "t02",
+        "sender": "A",
+        "receiver": "D",
+        "start": 110,
+        "end": 126
+      }
+    ],
+    "event": {
+      "id": "P0-hand-authored-001:cancellation:FR=0:q=0.8:seed=100052",
+      "kind": "cancellation",
+      "seed": 100052,
+      "intensity": 0.8,
+      "cancelled": [
+        "t01",
+        "t03",
+        "t04",
+        "t05",
+        "t07",
+        "t08",
+        "t09",
+        "t10",
+        "t11"
+      ],
+      "rewards": [],
+      "urgent": null,
+      "applicable": true
+    },
+    "frozen_count": 0,
+    "post_event_contacts": null
+  },
+  {
+    "base": {
+      "id": "P0-hand-authored-001",
+      "satellites": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "tasks": [
+        {
+          "id": "t00",
+          "sender": "A",
+          "receiver": "B",
+          "release": 0,
+          "deadline": 120,
+          "data_bits": 500000000,
+          "rate_bps": 100000000,
+          "utility": 20
+        },
+        {
+          "id": "t01",
+          "sender": "C",
+          "receiver": "B",
+          "release": 20,
+          "deadline": 160,
+          "data_bits": 1000000000,
+          "rate_bps": 100000000,
+          "utility": 27
+        },
+        {
+          "id": "t02",
+          "sender": "A",
+          "receiver": "D",
+          "release": 40,
+          "deadline": 200,
+          "data_bits": 1500000000,
+          "rate_bps": 100000000,
+          "utility": 34
+        },
+        {
+          "id": "t03",
+          "sender": "C",
+          "receiver": "D",
+          "release": 60,
+          "deadline": 120,
+          "data_bits": 500000000,
+          "rate_bps": 100000000,
+          "utility": 41
+        },
+        {
+          "id": "t04",
+          "sender": "A",
+          "receiver": "B",
+          "release": 0,
+          "deadline": 160,
+          "data_bits": 1000000000,
+          "rate_bps": 100000000,
+          "utility": 48
+        },
+        {
+          "id": "t05",
+          "sender": "C",
+          "receiver": "B",
+          "release": 20,
+          "deadline": 200,
+          "data_bits": 1500000000,
+          "rate_bps": 100000000,
+          "utility": 55
+        },
+        {
+          "id": "t06",
+          "sender": "A",
+          "receiver": "D",
+          "release": 40,
+          "deadline": 120,
+          "data_bits": 500000000,
+          "rate_bps": 100000000,
+          "utility": 62
+        },
+        {
+          "id": "t07",
+          "sender": "C",
+          "receiver": "D",
+          "release": 60,
+          "deadline": 160,
+          "data_bits": 1000000000,
+          "rate_bps": 100000000,
+          "utility": 69
+        },
+        {
+          "id": "t08",
+          "sender": "A",
+          "receiver": "B",
+          "release": 0,
+          "deadline": 200,
+          "data_bits": 1500000000,
+          "rate_bps": 100000000,
+          "utility": 76
+        },
+        {
+          "id": "t09",
+          "sender": "C",
+          "receiver": "B",
+          "release": 20,
+          "deadline": 120,
+          "data_bits": 500000000,
+          "rate_bps": 100000000,
+          "utility": 83
+        },
+        {
+          "id": "t10",
+          "sender": "A",
+          "receiver": "D",
+          "release": 40,
+          "deadline": 160,
+          "data_bits": 1000000000,
+          "rate_bps": 100000000,
+          "utility": 90
+        },
+        {
+          "id": "t11",
+          "sender": "C",
+          "receiver": "D",
+          "release": 60,
+          "deadline": 200,
+          "data_bits": 1500000000,
+          "rate_bps": 100000000,
+          "utility": 97
+        }
+      ],
+      "contacts": [
+        {
+          "id": "c0",
+          "sender": "A",
+          "receiver": "B",
+          "start": 0,
+          "end": 240
+        },
+        {
+          "id": "c1",
+          "sender": "C",
+          "receiver": "B",
+          "start": 0,
+          "end": 240
+        },
+        {
+          "id": "c2",
+          "sender": "A",
+          "receiver": "D",
+          "start": 0,
+          "end": 240
+        },
+        {
+          "id": "c3",
+          "sender": "C",
+          "receiver": "D",
+          "start": 0,
+          "end": 240
+        }
+      ],
+      "calendar": [
+        {
+          "resource": "A",
+          "start": 30,
+          "end": 60
+        },
+        {
+          "resource": "B",
+          "start": 90,
+          "end": 120
+        }
+      ],
+      "horizon": 5400
+    },
+    "reference": [
+      {
+        "task_id": "t08",
+        "sender": "A",
+        "receiver": "B",
+        "start": 0,
+        "end": 16
+      },
+      {
+        "task_id": "t09",
+        "sender": "C",
+        "receiver": "B",
+        "start": 20,
+        "end": 26
+      },
+      {
+        "task_id": "t05",
+        "sender": "C",
+        "receiver": "B",
+        "start": 26,
+        "end": 42
+      },
+      {
+        "task_id": "t01",
+        "sender": "C",
+        "receiver": "B",
+        "start": 42,
+        "end": 53
+      },
+      {
+        "task_id": "t06",
+        "sender": "A",
+        "receiver": "D",
+        "start": 60,
+        "end": 66
+      },
+      {
+        "task_id": "t10",
+        "sender": "A",
+        "receiver": "D",
+        "start": 66,
+        "end": 77
+      },
+      {
+        "task_id": "t03",
+        "sender": "C",
+        "receiver": "D",
+        "start": 77,
+        "end": 83
+      },
+      {
+        "task_id": "t04",
+        "sender": "A",
+        "receiver": "B",
+        "start": 77,
+        "end": 88
+      },
+      {
+        "task_id": "t07",
+        "sender": "C",
+        "receiver": "D",
+        "start": 83,
+        "end": 94
+      },
+      {
+        "task_id": "t11",
+        "sender": "C",
+        "receiver": "D",
+        "start": 94,
+        "end": 110
+      },
+      {
+        "task_id": "t02",
+        "sender": "A",
+        "receiver": "D",
+        "start": 110,
+        "end": 126
+      }
+    ],
+    "event": {
+      "id": "P0-hand-authored-001:cancellation:FR=0.6:q=0.2:seed=100053",
+      "kind": "cancellation",
+      "seed": 100053,
+      "intensity": 0.2,
+      "cancelled": [
+        "t04"
+      ],
+      "rewards": [],
+      "urgent": null,
+      "applicable": true
+    },
+    "frozen_count": 6,
+    "post_event_contacts": null
+  },
+  {
+    "base": {
+      "id": "P0-hand-authored-001",
+      "satellites": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "tasks": [
+        {
+          "id": "t00",
+          "sender": "A",
+          "receiver": "B",
+          "release": 0,
+          "deadline": 120,
+          "data_bits": 500000000,
+          "rate_bps": 100000000,
+          "utility": 20
+        },
+        {
+          "id": "t01",
+          "sender": "C",
+          "receiver": "B",
+          "release": 20,
+          "deadline": 160,
+          "data_bits": 1000000000,
+          "rate_bps": 100000000,
+          "utility": 27
+        },
+        {
+          "id": "t02",
+          "sender": "A",
+          "receiver": "D",
+          "release": 40,
+          "deadline": 200,
+          "data_bits": 1500000000,
+          "rate_bps": 100000000,
+          "utility": 34
+        },
+        {
+          "id": "t03",
+          "sender": "C",
+          "receiver": "D",
+          "release": 60,
+          "deadline": 120,
+          "data_bits": 500000000,
+          "rate_bps": 100000000,
+          "utility": 41
+        },
+        {
+          "id": "t04",
+          "sender": "A",
+          "receiver": "B",
+          "release": 0,
+          "deadline": 160,
+          "data_bits": 1000000000,
+          "rate_bps": 100000000,
+          "utility": 48
+        },
+        {
+          "id": "t05",
+          "sender": "C",
+          "receiver": "B",
+          "release": 20,
+          "deadline": 200,
+          "data_bits": 1500000000,
+          "rate_bps": 100000000,
+          "utility": 55
+        },
+        {
+          "id": "t06",
+          "sender": "A",
+          "receiver": "D",
+          "release": 40,
+          "deadline": 120,
+          "data_bits": 500000000,
+          "rate_bps": 100000000,
+          "utility": 62
+        },
+        {
+          "id": "t07",
+          "sender": "C",
+          "receiver": "D",
+          "release": 60,
+          "deadline": 160,
+          "data_bits": 1000000000,
+          "rate_bps": 100000000,
+          "utility": 69
+        },
+        {
+          "id": "t08",
+          "sender": "A",
+          "receiver": "B",
+          "release": 0,
+          "deadline": 200,
+          "data_bits": 1500000000,
+          "rate_bps": 100000000,
+          "utility": 76
+        },
+        {
+          "id": "t09",
+          "sender": "C",
+          "receiver": "B",
+          "release": 20,
+          "deadline": 120,
+          "data_bits": 500000000,
+          "rate_bps": 100000000,
+          "utility": 83
+        },
+        {
+          "id": "t10",
+          "sender": "A",
+          "receiver": "D",
+          "release": 40,
+          "deadline": 160,
+          "data_bits": 1000000000,
+          "rate_bps": 100000000,
+          "utility": 90
+        },
+        {
+          "id": "t11",
+          "sender": "C",
+          "receiver": "D",
+          "release": 60,
+          "deadline": 200,
+          "data_bits": 1500000000,
+          "rate_bps": 100000000,
+          "utility": 97
+        }
+      ],
+      "contacts": [
+        {
+          "id": "c0",
+          "sender": "A",
+          "receiver": "B",
+          "start": 0,
+          "end": 240
+        },
+        {
+          "id": "c1",
+          "sender": "C",
+          "receiver": "B",
+          "start": 0,
+          "end": 240
+        },
+        {
+          "id": "c2",
+          "sender": "A",
+          "receiver": "D",
+          "start": 0,
+          "end": 240
+        },
+        {
+          "id": "c3",
+          "sender": "C",
+          "receiver": "D",
+          "start": 0,
+          "end": 240
+        }
+      ],
+      "calendar": [
+        {
+          "resource": "A",
+          "start": 30,
+          "end": 60
+        },
+        {
+          "resource": "B",
+          "start": 90,
+          "end": 120
+        }
+      ],
+      "horizon": 5400
+    },
+    "reference": [
+      {
+        "task_id": "t08",
+        "sender": "A",
+        "receiver": "B",
+        "start": 0,
+        "end": 16
+      },
+      {
+        "task_id": "t09",
+        "sender": "C",
+        "receiver": "B",
+        "start": 20,
+        "end": 26
+      },
+      {
+        "task_id": "t05",
+        "sender": "C",
+        "receiver": "B",
+        "start": 26,
+        "end": 42
+      },
+      {
+        "task_id": "t01",
+        "sender": "C",
+        "receiver": "B",
+        "start": 42,
+        "end": 53
+      },
+      {
+        "task_id": "t06",
+        "sender": "A",
+        "receiver": "D",
+        "start": 60,
+        "end": 66
+      },
+      {
+        "task_id": "t10",
+        "sender": "A",
+        "receiver": "D",
+        "start": 66,
+        "end": 77
+      },
+      {
+        "task_id": "t03",
+        "sender": "C",
+        "receiver": "D",
+        "start": 77,
+        "end": 83
+      },
+      {
+        "task_id": "t04",
+        "sender": "A",
+        "receiver": "B",
+        "start": 77,
+        "end": 88
+      },
+      {
+        "task_id": "t07",
+        "sender": "C",
+        "receiver": "D",
+        "start": 83,
+        "end": 94
+      },
+      {
+        "task_id": "t11",
+        "sender": "C",
+        "receiver": "D",
+        "start": 94,
+        "end": 110
+      },
+      {
+        "task_id": "t02",
+        "sender": "A",
+        "receiver": "D",
+        "start": 110,
+        "end": 126
+      }
+    ],
+    "event": {
+      "id": "P0-hand-authored-001:cancellation:FR=0.6:q=0.8:seed=100054",
+      "kind": "cancellation",
+      "seed": 100054,
+      "intensity": 0.8,
+      "cancelled": [
+        "t02",
+        "t03",
+        "t07",
+        "t11"
+      ],
+      "rewards": [],
+      "urgent": null,
+      "applicable": true
+    },
+    "frozen_count": 6,
+    "post_event_contacts": null
+  },
+  {
+    "base": {
+      "id": "P0-hand-authored-001",
+      "satellites": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "tasks": [
+        {
+          "id": "t00",
+          "sender": "A",
+          "receiver": "B",
+          "release": 0,
+          "deadline": 120,
+          "data_bits": 500000000,
+          "rate_bps": 100000000,
+          "utility": 20
+        },
+        {
+          "id": "t01",
+          "sender": "C",
+          "receiver": "B",
+          "release": 20,
+          "deadline": 160,
+          "data_bits": 1000000000,
+          "rate_bps": 100000000,
+          "utility": 27
+        },
+        {
+          "id": "t02",
+          "sender": "A",
+          "receiver": "D",
+          "release": 40,
+          "deadline": 200,
+          "data_bits": 1500000000,
+          "rate_bps": 100000000,
+          "utility": 34
+        },
+        {
+          "id": "t03",
+          "sender": "C",
+          "receiver": "D",
+          "release": 60,
+          "deadline": 120,
+          "data_bits": 500000000,
+          "rate_bps": 100000000,
+          "utility": 41
+        },
+        {
+          "id": "t04",
+          "sender": "A",
+          "receiver": "B",
+          "release": 0,
+          "deadline": 160,
+          "data_bits": 1000000000,
+          "rate_bps": 100000000,
+          "utility": 48
+        },
+        {
+          "id": "t05",
+          "sender": "C",
+          "receiver": "B",
+          "release": 20,
+          "deadline": 200,
+          "data_bits": 1500000000,
+          "rate_bps": 100000000,
+          "utility": 55
+        },
+        {
+          "id": "t06",
+          "sender": "A",
+          "receiver": "D",
+          "release": 40,
+          "deadline": 120,
+          "data_bits": 500000000,
+          "rate_bps": 100000000,
+          "utility": 62
+        },
+        {
+          "id": "t07",
+          "sender": "C",
+          "receiver": "D",
+          "release": 60,
+          "deadline": 160,
+          "data_bits": 1000000000,
+          "rate_bps": 100000000,
+          "utility": 69
+        },
+        {
+          "id": "t08",
+          "sender": "A",
+          "receiver": "B",
+          "release": 0,
+          "deadline": 200,
+          "data_bits": 1500000000,
+          "rate_bps": 100000000,
+          "utility": 76
+        },
+        {
+          "id": "t09",
+          "sender": "C",
+          "receiver": "B",
+          "release": 20,
+          "deadline": 120,
+          "data_bits": 500000000,
+          "rate_bps": 100000000,
+          "utility": 83
+        },
+        {
+          "id": "t10",
+          "sender": "A",
+          "receiver": "D",
+          "release": 40,
+          "deadline": 160,
+          "data_bits": 1000000000,
+          "rate_bps": 100000000,
+          "utility": 90
+        },
+        {
+          "id": "t11",
+          "sender": "C",
+          "receiver": "D",
+          "release": 60,
+          "deadline": 200,
+          "data_bits": 1500000000,
+          "rate_bps": 100000000,
+          "utility": 97
+        }
+      ],
+      "contacts": [
+        {
+          "id": "c0",
+          "sender": "A",
+          "receiver": "B",
+          "start": 0,
+          "end": 240
+        },
+        {
+          "id": "c1",
+          "sender": "C",
+          "receiver": "B",
+          "start": 0,
+          "end": 240
+        },
+        {
+          "id": "c2",
+          "sender": "A",
+          "receiver": "D",
+          "start": 0,
+          "end": 240
+        },
+        {
+          "id": "c3",
+          "sender": "C",
+          "receiver": "D",
+          "start": 0,
+          "end": 240
+        }
+      ],
+      "calendar": [
+        {
+          "resource": "A",
+          "start": 30,
+          "end": 60
+        },
+        {
+          "resource": "B",
+          "start": 90,
+          "end": 120
+        }
+      ],
+      "horizon": 5400
+    },
+    "reference": [
+      {
+        "task_id": "t08",
+        "sender": "A",
+        "receiver": "B",
+        "start": 0,
+        "end": 16
+      },
+      {
+        "task_id": "t09",
+        "sender": "C",
+        "receiver": "B",
+        "start": 20,
+        "end": 26
+      },
+      {
+        "task_id": "t05",
+        "sender": "C",
+        "receiver": "B",
+        "start": 26,
+        "end": 42
+      },
+      {
+        "task_id": "t01",
+        "sender": "C",
+        "receiver": "B",
+        "start": 42,
+        "end": 53
+      },
+      {
+        "task_id": "t06",
+        "sender": "A",
+        "receiver": "D",
+        "start": 60,
+        "end": 66
+      },
+      {
+        "task_id": "t10",
+        "sender": "A",
+        "receiver": "D",
+        "start": 66,
+        "end": 77
+      },
+      {
+        "task_id": "t03",
+        "sender": "C",
+        "receiver": "D",
+        "start": 77,
+        "end": 83
+      },
+      {
+        "task_id": "t04",
+        "sender": "A",
+        "receiver": "B",
+        "start": 77,
+        "end": 88
+      },
+      {
+        "task_id": "t07",
+        "sender": "C",
+        "receiver": "D",
+        "start": 83,
+        "end": 94
+      },
+      {
+        "task_id": "t11",
+        "sender": "C",
+        "receiver": "D",
+        "start": 94,
+        "end": 110
+      },
+      {
+        "task_id": "t02",
+        "sender": "A",
+        "receiver": "D",
+        "start": 110,
+        "end": 126
+      }
+    ],
+    "event": {
+      "id": "P0-hand-authored-001:urgent_insertion:FR=0:q=0.2:seed=100055",
+      "kind": "urgent_insertion",
+      "seed": 100055,
+      "intensity": 0.2,
+      "cancelled": [],
+      "rewards": [],
+      "urgent": {
+        "id": "urgent:P0-hand-authored-001:urgent_insertion:FR=0:q=0.2:seed=100055",
+        "sender": "A",
+        "receiver": "D",
+        "release": 0,
+        "deadline": 600,
+        "data_bits": 4000000000,
+        "rate_bps": 200000000,
+        "utility": 292
+      },
+      "applicable": true
+    },
+    "frozen_count": 0,
+    "post_event_contacts": null
+  },
+  {
+    "base": {
+      "id": "P0-hand-authored-001",
+      "satellites": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "tasks": [
+        {
+          "id": "t00",
+          "sender": "A",
+          "receiver": "B",
+          "release": 0,
+          "deadline": 120,
+          "data_bits": 500000000,
+          "rate_bps": 100000000,
+          "utility": 20
+        },
+        {
+          "id": "t01",
+          "sender": "C",
+          "receiver": "B",
+          "release": 20,
+          "deadline": 160,
+          "data_bits": 1000000000,
+          "rate_bps": 100000000,
+          "utility": 27
+        },
+        {
+          "id": "t02",
+          "sender": "A",
+          "receiver": "D",
+          "release": 40,
+          "deadline": 200,
+          "data_bits": 1500000000,
+          "rate_bps": 100000000,
+          "utility": 34
+        },
+        {
+          "id": "t03",
+          "sender": "C",
+          "receiver": "D",
+          "release": 60,
+          "deadline": 120,
+          "data_bits": 500000000,
+          "rate_bps": 100000000,
+          "utility": 41
+        },
+        {
+          "id": "t04",
+          "sender": "A",
+          "receiver": "B",
+          "release": 0,
+          "deadline": 160,
+          "data_bits": 1000000000,
+          "rate_bps": 100000000,
+          "utility": 48
+        },
+        {
+          "id": "t05",
+          "sender": "C",
+          "receiver": "B",
+          "release": 20,
+          "deadline": 200,
+          "data_bits": 1500000000,
+          "rate_bps": 100000000,
+          "utility": 55
+        },
+        {
+          "id": "t06",
+          "sender": "A",
+          "receiver": "D",
+          "release": 40,
+          "deadline": 120,
+          "data_bits": 500000000,
+          "rate_bps": 100000000,
+          "utility": 62
+        },
+        {
+          "id": "t07",
+          "sender": "C",
+          "receiver": "D",
+          "release": 60,
+          "deadline": 160,
+          "data_bits": 1000000000,
+          "rate_bps": 100000000,
+          "utility": 69
+        },
+        {
+          "id": "t08",
+          "sender": "A",
+          "receiver": "B",
+          "release": 0,
+          "deadline": 200,
+          "data_bits": 1500000000,
+          "rate_bps": 100000000,
+          "utility": 76
+        },
+        {
+          "id": "t09",
+          "sender": "C",
+          "receiver": "B",
+          "release": 20,
+          "deadline": 120,
+          "data_bits": 500000000,
+          "rate_bps": 100000000,
+          "utility": 83
+        },
+        {
+          "id": "t10",
+          "sender": "A",
+          "receiver": "D",
+          "release": 40,
+          "deadline": 160,
+          "data_bits": 1000000000,
+          "rate_bps": 100000000,
+          "utility": 90
+        },
+        {
+          "id": "t11",
+          "sender": "C",
+          "receiver": "D",
+          "release": 60,
+          "deadline": 200,
+          "data_bits": 1500000000,
+          "rate_bps": 100000000,
+          "utility": 97
+        }
+      ],
+      "contacts": [
+        {
+          "id": "c0",
+          "sender": "A",
+          "receiver": "B",
+          "start": 0,
+          "end": 240
+        },
+        {
+          "id": "c1",
+          "sender": "C",
+          "receiver": "B",
+          "start": 0,
+          "end": 240
+        },
+        {
+          "id": "c2",
+          "sender": "A",
+          "receiver": "D",
+          "start": 0,
+          "end": 240
+        },
+        {
+          "id": "c3",
+          "sender": "C",
+          "receiver": "D",
+          "start": 0,
+          "end": 240
+        }
+      ],
+      "calendar": [
+        {
+          "resource": "A",
+          "start": 30,
+          "end": 60
+        },
+        {
+          "resource": "B",
+          "start": 90,
+          "end": 120
+        }
+      ],
+      "horizon": 5400
+    },
+    "reference": [
+      {
+        "task_id": "t08",
+        "sender": "A",
+        "receiver": "B",
+        "start": 0,
+        "end": 16
+      },
+      {
+        "task_id": "t09",
+        "sender": "C",
+        "receiver": "B",
+        "start": 20,
+        "end": 26
+      },
+      {
+        "task_id": "t05",
+        "sender": "C",
+        "receiver": "B",
+        "start": 26,
+        "end": 42
+      },
+      {
+        "task_id": "t01",
+        "sender": "C",
+        "receiver": "B",
+        "start": 42,
+        "end": 53
+      },
+      {
+        "task_id": "t06",
+        "sender": "A",
+        "receiver": "D",
+        "start": 60,
+        "end": 66
+      },
+      {
+        "task_id": "t10",
+        "sender": "A",
+        "receiver": "D",
+        "start": 66,
+        "end": 77
+      },
+      {
+        "task_id": "t03",
+        "sender": "C",
+        "receiver": "D",
+        "start": 77,
+        "end": 83
+      },
+      {
+        "task_id": "t04",
+        "sender": "A",
+        "receiver": "B",
+        "start": 77,
+        "end": 88
+      },
+      {
+        "task_id": "t07",
+        "sender": "C",
+        "receiver": "D",
+        "start": 83,
+        "end": 94
+      },
+      {
+        "task_id": "t11",
+        "sender": "C",
+        "receiver": "D",
+        "start": 94,
+        "end": 110
+      },
+      {
+        "task_id": "t02",
+        "sender": "A",
+        "receiver": "D",
+        "start": 110,
+        "end": 126
+      }
+    ],
+    "event": {
+      "id": "P0-hand-authored-001:urgent_insertion:FR=0:q=0.8:seed=100056",
+      "kind": "urgent_insertion",
+      "seed": 100056,
+      "intensity": 0.8,
+      "cancelled": [],
+      "rewards": [],
+      "urgent": {
+        "id": "urgent:P0-hand-authored-001:urgent_insertion:FR=0:q=0.8:seed=100056",
+        "sender": "A",
+        "receiver": "B",
+        "release": 0,
+        "deadline": 120,
+        "data_bits": 1000000000,
+        "rate_bps": 50000000,
+        "utility": 292
+      },
+      "applicable": true
+    },
+    "frozen_count": 0,
+    "post_event_contacts": null
+  },
+  {
+    "base": {
+      "id": "P0-hand-authored-001",
+      "satellites": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "tasks": [
+        {
+          "id": "t00",
+          "sender": "A",
+          "receiver": "B",
+          "release": 0,
+          "deadline": 120,
+          "data_bits": 500000000,
+          "rate_bps": 100000000,
+          "utility": 20
+        },
+        {
+          "id": "t01",
+          "sender": "C",
+          "receiver": "B",
+          "release": 20,
+          "deadline": 160,
+          "data_bits": 1000000000,
+          "rate_bps": 100000000,
+          "utility": 27
+        },
+        {
+          "id": "t02",
+          "sender": "A",
+          "receiver": "D",
+          "release": 40,
+          "deadline": 200,
+          "data_bits": 1500000000,
+          "rate_bps": 100000000,
+          "utility": 34
+        },
+        {
+          "id": "t03",
+          "sender": "C",
+          "receiver": "D",
+          "release": 60,
+          "deadline": 120,
+          "data_bits": 500000000,
+          "rate_bps": 100000000,
+          "utility": 41
+        },
+        {
+          "id": "t04",
+          "sender": "A",
+          "receiver": "B",
+          "release": 0,
+          "deadline": 160,
+          "data_bits": 1000000000,
+          "rate_bps": 100000000,
+          "utility": 48
+        },
+        {
+          "id": "t05",
+          "sender": "C",
+          "receiver": "B",
+          "release": 20,
+          "deadline": 200,
+          "data_bits": 1500000000,
+          "rate_bps": 100000000,
+          "utility": 55
+        },
+        {
+          "id": "t06",
+          "sender": "A",
+          "receiver": "D",
+          "release": 40,
+          "deadline": 120,
+          "data_bits": 500000000,
+          "rate_bps": 100000000,
+          "utility": 62
+        },
+        {
+          "id": "t07",
+          "sender": "C",
+          "receiver": "D",
+          "release": 60,
+          "deadline": 160,
+          "data_bits": 1000000000,
+          "rate_bps": 100000000,
+          "utility": 69
+        },
+        {
+          "id": "t08",
+          "sender": "A",
+          "receiver": "B",
+          "release": 0,
+          "deadline": 200,
+          "data_bits": 1500000000,
+          "rate_bps": 100000000,
+          "utility": 76
+        },
+        {
+          "id": "t09",
+          "sender": "C",
+          "receiver": "B",
+          "release": 20,
+          "deadline": 120,
+          "data_bits": 500000000,
+          "rate_bps": 100000000,
+          "utility": 83
+        },
+        {
+          "id": "t10",
+          "sender": "A",
+          "receiver": "D",
+          "release": 40,
+          "deadline": 160,
+          "data_bits": 1000000000,
+          "rate_bps": 100000000,
+          "utility": 90
+        },
+        {
+          "id": "t11",
+          "sender": "C",
+          "receiver": "D",
+          "release": 60,
+          "deadline": 200,
+          "data_bits": 1500000000,
+          "rate_bps": 100000000,
+          "utility": 97
+        }
+      ],
+      "contacts": [
+        {
+          "id": "c0",
+          "sender": "A",
+          "receiver": "B",
+          "start": 0,
+          "end": 240
+        },
+        {
+          "id": "c1",
+          "sender": "C",
+          "receiver": "B",
+          "start": 0,
+          "end": 240
+        },
+        {
+          "id": "c2",
+          "sender": "A",
+          "receiver": "D",
+          "start": 0,
+          "end": 240
+        },
+        {
+          "id": "c3",
+          "sender": "C",
+          "receiver": "D",
+          "start": 0,
+          "end": 240
+        }
+      ],
+      "calendar": [
+        {
+          "resource": "A",
+          "start": 30,
+          "end": 60
+        },
+        {
+          "resource": "B",
+          "start": 90,
+          "end": 120
+        }
+      ],
+      "horizon": 5400
+    },
+    "reference": [
+      {
+        "task_id": "t08",
+        "sender": "A",
+        "receiver": "B",
+        "start": 0,
+        "end": 16
+      },
+      {
+        "task_id": "t09",
+        "sender": "C",
+        "receiver": "B",
+        "start": 20,
+        "end": 26
+      },
+      {
+        "task_id": "t05",
+        "sender": "C",
+        "receiver": "B",
+        "start": 26,
+        "end": 42
+      },
+      {
+        "task_id": "t01",
+        "sender": "C",
+        "receiver": "B",
+        "start": 42,
+        "end": 53
+      },
+      {
+        "task_id": "t06",
+        "sender": "A",
+        "receiver": "D",
+        "start": 60,
+        "end": 66
+      },
+      {
+        "task_id": "t10",
+        "sender": "A",
+        "receiver": "D",
+        "start": 66,
+        "end": 77
+      },
+      {
+        "task_id": "t03",
+        "sender": "C",
+        "receiver": "D",
+        "start": 77,
+        "end": 83
+      },
+      {
+        "task_id": "t04",
+        "sender": "A",
+        "receiver": "B",
+        "start": 77,
+        "end": 88
+      },
+      {
+        "task_id": "t07",
+        "sender": "C",
+        "receiver": "D",
+        "start": 83,
+        "end": 94
+      },
+      {
+        "task_id": "t11",
+        "sender": "C",
+        "receiver": "D",
+        "start": 94,
+        "end": 110
+      },
+      {
+        "task_id": "t02",
+        "sender": "A",
+        "receiver": "D",
+        "start": 110,
+        "end": 126
+      }
+    ],
+    "event": {
+      "id": "P0-hand-authored-001:urgent_insertion:FR=0.6:q=0.2:seed=100057",
+      "kind": "urgent_insertion",
+      "seed": 100057,
+      "intensity": 0.2,
+      "cancelled": [],
+      "rewards": [],
+      "urgent": {
+        "id": "urgent:P0-hand-authored-001:urgent_insertion:FR=0.6:q=0.2:seed=100057",
+        "sender": "B",
+        "receiver": "D",
+        "release": 0,
+        "deadline": 600,
+        "data_bits": 4000000000,
+        "rate_bps": 100000000,
+        "utility": 292
+      },
+      "applicable": true
+    },
+    "frozen_count": 6,
+    "post_event_contacts": null
+  },
+  {
+    "base": {
+      "id": "P0-hand-authored-001",
+      "satellites": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "tasks": [
+        {
+          "id": "t00",
+          "sender": "A",
+          "receiver": "B",
+          "release": 0,
+          "deadline": 120,
+          "data_bits": 500000000,
+          "rate_bps": 100000000,
+          "utility": 20
+        },
+        {
+          "id": "t01",
+          "sender": "C",
+          "receiver": "B",
+          "release": 20,
+          "deadline": 160,
+          "data_bits": 1000000000,
+          "rate_bps": 100000000,
+          "utility": 27
+        },
+        {
+          "id": "t02",
+          "sender": "A",
+          "receiver": "D",
+          "release": 40,
+          "deadline": 200,
+          "data_bits": 1500000000,
+          "rate_bps": 100000000,
+          "utility": 34
+        },
+        {
+          "id": "t03",
+          "sender": "C",
+          "receiver": "D",
+          "release": 60,
+          "deadline": 120,
+          "data_bits": 500000000,
+          "rate_bps": 100000000,
+          "utility": 41
+        },
+        {
+          "id": "t04",
+          "sender": "A",
+          "receiver": "B",
+          "release": 0,
+          "deadline": 160,
+          "data_bits": 1000000000,
+          "rate_bps": 100000000,
+          "utility": 48
+        },
+        {
+          "id": "t05",
+          "sender": "C",
+          "receiver": "B",
+          "release": 20,
+          "deadline": 200,
+          "data_bits": 1500000000,
+          "rate_bps": 100000000,
+          "utility": 55
+        },
+        {
+          "id": "t06",
+          "sender": "A",
+          "receiver": "D",
+          "release": 40,
+          "deadline": 120,
+          "data_bits": 500000000,
+          "rate_bps": 100000000,
+          "utility": 62
+        },
+        {
+          "id": "t07",
+          "sender": "C",
+          "receiver": "D",
+          "release": 60,
+          "deadline": 160,
+          "data_bits": 1000000000,
+          "rate_bps": 100000000,
+          "utility": 69
+        },
+        {
+          "id": "t08",
+          "sender": "A",
+          "receiver": "B",
+          "release": 0,
+          "deadline": 200,
+          "data_bits": 1500000000,
+          "rate_bps": 100000000,
+          "utility": 76
+        },
+        {
+          "id": "t09",
+          "sender": "C",
+          "receiver": "B",
+          "release": 20,
+          "deadline": 120,
+          "data_bits": 500000000,
+          "rate_bps": 100000000,
+          "utility": 83
+        },
+        {
+          "id": "t10",
+          "sender": "A",
+          "receiver": "D",
+          "release": 40,
+          "deadline": 160,
+          "data_bits": 1000000000,
+          "rate_bps": 100000000,
+          "utility": 90
+        },
+        {
+          "id": "t11",
+          "sender": "C",
+          "receiver": "D",
+          "release": 60,
+          "deadline": 200,
+          "data_bits": 1500000000,
+          "rate_bps": 100000000,
+          "utility": 97
+        }
+      ],
+      "contacts": [
+        {
+          "id": "c0",
+          "sender": "A",
+          "receiver": "B",
+          "start": 0,
+          "end": 240
+        },
+        {
+          "id": "c1",
+          "sender": "C",
+          "receiver": "B",
+          "start": 0,
+          "end": 240
+        },
+        {
+          "id": "c2",
+          "sender": "A",
+          "receiver": "D",
+          "start": 0,
+          "end": 240
+        },
+        {
+          "id": "c3",
+          "sender": "C",
+          "receiver": "D",
+          "start": 0,
+          "end": 240
+        }
+      ],
+      "calendar": [
+        {
+          "resource": "A",
+          "start": 30,
+          "end": 60
+        },
+        {
+          "resource": "B",
+          "start": 90,
+          "end": 120
+        }
+      ],
+      "horizon": 5400
+    },
+    "reference": [
+      {
+        "task_id": "t08",
+        "sender": "A",
+        "receiver": "B",
+        "start": 0,
+        "end": 16
+      },
+      {
+        "task_id": "t09",
+        "sender": "C",
+        "receiver": "B",
+        "start": 20,
+        "end": 26
+      },
+      {
+        "task_id": "t05",
+        "sender": "C",
+        "receiver": "B",
+        "start": 26,
+        "end": 42
+      },
+      {
+        "task_id": "t01",
+        "sender": "C",
+        "receiver": "B",
+        "start": 42,
+        "end": 53
+      },
+      {
+        "task_id": "t06",
+        "sender": "A",
+        "receiver": "D",
+        "start": 60,
+        "end": 66
+      },
+      {
+        "task_id": "t10",
+        "sender": "A",
+        "receiver": "D",
+        "start": 66,
+        "end": 77
+      },
+      {
+        "task_id": "t03",
+        "sender": "C",
+        "receiver": "D",
+        "start": 77,
+        "end": 83
+      },
+      {
+        "task_id": "t04",
+        "sender": "A",
+        "receiver": "B",
+        "start": 77,
+        "end": 88
+      },
+      {
+        "task_id": "t07",
+        "sender": "C",
+        "receiver": "D",
+        "start": 83,
+        "end": 94
+      },
+      {
+        "task_id": "t11",
+        "sender": "C",
+        "receiver": "D",
+        "start": 94,
+        "end": 110
+      },
+      {
+        "task_id": "t02",
+        "sender": "A",
+        "receiver": "D",
+        "start": 110,
+        "end": 126
+      }
+    ],
+    "event": {
+      "id": "P0-hand-authored-001:urgent_insertion:FR=0.6:q=0.8:seed=100058",
+      "kind": "urgent_insertion",
+      "seed": 100058,
+      "intensity": 0.8,
+      "cancelled": [],
+      "rewards": [],
+      "urgent": {
+        "id": "urgent:P0-hand-authored-001:urgent_insertion:FR=0.6:q=0.8:seed=100058",
+        "sender": "A",
+        "receiver": "D",
+        "release": 0,
+        "deadline": 120,
+        "data_bits": 1000000000,
+        "rate_bps": 200000000,
+        "utility": 292
+      },
+      "applicable": true
+    },
+    "frozen_count": 6,
+    "post_event_contacts": null
+  },
+  {
+    "base": {
+      "id": "P0-hand-authored-001",
+      "satellites": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "tasks": [
+        {
+          "id": "t00",
+          "sender": "A",
+          "receiver": "B",
+          "release": 0,
+          "deadline": 120,
+          "data_bits": 500000000,
+          "rate_bps": 100000000,
+          "utility": 20
+        },
+        {
+          "id": "t01",
+          "sender": "C",
+          "receiver": "B",
+          "release": 20,
+          "deadline": 160,
+          "data_bits": 1000000000,
+          "rate_bps": 100000000,
+          "utility": 27
+        },
+        {
+          "id": "t02",
+          "sender": "A",
+          "receiver": "D",
+          "release": 40,
+          "deadline": 200,
+          "data_bits": 1500000000,
+          "rate_bps": 100000000,
+          "utility": 34
+        },
+        {
+          "id": "t03",
+          "sender": "C",
+          "receiver": "D",
+          "release": 60,
+          "deadline": 120,
+          "data_bits": 500000000,
+          "rate_bps": 100000000,
+          "utility": 41
+        },
+        {
+          "id": "t04",
+          "sender": "A",
+          "receiver": "B",
+          "release": 0,
+          "deadline": 160,
+          "data_bits": 1000000000,
+          "rate_bps": 100000000,
+          "utility": 48
+        },
+        {
+          "id": "t05",
+          "sender": "C",
+          "receiver": "B",
+          "release": 20,
+          "deadline": 200,
+          "data_bits": 1500000000,
+          "rate_bps": 100000000,
+          "utility": 55
+        },
+        {
+          "id": "t06",
+          "sender": "A",
+          "receiver": "D",
+          "release": 40,
+          "deadline": 120,
+          "data_bits": 500000000,
+          "rate_bps": 100000000,
+          "utility": 62
+        },
+        {
+          "id": "t07",
+          "sender": "C",
+          "receiver": "D",
+          "release": 60,
+          "deadline": 160,
+          "data_bits": 1000000000,
+          "rate_bps": 100000000,
+          "utility": 69
+        },
+        {
+          "id": "t08",
+          "sender": "A",
+          "receiver": "B",
+          "release": 0,
+          "deadline": 200,
+          "data_bits": 1500000000,
+          "rate_bps": 100000000,
+          "utility": 76
+        },
+        {
+          "id": "t09",
+          "sender": "C",
+          "receiver": "B",
+          "release": 20,
+          "deadline": 120,
+          "data_bits": 500000000,
+          "rate_bps": 100000000,
+          "utility": 83
+        },
+        {
+          "id": "t10",
+          "sender": "A",
+          "receiver": "D",
+          "release": 40,
+          "deadline": 160,
+          "data_bits": 1000000000,
+          "rate_bps": 100000000,
+          "utility": 90
+        },
+        {
+          "id": "t11",
+          "sender": "C",
+          "receiver": "D",
+          "release": 60,
+          "deadline": 200,
+          "data_bits": 1500000000,
+          "rate_bps": 100000000,
+          "utility": 97
+        }
+      ],
+      "contacts": [
+        {
+          "id": "c0",
+          "sender": "A",
+          "receiver": "B",
+          "start": 0,
+          "end": 240
+        },
+        {
+          "id": "c1",
+          "sender": "C",
+          "receiver": "B",
+          "start": 0,
+          "end": 240
+        },
+        {
+          "id": "c2",
+          "sender": "A",
+          "receiver": "D",
+          "start": 0,
+          "end": 240
+        },
+        {
+          "id": "c3",
+          "sender": "C",
+          "receiver": "D",
+          "start": 0,
+          "end": 240
+        }
+      ],
+      "calendar": [
+        {
+          "resource": "A",
+          "start": 30,
+          "end": 60
+        },
+        {
+          "resource": "B",
+          "start": 90,
+          "end": 120
+        }
+      ],
+      "horizon": 5400
+    },
+    "reference": [
+      {
+        "task_id": "t08",
+        "sender": "A",
+        "receiver": "B",
+        "start": 0,
+        "end": 16
+      },
+      {
+        "task_id": "t09",
+        "sender": "C",
+        "receiver": "B",
+        "start": 20,
+        "end": 26
+      },
+      {
+        "task_id": "t05",
+        "sender": "C",
+        "receiver": "B",
+        "start": 26,
+        "end": 42
+      },
+      {
+        "task_id": "t01",
+        "sender": "C",
+        "receiver": "B",
+        "start": 42,
+        "end": 53
+      },
+      {
+        "task_id": "t06",
+        "sender": "A",
+        "receiver": "D",
+        "start": 60,
+        "end": 66
+      },
+      {
+        "task_id": "t10",
+        "sender": "A",
+        "receiver": "D",
+        "start": 66,
+        "end": 77
+      },
+      {
+        "task_id": "t03",
+        "sender": "C",
+        "receiver": "D",
+        "start": 77,
+        "end": 83
+      },
+      {
+        "task_id": "t04",
+        "sender": "A",
+        "receiver": "B",
+        "start": 77,
+        "end": 88
+      },
+      {
+        "task_id": "t07",
+        "sender": "C",
+        "receiver": "D",
+        "start": 83,
+        "end": 94
+      },
+      {
+        "task_id": "t11",
+        "sender": "C",
+        "receiver": "D",
+        "start": 94,
+        "end": 110
+      },
+      {
+        "task_id": "t02",
+        "sender": "A",
+        "receiver": "D",
+        "start": 110,
+        "end": 126
+      }
+    ],
+    "event": {
+      "id": "P0-hand-authored-001:reward_update:FR=0:q=0.2:seed=100059",
+      "kind": "reward_update",
+      "seed": 100059,
+      "intensity": 0.2,
+      "cancelled": [],
+      "rewards": [
+        [
+          "t00",
+          24
+        ],
+        [
+          "t06",
+          74
+        ],
+        [
+          "t09",
+          66
+        ],
+        [
+          "t10",
+          72
+        ]
+      ],
+      "urgent": null,
+      "applicable": true
+    },
+    "frozen_count": 0,
+    "post_event_contacts": null
+  },
+  {
+    "base": {
+      "id": "P0-hand-authored-001",
+      "satellites": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "tasks": [
+        {
+          "id": "t00",
+          "sender": "A",
+          "receiver": "B",
+          "release": 0,
+          "deadline": 120,
+          "data_bits": 500000000,
+          "rate_bps": 100000000,
+          "utility": 20
+        },
+        {
+          "id": "t01",
+          "sender": "C",
+          "receiver": "B",
+          "release": 20,
+          "deadline": 160,
+          "data_bits": 1000000000,
+          "rate_bps": 100000000,
+          "utility": 27
+        },
+        {
+          "id": "t02",
+          "sender": "A",
+          "receiver": "D",
+          "release": 40,
+          "deadline": 200,
+          "data_bits": 1500000000,
+          "rate_bps": 100000000,
+          "utility": 34
+        },
+        {
+          "id": "t03",
+          "sender": "C",
+          "receiver": "D",
+          "release": 60,
+          "deadline": 120,
+          "data_bits": 500000000,
+          "rate_bps": 100000000,
+          "utility": 41
+        },
+        {
+          "id": "t04",
+          "sender": "A",
+          "receiver": "B",
+          "release": 0,
+          "deadline": 160,
+          "data_bits": 1000000000,
+          "rate_bps": 100000000,
+          "utility": 48
+        },
+        {
+          "id": "t05",
+          "sender": "C",
+          "receiver": "B",
+          "release": 20,
+          "deadline": 200,
+          "data_bits": 1500000000,
+          "rate_bps": 100000000,
+          "utility": 55
+        },
+        {
+          "id": "t06",
+          "sender": "A",
+          "receiver": "D",
+          "release": 40,
+          "deadline": 120,
+          "data_bits": 500000000,
+          "rate_bps": 100000000,
+          "utility": 62
+        },
+        {
+          "id": "t07",
+          "sender": "C",
+          "receiver": "D",
+          "release": 60,
+          "deadline": 160,
+          "data_bits": 1000000000,
+          "rate_bps": 100000000,
+          "utility": 69
+        },
+        {
+          "id": "t08",
+          "sender": "A",
+          "receiver": "B",
+          "release": 0,
+          "deadline": 200,
+          "data_bits": 1500000000,
+          "rate_bps": 100000000,
+          "utility": 76
+        },
+        {
+          "id": "t09",
+          "sender": "C",
+          "receiver": "B",
+          "release": 20,
+          "deadline": 120,
+          "data_bits": 500000000,
+          "rate_bps": 100000000,
+          "utility": 83
+        },
+        {
+          "id": "t10",
+          "sender": "A",
+          "receiver": "D",
+          "release": 40,
+          "deadline": 160,
+          "data_bits": 1000000000,
+          "rate_bps": 100000000,
+          "utility": 90
+        },
+        {
+          "id": "t11",
+          "sender": "C",
+          "receiver": "D",
+          "release": 60,
+          "deadline": 200,
+          "data_bits": 1500000000,
+          "rate_bps": 100000000,
+          "utility": 97
+        }
+      ],
+      "contacts": [
+        {
+          "id": "c0",
+          "sender": "A",
+          "receiver": "B",
+          "start": 0,
+          "end": 240
+        },
+        {
+          "id": "c1",
+          "sender": "C",
+          "receiver": "B",
+          "start": 0,
+          "end": 240
+        },
+        {
+          "id": "c2",
+          "sender": "A",
+          "receiver": "D",
+          "start": 0,
+          "end": 240
+        },
+        {
+          "id": "c3",
+          "sender": "C",
+          "receiver": "D",
+          "start": 0,
+          "end": 240
+        }
+      ],
+      "calendar": [
+        {
+          "resource": "A",
+          "start": 30,
+          "end": 60
+        },
+        {
+          "resource": "B",
+          "start": 90,
+          "end": 120
+        }
+      ],
+      "horizon": 5400
+    },
+    "reference": [
+      {
+        "task_id": "t08",
+        "sender": "A",
+        "receiver": "B",
+        "start": 0,
+        "end": 16
+      },
+      {
+        "task_id": "t09",
+        "sender": "C",
+        "receiver": "B",
+        "start": 20,
+        "end": 26
+      },
+      {
+        "task_id": "t05",
+        "sender": "C",
+        "receiver": "B",
+        "start": 26,
+        "end": 42
+      },
+      {
+        "task_id": "t01",
+        "sender": "C",
+        "receiver": "B",
+        "start": 42,
+        "end": 53
+      },
+      {
+        "task_id": "t06",
+        "sender": "A",
+        "receiver": "D",
+        "start": 60,
+        "end": 66
+      },
+      {
+        "task_id": "t10",
+        "sender": "A",
+        "receiver": "D",
+        "start": 66,
+        "end": 77
+      },
+      {
+        "task_id": "t03",
+        "sender": "C",
+        "receiver": "D",
+        "start": 77,
+        "end": 83
+      },
+      {
+        "task_id": "t04",
+        "sender": "A",
+        "receiver": "B",
+        "start": 77,
+        "end": 88
+      },
+      {
+        "task_id": "t07",
+        "sender": "C",
+        "receiver": "D",
+        "start": 83,
+        "end": 94
+      },
+      {
+        "task_id": "t11",
+        "sender": "C",
+        "receiver": "D",
+        "start": 94,
+        "end": 110
+      },
+      {
+        "task_id": "t02",
+        "sender": "A",
+        "receiver": "D",
+        "start": 110,
+        "end": 126
+      }
+    ],
+    "event": {
+      "id": "P0-hand-authored-001:reward_update:FR=0:q=0.8:seed=100060",
+      "kind": "reward_update",
+      "seed": 100060,
+      "intensity": 0.8,
+      "cancelled": [],
+      "rewards": [
+        [
+          "t00",
+          36
+        ],
+        [
+          "t06",
+          12
+        ],
+        [
+          "t07",
+          14
+        ],
+        [
+          "t11",
+          175
+        ]
+      ],
+      "urgent": null,
+      "applicable": true
+    },
+    "frozen_count": 0,
+    "post_event_contacts": null
+  },
+  {
+    "base": {
+      "id": "P0-hand-authored-001",
+      "satellites": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "tasks": [
+        {
+          "id": "t00",
+          "sender": "A",
+          "receiver": "B",
+          "release": 0,
+          "deadline": 120,
+          "data_bits": 500000000,
+          "rate_bps": 100000000,
+          "utility": 20
+        },
+        {
+          "id": "t01",
+          "sender": "C",
+          "receiver": "B",
+          "release": 20,
+          "deadline": 160,
+          "data_bits": 1000000000,
+          "rate_bps": 100000000,
+          "utility": 27
+        },
+        {
+          "id": "t02",
+          "sender": "A",
+          "receiver": "D",
+          "release": 40,
+          "deadline": 200,
+          "data_bits": 1500000000,
+          "rate_bps": 100000000,
+          "utility": 34
+        },
+        {
+          "id": "t03",
+          "sender": "C",
+          "receiver": "D",
+          "release": 60,
+          "deadline": 120,
+          "data_bits": 500000000,
+          "rate_bps": 100000000,
+          "utility": 41
+        },
+        {
+          "id": "t04",
+          "sender": "A",
+          "receiver": "B",
+          "release": 0,
+          "deadline": 160,
+          "data_bits": 1000000000,
+          "rate_bps": 100000000,
+          "utility": 48
+        },
+        {
+          "id": "t05",
+          "sender": "C",
+          "receiver": "B",
+          "release": 20,
+          "deadline": 200,
+          "data_bits": 1500000000,
+          "rate_bps": 100000000,
+          "utility": 55
+        },
+        {
+          "id": "t06",
+          "sender": "A",
+          "receiver": "D",
+          "release": 40,
+          "deadline": 120,
+          "data_bits": 500000000,
+          "rate_bps": 100000000,
+          "utility": 62
+        },
+        {
+          "id": "t07",
+          "sender": "C",
+          "receiver": "D",
+          "release": 60,
+          "deadline": 160,
+          "data_bits": 1000000000,
+          "rate_bps": 100000000,
+          "utility": 69
+        },
+        {
+          "id": "t08",
+          "sender": "A",
+          "receiver": "B",
+          "release": 0,
+          "deadline": 200,
+          "data_bits": 1500000000,
+          "rate_bps": 100000000,
+          "utility": 76
+        },
+        {
+          "id": "t09",
+          "sender": "C",
+          "receiver": "B",
+          "release": 20,
+          "deadline": 120,
+          "data_bits": 500000000,
+          "rate_bps": 100000000,
+          "utility": 83
+        },
+        {
+          "id": "t10",
+          "sender": "A",
+          "receiver": "D",
+          "release": 40,
+          "deadline": 160,
+          "data_bits": 1000000000,
+          "rate_bps": 100000000,
+          "utility": 90
+        },
+        {
+          "id": "t11",
+          "sender": "C",
+          "receiver": "D",
+          "release": 60,
+          "deadline": 200,
+          "data_bits": 1500000000,
+          "rate_bps": 100000000,
+          "utility": 97
+        }
+      ],
+      "contacts": [
+        {
+          "id": "c0",
+          "sender": "A",
+          "receiver": "B",
+          "start": 0,
+          "end": 240
+        },
+        {
+          "id": "c1",
+          "sender": "C",
+          "receiver": "B",
+          "start": 0,
+          "end": 240
+        },
+        {
+          "id": "c2",
+          "sender": "A",
+          "receiver": "D",
+          "start": 0,
+          "end": 240
+        },
+        {
+          "id": "c3",
+          "sender": "C",
+          "receiver": "D",
+          "start": 0,
+          "end": 240
+        }
+      ],
+      "calendar": [
+        {
+          "resource": "A",
+          "start": 30,
+          "end": 60
+        },
+        {
+          "resource": "B",
+          "start": 90,
+          "end": 120
+        }
+      ],
+      "horizon": 5400
+    },
+    "reference": [
+      {
+        "task_id": "t08",
+        "sender": "A",
+        "receiver": "B",
+        "start": 0,
+        "end": 16
+      },
+      {
+        "task_id": "t09",
+        "sender": "C",
+        "receiver": "B",
+        "start": 20,
+        "end": 26
+      },
+      {
+        "task_id": "t05",
+        "sender": "C",
+        "receiver": "B",
+        "start": 26,
+        "end": 42
+      },
+      {
+        "task_id": "t01",
+        "sender": "C",
+        "receiver": "B",
+        "start": 42,
+        "end": 53
+      },
+      {
+        "task_id": "t06",
+        "sender": "A",
+        "receiver": "D",
+        "start": 60,
+        "end": 66
+      },
+      {
+        "task_id": "t10",
+        "sender": "A",
+        "receiver": "D",
+        "start": 66,
+        "end": 77
+      },
+      {
+        "task_id": "t03",
+        "sender": "C",
+        "receiver": "D",
+        "start": 77,
+        "end": 83
+      },
+      {
+        "task_id": "t04",
+        "sender": "A",
+        "receiver": "B",
+        "start": 77,
+        "end": 88
+      },
+      {
+        "task_id": "t07",
+        "sender": "C",
+        "receiver": "D",
+        "start": 83,
+        "end": 94
+      },
+      {
+        "task_id": "t11",
+        "sender": "C",
+        "receiver": "D",
+        "start": 94,
+        "end": 110
+      },
+      {
+        "task_id": "t02",
+        "sender": "A",
+        "receiver": "D",
+        "start": 110,
+        "end": 126
+      }
+    ],
+    "event": {
+      "id": "P0-hand-authored-001:reward_update:FR=0.6:q=0.2:seed=100061",
+      "kind": "reward_update",
+      "seed": 100061,
+      "intensity": 0.2,
+      "cancelled": [],
+      "rewards": [
+        [
+          "t02",
+          41
+        ],
+        [
+          "t03",
+          33
+        ]
+      ],
+      "urgent": null,
+      "applicable": true
+    },
+    "frozen_count": 6,
+    "post_event_contacts": null
+  },
+  {
+    "base": {
+      "id": "P0-hand-authored-001",
+      "satellites": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
+      "tasks": [
+        {
+          "id": "t00",
+          "sender": "A",
+          "receiver": "B",
+          "release": 0,
+          "deadline": 120,
+          "data_bits": 500000000,
+          "rate_bps": 100000000,
+          "utility": 20
+        },
+        {
+          "id": "t01",
+          "sender": "C",
+          "receiver": "B",
+          "release": 20,
+          "deadline": 160,
+          "data_bits": 1000000000,
+          "rate_bps": 100000000,
+          "utility": 27
+        },
+        {
+          "id": "t02",
+          "sender": "A",
+          "receiver": "D",
+          "release": 40,
+          "deadline": 200,
+          "data_bits": 1500000000,
+          "rate_bps": 100000000,
+          "utility": 34
+        },
+        {
+          "id": "t03",
+          "sender": "C",
+          "receiver": "D",
+          "release": 60,
+          "deadline": 120,
+          "data_bits": 500000000,
+          "rate_bps": 100000000,
+          "utility": 41
+        },
+        {
+          "id": "t04",
+          "sender": "A",
+          "receiver": "B",
+          "release": 0,
+          "deadline": 160,
+          "data_bits": 1000000000,
+          "rate_bps": 100000000,
+          "utility": 48
+        },
+        {
+          "id": "t05",
+          "sender": "C",
+          "receiver": "B",
+          "release": 20,
+          "deadline": 200,
+          "data_bits": 1500000000,
+          "rate_bps": 100000000,
+          "utility": 55
+        },
+        {
+          "id": "t06",
+          "sender": "A",
+          "receiver": "D",
+          "release": 40,
+          "deadline": 120,
+          "data_bits": 500000000,
+          "rate_bps": 100000000,
+          "utility": 62
+        },
+        {
+          "id": "t07",
+          "sender": "C",
+          "receiver": "D",
+          "release": 60,
+          "deadline": 160,
+          "data_bits": 1000000000,
+          "rate_bps": 100000000,
+          "utility": 69
+        },
+        {
+          "id": "t08",
+          "sender": "A",
+          "receiver": "B",
+          "release": 0,
+          "deadline": 200,
+          "data_bits": 1500000000,
+          "rate_bps": 100000000,
+          "utility": 76
+        },
+        {
+          "id": "t09",
+          "sender": "C",
+          "receiver": "B",
+          "release": 20,
+          "deadline": 120,
+          "data_bits": 500000000,
+          "rate_bps": 100000000,
+          "utility": 83
+        },
+        {
+          "id": "t10",
+          "sender": "A",
+          "receiver": "D",
+          "release": 40,
+          "deadline": 160,
+          "data_bits": 1000000000,
+          "rate_bps": 100000000,
+          "utility": 90
+        },
+        {
+          "id": "t11",
+          "sender": "C",
+          "receiver": "D",
+          "release": 60,
+          "deadline": 200,
+          "data_bits": 1500000000,
+          "rate_bps": 100000000,
+          "utility": 97
+        }
+      ],
+      "contacts": [
+        {
+          "id": "c0",
+          "sender": "A",
+          "receiver": "B",
+          "start": 0,
+          "end": 240
+        },
+        {
+          "id": "c1",
+          "sender": "C",
+          "receiver": "B",
+          "start": 0,
+          "end": 240
+        },
+        {
+          "id": "c2",
+          "sender": "A",
+          "receiver": "D",
+          "start": 0,
+          "end": 240
+        },
+        {
+          "id": "c3",
+          "sender": "C",
+          "receiver": "D",
+          "start": 0,
+          "end": 240
+        }
+      ],
+      "calendar": [
+        {
+          "resource": "A",
+          "start": 30,
+          "end": 60
+        },
+        {
+          "resource": "B",
+          "start": 90,
+          "end": 120
+        }
+      ],
+      "horizon": 5400
+    },
+    "reference": [
+      {
+        "task_id": "t08",
+        "sender": "A",
+        "receiver": "B",
+        "start": 0,
+        "end": 16
+      },
+      {
+        "task_id": "t09",
+        "sender": "C",
+        "receiver": "B",
+        "start": 20,
+        "end": 26
+      },
+      {
+        "task_id": "t05",
+        "sender": "C",
+        "receiver": "B",
+        "start": 26,
+        "end": 42
+      },
+      {
+        "task_id": "t01",
+        "sender": "C",
+        "receiver": "B",
+        "start": 42,
+        "end": 53
+      },
+      {
+        "task_id": "t06",
+        "sender": "A",
+        "receiver": "D",
+        "start": 60,
+        "end": 66
+      },
+      {
+        "task_id": "t10",
+        "sender": "A",
+        "receiver": "D",
+        "start": 66,
+        "end": 77
+      },
+      {
+        "task_id": "t03",
+        "sender": "C",
+        "receiver": "D",
+        "start": 77,
+        "end": 83
+      },
+      {
+        "task_id": "t04",
+        "sender": "A",
+        "receiver": "B",
+        "start": 77,
+        "end": 88
+      },
+      {
+        "task_id": "t07",
+        "sender": "C",
+        "receiver": "D",
+        "start": 83,
+        "end": 94
+      },
+      {
+        "task_id": "t11",
+        "sender": "C",
+        "receiver": "D",
+        "start": 94,
+        "end": 110
+      },
+      {
+        "task_id": "t02",
+        "sender": "A",
+        "receiver": "D",
+        "start": 110,
+        "end": 126
+      }
+    ],
+    "event": {
+      "id": "P0-hand-authored-001:reward_update:FR=0.6:q=0.8:seed=100062",
+      "kind": "reward_update",
+      "seed": 100062,
+      "intensity": 0.8,
+      "cancelled": [],
+      "rewards": [
+        [
+          "t03",
+          8
+        ],
+        [
+          "t04",
+          10
+        ]
+      ],
+      "urgent": null,
+      "applicable": true
+    },
+    "frozen_count": 6,
+    "post_event_contacts": null
+  }
+]
