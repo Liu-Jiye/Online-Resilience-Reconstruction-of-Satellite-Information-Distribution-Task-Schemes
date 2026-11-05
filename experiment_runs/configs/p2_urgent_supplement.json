@@ -1,0 +1,41 @@
+{
+  "study": "P2-urgent-supplement-v2",
+  "user_approved_on": "2026-11-05",
+  "approved_decisions": ["A: urgent-only eligibility exemption, old replay and 200 new natural urgent events", "B: four pressure categories targeting 25 each with 5000 attempts per group"],
+  "w": 5,
+  "B": 2,
+  "heuristic_budget_ms": 50,
+  "exact_limit_s": 30,
+  "solver_seed": 11,
+  "solver_workers": 1,
+  "old_replay": "all 67 original P2 urgent events; diagnostic evidence only",
+  "natural": {
+    "combination_order": [[10,4],[10,8],[20,4],[20,8],[30,4],[30,8]],
+    "valid_bases_per_combination": 50,
+    "event_counts_per_combination": [34,34,33,33,33,33],
+    "instance_seed_start": 150000,
+    "instance_seed_stride": 1000,
+    "selection_seed": 160000,
+    "event_seed_start": 161000,
+    "FR_q_rotation": [[0,0.2],[0,0.8],[0.6,0.2],[0.6,0.8]],
+    "generation_cap_per_combination": 1000,
+    "replace_failed_event": false
+  },
+  "pressure": {
+    "category_order": ["direct_insert", "one_removal", "multiple_removals", "outside_neighborhood"],
+    "target_per_category": 25,
+    "attempt_cap_per_category": 5000,
+    "candidates": 30,
+    "satellites": 8,
+    "instance_seed_start": 170000,
+    "instance_seed_stride": 5000,
+    "event_seed_derivation": "SeedSequence([instance_seed,777]).generate_state(1,uint32)",
+    "FR_q_rotation": [[0,0.2],[0,0.8],[0.6,0.2],[0.6,0.8]],
+    "wide_w_for_diagnostic": 20,
+    "selection_uses_PALR_outcome": false,
+    "on_shortfall": "retain actual count, all attempts and rejection reasons; no automatic relaxation"
+  },
+  "default_distributions": "P1 D1 unchanged; urgent release0, deadline600/120; existing D/R mixture unchanged",
+  "test_instances_generated": 0,
+  "P3_started": false
+}
