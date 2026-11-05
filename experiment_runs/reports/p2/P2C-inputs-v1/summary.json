@@ -1,0 +1,15 @@
+{
+  "total": 200,
+  "core": 150,
+  "groups": {
+    "direct": 25,
+    "single": 50,
+    "double": 25,
+    "triple": 25,
+    "outside": 50,
+    "hard": 25
+  },
+  "failed": 0,
+  "replacements": 0,
+  "P3_started": false
+}
