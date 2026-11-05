@@ -1,0 +1,101 @@
+{
+  "passed": true,
+  "stage": "P1",
+  "run_id": "P1-20261105T110427Z",
+  "audited_at_utc": "2026-11-05T14:40:41.076822+00:00",
+  "verification_version": "1.0-post-P2",
+  "compatibility": {
+    "immutable_P1_acceptance_files_verified": 19,
+    "progress_files_verified": 3,
+    "progress_transitions": [
+      {
+        "path": "experiment_runs/README.md",
+        "P1_sha256": "b23f7fd2535e253913db0a97177021ba0ab0dacb4f34dc045e8f52ba400a8bb0",
+        "current_P2_sha256": "3d6aca67ea83877b5129e545052a4395785a8fc4e4eab11ef5d4e28ea867ef31",
+        "changed_since_P1": true,
+        "P1_historical_blob_verified": true,
+        "P2_historical_blob_verified": true
+      },
+      {
+        "path": "experiment_runs/STAGES.md",
+        "P1_sha256": "f0459c4b57006b8f2fc5415ccb87cb9fdcfe10d37c9ac0d24e2620a02d578bda",
+        "current_P2_sha256": "2aee5ec067bec251e40647da35462c33cd3f54c81ed11f422c942aa1f6e59cb4",
+        "changed_since_P1": true,
+        "P1_historical_blob_verified": true,
+        "P2_historical_blob_verified": true
+      },
+      {
+        "path": "experiment_runs/status.json",
+        "P1_sha256": "e8621c5e135ae4664524f73253955bf8ca7e0025d79c3a881daa5dcc66564d86",
+        "current_P2_sha256": "e76318665e3e68c8cff03755df666161efe435c73766c88c5d2b423d3c87b4b7",
+        "changed_since_P1": true,
+        "P1_historical_blob_verified": true,
+        "P2_historical_blob_verified": true
+      }
+    ],
+    "version": "1.0-post-P2",
+    "P1_historical_commit": "f8cd6afd8a8a33d43c9f178ae186bf42f9de18dc",
+    "P2_historical_commit": "0a1b49434a33451880a4968b02ddfda90b6a0ab0",
+    "P1_acceptance_sha256": "25d426eadd00c91cee71f2ddc12df81b5a2ce2cb95e3799c0946dba28dbd3b40",
+    "P2_acceptance_sha256": "eb0e6ff6efcedc3b7e4bb8bca7416b5fefeda53de783d1b67c0d0b3e956fe987",
+    "compatibility_config_sha256": "7169c21f6af6630d0c892fa96a443e9918abb44cde2450679597cd24e216a8f9"
+  },
+  "legacy_verifier_sha256": "bd557169d4eb3601f4e146ea9b6cc35b44fd0b9ff9676b0fca3599c5a7582c27",
+  "current_source_commit": "478aba888a17c84dfcc955f3af1dfcbfe33081d7",
+  "global_unique_orbital_objects": 640,
+  "split_object_counts": {
+    "train": 384,
+    "validation": 128,
+    "test": 128
+  },
+  "global_split_intersections": {
+    "train_validation": [],
+    "train_test": [],
+    "validation_test": []
+  },
+  "instances_revalidated": 150,
+  "task_calendar_seed_reproductions": 150,
+  "synthetic_contact_seed_reproductions": 50,
+  "geometry_comparisons_recomputed": 100,
+  "counts": {
+    "D1:train": 25,
+    "D1:validation": 25,
+    "D2-S:train": 25,
+    "D2-S:validation": 25,
+    "D2-O:train": 25,
+    "D2-O:validation": 25
+  },
+  "pytest_passed": 125,
+  "outside_experiment_runs_changed_from_baseline": [],
+  "baseline_commit": "ef2bcb00b79e2cff330fa12cd8de827c2d7f507e",
+  "original_GP_required_or_read": false,
+  "original_GP_propagation_repeated": false,
+  "raw_snapshot_hash_validation": "Previously completed by independent_audit.json; public verifier does not read raw GP.",
+  "file_sha256": {
+    "experiment_runs/protocol/P1_CURRENT_VERIFICATION.json": "7169c21f6af6630d0c892fa96a443e9918abb44cde2450679597cd24e216a8f9",
+    "experiment_runs/README.md": "3d6aca67ea83877b5129e545052a4395785a8fc4e4eab11ef5d4e28ea867ef31",
+    "experiment_runs/reports/p1/P1-20261105T110427Z/config.json": "7aac6d5746012c7d40f67fe99a7cd292c6cdb5f570c6901d18d8460600120fae",
+    "experiment_runs/reports/p1/P1-20261105T110427Z/distributions.json": "815dca76564113c9c77cb0ad5e02e7df670015b8b535b828f390bd34091e8be2",
+    "experiment_runs/reports/p1/P1-20261105T110427Z/environment.json": "be02cc65e02f9cf47a657a7e84d9cf92b8e4161a72c4a44cc6a8ec40076fe993",
+    "experiment_runs/reports/p1/P1-20261105T110427Z/failures.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "experiment_runs/reports/p1/P1-20261105T110427Z/independent_audit.json": "24b2205cdccc6d4e70876132f1a323f4ba3639a1ffb669eaadff26dcc67daec9",
+    "experiment_runs/reports/p1/P1-20261105T110427Z/manifest.json": "27edd78386f3f4f728c38375e4127759715efc5f159fe5c59a896836efc7b852",
+    "experiment_runs/reports/p1/P1-20261105T110427Z/per_instance_distribution.csv": "cfe92619eeab52baa7eac3b8a01a747d0913b0ffbd9cf28afad5fcc98e63df72",
+    "experiment_runs/reports/p1/P1-20261105T110427Z/pilot_derived_instances.zip": "7dab42a9fe806b74f41d529887a742e8cdec69fea9487745f280104209befeaa",
+    "experiment_runs/reports/p1/P1-20261105T110427Z/pilot_distributions.png": "754982db3804db79e5a29cdb55a7b99b848797aae8d34f1e529e724d463aa48c",
+    "experiment_runs/reports/p1/P1-20261105T110427Z/protocol_freeze.json": "ba119600ee7782af36107a39736b86decc94c5339b255ef2f9b83aa27b7ee44d",
+    "experiment_runs/reports/p1/P1-20261105T110427Z/pytest.txt": "af402cafa2a62e0325887dd30bcfccccbd52714d6081b6d92df96074675227ca",
+    "experiment_runs/reports/p1/P1-20261105T110427Z/pytest.xml": "4e53e9bef885defa3fc12c6edd055adae2a341d05f965f0fb7c8243a1d7e5a94",
+    "experiment_runs/reports/p1/P1-20261105T110427Z/source_and_license_registry.json": "cb66e91143411a87080a7f26fcb83ecd4b15d2cb4581c9c3da619b5e354caf96",
+    "experiment_runs/reports/p1/P1-20261105T110427Z/summary.json": "3089ec707ce8275a7482077f12c8f48215a20f8fb034adc723f804bf73a818bf",
+    "experiment_runs/reports/p1/P1-20261105T110427Z/window_audit.png": "7c812a626302240c93893d066b9c89a1e1e957c1251ea21debf33487c0bfb9a7",
+    "experiment_runs/reports/p1/P1-20261105T110427Z/window_audits.json": "deae073fbd7e61f0711b0b2b28ddb991e253c5a7ff93589d23deca3904399ebf",
+    "experiment_runs/reports/P1_REPORT.md": "0a65641e8c3ce7d38421541ad818949ad33d5dabb09702185f069857151400ef",
+    "experiment_runs/scripts/finalize_p1.py": "54181759750240a532be10900d89a0dd995155aed698b863b566d7e9d924a9fa",
+    "experiment_runs/scripts/p1_current_compat.py": "c939851161c51db08edbe674f4dc60e51e3bd7655fd1dc656d92466492467714",
+    "experiment_runs/scripts/verify_p1.py": "bd557169d4eb3601f4e146ea9b6cc35b44fd0b9ff9676b0fca3599c5a7582c27",
+    "experiment_runs/scripts/verify_p1_current.py": "de712caa8a598a03209a3344805410b52756930008b4963410f31752d5887dda",
+    "experiment_runs/STAGES.md": "2aee5ec067bec251e40647da35462c33cd3f54c81ed11f422c942aa1f6e59cb4",
+    "experiment_runs/status.json": "e76318665e3e68c8cff03755df666161efe435c73766c88c5d2b423d3c87b4b7"
+  }
+}

@@ -1,0 +1,109 @@
+{"audited_contexts": 45, "total": 1350}
+{"audited_contexts": 90, "total": 1350}
+{"audited_contexts": 135, "total": 1350}
+{"audited_contexts": 180, "total": 1350}
+{"audited_contexts": 225, "total": 1350}
+{"audited_contexts": 270, "total": 1350}
+{"audited_contexts": 315, "total": 1350}
+{"audited_contexts": 360, "total": 1350}
+{"audited_contexts": 405, "total": 1350}
+{"audited_contexts": 450, "total": 1350}
+{"audited_contexts": 495, "total": 1350}
+{"audited_contexts": 540, "total": 1350}
+{"audited_contexts": 585, "total": 1350}
+{"audited_contexts": 630, "total": 1350}
+{"audited_contexts": 675, "total": 1350}
+{"audited_contexts": 720, "total": 1350}
+{"audited_contexts": 765, "total": 1350}
+{"audited_contexts": 810, "total": 1350}
+{"audited_contexts": 855, "total": 1350}
+{"audited_contexts": 900, "total": 1350}
+{"audited_contexts": 945, "total": 1350}
+{"audited_contexts": 990, "total": 1350}
+{"audited_contexts": 1035, "total": 1350}
+{"audited_contexts": 1080, "total": 1350}
+{"audited_contexts": 1125, "total": 1350}
+{"audited_contexts": 1170, "total": 1350}
+{"audited_contexts": 1215, "total": 1350}
+{"audited_contexts": 1260, "total": 1350}
+{"audited_contexts": 1305, "total": 1350}
+{"audited_contexts": 1350, "total": 1350}
+{
+  "passed": true,
+  "verification_utc": "2026-11-05T14:45:27.653963+00:00",
+  "counts": {
+    "default_reproductions": 150,
+    "candidate_diagnostics": 360000,
+    "probe_tasks_FR_checks": 108000,
+    "contexts_rebuilt": 1350,
+    "reference_decisions_replayed": 360000
+  },
+  "contexts_attempted": 1350,
+  "base_scenarios": 150,
+  "independent_method": "integer bitsets for feasible starts, greedy reference decisions and fixed-reference blocker census",
+  "selection_recomputed": true,
+  "prior_acceptance": [
+    {
+      "path": "experiment_runs/reports/p2/P2-20261105T114327Z/acceptance_manifest.json",
+      "sha256": "eb0e6ff6efcedc3b7e4bb8bca7416b5fefeda53de783d1b67c0d0b3e956fe987"
+    },
+    {
+      "path": "experiment_runs/reports/p2/P2-urgent-diagnostic-20261105T122345Z/acceptance_manifest.json",
+      "sha256": "37ea1633458e03b21b11536857476d9582fd017c1ab91009e0fcc672c0aa1eb0"
+    },
+    {
+      "path": "experiment_runs/reports/p2/P2-urgent-supplement-20261105T123731Z/acceptance_manifest.json",
+      "sha256": "a80e15c9eec9fccfee785a152e1aea8cc583846a140089d4e45f81e8e4342eec"
+    },
+    {
+      "path": "experiment_runs/reports/p2/P2C-20261105T132557Z/acceptance_manifest.json",
+      "sha256": "40596fe1e60ec243135c1bdcb9cf399b8b1ddf3e610bde063c84225b66925320"
+    },
+    {
+      "path": "experiment_runs/reports/p1/P1-current-entry-fix-v1/acceptance_manifest.json",
+      "sha256": "360c1a49e5d69e5b5717d7215b993f4a99edab1227986361b7a9e08195804927"
+    }
+  ],
+  "repair_methods_run": [],
+  "CP_SAT_run": false,
+  "P3_started": false,
+  "test_instances": 0
+}
+{
+  "passed": true,
+  "full_replay": true,
+  "file_hashes_checked": 51,
+  "counts": {
+    "default_reproductions": 150,
+    "candidate_diagnostics": 360000,
+    "probe_tasks_FR_checks": 108000,
+    "contexts_rebuilt": 1350,
+    "reference_decisions_replayed": 360000
+  },
+  "selection": {
+    "default": {
+      "N": 100,
+      "h": 0.0,
+      "preserved": true
+    },
+    "new_layers": {
+      "medium": {
+        "candidate": {
+          "N": 500,
+          "h": 0.8
+        },
+        "frozen": true,
+        "validation_reasons": []
+      },
+      "high": {
+        "frozen": false,
+        "reason": "no_training_candidate"
+      }
+    },
+    "validation_fallback_performed": false,
+    "P3_started": false,
+    "repair_methods_run": []
+  },
+  "P3_started": false,
+  "test_instances": 0
+}

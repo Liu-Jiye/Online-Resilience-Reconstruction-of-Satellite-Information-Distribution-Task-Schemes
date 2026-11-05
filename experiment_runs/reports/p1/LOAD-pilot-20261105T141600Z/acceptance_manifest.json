@@ -1,0 +1,99 @@
+{
+  "study": "P1-training-validation-load-supplement-v1",
+  "accepted_utc": "2026-11-05T14:42:32.008843+00:00",
+  "protocol_source_commit": "8bffdc754d546c0b38e6b4002ad271e612cb5f84",
+  "data_freeze_commit": "478aba8",
+  "prestudy_commit": "d7e8f2c7796e7296db7ebfed7b3331259cdbd6b0",
+  "selection": {
+    "default": {
+      "N": 100,
+      "h": 0.0,
+      "preserved": true
+    },
+    "new_layers": {
+      "medium": {
+        "candidate": {
+          "N": 500,
+          "h": 0.8
+        },
+        "frozen": true,
+        "validation_reasons": []
+      },
+      "high": {
+        "frozen": false,
+        "reason": "no_training_candidate"
+      }
+    },
+    "validation_fallback_performed": false,
+    "P3_started": false,
+    "repair_methods_run": []
+  },
+  "pytest_passed": 188,
+  "independent_audit_counts": {
+    "default_reproductions": 150,
+    "candidate_diagnostics": 360000,
+    "probe_tasks_FR_checks": 108000,
+    "contexts_rebuilt": 1350,
+    "reference_decisions_replayed": 360000
+  },
+  "old_acceptance_unchanged": true,
+  "P1_current_entry_revalidated": true,
+  "test_instances_accessed": 0,
+  "repair_methods_run": [],
+  "CP_SAT_run": false,
+  "P3_started": false,
+  "outside_experiment_runs_changed": [],
+  "file_sha256": {
+    "experiment_runs/configs/load_pilot_v1.json": "fa8a4022cc3f459f627c3f446915fc6ad55c108c3bd6937e5af23c447abee6b7",
+    "experiment_runs/load_pilot_status.json": "e1d5322f324564c97a2cf62706e5adab9d9032d4d853a8bdf107175f2357dc27",
+    "experiment_runs/protocol/LOAD_PILOT_V1_CONTRACT.md": "891e06d2e46426a2ae481b33f4215c56d15dff6ea997e38bd7e36824fdc07340",
+    "experiment_runs/reports/LOAD_PILOT_REPORT.md": "8d0b6d024031cbe52dd414b109e2dff8db29ca9818f108275658aeec91683135",
+    "experiment_runs/reports/p1/LOAD-pilot-20261105T141600Z/analysis.json": "5fe9bea4cb6db75a1797661fb686552765c5882cfc9ea5220fa319861acf21a1",
+    "experiment_runs/reports/p1/LOAD-pilot-20261105T141600Z/config.json": "66d7d81a9309ebf5edc96d1c9cb7a53ec0be3b54e6d4b80c9dfb6096d250e99e",
+    "experiment_runs/reports/p1/LOAD-pilot-20261105T141600Z/context_rows.json": "90509e736854788ef3b59dbdafcbbb2bece23190cc316e56ccbcbf1490f8003f",
+    "experiment_runs/reports/p1/LOAD-pilot-20261105T141600Z/contexts.zip": "89859a65d30a76ad4fe3eeec46c00e2b4878b113d506c0ae0580f84396373832",
+    "experiment_runs/reports/p1/LOAD-pilot-20261105T141600Z/diagnostics.zip": "021a5198a5958bb185be71c0672801dda2cf9eabf01350d193ec69d8a467dd37",
+    "experiment_runs/reports/p1/LOAD-pilot-20261105T141600Z/environment.json": "97e3ee524ed2b7ffcd761f5d8f5c71b4305d792da710feca867691832ec77ef8",
+    "experiment_runs/reports/p1/LOAD-pilot-20261105T141600Z/frozen_load_protocol.json": "e6e85d2cfcd3c77fb012c25a1a2695349a0a23571ce7c13a626d886e781fee02",
+    "experiment_runs/reports/p1/LOAD-pilot-20261105T141600Z/group_means.json": "ebd65fbe1cf4d1ddc90b18a17eff38fdb2716b76e8ac18dd412e4100587162d4",
+    "experiment_runs/reports/p1/LOAD-pilot-20261105T141600Z/group_summary.csv": "d69ed1d9c64d820aa83a81a2eda9207e2f677ce3188ac14e3b47963ac5f957f0",
+    "experiment_runs/reports/p1/LOAD-pilot-20261105T141600Z/independent_audit.json": "45d21c43c6c14a5e1914e144fb8b2fbb5edb58cd43d4dd71662d457855ab9382",
+    "experiment_runs/reports/p1/LOAD-pilot-20261105T141600Z/load_competition_grid.png": "ff7797ab7af030ba7a62c86bcd974f92ad6092558f4e2e74f74a3b52ddacd675",
+    "experiment_runs/reports/p1/LOAD-pilot-20261105T141600Z/load_validation_comparison.png": "518efc5fdf72a20ab189d55577c1d9f1ac46914b93ab9272985df2603c552bd0",
+    "experiment_runs/reports/p1/LOAD-pilot-20261105T141600Z/manifest.json": "1d42321c6b667e3cb15833e909c40247dccde1e05d420a173f566073c45fa8ba",
+    "experiment_runs/reports/p1/LOAD-pilot-20261105T141600Z/p1_current_verification.json": "37f325ac17acf30672aa98f0d1c847f4158b7f5ead2b955a2689c0b84c63644b",
+    "experiment_runs/reports/p1/LOAD-pilot-20261105T141600Z/p1_current_verification.txt": "55701d0f357d8d77b58e28a4e1c8b5b41cffe2a05f3834185b19c47ca17ac27d",
+    "experiment_runs/reports/p1/LOAD-pilot-20261105T141600Z/per_context.csv": "8e8d900cd2767fa149f40f5427e0fa1155a9fc818f2355ac6ca498a491a55efa",
+    "experiment_runs/reports/p1/LOAD-pilot-20261105T141600Z/prior_acceptance.json": "6aa41b11a023b12b71df5c5d4a2f8a830bf5365a110e715776dc5045754d9343",
+    "experiment_runs/reports/p1/LOAD-pilot-20261105T141600Z/probe_summary.csv": "8bc89c493beaaa6254f1a46030578fd74025c10abd2960d2f1d9e62c7d9a709a",
+    "experiment_runs/reports/p1/LOAD-pilot-20261105T141600Z/pytest.txt": "21249a752fd71daca7b375ddd5889450cf966a21384a62d42995bc82f8b02264",
+    "experiment_runs/reports/p1/LOAD-pilot-20261105T141600Z/pytest.xml": "f4697b28dd8c829eca2304725c5fef264a4848bb733fce01e0570ef07e486b26",
+    "experiment_runs/reports/p1/LOAD-pilot-20261105T141600Z/summary.json": "cfbbdda13bfa5310e8f1172c028eab840a48de17c23df094912189698c3694cb",
+    "experiment_runs/reports/p1/LOAD-pilot-20261105T141600Z/training_selection.json": "37d4ab4d2598cbf8894a9d22565d2ab48f1ab349997df64ab6b13f5c6bb75837",
+    "experiment_runs/scripts/finalize_load_pilot.py": "6e19d161e1a662a23b1c635f01ea3f74e718f1a0b4d51310969724c0951f82ee",
+    "experiment_runs/scripts/load_pilot_analysis.py": "6abf176ea6208d5441b2d4c57379cf4f939a9388275c1e07b311f978f90ac35c",
+    "experiment_runs/scripts/load_pilot_study.py": "e07c77495e32dcb18965575b19abe24d15f41d3fec028f4341618fac56aa0683",
+    "experiment_runs/scripts/verify_load_pilot.py": "5e9f51e69c1420c0ea00f0cf73c53b0c359624914ed462a75cf9d9196b3d71a3",
+    "experiment_runs/src/isl/__init__.py": "3db3a908474eafe1bf9044fbc7c42d38fb2a2c59d5beae317151f7eb464a64f6",
+    "experiment_runs/src/isl/calendar.py": "130108a99fe1025b2beca0baf658d480e49fb651bfa78a45efd5bc19a3a8c98c",
+    "experiment_runs/src/isl/events.py": "24ca09c963bffaa7b389d8ad89ea683a91262d78088a7508b8b8ec3891a4a746",
+    "experiment_runs/src/isl/load_pilot.py": "e2200b75cdfc8eb94f3b1b00c64ab77824b00a50d8061a4932dd5cc0edacf503",
+    "experiment_runs/src/isl/load_pilot_independent.py": "0527102ff3528f55ae229f2c3e8f160588e243b6b1625f158e3804a413e8f744",
+    "experiment_runs/src/isl/metrics.py": "d0b72d1b73cfd3553aef3b35447182a4810118783762d3e4c2959b0d7e6c96de",
+    "experiment_runs/src/isl/models.py": "9bc427c6c5d3fd3e2db7fbb9f227055b56fb80716a34d376fd80142208ea24e2",
+    "experiment_runs/src/isl/p1_generation.py": "db47a4d57982783d55afeaa8d1107db6ab8d0df676442c211f55ef70e6e753b9",
+    "experiment_runs/src/isl/p1_orbits.py": "a093bd1512e63158f1db952fe0724e1d14305803e753daeb3a30c49a46c5429e",
+    "experiment_runs/src/isl/p1_sources.py": "3f9e83316244e0cb67fb3f04ef9982826952493c8d64f69a1a70efc1bc45d41d",
+    "experiment_runs/src/isl/p2_exact.py": "9cdf6c3acc361c43891ea14c37dcce1d0ac116a1189308e4c1f56ff2494363e6",
+    "experiment_runs/src/isl/p2_exact_v2.py": "5f8f561f724641d5b03aa301c7209ff6d37bc63cff5341b579fecd0c232ae431",
+    "experiment_runs/src/isl/p2_generation.py": "f313c9a9dfdf26fa56c73552c55ee31f364a87bc9fef2dd967f3ce4d536f604d",
+    "experiment_runs/src/isl/p2c.py": "9e41780f815c5b1cb32b41134e4939c3cf0811c88e8ad271aa48eaf9dbbf7aae",
+    "experiment_runs/src/isl/placement.py": "c3d7eb7a6579609f856b79e0314d4af4b5439e028f6c5d57e0c95e1f2f0733f5",
+    "experiment_runs/src/isl/reference.py": "489bd59389a11c4079243df81cdd167fc45bce98c34d5f4ce780828c645c93ca",
+    "experiment_runs/src/isl/repair.py": "b44c1dabbc4656ad693bf0f91905ddd3d28d3fa41b96179628d50c212e0e95c9",
+    "experiment_runs/src/isl/repair_v2.py": "9c16b47a20051d12cb2b7e4b4ce7b341c72eee576f568bf7cdd92957c232550a",
+    "experiment_runs/src/isl/urgent_supplement.py": "309725856e24557d45b7c29c68d6f9a2ea5af72ceab61b0a91c2138440d78b88",
+    "experiment_runs/src/isl/validation.py": "d2fa280ffc1984c715fd6ca8a1c93da9447cdcb3ccf0353828f7e195e5415733",
+    "experiment_runs/tests/test_load_pilot.py": "c25b83b5f654b56b6a4e17cd9a431427bfe309d49e8226cf25616d07d7a2e9dc"
+  }
+}
