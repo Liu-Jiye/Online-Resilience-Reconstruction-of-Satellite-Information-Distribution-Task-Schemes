@@ -1,7 +1,7 @@
 {
   "initialized_on": "2026-11-05",
   "timezone": "Asia/Shanghai",
-  "workspace_status": "P1_complete",
+  "workspace_status": "P2_in_progress",
   "source_commit": "42209f4c776e227e2fefa0c47777ac547095a7a8",
   "write_scope": "experiment_runs/",
   "original_repository_files_modified": false,
@@ -16,7 +16,7 @@
   "correctness_evidence_available": true,
   "stage_execution_policy": "Only the user-specified stage; produce its report, then stop pending the user's next instruction.",
   "next_stage": "P2",
-  "next_stage_authorized": false,
+  "next_stage_authorized": true,
   "stages": {
     "P0": {
       "status": "complete",
@@ -54,7 +54,7 @@
       "freeze": "reports/p1/P1-20261105T110427Z/protocol_freeze.json"
     },
     "P2": {
-      "status": "not_started",
+      "status": "in_progress",
       "run_ids": [],
       "report": null
     },
