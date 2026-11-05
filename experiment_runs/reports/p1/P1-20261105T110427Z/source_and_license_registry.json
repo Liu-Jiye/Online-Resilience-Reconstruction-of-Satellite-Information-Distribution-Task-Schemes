@@ -1,0 +1,206 @@
+{
+  "recorded_at_utc": "2026-11-05T11:07:37.174563+00:00",
+  "source": "CelesTrak GP",
+  "usage_policy_url": "https://celestrak.org/usage-policy.php",
+  "usage_policy_sha256": "8932a6e94b2c8933d8e6d2a1c141be0a79e92fccf0c014864e07c39a8d819226",
+  "policy_updated_on_page": "2026-05-22",
+  "policy_evidence_quotes": [
+    "Only download the data you need, when you are going to use it, and only download data once per update.",
+    "For GP data, updates are once every 2 hours.",
+    "M2M (machine-to-machine) software should immediately stop querying when it receives any non-HTTP 200 responses and report the results to a human for investigation."
+  ],
+  "raw_GP_explicit_redistribution_license_found_in_reviewed_pages": false,
+  "access_policy_is_not_an_open_data_license": true,
+  "raw_GP_and_raw_HTML_uploaded_to_GitHub": false,
+  "raw_GP_local_directory": "experiment_runs/data/raw/p1_snapshot_20261105",
+  "published_bundle_content": "Derived integer contacts; synthetic demands and calendars; computed reference plans and metadata; geometric audit. No original GP/OMM records.",
+  "source_records": [
+    {
+      "requested_url": "https://celestrak.org/FAQs.php",
+      "requested_at_utc": "2026-11-05T10:53:36.243293+00:00",
+      "request_count": 1,
+      "name": "celestrak_faq",
+      "status": "failed",
+      "error": "HTTP Error 404: Not Found",
+      "http_status": 404
+    },
+    {
+      "requested_url": "https://celestrak.org/",
+      "requested_at_utc": "2026-11-05T10:53:35.737975+00:00",
+      "request_count": 1,
+      "name": "celestrak_home",
+      "final_url": "https://celestrak.org/",
+      "http_status": 200,
+      "response_headers": {
+        "Content-Type": "text/html; charset=UTF-8",
+        "Server": "Microsoft-IIS/10.0",
+        "X-Powered-By": "PHP/8.5.12",
+        "Date": "Thu, 05 Nov 2026 10:53:35 GMT",
+        "Connection": "close",
+        "Content-Length": "9425"
+      },
+      "status": "downloaded",
+      "filename": "celestrak_home.html",
+      "size_bytes": 9425,
+      "sha256": "d225e7fcd854c9846cf7f0ac22f87df85112f40591e939da49799aa5d88da496",
+      "received_at_utc": "2026-11-05T10:53:36.948494+00:00"
+    },
+    {
+      "requested_url": "https://celestrak.org/NORAD/documentation/gp-data-formats.php",
+      "requested_at_utc": "2026-11-05T10:53:33.792326+00:00",
+      "request_count": 1,
+      "name": "gp_formats",
+      "final_url": "https://celestrak.org/NORAD/documentation/gp-data-formats.php",
+      "http_status": 200,
+      "response_headers": {
+        "Content-Type": "text/html; charset=UTF-8",
+        "Server": "Microsoft-IIS/10.0",
+        "X-Powered-By": "PHP/8.5.12",
+        "Date": "Thu, 05 Nov 2026 10:53:34 GMT",
+        "Connection": "close",
+        "Content-Length": "40338"
+      },
+      "status": "downloaded",
+      "filename": "gp_formats.html",
+      "size_bytes": 40338,
+      "sha256": "d2e9c7505d0c6671005ed76d199f11756b315d600bc4a29686304bf66dcaeccd",
+      "received_at_utc": "2026-11-05T10:53:35.736175+00:00"
+    },
+    {
+      "requested_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=oneweb&FORMAT=json",
+      "requested_at_utc": "2026-11-05T10:53:33.792577+00:00",
+      "request_count": 1,
+      "name": "oneweb",
+      "final_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=oneweb&FORMAT=json",
+      "http_status": 200,
+      "response_headers": {
+        "Content-Type": "application/json; charset=UTF-8",
+        "Server": "Microsoft-IIS/10.0",
+        "X-Powered-By": "PHP/8.5.12",
+        "Content-Disposition": "filename=\"oneweb.json\"",
+        "Date": "Thu, 05 Nov 2026 10:53:34 GMT",
+        "Connection": "close",
+        "Content-Length": "272965"
+      },
+      "records": 651,
+      "field_names": [
+        "ARG_OF_PERICENTER",
+        "BSTAR",
+        "CLASSIFICATION_TYPE",
+        "ECCENTRICITY",
+        "ELEMENT_SET_NO",
+        "EPHEMERIS_TYPE",
+        "EPOCH",
+        "INCLINATION",
+        "MEAN_ANOMALY",
+        "MEAN_MOTION",
+        "MEAN_MOTION_DDOT",
+        "MEAN_MOTION_DOT",
+        "NORAD_CAT_ID",
+        "OBJECT_ID",
+        "OBJECT_NAME",
+        "RA_OF_ASC_NODE",
+        "REV_AT_EPOCH"
+      ],
+      "status": "downloaded",
+      "filename": "oneweb.json",
+      "size_bytes": 272965,
+      "sha256": "db03ee1c4def9717135425a58df2a398d426319e217b325104704aa16894bfbe",
+      "received_at_utc": "2026-11-05T10:53:36.241498+00:00"
+    },
+    {
+      "requested_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=starlink&FORMAT=json",
+      "requested_at_utc": "2026-11-05T10:53:33.791836+00:00",
+      "request_count": 1,
+      "name": "starlink",
+      "final_url": "https://celestrak.org/NORAD/elements/gp.php?GROUP=starlink&FORMAT=json",
+      "http_status": 200,
+      "response_headers": {
+        "Transfer-Encoding": "chunked",
+        "Content-Type": "application/json; charset=UTF-8",
+        "Server": "Microsoft-IIS/10.0",
+        "X-Powered-By": "PHP/8.5.12",
+        "Content-Disposition": "filename=\"starlink.json\"",
+        "Date": "Thu, 05 Nov 2026 10:53:34 GMT",
+        "Connection": "close"
+      },
+      "records": 11208,
+      "field_names": [
+        "ARG_OF_PERICENTER",
+        "BSTAR",
+        "CLASSIFICATION_TYPE",
+        "ECCENTRICITY",
+        "ELEMENT_SET_NO",
+        "EPHEMERIS_TYPE",
+        "EPOCH",
+        "INCLINATION",
+        "MEAN_ANOMALY",
+        "MEAN_MOTION",
+        "MEAN_MOTION_DDOT",
+        "MEAN_MOTION_DOT",
+        "NORAD_CAT_ID",
+        "OBJECT_ID",
+        "OBJECT_NAME",
+        "RA_OF_ASC_NODE",
+        "REV_AT_EPOCH"
+      ],
+      "status": "downloaded",
+      "filename": "starlink.json",
+      "size_bytes": 4742718,
+      "sha256": "f447b5867dd5fa1dbca87f26e007f594b7cdb9f30576be6a77be713b91fc5bcf",
+      "received_at_utc": "2026-11-05T10:53:38.725414+00:00"
+    },
+    {
+      "requested_url": "https://celestrak.org/usage-policy.php",
+      "requested_at_utc": "2026-11-05T10:54:20.380441+00:00",
+      "request_count": 1,
+      "name": "usage_policy",
+      "final_url": "https://celestrak.org/usage-policy.php",
+      "http_status": 200,
+      "response_headers": {
+        "Content-Type": "text/html; charset=UTF-8",
+        "Server": "Microsoft-IIS/10.0",
+        "X-Powered-By": "PHP/8.5.12",
+        "Date": "Thu, 05 Nov 2026 10:54:20 GMT",
+        "Connection": "close",
+        "Content-Length": "13980"
+      },
+      "status": "downloaded",
+      "filename": "usage_policy.html",
+      "size_bytes": 13980,
+      "sha256": "8932a6e94b2c8933d8e6d2a1c141be0a79e92fccf0c014864e07c39a8d819226",
+      "received_at_utc": "2026-11-05T10:54:21.642100+00:00"
+    }
+  ],
+  "software_metadata": [
+    {
+      "name": "sgp4",
+      "version": "2.27",
+      "license_expression": "MIT",
+      "license_metadata_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "license_metadata_first_line": null
+    },
+    {
+      "name": "skyfield",
+      "version": "1.55",
+      "license_expression": null,
+      "license_metadata_sha256": "e5dcffe836b6ec8a58e492419b550e65fb8cbdc308503979e5dacb33ac7ea3b7",
+      "license_metadata_first_line": "MIT"
+    },
+    {
+      "name": "numpy",
+      "version": "2.3.5",
+      "license_expression": null,
+      "license_metadata_sha256": "d3309e95bfdf13c17f999d8a1a007ceb216c5bd91bca85bf162202e56ba5b463",
+      "license_metadata_first_line": "Copyright (c) 2005-2025, NumPy Developers."
+    },
+    {
+      "name": "matplotlib",
+      "version": "3.11.2",
+      "license_expression": null,
+      "license_metadata_sha256": "11b43b00dc032aba34426bfb8f93d48714076cbad3753cacec31b9d0f522aa2f",
+      "license_metadata_first_line": "License agreement for matplotlib versions 1.3.0 and later"
+    }
+  ],
+  "new_code_or_third_party_data_relicensed": false
+}

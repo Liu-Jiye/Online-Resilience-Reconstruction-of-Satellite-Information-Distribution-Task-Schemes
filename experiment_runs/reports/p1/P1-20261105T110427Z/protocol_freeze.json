@@ -1,0 +1,39 @@
+{
+  "status": "frozen_after_P1_pilot",
+  "generator_version": "1.0-pilot",
+  "pipeline_version": "0.1.1",
+  "run_id": "P1-20261105T110427Z",
+  "frozen_at_utc": "2026-11-05T11:07:38.936450+00:00",
+  "protocol_revision_for_load": false,
+  "reason": "No layer triggered >80% references with <10 tasks.",
+  "test_instances_generated": 0,
+  "test_performance_read": false,
+  "next_stage_authorized": false,
+  "config_sha256": "f9d22ae21de154a846e4be00c127816884d6c633991d670d04508b987863b3fb",
+  "generation_contract_sha256": "40d88f0e664799e783d451b8759e6a60f923b7be0a7bdb7ff0a997ae9c48aa28",
+  "groups_sha256": {
+    "starlink": "5bcf155139be62723e0bb399db1baf13d9e9e2e121cfa49b419fee8e88af5471",
+    "oneweb": "be5dc0e71c9beaa3121c66149aeacc5cc2721fdaf8f828194bf214993ea4a0ff"
+  },
+  "snapshot_sha256": {
+    "starlink": "f447b5867dd5fa1dbca87f26e007f594b7cdb9f30576be6a77be713b91fc5bcf",
+    "oneweb": "db03ee1c4def9717135425a58df2a398d426319e217b325104704aa16894bfbe"
+  },
+  "derived_archive_sha256": "7dab42a9fe806b74f41d529887a742e8cdec69fea9487745f280104209befeaa",
+  "evidence_sha256": {
+    "config.json": "7aac6d5746012c7d40f67fe99a7cd292c6cdb5f570c6901d18d8460600120fae",
+    "distributions.json": "815dca76564113c9c77cb0ad5e02e7df670015b8b535b828f390bd34091e8be2",
+    "environment.json": "be02cc65e02f9cf47a657a7e84d9cf92b8e4161a72c4a44cc6a8ec40076fe993",
+    "failures.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "independent_audit.json": "24b2205cdccc6d4e70876132f1a323f4ba3639a1ffb669eaadff26dcc67daec9",
+    "manifest.json": "27edd78386f3f4f728c38375e4127759715efc5f159fe5c59a896836efc7b852",
+    "per_instance_distribution.csv": "cfe92619eeab52baa7eac3b8a01a747d0913b0ffbd9cf28afad5fcc98e63df72",
+    "pilot_derived_instances.zip": "7dab42a9fe806b74f41d529887a742e8cdec69fea9487745f280104209befeaa",
+    "pilot_distributions.png": "754982db3804db79e5a29cdb55a7b99b848797aae8d34f1e529e724d463aa48c",
+    "source_and_license_registry.json": "cb66e91143411a87080a7f26fcb83ecd4b15d2cb4581c9c3da619b5e354caf96",
+    "summary.json": "3089ec707ce8275a7482077f12c8f48215a20f8fb034adc723f804bf73a818bf",
+    "window_audit.png": "7c812a626302240c93893d066b9c89a1e1e957c1251ea21debf33487c0bfb9a7",
+    "window_audits.json": "deae073fbd7e61f0711b0b2b28ddb991e253c5a7ff93589d23deca3904399ebf"
+  },
+  "finalizer_script_sha256": "54181759750240a532be10900d89a0dd995155aed698b863b566d7e9d924a9fa"
+}

@@ -1,0 +1,61 @@
+{
+  "stage": "P1",
+  "protocol_version": "1.0",
+  "generator_version": "1.0-pilot",
+  "pipeline_version": "0.1.1",
+  "pilot_per_layer": {
+    "train": 25,
+    "validation": 25,
+    "test": 0
+  },
+  "layers": [
+    "D1",
+    "D2-S",
+    "D2-O"
+  ],
+  "horizon_s": 5400,
+  "satellites": 32,
+  "tasks": 100,
+  "background_probability": 0.5,
+  "background_slot_s": 60,
+  "source_directory": "data/raw/p1_snapshot_20261105",
+  "group_shuffle_seeds": {
+    "starlink": 100010,
+    "oneweb": 100011
+  },
+  "pilot_seed_starts": {
+    "D1": {
+      "train": 100100,
+      "validation": 200100
+    },
+    "D2-S": {
+      "train": 101100,
+      "validation": 201100
+    },
+    "D2-O": {
+      "train": 102100,
+      "validation": 202100
+    }
+  },
+  "group_assignment": "round_robin_over_six_train_or_two_validation_groups",
+  "orbit_start_offset_integer_s": [
+    -43200,
+    37800
+  ],
+  "sampling_s": 5,
+  "audit_sampling_s": 1,
+  "boundary_bracket_s": 0.1,
+  "audit_base_instances": 100,
+  "audit_selection": "all_D2-S_and_D2-O_pilots_no_test_instances",
+  "earth_radius_km": 6378.137,
+  "earth_clearance_km": 100,
+  "max_distance_km": 5000,
+  "minimum_contact_physical_s": 10,
+  "reference_sparse_threshold": {
+    "scheduled_count_below": 10,
+    "fraction_strictly_above": 0.8
+  },
+  "pilot_allocation_approved_by_user": "2026-11-05",
+  "performance_methods_run": [],
+  "next_stages_run": []
+}

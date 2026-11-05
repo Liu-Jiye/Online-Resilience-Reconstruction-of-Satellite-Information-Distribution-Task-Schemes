@@ -1,0 +1,231 @@
+{
+  "stage": "P1",
+  "attempts": 150,
+  "valid_instances": 150,
+  "failures": 0,
+  "test_instances_generated": 0,
+  "repair_method_calls": 0,
+  "audit_instances": 100,
+  "wall_s": 59.18714060000275,
+  "layers": {
+    "D1": {
+      "count": 50,
+      "split_counts": {
+        "train": 25,
+        "validation": 25
+      },
+      "reference_below_10_count": 0,
+      "reference_below_10_fraction": 0.0,
+      "load_revision_triggered": false,
+      "scheduled_count": {
+        "mean": 46.76,
+        "min": 32,
+        "p50": 46.0,
+        "p95": 55.55,
+        "max": 58
+      },
+      "window_only_feasible_fraction": {
+        "mean": 0.8032,
+        "min": 0.71,
+        "p50": 0.8,
+        "p95": 0.87,
+        "max": 0.91
+      },
+      "single_task_calendar_feasible_fraction": {
+        "mean": 0.4782,
+        "min": 0.33,
+        "p50": 0.475,
+        "p95": 0.57,
+        "max": 0.58
+      },
+      "scheduled_terminal_occupancy": {
+        "mean": 0.009384027777777778,
+        "min": 0.006296296296296296,
+        "p50": 0.009467592592592593,
+        "p95": 0.01169849537037037,
+        "max": 0.012349537037037037
+      },
+      "background_actual_occupancy": {
+        "mean": 0.5010208333333334,
+        "min": 0.4753472222222222,
+        "p50": 0.5003472222222223,
+        "p95": 0.51703125,
+        "max": 0.5225694444444444
+      },
+      "combined_terminal_occupancy": {
+        "mean": 0.510404861111111,
+        "min": 0.4852546296296296,
+        "p50": 0.5089872685185185,
+        "p95": 0.5256070601851851,
+        "max": 0.5319444444444444
+      },
+      "max_sender_share": {
+        "mean": 0.08120000000000001,
+        "min": 0.05,
+        "p50": 0.08,
+        "p95": 0.11,
+        "max": 0.12
+      },
+      "max_receiver_share": {
+        "mean": 0.07800000000000001,
+        "min": 0.06,
+        "p50": 0.08,
+        "p95": 0.09549999999999997,
+        "max": 0.1
+      },
+      "reference_construction_ms": {
+        "mean": 62.87609199999999,
+        "min": 33.6005,
+        "p50": 61.776799999999994,
+        "p95": 85.875415,
+        "max": 97.4656
+      }
+    },
+    "D2-S": {
+      "count": 50,
+      "split_counts": {
+        "train": 25,
+        "validation": 25
+      },
+      "reference_below_10_count": 0,
+      "reference_below_10_fraction": 0.0,
+      "load_revision_triggered": false,
+      "scheduled_count": {
+        "mean": 50.72,
+        "min": 41,
+        "p50": 52.0,
+        "p95": 57.55,
+        "max": 58
+      },
+      "window_only_feasible_fraction": {
+        "mean": 0.8231999999999999,
+        "min": 0.71,
+        "p50": 0.83,
+        "p95": 0.87,
+        "max": 0.88
+      },
+      "single_task_calendar_feasible_fraction": {
+        "mean": 0.515,
+        "min": 0.42,
+        "p50": 0.52,
+        "p95": 0.58,
+        "max": 0.6
+      },
+      "scheduled_terminal_occupancy": {
+        "mean": 0.01078101851851852,
+        "min": 0.007430555555555556,
+        "p50": 0.010706018518518517,
+        "p95": 0.012965856481481481,
+        "max": 0.013564814814814814
+      },
+      "background_actual_occupancy": {
+        "mean": 0.5017222222222222,
+        "min": 0.47708333333333336,
+        "p50": 0.5012152777777779,
+        "p95": 0.5207465277777777,
+        "max": 0.5246527777777777
+      },
+      "combined_terminal_occupancy": {
+        "mean": 0.5125032407407408,
+        "min": 0.48780092592592594,
+        "p50": 0.5114641203703704,
+        "p95": 0.5327465277777778,
+        "max": 0.536238425925926
+      },
+      "max_sender_share": {
+        "mean": 0.0808,
+        "min": 0.06,
+        "p50": 0.08,
+        "p95": 0.1,
+        "max": 0.13
+      },
+      "max_receiver_share": {
+        "mean": 0.0808,
+        "min": 0.06,
+        "p50": 0.08,
+        "p95": 0.12,
+        "max": 0.13
+      },
+      "reference_construction_ms": {
+        "mean": 79.00956799999999,
+        "min": 52.4448,
+        "p50": 78.46505,
+        "p95": 99.89763999999998,
+        "max": 113.218
+      }
+    },
+    "D2-O": {
+      "count": 50,
+      "split_counts": {
+        "train": 25,
+        "validation": 25
+      },
+      "reference_below_10_count": 0,
+      "reference_below_10_fraction": 0.0,
+      "load_revision_triggered": false,
+      "scheduled_count": {
+        "mean": 52.18,
+        "min": 42,
+        "p50": 52.5,
+        "p95": 59.55,
+        "max": 63
+      },
+      "window_only_feasible_fraction": {
+        "mean": 0.8181999999999999,
+        "min": 0.73,
+        "p50": 0.82,
+        "p95": 0.86,
+        "max": 0.88
+      },
+      "single_task_calendar_feasible_fraction": {
+        "mean": 0.5315999999999999,
+        "min": 0.43,
+        "p50": 0.54,
+        "p95": 0.61,
+        "max": 0.63
+      },
+      "scheduled_terminal_occupancy": {
+        "mean": 0.011150462962962961,
+        "min": 0.008414351851851852,
+        "p50": 0.010908564814814815,
+        "p95": 0.01367650462962963,
+        "max": 0.014560185185185185
+      },
+      "background_actual_occupancy": {
+        "mean": 0.5002152777777777,
+        "min": 0.48125,
+        "p50": 0.5001736111111111,
+        "p95": 0.5158506944444444,
+        "max": 0.5190972222222222
+      },
+      "combined_terminal_occupancy": {
+        "mean": 0.5113657407407408,
+        "min": 0.49238425925925927,
+        "p50": 0.5122337962962963,
+        "p95": 0.5270792824074074,
+        "max": 0.5297106481481482
+      },
+      "max_sender_share": {
+        "mean": 0.0782,
+        "min": 0.06,
+        "p50": 0.08,
+        "p95": 0.1,
+        "max": 0.1
+      },
+      "max_receiver_share": {
+        "mean": 0.0802,
+        "min": 0.06,
+        "p50": 0.08,
+        "p95": 0.1,
+        "max": 0.12
+      },
+      "reference_construction_ms": {
+        "mean": 79.267648,
+        "min": 53.681,
+        "p50": 78.20925,
+        "p95": 103.51343499999997,
+        "max": 113.9568
+      }
+    }
+  }
+}

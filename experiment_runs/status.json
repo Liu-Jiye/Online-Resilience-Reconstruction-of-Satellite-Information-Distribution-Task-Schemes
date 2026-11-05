@@ -1,22 +1,28 @@
 {
   "initialized_on": "2026-11-05",
   "timezone": "Asia/Shanghai",
-  "workspace_status": "P1_in_progress",
+  "workspace_status": "P1_complete",
   "source_commit": "42209f4c776e227e2fefa0c47777ac547095a7a8",
   "write_scope": "experiment_runs/",
   "original_repository_files_modified": false,
-  "results_available": false,
+  "results_available": true,
   "algorithm_implemented": true,
-  "implementation_version": "0.1.0",
-  "implemented_methods": ["Minimal-Repair", "Frozen-Greedy", "Fixed-PALR"],
+  "implementation_version": "0.1.1",
+  "implemented_methods": [
+    "Minimal-Repair",
+    "Frozen-Greedy",
+    "Fixed-PALR"
+  ],
   "correctness_evidence_available": true,
   "stage_execution_policy": "Only the user-specified stage; produce its report, then stop pending the user's next instruction.",
-  "next_stage": "P1",
-  "next_stage_authorized": true,
+  "next_stage": "P2",
+  "next_stage_authorized": false,
   "stages": {
     "P0": {
       "status": "complete",
-      "run_ids": ["P0-20261105T102554Z"],
+      "run_ids": [
+        "P0-20261105T102554Z"
+      ],
       "report": "reports/P0_REPORT.md",
       "source_commit": "833829f562accd478c39586f076d6b935bf373a3",
       "unit_tests_passed": 115,
@@ -26,9 +32,26 @@
       "historical_exact_reproduction": false
     },
     "P1": {
-      "status": "in_progress",
-      "run_ids": [],
-      "report": null
+      "status": "complete",
+      "run_ids": [
+        "P1-20261105T110133Z",
+        "P1-20261105T110427Z"
+      ],
+      "authoritative_run_id": "P1-20261105T110427Z",
+      "report": "reports/P1_REPORT.md",
+      "source_commit": "63a21a149a4347e1d3a1ef4e4db62cd4c74c851f",
+      "valid_pilots": 150,
+      "failed_pilots": 0,
+      "pilot_split_per_layer": {
+        "train": 25,
+        "validation": 25
+      },
+      "orbital_window_audits": 100,
+      "unit_tests_passed": 125,
+      "load_revision": false,
+      "test_instances": 0,
+      "test_performance_accessed": false,
+      "freeze": "reports/p1/P1-20261105T110427Z/protocol_freeze.json"
     },
     "P2": {
       "status": "not_started",
@@ -63,5 +86,6 @@
     "per_instance_logs",
     "learned_weights"
   ],
-  "implementation_policy": "If original artifacts remain unavailable, explicitly label a paper-based reimplementation; do not claim exact historical reproduction."
+  "implementation_policy": "If original artifacts remain unavailable, explicitly label a paper-based reimplementation; do not claim exact historical reproduction.",
+  "results_scope": "P0 correctness and P1 offline pilots only; no research repair performance or test results"
 }

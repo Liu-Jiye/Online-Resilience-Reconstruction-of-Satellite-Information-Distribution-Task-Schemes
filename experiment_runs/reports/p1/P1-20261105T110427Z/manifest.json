@@ -1,0 +1,51 @@
+{
+  "run_id": "P1-20261105T110427Z",
+  "stage": "P1",
+  "source_commit": "63a21a149a4347e1d3a1ef4e4db62cd4c74c851f",
+  "source_sha256": {
+    "experiment_runs/configs/p1.json": "f9d22ae21de154a846e4be00c127816884d6c633991d670d04508b987863b3fb",
+    "experiment_runs/environment/requirements-p1.lock.txt": "d724f0736e7fe6d4960fdb153ea7d26e8083409da3b29ef653fc2eacd9e583cd",
+    "experiment_runs/protocol/P1_GENERATION_CONTRACT.md": "40d88f0e664799e783d451b8759e6a60f923b7be0a7bdb7ff0a997ae9c48aa28",
+    "experiment_runs/scripts/acquire_p1.py": "38a19e8f4570815ad59258525ee7fb7019b44911f1d8a7f3c26eeb11ac1ab2f8",
+    "experiment_runs/scripts/audit_p0.py": "487975acdbecad9e97b1598d4f9a8de0804943a4490871e25d1b9a5c39f5a263",
+    "experiment_runs/scripts/prepare_p1.py": "93005bcbba53b472856a02bc104e91adb778b9e2453199445ee91dc36b9a8f7e",
+    "experiment_runs/scripts/run_case.py": "a537891b01f7c91d821e2eadd1272458bb91ea67fa583c115835d38eb34c9d0e",
+    "experiment_runs/scripts/run_p0.py": "823a4d0af380216ebd63b9ddc1c414303e0adfe01fe6647ac67a7bb6c9e1afad",
+    "experiment_runs/scripts/run_p1.py": "463b1494a5fbe617cdb5ad58eb2615c4618f1b8a3ee54f1e2fc458a5df270b5d",
+    "experiment_runs/src/isl/__init__.py": "3db3a908474eafe1bf9044fbc7c42d38fb2a2c59d5beae317151f7eb464a64f6",
+    "experiment_runs/src/isl/calendar.py": "130108a99fe1025b2beca0baf658d480e49fb651bfa78a45efd5bc19a3a8c98c",
+    "experiment_runs/src/isl/events.py": "24ca09c963bffaa7b389d8ad89ea683a91262d78088a7508b8b8ec3891a4a746",
+    "experiment_runs/src/isl/metrics.py": "d0b72d1b73cfd3553aef3b35447182a4810118783762d3e4c2959b0d7e6c96de",
+    "experiment_runs/src/isl/models.py": "9bc427c6c5d3fd3e2db7fbb9f227055b56fb80716a34d376fd80142208ea24e2",
+    "experiment_runs/src/isl/p1_generation.py": "db47a4d57982783d55afeaa8d1107db6ab8d0df676442c211f55ef70e6e753b9",
+    "experiment_runs/src/isl/p1_orbits.py": "a093bd1512e63158f1db952fe0724e1d14305803e753daeb3a30c49a46c5429e",
+    "experiment_runs/src/isl/p1_sources.py": "3f9e83316244e0cb67fb3f04ef9982826952493c8d64f69a1a70efc1bc45d41d",
+    "experiment_runs/src/isl/placement.py": "c3d7eb7a6579609f856b79e0314d4af4b5439e028f6c5d57e0c95e1f2f0733f5",
+    "experiment_runs/src/isl/reference.py": "489bd59389a11c4079243df81cdd167fc45bce98c34d5f4ce780828c645c93ca",
+    "experiment_runs/src/isl/repair.py": "b44c1dabbc4656ad693bf0f91905ddd3d28d3fa41b96179628d50c212e0e95c9",
+    "experiment_runs/src/isl/validation.py": "d2fa280ffc1984c715fd6ca8a1c93da9447cdcb3ccf0353828f7e195e5415733",
+    "experiment_runs/tests/conftest.py": "913c05f7955adcd80897351506a44875274982430339bf49cb0bf69681793b26",
+    "experiment_runs/tests/test_constraints.py": "2ace29c232b4e5a01f01646033f4b9fe7c72ea73b402c972c78039b10423fc48",
+    "experiment_runs/tests/test_p1.py": "a47e09ef0a5c988deb6b546b8bd7e7a2d61177110b60ec65479d8b0abed5a55c",
+    "experiment_runs/tests/test_repair.py": "dd63085ff316a97f69e27a87d494749d97fe39ae48ba286238cfbfdc80134cdb"
+  },
+  "finished_at_utc": "2026-11-05T11:05:32.392569+00:00",
+  "raw_snapshots_not_redistributed": true,
+  "derived_archive_sha256": "7dab42a9fe806b74f41d529887a742e8cdec69fea9487745f280104209befeaa",
+  "processed_directory": "data/processed/p1/P1-20261105T110427Z",
+  "artifact_sha256": {
+    "config.json": "7aac6d5746012c7d40f67fe99a7cd292c6cdb5f570c6901d18d8460600120fae",
+    "distributions.json": "815dca76564113c9c77cb0ad5e02e7df670015b8b535b828f390bd34091e8be2",
+    "environment.json": "be02cc65e02f9cf47a657a7e84d9cf92b8e4161a72c4a44cc6a8ec40076fe993",
+    "failures.json": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+    "pilot_derived_instances.zip": "7dab42a9fe806b74f41d529887a742e8cdec69fea9487745f280104209befeaa",
+    "summary.json": "3089ec707ce8275a7482077f12c8f48215a20f8fb034adc723f804bf73a818bf",
+    "window_audits.json": "deae073fbd7e61f0711b0b2b28ddb991e253c5a7ff93589d23deca3904399ebf"
+  },
+  "test_performance_accessed": false,
+  "next_stages_executed": [],
+  "snapshot_sha256": {
+    "starlink": "f447b5867dd5fa1dbca87f26e007f594b7cdb9f30576be6a77be713b91fc5bcf",
+    "oneweb": "db03ee1c4def9717135425a58df2a398d426319e217b325104704aa16894bfbe"
+  }
+}

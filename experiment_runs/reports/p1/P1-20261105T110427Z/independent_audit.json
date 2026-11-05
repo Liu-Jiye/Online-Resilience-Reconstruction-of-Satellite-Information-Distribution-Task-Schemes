@@ -1,0 +1,85 @@
+{
+  "passed": true,
+  "stage": "P1",
+  "audited_at_utc": "2026-11-05T11:07:36.610273+00:00",
+  "source_hashes_verified": 25,
+  "artifact_hashes_verified": 7,
+  "snapshot_hashes_verified": 2,
+  "instances_revalidated": 150,
+  "task_calendar_seed_reproductions": 150,
+  "synthetic_contact_seed_reproductions": 50,
+  "orbital_geometry_audits_recomputed": 100,
+  "counts": {
+    "D1:train": 25,
+    "D1:validation": 25,
+    "D2-S:train": 25,
+    "D2-S:validation": 25,
+    "D2-O:train": 25,
+    "D2-O:validation": 25
+  },
+  "group_instance_counts": {
+    "D2-S:train:g00": 5,
+    "D2-S:train:g01": 4,
+    "D2-S:train:g02": 4,
+    "D2-S:train:g03": 4,
+    "D2-S:train:g04": 4,
+    "D2-S:train:g05": 4,
+    "D2-S:validation:g06": 13,
+    "D2-S:validation:g07": 12,
+    "D2-O:train:g00": 5,
+    "D2-O:train:g01": 4,
+    "D2-O:train:g02": 4,
+    "D2-O:train:g03": 4,
+    "D2-O:train:g04": 4,
+    "D2-O:train:g05": 4,
+    "D2-O:validation:g06": 13,
+    "D2-O:validation:g07": 12
+  },
+  "test_instances_or_performance_accessed": false,
+  "window_summary": {
+    "D2-S": {
+      "base_instances": 50,
+      "coarse_physical_windows": 16396,
+      "fine_physical_windows": 16396,
+      "missed_physical_windows": 0,
+      "extra_physical_windows": 0,
+      "missed_retained_windows": 0,
+      "retention_disagreements": 0,
+      "discrete_window_disagreements": 878,
+      "max_discrete_endpoint_error_s": 1,
+      "boundary_error_mean_s": 0.01964846608929007,
+      "boundary_error_p95_s": 0.046875,
+      "boundary_error_max_s": 0.0625
+    },
+    "D2-O": {
+      "base_instances": 50,
+      "coarse_physical_windows": 13176,
+      "fine_physical_windows": 13176,
+      "missed_physical_windows": 0,
+      "extra_physical_windows": 0,
+      "missed_retained_windows": 0,
+      "retention_disagreements": 0,
+      "discrete_window_disagreements": 646,
+      "max_discrete_endpoint_error_s": 1,
+      "boundary_error_mean_s": 0.01792143385701275,
+      "boundary_error_p95_s": 0.046875,
+      "boundary_error_max_s": 0.0625
+    }
+  },
+  "audit_script_sha256": "54181759750240a532be10900d89a0dd995155aed698b863b566d7e9d924a9fa",
+  "previous_run_same_150_semantic_instances_references_metadata": true,
+  "previous_run_contact_id_relabels": [
+    {
+      "instance_id": "D2-O-validation-pilot-001",
+      "previous_id": "45162-47282-1-f",
+      "current_id": "45162-47282-0-f"
+    },
+    {
+      "instance_id": "D2-O-validation-pilot-001",
+      "previous_id": "45162-47282-1-r",
+      "current_id": "45162-47282-0-r"
+    }
+  ],
+  "previous_run_id": "P1-20261105T110133Z",
+  "correction": "Remove zero-duration endpoint markers from physical-window audit; no demand/calendar/contact-geometry/reference/protocol change. Local contact sequence IDs may renumber."
+}
