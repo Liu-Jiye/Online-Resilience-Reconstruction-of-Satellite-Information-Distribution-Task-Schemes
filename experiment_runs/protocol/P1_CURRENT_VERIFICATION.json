@@ -1,0 +1,15 @@
+{
+  "version": "1.0-post-P2",
+  "P1_run_id": "P1-20261105T110427Z",
+  "P1_acceptance_sha256": "25d426eadd00c91cee71f2ddc12df81b5a2ce2cb95e3799c0946dba28dbd3b40",
+  "P1_historical_commit": "f8cd6afd8a8a33d43c9f178ae186bf42f9de18dc",
+  "P2_acceptance_path": "experiment_runs/reports/p2/P2-20261105T114327Z/acceptance_manifest.json",
+  "P2_acceptance_sha256": "eb0e6ff6efcedc3b7e4bb8bca7416b5fefeda53de783d1b67c0d0b3e956fe987",
+  "P2_historical_commit": "0a1b49434a33451880a4968b02ddfda90b6a0ab0",
+  "progress_paths": [
+    "experiment_runs/README.md",
+    "experiment_runs/STAGES.md",
+    "experiment_runs/status.json"
+  ],
+  "policy": "All P1 acceptance paths are checked. Only these three progress files may differ, and must match both the P2 acceptance digest and the P2 historical Git blob. Their P1 historical Git blobs must match the P1 acceptance. Scientific files and the legacy verifier remain unchanged."
+}
