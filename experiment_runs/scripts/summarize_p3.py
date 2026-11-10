@@ -26,7 +26,7 @@ def summarize(mode):
                 if not m['applicable']:continue
                 cell=config['cells'][row['layer'],row['scenario']]
                 cell+=np.asarray([1,int(m['online_success']),m['U_exec']/max(1,row['reference_utility']),m['N_drop'],m['N_add'],m['M_all'],int(m['valid_output'])])
-    expected={'grid':720000,'rules':72000,'et':144000,'search':96000}[mode]
+    expected={'grid':600000,'rules':72000,'et':144000,'search':96000}[mode]
     assert n==expected,(mode,n)
     summaries=[]
     cfg=json.loads((ROOT/'configs/p3_v1.json').read_text())

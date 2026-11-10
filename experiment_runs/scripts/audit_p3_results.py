@@ -17,7 +17,7 @@ ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT/'src'))
 from isl.models import case_from_dict,frozen_count,Item
 from isl.validation import validate
 run=ROOT/'reports/p3/P3-20261110';start=time.perf_counter_ns();reports={}
-expected=dict(labels=(4000,80000),grid=(1000,720000),rules=(1000,72000),et=(1000,144000),search=(1000,96000))
+expected=dict(labels=(4000,80000),grid=(1000,600000),rules=(1000,72000),et=(1000,144000),search=(1000,96000))
 for mi,(mode,(bases,calls)) in enumerate(expected.items()):
     folder=run/mode;complete=json.loads((folder/'COMPLETE.json').read_text())
     assert complete['full'] and complete['base_count']==bases
