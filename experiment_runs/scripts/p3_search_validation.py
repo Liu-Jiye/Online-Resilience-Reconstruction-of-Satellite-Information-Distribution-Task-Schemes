@@ -47,7 +47,7 @@ for bi,row in enumerate(rows):
     order=np.random.Generator(np.random.PCG64(np.random.SeedSequence([row['seed'],93004]))).permutation(len(jobs))
     for j in order:
         label,e,case,setting=jobs[int(j)]
-        while warm<20:
+        while warm<40:
             (run_puct if warm%2==0 else run_alns)(case);warm+=1
         result=run_puct(case,temperature=setting[1],density_mean=training['mean'],density_std=training['std']) if setting[0]=='PUCT' else run_alns(case)
         if result['validated']:

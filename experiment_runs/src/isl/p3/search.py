@@ -22,7 +22,8 @@ class Engine:
         if not check.feasible: raise ValueError('invalid original reference')
         self.reserve=3*self.check_ns
         check=validate(self.instance,case.frozen,frozen=case.frozen,cancelled=case.event.cancelled)
-        if not check.feasible: self.conflict=True;return
+        if not check.feasible:
+            self.conflict=True;self.input_ns=perf_counter_ns()-self.start;return
         plan=tuple(p for p in case.reference if p.task_id not in case.event.cancelled)
         if not validate(self.instance,plan).feasible:
             plan=case.frozen
@@ -70,7 +71,7 @@ class Engine:
         if self.verified and not self.conflict:
             check=validate(self.instance.original,self.plan,frozen=self.case.frozen,cancelled=self.case.event.cancelled,
                 original_ids=self.original,budget=self.B,admissions=self.admissions,initial=self.initial,trace=self.trace)
-        total=perf_counter_ns()-self.start;final_ns=perf_counter_ns()-before
+        end=perf_counter_ns();total=end-self.start;final_ns=end-before
         metrics=scored_metrics(self.case,self.plan,check,total,self.end-self.start,self.verified and not self.conflict,self.forced)
         return dict(method=method,version='P3-search-v1',eligibility_version='v2',event_id=self.case.event.id,
             instance_id=self.case.base.id,status='frozen_conflict' if self.conflict else 'timeout' if total>self.end-self.start or not self.verified else 'feasible',
@@ -78,7 +79,8 @@ class Engine:
             initial_plan=[asdict(p) for p in self.initial],plan=[asdict(p) for p in self.plan],trace=self.trace,
             admissions_cumulative=self.admissions,forced_removed=self.forced,unchanged_outside_E=[],validated=check is not None and check.feasible,
             validation=check.to_dict() if check else None,total_ns=total,metrics=metrics,search_stats=stats,
-            timings_ns=dict(input_and_baseline_ns=getattr(self,'input_ns',0),final_validation_ns=final_ns))
+            timings_ns=dict(input_and_baseline_ns=getattr(self,'input_ns',0),
+                            search_ns=total-getattr(self,'input_ns',0)-final_ns,final_validation_ns=final_ns))
 
 
 def candidate_tasks(engine,plan):
@@ -166,7 +168,7 @@ def first_two(instance,task,plan):
 def run_alns(case,seed=11):
     from alns import ALNS
     from alns.select import SegmentedRouletteWheel
-    engine=Engine(case);rng=np.random.Generator(np.random.PCG64(seed));stats=dict(iterations=0,seed=seed,framework='alns7.0.0',reaction=.8,package_decay=.2,operators=[])
+    engine=Engine(case);rng=np.random.Generator(np.random.PCG64(seed));stats=dict(iterations=0,iterations_completed=0,seed=seed,framework='alns7.0.0',reaction=.8,package_decay=.2,operators=[])
     exhausted=False;frozen_ids={p.task_id for p in case.frozen}
     center,_,_=center_and_region(case,engine.instance,0)
     positions={p.task_id:i for i,p in enumerate(case.reference)}
@@ -222,8 +224,9 @@ def run_alns(case,seed=11):
         return operator
 
     def accept(rng,best,current,candidate):
-        if candidate.objective()<current.objective():return engine.accept(candidate.plan)
-        return False
+        accepted=engine.accept(candidate.plan) if candidate.objective()<current.objective() else False
+        stats['iterations_completed']+=1
+        return accepted
 
     def stop(rng,best,current):
         if stats['iterations']>=200:return True

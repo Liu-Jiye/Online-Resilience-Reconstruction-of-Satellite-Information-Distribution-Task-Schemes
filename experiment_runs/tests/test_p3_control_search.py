@@ -1,7 +1,8 @@
 import pytest
 from isl.models import Item
 from isl.validation import validate
-from isl.p3.control import features,rule_action,controlled
+from isl.p3.control import features,rule_action
+from isl.p3.control_timed import controlled
 from isl.p3.search import run_puct,run_alns
 from test_repair import fixture_case
 
@@ -25,6 +26,7 @@ def test_search_outputs_freeze_budget_trace_and_limits(kind,method):
                        admissions=r['admissions_cumulative'],initial=tuple(Item(**p) for p in r['initial_plan']),trace=r['trace'])
         assert check.feasible,check.errors
     assert r['admissions_cumulative']<=5
+    assert sum(r['timings_ns'].values())==r['total_ns']
     if method==run_puct:
         assert r['search_stats']['simulations']<=40 and r['search_stats']['max_depth']<=12
     else:assert r['search_stats']['iterations']<=200
