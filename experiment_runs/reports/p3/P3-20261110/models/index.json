@@ -1,0 +1,144 @@
+{
+  "actions": [
+    [
+      1,
+      1
+    ],
+    [
+      1,
+      2
+    ],
+    [
+      1,
+      3
+    ],
+    [
+      1,
+      5
+    ],
+    [
+      3,
+      1
+    ],
+    [
+      3,
+      2
+    ],
+    [
+      3,
+      3
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      5,
+      1
+    ],
+    [
+      5,
+      2
+    ],
+    [
+      5,
+      3
+    ],
+    [
+      5,
+      5
+    ],
+    [
+      10,
+      1
+    ],
+    [
+      10,
+      2
+    ],
+    [
+      10,
+      3
+    ],
+    [
+      10,
+      5
+    ],
+    [
+      20,
+      1
+    ],
+    [
+      20,
+      2
+    ],
+    [
+      20,
+      3
+    ],
+    [
+      20,
+      5
+    ]
+  ],
+  "heads": [
+    "utility_gain",
+    "drops",
+    "adds",
+    "movement",
+    "latency_ms"
+  ],
+  "params": {
+    "n_estimators": 200,
+    "max_depth": 12,
+    "min_samples_leaf": 5,
+    "max_features": 1.0,
+    "random_state": 20261020,
+    "n_jobs": 1
+  },
+  "class_weight": "balanced_train_only",
+  "training_records": 80000,
+  "training_bases": 4000,
+  "training_ns": {
+    "classifier": 4545042138,
+    "utility_gain": 10182386060,
+    "drops": 9942255627,
+    "adds": 10176505517,
+    "movement": 8596857125,
+    "latency_ms": 10724375856
+  },
+  "total_training_wall_ns": 56227870531,
+  "label_response_ns": 700283583950,
+  "feature_extraction_ns": 4438851330,
+  "files": {
+    "classifier.joblib": {
+      "sha256": "e7894021a52459529e184d691549313c1c770daa4518d038cdea3e2592af04c3",
+      "bytes": 458782
+    },
+    "utility_gain.joblib": {
+      "sha256": "3c1a0ebe60ba937d60dc356e083f59958d9b985d554d8d60277d88a4f06a0f82",
+      "bytes": 6535521
+    },
+    "drops.joblib": {
+      "sha256": "a26560fc5078e9085bee4b20cbf6635c6f57664c55fdf46a797db730a154dfe0",
+      "bytes": 6610551
+    },
+    "adds.joblib": {
+      "sha256": "85d21176a18dd0b69bcee846a1e3c507165fc5659fb87c538f02fe7391419583",
+      "bytes": 4224956
+    },
+    "movement.joblib": {
+      "sha256": "941dc0f4b48947ea9f37f9678cbe8d81151d91dbfa09f32a889430961c4780e6",
+      "bytes": 5609214
+    },
+    "latency_ms.joblib": {
+      "sha256": "50850862b6a8030c94818a38bc5f44b658d4e6aea82da1cbc96e8ddcfb4df7de",
+      "bytes": 18683003
+    }
+  },
+  "success_labels": [
+    22202,
+    57798
+  ],
+  "isolation": "only default training bases; all20 actions of eachbase kept together; no validation fitting"
+}
