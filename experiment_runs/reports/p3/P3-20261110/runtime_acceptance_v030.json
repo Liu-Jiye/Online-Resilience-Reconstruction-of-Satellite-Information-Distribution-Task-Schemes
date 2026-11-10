@@ -1,0 +1,1811 @@
+{
+  "passed_equivalence": true,
+  "equivalence_scope": "72 actual training cases, w1/B1, non-expiring diagnostic clock; 40 additional unit tests",
+  "warmup": 20,
+  "equivalence": [
+    {
+      "layer": "D1",
+      "load": "default",
+      "scenario": 0,
+      "equivalent": true,
+      "wall_ns": 61799176
+    },
+    {
+      "layer": "D1",
+      "load": "default",
+      "scenario": 1,
+      "equivalent": true,
+      "wall_ns": 25362906
+    },
+    {
+      "layer": "D1",
+      "load": "default",
+      "scenario": 2,
+      "equivalent": true,
+      "wall_ns": 55790827
+    },
+    {
+      "layer": "D1",
+      "load": "default",
+      "scenario": 3,
+      "equivalent": true,
+      "wall_ns": 29847535
+    },
+    {
+      "layer": "D1",
+      "load": "default",
+      "scenario": 4,
+      "equivalent": true,
+      "wall_ns": 76698155
+    },
+    {
+      "layer": "D1",
+      "load": "default",
+      "scenario": 5,
+      "equivalent": true,
+      "wall_ns": 76129917
+    },
+    {
+      "layer": "D1",
+      "load": "default",
+      "scenario": 6,
+      "equivalent": true,
+      "wall_ns": 64161277
+    },
+    {
+      "layer": "D1",
+      "load": "default",
+      "scenario": 7,
+      "equivalent": true,
+      "wall_ns": 65074026
+    },
+    {
+      "layer": "D1",
+      "load": "default",
+      "scenario": 8,
+      "equivalent": true,
+      "wall_ns": 75091078
+    },
+    {
+      "layer": "D1",
+      "load": "default",
+      "scenario": 9,
+      "equivalent": true,
+      "wall_ns": 77513173
+    },
+    {
+      "layer": "D1",
+      "load": "default",
+      "scenario": 10,
+      "equivalent": true,
+      "wall_ns": 66778323
+    },
+    {
+      "layer": "D1",
+      "load": "default",
+      "scenario": 11,
+      "equivalent": true,
+      "wall_ns": 66593769
+    },
+    {
+      "layer": "D1",
+      "load": "N500-h0.8",
+      "scenario": 0,
+      "equivalent": true,
+      "wall_ns": 683165884
+    },
+    {
+      "layer": "D1",
+      "load": "N500-h0.8",
+      "scenario": 1,
+      "equivalent": true,
+      "wall_ns": 221065727
+    },
+    {
+      "layer": "D1",
+      "load": "N500-h0.8",
+      "scenario": 2,
+      "equivalent": true,
+      "wall_ns": 532821970
+    },
+    {
+      "layer": "D1",
+      "load": "N500-h0.8",
+      "scenario": 3,
+      "equivalent": true,
+      "wall_ns": 284489200
+    },
+    {
+      "layer": "D1",
+      "load": "N500-h0.8",
+      "scenario": 4,
+      "equivalent": true,
+      "wall_ns": 577594498
+    },
+    {
+      "layer": "D1",
+      "load": "N500-h0.8",
+      "scenario": 5,
+      "equivalent": true,
+      "wall_ns": 580094801
+    },
+    {
+      "layer": "D1",
+      "load": "N500-h0.8",
+      "scenario": 6,
+      "equivalent": true,
+      "wall_ns": 441935937
+    },
+    {
+      "layer": "D1",
+      "load": "N500-h0.8",
+      "scenario": 7,
+      "equivalent": true,
+      "wall_ns": 437831640
+    },
+    {
+      "layer": "D1",
+      "load": "N500-h0.8",
+      "scenario": 8,
+      "equivalent": true,
+      "wall_ns": 633039152
+    },
+    {
+      "layer": "D1",
+      "load": "N500-h0.8",
+      "scenario": 9,
+      "equivalent": true,
+      "wall_ns": 591367415
+    },
+    {
+      "layer": "D1",
+      "load": "N500-h0.8",
+      "scenario": 10,
+      "equivalent": true,
+      "wall_ns": 432840955
+    },
+    {
+      "layer": "D1",
+      "load": "N500-h0.8",
+      "scenario": 11,
+      "equivalent": true,
+      "wall_ns": 442555433
+    },
+    {
+      "layer": "D2-S",
+      "load": "default",
+      "scenario": 0,
+      "equivalent": true,
+      "wall_ns": 76612337
+    },
+    {
+      "layer": "D2-S",
+      "load": "default",
+      "scenario": 1,
+      "equivalent": true,
+      "wall_ns": 17686784
+    },
+    {
+      "layer": "D2-S",
+      "load": "default",
+      "scenario": 2,
+      "equivalent": true,
+      "wall_ns": 48339806
+    },
+    {
+      "layer": "D2-S",
+      "load": "default",
+      "scenario": 3,
+      "equivalent": true,
+      "wall_ns": 28526398
+    },
+    {
+      "layer": "D2-S",
+      "load": "default",
+      "scenario": 4,
+      "equivalent": true,
+      "wall_ns": 102674397
+    },
+    {
+      "layer": "D2-S",
+      "load": "default",
+      "scenario": 5,
+      "equivalent": true,
+      "wall_ns": 71855017
+    },
+    {
+      "layer": "D2-S",
+      "load": "default",
+      "scenario": 6,
+      "equivalent": true,
+      "wall_ns": 85737304
+    },
+    {
+      "layer": "D2-S",
+      "load": "default",
+      "scenario": 7,
+      "equivalent": true,
+      "wall_ns": 58877546
+    },
+    {
+      "layer": "D2-S",
+      "load": "default",
+      "scenario": 8,
+      "equivalent": true,
+      "wall_ns": 75175115
+    },
+    {
+      "layer": "D2-S",
+      "load": "default",
+      "scenario": 9,
+      "equivalent": true,
+      "wall_ns": 72743287
+    },
+    {
+      "layer": "D2-S",
+      "load": "default",
+      "scenario": 10,
+      "equivalent": true,
+      "wall_ns": 71658505
+    },
+    {
+      "layer": "D2-S",
+      "load": "default",
+      "scenario": 11,
+      "equivalent": true,
+      "wall_ns": 61806879
+    },
+    {
+      "layer": "D2-S",
+      "load": "N500-h0.8",
+      "scenario": 0,
+      "equivalent": true,
+      "wall_ns": 828797616
+    },
+    {
+      "layer": "D2-S",
+      "load": "N500-h0.8",
+      "scenario": 1,
+      "equivalent": true,
+      "wall_ns": 236086912
+    },
+    {
+      "layer": "D2-S",
+      "load": "N500-h0.8",
+      "scenario": 2,
+      "equivalent": true,
+      "wall_ns": 676381550
+    },
+    {
+      "layer": "D2-S",
+      "load": "N500-h0.8",
+      "scenario": 3,
+      "equivalent": true,
+      "wall_ns": 466965920
+    },
+    {
+      "layer": "D2-S",
+      "load": "N500-h0.8",
+      "scenario": 4,
+      "equivalent": true,
+      "wall_ns": 1039900875
+    },
+    {
+      "layer": "D2-S",
+      "load": "N500-h0.8",
+      "scenario": 5,
+      "equivalent": true,
+      "wall_ns": 872435633
+    },
+    {
+      "layer": "D2-S",
+      "load": "N500-h0.8",
+      "scenario": 6,
+      "equivalent": true,
+      "wall_ns": 823805243
+    },
+    {
+      "layer": "D2-S",
+      "load": "N500-h0.8",
+      "scenario": 7,
+      "equivalent": true,
+      "wall_ns": 626370195
+    },
+    {
+      "layer": "D2-S",
+      "load": "N500-h0.8",
+      "scenario": 8,
+      "equivalent": true,
+      "wall_ns": 850348076
+    },
+    {
+      "layer": "D2-S",
+      "load": "N500-h0.8",
+      "scenario": 9,
+      "equivalent": true,
+      "wall_ns": 964905748
+    },
+    {
+      "layer": "D2-S",
+      "load": "N500-h0.8",
+      "scenario": 10,
+      "equivalent": true,
+      "wall_ns": 635650204
+    },
+    {
+      "layer": "D2-S",
+      "load": "N500-h0.8",
+      "scenario": 11,
+      "equivalent": true,
+      "wall_ns": 636962304
+    },
+    {
+      "layer": "D2-O",
+      "load": "default",
+      "scenario": 0,
+      "equivalent": true,
+      "wall_ns": 60619426
+    },
+    {
+      "layer": "D2-O",
+      "load": "default",
+      "scenario": 1,
+      "equivalent": true,
+      "wall_ns": 22559924
+    },
+    {
+      "layer": "D2-O",
+      "load": "default",
+      "scenario": 2,
+      "equivalent": true,
+      "wall_ns": 55746811
+    },
+    {
+      "layer": "D2-O",
+      "load": "default",
+      "scenario": 3,
+      "equivalent": true,
+      "wall_ns": 31795914
+    },
+    {
+      "layer": "D2-O",
+      "load": "default",
+      "scenario": 4,
+      "equivalent": true,
+      "wall_ns": 80182543
+    },
+    {
+      "layer": "D2-O",
+      "load": "default",
+      "scenario": 5,
+      "equivalent": true,
+      "wall_ns": 80299159
+    },
+    {
+      "layer": "D2-O",
+      "load": "default",
+      "scenario": 6,
+      "equivalent": true,
+      "wall_ns": 63474918
+    },
+    {
+      "layer": "D2-O",
+      "load": "default",
+      "scenario": 7,
+      "equivalent": true,
+      "wall_ns": 101677191
+    },
+    {
+      "layer": "D2-O",
+      "load": "default",
+      "scenario": 8,
+      "equivalent": true,
+      "wall_ns": 77465017
+    },
+    {
+      "layer": "D2-O",
+      "load": "default",
+      "scenario": 9,
+      "equivalent": true,
+      "wall_ns": 79081461
+    },
+    {
+      "layer": "D2-O",
+      "load": "default",
+      "scenario": 10,
+      "equivalent": true,
+      "wall_ns": 65923915
+    },
+    {
+      "layer": "D2-O",
+      "load": "default",
+      "scenario": 11,
+      "equivalent": true,
+      "wall_ns": 63074443
+    },
+    {
+      "layer": "D2-O",
+      "load": "N500-h0.8",
+      "scenario": 0,
+      "equivalent": true,
+      "wall_ns": 964546224
+    },
+    {
+      "layer": "D2-O",
+      "load": "N500-h0.8",
+      "scenario": 1,
+      "equivalent": true,
+      "wall_ns": 609097183
+    },
+    {
+      "layer": "D2-O",
+      "load": "N500-h0.8",
+      "scenario": 2,
+      "equivalent": true,
+      "wall_ns": 832163610
+    },
+    {
+      "layer": "D2-O",
+      "load": "N500-h0.8",
+      "scenario": 3,
+      "equivalent": true,
+      "wall_ns": 625692767
+    },
+    {
+      "layer": "D2-O",
+      "load": "N500-h0.8",
+      "scenario": 4,
+      "equivalent": true,
+      "wall_ns": 1093791510
+    },
+    {
+      "layer": "D2-O",
+      "load": "N500-h0.8",
+      "scenario": 5,
+      "equivalent": true,
+      "wall_ns": 1085751656
+    },
+    {
+      "layer": "D2-O",
+      "load": "N500-h0.8",
+      "scenario": 6,
+      "equivalent": true,
+      "wall_ns": 787847619
+    },
+    {
+      "layer": "D2-O",
+      "load": "N500-h0.8",
+      "scenario": 7,
+      "equivalent": true,
+      "wall_ns": 801604237
+    },
+    {
+      "layer": "D2-O",
+      "load": "N500-h0.8",
+      "scenario": 8,
+      "equivalent": true,
+      "wall_ns": 1105168339
+    },
+    {
+      "layer": "D2-O",
+      "load": "N500-h0.8",
+      "scenario": 9,
+      "equivalent": true,
+      "wall_ns": 1067521666
+    },
+    {
+      "layer": "D2-O",
+      "load": "N500-h0.8",
+      "scenario": 10,
+      "equivalent": true,
+      "wall_ns": 805887828
+    },
+    {
+      "layer": "D2-O",
+      "load": "N500-h0.8",
+      "scenario": 11,
+      "equivalent": true,
+      "wall_ns": 801937212
+    }
+  ],
+  "timing": [
+    {
+      "layer": "D1",
+      "load": "default",
+      "scenario": 0,
+      "status": "feasible",
+      "total_ns": 12410843,
+      "online_success": true,
+      "timings": {
+        "input_and_baseline_ns": 3738379,
+        "filter_ns": 435144,
+        "repair_ns": 1342595,
+        "accepted_validation_ns": 3789418,
+        "final_validation_ns": 3095661,
+        "control_ns": 0,
+        "unattributed_ns": 9646
+      },
+      "validated": true
+    },
+    {
+      "layer": "D1",
+      "load": "default",
+      "scenario": 1,
+      "status": "feasible",
+      "total_ns": 7034672,
+      "online_success": true,
+      "timings": {
+        "input_and_baseline_ns": 2653360,
+        "filter_ns": 357854,
+        "repair_ns": 1264300,
+        "accepted_validation_ns": 1688782,
+        "final_validation_ns": 1064170,
+        "control_ns": 0,
+        "unattributed_ns": 6206
+      },
+      "validated": true
+    },
+    {
+      "layer": "D1",
+      "load": "default",
+      "scenario": 2,
+      "status": "feasible",
+      "total_ns": 15421945,
+      "online_success": true,
+      "timings": {
+        "input_and_baseline_ns": 5268704,
+        "filter_ns": 292058,
+        "repair_ns": 1518672,
+        "accepted_validation_ns": 4243468,
+        "final_validation_ns": 4091811,
+        "control_ns": 0,
+        "unattributed_ns": 7232
+      },
+      "validated": true
+    },
+    {
+      "layer": "D1",
+      "load": "default",
+      "scenario": 3,
+      "status": "feasible",
+      "total_ns": 11281336,
+      "online_success": true,
+      "timings": {
+        "input_and_baseline_ns": 4829180,
+        "filter_ns": 342838,
+        "repair_ns": 632505,
+        "accepted_validation_ns": 2607866,
+        "final_validation_ns": 2854513,
+        "control_ns": 0,
+        "unattributed_ns": 14434
+      },
+      "validated": true
+    },
+    {
+      "layer": "D1",
+      "load": "default",
+      "scenario": 4,
+      "status": "feasible",
+      "total_ns": 12142646,
+      "online_success": false,
+      "timings": {
+        "input_and_baseline_ns": 4303385,
+        "filter_ns": 88446,
+        "repair_ns": 206585,
+        "accepted_validation_ns": 3546979,
+        "final_validation_ns": 3991600,
+        "control_ns": 0,
+        "unattributed_ns": 5651
+      },
+      "validated": true
+    },
+    {
+      "layer": "D1",
+      "load": "default",
+      "scenario": 5,
+      "status": "feasible",
+      "total_ns": 14716132,
+      "online_success": false,
+      "timings": {
+        "input_and_baseline_ns": 4141879,
+        "filter_ns": 103387,
+        "repair_ns": 223771,
+        "accepted_validation_ns": 6195812,
+        "final_validation_ns": 4045227,
+        "control_ns": 0,
+        "unattributed_ns": 6056
+      },
+      "validated": true
+    },
+    {
+      "layer": "D1",
+      "load": "default",
+      "scenario": 6,
+      "status": "feasible",
+      "total_ns": 14510383,
+      "online_success": false,
+      "timings": {
+        "input_and_baseline_ns": 5681849,
+        "filter_ns": 160732,
+        "repair_ns": 595209,
+        "accepted_validation_ns": 3885774,
+        "final_validation_ns": 4179728,
+        "control_ns": 0,
+        "unattributed_ns": 7091
+      },
+      "validated": true
+    },
+    {
+      "layer": "D1",
+      "load": "default",
+      "scenario": 7,
+      "status": "feasible",
+      "total_ns": 14493704,
+      "online_success": false,
+      "timings": {
+        "input_and_baseline_ns": 5223175,
+        "filter_ns": 183189,
+        "repair_ns": 634829,
+        "accepted_validation_ns": 3793771,
+        "final_validation_ns": 4652534,
+        "control_ns": 0,
+        "unattributed_ns": 6206
+      },
+      "validated": true
+    },
+    {
+      "layer": "D1",
+      "load": "default",
+      "scenario": 8,
+      "status": "feasible",
+      "total_ns": 14101208,
+      "online_success": true,
+      "timings": {
+        "input_and_baseline_ns": 5436199,
+        "filter_ns": 197119,
+        "repair_ns": 861145,
+        "accepted_validation_ns": 3491956,
+        "final_validation_ns": 4107711,
+        "control_ns": 0,
+        "unattributed_ns": 7078
+      },
+      "validated": true
+    },
+    {
+      "layer": "D1",
+      "load": "default",
+      "scenario": 9,
+      "status": "feasible",
+      "total_ns": 12959641,
+      "online_success": true,
+      "timings": {
+        "input_and_baseline_ns": 4307618,
+        "filter_ns": 133532,
+        "repair_ns": 646136,
+        "accepted_validation_ns": 3530750,
+        "final_validation_ns": 4334496,
+        "control_ns": 0,
+        "unattributed_ns": 7109
+      },
+      "validated": true
+    },
+    {
+      "layer": "D1",
+      "load": "default",
+      "scenario": 10,
+      "status": "feasible",
+      "total_ns": 15932846,
+      "online_success": true,
+      "timings": {
+        "input_and_baseline_ns": 5386692,
+        "filter_ns": 286828,
+        "repair_ns": 2029681,
+        "accepted_validation_ns": 3876858,
+        "final_validation_ns": 4345787,
+        "control_ns": 0,
+        "unattributed_ns": 7000
+      },
+      "validated": true
+    },
+    {
+      "layer": "D1",
+      "load": "default",
+      "scenario": 11,
+      "status": "feasible",
+      "total_ns": 16075638,
+      "online_success": true,
+      "timings": {
+        "input_and_baseline_ns": 5431628,
+        "filter_ns": 269746,
+        "repair_ns": 2110889,
+        "accepted_validation_ns": 3801081,
+        "final_validation_ns": 4455566,
+        "control_ns": 0,
+        "unattributed_ns": 6728
+      },
+      "validated": true
+    },
+    {
+      "layer": "D1",
+      "load": "N500-h0.8",
+      "scenario": 0,
+      "status": "timeout",
+      "total_ns": 66893028,
+      "online_success": false,
+      "timings": {
+        "input_and_baseline_ns": 12212826,
+        "filter_ns": 3457631,
+        "repair_ns": 0,
+        "accepted_validation_ns": 9395555,
+        "final_validation_ns": 12853701,
+        "control_ns": 0,
+        "unattributed_ns": 28973315
+      },
+      "validated": true
+    },
+    {
+      "layer": "D1",
+      "load": "N500-h0.8",
+      "scenario": 1,
+      "status": "timeout",
+      "total_ns": 53927271,
+      "online_success": false,
+      "timings": {
+        "input_and_baseline_ns": 9252773,
+        "filter_ns": 3228498,
+        "repair_ns": 0,
+        "accepted_validation_ns": 6117942,
+        "final_validation_ns": 3919330,
+        "control_ns": 0,
+        "unattributed_ns": 31408728
+      },
+      "validated": true
+    },
+    {
+      "layer": "D1",
+      "load": "N500-h0.8",
+      "scenario": 2,
+      "status": "timeout",
+      "total_ns": 67604103,
+      "online_success": false,
+      "timings": {
+        "input_and_baseline_ns": 16620000,
+        "filter_ns": 2036421,
+        "repair_ns": 0,
+        "accepted_validation_ns": 13063056,
+        "final_validation_ns": 17599565,
+        "control_ns": 0,
+        "unattributed_ns": 18285061
+      },
+      "validated": true
+    },
+    {
+      "layer": "D1",
+      "load": "N500-h0.8",
+      "scenario": 3,
+      "status": "timeout",
+      "total_ns": 67093663,
+      "online_success": false,
+      "timings": {
+        "input_and_baseline_ns": 15296210,
+        "filter_ns": 2592596,
+        "repair_ns": 0,
+        "accepted_validation_ns": 11326427,
+        "final_validation_ns": 13019508,
+        "control_ns": 0,
+        "unattributed_ns": 24858922
+      },
+      "validated": true
+    },
+    {
+      "layer": "D1",
+      "load": "N500-h0.8",
+      "scenario": 4,
+      "status": "feasible",
+      "total_ns": 44698179,
+      "online_success": false,
+      "timings": {
+        "input_and_baseline_ns": 14599167,
+        "filter_ns": 258264,
+        "repair_ns": 542755,
+        "accepted_validation_ns": 12388734,
+        "final_validation_ns": 16898938,
+        "control_ns": 0,
+        "unattributed_ns": 10321
+      },
+      "validated": true
+    },
+    {
+      "layer": "D1",
+      "load": "N500-h0.8",
+      "scenario": 5,
+      "status": "feasible",
+      "total_ns": 42641434,
+      "online_success": false,
+      "timings": {
+        "input_and_baseline_ns": 13450377,
+        "filter_ns": 245120,
+        "repair_ns": 518042,
+        "accepted_validation_ns": 11510389,
+        "final_validation_ns": 16906773,
+        "control_ns": 0,
+        "unattributed_ns": 10733
+      },
+      "validated": true
+    },
+    {
+      "layer": "D1",
+      "load": "N500-h0.8",
+      "scenario": 6,
+      "status": "timeout",
+      "total_ns": 61970206,
+      "online_success": false,
+      "timings": {
+        "input_and_baseline_ns": 19131634,
+        "filter_ns": 802363,
+        "repair_ns": 4366823,
+        "accepted_validation_ns": 15629740,
+        "final_validation_ns": 22028275,
+        "control_ns": 0,
+        "unattributed_ns": 11371
+      },
+      "validated": true
+    },
+    {
+      "layer": "D1",
+      "load": "N500-h0.8",
+      "scenario": 7,
+      "status": "timeout",
+      "total_ns": 58868764,
+      "online_success": false,
+      "timings": {
+        "input_and_baseline_ns": 18903756,
+        "filter_ns": 807432,
+        "repair_ns": 3597545,
+        "accepted_validation_ns": 15248689,
+        "final_validation_ns": 20300038,
+        "control_ns": 0,
+        "unattributed_ns": 11304
+      },
+      "validated": true
+    },
+    {
+      "layer": "D1",
+      "load": "N500-h0.8",
+      "scenario": 8,
+      "status": "feasible",
+      "total_ns": 49825981,
+      "online_success": true,
+      "timings": {
+        "input_and_baseline_ns": 13340962,
+        "filter_ns": 906788,
+        "repair_ns": 6812986,
+        "accepted_validation_ns": 11604942,
+        "final_validation_ns": 17149065,
+        "control_ns": 0,
+        "unattributed_ns": 11238
+      },
+      "validated": true
+    },
+    {
+      "layer": "D1",
+      "load": "N500-h0.8",
+      "scenario": 9,
+      "status": "timeout",
+      "total_ns": 83840326,
+      "online_success": false,
+      "timings": {
+        "input_and_baseline_ns": 13217846,
+        "filter_ns": 772929,
+        "repair_ns": 0,
+        "accepted_validation_ns": 40761439,
+        "final_validation_ns": 16956329,
+        "control_ns": 0,
+        "unattributed_ns": 12131783
+      },
+      "validated": true
+    },
+    {
+      "layer": "D1",
+      "load": "N500-h0.8",
+      "scenario": 10,
+      "status": "timeout",
+      "total_ns": 59471157,
+      "online_success": false,
+      "timings": {
+        "input_and_baseline_ns": 18006868,
+        "filter_ns": 655921,
+        "repair_ns": 4723519,
+        "accepted_validation_ns": 14991802,
+        "final_validation_ns": 21082544,
+        "control_ns": 0,
+        "unattributed_ns": 10503
+      },
+      "validated": true
+    },
+    {
+      "layer": "D1",
+      "load": "N500-h0.8",
+      "scenario": 11,
+      "status": "timeout",
+      "total_ns": 61461179,
+      "online_success": false,
+      "timings": {
+        "input_and_baseline_ns": 17931455,
+        "filter_ns": 910188,
+        "repair_ns": 7001385,
+        "accepted_validation_ns": 14833888,
+        "final_validation_ns": 20771602,
+        "control_ns": 0,
+        "unattributed_ns": 12661
+      },
+      "validated": true
+    },
+    {
+      "layer": "D2-S",
+      "load": "default",
+      "scenario": 0,
+      "status": "feasible",
+      "total_ns": 22066699,
+      "online_success": true,
+      "timings": {
+        "input_and_baseline_ns": 3985954,
+        "filter_ns": 234782,
+        "repair_ns": 5875493,
+        "accepted_validation_ns": 7337318,
+        "final_validation_ns": 4624338,
+        "control_ns": 0,
+        "unattributed_ns": 8814
+      },
+      "validated": true
+    },
+    {
+      "layer": "D2-S",
+      "load": "default",
+      "scenario": 1,
+      "status": "feasible",
+      "total_ns": 5609017,
+      "online_success": true,
+      "timings": {
+        "input_and_baseline_ns": 3180385,
+        "filter_ns": 356937,
+        "repair_ns": 549071,
+        "accepted_validation_ns": 839772,
+        "final_validation_ns": 676314,
+        "control_ns": 0,
+        "unattributed_ns": 6538
+      },
+      "validated": true
+    },
+    {
+      "layer": "D2-S",
+      "load": "default",
+      "scenario": 2,
+      "status": "feasible",
+      "total_ns": 13448257,
+      "online_success": true,
+      "timings": {
+        "input_and_baseline_ns": 5181537,
+        "filter_ns": 154475,
+        "repair_ns": 617817,
+        "accepted_validation_ns": 3393216,
+        "final_validation_ns": 4094993,
+        "control_ns": 0,
+        "unattributed_ns": 6219
+      },
+      "validated": true
+    },
+    {
+      "layer": "D2-S",
+      "load": "default",
+      "scenario": 3,
+      "status": "feasible",
+      "total_ns": 10132263,
+      "online_success": true,
+      "timings": {
+        "input_and_baseline_ns": 4692973,
+        "filter_ns": 155526,
+        "repair_ns": 142088,
+        "accepted_validation_ns": 2459474,
+        "final_validation_ns": 2676333,
+        "control_ns": 0,
+        "unattributed_ns": 5869
+      },
+      "validated": true
+    },
+    {
+      "layer": "D2-S",
+      "load": "default",
+      "scenario": 4,
+      "status": "feasible",
+      "total_ns": 28420686,
+      "online_success": true,
+      "timings": {
+        "input_and_baseline_ns": 4191428,
+        "filter_ns": 200778,
+        "repair_ns": 9117934,
+        "accepted_validation_ns": 9225022,
+        "final_validation_ns": 5680524,
+        "control_ns": 0,
+        "unattributed_ns": 5000
+      },
+      "validated": true
+    },
+    {
+      "layer": "D2-S",
+      "load": "default",
+      "scenario": 5,
+      "status": "feasible",
+      "total_ns": 13248419,
+      "online_success": false,
+      "timings": {
+        "input_and_baseline_ns": 5381815,
+        "filter_ns": 104815,
+        "repair_ns": 237037,
+        "accepted_validation_ns": 3686952,
+        "final_validation_ns": 3830307,
+        "control_ns": 0,
+        "unattributed_ns": 7493
+      },
+      "validated": true
+    },
+    {
+      "layer": "D2-S",
+      "load": "default",
+      "scenario": 6,
+      "status": "feasible",
+      "total_ns": 30703622,
+      "online_success": true,
+      "timings": {
+        "input_and_baseline_ns": 5696513,
+        "filter_ns": 107844,
+        "repair_ns": 7863778,
+        "accepted_validation_ns": 10117858,
+        "final_validation_ns": 6911169,
+        "control_ns": 0,
+        "unattributed_ns": 6460
+      },
+      "validated": true
+    },
+    {
+      "layer": "D2-S",
+      "load": "default",
+      "scenario": 7,
+      "status": "feasible",
+      "total_ns": 13364458,
+      "online_success": false,
+      "timings": {
+        "input_and_baseline_ns": 5334657,
+        "filter_ns": 98156,
+        "repair_ns": 241825,
+        "accepted_validation_ns": 3617084,
+        "final_validation_ns": 4065363,
+        "control_ns": 0,
+        "unattributed_ns": 7373
+      },
+      "validated": true
+    },
+    {
+      "layer": "D2-S",
+      "load": "default",
+      "scenario": 8,
+      "status": "feasible",
+      "total_ns": 26049183,
+      "online_success": true,
+      "timings": {
+        "input_and_baseline_ns": 6300303,
+        "filter_ns": 189951,
+        "repair_ns": 4214831,
+        "accepted_validation_ns": 9698459,
+        "final_validation_ns": 5639105,
+        "control_ns": 0,
+        "unattributed_ns": 6534
+      },
+      "validated": true
+    },
+    {
+      "layer": "D2-S",
+      "load": "default",
+      "scenario": 9,
+      "status": "feasible",
+      "total_ns": 22882304,
+      "online_success": true,
+      "timings": {
+        "input_and_baseline_ns": 4160196,
+        "filter_ns": 168288,
+        "repair_ns": 3483123,
+        "accepted_validation_ns": 9072754,
+        "final_validation_ns": 5990841,
+        "control_ns": 0,
+        "unattributed_ns": 7102
+      },
+      "validated": true
+    },
+    {
+      "layer": "D2-S",
+      "load": "default",
+      "scenario": 10,
+      "status": "feasible",
+      "total_ns": 15143418,
+      "online_success": true,
+      "timings": {
+        "input_and_baseline_ns": 5332656,
+        "filter_ns": 209351,
+        "repair_ns": 958255,
+        "accepted_validation_ns": 4393141,
+        "final_validation_ns": 4242794,
+        "control_ns": 0,
+        "unattributed_ns": 7221
+      },
+      "validated": true
+    },
+    {
+      "layer": "D2-S",
+      "load": "default",
+      "scenario": 11,
+      "status": "feasible",
+      "total_ns": 14875172,
+      "online_success": true,
+      "timings": {
+        "input_and_baseline_ns": 5206172,
+        "filter_ns": 183684,
+        "repair_ns": 833446,
+        "accepted_validation_ns": 3636746,
+        "final_validation_ns": 5008447,
+        "control_ns": 0,
+        "unattributed_ns": 6677
+      },
+      "validated": true
+    },
+    {
+      "layer": "D2-S",
+      "load": "N500-h0.8",
+      "scenario": 0,
+      "status": "timeout",
+      "total_ns": 69855897,
+      "online_success": false,
+      "timings": {
+        "input_and_baseline_ns": 15819563,
+        "filter_ns": 3164001,
+        "repair_ns": 0,
+        "accepted_validation_ns": 11122597,
+        "final_validation_ns": 16606847,
+        "control_ns": 0,
+        "unattributed_ns": 23142889
+      },
+      "validated": true
+    },
+    {
+      "layer": "D2-S",
+      "load": "N500-h0.8",
+      "scenario": 1,
+      "status": "timeout",
+      "total_ns": 54774307,
+      "online_success": false,
+      "timings": {
+        "input_and_baseline_ns": 10590808,
+        "filter_ns": 3716684,
+        "repair_ns": 0,
+        "accepted_validation_ns": 7743396,
+        "final_validation_ns": 4768336,
+        "control_ns": 0,
+        "unattributed_ns": 27955083
+      },
+      "validated": true
+    },
+    {
+      "layer": "D2-S",
+      "load": "N500-h0.8",
+      "scenario": 2,
+      "status": "timeout",
+      "total_ns": 82034672,
+      "online_success": false,
+      "timings": {
+        "input_and_baseline_ns": 20382149,
+        "filter_ns": 1795494,
+        "repair_ns": 0,
+        "accepted_validation_ns": 19017373,
+        "final_validation_ns": 25113613,
+        "control_ns": 0,
+        "unattributed_ns": 15726043
+      },
+      "validated": true
+    },
+    {
+      "layer": "D2-S",
+      "load": "N500-h0.8",
+      "scenario": 3,
+      "status": "timeout",
+      "total_ns": 69349899,
+      "online_success": false,
+      "timings": {
+        "input_and_baseline_ns": 19329821,
+        "filter_ns": 2273391,
+        "repair_ns": 0,
+        "accepted_validation_ns": 13796902,
+        "final_validation_ns": 18240287,
+        "control_ns": 0,
+        "unattributed_ns": 15709498
+      },
+      "validated": true
+    },
+    {
+      "layer": "D2-S",
+      "load": "N500-h0.8",
+      "scenario": 4,
+      "status": "timeout",
+      "total_ns": 85419402,
+      "online_success": false,
+      "timings": {
+        "input_and_baseline_ns": 16513831,
+        "filter_ns": 885166,
+        "repair_ns": 0,
+        "accepted_validation_ns": 15200623,
+        "final_validation_ns": 26951376,
+        "control_ns": 0,
+        "unattributed_ns": 25868406
+      },
+      "validated": true
+    },
+    {
+      "layer": "D2-S",
+      "load": "N500-h0.8",
+      "scenario": 5,
+      "status": "timeout",
+      "total_ns": 57835408,
+      "online_success": false,
+      "timings": {
+        "input_and_baseline_ns": 18599672,
+        "filter_ns": 409359,
+        "repair_ns": 1283877,
+        "accepted_validation_ns": 14966122,
+        "final_validation_ns": 22562354,
+        "control_ns": 0,
+        "unattributed_ns": 14024
+      },
+      "validated": true
+    },
+    {
+      "layer": "D2-S",
+      "load": "N500-h0.8",
+      "scenario": 6,
+      "status": "timeout",
+      "total_ns": 80599766,
+      "online_success": false,
+      "timings": {
+        "input_and_baseline_ns": 21527550,
+        "filter_ns": 475242,
+        "repair_ns": 0,
+        "accepted_validation_ns": 19717911,
+        "final_validation_ns": 28846427,
+        "control_ns": 0,
+        "unattributed_ns": 10032636
+      },
+      "validated": true
+    },
+    {
+      "layer": "D2-S",
+      "load": "N500-h0.8",
+      "scenario": 7,
+      "status": "timeout",
+      "total_ns": 72733169,
+      "online_success": false,
+      "timings": {
+        "input_and_baseline_ns": 21647597,
+        "filter_ns": 461349,
+        "repair_ns": 1710131,
+        "accepted_validation_ns": 20801719,
+        "final_validation_ns": 28100326,
+        "control_ns": 0,
+        "unattributed_ns": 12047
+      },
+      "validated": true
+    },
+    {
+      "layer": "D2-S",
+      "load": "N500-h0.8",
+      "scenario": 8,
+      "status": "timeout",
+      "total_ns": 99946888,
+      "online_success": false,
+      "timings": {
+        "input_and_baseline_ns": 16708200,
+        "filter_ns": 433997,
+        "repair_ns": 0,
+        "accepted_validation_ns": 48740381,
+        "final_validation_ns": 24146034,
+        "control_ns": 0,
+        "unattributed_ns": 9918276
+      },
+      "validated": true
+    },
+    {
+      "layer": "D2-S",
+      "load": "N500-h0.8",
+      "scenario": 9,
+      "status": "timeout",
+      "total_ns": 103731822,
+      "online_success": false,
+      "timings": {
+        "input_and_baseline_ns": 16077224,
+        "filter_ns": 436365,
+        "repair_ns": 0,
+        "accepted_validation_ns": 47359478,
+        "final_validation_ns": 23480391,
+        "control_ns": 0,
+        "unattributed_ns": 16378364
+      },
+      "validated": true
+    },
+    {
+      "layer": "D2-S",
+      "load": "N500-h0.8",
+      "scenario": 10,
+      "status": "timeout",
+      "total_ns": 80759110,
+      "online_success": false,
+      "timings": {
+        "input_and_baseline_ns": 23340481,
+        "filter_ns": 675562,
+        "repair_ns": 4794406,
+        "accepted_validation_ns": 19547523,
+        "final_validation_ns": 32387862,
+        "control_ns": 0,
+        "unattributed_ns": 13276
+      },
+      "validated": true
+    },
+    {
+      "layer": "D2-S",
+      "load": "N500-h0.8",
+      "scenario": 11,
+      "status": "timeout",
+      "total_ns": 77803801,
+      "online_success": false,
+      "timings": {
+        "input_and_baseline_ns": 21371633,
+        "filter_ns": 703337,
+        "repair_ns": 4912404,
+        "accepted_validation_ns": 22271227,
+        "final_validation_ns": 28532561,
+        "control_ns": 0,
+        "unattributed_ns": 12639
+      },
+      "validated": true
+    },
+    {
+      "layer": "D2-O",
+      "load": "default",
+      "scenario": 0,
+      "status": "feasible",
+      "total_ns": 10746748,
+      "online_success": true,
+      "timings": {
+        "input_and_baseline_ns": 4034641,
+        "filter_ns": 177079,
+        "repair_ns": 538319,
+        "accepted_validation_ns": 2869646,
+        "final_validation_ns": 3117471,
+        "control_ns": 0,
+        "unattributed_ns": 9592
+      },
+      "validated": true
+    },
+    {
+      "layer": "D2-O",
+      "load": "default",
+      "scenario": 1,
+      "status": "feasible",
+      "total_ns": 5643209,
+      "online_success": true,
+      "timings": {
+        "input_and_baseline_ns": 3327946,
+        "filter_ns": 274947,
+        "repair_ns": 562924,
+        "accepted_validation_ns": 726542,
+        "final_validation_ns": 740708,
+        "control_ns": 0,
+        "unattributed_ns": 10142
+      },
+      "validated": true
+    },
+    {
+      "layer": "D2-O",
+      "load": "default",
+      "scenario": 2,
+      "status": "feasible",
+      "total_ns": 15033621,
+      "online_success": true,
+      "timings": {
+        "input_and_baseline_ns": 6223497,
+        "filter_ns": 171811,
+        "repair_ns": 723031,
+        "accepted_validation_ns": 3593612,
+        "final_validation_ns": 4315340,
+        "control_ns": 0,
+        "unattributed_ns": 6330
+      },
+      "validated": true
+    },
+    {
+      "layer": "D2-O",
+      "load": "default",
+      "scenario": 3,
+      "status": "feasible",
+      "total_ns": 10405305,
+      "online_success": true,
+      "timings": {
+        "input_and_baseline_ns": 4809469,
+        "filter_ns": 168093,
+        "repair_ns": 201446,
+        "accepted_validation_ns": 2476473,
+        "final_validation_ns": 2743080,
+        "control_ns": 0,
+        "unattributed_ns": 6744
+      },
+      "validated": true
+    },
+    {
+      "layer": "D2-O",
+      "load": "default",
+      "scenario": 4,
+      "status": "feasible",
+      "total_ns": 12441449,
+      "online_success": false,
+      "timings": {
+        "input_and_baseline_ns": 4158037,
+        "filter_ns": 102359,
+        "repair_ns": 482586,
+        "accepted_validation_ns": 3554763,
+        "final_validation_ns": 4138074,
+        "control_ns": 0,
+        "unattributed_ns": 5630
+      },
+      "validated": true
+    },
+    {
+      "layer": "D2-O",
+      "load": "default",
+      "scenario": 5,
+      "status": "feasible",
+      "total_ns": 13144576,
+      "online_success": false,
+      "timings": {
+        "input_and_baseline_ns": 4345739,
+        "filter_ns": 86759,
+        "repair_ns": 193509,
+        "accepted_validation_ns": 3455702,
+        "final_validation_ns": 5056756,
+        "control_ns": 0,
+        "unattributed_ns": 6111
+      },
+      "validated": true
+    },
+    {
+      "layer": "D2-O",
+      "load": "default",
+      "scenario": 6,
+      "status": "feasible",
+      "total_ns": 15803964,
+      "online_success": false,
+      "timings": {
+        "input_and_baseline_ns": 6408310,
+        "filter_ns": 109394,
+        "repair_ns": 285284,
+        "accepted_validation_ns": 4078793,
+        "final_validation_ns": 4916407,
+        "control_ns": 0,
+        "unattributed_ns": 5776
+      },
+      "validated": true
+    },
+    {
+      "layer": "D2-O",
+      "load": "default",
+      "scenario": 7,
+      "status": "feasible",
+      "total_ns": 33382221,
+      "online_success": true,
+      "timings": {
+        "input_and_baseline_ns": 5573116,
+        "filter_ns": 115628,
+        "repair_ns": 8826627,
+        "accepted_validation_ns": 10845212,
+        "final_validation_ns": 8015079,
+        "control_ns": 0,
+        "unattributed_ns": 6559
+      },
+      "validated": true
+    },
+    {
+      "layer": "D2-O",
+      "load": "default",
+      "scenario": 8,
+      "status": "feasible",
+      "total_ns": 14376908,
+      "online_success": true,
+      "timings": {
+        "input_and_baseline_ns": 4478982,
+        "filter_ns": 133866,
+        "repair_ns": 521917,
+        "accepted_validation_ns": 3688778,
+        "final_validation_ns": 5546101,
+        "control_ns": 0,
+        "unattributed_ns": 7264
+      },
+      "validated": true
+    },
+    {
+      "layer": "D2-O",
+      "load": "default",
+      "scenario": 9,
+      "status": "feasible",
+      "total_ns": 13207919,
+      "online_success": true,
+      "timings": {
+        "input_and_baseline_ns": 4437757,
+        "filter_ns": 118260,
+        "repair_ns": 506596,
+        "accepted_validation_ns": 3712754,
+        "final_validation_ns": 4425009,
+        "control_ns": 0,
+        "unattributed_ns": 7543
+      },
+      "validated": true
+    },
+    {
+      "layer": "D2-O",
+      "load": "default",
+      "scenario": 10,
+      "status": "feasible",
+      "total_ns": 14968156,
+      "online_success": true,
+      "timings": {
+        "input_and_baseline_ns": 5575791,
+        "filter_ns": 110328,
+        "repair_ns": 525083,
+        "accepted_validation_ns": 3965083,
+        "final_validation_ns": 4783135,
+        "control_ns": 0,
+        "unattributed_ns": 8736
+      },
+      "validated": true
+    },
+    {
+      "layer": "D2-O",
+      "load": "default",
+      "scenario": 11,
+      "status": "feasible",
+      "total_ns": 14759427,
+      "online_success": true,
+      "timings": {
+        "input_and_baseline_ns": 5538969,
+        "filter_ns": 96627,
+        "repair_ns": 419557,
+        "accepted_validation_ns": 3993445,
+        "final_validation_ns": 4704420,
+        "control_ns": 0,
+        "unattributed_ns": 6409
+      },
+      "validated": true
+    },
+    {
+      "layer": "D2-O",
+      "load": "N500-h0.8",
+      "scenario": 0,
+      "status": "timeout",
+      "total_ns": 68743141,
+      "online_success": false,
+      "timings": {
+        "input_and_baseline_ns": 17679234,
+        "filter_ns": 3247505,
+        "repair_ns": 0,
+        "accepted_validation_ns": 13601398,
+        "final_validation_ns": 18738652,
+        "control_ns": 0,
+        "unattributed_ns": 15476352
+      },
+      "validated": true
+    },
+    {
+      "layer": "D2-O",
+      "load": "N500-h0.8",
+      "scenario": 1,
+      "status": "timeout",
+      "total_ns": 55634951,
+      "online_success": false,
+      "timings": {
+        "input_and_baseline_ns": 11362374,
+        "filter_ns": 2743111,
+        "repair_ns": 0,
+        "accepted_validation_ns": 8406561,
+        "final_validation_ns": 5631497,
+        "control_ns": 0,
+        "unattributed_ns": 27491408
+      },
+      "validated": true
+    },
+    {
+      "layer": "D2-O",
+      "load": "N500-h0.8",
+      "scenario": 2,
+      "status": "timeout",
+      "total_ns": 78787697,
+      "online_success": false,
+      "timings": {
+        "input_and_baseline_ns": 24235898,
+        "filter_ns": 1778979,
+        "repair_ns": 0,
+        "accepted_validation_ns": 23861726,
+        "final_validation_ns": 28778547,
+        "control_ns": 0,
+        "unattributed_ns": 132547
+      },
+      "validated": true
+    },
+    {
+      "layer": "D2-O",
+      "load": "N500-h0.8",
+      "scenario": 3,
+      "status": "timeout",
+      "total_ns": 76444369,
+      "online_success": false,
+      "timings": {
+        "input_and_baseline_ns": 22006266,
+        "filter_ns": 2257831,
+        "repair_ns": 0,
+        "accepted_validation_ns": 15176443,
+        "final_validation_ns": 21313815,
+        "control_ns": 0,
+        "unattributed_ns": 15690014
+      },
+      "validated": true
+    },
+    {
+      "layer": "D2-O",
+      "load": "N500-h0.8",
+      "scenario": 4,
+      "status": "timeout",
+      "total_ns": 76116517,
+      "online_success": false,
+      "timings": {
+        "input_and_baseline_ns": 19038257,
+        "filter_ns": 772433,
+        "repair_ns": 0,
+        "accepted_validation_ns": 16274227,
+        "final_validation_ns": 26103873,
+        "control_ns": 0,
+        "unattributed_ns": 13927727
+      },
+      "validated": true
+    },
+    {
+      "layer": "D2-O",
+      "load": "N500-h0.8",
+      "scenario": 5,
+      "status": "timeout",
+      "total_ns": 116869212,
+      "online_success": false,
+      "timings": {
+        "input_and_baseline_ns": 20166895,
+        "filter_ns": 699482,
+        "repair_ns": 0,
+        "accepted_validation_ns": 58135797,
+        "final_validation_ns": 27003944,
+        "control_ns": 0,
+        "unattributed_ns": 10863094
+      },
+      "validated": true
+    },
+    {
+      "layer": "D2-O",
+      "load": "N500-h0.8",
+      "scenario": 6,
+      "status": "timeout",
+      "total_ns": 82383169,
+      "online_success": false,
+      "timings": {
+        "input_and_baseline_ns": 24773382,
+        "filter_ns": 596665,
+        "repair_ns": 0,
+        "accepted_validation_ns": 22418882,
+        "final_validation_ns": 32372997,
+        "control_ns": 0,
+        "unattributed_ns": 2221243
+      },
+      "validated": true
+    },
+    {
+      "layer": "D2-O",
+      "load": "N500-h0.8",
+      "scenario": 7,
+      "status": "timeout",
+      "total_ns": 54006955,
+      "online_success": false,
+      "timings": {
+        "input_and_baseline_ns": 0,
+        "filter_ns": 0,
+        "repair_ns": 0,
+        "accepted_validation_ns": 24758433,
+        "final_validation_ns": 0,
+        "control_ns": 0,
+        "unattributed_ns": 29248522
+      },
+      "validated": false
+    },
+    {
+      "layer": "D2-O",
+      "load": "N500-h0.8",
+      "scenario": 8,
+      "status": "timeout",
+      "total_ns": 66944437,
+      "online_success": false,
+      "timings": {
+        "input_and_baseline_ns": 18440228,
+        "filter_ns": 537514,
+        "repair_ns": 3570138,
+        "accepted_validation_ns": 16228222,
+        "final_validation_ns": 28156344,
+        "control_ns": 0,
+        "unattributed_ns": 11991
+      },
+      "validated": true
+    },
+    {
+      "layer": "D2-O",
+      "load": "N500-h0.8",
+      "scenario": 9,
+      "status": "timeout",
+      "total_ns": 67407290,
+      "online_success": false,
+      "timings": {
+        "input_and_baseline_ns": 19300673,
+        "filter_ns": 528477,
+        "repair_ns": 3586696,
+        "accepted_validation_ns": 17086376,
+        "final_validation_ns": 26891556,
+        "control_ns": 0,
+        "unattributed_ns": 13512
+      },
+      "validated": true
+    },
+    {
+      "layer": "D2-O",
+      "load": "N500-h0.8",
+      "scenario": 10,
+      "status": "timeout",
+      "total_ns": 50426843,
+      "online_success": false,
+      "timings": {
+        "input_and_baseline_ns": 0,
+        "filter_ns": 0,
+        "repair_ns": 0,
+        "accepted_validation_ns": 25505787,
+        "final_validation_ns": 0,
+        "control_ns": 0,
+        "unattributed_ns": 24921056
+      },
+      "validated": false
+    },
+    {
+      "layer": "D2-O",
+      "load": "N500-h0.8",
+      "scenario": 11,
+      "status": "timeout",
+      "total_ns": 84880164,
+      "online_success": false,
+      "timings": {
+        "input_and_baseline_ns": 25676328,
+        "filter_ns": 472634,
+        "repair_ns": 0,
+        "accepted_validation_ns": 22762407,
+        "final_validation_ns": 34873443,
+        "control_ns": 0,
+        "unattributed_ns": 1095352
+      },
+      "validated": true
+    }
+  ],
+  "version": "0.3.0-p3-indexed-v2",
+  "validation_cases_read": 0
+}

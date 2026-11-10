@@ -1,0 +1,101 @@
+{
+  "source": "src\\isl\\repair_v2.py",
+  "source_sha256": "9c16b47a20051d12cb2b7e4b4ce7b341c72eee576f568bf7cdd92957c232550a",
+  "output": "src\\isl\\p3\\repair_runtime.py",
+  "output_sha256": "81188c42bc3c96d14ca06aa3b3a3501a9d02df92fcc905ab3832678a702cf37f",
+  "changes": [
+    {
+      "old": "from .models import",
+      "new": "from ..models import",
+      "count": 1
+    },
+    {
+      "old": "from .placement import",
+      "new": "from ..placement import",
+      "count": 1
+    },
+    {
+      "old": "from .validation import",
+      "new": "from ..validation import",
+      "count": 1
+    },
+    {
+      "old": "from .metrics import",
+      "new": "from ..metrics import",
+      "count": 1
+    },
+    {
+      "old": "from ..placement import earliest, opportunities",
+      "new": "from .indexed import IndexedInstance, Objective, earliest, opportunities",
+      "count": 1
+    },
+    {
+      "old": "from ..validation import validate",
+      "new": "from ..validation import validate as independent_validate\nfrom .validation_indexed import validate",
+      "count": 1
+    },
+    {
+      "old": "        self.end = self.start + self.budget_ns",
+      "new": "        self.end = self.start + self.budget_ns\n        self.reserve_ns = 0",
+      "count": 1
+    },
+    {
+      "old": "        if self.clock() >= self.end:",
+      "new": "        if self.clock() >= self.end - self.reserve_ns:",
+      "count": 1
+    },
+    {
+      "old": "        base_check = validate(case.base, case.reference)",
+      "new": "        base_check_begin = clock()\n        base_check = independent_validate(case.base, case.reference)\n        base_check_ns = clock() - base_check_begin",
+      "count": 1
+    },
+    {
+      "old": "    instance = None\n",
+      "new": "    instance = None\n    objective = None\n\n    def selection_key(case_unused, candidate, forced_unused=()):\n        return objective.key(candidate)\n",
+      "count": 1
+    },
+    {
+      "old": "        instance = case.effective_instance()",
+      "new": "        instance = IndexedInstance(case.effective_instance())",
+      "count": 1
+    },
+    {
+      "old": "            baseline = list(case.frozen)\n            for p in case.reference[case.frozen_count:]:\n                timer.guard()\n                if p.task_id in case.event.cancelled:\n                    continue\n                check = validate(instance, ordered(tuple(baseline) + (p,)))\n                if check.feasible:\n                    baseline.append(p)\n                else:\n                    forced.append(p.task_id)\n                    forced_reasons[p.task_id] = list(check.errors)\n",
+      "new": "            complete_baseline = tuple(p for p in case.reference if p.task_id not in case.event.cancelled)\n            bulk_check = validate(instance, complete_baseline)\n            timer.guard()\n            if bulk_check.feasible:\n                baseline = list(complete_baseline)\n            else:\n                baseline = list(case.frozen)\n                for p in case.reference[case.frozen_count:]:\n                    timer.guard()\n                    if p.task_id in case.event.cancelled:\n                        continue\n                    check = validate(instance, ordered(tuple(baseline) + (p,)))\n                    if check.feasible:\n                        baseline.append(p)\n                    else:\n                        forced.append(p.task_id)\n                        forced_reasons[p.task_id] = list(check.errors)\n",
+      "count": 1
+    },
+    {
+      "old": "            plan, verified = initial, True",
+      "new": "            plan, verified = initial, True\n            objective = Objective(case, instance, forced)\n            timer.reserve_ns = max(1_000_000, 3 * base_check_ns) if base_check_ns else 0",
+      "count": 1
+    },
+    {
+      "old": "        candidate_trace = trace + [step]",
+      "new": "        candidate_trace = trace + [step]\n        timer.reserve_ns = max(timer.reserve_ns, (len(candidate_trace) + 3) * base_check_ns) if base_check_ns else 0",
+      "count": 1
+    },
+    {
+      "old": "        final_check = validate(instance, plan, frozen=case.frozen, cancelled=case.event.cancelled,",
+      "new": "        final_check = independent_validate(instance.original, plan, frozen=case.frozen, cancelled=case.event.cancelled,",
+      "count": 1
+    },
+    {
+      "old": "                    best, best_key = None, selection_key(case, plan, forced)",
+      "new": "                    incumbent_key = selection_key(case, plan, forced)\n                    best, best_key = None, incumbent_key",
+      "count": 1
+    },
+    {
+      "old": "                            key = selection_key(case, candidate, forced)",
+      "new": "                            key = objective.edit_key(incumbent_key, removed, item)",
+      "count": 1
+    },
+    {
+      "old": "'version': '0.2.0-urgent-eligibility-v2'",
+      "new": "'version': '0.3.1-p3-indexed-v2'",
+      "count": 1
+    }
+  ],
+  "checker_source_sha256": "d2fa280ffc1984c715fd6ca8a1c93da9447cdcb3ccf0353828f7e195e5415733",
+  "indexed_checker_sha256": "5ec3ad8bfa49f377a9e2fd9af9a57e73398575ac6d67074b2a25c7e235596394",
+  "deadline_semantics": "50ms total unchanged; reserve (trace length+3)*measured original reference check for final independent audit, at least1ms; late output still timeout"
+}

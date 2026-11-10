@@ -34,11 +34,20 @@ def main():
                 d=json.loads(encoded)
                 assert len(d['events'])==12
                 assert len(d['instance']['tasks'])==(100 if name=='default.json' else 500)
+                geometry=row['geometry']
+                assert len(d['instance']['satellites'])==32
+                if geometry['type']!='synthetic':
+                    groups=json.loads((ROOT/f"reports/p1/{geometry['type']}_groups.json").read_text())['groups']
+                    group=next(g for g in groups if g['group_id']==geometry['group'])
+                    assert group['split']==row['split']
+                    assert set(d['instance']['satellites'])=={str(n) for n in group['norad_ids']}
+                first=d['events'][0]
+                original=case_from_dict(dict(base=d['instance'],reference=d['reference'],event=first['event'],frozen_count=0))
+                assert validate(original.base,original.reference).feasible
                 for e in d['events']:
                     c=case_from_dict(dict(base=d['instance'],reference=d['reference'],event=e['event'],
                                          frozen_count=frozen_count(d['reference'],e['FR'])))
                     # Events do not alter contacts or calendar in this protocol.
-                    assert validate(c.base,c.reference).feasible
                     event=generate_event(c.base,c.reference,c.event.kind,e['FR'],e['q'],c.event.seed)
                     from dataclasses import asdict
                     assert canonical_json(asdict(event))==canonical_json(e['event'])
