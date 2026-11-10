@@ -1,0 +1,13 @@
+{
+  "at_utc": "2026-11-10T13:13:35.9956779Z",
+  "resumed_after_base_count": 117,
+  "current_grid_base_count": 234,
+  "pipeline_container": "satellite-p3-pipeline",
+  "image": "sha256:c465af02e860b05f063ca84b138e1cca72c235574b402937e6fb2eaf5d6ec728",
+  "cpuset": "0",
+  "source_hash_check": "passed before resume",
+  "completed_training_actions": 80000,
+  "models": 6,
+  "test_instances": 0,
+  "P4_started": false
+}
