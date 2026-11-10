@@ -1,0 +1,890 @@
+{
+  "base_scenes": 5000,
+  "paired_variants": 10000,
+  "test_scenes": 0,
+  "cells": [
+    {
+      "split": "train",
+      "layer": "D1",
+      "load": "default",
+      "bases": 1600,
+      "reference_count": {
+        "mean": 46.27625,
+        "min": 28.0,
+        "p50": 46.0,
+        "p95": 55.0,
+        "max": 63.0
+      },
+      "scheduled_fraction": {
+        "mean": 0.4627625,
+        "min": 0.28,
+        "p50": 0.46,
+        "p95": 0.55,
+        "max": 0.63
+      },
+      "background_occupancy": {
+        "mean": 0.49972178819444446,
+        "min": 0.46770833333333334,
+        "p50": 0.4994791666666667,
+        "p95": 0.5149305555555556,
+        "max": 0.5288194444444444
+      },
+      "scheduled_occupancy": {
+        "mean": 0.009347670717592594,
+        "min": 0.004629629629629629,
+        "p50": 0.00927662037037037,
+        "p95": 0.012027199074074074,
+        "max": 0.015
+      },
+      "combined_occupancy": {
+        "mean": 0.509069458912037,
+        "min": 0.4784143518518518,
+        "p50": 0.5086689814814814,
+        "p95": 0.5240908564814815,
+        "max": 0.5415393518518519
+      },
+      "contacts": {
+        "mean": 439.1675,
+        "min": 302.0,
+        "p50": 438.0,
+        "p95": 514.0,
+        "max": 616.0
+      }
+    },
+    {
+      "split": "train",
+      "layer": "D1",
+      "load": "N500-h0.8",
+      "bases": 1600,
+      "reference_count": {
+        "mean": 178.87625,
+        "min": 121.0,
+        "p50": 179.0,
+        "p95": 208.0,
+        "max": 233.0
+      },
+      "scheduled_fraction": {
+        "mean": 0.3577524999999999,
+        "min": 0.242,
+        "p50": 0.358,
+        "p95": 0.416,
+        "max": 0.466
+      },
+      "background_occupancy": {
+        "mean": 0.49972178819444446,
+        "min": 0.46770833333333334,
+        "p50": 0.4994791666666667,
+        "p95": 0.5149305555555556,
+        "max": 0.5288194444444444
+      },
+      "scheduled_occupancy": {
+        "mean": 0.02877055121527778,
+        "min": 0.017233796296296296,
+        "p50": 0.028732638888888887,
+        "p95": 0.03446817129629629,
+        "max": 0.04128472222222222
+      },
+      "combined_occupancy": {
+        "mean": 0.5284923394097222,
+        "min": 0.49333333333333335,
+        "p50": 0.5283738425925926,
+        "p95": 0.5434155092592592,
+        "max": 0.5594907407407408
+      },
+      "contacts": {
+        "mean": 439.1675,
+        "min": 302.0,
+        "p50": 438.0,
+        "p95": 514.0,
+        "max": 616.0
+      }
+    },
+    {
+      "split": "train",
+      "layer": "D2-S",
+      "load": "default",
+      "bases": 1200,
+      "reference_count": {
+        "mean": 51.86083333333333,
+        "min": 36.0,
+        "p50": 52.0,
+        "p95": 60.0,
+        "max": 69.0
+      },
+      "scheduled_fraction": {
+        "mean": 0.5186083333333333,
+        "min": 0.36,
+        "p50": 0.52,
+        "p95": 0.6,
+        "max": 0.69
+      },
+      "background_occupancy": {
+        "mean": 0.49979253472222224,
+        "min": 0.4753472222222222,
+        "p50": 0.49930555555555556,
+        "p95": 0.5152777777777777,
+        "max": 0.5375
+      },
+      "scheduled_occupancy": {
+        "mean": 0.010825,
+        "min": 0.0067476851851851856,
+        "p50": 0.010729166666666666,
+        "p95": 0.013462384259259259,
+        "max": 0.017361111111111112
+      },
+      "combined_occupancy": {
+        "mean": 0.5106175347222223,
+        "min": 0.4842592592592593,
+        "p50": 0.5101736111111111,
+        "p95": 0.5261736111111112,
+        "max": 0.5504166666666667
+      },
+      "contacts": {
+        "mean": 620.48,
+        "min": 536.0,
+        "p50": 614.0,
+        "p95": 712.0999999999999,
+        "max": 738.0
+      }
+    },
+    {
+      "split": "train",
+      "layer": "D2-S",
+      "load": "N500-h0.8",
+      "bases": 1200,
+      "reference_count": {
+        "mean": 225.1725,
+        "min": 177.0,
+        "p50": 226.0,
+        "p95": 249.04999999999995,
+        "max": 282.0
+      },
+      "scheduled_fraction": {
+        "mean": 0.450345,
+        "min": 0.354,
+        "p50": 0.452,
+        "p95": 0.49809999999999993,
+        "max": 0.564
+      },
+      "background_occupancy": {
+        "mean": 0.49979253472222224,
+        "min": 0.4753472222222222,
+        "p50": 0.49930555555555556,
+        "p95": 0.5152777777777777,
+        "max": 0.5375
+      },
+      "scheduled_occupancy": {
+        "mean": 0.04012035108024692,
+        "min": 0.029513888888888888,
+        "p50": 0.04009837962962963,
+        "p95": 0.04569502314814815,
+        "max": 0.05150462962962963
+      },
+      "combined_occupancy": {
+        "mean": 0.5399128858024691,
+        "min": 0.5135648148148149,
+        "p50": 0.5395486111111111,
+        "p95": 0.5556846064814814,
+        "max": 0.5844560185185185
+      },
+      "contacts": {
+        "mean": 620.48,
+        "min": 536.0,
+        "p50": 614.0,
+        "p95": 712.0999999999999,
+        "max": 738.0
+      }
+    },
+    {
+      "split": "train",
+      "layer": "D2-O",
+      "load": "default",
+      "bases": 1200,
+      "reference_count": {
+        "mean": 53.05583333333333,
+        "min": 38.0,
+        "p50": 53.0,
+        "p95": 61.0,
+        "max": 70.0
+      },
+      "scheduled_fraction": {
+        "mean": 0.5305583333333334,
+        "min": 0.38,
+        "p50": 0.53,
+        "p95": 0.61,
+        "max": 0.7
+      },
+      "background_occupancy": {
+        "mean": 0.5004186921296296,
+        "min": 0.46944444444444444,
+        "p50": 0.5,
+        "p95": 0.5170138888888889,
+        "max": 0.53125
+      },
+      "scheduled_occupancy": {
+        "mean": 0.011114920910493827,
+        "min": 0.0061805555555555555,
+        "p50": 0.011111111111111112,
+        "p95": 0.01390335648148148,
+        "max": 0.016493055555555556
+      },
+      "combined_occupancy": {
+        "mean": 0.5115336130401235,
+        "min": 0.48248842592592595,
+        "p50": 0.5111226851851851,
+        "p95": 0.527957175925926,
+        "max": 0.5432291666666667
+      },
+      "contacts": {
+        "mean": 528.32,
+        "min": 408.0,
+        "p50": 522.0,
+        "p95": 606.0,
+        "max": 620.0
+      }
+    },
+    {
+      "split": "train",
+      "layer": "D2-O",
+      "load": "N500-h0.8",
+      "bases": 1200,
+      "reference_count": {
+        "mean": 226.8025,
+        "min": 179.0,
+        "p50": 227.0,
+        "p95": 252.0,
+        "max": 280.0
+      },
+      "scheduled_fraction": {
+        "mean": 0.45360500000000004,
+        "min": 0.358,
+        "p50": 0.454,
+        "p95": 0.504,
+        "max": 0.56
+      },
+      "background_occupancy": {
+        "mean": 0.5004186921296296,
+        "min": 0.46944444444444444,
+        "p50": 0.5,
+        "p95": 0.5170138888888889,
+        "max": 0.53125
+      },
+      "scheduled_occupancy": {
+        "mean": 0.03984362461419753,
+        "min": 0.029953703703703705,
+        "p50": 0.03986111111111111,
+        "p95": 0.04539351851851852,
+        "max": 0.0525
+      },
+      "combined_occupancy": {
+        "mean": 0.5402623167438272,
+        "min": 0.5138773148148148,
+        "p50": 0.5400925925925926,
+        "p95": 0.5557193287037037,
+        "max": 0.5676388888888889
+      },
+      "contacts": {
+        "mean": 528.32,
+        "min": 408.0,
+        "p50": 522.0,
+        "p95": 606.0,
+        "max": 620.0
+      }
+    },
+    {
+      "split": "validation",
+      "layer": "D1",
+      "load": "default",
+      "bases": 400,
+      "reference_count": {
+        "mean": 46.455,
+        "min": 34.0,
+        "p50": 46.0,
+        "p95": 55.0,
+        "max": 61.0
+      },
+      "scheduled_fraction": {
+        "mean": 0.4645500000000001,
+        "min": 0.34,
+        "p50": 0.46,
+        "p95": 0.55,
+        "max": 0.61
+      },
+      "background_occupancy": {
+        "mean": 0.5005173611111111,
+        "min": 0.47673611111111114,
+        "p50": 0.5001736111111111,
+        "p95": 0.5152777777777777,
+        "max": 0.5239583333333333
+      },
+      "scheduled_occupancy": {
+        "mean": 0.009365798611111111,
+        "min": 0.005671296296296297,
+        "p50": 0.009212962962962963,
+        "p95": 0.012010995370370363,
+        "max": 0.014224537037037037
+      },
+      "combined_occupancy": {
+        "mean": 0.5098831597222222,
+        "min": 0.48670138888888886,
+        "p50": 0.5098495370370371,
+        "p95": 0.5236001157407407,
+        "max": 0.5336805555555556
+      },
+      "contacts": {
+        "mean": 439.18,
+        "min": 314.0,
+        "p50": 441.0,
+        "p95": 518.0,
+        "max": 558.0
+      }
+    },
+    {
+      "split": "validation",
+      "layer": "D1",
+      "load": "N500-h0.8",
+      "bases": 400,
+      "reference_count": {
+        "mean": 180.3375,
+        "min": 124.0,
+        "p50": 180.0,
+        "p95": 211.04999999999995,
+        "max": 224.0
+      },
+      "scheduled_fraction": {
+        "mean": 0.36067499999999997,
+        "min": 0.248,
+        "p50": 0.36,
+        "p95": 0.4220999999999999,
+        "max": 0.448
+      },
+      "background_occupancy": {
+        "mean": 0.5005173611111111,
+        "min": 0.47673611111111114,
+        "p50": 0.5001736111111111,
+        "p95": 0.5152777777777777,
+        "max": 0.5239583333333333
+      },
+      "scheduled_occupancy": {
+        "mean": 0.029132581018518518,
+        "min": 0.019872685185185184,
+        "p50": 0.02894675925925926,
+        "p95": 0.03493171296296296,
+        "max": 0.041087962962962965
+      },
+      "combined_occupancy": {
+        "mean": 0.5296499421296297,
+        "min": 0.5061342592592593,
+        "p50": 0.52953125,
+        "p95": 0.5434675925925926,
+        "max": 0.5545023148148148
+      },
+      "contacts": {
+        "mean": 439.18,
+        "min": 314.0,
+        "p50": 441.0,
+        "p95": 518.0,
+        "max": 558.0
+      }
+    },
+    {
+      "split": "validation",
+      "layer": "D2-S",
+      "load": "default",
+      "bases": 300,
+      "reference_count": {
+        "mean": 51.82,
+        "min": 39.0,
+        "p50": 52.0,
+        "p95": 60.0,
+        "max": 68.0
+      },
+      "scheduled_fraction": {
+        "mean": 0.5182,
+        "min": 0.39,
+        "p50": 0.52,
+        "p95": 0.6,
+        "max": 0.68
+      },
+      "background_occupancy": {
+        "mean": 0.5008935185185186,
+        "min": 0.47638888888888886,
+        "p50": 0.5006944444444444,
+        "p95": 0.5153125,
+        "max": 0.525
+      },
+      "scheduled_occupancy": {
+        "mean": 0.0108477237654321,
+        "min": 0.007071759259259259,
+        "p50": 0.01064814814814815,
+        "p95": 0.01363425925925926,
+        "max": 0.016666666666666666
+      },
+      "combined_occupancy": {
+        "mean": 0.5117412422839507,
+        "min": 0.48935185185185187,
+        "p50": 0.5114583333333333,
+        "p95": 0.5257424768518518,
+        "max": 0.5346064814814815
+      },
+      "contacts": {
+        "mean": 685.0133333333333,
+        "min": 594.0,
+        "p50": 667.0,
+        "p95": 772.1,
+        "max": 796.0
+      }
+    },
+    {
+      "split": "validation",
+      "layer": "D2-S",
+      "load": "N500-h0.8",
+      "bases": 300,
+      "reference_count": {
+        "mean": 226.22666666666666,
+        "min": 174.0,
+        "p50": 226.0,
+        "p95": 247.0,
+        "max": 270.0
+      },
+      "scheduled_fraction": {
+        "mean": 0.4524533333333333,
+        "min": 0.348,
+        "p50": 0.452,
+        "p95": 0.494,
+        "max": 0.54
+      },
+      "background_occupancy": {
+        "mean": 0.5008935185185186,
+        "min": 0.47638888888888886,
+        "p50": 0.5006944444444444,
+        "p95": 0.5153125,
+        "max": 0.525
+      },
+      "scheduled_occupancy": {
+        "mean": 0.040314120370370375,
+        "min": 0.032025462962962964,
+        "p50": 0.04002314814814815,
+        "p95": 0.045528356481481486,
+        "max": 0.05157407407407407
+      },
+      "combined_occupancy": {
+        "mean": 0.5412076388888889,
+        "min": 0.519525462962963,
+        "p50": 0.5411053240740741,
+        "p95": 0.5563831018518518,
+        "max": 0.562974537037037
+      },
+      "contacts": {
+        "mean": 685.0133333333333,
+        "min": 594.0,
+        "p50": 667.0,
+        "p95": 772.1,
+        "max": 796.0
+      }
+    },
+    {
+      "split": "validation",
+      "layer": "D2-O",
+      "load": "default",
+      "bases": 300,
+      "reference_count": {
+        "mean": 52.63333333333333,
+        "min": 38.0,
+        "p50": 53.0,
+        "p95": 61.0,
+        "max": 68.0
+      },
+      "scheduled_fraction": {
+        "mean": 0.5263333333333333,
+        "min": 0.38,
+        "p50": 0.53,
+        "p95": 0.61,
+        "max": 0.68
+      },
+      "background_occupancy": {
+        "mean": 0.5003287037037037,
+        "min": 0.47673611111111114,
+        "p50": 0.5006944444444444,
+        "p95": 0.5146006944444445,
+        "max": 0.5236111111111111
+      },
+      "scheduled_occupancy": {
+        "mean": 0.010932368827160494,
+        "min": 0.005358796296296296,
+        "p50": 0.010885416666666668,
+        "p95": 0.013726851851851851,
+        "max": 0.016631944444444446
+      },
+      "combined_occupancy": {
+        "mean": 0.5112610725308643,
+        "min": 0.48539351851851853,
+        "p50": 0.5114583333333333,
+        "p95": 0.5256059027777777,
+        "max": 0.5348495370370371
+      },
+      "contacts": {
+        "mean": 524.1133333333333,
+        "min": 486.0,
+        "p50": 526.0,
+        "p95": 548.0,
+        "max": 558.0
+      }
+    },
+    {
+      "split": "validation",
+      "layer": "D2-O",
+      "load": "N500-h0.8",
+      "bases": 300,
+      "reference_count": {
+        "mean": 226.74666666666667,
+        "min": 175.0,
+        "p50": 227.0,
+        "p95": 252.0,
+        "max": 272.0
+      },
+      "scheduled_fraction": {
+        "mean": 0.45349333333333336,
+        "min": 0.35,
+        "p50": 0.454,
+        "p95": 0.504,
+        "max": 0.544
+      },
+      "background_occupancy": {
+        "mean": 0.5003287037037037,
+        "min": 0.47673611111111114,
+        "p50": 0.5006944444444444,
+        "p95": 0.5146006944444445,
+        "max": 0.5236111111111111
+      },
+      "scheduled_occupancy": {
+        "mean": 0.03978344907407408,
+        "min": 0.031018518518518518,
+        "p50": 0.039594907407407405,
+        "p95": 0.04555092592592593,
+        "max": 0.05195601851851852
+      },
+      "combined_occupancy": {
+        "mean": 0.5401121527777777,
+        "min": 0.5146643518518519,
+        "p50": 0.5403009259259259,
+        "p95": 0.5546012731481481,
+        "max": 0.5607407407407408
+      },
+      "contacts": {
+        "mean": 524.1133333333333,
+        "min": 486.0,
+        "p50": 526.0,
+        "p95": 548.0,
+        "max": 558.0
+      }
+    }
+  ],
+  "raw_snapshot": {
+    "starlink": {
+      "sha256": "f447b5867dd5fa1dbca87f26e007f594b7cdb9f30576be6a77be713b91fc5bcf",
+      "downloaded_again": false,
+      "uploaded_raw": false
+    },
+    "oneweb": {
+      "sha256": "db03ee1c4def9717135425a58df2a398d426319e217b325104704aa16894bfbe",
+      "downloaded_again": false,
+      "uploaded_raw": false
+    }
+  },
+  "license_registry": {
+    "path": "reports/p1/P1-20261105T110427Z/source_and_license_registry.json",
+    "sha256": "cb66e91143411a87080a7f26fcb83ecd4b15d2cb4581c9c3da619b5e354caf96"
+  },
+  "event_counts": [
+    {
+      "split": "train",
+      "load": "default",
+      "scenario": 0,
+      "n": 4000
+    },
+    {
+      "split": "train",
+      "load": "default",
+      "scenario": 1,
+      "n": 4000
+    },
+    {
+      "split": "train",
+      "load": "default",
+      "scenario": 2,
+      "n": 4000
+    },
+    {
+      "split": "train",
+      "load": "default",
+      "scenario": 3,
+      "n": 4000
+    },
+    {
+      "split": "train",
+      "load": "default",
+      "scenario": 4,
+      "n": 4000
+    },
+    {
+      "split": "train",
+      "load": "default",
+      "scenario": 5,
+      "n": 4000
+    },
+    {
+      "split": "train",
+      "load": "default",
+      "scenario": 6,
+      "n": 4000
+    },
+    {
+      "split": "train",
+      "load": "default",
+      "scenario": 7,
+      "n": 4000
+    },
+    {
+      "split": "train",
+      "load": "default",
+      "scenario": 8,
+      "n": 4000
+    },
+    {
+      "split": "train",
+      "load": "default",
+      "scenario": 9,
+      "n": 4000
+    },
+    {
+      "split": "train",
+      "load": "default",
+      "scenario": 10,
+      "n": 4000
+    },
+    {
+      "split": "train",
+      "load": "default",
+      "scenario": 11,
+      "n": 4000
+    },
+    {
+      "split": "train",
+      "load": "N500-h0.8",
+      "scenario": 0,
+      "n": 4000
+    },
+    {
+      "split": "train",
+      "load": "N500-h0.8",
+      "scenario": 1,
+      "n": 4000
+    },
+    {
+      "split": "train",
+      "load": "N500-h0.8",
+      "scenario": 2,
+      "n": 4000
+    },
+    {
+      "split": "train",
+      "load": "N500-h0.8",
+      "scenario": 3,
+      "n": 4000
+    },
+    {
+      "split": "train",
+      "load": "N500-h0.8",
+      "scenario": 4,
+      "n": 4000
+    },
+    {
+      "split": "train",
+      "load": "N500-h0.8",
+      "scenario": 5,
+      "n": 4000
+    },
+    {
+      "split": "train",
+      "load": "N500-h0.8",
+      "scenario": 6,
+      "n": 4000
+    },
+    {
+      "split": "train",
+      "load": "N500-h0.8",
+      "scenario": 7,
+      "n": 4000
+    },
+    {
+      "split": "train",
+      "load": "N500-h0.8",
+      "scenario": 8,
+      "n": 4000
+    },
+    {
+      "split": "train",
+      "load": "N500-h0.8",
+      "scenario": 9,
+      "n": 4000
+    },
+    {
+      "split": "train",
+      "load": "N500-h0.8",
+      "scenario": 10,
+      "n": 4000
+    },
+    {
+      "split": "train",
+      "load": "N500-h0.8",
+      "scenario": 11,
+      "n": 4000
+    },
+    {
+      "split": "validation",
+      "load": "default",
+      "scenario": 0,
+      "n": 1000
+    },
+    {
+      "split": "validation",
+      "load": "default",
+      "scenario": 1,
+      "n": 1000
+    },
+    {
+      "split": "validation",
+      "load": "default",
+      "scenario": 2,
+      "n": 1000
+    },
+    {
+      "split": "validation",
+      "load": "default",
+      "scenario": 3,
+      "n": 1000
+    },
+    {
+      "split": "validation",
+      "load": "default",
+      "scenario": 4,
+      "n": 1000
+    },
+    {
+      "split": "validation",
+      "load": "default",
+      "scenario": 5,
+      "n": 1000
+    },
+    {
+      "split": "validation",
+      "load": "default",
+      "scenario": 6,
+      "n": 1000
+    },
+    {
+      "split": "validation",
+      "load": "default",
+      "scenario": 7,
+      "n": 1000
+    },
+    {
+      "split": "validation",
+      "load": "default",
+      "scenario": 8,
+      "n": 1000
+    },
+    {
+      "split": "validation",
+      "load": "default",
+      "scenario": 9,
+      "n": 1000
+    },
+    {
+      "split": "validation",
+      "load": "default",
+      "scenario": 10,
+      "n": 1000
+    },
+    {
+      "split": "validation",
+      "load": "default",
+      "scenario": 11,
+      "n": 1000
+    },
+    {
+      "split": "validation",
+      "load": "N500-h0.8",
+      "scenario": 0,
+      "n": 1000
+    },
+    {
+      "split": "validation",
+      "load": "N500-h0.8",
+      "scenario": 1,
+      "n": 1000
+    },
+    {
+      "split": "validation",
+      "load": "N500-h0.8",
+      "scenario": 2,
+      "n": 1000
+    },
+    {
+      "split": "validation",
+      "load": "N500-h0.8",
+      "scenario": 3,
+      "n": 1000
+    },
+    {
+      "split": "validation",
+      "load": "N500-h0.8",
+      "scenario": 4,
+      "n": 1000
+    },
+    {
+      "split": "validation",
+      "load": "N500-h0.8",
+      "scenario": 5,
+      "n": 1000
+    },
+    {
+      "split": "validation",
+      "load": "N500-h0.8",
+      "scenario": 6,
+      "n": 1000
+    },
+    {
+      "split": "validation",
+      "load": "N500-h0.8",
+      "scenario": 7,
+      "n": 1000
+    },
+    {
+      "split": "validation",
+      "load": "N500-h0.8",
+      "scenario": 8,
+      "n": 1000
+    },
+    {
+      "split": "validation",
+      "load": "N500-h0.8",
+      "scenario": 9,
+      "n": 1000
+    },
+    {
+      "split": "validation",
+      "load": "N500-h0.8",
+      "scenario": 10,
+      "n": 1000
+    },
+    {
+      "split": "validation",
+      "load": "N500-h0.8",
+      "scenario": 11,
+      "n": 1000
+    }
+  ],
+  "caveat": "paired loads and multiple events are clustered by5000base scenes, not independent replications"
+}

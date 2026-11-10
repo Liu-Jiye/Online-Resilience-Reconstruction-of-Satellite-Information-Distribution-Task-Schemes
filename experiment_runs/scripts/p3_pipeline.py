@@ -3,6 +3,7 @@ import json
 from pathlib import Path
 import subprocess
 import sys
+import time
 from datetime import datetime,timezone
 ROOT=Path(__file__).resolve().parents[1];run=ROOT/'reports/p3/P3-20261110'
 steps=[('labels','p3_experiment.py','labels'),('train_et','train_p3_et.py'),
@@ -12,6 +13,10 @@ steps=[('labels','p3_experiment.py','labels'),('train_et','train_p3_et.py'),
        ('search','p3_search_validation.py'),('summarize_search','summarize_p3.py','search'),
        ('calibration','calibrate_p3_et.py')]
 log=run/'pipeline';log.mkdir(exist_ok=True)
+if '--wait-labels' in sys.argv:
+    while not (run/'labels/COMPLETE.json').exists():
+        print('WAIT initial labels',len(list((run/'labels').glob('*.receipt.json'))),'/4000',flush=True)
+        time.sleep(30)
 for name,script,*args in steps:
     receipt=log/(name+'.complete.json')
     if receipt.exists():continue
