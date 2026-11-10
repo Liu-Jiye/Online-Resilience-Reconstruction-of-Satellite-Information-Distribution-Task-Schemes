@@ -80,7 +80,8 @@ def main():
                         initial=tuple(Item(**p) for p in result['initial_plan']),trace=result['trace'],
                         unchanged=tuple(Item(**p) for p in result['unchanged_outside_E']))
                     assert check.feasible,check.errors
-                ins=case.effective_instance(); baseline=sum(ins.task_map[p.task_id].utility for p in case.reference if p.task_id not in case.event.cancelled)
+                ins=case.effective_instance();task_map=ins.task_map
+                baseline=sum(task_map[p.task_id].utility for p in case.reference if p.task_id not in case.event.cancelled)
                 setting_id=([setting['w'],setting['B']] if args.mode in ('labels','grid') else
                             setting['rule']['name'] if args.mode=='rules' else [setting['threshold'],setting['time_ratio']])
                 records.append(dict(base_id=row['id'],layer=row['layer'],load=label,scenario=e['scenario_index'],setting=setting_id,
