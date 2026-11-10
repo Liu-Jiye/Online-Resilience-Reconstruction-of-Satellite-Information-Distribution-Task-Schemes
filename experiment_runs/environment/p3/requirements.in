@@ -1,0 +1,9 @@
+numpy==2.3.5
+pandas==2.3.3
+scipy==1.16.3
+scikit-learn==1.7.2
+sgp4==2.25
+skyfield==1.53
+ortools==9.14.6206
+alns==7.0.0
+pytest==8.4.2

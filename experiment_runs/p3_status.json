@@ -1,0 +1,14 @@
+{
+  "stage": "P3",
+  "status": "in_progress_pending_runtime_version_decision",
+  "environment": "Linux/Python3.11 recovered; 188 tests passed",
+  "completed_base_scenes_snapshot": 2218,
+  "required_base_scenes": 5000,
+  "data_generation_container": "satellite-p3-data",
+  "formal_validation_calls": 0,
+  "ET_records": 0,
+  "rule_adjustments": 0,
+  "test_instances": 0,
+  "P4_started": false,
+  "snapshot_at_utc": "2026-11-10T08:49:20.9470095Z"
+}

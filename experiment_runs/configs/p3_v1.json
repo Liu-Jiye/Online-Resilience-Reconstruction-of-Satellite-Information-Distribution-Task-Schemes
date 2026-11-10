@@ -1,0 +1,31 @@
+{
+  "study": "P3-v1",
+  "seed_namespace": "P3-20261110",
+  "counts": {"train": {"D1": 1600, "D2-S": 1200, "D2-O": 1200}, "validation": {"D1": 400, "D2-S": 300, "D2-O": 300}},
+  "seed_start": {"train": 190000, "validation": 290000},
+  "loads": ["default", "N500-h0.8"],
+  "kinds": ["cancellation", "urgent_insertion", "reward_update"],
+  "FR": [0.0, 0.6],
+  "q": [0.2, 0.8],
+  "event_seed_tag": 93001,
+  "method_order_tag": 93002,
+  "w": [1, 3, 5, 10, 20],
+  "B": [0, 1, 2, 3, 5],
+  "budget_ms": 50,
+  "eligibility": "v2",
+  "generation_failure_policy": "record and stop; no performance-dependent replacement",
+  "rule_candidates": [
+    {"name": "original", "r_low": 0.25, "FR_high": 0.8, "q_low": 0.2, "q_high": 0.5, "n_high": 5, "r_high": 0.6},
+    {"name": "conservative", "r_low": 0.35, "FR_high": 0.8, "q_low": 0.2, "q_high": 0.5, "n_high": 8, "r_high": 0.7},
+    {"name": "opportunity", "r_low": 0.25, "FR_high": 0.8, "q_low": 0.2, "q_high": 0.5, "n_high": 3, "r_high": 0.6}
+  ],
+  "search_seeds": [11, 23, 47, 89, 131],
+  "PUCT": {"simulations": 40, "depth": 12, "top_k": 20, "c": 1.5, "temperatures": [0.5, 1, 2], "validation_seed": 11},
+  "ALNS": {"iterations": 200, "remove_fraction": 0.1, "remove_cap": 10, "reaction": 0.8, "segment": 20, "rewards": [5, 2, 0], "validation_seed": 11},
+  "ET": {"maximum_records": 80000, "trees": 200, "max_depth": 12, "min_samples_leaf": 5, "max_features": 1.0, "random_state": 20261020, "n_jobs": 1, "probabilities": [0.8, 0.9, 0.95], "time_ratios": [0.6, 0.8]},
+  "selection_order": ["macro_online_success_desc", "macro_U_exec_over_event_reference_utility_desc", "macro_N_drop_asc", "macro_N_add_asc", "macro_M_all_asc", "p95_total_ns_asc", "configuration_order_asc"],
+  "selection_macro_cells": "equal weight over 3 layers x 12 scenarios, separately per load; all applicable cases, failed and late cases retained",
+  "warmup": 20,
+  "P4_started": false,
+  "test_instances_accessed": 0
+}
