@@ -1,0 +1,3993 @@
+{
+  "mode": "et",
+  "calls": 144000,
+  "selected": {
+    "default": {
+      "load": "default",
+      "setting": [
+        0.95,
+        0.6
+      ],
+      "calls": 12000,
+      "timeouts": 377,
+      "invalid": 248,
+      "macro_online_success": 0.6950462962962962,
+      "macro_normalized_U_exec": 0.9780841954424909,
+      "macro_drop": 0.9671527777777776,
+      "macro_add": 0.14972222222222223,
+      "macro_move": 0.008587962962962964,
+      "macro_valid_output": 0.9665972222222222,
+      "latency_percentiles_ns": [
+        37208188.0,
+        46423204.14999998,
+        80555441.98
+      ],
+      "selection_key": [
+        -0.6950462962962962,
+        -0.9780841954424909,
+        0.9671527777777776,
+        0.14972222222222223,
+        0.008587962962962964,
+        46423204.14999998,
+        4
+      ],
+      "cells": [
+        {
+          "layer": "D1",
+          "scenario": 5,
+          "applicable": 400,
+          "online_success": 14,
+          "normalized_U_exec_sum": 398.43541832346966
+        },
+        {
+          "layer": "D1",
+          "scenario": 11,
+          "applicable": 400,
+          "online_success": 395,
+          "normalized_U_exec_sum": 395.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 10,
+          "applicable": 400,
+          "online_success": 395,
+          "normalized_U_exec_sum": 395.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 8,
+          "applicable": 400,
+          "online_success": 396,
+          "normalized_U_exec_sum": 396.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 6,
+          "applicable": 400,
+          "online_success": 48,
+          "normalized_U_exec_sum": 397.2670723356211
+        },
+        {
+          "layer": "D1",
+          "scenario": 4,
+          "applicable": 400,
+          "online_success": 63,
+          "normalized_U_exec_sum": 400.8141471983907
+        },
+        {
+          "layer": "D1",
+          "scenario": 0,
+          "applicable": 400,
+          "online_success": 395,
+          "normalized_U_exec_sum": 396.6996993430319
+        },
+        {
+          "layer": "D1",
+          "scenario": 2,
+          "applicable": 400,
+          "online_success": 393,
+          "normalized_U_exec_sum": 393.7588912200673
+        },
+        {
+          "layer": "D1",
+          "scenario": 1,
+          "applicable": 400,
+          "online_success": 394,
+          "normalized_U_exec_sum": 431.75548480681357
+        },
+        {
+          "layer": "D1",
+          "scenario": 3,
+          "applicable": 400,
+          "online_success": 395,
+          "normalized_U_exec_sum": 399.52880501746046
+        },
+        {
+          "layer": "D1",
+          "scenario": 9,
+          "applicable": 400,
+          "online_success": 397,
+          "normalized_U_exec_sum": 397.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 7,
+          "applicable": 400,
+          "online_success": 9,
+          "normalized_U_exec_sum": 392.9151329342806
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 10,
+          "applicable": 300,
+          "online_success": 292,
+          "normalized_U_exec_sum": 292.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 4,
+          "applicable": 300,
+          "online_success": 85,
+          "normalized_U_exec_sum": 300.16053874249207
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 0,
+          "applicable": 300,
+          "online_success": 296,
+          "normalized_U_exec_sum": 296.797562251381
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 1,
+          "applicable": 300,
+          "online_success": 290,
+          "normalized_U_exec_sum": 305.9503195220308
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 3,
+          "applicable": 300,
+          "online_success": 288,
+          "normalized_U_exec_sum": 289.9728323643694
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 6,
+          "applicable": 300,
+          "online_success": 79,
+          "normalized_U_exec_sum": 300.65349318391253
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 5,
+          "applicable": 300,
+          "online_success": 44,
+          "normalized_U_exec_sum": 296.1033223899661
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 2,
+          "applicable": 300,
+          "online_success": 292,
+          "normalized_U_exec_sum": 292.3730727635139
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 8,
+          "applicable": 300,
+          "online_success": 295,
+          "normalized_U_exec_sum": 295.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 9,
+          "applicable": 300,
+          "online_success": 292,
+          "normalized_U_exec_sum": 292.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 7,
+          "applicable": 300,
+          "online_success": 36,
+          "normalized_U_exec_sum": 296.44038641569244
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 11,
+          "applicable": 300,
+          "online_success": 294,
+          "normalized_U_exec_sum": 294.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 6,
+          "applicable": 300,
+          "online_success": 56,
+          "normalized_U_exec_sum": 282.6224707430978
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 5,
+          "applicable": 300,
+          "online_success": 29,
+          "normalized_U_exec_sum": 283.789705103623
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 1,
+          "applicable": 300,
+          "online_success": 288,
+          "normalized_U_exec_sum": 303.19994208165866
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 4,
+          "applicable": 300,
+          "online_success": 91,
+          "normalized_U_exec_sum": 290.01200538355073
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 0,
+          "applicable": 300,
+          "online_success": 284,
+          "normalized_U_exec_sum": 284.85183693438506
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 10,
+          "applicable": 300,
+          "online_success": 278,
+          "normalized_U_exec_sum": 278.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 7,
+          "applicable": 300,
+          "online_success": 19,
+          "normalized_U_exec_sum": 283.9732926063492
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 11,
+          "applicable": 300,
+          "online_success": 276,
+          "normalized_U_exec_sum": 276.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 2,
+          "applicable": 300,
+          "online_success": 280,
+          "normalized_U_exec_sum": 280.2405823691173
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 8,
+          "applicable": 300,
+          "online_success": 283,
+          "normalized_U_exec_sum": 283.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 3,
+          "applicable": 300,
+          "online_success": 285,
+          "normalized_U_exec_sum": 286.5369595394089
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 9,
+          "applicable": 300,
+          "online_success": 284,
+          "normalized_U_exec_sum": 284.0
+        }
+      ]
+    },
+    "N500-h0.8": {
+      "load": "N500-h0.8",
+      "setting": [
+        0.8,
+        0.6
+      ],
+      "calls": 12000,
+      "timeouts": 9683,
+      "invalid": 3648,
+      "macro_online_success": 0.15921296296296297,
+      "macro_normalized_U_exec": 0.19880041614648356,
+      "macro_drop": 67.8131712962963,
+      "macro_add": 9.25925925925926e-05,
+      "macro_move": 0.0,
+      "macro_valid_output": 0.19879629629629633,
+      "latency_percentiles_ns": [
+        54451810.5,
+        72501329.99999999,
+        89846705.43
+      ],
+      "selection_key": [
+        -0.15921296296296297,
+        -0.19880041614648356,
+        67.8131712962963,
+        9.25925925925926e-05,
+        0.0,
+        72501329.99999999,
+        0
+      ],
+      "cells": [
+        {
+          "layer": "D1",
+          "scenario": 11,
+          "applicable": 400,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 2,
+          "applicable": 400,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 8,
+          "applicable": 400,
+          "online_success": 46,
+          "normalized_U_exec_sum": 46.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 1,
+          "applicable": 400,
+          "online_success": 389,
+          "normalized_U_exec_sum": 389.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 0,
+          "applicable": 400,
+          "online_success": 103,
+          "normalized_U_exec_sum": 103.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 3,
+          "applicable": 400,
+          "online_success": 19,
+          "normalized_U_exec_sum": 19.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 7,
+          "applicable": 400,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 9,
+          "applicable": 400,
+          "online_success": 45,
+          "normalized_U_exec_sum": 45.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 10,
+          "applicable": 400,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 5,
+          "applicable": 400,
+          "online_success": 0,
+          "normalized_U_exec_sum": 44.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 4,
+          "applicable": 400,
+          "online_success": 0,
+          "normalized_U_exec_sum": 34.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 6,
+          "applicable": 400,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 3,
+          "applicable": 300,
+          "online_success": 2,
+          "normalized_U_exec_sum": 2.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 8,
+          "applicable": 300,
+          "online_success": 69,
+          "normalized_U_exec_sum": 69.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 2,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 11,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 7,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 1,
+          "applicable": 300,
+          "online_success": 282,
+          "normalized_U_exec_sum": 282.04449438202244
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 10,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 5,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 72.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 4,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 69.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 0,
+          "applicable": 300,
+          "online_success": 117,
+          "normalized_U_exec_sum": 117.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 6,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 9,
+          "applicable": 300,
+          "online_success": 96,
+          "normalized_U_exec_sum": 96.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 3,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 7,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 4,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 124.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 11,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 8,
+          "applicable": 300,
+          "online_success": 127,
+          "normalized_U_exec_sum": 127.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 10,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 1,
+          "applicable": 300,
+          "online_success": 269,
+          "normalized_U_exec_sum": 269.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 5,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 104.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 2,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 6,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 0,
+          "applicable": 300,
+          "online_success": 176,
+          "normalized_U_exec_sum": 176.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 9,
+          "applicable": 300,
+          "online_success": 130,
+          "normalized_U_exec_sum": 130.0
+        }
+      ]
+    }
+  },
+  "configurations": [
+    {
+      "load": "N500-h0.8",
+      "setting": [
+        0.8,
+        0.6
+      ],
+      "calls": 12000,
+      "timeouts": 9683,
+      "invalid": 3648,
+      "macro_online_success": 0.15921296296296297,
+      "macro_normalized_U_exec": 0.19880041614648356,
+      "macro_drop": 67.8131712962963,
+      "macro_add": 9.25925925925926e-05,
+      "macro_move": 0.0,
+      "macro_valid_output": 0.19879629629629633,
+      "latency_percentiles_ns": [
+        54451810.5,
+        72501329.99999999,
+        89846705.43
+      ],
+      "selection_key": [
+        -0.15921296296296297,
+        -0.19880041614648356,
+        67.8131712962963,
+        9.25925925925926e-05,
+        0.0,
+        72501329.99999999,
+        0
+      ],
+      "cells": [
+        {
+          "layer": "D1",
+          "scenario": 11,
+          "applicable": 400,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 2,
+          "applicable": 400,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 8,
+          "applicable": 400,
+          "online_success": 46,
+          "normalized_U_exec_sum": 46.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 1,
+          "applicable": 400,
+          "online_success": 389,
+          "normalized_U_exec_sum": 389.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 0,
+          "applicable": 400,
+          "online_success": 103,
+          "normalized_U_exec_sum": 103.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 3,
+          "applicable": 400,
+          "online_success": 19,
+          "normalized_U_exec_sum": 19.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 7,
+          "applicable": 400,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 9,
+          "applicable": 400,
+          "online_success": 45,
+          "normalized_U_exec_sum": 45.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 10,
+          "applicable": 400,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 5,
+          "applicable": 400,
+          "online_success": 0,
+          "normalized_U_exec_sum": 44.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 4,
+          "applicable": 400,
+          "online_success": 0,
+          "normalized_U_exec_sum": 34.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 6,
+          "applicable": 400,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 3,
+          "applicable": 300,
+          "online_success": 2,
+          "normalized_U_exec_sum": 2.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 8,
+          "applicable": 300,
+          "online_success": 69,
+          "normalized_U_exec_sum": 69.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 2,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 11,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 7,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 1,
+          "applicable": 300,
+          "online_success": 282,
+          "normalized_U_exec_sum": 282.04449438202244
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 10,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 5,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 72.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 4,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 69.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 0,
+          "applicable": 300,
+          "online_success": 117,
+          "normalized_U_exec_sum": 117.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 6,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 9,
+          "applicable": 300,
+          "online_success": 96,
+          "normalized_U_exec_sum": 96.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 3,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 7,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 4,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 124.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 11,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 8,
+          "applicable": 300,
+          "online_success": 127,
+          "normalized_U_exec_sum": 127.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 10,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 1,
+          "applicable": 300,
+          "online_success": 269,
+          "normalized_U_exec_sum": 269.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 5,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 104.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 2,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 6,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 0,
+          "applicable": 300,
+          "online_success": 176,
+          "normalized_U_exec_sum": 176.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 9,
+          "applicable": 300,
+          "online_success": 130,
+          "normalized_U_exec_sum": 130.0
+        }
+      ]
+    },
+    {
+      "load": "N500-h0.8",
+      "setting": [
+        0.9,
+        0.6
+      ],
+      "calls": 12000,
+      "timeouts": 9730,
+      "invalid": 3615,
+      "macro_online_success": 0.15560185185185188,
+      "macro_normalized_U_exec": 0.19433298247415626,
+      "macro_drop": 67.18074074074073,
+      "macro_add": 6.944444444444444e-05,
+      "macro_move": 0.0,
+      "macro_valid_output": 0.19432870370370373,
+      "latency_percentiles_ns": [
+        54506620.5,
+        72710584.05,
+        92090971.4
+      ],
+      "selection_key": [
+        -0.15560185185185188,
+        -0.19433298247415626,
+        67.18074074074073,
+        6.944444444444444e-05,
+        0.0,
+        72710584.05,
+        2
+      ],
+      "cells": [
+        {
+          "layer": "D1",
+          "scenario": 10,
+          "applicable": 400,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 2,
+          "applicable": 400,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 7,
+          "applicable": 400,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 3,
+          "applicable": 400,
+          "online_success": 25,
+          "normalized_U_exec_sum": 25.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 11,
+          "applicable": 400,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 5,
+          "applicable": 400,
+          "online_success": 0,
+          "normalized_U_exec_sum": 43.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 9,
+          "applicable": 400,
+          "online_success": 49,
+          "normalized_U_exec_sum": 49.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 8,
+          "applicable": 400,
+          "online_success": 52,
+          "normalized_U_exec_sum": 52.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 1,
+          "applicable": 400,
+          "online_success": 386,
+          "normalized_U_exec_sum": 386.0616142945163
+        },
+        {
+          "layer": "D1",
+          "scenario": 4,
+          "applicable": 400,
+          "online_success": 0,
+          "normalized_U_exec_sum": 28.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 0,
+          "applicable": 400,
+          "online_success": 102,
+          "normalized_U_exec_sum": 102.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 6,
+          "applicable": 400,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 11,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 8,
+          "applicable": 300,
+          "online_success": 84,
+          "normalized_U_exec_sum": 84.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 0,
+          "applicable": 300,
+          "online_success": 107,
+          "normalized_U_exec_sum": 107.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 3,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 10,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 9,
+          "applicable": 300,
+          "online_success": 82,
+          "normalized_U_exec_sum": 82.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 4,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 71.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 6,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 2,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 5,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 77.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 1,
+          "applicable": 300,
+          "online_success": 285,
+          "normalized_U_exec_sum": 285.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 7,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 8,
+          "applicable": 300,
+          "online_success": 120,
+          "normalized_U_exec_sum": 120.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 11,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 3,
+          "applicable": 300,
+          "online_success": 1,
+          "normalized_U_exec_sum": 1.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 4,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 102.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 10,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 1,
+          "applicable": 300,
+          "online_success": 271,
+          "normalized_U_exec_sum": 271.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 2,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 0,
+          "applicable": 300,
+          "online_success": 152,
+          "normalized_U_exec_sum": 152.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 7,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 5,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 115.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 9,
+          "applicable": 300,
+          "online_success": 118,
+          "normalized_U_exec_sum": 118.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 6,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        }
+      ]
+    },
+    {
+      "load": "N500-h0.8",
+      "setting": [
+        0.95,
+        0.6
+      ],
+      "calls": 12000,
+      "timeouts": 9705,
+      "invalid": 3640,
+      "macro_online_success": 0.15437500000000004,
+      "macro_normalized_U_exec": 0.19653189762796502,
+      "macro_drop": 67.5322685185185,
+      "macro_add": 9.25925925925926e-05,
+      "macro_move": 0.0,
+      "macro_valid_output": 0.19652777777777775,
+      "latency_percentiles_ns": [
+        54536918.0,
+        72504310.85,
+        91586293.85000004
+      ],
+      "selection_key": [
+        -0.15437500000000004,
+        -0.19653189762796502,
+        67.5322685185185,
+        9.25925925925926e-05,
+        0.0,
+        72504310.85,
+        4
+      ],
+      "cells": [
+        {
+          "layer": "D1",
+          "scenario": 7,
+          "applicable": 400,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 6,
+          "applicable": 400,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 10,
+          "applicable": 400,
+          "online_success": 1,
+          "normalized_U_exec_sum": 1.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 9,
+          "applicable": 400,
+          "online_success": 52,
+          "normalized_U_exec_sum": 52.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 11,
+          "applicable": 400,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 3,
+          "applicable": 400,
+          "online_success": 25,
+          "normalized_U_exec_sum": 25.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 1,
+          "applicable": 400,
+          "online_success": 386,
+          "normalized_U_exec_sum": 386.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 8,
+          "applicable": 400,
+          "online_success": 52,
+          "normalized_U_exec_sum": 52.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 2,
+          "applicable": 400,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 4,
+          "applicable": 400,
+          "online_success": 0,
+          "normalized_U_exec_sum": 37.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 5,
+          "applicable": 400,
+          "online_success": 0,
+          "normalized_U_exec_sum": 38.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 0,
+          "applicable": 400,
+          "online_success": 99,
+          "normalized_U_exec_sum": 99.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 5,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 81.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 11,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 1,
+          "applicable": 300,
+          "online_success": 286,
+          "normalized_U_exec_sum": 286.04449438202244
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 0,
+          "applicable": 300,
+          "online_success": 101,
+          "normalized_U_exec_sum": 101.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 6,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 2,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 4,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 78.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 8,
+          "applicable": 300,
+          "online_success": 80,
+          "normalized_U_exec_sum": 80.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 10,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 9,
+          "applicable": 300,
+          "online_success": 70,
+          "normalized_U_exec_sum": 70.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 7,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 3,
+          "applicable": 300,
+          "online_success": 1,
+          "normalized_U_exec_sum": 1.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 10,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 3,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 2,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 8,
+          "applicable": 300,
+          "online_success": 118,
+          "normalized_U_exec_sum": 118.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 6,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 7,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 1,
+          "applicable": 300,
+          "online_success": 271,
+          "normalized_U_exec_sum": 271.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 9,
+          "applicable": 300,
+          "online_success": 123,
+          "normalized_U_exec_sum": 123.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 5,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 128.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 0,
+          "applicable": 300,
+          "online_success": 156,
+          "normalized_U_exec_sum": 156.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 11,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 4,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 112.0
+        }
+      ]
+    },
+    {
+      "load": "default",
+      "setting": [
+        0.8,
+        0.6
+      ],
+      "calls": 12000,
+      "timeouts": 453,
+      "invalid": 312,
+      "macro_online_success": 0.6902546296296297,
+      "macro_normalized_U_exec": 0.9714399665955606,
+      "macro_drop": 1.2646527777777776,
+      "macro_add": 0.1515972222222222,
+      "macro_move": 0.0125,
+      "macro_valid_output": 0.959837962962963,
+      "latency_percentiles_ns": [
+        37185183.5,
+        47043822.349999994,
+        81573847.30000001
+      ],
+      "selection_key": [
+        -0.6902546296296297,
+        -0.9714399665955606,
+        1.2646527777777776,
+        0.1515972222222222,
+        0.0125,
+        47043822.349999994,
+        0
+      ],
+      "cells": [
+        {
+          "layer": "D1",
+          "scenario": 11,
+          "applicable": 400,
+          "online_success": 392,
+          "normalized_U_exec_sum": 392.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 1,
+          "applicable": 400,
+          "online_success": 396,
+          "normalized_U_exec_sum": 434.74616572692196
+        },
+        {
+          "layer": "D1",
+          "scenario": 9,
+          "applicable": 400,
+          "online_success": 392,
+          "normalized_U_exec_sum": 392.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 2,
+          "applicable": 400,
+          "online_success": 390,
+          "normalized_U_exec_sum": 390.7354481866711
+        },
+        {
+          "layer": "D1",
+          "scenario": 5,
+          "applicable": 400,
+          "online_success": 14,
+          "normalized_U_exec_sum": 393.4327463127816
+        },
+        {
+          "layer": "D1",
+          "scenario": 7,
+          "applicable": 400,
+          "online_success": 6,
+          "normalized_U_exec_sum": 394.596274474839
+        },
+        {
+          "layer": "D1",
+          "scenario": 6,
+          "applicable": 400,
+          "online_success": 49,
+          "normalized_U_exec_sum": 400.3556041759602
+        },
+        {
+          "layer": "D1",
+          "scenario": 10,
+          "applicable": 400,
+          "online_success": 396,
+          "normalized_U_exec_sum": 396.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 8,
+          "applicable": 400,
+          "online_success": 395,
+          "normalized_U_exec_sum": 395.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 4,
+          "applicable": 400,
+          "online_success": 63,
+          "normalized_U_exec_sum": 399.86647639819785
+        },
+        {
+          "layer": "D1",
+          "scenario": 3,
+          "applicable": 400,
+          "online_success": 397,
+          "normalized_U_exec_sum": 401.5274769269695
+        },
+        {
+          "layer": "D1",
+          "scenario": 0,
+          "applicable": 400,
+          "online_success": 391,
+          "normalized_U_exec_sum": 392.75529849385174
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 10,
+          "applicable": 300,
+          "online_success": 288,
+          "normalized_U_exec_sum": 288.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 4,
+          "applicable": 300,
+          "online_success": 87,
+          "normalized_U_exec_sum": 299.40849007145766
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 1,
+          "applicable": 300,
+          "online_success": 289,
+          "normalized_U_exec_sum": 305.3331885323116
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 7,
+          "applicable": 300,
+          "online_success": 35,
+          "normalized_U_exec_sum": 297.3396376022102
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 9,
+          "applicable": 300,
+          "online_success": 291,
+          "normalized_U_exec_sum": 291.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 2,
+          "applicable": 300,
+          "online_success": 289,
+          "normalized_U_exec_sum": 289.38012782296863
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 11,
+          "applicable": 300,
+          "online_success": 291,
+          "normalized_U_exec_sum": 291.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 8,
+          "applicable": 300,
+          "online_success": 292,
+          "normalized_U_exec_sum": 292.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 5,
+          "applicable": 300,
+          "online_success": 44,
+          "normalized_U_exec_sum": 294.1076076621115
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 0,
+          "applicable": 300,
+          "online_success": 294,
+          "normalized_U_exec_sum": 294.79756225138095
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 6,
+          "applicable": 300,
+          "online_success": 85,
+          "normalized_U_exec_sum": 304.2404778624724
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 3,
+          "applicable": 300,
+          "online_success": 291,
+          "normalized_U_exec_sum": 293.0075093235521
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 10,
+          "applicable": 300,
+          "online_success": 273,
+          "normalized_U_exec_sum": 273.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 4,
+          "applicable": 300,
+          "online_success": 75,
+          "normalized_U_exec_sum": 276.4486303859196
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 5,
+          "applicable": 300,
+          "online_success": 31,
+          "normalized_U_exec_sum": 283.9715058570026
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 9,
+          "applicable": 300,
+          "online_success": 277,
+          "normalized_U_exec_sum": 277.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 11,
+          "applicable": 300,
+          "online_success": 274,
+          "normalized_U_exec_sum": 274.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 8,
+          "applicable": 300,
+          "online_success": 278,
+          "normalized_U_exec_sum": 278.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 0,
+          "applicable": 300,
+          "online_success": 275,
+          "normalized_U_exec_sum": 275.801159201112
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 1,
+          "applicable": 300,
+          "online_success": 289,
+          "normalized_U_exec_sum": 304.1526898348556
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 2,
+          "applicable": 300,
+          "online_success": 280,
+          "normalized_U_exec_sum": 280.2416364988283
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 7,
+          "applicable": 300,
+          "online_success": 20,
+          "normalized_U_exec_sum": 277.06984288364896
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 3,
+          "applicable": 300,
+          "online_success": 282,
+          "normalized_U_exec_sum": 283.55372594987034
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 6,
+          "applicable": 300,
+          "online_success": 64,
+          "normalized_U_exec_sum": 281.4362294702115
+        }
+      ]
+    },
+    {
+      "load": "default",
+      "setting": [
+        0.8,
+        0.8
+      ],
+      "calls": 12000,
+      "timeouts": 434,
+      "invalid": 291,
+      "macro_online_success": 0.6891435185185185,
+      "macro_normalized_U_exec": 0.9728016965244828,
+      "macro_drop": 1.1568518518518518,
+      "macro_add": 0.14858796296296292,
+      "macro_move": 0.017361111111111112,
+      "macro_valid_output": 0.9614814814814814,
+      "latency_percentiles_ns": [
+        37193676.5,
+        47486521.64999999,
+        80640172.02000001
+      ],
+      "selection_key": [
+        -0.6891435185185185,
+        -0.9728016965244828,
+        1.1568518518518518,
+        0.14858796296296292,
+        0.017361111111111112,
+        47486521.64999999,
+        1
+      ],
+      "cells": [
+        {
+          "layer": "D1",
+          "scenario": 4,
+          "applicable": 400,
+          "online_success": 62,
+          "normalized_U_exec_sum": 394.73536081023724
+        },
+        {
+          "layer": "D1",
+          "scenario": 2,
+          "applicable": 400,
+          "online_success": 393,
+          "normalized_U_exec_sum": 393.78398954899154
+        },
+        {
+          "layer": "D1",
+          "scenario": 3,
+          "applicable": 400,
+          "online_success": 398,
+          "normalized_U_exec_sum": 402.6769677686191
+        },
+        {
+          "layer": "D1",
+          "scenario": 10,
+          "applicable": 400,
+          "online_success": 391,
+          "normalized_U_exec_sum": 391.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 7,
+          "applicable": 400,
+          "online_success": 6,
+          "normalized_U_exec_sum": 391.6104737797612
+        },
+        {
+          "layer": "D1",
+          "scenario": 0,
+          "applicable": 400,
+          "online_success": 397,
+          "normalized_U_exec_sum": 398.7387379884785
+        },
+        {
+          "layer": "D1",
+          "scenario": 1,
+          "applicable": 400,
+          "online_success": 398,
+          "normalized_U_exec_sum": 437.41438214721325
+        },
+        {
+          "layer": "D1",
+          "scenario": 9,
+          "applicable": 400,
+          "online_success": 395,
+          "normalized_U_exec_sum": 395.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 8,
+          "applicable": 400,
+          "online_success": 395,
+          "normalized_U_exec_sum": 395.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 6,
+          "applicable": 400,
+          "online_success": 45,
+          "normalized_U_exec_sum": 401.98811927387095
+        },
+        {
+          "layer": "D1",
+          "scenario": 11,
+          "applicable": 400,
+          "online_success": 393,
+          "normalized_U_exec_sum": 393.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 5,
+          "applicable": 400,
+          "online_success": 12,
+          "normalized_U_exec_sum": 393.2545094736409
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 10,
+          "applicable": 300,
+          "online_success": 289,
+          "normalized_U_exec_sum": 289.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 7,
+          "applicable": 300,
+          "online_success": 36,
+          "normalized_U_exec_sum": 296.42701968896574
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 9,
+          "applicable": 300,
+          "online_success": 295,
+          "normalized_U_exec_sum": 295.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 5,
+          "applicable": 300,
+          "online_success": 39,
+          "normalized_U_exec_sum": 290.67123108103317
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 8,
+          "applicable": 300,
+          "online_success": 293,
+          "normalized_U_exec_sum": 293.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 11,
+          "applicable": 300,
+          "online_success": 292,
+          "normalized_U_exec_sum": 292.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 1,
+          "applicable": 300,
+          "online_success": 290,
+          "normalized_U_exec_sum": 305.69991154079855
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 3,
+          "applicable": 300,
+          "online_success": 286,
+          "normalized_U_exec_sum": 287.96815101250525
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 6,
+          "applicable": 300,
+          "online_success": 77,
+          "normalized_U_exec_sum": 294.49440503888684
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 4,
+          "applicable": 300,
+          "online_success": 83,
+          "normalized_U_exec_sum": 296.0226634756511
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 2,
+          "applicable": 300,
+          "online_success": 291,
+          "normalized_U_exec_sum": 291.37683988386334
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 0,
+          "applicable": 300,
+          "online_success": 288,
+          "normalized_U_exec_sum": 288.64562755436265
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 9,
+          "applicable": 300,
+          "online_success": 278,
+          "normalized_U_exec_sum": 278.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 7,
+          "applicable": 300,
+          "online_success": 17,
+          "normalized_U_exec_sum": 285.7651095071748
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 0,
+          "applicable": 300,
+          "online_success": 276,
+          "normalized_U_exec_sum": 276.9357443467588
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 3,
+          "applicable": 300,
+          "online_success": 284,
+          "normalized_U_exec_sum": 285.4820840417483
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 1,
+          "applicable": 300,
+          "online_success": 279,
+          "normalized_U_exec_sum": 293.5622763442194
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 4,
+          "applicable": 300,
+          "online_success": 88,
+          "normalized_U_exec_sum": 289.7223564541626
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 6,
+          "applicable": 300,
+          "online_success": 54,
+          "normalized_U_exec_sum": 285.4661009943456
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 8,
+          "applicable": 300,
+          "online_success": 283,
+          "normalized_U_exec_sum": 283.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 2,
+          "applicable": 300,
+          "online_success": 276,
+          "normalized_U_exec_sum": 276.23378934768533
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 11,
+          "applicable": 300,
+          "online_success": 280,
+          "normalized_U_exec_sum": 280.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 5,
+          "applicable": 300,
+          "online_success": 27,
+          "normalized_U_exec_sum": 282.63310655914285
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 10,
+          "applicable": 300,
+          "online_success": 278,
+          "normalized_U_exec_sum": 278.0
+        }
+      ]
+    },
+    {
+      "load": "N500-h0.8",
+      "setting": [
+        0.8,
+        0.8
+      ],
+      "calls": 12000,
+      "timeouts": 9670,
+      "invalid": 3638,
+      "macro_online_success": 0.15819444444444444,
+      "macro_normalized_U_exec": 0.19937911985018728,
+      "macro_drop": 67.31060185185187,
+      "macro_add": 9.25925925925926e-05,
+      "macro_move": 0.0,
+      "macro_valid_output": 0.199375,
+      "latency_percentiles_ns": [
+        54475198.0,
+        72316846.69999999,
+        91177665.92000009
+      ],
+      "selection_key": [
+        -0.15819444444444444,
+        -0.19937911985018728,
+        67.31060185185187,
+        9.25925925925926e-05,
+        0.0,
+        72316846.69999999,
+        1
+      ],
+      "cells": [
+        {
+          "layer": "D1",
+          "scenario": 10,
+          "applicable": 400,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 5,
+          "applicable": 400,
+          "online_success": 0,
+          "normalized_U_exec_sum": 48.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 2,
+          "applicable": 400,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 8,
+          "applicable": 400,
+          "online_success": 53,
+          "normalized_U_exec_sum": 53.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 1,
+          "applicable": 400,
+          "online_success": 383,
+          "normalized_U_exec_sum": 383.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 3,
+          "applicable": 400,
+          "online_success": 30,
+          "normalized_U_exec_sum": 30.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 9,
+          "applicable": 400,
+          "online_success": 55,
+          "normalized_U_exec_sum": 55.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 11,
+          "applicable": 400,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 6,
+          "applicable": 400,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 7,
+          "applicable": 400,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 4,
+          "applicable": 400,
+          "online_success": 0,
+          "normalized_U_exec_sum": 37.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 0,
+          "applicable": 400,
+          "online_success": 101,
+          "normalized_U_exec_sum": 101.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 0,
+          "applicable": 300,
+          "online_success": 122,
+          "normalized_U_exec_sum": 122.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 8,
+          "applicable": 300,
+          "online_success": 76,
+          "normalized_U_exec_sum": 76.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 5,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 83.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 11,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 2,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 1,
+          "applicable": 300,
+          "online_success": 286,
+          "normalized_U_exec_sum": 286.04449438202244
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 4,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 60.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 7,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 10,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 9,
+          "applicable": 300,
+          "online_success": 79,
+          "normalized_U_exec_sum": 79.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 3,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 6,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 11,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 4,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 102.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 2,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 10,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 6,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 7,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 3,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 9,
+          "applicable": 300,
+          "online_success": 114,
+          "normalized_U_exec_sum": 114.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 1,
+          "applicable": 300,
+          "online_success": 267,
+          "normalized_U_exec_sum": 267.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 5,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 136.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 8,
+          "applicable": 300,
+          "online_success": 130,
+          "normalized_U_exec_sum": 130.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 0,
+          "applicable": 300,
+          "online_success": 168,
+          "normalized_U_exec_sum": 168.0
+        }
+      ]
+    },
+    {
+      "load": "default",
+      "setting": [
+        0.9,
+        0.6
+      ],
+      "calls": 12000,
+      "timeouts": 433,
+      "invalid": 286,
+      "macro_online_success": 0.6914814814814815,
+      "macro_normalized_U_exec": 0.9729565918541603,
+      "macro_drop": 1.148912037037037,
+      "macro_add": 0.1494675925925926,
+      "macro_move": 0.02108796296296296,
+      "macro_valid_output": 0.9615509259259262,
+      "latency_percentiles_ns": [
+        37202530.0,
+        46650553.9,
+        79626325.58000003
+      ],
+      "selection_key": [
+        -0.6914814814814815,
+        -0.9729565918541603,
+        1.148912037037037,
+        0.1494675925925926,
+        0.02108796296296296,
+        46650553.9,
+        2
+      ],
+      "cells": [
+        {
+          "layer": "D1",
+          "scenario": 3,
+          "applicable": 400,
+          "online_success": 396,
+          "normalized_U_exec_sum": 400.3892838325862
+        },
+        {
+          "layer": "D1",
+          "scenario": 10,
+          "applicable": 400,
+          "online_success": 395,
+          "normalized_U_exec_sum": 395.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 6,
+          "applicable": 400,
+          "online_success": 49,
+          "normalized_U_exec_sum": 398.3589398716036
+        },
+        {
+          "layer": "D1",
+          "scenario": 5,
+          "applicable": 400,
+          "online_success": 13,
+          "normalized_U_exec_sum": 397.3212533765464
+        },
+        {
+          "layer": "D1",
+          "scenario": 11,
+          "applicable": 400,
+          "online_success": 394,
+          "normalized_U_exec_sum": 394.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 7,
+          "applicable": 400,
+          "online_success": 8,
+          "normalized_U_exec_sum": 390.82269909156724
+        },
+        {
+          "layer": "D1",
+          "scenario": 9,
+          "applicable": 400,
+          "online_success": 394,
+          "normalized_U_exec_sum": 394.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 1,
+          "applicable": 400,
+          "online_success": 390,
+          "normalized_U_exec_sum": 427.69345440716285
+        },
+        {
+          "layer": "D1",
+          "scenario": 2,
+          "applicable": 400,
+          "online_success": 393,
+          "normalized_U_exec_sum": 393.85114277972417
+        },
+        {
+          "layer": "D1",
+          "scenario": 0,
+          "applicable": 400,
+          "online_success": 395,
+          "normalized_U_exec_sum": 396.6759716351791
+        },
+        {
+          "layer": "D1",
+          "scenario": 8,
+          "applicable": 400,
+          "online_success": 398,
+          "normalized_U_exec_sum": 398.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 4,
+          "applicable": 400,
+          "online_success": 63,
+          "normalized_U_exec_sum": 401.8094839054455
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 5,
+          "applicable": 300,
+          "online_success": 46,
+          "normalized_U_exec_sum": 298.305596869641
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 9,
+          "applicable": 300,
+          "online_success": 291,
+          "normalized_U_exec_sum": 291.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 4,
+          "applicable": 300,
+          "online_success": 83,
+          "normalized_U_exec_sum": 297.05207970078146
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 1,
+          "applicable": 300,
+          "online_success": 291,
+          "normalized_U_exec_sum": 307.03509644868666
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 8,
+          "applicable": 300,
+          "online_success": 292,
+          "normalized_U_exec_sum": 292.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 6,
+          "applicable": 300,
+          "online_success": 79,
+          "normalized_U_exec_sum": 297.6777425537991
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 2,
+          "applicable": 300,
+          "online_success": 292,
+          "normalized_U_exec_sum": 292.3732224168098
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 3,
+          "applicable": 300,
+          "online_success": 292,
+          "normalized_U_exec_sum": 293.9660235570949
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 0,
+          "applicable": 300,
+          "online_success": 294,
+          "normalized_U_exec_sum": 294.81650961980205
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 10,
+          "applicable": 300,
+          "online_success": 290,
+          "normalized_U_exec_sum": 290.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 7,
+          "applicable": 300,
+          "online_success": 36,
+          "normalized_U_exec_sum": 296.38357068616585
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 11,
+          "applicable": 300,
+          "online_success": 295,
+          "normalized_U_exec_sum": 295.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 6,
+          "applicable": 300,
+          "online_success": 58,
+          "normalized_U_exec_sum": 286.8648887642378
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 10,
+          "applicable": 300,
+          "online_success": 270,
+          "normalized_U_exec_sum": 270.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 4,
+          "applicable": 300,
+          "online_success": 90,
+          "normalized_U_exec_sum": 283.92256911656995
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 7,
+          "applicable": 300,
+          "online_success": 18,
+          "normalized_U_exec_sum": 276.90949228934295
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 2,
+          "applicable": 300,
+          "online_success": 276,
+          "normalized_U_exec_sum": 276.20392728832525
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 1,
+          "applicable": 300,
+          "online_success": 282,
+          "normalized_U_exec_sum": 296.12187915109286
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 5,
+          "applicable": 300,
+          "online_success": 29,
+          "normalized_U_exec_sum": 280.8557798645396
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 8,
+          "applicable": 300,
+          "online_success": 276,
+          "normalized_U_exec_sum": 276.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 0,
+          "applicable": 300,
+          "online_success": 287,
+          "normalized_U_exec_sum": 287.91336058946047
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 11,
+          "applicable": 300,
+          "online_success": 277,
+          "normalized_U_exec_sum": 277.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 9,
+          "applicable": 300,
+          "online_success": 277,
+          "normalized_U_exec_sum": 277.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 3,
+          "applicable": 300,
+          "online_success": 281,
+          "normalized_U_exec_sum": 282.58778143371893
+        }
+      ]
+    },
+    {
+      "load": "N500-h0.8",
+      "setting": [
+        0.9,
+        0.8
+      ],
+      "calls": 12000,
+      "timeouts": 9738,
+      "invalid": 3557,
+      "macro_online_success": 0.15486111111111114,
+      "macro_normalized_U_exec": 0.19449486059092802,
+      "macro_drop": 66.17527777777778,
+      "macro_add": 9.25925925925926e-05,
+      "macro_move": 0.0,
+      "macro_valid_output": 0.19449074074074077,
+      "latency_percentiles_ns": [
+        54607822.0,
+        72069329.75,
+        89016905.01
+      ],
+      "selection_key": [
+        -0.15486111111111114,
+        -0.19449486059092802,
+        66.17527777777778,
+        9.25925925925926e-05,
+        0.0,
+        72069329.75,
+        3
+      ],
+      "cells": [
+        {
+          "layer": "D1",
+          "scenario": 0,
+          "applicable": 400,
+          "online_success": 89,
+          "normalized_U_exec_sum": 89.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 2,
+          "applicable": 400,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 11,
+          "applicable": 400,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 10,
+          "applicable": 400,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 5,
+          "applicable": 400,
+          "online_success": 0,
+          "normalized_U_exec_sum": 40.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 7,
+          "applicable": 400,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 4,
+          "applicable": 400,
+          "online_success": 0,
+          "normalized_U_exec_sum": 28.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 1,
+          "applicable": 400,
+          "online_success": 389,
+          "normalized_U_exec_sum": 389.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 8,
+          "applicable": 400,
+          "online_success": 42,
+          "normalized_U_exec_sum": 42.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 3,
+          "applicable": 400,
+          "online_success": 20,
+          "normalized_U_exec_sum": 20.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 6,
+          "applicable": 400,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 9,
+          "applicable": 400,
+          "online_success": 38,
+          "normalized_U_exec_sum": 38.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 1,
+          "applicable": 300,
+          "online_success": 283,
+          "normalized_U_exec_sum": 283.04449438202244
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 0,
+          "applicable": 300,
+          "online_success": 122,
+          "normalized_U_exec_sum": 122.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 7,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 11,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 6,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 2,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 8,
+          "applicable": 300,
+          "online_success": 88,
+          "normalized_U_exec_sum": 88.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 10,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 9,
+          "applicable": 300,
+          "online_success": 79,
+          "normalized_U_exec_sum": 79.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 3,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 4,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 74.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 5,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 84.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 6,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 2,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 8,
+          "applicable": 300,
+          "online_success": 124,
+          "normalized_U_exec_sum": 124.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 7,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 0,
+          "applicable": 300,
+          "online_success": 164,
+          "normalized_U_exec_sum": 164.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 11,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 4,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 116.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 5,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 103.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 9,
+          "applicable": 300,
+          "online_success": 113,
+          "normalized_U_exec_sum": 113.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 3,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 10,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 1,
+          "applicable": 300,
+          "online_success": 266,
+          "normalized_U_exec_sum": 266.0
+        }
+      ]
+    },
+    {
+      "load": "N500-h0.8",
+      "setting": [
+        0.95,
+        0.8
+      ],
+      "calls": 12000,
+      "timeouts": 9686,
+      "invalid": 3642,
+      "macro_online_success": 0.15861111111111112,
+      "macro_normalized_U_exec": 0.19822584604066346,
+      "macro_drop": 67.6799537037037,
+      "macro_add": 0.00016203703703703703,
+      "macro_move": 0.0,
+      "macro_valid_output": 0.19821759259259258,
+      "latency_percentiles_ns": [
+        54413023.5,
+        72128445.75,
+        88628154.08000004
+      ],
+      "selection_key": [
+        -0.15861111111111112,
+        -0.19822584604066346,
+        67.6799537037037,
+        0.00016203703703703703,
+        0.0,
+        72128445.75,
+        5
+      ],
+      "cells": [
+        {
+          "layer": "D1",
+          "scenario": 7,
+          "applicable": 400,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 5,
+          "applicable": 400,
+          "online_success": 0,
+          "normalized_U_exec_sum": 35.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 11,
+          "applicable": 400,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 9,
+          "applicable": 400,
+          "online_success": 55,
+          "normalized_U_exec_sum": 55.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 4,
+          "applicable": 400,
+          "online_success": 0,
+          "normalized_U_exec_sum": 44.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 3,
+          "applicable": 400,
+          "online_success": 23,
+          "normalized_U_exec_sum": 23.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 0,
+          "applicable": 400,
+          "online_success": 108,
+          "normalized_U_exec_sum": 108.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 8,
+          "applicable": 400,
+          "online_success": 41,
+          "normalized_U_exec_sum": 41.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 10,
+          "applicable": 400,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 2,
+          "applicable": 400,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 1,
+          "applicable": 400,
+          "online_success": 385,
+          "normalized_U_exec_sum": 385.0595238095238
+        },
+        {
+          "layer": "D1",
+          "scenario": 6,
+          "applicable": 400,
+          "online_success": 0,
+          "normalized_U_exec_sum": 2.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 8,
+          "applicable": 300,
+          "online_success": 92,
+          "normalized_U_exec_sum": 92.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 1,
+          "applicable": 300,
+          "online_success": 296,
+          "normalized_U_exec_sum": 296.0444943820225
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 5,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 74.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 11,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 2,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 3,
+          "applicable": 300,
+          "online_success": 1,
+          "normalized_U_exec_sum": 1.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 7,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 9,
+          "applicable": 300,
+          "online_success": 82,
+          "normalized_U_exec_sum": 82.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 6,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 0,
+          "applicable": 300,
+          "online_success": 122,
+          "normalized_U_exec_sum": 122.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 4,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 75.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 10,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 0,
+          "applicable": 300,
+          "online_success": 165,
+          "normalized_U_exec_sum": 165.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 7,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 5,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 114.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 9,
+          "applicable": 300,
+          "online_success": 125,
+          "normalized_U_exec_sum": 125.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 1,
+          "applicable": 300,
+          "online_success": 257,
+          "normalized_U_exec_sum": 257.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 10,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 2,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 6,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 3,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 11,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 0.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 4,
+          "applicable": 300,
+          "online_success": 0,
+          "normalized_U_exec_sum": 104.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 8,
+          "applicable": 300,
+          "online_success": 114,
+          "normalized_U_exec_sum": 114.0
+        }
+      ]
+    },
+    {
+      "load": "default",
+      "setting": [
+        0.95,
+        0.8
+      ],
+      "calls": 12000,
+      "timeouts": 413,
+      "invalid": 280,
+      "macro_online_success": 0.6904398148148148,
+      "macro_normalized_U_exec": 0.9750053781293345,
+      "macro_drop": 1.1127546296296296,
+      "macro_add": 0.14909722222222221,
+      "macro_move": 0.018055555555555557,
+      "macro_valid_output": 0.9637037037037037,
+      "latency_percentiles_ns": [
+        37214882.5,
+        47253313.35,
+        80167326.25
+      ],
+      "selection_key": [
+        -0.6904398148148148,
+        -0.9750053781293345,
+        1.1127546296296296,
+        0.14909722222222221,
+        0.018055555555555557,
+        47253313.35,
+        5
+      ],
+      "cells": [
+        {
+          "layer": "D1",
+          "scenario": 3,
+          "applicable": 400,
+          "online_success": 394,
+          "normalized_U_exec_sum": 398.6689170237195
+        },
+        {
+          "layer": "D1",
+          "scenario": 0,
+          "applicable": 400,
+          "online_success": 394,
+          "normalized_U_exec_sum": 395.7327256144383
+        },
+        {
+          "layer": "D1",
+          "scenario": 2,
+          "applicable": 400,
+          "online_success": 391,
+          "normalized_U_exec_sum": 391.76126758448487
+        },
+        {
+          "layer": "D1",
+          "scenario": 5,
+          "applicable": 400,
+          "online_success": 13,
+          "normalized_U_exec_sum": 395.3499480701321
+        },
+        {
+          "layer": "D1",
+          "scenario": 7,
+          "applicable": 400,
+          "online_success": 5,
+          "normalized_U_exec_sum": 394.4876069457316
+        },
+        {
+          "layer": "D1",
+          "scenario": 4,
+          "applicable": 400,
+          "online_success": 64,
+          "normalized_U_exec_sum": 399.9236976941594
+        },
+        {
+          "layer": "D1",
+          "scenario": 10,
+          "applicable": 400,
+          "online_success": 391,
+          "normalized_U_exec_sum": 391.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 8,
+          "applicable": 400,
+          "online_success": 396,
+          "normalized_U_exec_sum": 396.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 11,
+          "applicable": 400,
+          "online_success": 392,
+          "normalized_U_exec_sum": 392.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 1,
+          "applicable": 400,
+          "online_success": 392,
+          "normalized_U_exec_sum": 429.68946405089406
+        },
+        {
+          "layer": "D1",
+          "scenario": 6,
+          "applicable": 400,
+          "online_success": 48,
+          "normalized_U_exec_sum": 401.26148131599984
+        },
+        {
+          "layer": "D1",
+          "scenario": 9,
+          "applicable": 400,
+          "online_success": 389,
+          "normalized_U_exec_sum": 389.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 6,
+          "applicable": 300,
+          "online_success": 82,
+          "normalized_U_exec_sum": 298.9639709162099
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 10,
+          "applicable": 300,
+          "online_success": 290,
+          "normalized_U_exec_sum": 290.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 4,
+          "applicable": 300,
+          "online_success": 81,
+          "normalized_U_exec_sum": 298.8147552023605
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 8,
+          "applicable": 300,
+          "online_success": 295,
+          "normalized_U_exec_sum": 295.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 7,
+          "applicable": 300,
+          "online_success": 33,
+          "normalized_U_exec_sum": 293.1877089989011
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 2,
+          "applicable": 300,
+          "online_success": 297,
+          "normalized_U_exec_sum": 297.416661330837
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 0,
+          "applicable": 300,
+          "online_success": 293,
+          "normalized_U_exec_sum": 293.78945079627266
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 9,
+          "applicable": 300,
+          "online_success": 292,
+          "normalized_U_exec_sum": 292.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 11,
+          "applicable": 300,
+          "online_success": 294,
+          "normalized_U_exec_sum": 294.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 3,
+          "applicable": 300,
+          "online_success": 293,
+          "normalized_U_exec_sum": 294.99982581253175
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 1,
+          "applicable": 300,
+          "online_success": 298,
+          "normalized_U_exec_sum": 314.368115320293
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 5,
+          "applicable": 300,
+          "online_success": 44,
+          "normalized_U_exec_sum": 294.1300000370191
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 11,
+          "applicable": 300,
+          "online_success": 278,
+          "normalized_U_exec_sum": 278.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 4,
+          "applicable": 300,
+          "online_success": 83,
+          "normalized_U_exec_sum": 289.29255181944063
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 8,
+          "applicable": 300,
+          "online_success": 280,
+          "normalized_U_exec_sum": 280.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 5,
+          "applicable": 300,
+          "online_success": 26,
+          "normalized_U_exec_sum": 285.5294443947353
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 0,
+          "applicable": 300,
+          "online_success": 280,
+          "normalized_U_exec_sum": 280.89245786909805
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 6,
+          "applicable": 300,
+          "online_success": 53,
+          "normalized_U_exec_sum": 284.42522343384866
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 7,
+          "applicable": 300,
+          "online_success": 18,
+          "normalized_U_exec_sum": 282.90301660285934
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 10,
+          "applicable": 300,
+          "online_success": 271,
+          "normalized_U_exec_sum": 271.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 1,
+          "applicable": 300,
+          "online_success": 283,
+          "normalized_U_exec_sum": 297.460999260322
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 2,
+          "applicable": 300,
+          "online_success": 275,
+          "normalized_U_exec_sum": 275.1811102106739
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 3,
+          "applicable": 300,
+          "online_success": 283,
+          "normalized_U_exec_sum": 284.54646056674096
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 9,
+          "applicable": 300,
+          "online_success": 283,
+          "normalized_U_exec_sum": 283.0
+        }
+      ]
+    },
+    {
+      "load": "default",
+      "setting": [
+        0.9,
+        0.8
+      ],
+      "calls": 12000,
+      "timeouts": 429,
+      "invalid": 279,
+      "macro_online_success": 0.6902314814814815,
+      "macro_normalized_U_exec": 0.9733454757403306,
+      "macro_drop": 1.112708333333333,
+      "macro_add": 0.15034722222222222,
+      "macro_move": 0.018750000000000003,
+      "macro_valid_output": 0.9619212962962962,
+      "latency_percentiles_ns": [
+        37200395.0,
+        47498259.8,
+        79194088.73
+      ],
+      "selection_key": [
+        -0.6902314814814815,
+        -0.9733454757403306,
+        1.112708333333333,
+        0.15034722222222222,
+        0.018750000000000003,
+        47498259.8,
+        3
+      ],
+      "cells": [
+        {
+          "layer": "D1",
+          "scenario": 10,
+          "applicable": 400,
+          "online_success": 391,
+          "normalized_U_exec_sum": 391.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 3,
+          "applicable": 400,
+          "online_success": 397,
+          "normalized_U_exec_sum": 401.6217242061534
+        },
+        {
+          "layer": "D1",
+          "scenario": 9,
+          "applicable": 400,
+          "online_success": 391,
+          "normalized_U_exec_sum": 391.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 2,
+          "applicable": 400,
+          "online_success": 392,
+          "normalized_U_exec_sum": 392.78409172387296
+        },
+        {
+          "layer": "D1",
+          "scenario": 0,
+          "applicable": 400,
+          "online_success": 396,
+          "normalized_U_exec_sum": 397.77498022356264
+        },
+        {
+          "layer": "D1",
+          "scenario": 1,
+          "applicable": 400,
+          "online_success": 397,
+          "normalized_U_exec_sum": 436.28072463635954
+        },
+        {
+          "layer": "D1",
+          "scenario": 11,
+          "applicable": 400,
+          "online_success": 395,
+          "normalized_U_exec_sum": 395.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 7,
+          "applicable": 400,
+          "online_success": 6,
+          "normalized_U_exec_sum": 395.60758065744193
+        },
+        {
+          "layer": "D1",
+          "scenario": 4,
+          "applicable": 400,
+          "online_success": 62,
+          "normalized_U_exec_sum": 403.69748580320226
+        },
+        {
+          "layer": "D1",
+          "scenario": 8,
+          "applicable": 400,
+          "online_success": 393,
+          "normalized_U_exec_sum": 393.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 5,
+          "applicable": 400,
+          "online_success": 12,
+          "normalized_U_exec_sum": 396.2261015426916
+        },
+        {
+          "layer": "D1",
+          "scenario": 6,
+          "applicable": 400,
+          "online_success": 46,
+          "normalized_U_exec_sum": 395.10332643102845
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 6,
+          "applicable": 300,
+          "online_success": 81,
+          "normalized_U_exec_sum": 300.87025774941253
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 11,
+          "applicable": 300,
+          "online_success": 294,
+          "normalized_U_exec_sum": 294.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 8,
+          "applicable": 300,
+          "online_success": 293,
+          "normalized_U_exec_sum": 293.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 7,
+          "applicable": 300,
+          "online_success": 36,
+          "normalized_U_exec_sum": 294.40436933292466
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 4,
+          "applicable": 300,
+          "online_success": 81,
+          "normalized_U_exec_sum": 293.93075136571866
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 5,
+          "applicable": 300,
+          "online_success": 43,
+          "normalized_U_exec_sum": 295.05726204154666
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 2,
+          "applicable": 300,
+          "online_success": 295,
+          "normalized_U_exec_sum": 295.416661330837
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 10,
+          "applicable": 300,
+          "online_success": 290,
+          "normalized_U_exec_sum": 290.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 3,
+          "applicable": 300,
+          "online_success": 290,
+          "normalized_U_exec_sum": 292.02867911310113
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 9,
+          "applicable": 300,
+          "online_success": 294,
+          "normalized_U_exec_sum": 294.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 1,
+          "applicable": 300,
+          "online_success": 289,
+          "normalized_U_exec_sum": 304.67159906063523
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 0,
+          "applicable": 300,
+          "online_success": 290,
+          "normalized_U_exec_sum": 290.7636315311286
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 1,
+          "applicable": 300,
+          "online_success": 284,
+          "normalized_U_exec_sum": 298.3239837994349
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 4,
+          "applicable": 300,
+          "online_success": 87,
+          "normalized_U_exec_sum": 287.7053099266147
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 6,
+          "applicable": 300,
+          "online_success": 62,
+          "normalized_U_exec_sum": 285.3143217477035
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 7,
+          "applicable": 300,
+          "online_success": 17,
+          "normalized_U_exec_sum": 282.7830918331425
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 2,
+          "applicable": 300,
+          "online_success": 275,
+          "normalized_U_exec_sum": 275.2416364988283
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 11,
+          "applicable": 300,
+          "online_success": 274,
+          "normalized_U_exec_sum": 274.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 5,
+          "applicable": 300,
+          "online_success": 25,
+          "normalized_U_exec_sum": 280.42412755930957
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 9,
+          "applicable": 300,
+          "online_success": 282,
+          "normalized_U_exec_sum": 282.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 0,
+          "applicable": 300,
+          "online_success": 276,
+          "normalized_U_exec_sum": 276.8905727887501
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 10,
+          "applicable": 300,
+          "online_success": 281,
+          "normalized_U_exec_sum": 281.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 8,
+          "applicable": 300,
+          "online_success": 280,
+          "normalized_U_exec_sum": 280.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 3,
+          "applicable": 300,
+          "online_success": 277,
+          "normalized_U_exec_sum": 278.48287089824686
+        }
+      ]
+    },
+    {
+      "load": "default",
+      "setting": [
+        0.95,
+        0.6
+      ],
+      "calls": 12000,
+      "timeouts": 377,
+      "invalid": 248,
+      "macro_online_success": 0.6950462962962962,
+      "macro_normalized_U_exec": 0.9780841954424909,
+      "macro_drop": 0.9671527777777776,
+      "macro_add": 0.14972222222222223,
+      "macro_move": 0.008587962962962964,
+      "macro_valid_output": 0.9665972222222222,
+      "latency_percentiles_ns": [
+        37208188.0,
+        46423204.14999998,
+        80555441.98
+      ],
+      "selection_key": [
+        -0.6950462962962962,
+        -0.9780841954424909,
+        0.9671527777777776,
+        0.14972222222222223,
+        0.008587962962962964,
+        46423204.14999998,
+        4
+      ],
+      "cells": [
+        {
+          "layer": "D1",
+          "scenario": 5,
+          "applicable": 400,
+          "online_success": 14,
+          "normalized_U_exec_sum": 398.43541832346966
+        },
+        {
+          "layer": "D1",
+          "scenario": 11,
+          "applicable": 400,
+          "online_success": 395,
+          "normalized_U_exec_sum": 395.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 10,
+          "applicable": 400,
+          "online_success": 395,
+          "normalized_U_exec_sum": 395.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 8,
+          "applicable": 400,
+          "online_success": 396,
+          "normalized_U_exec_sum": 396.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 6,
+          "applicable": 400,
+          "online_success": 48,
+          "normalized_U_exec_sum": 397.2670723356211
+        },
+        {
+          "layer": "D1",
+          "scenario": 4,
+          "applicable": 400,
+          "online_success": 63,
+          "normalized_U_exec_sum": 400.8141471983907
+        },
+        {
+          "layer": "D1",
+          "scenario": 0,
+          "applicable": 400,
+          "online_success": 395,
+          "normalized_U_exec_sum": 396.6996993430319
+        },
+        {
+          "layer": "D1",
+          "scenario": 2,
+          "applicable": 400,
+          "online_success": 393,
+          "normalized_U_exec_sum": 393.7588912200673
+        },
+        {
+          "layer": "D1",
+          "scenario": 1,
+          "applicable": 400,
+          "online_success": 394,
+          "normalized_U_exec_sum": 431.75548480681357
+        },
+        {
+          "layer": "D1",
+          "scenario": 3,
+          "applicable": 400,
+          "online_success": 395,
+          "normalized_U_exec_sum": 399.52880501746046
+        },
+        {
+          "layer": "D1",
+          "scenario": 9,
+          "applicable": 400,
+          "online_success": 397,
+          "normalized_U_exec_sum": 397.0
+        },
+        {
+          "layer": "D1",
+          "scenario": 7,
+          "applicable": 400,
+          "online_success": 9,
+          "normalized_U_exec_sum": 392.9151329342806
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 10,
+          "applicable": 300,
+          "online_success": 292,
+          "normalized_U_exec_sum": 292.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 4,
+          "applicable": 300,
+          "online_success": 85,
+          "normalized_U_exec_sum": 300.16053874249207
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 0,
+          "applicable": 300,
+          "online_success": 296,
+          "normalized_U_exec_sum": 296.797562251381
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 1,
+          "applicable": 300,
+          "online_success": 290,
+          "normalized_U_exec_sum": 305.9503195220308
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 3,
+          "applicable": 300,
+          "online_success": 288,
+          "normalized_U_exec_sum": 289.9728323643694
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 6,
+          "applicable": 300,
+          "online_success": 79,
+          "normalized_U_exec_sum": 300.65349318391253
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 5,
+          "applicable": 300,
+          "online_success": 44,
+          "normalized_U_exec_sum": 296.1033223899661
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 2,
+          "applicable": 300,
+          "online_success": 292,
+          "normalized_U_exec_sum": 292.3730727635139
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 8,
+          "applicable": 300,
+          "online_success": 295,
+          "normalized_U_exec_sum": 295.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 9,
+          "applicable": 300,
+          "online_success": 292,
+          "normalized_U_exec_sum": 292.0
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 7,
+          "applicable": 300,
+          "online_success": 36,
+          "normalized_U_exec_sum": 296.44038641569244
+        },
+        {
+          "layer": "D2-O",
+          "scenario": 11,
+          "applicable": 300,
+          "online_success": 294,
+          "normalized_U_exec_sum": 294.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 6,
+          "applicable": 300,
+          "online_success": 56,
+          "normalized_U_exec_sum": 282.6224707430978
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 5,
+          "applicable": 300,
+          "online_success": 29,
+          "normalized_U_exec_sum": 283.789705103623
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 1,
+          "applicable": 300,
+          "online_success": 288,
+          "normalized_U_exec_sum": 303.19994208165866
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 4,
+          "applicable": 300,
+          "online_success": 91,
+          "normalized_U_exec_sum": 290.01200538355073
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 0,
+          "applicable": 300,
+          "online_success": 284,
+          "normalized_U_exec_sum": 284.85183693438506
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 10,
+          "applicable": 300,
+          "online_success": 278,
+          "normalized_U_exec_sum": 278.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 7,
+          "applicable": 300,
+          "online_success": 19,
+          "normalized_U_exec_sum": 283.9732926063492
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 11,
+          "applicable": 300,
+          "online_success": 276,
+          "normalized_U_exec_sum": 276.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 2,
+          "applicable": 300,
+          "online_success": 280,
+          "normalized_U_exec_sum": 280.2405823691173
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 8,
+          "applicable": 300,
+          "online_success": 283,
+          "normalized_U_exec_sum": 283.0
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 3,
+          "applicable": 300,
+          "online_success": 285,
+          "normalized_U_exec_sum": 286.5369595394089
+        },
+        {
+          "layer": "D2-S",
+          "scenario": 9,
+          "applicable": 300,
+          "online_success": 284,
+          "normalized_U_exec_sum": 284.0
+        }
+      ]
+    }
+  ],
+  "selection_policy": [
+    "macro_online_success_desc",
+    "macro_U_exec_over_event_reference_utility_desc",
+    "macro_N_drop_asc",
+    "macro_N_add_asc",
+    "macro_M_all_asc",
+    "p95_total_ns_asc",
+    "configuration_order_asc"
+  ]
+}

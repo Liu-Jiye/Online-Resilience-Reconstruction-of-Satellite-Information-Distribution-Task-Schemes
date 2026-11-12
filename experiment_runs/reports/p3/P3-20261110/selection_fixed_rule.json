@@ -1,0 +1,22 @@
+{
+  "default": {
+    "fixed": [
+      5,
+      1
+    ],
+    "rule": {
+      "name": "conservative"
+    },
+    "rule_adjustments": 1
+  },
+  "N500-h0.8": {
+    "fixed": [
+      20,
+      0
+    ],
+    "rule": {
+      "name": "opportunity"
+    },
+    "rule_adjustments": 1
+  }
+}

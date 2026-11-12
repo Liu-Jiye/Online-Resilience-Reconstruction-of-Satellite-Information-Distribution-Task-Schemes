@@ -2,5 +2,6 @@
 reports/p0/** -text whitespace=cr-at-eol
 reports/p1/** -text whitespace=cr-at-eol
 reports/p2/** -text whitespace=cr-at-eol
+reports/p3/** -text whitespace=cr-at-eol
 environment/*.txt text eol=lf
 .gitattributes text eol=lf
