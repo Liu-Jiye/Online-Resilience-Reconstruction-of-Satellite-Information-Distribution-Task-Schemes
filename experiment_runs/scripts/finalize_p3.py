@@ -15,6 +15,7 @@ def load(p):return json.loads(p.read_text(encoding='utf-8-sig'))
 def main():
     audit=load(run/'final_audit.json');assert audit['passed'] and audit['total_records']==992000
     inputs=load(run/'input_summary.json');model=load(run/'models/index.json');calibration=load(run/'et_calibration.json')
+    costs=load(run/'et_cost_audit.json')
     grid=load(run/'grid_summary.json');rules=load(run/'rules_summary.json');et=load(run/'et_summary.json');search=load(run/'search_summary.json')
     cfg=load(ROOT/'configs/p3_v1.json');parameters={}
     for label in cfg['loads']:
@@ -59,14 +60,21 @@ def main():
         '', f"训练标签成功/失败计数（顺序失败、成功）：{model['success_labels']}。累计方法响应标注成本{model['label_response_ns']/1e9:.2f}s；离线特征提取成本{model['feature_extraction_ns']/1e9:.2f}s；模型拟合及序列化总成本{model['total_training_wall_ns']/1e9:.2f}s。以上不是整条流水线的墙钟时间，完整日志另存。",'',
         '| 模型文件 | 字节 | SHA256 |','|---|---:|---|']
     for name,r in model['files'].items():lines.append(f"| {name} | {r['bytes']} | {r['sha256']} |")
+    bench=costs['inference_only_training_benchmark']
+    lines+=['',f"冻结六头模型的独立推理成本复测：对全部4000个主层训练特征，逐实例预测20动作，p50/p95/p99为{bench['p50_p95_p99_ms']}ms，均值{bench['mean_ms']:.3f}ms；该数值排除特征与修复，仅作成本描述，不替换在线响应计时、不用于重新选参。模型离线加载为{costs['model_loading_ns']/1e6:.3f}ms。",'',
+            '| 负载 | 在线控制均值ms（特征/推理/决策） | 控制p95ms | 成功响应均值ms | 失败响应均值ms |',
+            '|---|---:|---:|---:|---:|']
+    for label,c in costs['selected_online'].items():
+        lines.append(f"| {label} | {c['control']['mean_ms']:.3f} | {c['control']['p50_p95_p99_ms'][1]:.3f} | {c['success']['mean_ms']:.3f} | {c['failure']['mean_ms']:.3f} |")
     lines+=['','校准审计使用全部验证网格20个正预算动作，不拟合新校准器。成功概率阈值过滤后，按预测效用/删除/新增/移动选动作；全部不满足回退规则。真实输出依然接受硬约束检查。','',
             '| 分层 | 记录数 | Brier | ECE10 |','|---|---:|---:|---:|']
     for name,r in calibration['groups'].items():lines.append(f"| {name} | {r['n']} | {r['brier']:.6f} | {r['ECE10']:.6f} |")
-    lines+=['','若ET未优于规则/固定，或其推理开销导致失败，须按表保留负结果，不将控制器名称作为独立贡献证据。验证集用于选参，其差异不作为无偏测试增益。','',
+    lines+=['','ET在本轮两个负载层均未超过规则：默认层宏平均在线成功约69.50%，规则约72.61%；中竞争层约15.92%，规则约43.57%。ET选中配置的超时为377/12000与9683/12000。特征与六头推理的在线成本已计入响应，其失败不能由离线预测准确率或校准指标抵消。本轮保留该负结果，不把ET名称作为独立贡献证据，也不在看完验证后修改模型。验证集用于选参，其差异不作为无偏测试增益。','',
         '## 搜索语义与贡献边界','',
         'PUCT是全可编辑后缀的ISL适配实现，40模拟/深度12/top-k20/c1.5/50ms，密度标准化只用4000默认训练实例任务；温度只在0.5/1/2中选择。ALNS使用alns7.0框架，三移除×三修复、每次移除ceil(0.1*m)上限10、200迭代/50ms；按20迭代分段轮盘，反应0.8，奖励5/2/0，严格词典序改善接受。只有种子11执行本轮验证，后续种子11/23/47/89/131冻结，不声称已全执行。',
         '', '两类搜索同样检查冻结、日历、双方终端和累计B5，实际完成模拟/深度/迭代逐条记录。其全后缀自由度大于PALR局部邻域，P3仅选参与核验，不能据该表宣称同邻域公平性能优势；后续机制比较按方案另做。所有实现均非历史论文原代码复现。',
         '', '贡献定位保持“快速完成轻量局部修复，并明确何时需要更强搜索”。本轮不新增在线升级策略，也不拿事后精确答案作触发器。P2-C的多项释放和邻域外阻塞证据仍需独立报告，不能用本轮自然验证代替。',
+        '', '默认层固定PALR与规则的p95约17.21ms与15.70ms；轻量修复的时延结论仅在相应负载及冻结环境下成立。中竞争层所有方法均有明显超时，固定网格按既定综合排序选中w20/B0，紧急任务不可能被该配置接纳。这是保守选择及当前运行时承载边界，不能称为中竞争紧急修复成功。PUCT/ALNS在50ms下也存在明显超时，P3不能证明它们已经解决了需要多项释放或扩大邻域的事件；结构性需要更强搜索的证据继续引用独立P2-C。不得将“需要更强搜索”写成“本轮强搜索已验证有效”。',
         '', '## 验收与产物','',
         f"全部{audit['total_records']}条记录通过哈希、预算、执行效用、在线成功和时间边界核验；生成时每条已验证输出均用原独立校验器回放，最终另按预设种子抽查10000条。模型哈希通过；所有正式记录及完整源码、镜像、输入和参数冻结均可追溯。",'',
         '冻结参数：reports/p3/P3-20261110/frozen_parameters.json。输入与逐调用证据、超时、所有配置汇总及阶段日志位于同一run目录。P0/P1/P2冻结证据不覆盖；后续只能由用户启动下一阶段。','']
@@ -80,14 +88,15 @@ def main():
     files+=list((ROOT/'environment/p3').glob('*'))+list((ROOT/'src/isl/p3').glob('*.py'))+list((ROOT/'scripts').glob('*p3*.py'))
     files+=list(run.glob('*.json'))+list(run.glob('*.csv'))+list((run/'models').glob('*'))
     files+=[run/'data/manifest.json',run/'data/generation_sources.json']
+    files+=list((run/'pipeline').glob('*'))
     for mode in expected_modes:files+=list((run/mode).glob('*.receipt.json'))+[run/mode/'source_freeze.json',run/mode/'COMPLETE.json']
-    evidence={str(p.relative_to(REPO)).replace('\\','/'):hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(set(files)) if p.is_file()}
+    evidence={str(p.relative_to(REPO)).replace('\\','/'):hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(set(files)) if p.is_file() and p != run/'acceptance_manifest.json'}
     receipt=dict(stage='P3',passed=True,source_commit=frozen['source_commit'],file_sha256=evidence,final_audit_sha256=hashlib.sha256((run/'final_audit.json').read_bytes()).hexdigest())
     (run/'acceptance_manifest.json').write_text(json.dumps(receipt,indent=2)+'\n')
     (ROOT/'p3_status.json').write_text(json.dumps(dict(stage='P3',status='complete',run_id='P3-20261110',test_instances=0,P4_started=False,report='experiment_runs/reports/P3_REPORT.md'),indent=2)+'\n')
     outputs=REPO.parent.parent/'outputs';outputs.mkdir(exist_ok=True)
     shutil.copy2(ROOT/'reports/P3_REPORT.md',outputs/'P3_REPORT.md')
-    for name in ('frozen_parameters.json','final_audit.json','selected_validation_results.csv','et_calibration.json','input_summary.json','acceptance_manifest.json'):
+    for name in ('frozen_parameters.json','final_audit.json','selected_validation_results.csv','et_calibration.json','et_cost_audit.json','input_summary.json','acceptance_manifest.json'):
         shutil.copy2(run/name,outputs/('P3_'+name))
     print('P3 complete; report and acceptance exported',flush=True)
 
