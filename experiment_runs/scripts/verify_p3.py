@@ -30,7 +30,7 @@ def main():
         assert len(list(folder.glob('*.json.gz')))==bases
         assert sum(load(path)['calls'] for path in receipts)==calls
         for path in receipts:
-            data=path.with_name(path.name.replace('.receipt.json','.json.gz'))
+            data=path.with_name(path.name.removesuffix('.receipt.json')+'.gz')
             assert sha(data)==load(path)['sha256'],str(data)
         for name,digest in load(folder/'source_freeze.json').items():
             assert sha(ROOT/name)==digest,name
