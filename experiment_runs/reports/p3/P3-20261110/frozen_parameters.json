@@ -125,5 +125,5 @@
   "P4_started": false,
   "rule_adjustment_rounds": 1,
   "selection": "validation_macro_3layers_x12scenarios_perload",
-  "source_commit": "518cc27724c11427cce1aecf26329930024697eb"
+  "source_commit": "c842640b9e19a1d5bd06108431f6e32049504a80"
 }

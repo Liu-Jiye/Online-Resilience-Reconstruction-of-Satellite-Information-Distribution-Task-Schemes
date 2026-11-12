@@ -1,7 +1,7 @@
 {
   "stage": "P3",
   "passed": true,
-  "source_commit": "518cc27724c11427cce1aecf26329930024697eb",
+  "source_commit": "c842640b9e19a1d5bd06108431f6e32049504a80",
   "file_sha256": {
     "experiment_runs/configs/p3_v1.json": "dbb0cc8c886c8a92799a01c759529bbc29cf2377880f33d4e29cb9ee2fe41c13",
     "experiment_runs/environment/p3/Dockerfile": "ed5465e320956d73b8ad0fe6e7459bd24255f2d09d95eb2686d4d5191ef6740e",
@@ -1022,7 +1022,7 @@
     "experiment_runs/reports/p3/P3-20261110/et_cost_audit.json": "50cf4e90f7ef52a2c85e491fcb17f6df5a185b092061b7454513aaa94b92c3b3",
     "experiment_runs/reports/p3/P3-20261110/et_summary.json": "320e0256375642dd82bf5a1e10cf1eeb6be1db91df81a1d30addbda8df612841",
     "experiment_runs/reports/p3/P3-20261110/final_audit.json": "127bc69c4d5e636ba7caef0d3c51f130aa7f47dc03ed1b113d954a0f6e6d2634",
-    "experiment_runs/reports/p3/P3-20261110/frozen_parameters.json": "c3c2f88ed032f0578b17421784a0bc3a51ad0de8ab993851cfd64bccc5f0aa11",
+    "experiment_runs/reports/p3/P3-20261110/frozen_parameters.json": "29b122b0d1d1787557eec3747f2e34a2050ae81121f7a7a5a1d1fe60fcc2f07e",
     "experiment_runs/reports/p3/P3-20261110/grid/COMPLETE.json": "36b00980fde8feecad9736fac32c3e50a0ea0530eee6a0e6197d187a89f57542",
     "experiment_runs/reports/p3/P3-20261110/grid/P3-validation-D1-0000.json.receipt.json": "6f56a3a5ccc47eddb86ac81737373bee4a2ea33879f9697f2bdcbd08628279b2",
     "experiment_runs/reports/p3/P3-20261110/grid/P3-validation-D1-0001.json.receipt.json": "86c1cb604eb13ffa273ce7b4a277211fdd89527b8e40d9f2c13c84d1f06699d5",
@@ -8096,7 +8096,7 @@
     "experiment_runs/scripts/prepare_p3.py": "83ab9fc2d10749d2f61b30ff1e5d8870a28d71db0232e4801113159255d4929a",
     "experiment_runs/scripts/summarize_p3.py": "d8dc63fdc99159ccdb8e198af23887637cbb558800fd6358e18a3183027292d5",
     "experiment_runs/scripts/train_p3_et.py": "e913264c78f613c9561ae3362c313bbaaa6e014aff0f58776bcae65d175115d8",
-    "experiment_runs/scripts/verify_p3.py": "5c47cadea0e548ff1c6f0bab32f12cd1311f9aa03e1c133aaf10ddbc46bb2e9a",
+    "experiment_runs/scripts/verify_p3.py": "b447d1ac78e6bbd98efd9ba63a6a6b9fdb0a0239759e7042496bc7aa7f231636",
     "experiment_runs/scripts/verify_p3_inputs.py": "a0111ce8e7e097ab2c7099bb365784f9bbdff3dbb6da7b165b5d00eb1be238dc",
     "experiment_runs/src/isl/p3/__init__.py": "507ba4a3111d5ccba9e014c598b17de6c6560b3f9441bb91993e46c7ce0039af",
     "experiment_runs/src/isl/p3/control.py": "c8544a215d3f36541ccedff8ae3a7d9ec1a45e13aa0c156118c4f105328dc331",
