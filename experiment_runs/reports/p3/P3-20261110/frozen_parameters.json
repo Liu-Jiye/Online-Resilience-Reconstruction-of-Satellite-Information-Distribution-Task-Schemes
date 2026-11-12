@@ -1,0 +1,129 @@
+{
+  "stage": "P3",
+  "parameters": {
+    "default": {
+      "fixed": {
+        "w": 5,
+        "B": 1
+      },
+      "rule": {
+        "name": "conservative",
+        "r_low": 0.35,
+        "FR_high": 0.8,
+        "q_low": 0.2,
+        "q_high": 0.5,
+        "n_high": 8,
+        "r_high": 0.7
+      },
+      "ET": {
+        "probability": 0.95,
+        "time_safety_ratio": 0.6
+      },
+      "PUCT": {
+        "temperature": 0.5,
+        "simulations": 40,
+        "max_depth": 12,
+        "top_k": 20,
+        "c": 1.5
+      },
+      "ALNS": {
+        "iterations": 200,
+        "remove_fraction": 0.1,
+        "remove_cap": 10,
+        "reaction": 0.8,
+        "segment": 20,
+        "rewards": [
+          5,
+          2,
+          0
+        ],
+        "validation_seed": 11
+      },
+      "search_seeds": [
+        11,
+        23,
+        47,
+        89,
+        131
+      ]
+    },
+    "N500-h0.8": {
+      "fixed": {
+        "w": 20,
+        "B": 0
+      },
+      "rule": {
+        "name": "opportunity",
+        "r_low": 0.25,
+        "FR_high": 0.8,
+        "q_low": 0.2,
+        "q_high": 0.5,
+        "n_high": 3,
+        "r_high": 0.6
+      },
+      "ET": {
+        "probability": 0.8,
+        "time_safety_ratio": 0.6
+      },
+      "PUCT": {
+        "temperature": 2,
+        "simulations": 40,
+        "max_depth": 12,
+        "top_k": 20,
+        "c": 1.5
+      },
+      "ALNS": {
+        "iterations": 200,
+        "remove_fraction": 0.1,
+        "remove_cap": 10,
+        "reaction": 0.8,
+        "segment": 20,
+        "rewards": [
+          5,
+          2,
+          0
+        ],
+        "validation_seed": 11
+      },
+      "search_seeds": [
+        11,
+        23,
+        47,
+        89,
+        131
+      ]
+    }
+  },
+  "model_files": {
+    "classifier.joblib": {
+      "sha256": "e7894021a52459529e184d691549313c1c770daa4518d038cdea3e2592af04c3",
+      "bytes": 458782
+    },
+    "utility_gain.joblib": {
+      "sha256": "3c1a0ebe60ba937d60dc356e083f59958d9b985d554d8d60277d88a4f06a0f82",
+      "bytes": 6535521
+    },
+    "drops.joblib": {
+      "sha256": "a26560fc5078e9085bee4b20cbf6635c6f57664c55fdf46a797db730a154dfe0",
+      "bytes": 6610551
+    },
+    "adds.joblib": {
+      "sha256": "85d21176a18dd0b69bcee846a1e3c507165fc5659fb87c538f02fe7391419583",
+      "bytes": 4224956
+    },
+    "movement.joblib": {
+      "sha256": "941dc0f4b48947ea9f37f9678cbe8d81151d91dbfa09f32a889430961c4780e6",
+      "bytes": 5609214
+    },
+    "latency_ms.joblib": {
+      "sha256": "50850862b6a8030c94818a38bc5f44b658d4e6aea82da1cbc96e8ddcfb4df7de",
+      "bytes": 18683003
+    }
+  },
+  "runtime_version": "0.3.3-p3-indexed-v2",
+  "test_instances": 0,
+  "P4_started": false,
+  "rule_adjustment_rounds": 1,
+  "selection": "validation_macro_3layers_x12scenarios_perload",
+  "source_commit": "518cc27724c11427cce1aecf26329930024697eb"
+}
