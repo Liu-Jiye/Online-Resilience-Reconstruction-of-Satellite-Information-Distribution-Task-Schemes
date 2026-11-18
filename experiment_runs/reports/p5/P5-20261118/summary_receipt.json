@@ -1,0 +1,77 @@
+{
+  "continuous": {
+    "all_state_progression_and_delivered_utility_recomputed": true,
+    "events_per_trajectory": 10,
+    "methods": 4,
+    "trajectories": 100
+  },
+  "phases": {
+    "ablations": {
+      "base_clusters": 300,
+      "calls": 169200,
+      "event_conditions": 154800
+    },
+    "anomalies": {
+      "base_clusters": 50,
+      "calls": 400,
+      "event_conditions": 400
+    },
+    "calibration": {
+      "base_clusters": 60,
+      "calls": 720,
+      "event_conditions": 720
+    },
+    "continuous": {
+      "base_clusters": 100,
+      "calls": 4000,
+      "event_conditions": 4000
+    },
+    "mechanisms": {
+      "base_clusters": 100,
+      "calls": 14400,
+      "event_conditions": 4800
+    },
+    "references": {
+      "base_clusters": 100,
+      "calls": 4800,
+      "event_conditions": 4800
+    },
+    "simulations": {
+      "base_clusters": 100,
+      "calls": 18000,
+      "event_conditions": 3600
+    },
+    "single_factor": {
+      "base_clusters": 100,
+      "calls": 99840,
+      "event_conditions": 99840
+    },
+    "transfer": {
+      "base_clusters": 30,
+      "calls": 1440,
+      "event_conditions": 1440
+    },
+    "upgrades": {
+      "base_clusters": 100,
+      "calls": 25200,
+      "event_conditions": 6000
+    },
+    "windows": {
+      "base_clusters": 100,
+      "calls": 43200,
+      "event_conditions": 43200
+    }
+  },
+  "references": {
+    "attempts": 100,
+    "independent_native_response_extraction": true,
+    "optimality_scope": "Native solver status and bound checked; plans independently checked against ISL; no additional independent solver rerun",
+    "status_counts": {
+      "OPTIMAL": 100
+    }
+  },
+  "search_seed_policy": "all5seeds averaged within same input/event/config; never best seed",
+  "statistics": "P5 descriptive analysis and2000-draw exploratory conditional base-cluster intervals only; P6 not started",
+  "total_formal_calls": 381200,
+  "zero_baseline_policy": "No normalized gain against max(1,Minimal utility) used as primary quality measure"
+}

@@ -1,0 +1,8 @@
+{
+  "all_calls_included": true,
+  "calls_per_configuration": 3600,
+  "exclusive_components_sum_to_outer_total_for_every_call": true,
+  "return_metrics_dispatch_definition": "outer total minus all recorded kernel/controller components; includes plan/result construction and metrics before final timestamp",
+  "search_or_IPC_timing_inferred": false,
+  "source_phase": "ablations"
+}

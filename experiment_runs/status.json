@@ -1,13 +1,11 @@
 {
-  "initialized_on": "2026-11-05",
-  "timezone": "Asia/Shanghai",
-  "workspace_status": "P4_complete",
-  "source_commit": "42209f4c776e227e2fefa0c47777ac547095a7a8",
-  "write_scope": "experiment_runs/",
-  "original_repository_files_modified": false,
-  "results_available": true,
   "algorithm_implemented": true,
+  "correctness_evidence_available": true,
+  "current_navigation": "README.md",
+  "historical_delivery_catalog": "deliveries/catalog.json",
+  "implementation_policy": "If original artifacts remain unavailable, explicitly label a paper-based reimplementation; do not claim exact historical reproduction.",
   "implementation_version": "0.1.1",
+  "implementation_version_note": "0.1.1 is the initial core version; P3/P3-R/P4 implementations and timing boundaries are frozen separately.",
   "implemented_methods": [
     "Minimal-Repair",
     "Frozen-Greedy",
@@ -19,139 +17,7 @@
     "CP-SAT-50ms",
     "PALR-ET (P3/P3-R validation only)"
   ],
-  "correctness_evidence_available": true,
-  "stage_execution_policy": "Only the user-specified stage; produce its report, then stop pending the user's next instruction.",
-  "next_stage": "P5",
-  "next_stage_authorized": false,
-  "stages": {
-    "P0": {
-      "status": "complete",
-      "run_ids": [
-        "P0-20261105T102554Z"
-      ],
-      "report": "reports/P0_REPORT.md",
-      "source_commit": "833829f562accd478c39586f076d6b935bf373a3",
-      "unit_tests_passed": 115,
-      "smoke_event_cases": 12,
-      "smoke_method_calls": 36,
-      "independent_artifact_audit_passed": true,
-      "historical_exact_reproduction": false
-    },
-    "P1": {
-      "status": "complete",
-      "run_ids": [
-        "P1-20261105T110133Z",
-        "P1-20261105T110427Z"
-      ],
-      "authoritative_run_id": "P1-20261105T110427Z",
-      "report": "reports/P1_REPORT.md",
-      "source_commit": "63a21a149a4347e1d3a1ef4e4db62cd4c74c851f",
-      "valid_pilots": 150,
-      "failed_pilots": 0,
-      "pilot_split_per_layer": {
-        "train": 25,
-        "validation": 25
-      },
-      "orbital_window_audits": 100,
-      "unit_tests_passed": 125,
-      "load_revision": false,
-      "test_instances": 0,
-      "test_performance_accessed": false,
-      "freeze": "reports/p1/P1-20261105T110427Z/protocol_freeze.json"
-    },
-    "P2": {
-      "status": "complete",
-      "run_ids": [
-        "P2-20261105T114327Z"
-      ],
-      "report": "reports/P2_REPORT.md",
-      "source_commit": "4de3790c13e01b20b8d58299effb8b1082b72922",
-      "input_directory": "reports/p2/P2-inputs-v1",
-      "generation_attempts": 366,
-      "generation_failures": 66,
-      "valid_base_instances": 300,
-      "events": 200,
-      "final_event_statuses": {
-        "OPTIMAL": 200,
-        "INFEASIBLE": 0,
-        "FEASIBLE": 0,
-        "UNKNOWN": 0
-      },
-      "native_phase_statuses": {
-        "OPTIMAL": 200,
-        "INFEASIBLE": 64,
-        "FEASIBLE": 0,
-        "UNKNOWN": 0
-      },
-      "urgent_service_feasible": 3,
-      "urgent_service_proven_infeasible": 64,
-      "native_models_replayed": 264,
-      "unit_tests_passed": 140,
-      "exact_total_over_30s_count": 0,
-      "test_instances_generated": 0,
-      "fixed_PALR_full_lexicographic_optimum": 173,
-      "exact_reference_version": "1.0"
-    },
-    "P3": {
-      "status": "complete",
-      "run_ids": [
-        "P3-20261110"
-      ],
-      "report": "reports/P3_REPORT.md",
-      "training_bases": 4000,
-      "validation_bases": 1000,
-      "paired_loads": [
-        "default",
-        "N500-h0.8"
-      ],
-      "records": 992000,
-      "test_instances": 0,
-      "frozen_parameters": "reports/p3/P3-20261110/frozen_parameters.json"
-    },
-    "P4": {
-      "status": "complete",
-      "run_ids": [
-        "P4-20261117"
-      ],
-      "report": "reports/p4/P4-20261117/P4_REPORT.md",
-      "test_bases": 1000,
-      "events": 12000,
-      "main_calls": 192000,
-      "timing_calls": 384000,
-      "load": "default",
-      "required_baselines": 8,
-      "optional_ET_run": false,
-      "medium_competition_test_run": false,
-      "total_call_budget_ms": 50,
-      "all_methods_hard_realtime": false
-    },
-    "P5": {
-      "status": "not_started",
-      "run_ids": [],
-      "report": null
-    },
-    "P6": {
-      "status": "not_started",
-      "run_ids": [],
-      "report": null
-    },
-    "P3-R": {
-      "status": "complete",
-      "run_ids": [
-        "P3R-20261112"
-      ],
-      "report": "reports/p3r/P3R-20261112/P3R_REPORT.md",
-      "validation_bases": 1000,
-      "records": 168000,
-      "test_instances": 0,
-      "main_controller_by_load": {
-        "default": "rule",
-        "N500-h0.8": "rule"
-      },
-      "engineering_targets_all_met": false,
-      "scope": "Development supplement on existing validation inputs, not independent testing."
-    }
-  },
+  "initialized_on": "2026-11-05",
   "missing_original_artifacts": [
     "algorithm_source",
     "instance_generator",
@@ -159,17 +25,165 @@
     "per_instance_logs",
     "learned_weights"
   ],
-  "implementation_policy": "If original artifacts remain unavailable, explicitly label a paper-based reimplementation; do not claim exact historical reproduction.",
-  "results_scope": "P0-P4 and independently numbered supplements; P3-R validation includes default and N500-h0.8; P4 tests default load only.",
-  "updated_on": "2026-11-18",
-  "current_navigation": "README.md",
-  "historical_delivery_catalog": "deliveries/catalog.json",
-  "implementation_version_note": "0.1.1 is the initial core version; P3/P3-R/P4 implementations and timing boundaries are frozen separately.",
+  "next_stage": "P6",
+  "next_stage_authorized": false,
+  "original_repository_files_modified": false,
+  "results_available": true,
+  "results_scope": "P0-P5 and independently numbered supplements; P3-R validation includes default and N500-h0.8; P4 tests default load only; P5 adds ablations, load/window/reference/transfer/continuous sensitivity under its approved scope.",
+  "source_commit": "42209f4c776e227e2fefa0c47777ac547095a7a8",
+  "stage_execution_policy": "Only the user-specified stage; produce its report, then stop pending the user's next instruction.",
+  "stages": {
+    "P0": {
+      "historical_exact_reproduction": false,
+      "independent_artifact_audit_passed": true,
+      "report": "reports/P0_REPORT.md",
+      "run_ids": [
+        "P0-20261105T102554Z"
+      ],
+      "smoke_event_cases": 12,
+      "smoke_method_calls": 36,
+      "source_commit": "833829f562accd478c39586f076d6b935bf373a3",
+      "status": "complete",
+      "unit_tests_passed": 115
+    },
+    "P1": {
+      "authoritative_run_id": "P1-20261105T110427Z",
+      "failed_pilots": 0,
+      "freeze": "reports/p1/P1-20261105T110427Z/protocol_freeze.json",
+      "load_revision": false,
+      "orbital_window_audits": 100,
+      "pilot_split_per_layer": {
+        "train": 25,
+        "validation": 25
+      },
+      "report": "reports/P1_REPORT.md",
+      "run_ids": [
+        "P1-20261105T110133Z",
+        "P1-20261105T110427Z"
+      ],
+      "source_commit": "63a21a149a4347e1d3a1ef4e4db62cd4c74c851f",
+      "status": "complete",
+      "test_instances": 0,
+      "test_performance_accessed": false,
+      "unit_tests_passed": 125,
+      "valid_pilots": 150
+    },
+    "P2": {
+      "events": 200,
+      "exact_reference_version": "1.0",
+      "exact_total_over_30s_count": 0,
+      "final_event_statuses": {
+        "FEASIBLE": 0,
+        "INFEASIBLE": 0,
+        "OPTIMAL": 200,
+        "UNKNOWN": 0
+      },
+      "fixed_PALR_full_lexicographic_optimum": 173,
+      "generation_attempts": 366,
+      "generation_failures": 66,
+      "input_directory": "reports/p2/P2-inputs-v1",
+      "native_models_replayed": 264,
+      "native_phase_statuses": {
+        "FEASIBLE": 0,
+        "INFEASIBLE": 64,
+        "OPTIMAL": 200,
+        "UNKNOWN": 0
+      },
+      "report": "reports/P2_REPORT.md",
+      "run_ids": [
+        "P2-20261105T114327Z"
+      ],
+      "source_commit": "4de3790c13e01b20b8d58299effb8b1082b72922",
+      "status": "complete",
+      "test_instances_generated": 0,
+      "unit_tests_passed": 140,
+      "urgent_service_feasible": 3,
+      "urgent_service_proven_infeasible": 64,
+      "valid_base_instances": 300
+    },
+    "P3": {
+      "frozen_parameters": "reports/p3/P3-20261110/frozen_parameters.json",
+      "paired_loads": [
+        "default",
+        "N500-h0.8"
+      ],
+      "records": 992000,
+      "report": "reports/P3_REPORT.md",
+      "run_ids": [
+        "P3-20261110"
+      ],
+      "status": "complete",
+      "test_instances": 0,
+      "training_bases": 4000,
+      "validation_bases": 1000
+    },
+    "P3-R": {
+      "engineering_targets_all_met": false,
+      "main_controller_by_load": {
+        "N500-h0.8": "rule",
+        "default": "rule"
+      },
+      "records": 168000,
+      "report": "reports/p3r/P3R-20261112/P3R_REPORT.md",
+      "run_ids": [
+        "P3R-20261112"
+      ],
+      "scope": "Development supplement on existing validation inputs, not independent testing.",
+      "status": "complete",
+      "test_instances": 0,
+      "validation_bases": 1000
+    },
+    "P4": {
+      "all_methods_hard_realtime": false,
+      "events": 12000,
+      "load": "default",
+      "main_calls": 192000,
+      "medium_competition_test_run": false,
+      "optional_ET_run": false,
+      "report": "reports/p4/P4-20261117/P4_REPORT.md",
+      "required_baselines": 8,
+      "run_ids": [
+        "P4-20261117"
+      ],
+      "status": "complete",
+      "test_bases": 1000,
+      "timing_calls": 384000,
+      "total_call_budget_ms": 50
+    },
+    "P5": {
+      "A6": "not_applicable_user_approved",
+      "CP_reference_attempts": 100,
+      "ET_run": false,
+      "IPC_performance": "not_run_user_approved_applicability_audit",
+      "ablation_base_instances": 300,
+      "acceptance": "reports/p5/P5-20261118/final_acceptance.json",
+      "continuous_trajectories": 100,
+      "formal_calls": 381200,
+      "frozen_anomaly_cases": 50,
+      "independent_acceptance_passed": true,
+      "performance_superiority_established": false,
+      "report": "reports/p5/P5-20261118/P5_REPORT.md",
+      "run_ids": [
+        "P5-20261118"
+      ],
+      "special_base_instances": 100,
+      "status": "complete"
+    },
+    "P6": {
+      "report": null,
+      "run_ids": [],
+      "status": "not_started"
+    }
+  },
   "supplements": {
-    "urgent_diagnosis_and_v2": "reports/P2_URGENT_DIAGNOSTIC_REPORT.md",
-    "natural_urgent_and_conditional_pressure": "reports/P2_URGENT_SUPPLEMENT_REPORT.md",
+    "P1_current_entry_fix": "reports/P1_CURRENT_ENTRY_FIX_REPORT.md",
     "P2-C": "reports/P2C_REPORT.md",
     "load_pilot": "reports/LOAD_PILOT_REPORT.md",
-    "P1_current_entry_fix": "reports/P1_CURRENT_ENTRY_FIX_REPORT.md"
-  }
+    "natural_urgent_and_conditional_pressure": "reports/P2_URGENT_SUPPLEMENT_REPORT.md",
+    "urgent_diagnosis_and_v2": "reports/P2_URGENT_DIAGNOSTIC_REPORT.md"
+  },
+  "timezone": "Asia/Shanghai",
+  "updated_on": "2026-11-18",
+  "workspace_status": "P5_complete",
+  "write_scope": "experiment_runs/"
 }

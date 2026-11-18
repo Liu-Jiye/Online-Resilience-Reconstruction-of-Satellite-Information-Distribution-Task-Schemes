@@ -1,0 +1,11 @@
+{
+  "counts": {
+    "local_certified_early_baseline_returns": 9,
+    "local_domain_calls_checked": 14400,
+    "upgrade_calls_checked": 12000,
+    "upgrade_phase_plans_checked": 16473,
+    "warm_incumbent_handoffs_checked": 3588
+  },
+  "passed": true,
+  "scope": "Completed searches only; full acceptance still required"
+}

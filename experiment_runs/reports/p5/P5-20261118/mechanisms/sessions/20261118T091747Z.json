@@ -1,0 +1,2328 @@
+{
+  "affinity": [
+    0
+  ],
+  "python": "3.11.18",
+  "warmups": [
+    {
+      "iteration": 0,
+      "spec": {
+        "B": 2,
+        "name": "PALR-local",
+        "w": 5
+      },
+      "total_ns": 10432632
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "B": 2,
+        "name": "PALR-local",
+        "w": 5
+      },
+      "total_ns": 6819078
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "B": 2,
+        "name": "PALR-local",
+        "w": 5
+      },
+      "total_ns": 10006645
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "B": 2,
+        "name": "PALR-local",
+        "w": 5
+      },
+      "total_ns": 7916551
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "B": 2,
+        "name": "PALR-local",
+        "w": 5
+      },
+      "total_ns": 13662154
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "B": 2,
+        "name": "PALR-local",
+        "w": 5
+      },
+      "total_ns": 16676131
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "B": 2,
+        "name": "PALR-local",
+        "w": 5
+      },
+      "total_ns": 13479764
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "B": 2,
+        "name": "PALR-local",
+        "w": 5
+      },
+      "total_ns": 8999009
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "B": 2,
+        "name": "PALR-local",
+        "w": 5
+      },
+      "total_ns": 8371861
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "B": 2,
+        "name": "PALR-local",
+        "w": 5
+      },
+      "total_ns": 11462380
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "B": 2,
+        "name": "PALR-local",
+        "w": 5
+      },
+      "total_ns": 10742261
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "B": 2,
+        "name": "PALR-local",
+        "w": 5
+      },
+      "total_ns": 10421671
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "B": 2,
+        "name": "PALR-local",
+        "w": 5
+      },
+      "total_ns": 8469180
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "B": 2,
+        "name": "PALR-local",
+        "w": 5
+      },
+      "total_ns": 6789561
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "B": 2,
+        "name": "PALR-local",
+        "w": 5
+      },
+      "total_ns": 10356819
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "B": 2,
+        "name": "PALR-local",
+        "w": 5
+      },
+      "total_ns": 7749649
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "B": 2,
+        "name": "PALR-local",
+        "w": 5
+      },
+      "total_ns": 10411899
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "B": 2,
+        "name": "PALR-local",
+        "w": 5
+      },
+      "total_ns": 8269317
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "B": 2,
+        "name": "PALR-local",
+        "w": 5
+      },
+      "total_ns": 15212418
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "B": 2,
+        "name": "PALR-local",
+        "w": 5
+      },
+      "total_ns": 9173378
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "name": "CP-local"
+      },
+      "total_ns": 364160675
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "name": "CP-local"
+      },
+      "total_ns": 32468501
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "name": "CP-local"
+      },
+      "total_ns": 37706028
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "name": "CP-local"
+      },
+      "total_ns": 47366610
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "name": "CP-local"
+      },
+      "total_ns": 49724211
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "name": "CP-local"
+      },
+      "total_ns": 53812701
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "name": "CP-local"
+      },
+      "total_ns": 47861596
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "name": "CP-local"
+      },
+      "total_ns": 47077022
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "name": "CP-local"
+      },
+      "total_ns": 37230555
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "name": "CP-local"
+      },
+      "total_ns": 48323943
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "name": "CP-local"
+      },
+      "total_ns": 48753685
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "name": "CP-local"
+      },
+      "total_ns": 46217593
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "name": "CP-local"
+      },
+      "total_ns": 33292219
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "name": "CP-local"
+      },
+      "total_ns": 25732045
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "name": "CP-local"
+      },
+      "total_ns": 43138594
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "name": "CP-local"
+      },
+      "total_ns": 35668884
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "name": "CP-local"
+      },
+      "total_ns": 56405492
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "name": "CP-local"
+      },
+      "total_ns": 64615993
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "name": "CP-local"
+      },
+      "total_ns": 52368954
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "name": "CP-local"
+      },
+      "total_ns": 47730429
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 11
+      },
+      "total_ns": 52111871
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 11
+      },
+      "total_ns": 40426346
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 11
+      },
+      "total_ns": 16358401
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 11
+      },
+      "total_ns": 44657366
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 11
+      },
+      "total_ns": 9137163
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 11
+      },
+      "total_ns": 14517757
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 11
+      },
+      "total_ns": 45834638
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 11
+      },
+      "total_ns": 50269440
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 11
+      },
+      "total_ns": 54515437
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 11
+      },
+      "total_ns": 19358029
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 11
+      },
+      "total_ns": 52002315
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 11
+      },
+      "total_ns": 49133968
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 11
+      },
+      "total_ns": 50001204
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 11
+      },
+      "total_ns": 28220857
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 11
+      },
+      "total_ns": 20373003
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 11
+      },
+      "total_ns": 50498934
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 11
+      },
+      "total_ns": 12165324
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 11
+      },
+      "total_ns": 8056230
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 11
+      },
+      "total_ns": 46046125
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 11
+      },
+      "total_ns": 50441392
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 23
+      },
+      "total_ns": 49931410
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 23
+      },
+      "total_ns": 26343919
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 23
+      },
+      "total_ns": 11407611
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 23
+      },
+      "total_ns": 40008573
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 23
+      },
+      "total_ns": 8314741
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 23
+      },
+      "total_ns": 11839719
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 23
+      },
+      "total_ns": 47674641
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 23
+      },
+      "total_ns": 49370795
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 23
+      },
+      "total_ns": 50482802
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 23
+      },
+      "total_ns": 49734048
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 23
+      },
+      "total_ns": 50066323
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 23
+      },
+      "total_ns": 50261945
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 23
+      },
+      "total_ns": 49904446
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 23
+      },
+      "total_ns": 28891262
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 23
+      },
+      "total_ns": 24261816
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 23
+      },
+      "total_ns": 46462281
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 23
+      },
+      "total_ns": 12633907
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 23
+      },
+      "total_ns": 13420878
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 23
+      },
+      "total_ns": 50104614
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 23
+      },
+      "total_ns": 50468469
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 47
+      },
+      "total_ns": 49515336
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 47
+      },
+      "total_ns": 29124308
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 47
+      },
+      "total_ns": 14713593
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 47
+      },
+      "total_ns": 47750634
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 47
+      },
+      "total_ns": 12781275
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 47
+      },
+      "total_ns": 12289115
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 47
+      },
+      "total_ns": 39455446
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 47
+      },
+      "total_ns": 37653057
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 47
+      },
+      "total_ns": 50895056
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 47
+      },
+      "total_ns": 49538455
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 47
+      },
+      "total_ns": 49303256
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 47
+      },
+      "total_ns": 49708346
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 47
+      },
+      "total_ns": 52484618
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 47
+      },
+      "total_ns": 26435843
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 47
+      },
+      "total_ns": 13483002
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 47
+      },
+      "total_ns": 41225852
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 47
+      },
+      "total_ns": 13994890
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 47
+      },
+      "total_ns": 7961876
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 47
+      },
+      "total_ns": 21949922
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 47
+      },
+      "total_ns": 48150289
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 89
+      },
+      "total_ns": 50528214
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 89
+      },
+      "total_ns": 33133516
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 89
+      },
+      "total_ns": 12273614
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 89
+      },
+      "total_ns": 40564686
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 89
+      },
+      "total_ns": 12360722
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 89
+      },
+      "total_ns": 7934794
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 89
+      },
+      "total_ns": 47231442
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 89
+      },
+      "total_ns": 42555626
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 89
+      },
+      "total_ns": 48772399
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 89
+      },
+      "total_ns": 41979904
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 89
+      },
+      "total_ns": 51913548
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 89
+      },
+      "total_ns": 49580587
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 89
+      },
+      "total_ns": 51362522
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 89
+      },
+      "total_ns": 23563019
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 89
+      },
+      "total_ns": 10924223
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 89
+      },
+      "total_ns": 47993766
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 89
+      },
+      "total_ns": 12531249
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 89
+      },
+      "total_ns": 10278393
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 89
+      },
+      "total_ns": 42809401
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 89
+      },
+      "total_ns": 49701788
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 131
+      },
+      "total_ns": 53222732
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 131
+      },
+      "total_ns": 41602562
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 131
+      },
+      "total_ns": 27713300
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 131
+      },
+      "total_ns": 36453951
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 131
+      },
+      "total_ns": 18135687
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 131
+      },
+      "total_ns": 11344482
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 131
+      },
+      "total_ns": 53519895
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 131
+      },
+      "total_ns": 46242019
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 131
+      },
+      "total_ns": 49741244
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 131
+      },
+      "total_ns": 53377272
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 131
+      },
+      "total_ns": 48924530
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 131
+      },
+      "total_ns": 52108335
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 131
+      },
+      "total_ns": 49395809
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 131
+      },
+      "total_ns": 34254553
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 131
+      },
+      "total_ns": 12655716
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 131
+      },
+      "total_ns": 33492687
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 131
+      },
+      "total_ns": 7497870
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 131
+      },
+      "total_ns": 7490247
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 131
+      },
+      "total_ns": 42363735
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "PUCT-local",
+        "seed": 131
+      },
+      "total_ns": 50198666
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 11
+      },
+      "total_ns": 566739014
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 11
+      },
+      "total_ns": 47628611
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 11
+      },
+      "total_ns": 50230713
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 11
+      },
+      "total_ns": 49402629
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 11
+      },
+      "total_ns": 51821661
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 11
+      },
+      "total_ns": 48754931
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 11
+      },
+      "total_ns": 49306887
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 11
+      },
+      "total_ns": 50015147
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 11
+      },
+      "total_ns": 27726043
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 11
+      },
+      "total_ns": 49497895
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 11
+      },
+      "total_ns": 47852727
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 11
+      },
+      "total_ns": 52523836
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 11
+      },
+      "total_ns": 49544563
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 11
+      },
+      "total_ns": 51698291
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 11
+      },
+      "total_ns": 50243820
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 11
+      },
+      "total_ns": 49238117
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 11
+      },
+      "total_ns": 50499947
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 11
+      },
+      "total_ns": 50327488
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 11
+      },
+      "total_ns": 51194062
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 11
+      },
+      "total_ns": 48723758
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 23
+      },
+      "total_ns": 49772022
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 23
+      },
+      "total_ns": 49201631
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 23
+      },
+      "total_ns": 49128570
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 23
+      },
+      "total_ns": 49607039
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 23
+      },
+      "total_ns": 52352482
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 23
+      },
+      "total_ns": 47936565
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 23
+      },
+      "total_ns": 51567172
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 23
+      },
+      "total_ns": 51640873
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 23
+      },
+      "total_ns": 50719959
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 23
+      },
+      "total_ns": 73629513
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 23
+      },
+      "total_ns": 50058163
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 23
+      },
+      "total_ns": 50521432
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 23
+      },
+      "total_ns": 48993903
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 23
+      },
+      "total_ns": 48486617
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 23
+      },
+      "total_ns": 50269520
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 23
+      },
+      "total_ns": 50304915
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 23
+      },
+      "total_ns": 50839222
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 23
+      },
+      "total_ns": 49207226
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 23
+      },
+      "total_ns": 52590639
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 23
+      },
+      "total_ns": 50270633
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 47
+      },
+      "total_ns": 47440069
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 47
+      },
+      "total_ns": 45527714
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 47
+      },
+      "total_ns": 50075044
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 47
+      },
+      "total_ns": 49615276
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 47
+      },
+      "total_ns": 52075571
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 47
+      },
+      "total_ns": 49055215
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 47
+      },
+      "total_ns": 51855846
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 47
+      },
+      "total_ns": 50548955
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 47
+      },
+      "total_ns": 49610024
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 47
+      },
+      "total_ns": 50324094
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 47
+      },
+      "total_ns": 78450600
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 47
+      },
+      "total_ns": 51288765
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 47
+      },
+      "total_ns": 48769776
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 47
+      },
+      "total_ns": 46510339
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 47
+      },
+      "total_ns": 51197200
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 47
+      },
+      "total_ns": 47860827
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 47
+      },
+      "total_ns": 51884933
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 47
+      },
+      "total_ns": 50561846
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 47
+      },
+      "total_ns": 50352275
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 47
+      },
+      "total_ns": 50206347
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 89
+      },
+      "total_ns": 48333867
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 89
+      },
+      "total_ns": 49492323
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 89
+      },
+      "total_ns": 49997925
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 89
+      },
+      "total_ns": 51254085
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 89
+      },
+      "total_ns": 47857092
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 89
+      },
+      "total_ns": 51913402
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 89
+      },
+      "total_ns": 49254780
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 89
+      },
+      "total_ns": 52013626
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 89
+      },
+      "total_ns": 50464870
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 89
+      },
+      "total_ns": 50208680
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 89
+      },
+      "total_ns": 52000114
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 89
+      },
+      "total_ns": 70889406
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 89
+      },
+      "total_ns": 51201065
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 89
+      },
+      "total_ns": 47195840
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 89
+      },
+      "total_ns": 50349836
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 89
+      },
+      "total_ns": 49393140
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 89
+      },
+      "total_ns": 51670415
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 89
+      },
+      "total_ns": 51176904
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 89
+      },
+      "total_ns": 48286283
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 89
+      },
+      "total_ns": 47537086
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 131
+      },
+      "total_ns": 49767730
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 131
+      },
+      "total_ns": 47546551
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 131
+      },
+      "total_ns": 50205414
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 131
+      },
+      "total_ns": 50932139
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 131
+      },
+      "total_ns": 49804745
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 131
+      },
+      "total_ns": 48167295
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 131
+      },
+      "total_ns": 50552940
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 131
+      },
+      "total_ns": 48545451
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 131
+      },
+      "total_ns": 50992280
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 131
+      },
+      "total_ns": 48539255
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 131
+      },
+      "total_ns": 47880059
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 131
+      },
+      "total_ns": 50534271
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 131
+      },
+      "total_ns": 36060822
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 131
+      },
+      "total_ns": 48370456
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 131
+      },
+      "total_ns": 50270961
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 131
+      },
+      "total_ns": 50871255
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 131
+      },
+      "total_ns": 48280258
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 131
+      },
+      "total_ns": 50893605
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 131
+      },
+      "total_ns": 50439906
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "B": 2,
+        "local_w": 5,
+        "name": "ALNS-local",
+        "seed": 131
+      },
+      "total_ns": 50579877
+    }
+  ]
+}

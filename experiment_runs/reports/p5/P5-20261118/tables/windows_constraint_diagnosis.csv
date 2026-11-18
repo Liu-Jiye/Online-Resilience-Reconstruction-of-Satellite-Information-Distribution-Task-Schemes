@@ -1,0 +1,13 @@
+﻿label,variant,calls,applicable,final_rejected,physical_illegal_plans,plans_with_window_violation,plans_with_resource_violation,plans_with_frozen_violation,online_success,role
+No-receiver,delete_one,1200,1200,1041,1020,0,83,26,42,"invalid-model diagnostic; all illegal outputs fail,never rank as deployable quality"
+No-receiver,p0.1_shrink0.1,1200,1200,1042,1022,0,81,9,50,"invalid-model diagnostic; all illegal outputs fail,never rank as deployable quality"
+No-receiver,p0.1_shrink0.3,1200,1200,1040,1016,0,85,14,46,"invalid-model diagnostic; all illegal outputs fail,never rank as deployable quality"
+No-receiver,p0.3_shrink0.1,1200,1200,1042,1023,0,83,16,43,"invalid-model diagnostic; all illegal outputs fail,never rank as deployable quality"
+No-receiver,p0.3_shrink0.3,1200,1200,1050,1025,0,76,23,39,"invalid-model diagnostic; all illegal outputs fail,never rank as deployable quality"
+No-receiver,targeted_pressure,1200,1200,1034,1015,0,76,23,43,"invalid-model diagnostic; all illegal outputs fail,never rank as deployable quality"
+No-window,delete_one,1200,1200,1199,1185,1172,0,13,0,"invalid-model diagnostic; all illegal outputs fail,never rank as deployable quality"
+No-window,p0.1_shrink0.1,1200,1200,1093,1075,1063,0,12,30,"invalid-model diagnostic; all illegal outputs fail,never rank as deployable quality"
+No-window,p0.1_shrink0.3,1200,1200,1124,1119,1105,0,14,28,"invalid-model diagnostic; all illegal outputs fail,never rank as deployable quality"
+No-window,p0.3_shrink0.1,1200,1200,1126,1109,1096,0,13,20,"invalid-model diagnostic; all illegal outputs fail,never rank as deployable quality"
+No-window,p0.3_shrink0.3,1200,1200,1170,1158,1147,0,11,10,"invalid-model diagnostic; all illegal outputs fail,never rank as deployable quality"
+No-window,targeted_pressure,1200,1200,1200,1181,1173,0,8,0,"invalid-model diagnostic; all illegal outputs fail,never rank as deployable quality"

@@ -1,0 +1,34 @@
+{
+  "ET": "not_applicable_user_confirmed",
+  "OneWeb_validation_used": false,
+  "policy": "12 Starlink scenario macro online success, then normalized execution utility, then deterministic setting string",
+  "rule": {
+    "FR_high": 0.8,
+    "n_high": 8,
+    "q_high": 0.5,
+    "q_low": 0.2,
+    "r_high": 0.7,
+    "r_low": 0.35
+  },
+  "selection_source": "P3 default D2-S validation cells only",
+  "selections": {
+    "grid": {
+      "normalized_U_exec": 1.011870188893308,
+      "setting": [
+        1,
+        3
+      ],
+      "success": 0.7380555555555558
+    },
+    "rules": {
+      "normalized_U_exec": 1.0121091155899564,
+      "setting": "conservative",
+      "success": 0.7386111111111111
+    }
+  },
+  "source_sha256": {
+    "grid": "8ca8233d54ee93032b2f98177c104bf1e5c27fa21b2471f19179bfe62d2b3a12",
+    "rules": "9accf42746e10ec43d7da3e7fd907d0215d736547b37e2c0e461583bf7b761c5"
+  },
+  "test_used": false
+}

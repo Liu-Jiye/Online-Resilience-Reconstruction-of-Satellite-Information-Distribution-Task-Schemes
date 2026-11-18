@@ -1,0 +1,54 @@
+{
+  "all_reference_plans_checked": true,
+  "anomalies": {
+    "frozen_cancel": 25,
+    "frozen_window": 25,
+    "paired_normal_control": 50
+  },
+  "counts": {
+    "prefix_bases": 100,
+    "single_factor_shards": 2280,
+    "window_event_conditions": 7200
+  },
+  "distance_monotonic_containment_verified": true,
+  "factor_isolation_verified": true,
+  "nested_task_prefixes_verified": true,
+  "paired_window_variants": {
+    "delete_one": {
+      "actually_changed": 1193,
+      "event_conditions": 1200,
+      "original_survivor_plan_lost_window": 1193
+    },
+    "p0.1_shrink0.1": {
+      "actually_changed": 1012,
+      "event_conditions": 1200,
+      "original_survivor_plan_lost_window": 185
+    },
+    "p0.1_shrink0.3": {
+      "actually_changed": 1012,
+      "event_conditions": 1200,
+      "original_survivor_plan_lost_window": 513
+    },
+    "p0.3_shrink0.1": {
+      "actually_changed": 1175,
+      "event_conditions": 1200,
+      "original_survivor_plan_lost_window": 426
+    },
+    "p0.3_shrink0.3": {
+      "actually_changed": 1175,
+      "event_conditions": 1200,
+      "original_survivor_plan_lost_window": 900
+    },
+    "targeted_pressure": {
+      "actually_changed": 1200,
+      "event_conditions": 1200,
+      "original_survivor_plan_lost_window": 1200
+    }
+  },
+  "passed": true,
+  "pressure_certificates": {
+    "targeted_original_placement_invalid_certificates": 1200
+  },
+  "source_input_hashes_checked": true,
+  "source_subsets_regenerated": true
+}

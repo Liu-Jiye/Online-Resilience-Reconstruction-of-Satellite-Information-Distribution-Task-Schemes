@@ -1,0 +1,4 @@
+﻿label,search_simulations_mean,search_simulations_min,search_simulations_max,search_iterations_mean,search_iterations_min,search_iterations_max,timeout_mean,timeout_min,timeout_max,online_success_mean,online_success_min,online_success_max,total_ms_mean,total_ms_min,total_ms_max
+PUCT-sensitivity@sim100,44.3675,0,100,,,,0.25916666666666666,0,1,0.5516666666666666,0,1,39.89122954516667,7.911099,84.773668
+PUCT-sensitivity@sim40,17.968,0,40,,,,0.24583333333333332,0,1,0.5535,0,1,39.12102710483333,7.25823,98.359322
+PUCT-sensitivity@sim400,162.69283333333334,0,400,,,,0.289,0,1,0.5358333333333334,0,1,43.855736289,12.294396,93.109026

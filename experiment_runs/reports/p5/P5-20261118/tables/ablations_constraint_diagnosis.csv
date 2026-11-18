@@ -1,0 +1,3 @@
+﻿label,variant,calls,applicable,final_rejected,physical_illegal_plans,plans_with_window_violation,plans_with_resource_violation,plans_with_frozen_violation,online_success,role
+No-receiver,natural300,3600,3600,3477,3477,0,396,0,35,"invalid-model diagnostic; all illegal outputs fail,never rank as deployable quality"
+No-window,natural300,3600,3600,3547,3547,3547,0,0,30,"invalid-model diagnostic; all illegal outputs fail,never rank as deployable quality"

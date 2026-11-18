@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "report_local_links_checked": [
+    "../../../protocol/P5_EXECUTION_V1.md",
+    "prior_stage_review/P0_P4_REVIEW.md",
+    "figures/ablation_B_w.png",
+    "figures/A5_rule_control.png",
+    "figures/A10_response_budget.png",
+    "figures/utility_disturbance.png",
+    "figures/A5_timing_decomposition.png",
+    "figures/single_factor_success.png",
+    "figures/FR_window_stress.png",
+    "ACCEPTANCE_REVIEW_NOTES.md",
+    "REPRODUCE.md"
+  ],
+  "figures": {
+    "A10_response_budget.png": "281ab1ea68f924d659eb7def30a92c1402bc7a23124127b82a601fc460301ee6",
+    "A5_rule_control.png": "8a2aa66fa810371d7e8a5b47574ab684f58eabe346bf24b5140a95ae0447942e",
+    "A5_timing_decomposition.png": "b8ed5c0dff3b7e3e28fc08c256a8587bb5d86f15a8c1a57e2d574f5542e8c90e",
+    "ablation_B_w.png": "21fd2233c162eeae42756b4b5980ef307ba016fcd3752fdc031e90c81832d03d",
+    "FR_window_stress.png": "8fde0c840f775432d68a109eeae09d34557af567a727de3395621222b78ae88b",
+    "mechanisms_and_upgrades.png": "aec0010d67b889ecc42646396afd53ba9b6f519bcf6453b7ecf87c95b5771b08",
+    "single_factor_success.png": "42df22fd8d85ac302d8f6847dd8e7098b232ea975fbbc94b431f93ed4c48bc1a",
+    "utility_disturbance.png": "8791ba32b17cf1f33cfe902d0b54c144e31a579761345cc5f4e796a6622148d8"
+  },
+  "visual_inspection": "All eight PNG figures and timing decomposition inspected for readable labels, legends, layout and clipping; no material layout defects found",
+  "report_boundary": "Stage P5 only; negative upgrade and high-load results, ET/A6 and IPC applicability disclosed"
+}

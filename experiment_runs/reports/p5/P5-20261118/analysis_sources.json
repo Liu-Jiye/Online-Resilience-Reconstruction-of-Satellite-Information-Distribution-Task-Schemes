@@ -1,0 +1,19 @@
+{
+  "files": {
+    "scripts/audit_stage5_acceptance_details.py": "1a6f6c01c9c8d65405c5345824b2fb5657ba175f704b55b2654d5b04ba8326f4",
+    "scripts/audit_stage5_inputs.py": "6e31dc036362c1f4411be51ab908db688a4c900bca4db81f4f7286524efdfa0a",
+    "scripts/capture_stage5_environment.py": "9a1bab9f30a858ee17cc3f33e3052e09ede2ca2adbfc9866a25e66bf739377d2",
+    "scripts/complete_stage5_navigation.py": "04715cbbc3640a9aa019e06d9ba49d2e52ecac26266f1c9043d3886fc768b952",
+    "scripts/extract_stage5_timing.py": "b22ef609f2c72ea9814908f223030d33e1d9adc2fe31e04d114f4ac56448088c",
+    "scripts/fill_stage5_replay.py": "4e609cb2bf7ed4ffd62721f647744ac80054d9112514b9f3a0ecaf478fbd0681",
+    "scripts/finalize_stage5_delivery.py": "9571422c2b5d9e79077297b9c0b779c4c5544ff09d805adaa39ef6adad76a816",
+    "scripts/finish_stage5_analysis.py": "61bb44e7cb9784c609ab2b0e18f93d3e548cbc92961546af00adf230fd1e7f17",
+    "scripts/plot_stage5.py": "af8385cf5e0430c48c35966dcf09f06620f81a9500086ab22d716d97e6821329",
+    "scripts/reproduce_stage5.py": "8137c9aeb74035a606a417101f1f725bd734c537b261d99c924005a91a5bab67",
+    "scripts/summarize_stage5.py": "596af0ff42116af9ae2aa28093e29d52c294b5e09da68be271bc98f70b1775b1",
+    "scripts/verify_stage5_evidence.py": "751101fea7c4b2c8ea46c1fc6654458e9c1f27f9da4b1019412658b6e49a0a2a",
+    "scripts/write_stage5_report.py": "8ad2d9d3344efc2f62c5268dc7e4bb2bbad696f591bb7494b630df1c7a807140",
+    "tests/test_p5_contract.py": "9a8872a1c145c9bc07a2f721cf62a63b06abc7cfd072792eb8b5cb68028975f8"
+  },
+  "method_sources": "per-phase source_freeze.json; original scientific sources unchanged"
+}

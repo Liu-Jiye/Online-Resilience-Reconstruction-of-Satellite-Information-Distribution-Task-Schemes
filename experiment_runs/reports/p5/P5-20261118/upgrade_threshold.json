@@ -1,0 +1,18 @@
+{
+  "candidates": [
+    {
+      "threshold": 0.95,
+      "trigger_rate": 0.37222222222222223
+    },
+    {
+      "threshold": 1.0,
+      "trigger_rate": 0.37222222222222223
+    }
+  ],
+  "policy": "closest trigger rate to0.2, lower threshold on tie",
+  "source_freeze": "8f1338115c53a587005e53a21d5f47a8f816a74a039791458f01a07e9a278668",
+  "test_used": false,
+  "threshold": 0.95,
+  "trigger_rate": 0.37222222222222223,
+  "validation_events": 720
+}

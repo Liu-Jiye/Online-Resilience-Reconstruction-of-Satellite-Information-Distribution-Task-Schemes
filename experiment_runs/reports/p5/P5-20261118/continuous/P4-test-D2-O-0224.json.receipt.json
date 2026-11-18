@@ -1,0 +1,67 @@
+{
+  "calls": 40,
+  "freeze": "dc6ca400c6ca37be1e3486bf653448ecd70c17b4c41629f2107fb02c57292730",
+  "sha256": "dc9c9e81c5b1dcbeca88f49525ed6347731b8137f4bbcaed2f76812fc2e60f28",
+  "summaries": [
+    {
+      "base_id": "P4-test-D2-O-0224",
+      "completed_tasks": 30,
+      "cumulative_active_drops": 0,
+      "cumulative_movement": 0,
+      "delivered_utility": 1626,
+      "expired_unserved_tasks": 20,
+      "failure_to_success_recoveries": 2,
+      "failures": 2,
+      "layer": "D2-O",
+      "method": "Minimal-Repair",
+      "online_success_events": 8,
+      "scope": "executions through horizon5400; each completed task utility counted once",
+      "unserved_tasks_at_end": 30
+    },
+    {
+      "base_id": "P4-test-D2-O-0224",
+      "completed_tasks": 31,
+      "cumulative_active_drops": 1,
+      "cumulative_movement": 0,
+      "delivered_utility": 1688,
+      "expired_unserved_tasks": 20,
+      "failure_to_success_recoveries": 2,
+      "failures": 2,
+      "layer": "D2-O",
+      "method": "Fixed-PALR",
+      "online_success_events": 8,
+      "scope": "executions through horizon5400; each completed task utility counted once",
+      "unserved_tasks_at_end": 29
+    },
+    {
+      "base_id": "P4-test-D2-O-0224",
+      "completed_tasks": 31,
+      "cumulative_active_drops": 1,
+      "cumulative_movement": 0,
+      "delivered_utility": 1688,
+      "expired_unserved_tasks": 20,
+      "failure_to_success_recoveries": 2,
+      "failures": 2,
+      "layer": "D2-O",
+      "method": "Validation-Best-Fixed",
+      "online_success_events": 8,
+      "scope": "executions through horizon5400; each completed task utility counted once",
+      "unserved_tasks_at_end": 29
+    },
+    {
+      "base_id": "P4-test-D2-O-0224",
+      "completed_tasks": 31,
+      "cumulative_active_drops": 0,
+      "cumulative_movement": 0,
+      "delivered_utility": 1632,
+      "expired_unserved_tasks": 20,
+      "failure_to_success_recoveries": 2,
+      "failures": 2,
+      "layer": "D2-O",
+      "method": "Rule-PALR",
+      "online_success_events": 8,
+      "scope": "executions through horizon5400; each completed task utility counted once",
+      "unserved_tasks_at_end": 29
+    }
+  ]
+}

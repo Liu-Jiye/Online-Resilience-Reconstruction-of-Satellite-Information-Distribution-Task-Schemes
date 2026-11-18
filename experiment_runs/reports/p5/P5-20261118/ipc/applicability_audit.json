@@ -1,0 +1,1125 @@
+{
+  "applicability": {
+    "flattened_isl_surrogate_used": false,
+    "initial_solvable_count": "not_run",
+    "initial_solve_attempts": "not_run",
+    "parse_scope": "balanced S-expression and structural sections; not semantic type/action validation",
+    "performance_events": "not_run",
+    "reason": "Full durative actions, numeric state and goal semantics have no implemented adapter; user approved applicability-only branch",
+    "temporal_plan_validator_adapter": false,
+    "temporal_planner_adapter": false,
+    "validated_initial_plans": "not_run"
+  },
+  "commit": "cf19edf7c53d1540ddbb396c642595e0926ee552",
+  "counts": {
+    "domain_files": 2,
+    "parse_failures": 0,
+    "parsed_problem_files": 40,
+    "problem_files": 40,
+    "unique_problem_token_streams": 40,
+    "unique_problems_after_identifier_normalization": 40
+  },
+  "cross_directory_pairs": [
+    {
+      "instance_number": 1,
+      "paths": [
+        "ipc-2002/domains/satellite-time-automatic/instances/instance-1.pddl",
+        "ipc-2002/domains/satellite-time-simple-automatic/instances/instance-1.pddl"
+      ],
+      "same_goals": true,
+      "same_initial_facts": false,
+      "same_objects": true
+    },
+    {
+      "instance_number": 2,
+      "paths": [
+        "ipc-2002/domains/satellite-time-automatic/instances/instance-2.pddl",
+        "ipc-2002/domains/satellite-time-simple-automatic/instances/instance-2.pddl"
+      ],
+      "same_goals": true,
+      "same_initial_facts": false,
+      "same_objects": true
+    },
+    {
+      "instance_number": 3,
+      "paths": [
+        "ipc-2002/domains/satellite-time-automatic/instances/instance-3.pddl",
+        "ipc-2002/domains/satellite-time-simple-automatic/instances/instance-3.pddl"
+      ],
+      "same_goals": true,
+      "same_initial_facts": false,
+      "same_objects": true
+    },
+    {
+      "instance_number": 4,
+      "paths": [
+        "ipc-2002/domains/satellite-time-automatic/instances/instance-4.pddl",
+        "ipc-2002/domains/satellite-time-simple-automatic/instances/instance-4.pddl"
+      ],
+      "same_goals": true,
+      "same_initial_facts": false,
+      "same_objects": true
+    },
+    {
+      "instance_number": 5,
+      "paths": [
+        "ipc-2002/domains/satellite-time-automatic/instances/instance-5.pddl",
+        "ipc-2002/domains/satellite-time-simple-automatic/instances/instance-5.pddl"
+      ],
+      "same_goals": true,
+      "same_initial_facts": false,
+      "same_objects": true
+    },
+    {
+      "instance_number": 6,
+      "paths": [
+        "ipc-2002/domains/satellite-time-automatic/instances/instance-6.pddl",
+        "ipc-2002/domains/satellite-time-simple-automatic/instances/instance-6.pddl"
+      ],
+      "same_goals": true,
+      "same_initial_facts": false,
+      "same_objects": true
+    },
+    {
+      "instance_number": 7,
+      "paths": [
+        "ipc-2002/domains/satellite-time-automatic/instances/instance-7.pddl",
+        "ipc-2002/domains/satellite-time-simple-automatic/instances/instance-7.pddl"
+      ],
+      "same_goals": true,
+      "same_initial_facts": false,
+      "same_objects": true
+    },
+    {
+      "instance_number": 8,
+      "paths": [
+        "ipc-2002/domains/satellite-time-automatic/instances/instance-8.pddl",
+        "ipc-2002/domains/satellite-time-simple-automatic/instances/instance-8.pddl"
+      ],
+      "same_goals": true,
+      "same_initial_facts": false,
+      "same_objects": true
+    },
+    {
+      "instance_number": 9,
+      "paths": [
+        "ipc-2002/domains/satellite-time-automatic/instances/instance-9.pddl",
+        "ipc-2002/domains/satellite-time-simple-automatic/instances/instance-9.pddl"
+      ],
+      "same_goals": true,
+      "same_initial_facts": false,
+      "same_objects": true
+    },
+    {
+      "instance_number": 10,
+      "paths": [
+        "ipc-2002/domains/satellite-time-automatic/instances/instance-10.pddl",
+        "ipc-2002/domains/satellite-time-simple-automatic/instances/instance-10.pddl"
+      ],
+      "same_goals": true,
+      "same_initial_facts": false,
+      "same_objects": true
+    },
+    {
+      "instance_number": 11,
+      "paths": [
+        "ipc-2002/domains/satellite-time-automatic/instances/instance-11.pddl",
+        "ipc-2002/domains/satellite-time-simple-automatic/instances/instance-11.pddl"
+      ],
+      "same_goals": true,
+      "same_initial_facts": false,
+      "same_objects": true
+    },
+    {
+      "instance_number": 12,
+      "paths": [
+        "ipc-2002/domains/satellite-time-automatic/instances/instance-12.pddl",
+        "ipc-2002/domains/satellite-time-simple-automatic/instances/instance-12.pddl"
+      ],
+      "same_goals": true,
+      "same_initial_facts": false,
+      "same_objects": true
+    },
+    {
+      "instance_number": 13,
+      "paths": [
+        "ipc-2002/domains/satellite-time-automatic/instances/instance-13.pddl",
+        "ipc-2002/domains/satellite-time-simple-automatic/instances/instance-13.pddl"
+      ],
+      "same_goals": true,
+      "same_initial_facts": false,
+      "same_objects": true
+    },
+    {
+      "instance_number": 14,
+      "paths": [
+        "ipc-2002/domains/satellite-time-automatic/instances/instance-14.pddl",
+        "ipc-2002/domains/satellite-time-simple-automatic/instances/instance-14.pddl"
+      ],
+      "same_goals": true,
+      "same_initial_facts": false,
+      "same_objects": true
+    },
+    {
+      "instance_number": 15,
+      "paths": [
+        "ipc-2002/domains/satellite-time-automatic/instances/instance-15.pddl",
+        "ipc-2002/domains/satellite-time-simple-automatic/instances/instance-15.pddl"
+      ],
+      "same_goals": true,
+      "same_initial_facts": false,
+      "same_objects": true
+    },
+    {
+      "instance_number": 16,
+      "paths": [
+        "ipc-2002/domains/satellite-time-automatic/instances/instance-16.pddl",
+        "ipc-2002/domains/satellite-time-simple-automatic/instances/instance-16.pddl"
+      ],
+      "same_goals": true,
+      "same_initial_facts": false,
+      "same_objects": true
+    },
+    {
+      "instance_number": 17,
+      "paths": [
+        "ipc-2002/domains/satellite-time-automatic/instances/instance-17.pddl",
+        "ipc-2002/domains/satellite-time-simple-automatic/instances/instance-17.pddl"
+      ],
+      "same_goals": true,
+      "same_initial_facts": false,
+      "same_objects": true
+    },
+    {
+      "instance_number": 18,
+      "paths": [
+        "ipc-2002/domains/satellite-time-automatic/instances/instance-18.pddl",
+        "ipc-2002/domains/satellite-time-simple-automatic/instances/instance-18.pddl"
+      ],
+      "same_goals": true,
+      "same_initial_facts": false,
+      "same_objects": true
+    },
+    {
+      "instance_number": 19,
+      "paths": [
+        "ipc-2002/domains/satellite-time-automatic/instances/instance-19.pddl",
+        "ipc-2002/domains/satellite-time-simple-automatic/instances/instance-19.pddl"
+      ],
+      "same_goals": true,
+      "same_initial_facts": false,
+      "same_objects": true
+    },
+    {
+      "instance_number": 20,
+      "paths": [
+        "ipc-2002/domains/satellite-time-automatic/instances/instance-20.pddl",
+        "ipc-2002/domains/satellite-time-simple-automatic/instances/instance-20.pddl"
+      ],
+      "same_goals": true,
+      "same_initial_facts": false,
+      "same_objects": true
+    }
+  ],
+  "errors": [],
+  "exact_normalized_duplicate_groups": [],
+  "files": [
+    {
+      "bytes": 2676,
+      "declared_name": "satellite",
+      "domain_directory": "satellite-time-automatic",
+      "durative_actions": 5,
+      "init_forms": 0,
+      "kind": "domain",
+      "normalized_token_sha256": "49cdc5606b53d912b47d349c9a0eeb7db2c117f9586357a662d2148be7b91ddf",
+      "numeric_operators": {
+        "=": 6
+      },
+      "objects_tokens": 0,
+      "parsed": true,
+      "path": "ipc-2002/domains/satellite-time-automatic/domain.pddl",
+      "requirements": [
+        ":strips",
+        ":equality",
+        ":typing",
+        ":fluents",
+        ":durative-actions"
+      ],
+      "sha256": "f0c6ddc6fc8b1a220866cec2482e7aa3709c4d2cca22783f7d184f9d73b8e7c1",
+      "url": "https://raw.githubusercontent.com/potassco/pddl-instances/cf19edf7c53d1540ddbb396c642595e0926ee552/ipc-2002/domains/satellite-time-automatic/domain.pddl"
+    },
+    {
+      "bytes": 2647,
+      "declared_name": "strips-sat-x-1",
+      "domain_directory": "satellite-time-automatic",
+      "durative_actions": 0,
+      "goal_sha256": "7236b3cc0d8ba8a8b25bf440a79324d413df7ad82d9266f97097b6ad1f6321e6",
+      "identifier_normalized_sha256": "b212cd9f6ddbab5ec8668a36f3a92b0c9a509c5290e279c39a4364edeb058c1c",
+      "init_forms": 48,
+      "init_sha256": "92b390a0aa72665ee0fc96a2fcacc4bc1cafb4fe7a76c4b0d55fb8d3e8a321f3",
+      "kind": "problem",
+      "normalized_token_sha256": "fce19148a088a8761d6e2ac515a4290de2ab7c2046a7238ecacbbc2a658e838c",
+      "numeric_operators": {
+        "=": 43
+      },
+      "objects_sha256": "f450b88f0b41ad05c186b6d5f7f98c4f2a73a2415d47fb5c24bc8db5c940e513",
+      "objects_tokens": 36,
+      "parsed": true,
+      "path": "ipc-2002/domains/satellite-time-automatic/instances/instance-1.pddl",
+      "requirements": [],
+      "sha256": "ac90a0524c302b272089e60f9d46442b78f58258730d8a2afa5e9f0543100fe9",
+      "url": "https://raw.githubusercontent.com/potassco/pddl-instances/cf19edf7c53d1540ddbb396c642595e0926ee552/ipc-2002/domains/satellite-time-automatic/instances/instance-1.pddl"
+    },
+    {
+      "bytes": 14597,
+      "declared_name": "strips-sat-x-1",
+      "domain_directory": "satellite-time-automatic",
+      "durative_actions": 0,
+      "goal_sha256": "f336710493f40e454cd10e66942c2f71c759fe3d74d66db2c2abd598da98ebf5",
+      "identifier_normalized_sha256": "50c6bc7c108f4b67aeb0c223194beecd5d3d880347e43c6d06a797ea5bb0307e",
+      "init_forms": 338,
+      "init_sha256": "055b9fc3863673516b2abd7369004da34fc419cafe31f2a4a4be0962afcc4abb",
+      "kind": "problem",
+      "normalized_token_sha256": "f86986f12f43a622cb3955272485b933e6bd0cb81bf4d2837e0749bb8c10ddf7",
+      "numeric_operators": {
+        "=": 283
+      },
+      "objects_sha256": "5abfff489c6f68b7e879c26d5d3e2409236a2d5f00fc742ebdd1bc8276417623",
+      "objects_tokens": 114,
+      "parsed": true,
+      "path": "ipc-2002/domains/satellite-time-automatic/instances/instance-10.pddl",
+      "requirements": [],
+      "sha256": "c899261555f39a33ab13c00eb9fa27f0e80b88cf305aa66155b13b25e0737f49",
+      "url": "https://raw.githubusercontent.com/potassco/pddl-instances/cf19edf7c53d1540ddbb396c642595e0926ee552/ipc-2002/domains/satellite-time-automatic/instances/instance-10.pddl"
+    },
+    {
+      "bytes": 18553,
+      "declared_name": "strips-sat-x-1",
+      "domain_directory": "satellite-time-automatic",
+      "durative_actions": 0,
+      "goal_sha256": "24d46e3896337c97b6b5a1af730e7ea8dc402d285948f2b8ff42e1343256fbaa",
+      "identifier_normalized_sha256": "314d02b7564db9560d1ffdc72012a72cdfd9ada177adedc07207f14f3e56065e",
+      "init_forms": 435,
+      "init_sha256": "fbeca702cf45fb28c3782c1ff0ad056a203aa1a6aea6df96bf16d4fcdf86147e",
+      "kind": "problem",
+      "normalized_token_sha256": "dcf10819ad95c6655b0e416f1967ac436a42e61c85e071cfd92a8cd0a6624d09",
+      "numeric_operators": {
+        "=": 389
+      },
+      "objects_sha256": "2fd6e38d371a17536461dab13b6c64928ab3a43350285cae18725327955fa638",
+      "objects_tokens": 117,
+      "parsed": true,
+      "path": "ipc-2002/domains/satellite-time-automatic/instances/instance-11.pddl",
+      "requirements": [],
+      "sha256": "4bd9eea5ec52f1352c029a5acf2a5beaec95923bd693a4e89eeb2a08e6e32846",
+      "url": "https://raw.githubusercontent.com/potassco/pddl-instances/cf19edf7c53d1540ddbb396c642595e0926ee552/ipc-2002/domains/satellite-time-automatic/instances/instance-11.pddl"
+    },
+    {
+      "bytes": 28206,
+      "declared_name": "strips-sat-x-1",
+      "domain_directory": "satellite-time-automatic",
+      "durative_actions": 0,
+      "goal_sha256": "45def1dbba6f059242caa43ef365c6c1834f68b31e2253f9666ffa6e5a2a20ae",
+      "identifier_normalized_sha256": "e1defd29b9465ccb341dfa5ef2c3f18df5c29fefd042004f1ece39a9c6e19cb5",
+      "init_forms": 661,
+      "init_sha256": "c7a502d5a4facfb2b8bca172389f0e5fed6bd20bb13c6c4951549f4adab4e0b2",
+      "kind": "problem",
+      "normalized_token_sha256": "fc2b7bc8941506afc64ac8e05a57931c5fc05ccb75799a0b24d5065982f3a316",
+      "numeric_operators": {
+        "=": 610
+      },
+      "objects_sha256": "c29ed82012402e4f2701d094787ca859e284436c9c3baf49d61e564adf36f3a4",
+      "objects_tokens": 135,
+      "parsed": true,
+      "path": "ipc-2002/domains/satellite-time-automatic/instances/instance-12.pddl",
+      "requirements": [],
+      "sha256": "9e09692a54a34786a759266eb6a216595fa1fc9c4cd13c4a48576f78b71e06c8",
+      "url": "https://raw.githubusercontent.com/potassco/pddl-instances/cf19edf7c53d1540ddbb396c642595e0926ee552/ipc-2002/domains/satellite-time-automatic/instances/instance-12.pddl"
+    },
+    {
+      "bytes": 40068,
+      "declared_name": "strips-sat-x-1",
+      "domain_directory": "satellite-time-automatic",
+      "durative_actions": 0,
+      "goal_sha256": "c7e23fd431d87390cd2cf1423206c29b649116530b5d52d0e930c2929783691a",
+      "identifier_normalized_sha256": "8892216da557ca1bbbd20c5856847a0a74d35f7b9d5e7d7d511d12e3213587c2",
+      "init_forms": 925,
+      "init_sha256": "53546856e42d2d66b13c7965f253548bba626fe67baef1760558a88c8279e8a9",
+      "kind": "problem",
+      "normalized_token_sha256": "dce13fd4e3db674026616f76612e956a3f6614f2bcdabb8de293d5f3cba53913",
+      "numeric_operators": {
+        "=": 879
+      },
+      "objects_sha256": "a9843dd32ccd7d9df224c86771bd28af9d544333ba9f0d24693487b44be47c29",
+      "objects_tokens": 147,
+      "parsed": true,
+      "path": "ipc-2002/domains/satellite-time-automatic/instances/instance-13.pddl",
+      "requirements": [],
+      "sha256": "c90a52afc961d5819d3e7cfb598e373f8ececa89d86e8421a1d86ecef647a46e",
+      "url": "https://raw.githubusercontent.com/potassco/pddl-instances/cf19edf7c53d1540ddbb396c642595e0926ee552/ipc-2002/domains/satellite-time-automatic/instances/instance-13.pddl"
+    },
+    {
+      "bytes": 31307,
+      "declared_name": "strips-sat-x-1",
+      "domain_directory": "satellite-time-automatic",
+      "durative_actions": 0,
+      "goal_sha256": "b255f9d3419c509d93ddc789913a9781f278eb23ae989db56875959065d7536c",
+      "identifier_normalized_sha256": "2fafaf3346b265c3a6d3b51ea30db8a3ac0a0df834bb415a6e95bcca4e268f78",
+      "init_forms": 675,
+      "init_sha256": "cfd7a3c1e3b449e11348add8cc76c75d0af3631977bf3931d2fdf34fcf2e6bd3",
+      "kind": "problem",
+      "normalized_token_sha256": "57e7137980526bc5b0087f293b696a791c1b71e3f4050cc286e41217ec374c0d",
+      "numeric_operators": {
+        "=": 612
+      },
+      "objects_sha256": "cddcd141178abef257c2e6eee1c6b8e2e3adac7f295d430a4707166811f4d2ac",
+      "objects_tokens": 144,
+      "parsed": true,
+      "path": "ipc-2002/domains/satellite-time-automatic/instances/instance-14.pddl",
+      "requirements": [],
+      "sha256": "e40d1c03387b34bfa72c2c863d3303f31ca09dddc0ab32d27a872dc29c16aade",
+      "url": "https://raw.githubusercontent.com/potassco/pddl-instances/cf19edf7c53d1540ddbb396c642595e0926ee552/ipc-2002/domains/satellite-time-automatic/instances/instance-14.pddl"
+    },
+    {
+      "bytes": 30973,
+      "declared_name": "strips-sat-x-1",
+      "domain_directory": "satellite-time-automatic",
+      "durative_actions": 0,
+      "goal_sha256": "2abdfb0855c0d4beed9791124b566be958a9ae9e9a044200e879307a01f50150",
+      "identifier_normalized_sha256": "f0965608b3b42060a4a71e7ca2a89c78386b62d18bb8531544a22eddb4110bcf",
+      "init_forms": 704,
+      "init_sha256": "8d7c037ee4337905c5aa1741535607d5b46b59ef4ebf4ada6752f7edf4f1fd7a",
+      "kind": "problem",
+      "normalized_token_sha256": "65ecc08d0efb1ce80859719c6f12397962e0adcab2d37cf94e36f085f7120561",
+      "numeric_operators": {
+        "=": 619
+      },
+      "objects_sha256": "f3e7694e4e00151ba2ebf9e655354b9c898eab62e78ac1c79eac7feaa907e669",
+      "objects_tokens": 171,
+      "parsed": true,
+      "path": "ipc-2002/domains/satellite-time-automatic/instances/instance-15.pddl",
+      "requirements": [],
+      "sha256": "b12a59d2a242fc383d9d67e2ad6d2518bc8f8c0be12523e8fb275392f9422b9e",
+      "url": "https://raw.githubusercontent.com/potassco/pddl-instances/cf19edf7c53d1540ddbb396c642595e0926ee552/ipc-2002/domains/satellite-time-automatic/instances/instance-15.pddl"
+    },
+    {
+      "bytes": 32754,
+      "declared_name": "strips-sat-x-1",
+      "domain_directory": "satellite-time-automatic",
+      "durative_actions": 0,
+      "goal_sha256": "87fa56e5a3150a698b1ce1a1ad128b303a0850a31e00eb447192765e8cbaab61",
+      "identifier_normalized_sha256": "44e021a4852022114cbcc83fb31dc09774836ed970e0ac3b837ecdff061b9708",
+      "init_forms": 734,
+      "init_sha256": "4903628e09e572b378c149f0a8cdfea055b18e1f20e505fda57d461582c52785",
+      "kind": "problem",
+      "normalized_token_sha256": "bfbdd3a2c51363bfb405551c2c350871fd3914b5b5ed4f8b5590da49aea6aace",
+      "numeric_operators": {
+        "=": 623
+      },
+      "objects_sha256": "e647282608204c1f7aff0095b00a00190bbc76a374f263dc2994f9afe8599477",
+      "objects_tokens": 189,
+      "parsed": true,
+      "path": "ipc-2002/domains/satellite-time-automatic/instances/instance-16.pddl",
+      "requirements": [],
+      "sha256": "6cd9912464d573a2e03d6d9533b9455a1181b700482b92cccfbd7e52b709362c",
+      "url": "https://raw.githubusercontent.com/potassco/pddl-instances/cf19edf7c53d1540ddbb396c642595e0926ee552/ipc-2002/domains/satellite-time-automatic/instances/instance-16.pddl"
+    },
+    {
+      "bytes": 33663,
+      "declared_name": "strips-sat-x-1",
+      "domain_directory": "satellite-time-automatic",
+      "durative_actions": 0,
+      "goal_sha256": "7f022b413bb35f65523e7ac7e5448f9bda61688668d9255e7faff0583dea5a8b",
+      "identifier_normalized_sha256": "6d87a65c86e3f59f651a1ce2fb3f7fdc17c3c239f160f16088b8998cd3305e15",
+      "init_forms": 738,
+      "init_sha256": "5c64d3a65c29647d5906e841c7d12e78518acfe3170a67cb035f6e283c74a015",
+      "kind": "problem",
+      "normalized_token_sha256": "ee46d953f91583ac43596ec93bdb9d91a7753539e8adcae1727f49fe917ed33c",
+      "numeric_operators": {
+        "=": 624
+      },
+      "objects_sha256": "2cd0a21702dd175c0d0a4bd4e17718363565ad768e315ee94ccbc8550705dc6a",
+      "objects_tokens": 198,
+      "parsed": true,
+      "path": "ipc-2002/domains/satellite-time-automatic/instances/instance-17.pddl",
+      "requirements": [],
+      "sha256": "57f5fde082321eca34c224410f3a68692a79707d79ce689e38f1a410f35cd477",
+      "url": "https://raw.githubusercontent.com/potassco/pddl-instances/cf19edf7c53d1540ddbb396c642595e0926ee552/ipc-2002/domains/satellite-time-automatic/instances/instance-17.pddl"
+    },
+    {
+      "bytes": 29451,
+      "declared_name": "strips-sat-x-1",
+      "domain_directory": "satellite-time-automatic",
+      "durative_actions": 0,
+      "goal_sha256": "0ed01c758c86413dd8d6e090d99a96084f7e1801b8268f7475e54c5835f77532",
+      "identifier_normalized_sha256": "1ca19e092d1854038b88b7591e8c43e86f7bb339248be638651e843ca2c8677f",
+      "init_forms": 671,
+      "init_sha256": "de3e3a402849f974a5e097a284f702c0218d477c6e0e56c2caf7d08c93b638ed",
+      "kind": "problem",
+      "normalized_token_sha256": "9b7568023b1686ee0262de3d3725f147353017e629c713fafce9d35cbc35ab95",
+      "numeric_operators": {
+        "=": 613
+      },
+      "objects_sha256": "2dc48ead9342d020fc2b12bb3aa1b7c9363d856816447590b9db6aba48c7fa1b",
+      "objects_tokens": 144,
+      "parsed": true,
+      "path": "ipc-2002/domains/satellite-time-automatic/instances/instance-18.pddl",
+      "requirements": [],
+      "sha256": "a7785f9ede730f14c357684b1c43875aa8ba4d706605af8b4e2a7fc9f4818b9f",
+      "url": "https://raw.githubusercontent.com/potassco/pddl-instances/cf19edf7c53d1540ddbb396c642595e0926ee552/ipc-2002/domains/satellite-time-automatic/instances/instance-18.pddl"
+    },
+    {
+      "bytes": 32801,
+      "declared_name": "strips-sat-x-1",
+      "domain_directory": "satellite-time-automatic",
+      "durative_actions": 0,
+      "goal_sha256": "c6baf01b5ae48cb17cbd97ff0a6b8188ba83f18f856a7087068782990b7ca7ff",
+      "identifier_normalized_sha256": "cf252e2471de4fab5759f3aa1558f14f9108296c4f3949feb7c468e9c3eb5848",
+      "init_forms": 734,
+      "init_sha256": "d12ac3a4f2b36c50b6918b912110b4f8f10326c779f626884bf4928690159f6e",
+      "kind": "problem",
+      "normalized_token_sha256": "f2c172ae9ec54f499459f19b8ce5ab8ece7cadaf5dd5996d5ec87e7ed061c534",
+      "numeric_operators": {
+        "=": 625
+      },
+      "objects_sha256": "5f0827c5ff0fb2082b26ed1e6c7ab3b4644ef5ea4cfcf542d1d0c2df19ca555f",
+      "objects_tokens": 189,
+      "parsed": true,
+      "path": "ipc-2002/domains/satellite-time-automatic/instances/instance-19.pddl",
+      "requirements": [],
+      "sha256": "44c9972ccf51cb1fea4fc5464986db22ad0ad9f9b272cc7ee2d3730dd70d780f",
+      "url": "https://raw.githubusercontent.com/potassco/pddl-instances/cf19edf7c53d1540ddbb396c642595e0926ee552/ipc-2002/domains/satellite-time-automatic/instances/instance-19.pddl"
+    },
+    {
+      "bytes": 3512,
+      "declared_name": "strips-sat-x-1",
+      "domain_directory": "satellite-time-automatic",
+      "durative_actions": 0,
+      "goal_sha256": "152572e975b49b736380e175dd26da80b3393b5dbaa89a3db768b92c45028fa7",
+      "identifier_normalized_sha256": "8ccb7b86466600e65bbb9ec6dfb8d7febe75a1d762d4bfcec503c19669b2e428",
+      "init_forms": 69,
+      "init_sha256": "b8e8f731a1dead43db160cf8f459ab75107adfb86e8a62d4ad42b09cba47e5cc",
+      "kind": "problem",
+      "normalized_token_sha256": "45fe241b052dd92287b355238bf38de15432b556ac2990caac49a3f70ed421dc",
+      "numeric_operators": {
+        "=": 58
+      },
+      "objects_sha256": "7a7cefd39c2e4656ca9ca60a9197f57c1886788c8e7c4df5bf648515047707f2",
+      "objects_tokens": 42,
+      "parsed": true,
+      "path": "ipc-2002/domains/satellite-time-automatic/instances/instance-2.pddl",
+      "requirements": [],
+      "sha256": "42fcfd9172ba697928fc9f251946ac95e660850675283421bb67f6235bb12bb4",
+      "url": "https://raw.githubusercontent.com/potassco/pddl-instances/cf19edf7c53d1540ddbb396c642595e0926ee552/ipc-2002/domains/satellite-time-automatic/instances/instance-2.pddl"
+    },
+    {
+      "bytes": 34060,
+      "declared_name": "strips-sat-x-1",
+      "domain_directory": "satellite-time-automatic",
+      "durative_actions": 0,
+      "goal_sha256": "b1c49ac9ab3b526775b2fb531e8ccc92928bab77c0ed28265ebf045338214cae",
+      "identifier_normalized_sha256": "6bf61aa289de0995b89c11b25bfb7daba89659d303d9272d11e5b699c64fb27c",
+      "init_forms": 751,
+      "init_sha256": "792efafc41c7b0e946026ecf7c728d048750e0b8f5910817d4adab590dbac79b",
+      "kind": "problem",
+      "normalized_token_sha256": "3fb5252f4d5e3aeea6c5dac0aaf99b986ae3881a0561f94f2413449cc1bd06d1",
+      "numeric_operators": {
+        "=": 629
+      },
+      "objects_sha256": "a70616a6490c2b61effbbc9587a0213b35bfa99f6c455f0a401e1fd2e49d4742",
+      "objects_tokens": 207,
+      "parsed": true,
+      "path": "ipc-2002/domains/satellite-time-automatic/instances/instance-20.pddl",
+      "requirements": [],
+      "sha256": "86c40ba8f2f9f02939c19e5e216cf5ca517f4a5f3fd1e71380d3147a1d538481",
+      "url": "https://raw.githubusercontent.com/potassco/pddl-instances/cf19edf7c53d1540ddbb396c642595e0926ee552/ipc-2002/domains/satellite-time-automatic/instances/instance-20.pddl"
+    },
+    {
+      "bytes": 3757,
+      "declared_name": "strips-sat-x-1",
+      "domain_directory": "satellite-time-automatic",
+      "durative_actions": 0,
+      "goal_sha256": "359dab1fab30afee55fc85cdbdf784d8cdce2621836982a7d60eaf579eb01508",
+      "identifier_normalized_sha256": "8156d29b35427cb80214df476ee81ff785636d11520493f0ae62b3d6facbb41f",
+      "init_forms": 80,
+      "init_sha256": "69cbdf18327a6876bd3aa3c109e5f04b543a0bfc8e7a0c1d59a682c89b46a29f",
+      "kind": "problem",
+      "normalized_token_sha256": "b293032a45a9d386f56a57bde7be1cdae29bb594ad8635c55f0d531e9f537447",
+      "numeric_operators": {
+        "=": 60
+      },
+      "objects_sha256": "4bac0ff151a7b8a6226ddf6788322dd1ed8639d5787a72f85b06a32264cd7dcc",
+      "objects_tokens": 51,
+      "parsed": true,
+      "path": "ipc-2002/domains/satellite-time-automatic/instances/instance-3.pddl",
+      "requirements": [],
+      "sha256": "3f544b9e9a521bf7c3e241238c63a3bba814b5ed4ab1c2885e075803b1c4e781",
+      "url": "https://raw.githubusercontent.com/potassco/pddl-instances/cf19edf7c53d1540ddbb396c642595e0926ee552/ipc-2002/domains/satellite-time-automatic/instances/instance-3.pddl"
+    },
+    {
+      "bytes": 5102,
+      "declared_name": "strips-sat-x-1",
+      "domain_directory": "satellite-time-automatic",
+      "durative_actions": 0,
+      "goal_sha256": "42ec4e3423417c16d5ba3f74e19b84bcc2c186119bae85fa55282f837ca6f9aa",
+      "identifier_normalized_sha256": "623a0fa58d23340b08895d4d62f46147c0e29b36159a744593354d61ebecdc3d",
+      "init_forms": 110,
+      "init_sha256": "ecbc00659478724e14de9db4854c7fd83833ab5093e53c4c48dd834116f84155",
+      "kind": "problem",
+      "normalized_token_sha256": "347d4ada97d24a9610d0615a013a26a0d7cb5357f8d897205e64e5e46aeead4b",
+      "numeric_operators": {
+        "=": 93
+      },
+      "objects_sha256": "6d636ad0692684dbc947758c77dbcfddf4b9fd526171af19527bdaf92126b1ed",
+      "objects_tokens": 54,
+      "parsed": true,
+      "path": "ipc-2002/domains/satellite-time-automatic/instances/instance-4.pddl",
+      "requirements": [],
+      "sha256": "62adb26e1f078af5a02bd98094a19ccb3cc504252be6c042c5548552a5059c6e",
+      "url": "https://raw.githubusercontent.com/potassco/pddl-instances/cf19edf7c53d1540ddbb396c642595e0926ee552/ipc-2002/domains/satellite-time-automatic/instances/instance-4.pddl"
+    },
+    {
+      "bytes": 7127,
+      "declared_name": "strips-sat-x-1",
+      "domain_directory": "satellite-time-automatic",
+      "durative_actions": 0,
+      "goal_sha256": "f3238446ddf799e106a9aede94c1f2fd4d0e5e8952fdb100f8b270ec9635b604",
+      "identifier_normalized_sha256": "8e53527c7365cbc8cddafd898c3aa4d5d5b49f97c63bde458e268ee4a8040392",
+      "init_forms": 143,
+      "init_sha256": "1796c4f948bd0a4f287a984bcfff6e903304b4bb633863bda55ded35f72123c7",
+      "kind": "problem",
+      "normalized_token_sha256": "bf0d2d328dc95c27cf324322b4f24466fdceefbba7e3d59ae71764f04e9822d6",
+      "numeric_operators": {
+        "=": 99
+      },
+      "objects_sha256": "32f5f71cc58aec32234a020e8df5107c9ad48d50132cb254c3adb6c180872ae3",
+      "objects_tokens": 75,
+      "parsed": true,
+      "path": "ipc-2002/domains/satellite-time-automatic/instances/instance-5.pddl",
+      "requirements": [],
+      "sha256": "0c11bb83b4be19e8ce6c9cd664d5ca5372b522450d650060043912b1ceec8720",
+      "url": "https://raw.githubusercontent.com/potassco/pddl-instances/cf19edf7c53d1540ddbb396c642595e0926ee552/ipc-2002/domains/satellite-time-automatic/instances/instance-5.pddl"
+    },
+    {
+      "bytes": 6243,
+      "declared_name": "strips-sat-x-1",
+      "domain_directory": "satellite-time-automatic",
+      "durative_actions": 0,
+      "goal_sha256": "a5ba798dd7740cae9b83a1b494d88a80305bab1163eed8ae038ea7c5ba8b33b8",
+      "identifier_normalized_sha256": "dfb9d230f27b1026c50382e49d9c84931a7b066ad32649ac061d6a91de635b95",
+      "init_forms": 141,
+      "init_sha256": "702e4e4e87baff0ecc8c29a83458c145b0f2cd7cc0460166fa4442a14760de24",
+      "kind": "problem",
+      "normalized_token_sha256": "54e120aa29454503a5906f2b561a6b00b8a80cc373ff4e8440f721e783dc4fff",
+      "numeric_operators": {
+        "=": 115
+      },
+      "objects_sha256": "8983cc0dff74f752d96144a320dff90a863b21fd82e7e21256bef88fe6512b68",
+      "objects_tokens": 69,
+      "parsed": true,
+      "path": "ipc-2002/domains/satellite-time-automatic/instances/instance-6.pddl",
+      "requirements": [],
+      "sha256": "7abf79af26ba3dc8421e90adc8fd1f4e9b56b2d5ed3ac9e0f97183422ef732fe",
+      "url": "https://raw.githubusercontent.com/potassco/pddl-instances/cf19edf7c53d1540ddbb396c642595e0926ee552/ipc-2002/domains/satellite-time-automatic/instances/instance-6.pddl"
+    },
+    {
+      "bytes": 8399,
+      "declared_name": "strips-sat-x-1",
+      "domain_directory": "satellite-time-automatic",
+      "durative_actions": 0,
+      "goal_sha256": "bad7a14634f7b0f5da673c63ba2f20431996ae739370b8799b83e6a2954a0f3a",
+      "identifier_normalized_sha256": "7d4391e20a62a031325e433df96b6117dccbe8147e132ff8a71f6d2981ec0859",
+      "init_forms": 181,
+      "init_sha256": "cdbc36a1f45044594a05abcddbb1d204ca365e183af3be2b770ba52314322d3a",
+      "kind": "problem",
+      "normalized_token_sha256": "e74ce923de3b016557fd24c7725bc79f9e038c3dfa33b83a6c9b58ffbd93c4d5",
+      "numeric_operators": {
+        "=": 140
+      },
+      "objects_sha256": "b1c46357177baa3eece2ff6e2641b9ff0cfa231529109cdea4160d820f954581",
+      "objects_tokens": 84,
+      "parsed": true,
+      "path": "ipc-2002/domains/satellite-time-automatic/instances/instance-7.pddl",
+      "requirements": [],
+      "sha256": "6652ac372e582e1ee865ac0db21349f679d089f732451a3af936c3623835d247",
+      "url": "https://raw.githubusercontent.com/potassco/pddl-instances/cf19edf7c53d1540ddbb396c642595e0926ee552/ipc-2002/domains/satellite-time-automatic/instances/instance-7.pddl"
+    },
+    {
+      "bytes": 12246,
+      "declared_name": "strips-sat-x-1",
+      "domain_directory": "satellite-time-automatic",
+      "durative_actions": 0,
+      "goal_sha256": "de712ad75ff2b5a7dec7bcf4d15c40f6f78da63589b906896610d4c96acead7d",
+      "identifier_normalized_sha256": "7abe47c9fc4a49c9d7c10b1f4717c0aad6da1e1cde0f86e7c85f6abfd2e25650",
+      "init_forms": 269,
+      "init_sha256": "c5b18b5965407b4c9950adb92e0adc9f8e6e692b7a2af7db20d70b9782288284",
+      "kind": "problem",
+      "normalized_token_sha256": "fdf68b451e515ee89ce5a94d5ded6724c45126b5f7bd88220493dd1f10f03814",
+      "numeric_operators": {
+        "=": 220
+      },
+      "objects_sha256": "143e5b5b6d6e5592a707187a33aaf731676c3d7882958bc594a079cfef4711e4",
+      "objects_tokens": 99,
+      "parsed": true,
+      "path": "ipc-2002/domains/satellite-time-automatic/instances/instance-8.pddl",
+      "requirements": [],
+      "sha256": "d8adfc7959c3d029551553d87cedc69cd3614592969ea4bb0dc79bbe2a643d22",
+      "url": "https://raw.githubusercontent.com/potassco/pddl-instances/cf19edf7c53d1540ddbb396c642595e0926ee552/ipc-2002/domains/satellite-time-automatic/instances/instance-8.pddl"
+    },
+    {
+      "bytes": 12589,
+      "declared_name": "strips-sat-x-1",
+      "domain_directory": "satellite-time-automatic",
+      "durative_actions": 0,
+      "goal_sha256": "e9de54fd154bdff4b197f56002c022cc276106ffc8ed1cda43c38e8f36b9ce80",
+      "identifier_normalized_sha256": "e595c55b92f9e6baa0cf9f73a37ee32715442fab4c48ab6948a53771792f183c",
+      "init_forms": 279,
+      "init_sha256": "7fff3c4421f2a83ddf91260c46a259da4860d2a2de734e0619fc6605904229a1",
+      "kind": "problem",
+      "normalized_token_sha256": "2d3c59262fb01768d8738df8989a554e7866c1971519b060dfe0f9074aebd486",
+      "numeric_operators": {
+        "=": 221
+      },
+      "objects_sha256": "9e132fa80afde3ba391c295943237c3815a30adf33b21bbe70c4b441b2fcac4a",
+      "objects_tokens": 108,
+      "parsed": true,
+      "path": "ipc-2002/domains/satellite-time-automatic/instances/instance-9.pddl",
+      "requirements": [],
+      "sha256": "c78d1f248b048008f9040f138c6ded78745b2a9d69b69e3f7129b7ee025a682d",
+      "url": "https://raw.githubusercontent.com/potassco/pddl-instances/cf19edf7c53d1540ddbb396c642595e0926ee552/ipc-2002/domains/satellite-time-automatic/instances/instance-9.pddl"
+    },
+    {
+      "bytes": 2507,
+      "declared_name": "satellite",
+      "domain_directory": "satellite-time-simple-automatic",
+      "durative_actions": 5,
+      "init_forms": 0,
+      "kind": "domain",
+      "normalized_token_sha256": "c51c5e5b98b0d21b6d24782a86788ee1fa1ff0b8a60191e6afb307c3ba24d060",
+      "numeric_operators": {
+        "=": 6
+      },
+      "objects_tokens": 0,
+      "parsed": true,
+      "path": "ipc-2002/domains/satellite-time-simple-automatic/domain.pddl",
+      "requirements": [
+        ":strips",
+        ":equality",
+        ":typing",
+        ":durative-actions"
+      ],
+      "sha256": "25bb2ca81e1b93092ebdac5c0c6f120dcd630b05b4cc59739131132d852cb8a8",
+      "url": "https://raw.githubusercontent.com/potassco/pddl-instances/cf19edf7c53d1540ddbb396c642595e0926ee552/ipc-2002/domains/satellite-time-simple-automatic/domain.pddl"
+    },
+    {
+      "bytes": 694,
+      "declared_name": "strips-sat-x-1",
+      "domain_directory": "satellite-time-simple-automatic",
+      "durative_actions": 0,
+      "goal_sha256": "7236b3cc0d8ba8a8b25bf440a79324d413df7ad82d9266f97097b6ad1f6321e6",
+      "identifier_normalized_sha256": "ff2f43c8473e0f82daf50a66324af18e99e9ff3e96768d55fe8d721500d008a8",
+      "init_forms": 5,
+      "init_sha256": "046689a7d4ab1abce43c6a63384887c0aad12d6e7b4ab336cbd0b03f2b313858",
+      "kind": "problem",
+      "normalized_token_sha256": "dfdb0b9bb1ce04d07eb0c23dd15464e1e1c724b618cacc2718e222b71a5de048",
+      "numeric_operators": {},
+      "objects_sha256": "f450b88f0b41ad05c186b6d5f7f98c4f2a73a2415d47fb5c24bc8db5c940e513",
+      "objects_tokens": 36,
+      "parsed": true,
+      "path": "ipc-2002/domains/satellite-time-simple-automatic/instances/instance-1.pddl",
+      "requirements": [],
+      "sha256": "33b3bbf9c18971a2eb3d5ac69ed1878c49a7cfad8fb3897dafef056649856471",
+      "url": "https://raw.githubusercontent.com/potassco/pddl-instances/cf19edf7c53d1540ddbb396c642595e0926ee552/ipc-2002/domains/satellite-time-simple-automatic/instances/instance-1.pddl"
+    },
+    {
+      "bytes": 3280,
+      "declared_name": "strips-sat-x-1",
+      "domain_directory": "satellite-time-simple-automatic",
+      "durative_actions": 0,
+      "goal_sha256": "f336710493f40e454cd10e66942c2f71c759fe3d74d66db2c2abd598da98ebf5",
+      "identifier_normalized_sha256": "825a3af2a9e69fafc43146057f9e6410b831d08199ea0708b035cd516e6cc5d4",
+      "init_forms": 55,
+      "init_sha256": "3a282e236d652aac411367b84ab2a54bbe07f906cd456452a34c80edc10768f1",
+      "kind": "problem",
+      "normalized_token_sha256": "169daa22ff2eb1dd68f28eba217bedde6f469b4e29567f1d817e539a6d006c25",
+      "numeric_operators": {},
+      "objects_sha256": "5abfff489c6f68b7e879c26d5d3e2409236a2d5f00fc742ebdd1bc8276417623",
+      "objects_tokens": 114,
+      "parsed": true,
+      "path": "ipc-2002/domains/satellite-time-simple-automatic/instances/instance-10.pddl",
+      "requirements": [],
+      "sha256": "653dc2c2e7e45c8c63ddda99ab917dac24f20c05c0e636e60c5cb18909dc4691",
+      "url": "https://raw.githubusercontent.com/potassco/pddl-instances/cf19edf7c53d1540ddbb396c642595e0926ee552/ipc-2002/domains/satellite-time-simple-automatic/instances/instance-10.pddl"
+    },
+    {
+      "bytes": 3068,
+      "declared_name": "strips-sat-x-1",
+      "domain_directory": "satellite-time-simple-automatic",
+      "durative_actions": 0,
+      "goal_sha256": "24d46e3896337c97b6b5a1af730e7ea8dc402d285948f2b8ff42e1343256fbaa",
+      "identifier_normalized_sha256": "d073928b4d99270e4c4f48bf2b217424be29d4efce74b1021248076e00bc55b4",
+      "init_forms": 46,
+      "init_sha256": "a6832f9dd156f13401dc8d4a566284160b09fc9fa1c886b226e518fd8ddb7695",
+      "kind": "problem",
+      "normalized_token_sha256": "43b53ca718a2f591493f51bbc11c94449423a829e681aae6d8d92b72122fdd64",
+      "numeric_operators": {},
+      "objects_sha256": "2fd6e38d371a17536461dab13b6c64928ab3a43350285cae18725327955fa638",
+      "objects_tokens": 117,
+      "parsed": true,
+      "path": "ipc-2002/domains/satellite-time-simple-automatic/instances/instance-11.pddl",
+      "requirements": [],
+      "sha256": "5fd49e9203b62492912dc9c4a73dd9d65370cff70d0ce5d25158b33113f4e567",
+      "url": "https://raw.githubusercontent.com/potassco/pddl-instances/cf19edf7c53d1540ddbb396c642595e0926ee552/ipc-2002/domains/satellite-time-simple-automatic/instances/instance-11.pddl"
+    },
+    {
+      "bytes": 3585,
+      "declared_name": "strips-sat-x-1",
+      "domain_directory": "satellite-time-simple-automatic",
+      "durative_actions": 0,
+      "goal_sha256": "45def1dbba6f059242caa43ef365c6c1834f68b31e2253f9666ffa6e5a2a20ae",
+      "identifier_normalized_sha256": "166fd49bdea882f2a8780798d5c66f9c80f7a12ae58f90187343bd0775acf4a1",
+      "init_forms": 51,
+      "init_sha256": "63c26d44d2f9312989e4e32015a4b5ea00b453808be2d0a3f399d2de0771dd2a",
+      "kind": "problem",
+      "normalized_token_sha256": "25fdb9c9f8502161e09aa161cb2fe081f05afa94491395390d7e934c1ffec2c0",
+      "numeric_operators": {},
+      "objects_sha256": "c29ed82012402e4f2701d094787ca859e284436c9c3baf49d61e564adf36f3a4",
+      "objects_tokens": 135,
+      "parsed": true,
+      "path": "ipc-2002/domains/satellite-time-simple-automatic/instances/instance-12.pddl",
+      "requirements": [],
+      "sha256": "5320ca561461ecf0c21ba12c709891f4555c095eee5cee916082ef9020fc9126",
+      "url": "https://raw.githubusercontent.com/potassco/pddl-instances/cf19edf7c53d1540ddbb396c642595e0926ee552/ipc-2002/domains/satellite-time-simple-automatic/instances/instance-12.pddl"
+    },
+    {
+      "bytes": 3773,
+      "declared_name": "strips-sat-x-1",
+      "domain_directory": "satellite-time-simple-automatic",
+      "durative_actions": 0,
+      "goal_sha256": "c7e23fd431d87390cd2cf1423206c29b649116530b5d52d0e930c2929783691a",
+      "identifier_normalized_sha256": "6816d163c1cb7efa2f567e5b6c7301f36058bd4b6554b78df4b82fc025164494",
+      "init_forms": 46,
+      "init_sha256": "a98c2de750a2495ecb23acf16f2dcbca445f5e282c9ba7ea3d4f0de4c8fc12a0",
+      "kind": "problem",
+      "normalized_token_sha256": "12a3926a1980aab1da6e0dd561df37bbd0eb8823ac2566f64e7fc2129b3b85b4",
+      "numeric_operators": {},
+      "objects_sha256": "a9843dd32ccd7d9df224c86771bd28af9d544333ba9f0d24693487b44be47c29",
+      "objects_tokens": 147,
+      "parsed": true,
+      "path": "ipc-2002/domains/satellite-time-simple-automatic/instances/instance-13.pddl",
+      "requirements": [],
+      "sha256": "cb0b98c3b0e1c0834349c155de86c6b8d32a5e8a1f5965481acefbe1a343b56e",
+      "url": "https://raw.githubusercontent.com/potassco/pddl-instances/cf19edf7c53d1540ddbb396c642595e0926ee552/ipc-2002/domains/satellite-time-simple-automatic/instances/instance-13.pddl"
+    },
+    {
+      "bytes": 4219,
+      "declared_name": "strips-sat-x-1",
+      "domain_directory": "satellite-time-simple-automatic",
+      "durative_actions": 0,
+      "goal_sha256": "b255f9d3419c509d93ddc789913a9781f278eb23ae989db56875959065d7536c",
+      "identifier_normalized_sha256": "89a8f8e065204b0eb504a5e3f58313823b9ca82ca8a43e8512b3e10f4ed1a4e1",
+      "init_forms": 63,
+      "init_sha256": "3ef747c1df486b6cf30a87a1ae8fc81566ab08bcea4a1bf34f3b60662ab3a1af",
+      "kind": "problem",
+      "normalized_token_sha256": "6d53af9aad0ffdf2e44dc97e834b6f0b0c208c5022a11d69508dbfce089fdd9b",
+      "numeric_operators": {},
+      "objects_sha256": "cddcd141178abef257c2e6eee1c6b8e2e3adac7f295d430a4707166811f4d2ac",
+      "objects_tokens": 144,
+      "parsed": true,
+      "path": "ipc-2002/domains/satellite-time-simple-automatic/instances/instance-14.pddl",
+      "requirements": [],
+      "sha256": "461c26001c920f9da7ca04986208c649cfaf952732dd151dee18d5e9b92b037e",
+      "url": "https://raw.githubusercontent.com/potassco/pddl-instances/cf19edf7c53d1540ddbb396c642595e0926ee552/ipc-2002/domains/satellite-time-simple-automatic/instances/instance-14.pddl"
+    },
+    {
+      "bytes": 5372,
+      "declared_name": "strips-sat-x-1",
+      "domain_directory": "satellite-time-simple-automatic",
+      "durative_actions": 0,
+      "goal_sha256": "2abdfb0855c0d4beed9791124b566be958a9ae9e9a044200e879307a01f50150",
+      "identifier_normalized_sha256": "466a1603c1812f34191c38ddf22cc147d66b8c4faded16903b74bded6b3a6bb6",
+      "init_forms": 85,
+      "init_sha256": "3abdbc277d6e3d8fd6fdcfa2771c5120fdf119f3d465cd7004b7e91b0da87d39",
+      "kind": "problem",
+      "normalized_token_sha256": "013e96008557a8f17c527522be582f20c0afed4a7151166f370df9144687d646",
+      "numeric_operators": {},
+      "objects_sha256": "f3e7694e4e00151ba2ebf9e655354b9c898eab62e78ac1c79eac7feaa907e669",
+      "objects_tokens": 171,
+      "parsed": true,
+      "path": "ipc-2002/domains/satellite-time-simple-automatic/instances/instance-15.pddl",
+      "requirements": [],
+      "sha256": "3c168f108296ed2843ad625567ed5700e1c359b8c61acac0c55650fc72781ffa",
+      "url": "https://raw.githubusercontent.com/potassco/pddl-instances/cf19edf7c53d1540ddbb396c642595e0926ee552/ipc-2002/domains/satellite-time-simple-automatic/instances/instance-15.pddl"
+    },
+    {
+      "bytes": 6384,
+      "declared_name": "strips-sat-x-1",
+      "domain_directory": "satellite-time-simple-automatic",
+      "durative_actions": 0,
+      "goal_sha256": "87fa56e5a3150a698b1ce1a1ad128b303a0850a31e00eb447192765e8cbaab61",
+      "identifier_normalized_sha256": "3ccc24e5b95083016db50741b392fc4f352d33b9b8cff0cd62dd5530bd941c95",
+      "init_forms": 111,
+      "init_sha256": "9d39e212e162dcf8d6f2c4ad1e05fe40435de87232743a6f028673b6794cb261",
+      "kind": "problem",
+      "normalized_token_sha256": "20b6d379c193329e2d332ad142d6d969ffdb766bec6e8daf6ef2142a7275a861",
+      "numeric_operators": {},
+      "objects_sha256": "e647282608204c1f7aff0095b00a00190bbc76a374f263dc2994f9afe8599477",
+      "objects_tokens": 189,
+      "parsed": true,
+      "path": "ipc-2002/domains/satellite-time-simple-automatic/instances/instance-16.pddl",
+      "requirements": [],
+      "sha256": "569c832bf91a26fcf1503c20d8cdff3f6074a924dfcecfd4008e85189f647590",
+      "url": "https://raw.githubusercontent.com/potassco/pddl-instances/cf19edf7c53d1540ddbb396c642595e0926ee552/ipc-2002/domains/satellite-time-simple-automatic/instances/instance-16.pddl"
+    },
+    {
+      "bytes": 6476,
+      "declared_name": "strips-sat-x-1",
+      "domain_directory": "satellite-time-simple-automatic",
+      "durative_actions": 0,
+      "goal_sha256": "7f022b413bb35f65523e7ac7e5448f9bda61688668d9255e7faff0583dea5a8b",
+      "identifier_normalized_sha256": "218f7412c88d1b016fcc0c05fcfc3314a81241b2ee6be1efedb0f27a23dae961",
+      "init_forms": 114,
+      "init_sha256": "d5501793dca2847c5e021d04c114e7ef6d931fabb424d6157f4702139ed7f7df",
+      "kind": "problem",
+      "normalized_token_sha256": "054bd28749e76887a0d04b4c318dcac8da604581d68d83bf602403f4db0e213f",
+      "numeric_operators": {},
+      "objects_sha256": "2cd0a21702dd175c0d0a4bd4e17718363565ad768e315ee94ccbc8550705dc6a",
+      "objects_tokens": 198,
+      "parsed": true,
+      "path": "ipc-2002/domains/satellite-time-simple-automatic/instances/instance-17.pddl",
+      "requirements": [],
+      "sha256": "17b5aaad74a36a44e8e810b300972636fff5ecf01f318d16bbf7734767149b19",
+      "url": "https://raw.githubusercontent.com/potassco/pddl-instances/cf19edf7c53d1540ddbb396c642595e0926ee552/ipc-2002/domains/satellite-time-simple-automatic/instances/instance-17.pddl"
+    },
+    {
+      "bytes": 3767,
+      "declared_name": "strips-sat-x-1",
+      "domain_directory": "satellite-time-simple-automatic",
+      "durative_actions": 0,
+      "goal_sha256": "0ed01c758c86413dd8d6e090d99a96084f7e1801b8268f7475e54c5835f77532",
+      "identifier_normalized_sha256": "61e8704f5d0d2503de8e64da42f5f5ce9bb1a48072a0ce019c2325cc99214ced",
+      "init_forms": 58,
+      "init_sha256": "eaec22ffc9d81bb811f64021c9c3ff24518df3313c3475a720cf8bc94119aa9d",
+      "kind": "problem",
+      "normalized_token_sha256": "1d992bd33871a775b8306f3faebfc339cb6203d16527ab094ada69d295396dec",
+      "numeric_operators": {},
+      "objects_sha256": "2dc48ead9342d020fc2b12bb3aa1b7c9363d856816447590b9db6aba48c7fa1b",
+      "objects_tokens": 144,
+      "parsed": true,
+      "path": "ipc-2002/domains/satellite-time-simple-automatic/instances/instance-18.pddl",
+      "requirements": [],
+      "sha256": "6ce670aa22472a0cc84dbabcc67620ff5c62a58f3f38d34893ffee9031c9f02a",
+      "url": "https://raw.githubusercontent.com/potassco/pddl-instances/cf19edf7c53d1540ddbb396c642595e0926ee552/ipc-2002/domains/satellite-time-simple-automatic/instances/instance-18.pddl"
+    },
+    {
+      "bytes": 6570,
+      "declared_name": "strips-sat-x-1",
+      "domain_directory": "satellite-time-simple-automatic",
+      "durative_actions": 0,
+      "goal_sha256": "c6baf01b5ae48cb17cbd97ff0a6b8188ba83f18f856a7087068782990b7ca7ff",
+      "identifier_normalized_sha256": "c367175801e37583349bc3f55fda39d354867ab62440a03c7041be26b4b36cf1",
+      "init_forms": 109,
+      "init_sha256": "2c5cae0e4ef20947f63a850259be0a6d09f6ee663ecfbb8d7c9275cbb27c1db9",
+      "kind": "problem",
+      "normalized_token_sha256": "b06a74c82d5cbe03c19b6815f36bd6d587e171847d398cb8962be3b4fbac4752",
+      "numeric_operators": {},
+      "objects_sha256": "5f0827c5ff0fb2082b26ed1e6c7ab3b4644ef5ea4cfcf542d1d0c2df19ca555f",
+      "objects_tokens": 189,
+      "parsed": true,
+      "path": "ipc-2002/domains/satellite-time-simple-automatic/instances/instance-19.pddl",
+      "requirements": [],
+      "sha256": "9b6664cfdf3ceb50abd7698ca7c53cc294d7bdb2d10d6bf73d0583693ee455b6",
+      "url": "https://raw.githubusercontent.com/potassco/pddl-instances/cf19edf7c53d1540ddbb396c642595e0926ee552/ipc-2002/domains/satellite-time-simple-automatic/instances/instance-19.pddl"
+    },
+    {
+      "bytes": 983,
+      "declared_name": "strips-sat-x-1",
+      "domain_directory": "satellite-time-simple-automatic",
+      "durative_actions": 0,
+      "goal_sha256": "152572e975b49b736380e175dd26da80b3393b5dbaa89a3db768b92c45028fa7",
+      "identifier_normalized_sha256": "e97534d6ed54195ba0092835cb46f8b9310dec245a947a9362b9714061116180",
+      "init_forms": 11,
+      "init_sha256": "0e184419ceeb89a966736da129cdda54a642a3ff4481d16f0cfb53029873db42",
+      "kind": "problem",
+      "normalized_token_sha256": "bc17446923784f29a14444ef2277fa4dff04a2e1aaa5e3000426465a9d956b3f",
+      "numeric_operators": {},
+      "objects_sha256": "7a7cefd39c2e4656ca9ca60a9197f57c1886788c8e7c4df5bf648515047707f2",
+      "objects_tokens": 42,
+      "parsed": true,
+      "path": "ipc-2002/domains/satellite-time-simple-automatic/instances/instance-2.pddl",
+      "requirements": [],
+      "sha256": "4256dde4aefd8ac3adc8600de51ec2aa7173a16232adddf0e87e1ada6755de24",
+      "url": "https://raw.githubusercontent.com/potassco/pddl-instances/cf19edf7c53d1540ddbb396c642595e0926ee552/ipc-2002/domains/satellite-time-simple-automatic/instances/instance-2.pddl"
+    },
+    {
+      "bytes": 7639,
+      "declared_name": "strips-sat-x-1",
+      "domain_directory": "satellite-time-simple-automatic",
+      "durative_actions": 0,
+      "goal_sha256": "b1c49ac9ab3b526775b2fb531e8ccc92928bab77c0ed28265ebf045338214cae",
+      "identifier_normalized_sha256": "b52b83fa19811ead8723d207bd993763d03099a0d1862afa726a641f8b305db2",
+      "init_forms": 122,
+      "init_sha256": "4f0a24627c53f750f3a83c5c87e3fb18f425b70ffff1b22ca81aa06016572b3d",
+      "kind": "problem",
+      "normalized_token_sha256": "52e8252f78eee739d1a004932500ac61d41513bdc22090136014f38fc2a46910",
+      "numeric_operators": {},
+      "objects_sha256": "a70616a6490c2b61effbbc9587a0213b35bfa99f6c455f0a401e1fd2e49d4742",
+      "objects_tokens": 207,
+      "parsed": true,
+      "path": "ipc-2002/domains/satellite-time-simple-automatic/instances/instance-20.pddl",
+      "requirements": [],
+      "sha256": "68159db14bf88d8159ab54384719d9437201729f52caae8347bd86844f49ae1e",
+      "url": "https://raw.githubusercontent.com/potassco/pddl-instances/cf19edf7c53d1540ddbb396c642595e0926ee552/ipc-2002/domains/satellite-time-simple-automatic/instances/instance-20.pddl"
+    },
+    {
+      "bytes": 1361,
+      "declared_name": "strips-sat-x-1",
+      "domain_directory": "satellite-time-simple-automatic",
+      "durative_actions": 0,
+      "goal_sha256": "359dab1fab30afee55fc85cdbdf784d8cdce2621836982a7d60eaf579eb01508",
+      "identifier_normalized_sha256": "cc6cd0b05a60d59ce2a0ac5e6b11e84a44cb36af0ca0d24630127dbfa3141c7a",
+      "init_forms": 20,
+      "init_sha256": "d6667ce2ca62cd8acd8f4a1b3cccb104957176a3a4d899266421181468eb8cc1",
+      "kind": "problem",
+      "normalized_token_sha256": "e2d2d2db1823c7b28cdff9a600dcb101d81ebe9a5584fabe8b38d23ae57af3c0",
+      "numeric_operators": {},
+      "objects_sha256": "4bac0ff151a7b8a6226ddf6788322dd1ed8639d5787a72f85b06a32264cd7dcc",
+      "objects_tokens": 51,
+      "parsed": true,
+      "path": "ipc-2002/domains/satellite-time-simple-automatic/instances/instance-3.pddl",
+      "requirements": [],
+      "sha256": "c8cb8d3f7cc8eb0a281548072ff031e5c18d75b983aabc0acca0fd63b70367db",
+      "url": "https://raw.githubusercontent.com/potassco/pddl-instances/cf19edf7c53d1540ddbb396c642595e0926ee552/ipc-2002/domains/satellite-time-simple-automatic/instances/instance-3.pddl"
+    },
+    {
+      "bytes": 1367,
+      "declared_name": "strips-sat-x-1",
+      "domain_directory": "satellite-time-simple-automatic",
+      "durative_actions": 0,
+      "goal_sha256": "42ec4e3423417c16d5ba3f74e19b84bcc2c186119bae85fa55282f837ca6f9aa",
+      "identifier_normalized_sha256": "c00944f7bd8ff3cbf12dedc9812cf2daa5c9b926dc8f971b9bf2b8273d36167a",
+      "init_forms": 17,
+      "init_sha256": "b2f2ed479da5a17b041d9f03febd3a842551cf1d19ea11ba08402671b0c68b7d",
+      "kind": "problem",
+      "normalized_token_sha256": "a5de68a6196859558950bcd2ac19d7f5de998cda2862b4f4999939a9d5826525",
+      "numeric_operators": {},
+      "objects_sha256": "6d636ad0692684dbc947758c77dbcfddf4b9fd526171af19527bdaf92126b1ed",
+      "objects_tokens": 54,
+      "parsed": true,
+      "path": "ipc-2002/domains/satellite-time-simple-automatic/instances/instance-4.pddl",
+      "requirements": [],
+      "sha256": "fdc7cddee995f4783f3610bcb9849218a82715bfa743d693f4bde12bb779fd9a",
+      "url": "https://raw.githubusercontent.com/potassco/pddl-instances/cf19edf7c53d1540ddbb396c642595e0926ee552/ipc-2002/domains/satellite-time-simple-automatic/instances/instance-4.pddl"
+    },
+    {
+      "bytes": 2639,
+      "declared_name": "strips-sat-x-1",
+      "domain_directory": "satellite-time-simple-automatic",
+      "durative_actions": 0,
+      "goal_sha256": "f3238446ddf799e106a9aede94c1f2fd4d0e5e8952fdb100f8b270ec9635b604",
+      "identifier_normalized_sha256": "ecca7c4443c4e68f706d126415eb510ab47a50dc6cdc384bf5afa955638debe1",
+      "init_forms": 44,
+      "init_sha256": "9b18709aacbb9dabdd7ebf9bb8e0a67b25948f0e8d7f7d038fe4d791cca86c3a",
+      "kind": "problem",
+      "normalized_token_sha256": "91f094701a99d53018d16f0ca965d2e8434341bb30c9ed25a5dbb51419f8035a",
+      "numeric_operators": {},
+      "objects_sha256": "32f5f71cc58aec32234a020e8df5107c9ad48d50132cb254c3adb6c180872ae3",
+      "objects_tokens": 75,
+      "parsed": true,
+      "path": "ipc-2002/domains/satellite-time-simple-automatic/instances/instance-5.pddl",
+      "requirements": [],
+      "sha256": "1584fcab351512bf97e9b97859cdbe470627ca9de5aa6ffeccb8f3cc41b2c433",
+      "url": "https://raw.githubusercontent.com/potassco/pddl-instances/cf19edf7c53d1540ddbb396c642595e0926ee552/ipc-2002/domains/satellite-time-simple-automatic/instances/instance-5.pddl"
+    },
+    {
+      "bytes": 1766,
+      "declared_name": "strips-sat-x-1",
+      "domain_directory": "satellite-time-simple-automatic",
+      "durative_actions": 0,
+      "goal_sha256": "a5ba798dd7740cae9b83a1b494d88a80305bab1163eed8ae038ea7c5ba8b33b8",
+      "identifier_normalized_sha256": "3ff45ba171e9813926c0d54ad1eff5d542d452bd4f8382a6c2dce730c63bf897",
+      "init_forms": 26,
+      "init_sha256": "b1bbe067b0dbe92c55f8b519de0217a37c0f6d00476cc581f2fb30517016ac8b",
+      "kind": "problem",
+      "normalized_token_sha256": "1ffec98224468d61ea47813f3b12ef94fee480630d1e9a1c994d56b3dd1b26c6",
+      "numeric_operators": {},
+      "objects_sha256": "8983cc0dff74f752d96144a320dff90a863b21fd82e7e21256bef88fe6512b68",
+      "objects_tokens": 69,
+      "parsed": true,
+      "path": "ipc-2002/domains/satellite-time-simple-automatic/instances/instance-6.pddl",
+      "requirements": [],
+      "sha256": "224c0f53b0240439b264496c367ca5ba0d851423dfbd1c827f57844396168ecd",
+      "url": "https://raw.githubusercontent.com/potassco/pddl-instances/cf19edf7c53d1540ddbb396c642595e0926ee552/ipc-2002/domains/satellite-time-simple-automatic/instances/instance-6.pddl"
+    },
+    {
+      "bytes": 2438,
+      "declared_name": "strips-sat-x-1",
+      "domain_directory": "satellite-time-simple-automatic",
+      "durative_actions": 0,
+      "goal_sha256": "bad7a14634f7b0f5da673c63ba2f20431996ae739370b8799b83e6a2954a0f3a",
+      "identifier_normalized_sha256": "15971b569c55befc57ccecf85683adf0ce5d3227db3728dc88a09c9d36152b11",
+      "init_forms": 41,
+      "init_sha256": "189f71fbf92b2d540675cfcb81141cf2ab56b22a640760c6dab800ea9025fc05",
+      "kind": "problem",
+      "normalized_token_sha256": "7ea480e73efd13ca88d92ca2a64fd62b1efaffffaea09dca0b63cbf554a5c74d",
+      "numeric_operators": {},
+      "objects_sha256": "b1c46357177baa3eece2ff6e2641b9ff0cfa231529109cdea4160d820f954581",
+      "objects_tokens": 84,
+      "parsed": true,
+      "path": "ipc-2002/domains/satellite-time-simple-automatic/instances/instance-7.pddl",
+      "requirements": [],
+      "sha256": "7981c890e070345d4b6320d940c116be04971729b51c0896ce28a4be3f3f4619",
+      "url": "https://raw.githubusercontent.com/potassco/pddl-instances/cf19edf7c53d1540ddbb396c642595e0926ee552/ipc-2002/domains/satellite-time-simple-automatic/instances/instance-7.pddl"
+    },
+    {
+      "bytes": 2996,
+      "declared_name": "strips-sat-x-1",
+      "domain_directory": "satellite-time-simple-automatic",
+      "durative_actions": 0,
+      "goal_sha256": "de712ad75ff2b5a7dec7bcf4d15c40f6f78da63589b906896610d4c96acead7d",
+      "identifier_normalized_sha256": "cdc37feea352b5fca973a2cd439c8887120812d2d67c662c35b3538e7ea6b163",
+      "init_forms": 49,
+      "init_sha256": "0b0e700e24e4d2f8a00f84e9084559cb35c1e3f26586bf35cb8461e70ab27d13",
+      "kind": "problem",
+      "normalized_token_sha256": "347566e335feb269a010faa40a07fb0b53282d0d19a77b632ecb0c58b4f11649",
+      "numeric_operators": {},
+      "objects_sha256": "143e5b5b6d6e5592a707187a33aaf731676c3d7882958bc594a079cfef4711e4",
+      "objects_tokens": 99,
+      "parsed": true,
+      "path": "ipc-2002/domains/satellite-time-simple-automatic/instances/instance-8.pddl",
+      "requirements": [],
+      "sha256": "017fff615a614febc307c052ef45af888cdd56e4e72c17dd4fb31f05a3996a02",
+      "url": "https://raw.githubusercontent.com/potassco/pddl-instances/cf19edf7c53d1540ddbb396c642595e0926ee552/ipc-2002/domains/satellite-time-simple-automatic/instances/instance-8.pddl"
+    },
+    {
+      "bytes": 3346,
+      "declared_name": "strips-sat-x-1",
+      "domain_directory": "satellite-time-simple-automatic",
+      "durative_actions": 0,
+      "goal_sha256": "e9de54fd154bdff4b197f56002c022cc276106ffc8ed1cda43c38e8f36b9ce80",
+      "identifier_normalized_sha256": "f4fe4304baaae19e9dbff3452f4f086f6cf6f57414773410695b14b4b53698cc",
+      "init_forms": 58,
+      "init_sha256": "7887cc3ac945599d1dce940b2a9e0b26b74f26e528aae3c98f2faae0abc95a5c",
+      "kind": "problem",
+      "normalized_token_sha256": "3bb46d3c418ccebccdbe17f88e4e1ba41500e58f85a647233fc2b83babd15862",
+      "numeric_operators": {},
+      "objects_sha256": "9e132fa80afde3ba391c295943237c3815a30adf33b21bbe70c4b441b2fcac4a",
+      "objects_tokens": 108,
+      "parsed": true,
+      "path": "ipc-2002/domains/satellite-time-simple-automatic/instances/instance-9.pddl",
+      "requirements": [],
+      "sha256": "bb3c70259acc785221af4c46b4b73b0d326bbc4de193d0e5d5e98e6004323f09",
+      "url": "https://raw.githubusercontent.com/potassco/pddl-instances/cf19edf7c53d1540ddbb396c642595e0926ee552/ipc-2002/domains/satellite-time-simple-automatic/instances/instance-9.pddl"
+    }
+  ],
+  "identifier_normalized_duplicate_groups": [],
+  "independence_warning": "Distinct PDDL text does not establish independent task populations; both variants are IPC2002 Satellite and number-matched relationships are listed explicitly",
+  "license_audit": {
+    "conclusion": "No license permission inferred from public availability; source audit only",
+    "raw_source_policy": "cache outside repository; URLs and SHA256 only",
+    "redistributed_raw_pddl": false,
+    "repository_license_paths": []
+  },
+  "source_repository": "https://github.com/potassco/pddl-instances",
+  "tree_url": "https://api.github.com/repos/potassco/pddl-instances/git/trees/cf19edf7c53d1540ddbb396c642595e0926ee552?recursive=1"
+}

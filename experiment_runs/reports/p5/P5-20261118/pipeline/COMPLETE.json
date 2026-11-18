@@ -1,0 +1,47 @@
+{
+  "complete": true,
+  "steps": [
+    {
+      "elapsed_s": 3.3293073177337646,
+      "exit_code": 0,
+      "script": "run_p5_continuous_v2.py",
+      "started_utc": "2026-11-18T09:17:07Z",
+      "step": "continuous_training_preflight"
+    },
+    {
+      "elapsed_s": 3279.3276710510254,
+      "exit_code": 0,
+      "script": "run_p5_searches.py",
+      "started_utc": "2026-11-18T09:17:11Z",
+      "step": "searches"
+    },
+    {
+      "elapsed_s": 6932.657824277878,
+      "exit_code": 0,
+      "script": "run_p5_special.py",
+      "started_utc": "2026-11-18T10:11:50Z",
+      "step": "special"
+    },
+    {
+      "elapsed_s": 211.13096737861633,
+      "exit_code": 0,
+      "script": "run_p5_references.py",
+      "started_utc": "2026-11-18T12:07:23Z",
+      "step": "references"
+    },
+    {
+      "elapsed_s": 62.390486001968384,
+      "exit_code": 0,
+      "script": "run_p5_transfer.py",
+      "started_utc": "2026-11-18T12:10:54Z",
+      "step": "transfer"
+    },
+    {
+      "elapsed_s": 188.2654836177826,
+      "exit_code": 0,
+      "script": "run_p5_continuous_v2.py",
+      "started_utc": "2026-11-18T12:11:56Z",
+      "step": "continuous"
+    }
+  ]
+}

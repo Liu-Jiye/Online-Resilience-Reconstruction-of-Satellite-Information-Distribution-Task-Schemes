@@ -1,0 +1,1557 @@
+{
+  "bases": 100,
+  "cases": 100,
+  "failures": [],
+  "rows": [
+    {
+      "events": 1,
+      "key": "P4-test-D1-0013__anomaly",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": true,
+        "type": "frozen_cancel",
+        "victim": {
+          "end": 191,
+          "receiver": "S16",
+          "sender": "S09",
+          "start": 180,
+          "task_id": "t024"
+        }
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0013__anomaly.json.gz",
+      "root_id": "P4-test-D1-0013",
+      "sha256": "1ae5303f61e761bfd4773162b3918a928d0ffa5100b3702018024162c37da7a8"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0013__control",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": false,
+        "type": "paired_normal_control"
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0013__control.json.gz",
+      "root_id": "P4-test-D1-0013",
+      "sha256": "6ba49149fe7d5d37c311ad3588f862cc256be9514cb42915e5461438d82a0873"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0033__anomaly",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": true,
+        "type": "frozen_window",
+        "victim": {
+          "end": 4,
+          "receiver": "S18",
+          "sender": "S21",
+          "start": 0,
+          "task_id": "t031"
+        }
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0033__anomaly.json.gz",
+      "root_id": "P4-test-D1-0033",
+      "sha256": "f24257cc9f3d10eefa5a04a53cd48606cd9f995260fb10b3cf4b5079ee9fe54d"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0033__control",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": false,
+        "type": "paired_normal_control"
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0033__control.json.gz",
+      "root_id": "P4-test-D1-0033",
+      "sha256": "3c1acc55b0d25dc93e088ba5159a06a52b33126142280da88815213539bc8395"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0040__anomaly",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": true,
+        "type": "frozen_cancel",
+        "victim": {
+          "end": 81,
+          "receiver": "S30",
+          "sender": "S31",
+          "start": 60,
+          "task_id": "t087"
+        }
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0040__anomaly.json.gz",
+      "root_id": "P4-test-D1-0040",
+      "sha256": "fda885fe1ce862ef8c7d579e723bbd99575b9aa307e9d0331ea30cfcf59ebd97"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0040__control",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": false,
+        "type": "paired_normal_control"
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0040__control.json.gz",
+      "root_id": "P4-test-D1-0040",
+      "sha256": "b16999c91a0cc86d10a1f9fa0b97f222e04d34c5ed5dd2afd1b73db0f9ee7354"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0048__anomaly",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": true,
+        "type": "frozen_window",
+        "victim": {
+          "end": 238,
+          "receiver": "S23",
+          "sender": "S12",
+          "start": 217,
+          "task_id": "t019"
+        }
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0048__anomaly.json.gz",
+      "root_id": "P4-test-D1-0048",
+      "sha256": "844b2688389d7961822ab2b395405b96cc281221bf4ca4511b5f853a24752e0f"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0048__control",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": false,
+        "type": "paired_normal_control"
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0048__control.json.gz",
+      "root_id": "P4-test-D1-0048",
+      "sha256": "77dd5d8d8ba57559a92482d505f06153d8fbe9556028af5bb580f77c248f91e8"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0059__anomaly",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": true,
+        "type": "frozen_cancel",
+        "victim": {
+          "end": 59,
+          "receiver": "S21",
+          "sender": "S00",
+          "start": 48,
+          "task_id": "t022"
+        }
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0059__anomaly.json.gz",
+      "root_id": "P4-test-D1-0059",
+      "sha256": "5cfc1efda2c9574ae0dcaed32fc4cacf19b77165e286882f7454a8ec6f366071"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0059__control",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": false,
+        "type": "paired_normal_control"
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0059__control.json.gz",
+      "root_id": "P4-test-D1-0059",
+      "sha256": "752ec05eed0ebf8af508b96539ccb0343c5a8bf7320e0445ef6cb1261fdfe1db"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0060__anomaly",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": true,
+        "type": "frozen_window",
+        "victim": {
+          "end": 186,
+          "receiver": "S24",
+          "sender": "S15",
+          "start": 180,
+          "task_id": "t034"
+        }
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0060__anomaly.json.gz",
+      "root_id": "P4-test-D1-0060",
+      "sha256": "5f63977cee62a775c5af97471be3522be478f97dbbf26fb4a55e0aaa41816518"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0060__control",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": false,
+        "type": "paired_normal_control"
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0060__control.json.gz",
+      "root_id": "P4-test-D1-0060",
+      "sha256": "602f6192c8a810c3dd455c37f35292a14399a7dcad20c4a6ebf63212e7b18cd5"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0075__anomaly",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": true,
+        "type": "frozen_cancel",
+        "victim": {
+          "end": 107,
+          "receiver": "S25",
+          "sender": "S23",
+          "start": 103,
+          "task_id": "t009"
+        }
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0075__anomaly.json.gz",
+      "root_id": "P4-test-D1-0075",
+      "sha256": "4ea134e54915b36c63aae15af5c73b9975173797a19d242360d77e91825f4fbc"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0075__control",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": false,
+        "type": "paired_normal_control"
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0075__control.json.gz",
+      "root_id": "P4-test-D1-0075",
+      "sha256": "e170d38ac38636c5cfc42a31c2a5766b52249197cc8162fff53bef1342a695aa"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0086__anomaly",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": true,
+        "type": "frozen_window",
+        "victim": {
+          "end": 66,
+          "receiver": "S26",
+          "sender": "S05",
+          "start": 60,
+          "task_id": "t026"
+        }
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0086__anomaly.json.gz",
+      "root_id": "P4-test-D1-0086",
+      "sha256": "ea25c0dbe9501c5957f94b0535b0cdcac116a4d0464055fb5011c5caad1e015d"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0086__control",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": false,
+        "type": "paired_normal_control"
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0086__control.json.gz",
+      "root_id": "P4-test-D1-0086",
+      "sha256": "2d5daea79c98a0067788aa581721855f5c96aafed7966334f4e8bcf2a0b2fd73"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0105__anomaly",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": true,
+        "type": "frozen_cancel",
+        "victim": {
+          "end": 191,
+          "receiver": "S21",
+          "sender": "S10",
+          "start": 180,
+          "task_id": "t014"
+        }
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0105__anomaly.json.gz",
+      "root_id": "P4-test-D1-0105",
+      "sha256": "8cfd28368aaf6f6663f79c35f70598308d15acdc4d0ba1dc534f74ea0c4d79d0"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0105__control",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": false,
+        "type": "paired_normal_control"
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0105__control.json.gz",
+      "root_id": "P4-test-D1-0105",
+      "sha256": "f2edbeafc7c9f75beecbf271b91d57b2fa1db74591a0d2db43eb4ce3d031cdf6"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0137__anomaly",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": true,
+        "type": "frozen_window",
+        "victim": {
+          "end": 201,
+          "receiver": "S03",
+          "sender": "S23",
+          "start": 180,
+          "task_id": "t093"
+        }
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0137__anomaly.json.gz",
+      "root_id": "P4-test-D1-0137",
+      "sha256": "62067762166826f7bb97f80328208f97e969938e7312b0fa438dd4c89ceb1262"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0137__control",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": false,
+        "type": "paired_normal_control"
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0137__control.json.gz",
+      "root_id": "P4-test-D1-0137",
+      "sha256": "b6ece9ff149f821e2489d2c58837bef8ff65e74defc7163f67c33f4f8dd2a3de"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0146__anomaly",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": true,
+        "type": "frozen_cancel",
+        "victim": {
+          "end": 186,
+          "receiver": "S00",
+          "sender": "S02",
+          "start": 180,
+          "task_id": "t081"
+        }
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0146__anomaly.json.gz",
+      "root_id": "P4-test-D1-0146",
+      "sha256": "16598546a54b86ab0c07d6623f75adf0b50cbc265c6cfdfd0f3945dd795aa562"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0146__control",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": false,
+        "type": "paired_normal_control"
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0146__control.json.gz",
+      "root_id": "P4-test-D1-0146",
+      "sha256": "7ca8e43908f829781636e85f36d439a69e7bccd51a39d2968b00e29e0bd9961b"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0149__anomaly",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": true,
+        "type": "frozen_window",
+        "victim": {
+          "end": 191,
+          "receiver": "S05",
+          "sender": "S22",
+          "start": 180,
+          "task_id": "t044"
+        }
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0149__anomaly.json.gz",
+      "root_id": "P4-test-D1-0149",
+      "sha256": "b67ccfae22455cfe4222b8ae9a0b5c709b93c5c8c3456a359e863657002443ee"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0149__control",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": false,
+        "type": "paired_normal_control"
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0149__control.json.gz",
+      "root_id": "P4-test-D1-0149",
+      "sha256": "a68316bb5bb33e8c45b3943ffc10c6946315f91002c71715e25d31dbd7baace6"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0165__anomaly",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": true,
+        "type": "frozen_cancel",
+        "victim": {
+          "end": 6,
+          "receiver": "S07",
+          "sender": "S10",
+          "start": 0,
+          "task_id": "t094"
+        }
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0165__anomaly.json.gz",
+      "root_id": "P4-test-D1-0165",
+      "sha256": "6ce1a208d3dbf3d50daf9f9eb68c8b8cea1f1b3d921c3a7feb926f955c976530"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0165__control",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": false,
+        "type": "paired_normal_control"
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0165__control.json.gz",
+      "root_id": "P4-test-D1-0165",
+      "sha256": "abc87fd2eebe6af328448bc58f47c87c8ce23494278b87c26e843bbdfa302895"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0166__anomaly",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": true,
+        "type": "frozen_window",
+        "victim": {
+          "end": 21,
+          "receiver": "S29",
+          "sender": "S25",
+          "start": 0,
+          "task_id": "t086"
+        }
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0166__anomaly.json.gz",
+      "root_id": "P4-test-D1-0166",
+      "sha256": "8ed60815a5e6672754972fd478ab1dde3be072e79ea51ef9570e78cd91f68872"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0166__control",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": false,
+        "type": "paired_normal_control"
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0166__control.json.gz",
+      "root_id": "P4-test-D1-0166",
+      "sha256": "be581f5dc387ee8e3c0eb8380a51eb501cbca4ac34b8b6a256ca5b5fcbfc8b17"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0183__anomaly",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": true,
+        "type": "frozen_cancel",
+        "victim": {
+          "end": 11,
+          "receiver": "S15",
+          "sender": "S25",
+          "start": 0,
+          "task_id": "t031"
+        }
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0183__anomaly.json.gz",
+      "root_id": "P4-test-D1-0183",
+      "sha256": "c7b10215326a64d445264ab2394ad0613105d43dd6ad48f7b69727eb4a72d961"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0183__control",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": false,
+        "type": "paired_normal_control"
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0183__control.json.gz",
+      "root_id": "P4-test-D1-0183",
+      "sha256": "93e68e8c7d353cb702eaaf5772d3af257d92479510e9d73f5616993ea9356d37"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0199__anomaly",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": true,
+        "type": "frozen_window",
+        "victim": {
+          "end": 21,
+          "receiver": "S31",
+          "sender": "S04",
+          "start": 0,
+          "task_id": "t083"
+        }
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0199__anomaly.json.gz",
+      "root_id": "P4-test-D1-0199",
+      "sha256": "a2ea8f8541e68e226eff77908a42799425f9053821320e77b40863ca9b5dca9c"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0199__control",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": false,
+        "type": "paired_normal_control"
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0199__control.json.gz",
+      "root_id": "P4-test-D1-0199",
+      "sha256": "18795eeb65f4976081a17fedf4e61061b235c9300ab4ba27aff1e7b2dd9be4fc"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0211__anomaly",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": true,
+        "type": "frozen_cancel",
+        "victim": {
+          "end": 66,
+          "receiver": "S05",
+          "sender": "S28",
+          "start": 60,
+          "task_id": "t017"
+        }
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0211__anomaly.json.gz",
+      "root_id": "P4-test-D1-0211",
+      "sha256": "68710f1c9e8eb39972ca247b2436a0fb26a8931bd1c0b8c7c2d090780abcea65"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0211__control",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": false,
+        "type": "paired_normal_control"
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0211__control.json.gz",
+      "root_id": "P4-test-D1-0211",
+      "sha256": "9885ad9107fdb0214582bef8fb276b9a4c925cdf2caa6da12d5ff770aedb5681"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0212__anomaly",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": true,
+        "type": "frozen_window",
+        "victim": {
+          "end": 44,
+          "receiver": "S17",
+          "sender": "S08",
+          "start": 3,
+          "task_id": "t086"
+        }
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0212__anomaly.json.gz",
+      "root_id": "P4-test-D1-0212",
+      "sha256": "421f80b614bbd4fb1438b4072653073b3864d5533db1b7d94579f564c5d918b7"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0212__control",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": false,
+        "type": "paired_normal_control"
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0212__control.json.gz",
+      "root_id": "P4-test-D1-0212",
+      "sha256": "215cab9047de0636e84340e7aacf66d7e6728c07a3ffbb8c1534bb389736aabb"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0226__anomaly",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": true,
+        "type": "frozen_cancel",
+        "victim": {
+          "end": 81,
+          "receiver": "S01",
+          "sender": "S31",
+          "start": 60,
+          "task_id": "t048"
+        }
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0226__anomaly.json.gz",
+      "root_id": "P4-test-D1-0226",
+      "sha256": "31b404324b19d98cfb3ed0740e38230b56caa2dc29a8e299a6f7e6e519beb161"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0226__control",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": false,
+        "type": "paired_normal_control"
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0226__control.json.gz",
+      "root_id": "P4-test-D1-0226",
+      "sha256": "cb37313ef8c111c899e0852be952ac2df9f4b477f151de0bf4aaa63ea114bbd0"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0228__anomaly",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": true,
+        "type": "frozen_window",
+        "victim": {
+          "end": 21,
+          "receiver": "S06",
+          "sender": "S29",
+          "start": 0,
+          "task_id": "t094"
+        }
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0228__anomaly.json.gz",
+      "root_id": "P4-test-D1-0228",
+      "sha256": "ab9ef267b60546ef4198aa3f55f50977efed7c8b795a49835770bd5769c208d4"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0228__control",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": false,
+        "type": "paired_normal_control"
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0228__control.json.gz",
+      "root_id": "P4-test-D1-0228",
+      "sha256": "c0f554be772729b53f7ad19f4380cdc23e833a03f38394f7f628c666a21115c7"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0237__anomaly",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": true,
+        "type": "frozen_cancel",
+        "victim": {
+          "end": 11,
+          "receiver": "S06",
+          "sender": "S13",
+          "start": 0,
+          "task_id": "t009"
+        }
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0237__anomaly.json.gz",
+      "root_id": "P4-test-D1-0237",
+      "sha256": "15e280aa5bda4d97f5dc10ac04170ceff3e9d6b99a417eaca7685502381ddd96"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0237__control",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": false,
+        "type": "paired_normal_control"
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0237__control.json.gz",
+      "root_id": "P4-test-D1-0237",
+      "sha256": "5c6ac2ff7a173638ddfc97b2aae47f20a5c8ccc7d1dec078a3be27c69016ffd1"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0238__anomaly",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": true,
+        "type": "frozen_window",
+        "victim": {
+          "end": 6,
+          "receiver": "S02",
+          "sender": "S10",
+          "start": 0,
+          "task_id": "t007"
+        }
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0238__anomaly.json.gz",
+      "root_id": "P4-test-D1-0238",
+      "sha256": "9aca4bd925d27605f14d615aad748c5d572820c0247a414136b55f28cbe6af6f"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0238__control",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": false,
+        "type": "paired_normal_control"
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0238__control.json.gz",
+      "root_id": "P4-test-D1-0238",
+      "sha256": "ade4b72e4c8415b46af7e4b5e91f74520f4fac0bbca6a51a12182cb84c0100a2"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0245__anomaly",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": true,
+        "type": "frozen_cancel",
+        "victim": {
+          "end": 101,
+          "receiver": "S25",
+          "sender": "S12",
+          "start": 60,
+          "task_id": "t011"
+        }
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0245__anomaly.json.gz",
+      "root_id": "P4-test-D1-0245",
+      "sha256": "cd584afbf1d440d761f0f5cc2e36caeba4396087fe3b0ed4fe9043ce128d8de2"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0245__control",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": false,
+        "type": "paired_normal_control"
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0245__control.json.gz",
+      "root_id": "P4-test-D1-0245",
+      "sha256": "d481749e4821250e00a86c0a0c3bc4cbcd23f71d75a4b178e49bd8347ab3aca5"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0261__anomaly",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": true,
+        "type": "frozen_window",
+        "victim": {
+          "end": 141,
+          "receiver": "S10",
+          "sender": "S01",
+          "start": 120,
+          "task_id": "t060"
+        }
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0261__anomaly.json.gz",
+      "root_id": "P4-test-D1-0261",
+      "sha256": "36a45312a19fe837e941334718bd90c401cb8dea02710a2e9d290e6fcd57df45"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0261__control",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": false,
+        "type": "paired_normal_control"
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0261__control.json.gz",
+      "root_id": "P4-test-D1-0261",
+      "sha256": "c6c69485f177c020ee3723816ba4f734b4875e8bb7cc5b2b5adef04a35247cb9"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0264__anomaly",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": true,
+        "type": "frozen_cancel",
+        "victim": {
+          "end": 81,
+          "receiver": "S06",
+          "sender": "S16",
+          "start": 60,
+          "task_id": "t004"
+        }
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0264__anomaly.json.gz",
+      "root_id": "P4-test-D1-0264",
+      "sha256": "2de0241896d7ecf41c6b55bfd6999d044632834a5d35d2d709853201cce454e6"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0264__control",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": false,
+        "type": "paired_normal_control"
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0264__control.json.gz",
+      "root_id": "P4-test-D1-0264",
+      "sha256": "1bdde9d8f46cb286d33dcb029f547e3189a9ef8cdcde4508f96a8968cce96569"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0266__anomaly",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": true,
+        "type": "frozen_window",
+        "victim": {
+          "end": 221,
+          "receiver": "S03",
+          "sender": "S13",
+          "start": 180,
+          "task_id": "t001"
+        }
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0266__anomaly.json.gz",
+      "root_id": "P4-test-D1-0266",
+      "sha256": "809d5f412d31bfd4c775f9ed1316bcf258cf52e604f6d6367c3e4be7e82fcd3c"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0266__control",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": false,
+        "type": "paired_normal_control"
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0266__control.json.gz",
+      "root_id": "P4-test-D1-0266",
+      "sha256": "64db71ef4bec26e4f9b5a5a0181825fbb7809ba7b2966ae73084d704cae50a3a"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0278__anomaly",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": true,
+        "type": "frozen_cancel",
+        "victim": {
+          "end": 108,
+          "receiver": "S00",
+          "sender": "S27",
+          "start": 67,
+          "task_id": "t047"
+        }
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0278__anomaly.json.gz",
+      "root_id": "P4-test-D1-0278",
+      "sha256": "82a17a690f3a787242ea4e7c8ba91593a26d511552f6661cc400982ddcb71c97"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0278__control",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": false,
+        "type": "paired_normal_control"
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0278__control.json.gz",
+      "root_id": "P4-test-D1-0278",
+      "sha256": "a612f95c37eb676e7ea3bb9e2e36480af9af087b9555b026681044cb7a6535dc"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0301__anomaly",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": true,
+        "type": "frozen_window",
+        "victim": {
+          "end": 431,
+          "receiver": "S21",
+          "sender": "S03",
+          "start": 420,
+          "task_id": "t047"
+        }
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0301__anomaly.json.gz",
+      "root_id": "P4-test-D1-0301",
+      "sha256": "e13f6242b1b7e0dbbae06905d987a4c5774db5756afb36e04c135a7284a65264"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0301__control",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": false,
+        "type": "paired_normal_control"
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0301__control.json.gz",
+      "root_id": "P4-test-D1-0301",
+      "sha256": "2b785dd86172b1aaa98b4d1d68989943254857fb4687a23bfecd1f5b5deeddfa"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0307__anomaly",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": true,
+        "type": "frozen_cancel",
+        "victim": {
+          "end": 6,
+          "receiver": "S09",
+          "sender": "S20",
+          "start": 0,
+          "task_id": "t061"
+        }
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0307__anomaly.json.gz",
+      "root_id": "P4-test-D1-0307",
+      "sha256": "6cd052af745f97a5a3e5ae41027164354ed8c19dc628833bc477200c2fd7c8c9"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0307__control",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": false,
+        "type": "paired_normal_control"
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0307__control.json.gz",
+      "root_id": "P4-test-D1-0307",
+      "sha256": "a4d361fa74213317a48e968098c2675787cf5d7653c7eb0805aa02f4a73666c7"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0310__anomaly",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": true,
+        "type": "frozen_window",
+        "victim": {
+          "end": 244,
+          "receiver": "S00",
+          "sender": "S06",
+          "start": 240,
+          "task_id": "t055"
+        }
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0310__anomaly.json.gz",
+      "root_id": "P4-test-D1-0310",
+      "sha256": "e95739310d9c138ad0c8ea0ebfeea75dcecb805c32edd74c10326177b4336afd"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0310__control",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": false,
+        "type": "paired_normal_control"
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0310__control.json.gz",
+      "root_id": "P4-test-D1-0310",
+      "sha256": "ed64cd13457d42f5877dacc76a5b051c2a05628f893ab22dff62a04c86d5b837"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0314__anomaly",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": true,
+        "type": "frozen_cancel",
+        "victim": {
+          "end": 81,
+          "receiver": "S30",
+          "sender": "S05",
+          "start": 60,
+          "task_id": "t019"
+        }
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0314__anomaly.json.gz",
+      "root_id": "P4-test-D1-0314",
+      "sha256": "b433b919bfdca505afc33fcb5543e0372e7228834d81f4a859b6f09a2b19509b"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0314__control",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": false,
+        "type": "paired_normal_control"
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0314__control.json.gz",
+      "root_id": "P4-test-D1-0314",
+      "sha256": "ca522e7fb30a1afb8523e54dce9dd3dbd9e4877817798394672da89cbbb16b0d"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0333__anomaly",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": true,
+        "type": "frozen_window",
+        "victim": {
+          "end": 11,
+          "receiver": "S12",
+          "sender": "S23",
+          "start": 0,
+          "task_id": "t048"
+        }
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0333__anomaly.json.gz",
+      "root_id": "P4-test-D1-0333",
+      "sha256": "93adfaecac022362838137e2700cddaacbd0a0bdaed42d6837704b6c93102970"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0333__control",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": false,
+        "type": "paired_normal_control"
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0333__control.json.gz",
+      "root_id": "P4-test-D1-0333",
+      "sha256": "e7cebbdc191ab74ab89fef69f6aaaae713ff19396304ca41c07da965fb46854f"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0338__anomaly",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": true,
+        "type": "frozen_cancel",
+        "victim": {
+          "end": 81,
+          "receiver": "S21",
+          "sender": "S28",
+          "start": 60,
+          "task_id": "t027"
+        }
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0338__anomaly.json.gz",
+      "root_id": "P4-test-D1-0338",
+      "sha256": "6510d61fe313d1612266e3474c1ba50e9e8f506ce92eae80d672a3a53f987eaf"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0338__control",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": false,
+        "type": "paired_normal_control"
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0338__control.json.gz",
+      "root_id": "P4-test-D1-0338",
+      "sha256": "ce96bc285a9f51c8b69e8079cc8a692aa6fee00020dca83bfce94148ff0205df"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0339__anomaly",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": true,
+        "type": "frozen_window",
+        "victim": {
+          "end": 64,
+          "receiver": "S29",
+          "sender": "S16",
+          "start": 60,
+          "task_id": "t090"
+        }
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0339__anomaly.json.gz",
+      "root_id": "P4-test-D1-0339",
+      "sha256": "6615ed46ef527bc8c4c8070194b2e9dfa55eb2cf0b05c037ce7173fe71ac10aa"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0339__control",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": false,
+        "type": "paired_normal_control"
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0339__control.json.gz",
+      "root_id": "P4-test-D1-0339",
+      "sha256": "7e42fd7f561f04ac231680bd52e2515c268a44de9d164619b51c9fd555fc65f8"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0344__anomaly",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": true,
+        "type": "frozen_cancel",
+        "victim": {
+          "end": 116,
+          "receiver": "S13",
+          "sender": "S05",
+          "start": 95,
+          "task_id": "t044"
+        }
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0344__anomaly.json.gz",
+      "root_id": "P4-test-D1-0344",
+      "sha256": "1cd7b94ce07037906a8aafd5f1e0065cf43791449249a960b0c24e4db1964c9c"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0344__control",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": false,
+        "type": "paired_normal_control"
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0344__control.json.gz",
+      "root_id": "P4-test-D1-0344",
+      "sha256": "af4b2117f6db363f4346295c6a6c986a7f726db31023d431551899a452326f20"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0345__anomaly",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": true,
+        "type": "frozen_window",
+        "victim": {
+          "end": 21,
+          "receiver": "S09",
+          "sender": "S16",
+          "start": 0,
+          "task_id": "t053"
+        }
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0345__anomaly.json.gz",
+      "root_id": "P4-test-D1-0345",
+      "sha256": "ff6ae9a92a6d2f49988abc6d9d5d45a3a208e8a115bd87d39cfde66577fa6eff"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0345__control",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": false,
+        "type": "paired_normal_control"
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0345__control.json.gz",
+      "root_id": "P4-test-D1-0345",
+      "sha256": "b2feae6342f37935c16d30245f6a078bcb7978cb0e8bf3e83fec4e7d2fab662c"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0355__anomaly",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": true,
+        "type": "frozen_cancel",
+        "victim": {
+          "end": 124,
+          "receiver": "S24",
+          "sender": "S29",
+          "start": 120,
+          "task_id": "t016"
+        }
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0355__anomaly.json.gz",
+      "root_id": "P4-test-D1-0355",
+      "sha256": "24e8fa79373c6d71660ff2a51e9517c64adc08a9612262cd62ebb45acc9a3ecf"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0355__control",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": false,
+        "type": "paired_normal_control"
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0355__control.json.gz",
+      "root_id": "P4-test-D1-0355",
+      "sha256": "d7721210ea5615064c8e53e21ed76fb4cc180d85f06bd8ebb10be7fcd50c1fef"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0365__anomaly",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": true,
+        "type": "frozen_window",
+        "victim": {
+          "end": 35,
+          "receiver": "S23",
+          "sender": "S15",
+          "start": 14,
+          "task_id": "t059"
+        }
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0365__anomaly.json.gz",
+      "root_id": "P4-test-D1-0365",
+      "sha256": "4fa463d2b952f25ee5403bab70dde80acee5c95deb83aed535825baa94acfa01"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0365__control",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": false,
+        "type": "paired_normal_control"
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0365__control.json.gz",
+      "root_id": "P4-test-D1-0365",
+      "sha256": "087e60f328d179ea9bccfb637c4d167a486318ee0e133ad4957754eee8725a93"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0380__anomaly",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": true,
+        "type": "frozen_cancel",
+        "victim": {
+          "end": 124,
+          "receiver": "S13",
+          "sender": "S10",
+          "start": 120,
+          "task_id": "t052"
+        }
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0380__anomaly.json.gz",
+      "root_id": "P4-test-D1-0380",
+      "sha256": "635e7552aed8e7ef0a5d4068ce449dc3c92c33c0b72a173aae050c6bf7d94567"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0380__control",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": false,
+        "type": "paired_normal_control"
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0380__control.json.gz",
+      "root_id": "P4-test-D1-0380",
+      "sha256": "e8b4a0a556caab45700f6ec01d90a91584e643314224a273df07701a2e18a4d2"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0383__anomaly",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": true,
+        "type": "frozen_window",
+        "victim": {
+          "end": 403,
+          "receiver": "S31",
+          "sender": "S04",
+          "start": 397,
+          "task_id": "t015"
+        }
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0383__anomaly.json.gz",
+      "root_id": "P4-test-D1-0383",
+      "sha256": "4b8da59e6e1876827f6ef192d3415648481457385d0d230c05f25e0c24e96fd8"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D1-0383__control",
+      "layer": "D1",
+      "metadata": {
+        "expected_frozen_conflict": false,
+        "type": "paired_normal_control"
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D1-0383__control.json.gz",
+      "root_id": "P4-test-D1-0383",
+      "sha256": "da4b3d0e916b165a003bfbead14375b70f85f15b4cb1fff24209c20669396cb3"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D2-S-0011__anomaly",
+      "layer": "D2-S",
+      "metadata": {
+        "expected_frozen_conflict": true,
+        "type": "frozen_cancel",
+        "victim": {
+          "end": 6,
+          "receiver": "66632",
+          "sender": "100304",
+          "start": 0,
+          "task_id": "t089"
+        }
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D2-S-0011__anomaly.json.gz",
+      "root_id": "P4-test-D2-S-0011",
+      "sha256": "bd00db3f053ab460864c3908c8fde98a52182435eade6ebc2faef230071549b3"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D2-S-0011__control",
+      "layer": "D2-S",
+      "metadata": {
+        "expected_frozen_conflict": false,
+        "type": "paired_normal_control"
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D2-S-0011__control.json.gz",
+      "root_id": "P4-test-D2-S-0011",
+      "sha256": "c1b1b11eae3944f9877e09f981f21d9432ef02de97b90508d1881f136ce084d8"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D2-S-0015__anomaly",
+      "layer": "D2-S",
+      "metadata": {
+        "expected_frozen_conflict": true,
+        "type": "frozen_window",
+        "victim": {
+          "end": 11,
+          "receiver": "48127",
+          "sender": "47919",
+          "start": 0,
+          "task_id": "t029"
+        }
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D2-S-0015__anomaly.json.gz",
+      "root_id": "P4-test-D2-S-0015",
+      "sha256": "8bb4d9abdbe1479ba2bb6d6771d23a4e1686416ac6b7f239689de90818d51bdb"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D2-S-0015__control",
+      "layer": "D2-S",
+      "metadata": {
+        "expected_frozen_conflict": false,
+        "type": "paired_normal_control"
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D2-S-0015__control.json.gz",
+      "root_id": "P4-test-D2-S-0015",
+      "sha256": "889e3edb68f5ac471ee60973ff088cfa4f8ab800b0b017ddb5c02494f9167c3e"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D2-S-0031__anomaly",
+      "layer": "D2-S",
+      "metadata": {
+        "expected_frozen_conflict": true,
+        "type": "frozen_cancel",
+        "victim": {
+          "end": 6,
+          "receiver": "64696",
+          "sender": "48127",
+          "start": 0,
+          "task_id": "t012"
+        }
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D2-S-0031__anomaly.json.gz",
+      "root_id": "P4-test-D2-S-0031",
+      "sha256": "ae4ff4cca20663e893e9ecadec40a2436625112f83cd50da321270a3a2c2d8c5"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D2-S-0031__control",
+      "layer": "D2-S",
+      "metadata": {
+        "expected_frozen_conflict": false,
+        "type": "paired_normal_control"
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D2-S-0031__control.json.gz",
+      "root_id": "P4-test-D2-S-0031",
+      "sha256": "0d78dd7ce5b53e46449d48277d1ac2ebb65aff7c5a329b7e56401016e4ac4c49"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D2-S-0032__anomaly",
+      "layer": "D2-S",
+      "metadata": {
+        "expected_frozen_conflict": true,
+        "type": "frozen_window",
+        "victim": {
+          "end": 66,
+          "receiver": "68952",
+          "sender": "69224",
+          "start": 60,
+          "task_id": "t044"
+        }
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D2-S-0032__anomaly.json.gz",
+      "root_id": "P4-test-D2-S-0032",
+      "sha256": "40abbcbea0f2f5a88f3ef1fba04b944ed57f5d979afb0a6353a3cde9e77a6fb5"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D2-S-0032__control",
+      "layer": "D2-S",
+      "metadata": {
+        "expected_frozen_conflict": false,
+        "type": "paired_normal_control"
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D2-S-0032__control.json.gz",
+      "root_id": "P4-test-D2-S-0032",
+      "sha256": "5fc59fc8a659b2e42900005491addab63be733c280e0073daf574485459c9549"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D2-S-0049__anomaly",
+      "layer": "D2-S",
+      "metadata": {
+        "expected_frozen_conflict": true,
+        "type": "frozen_cancel",
+        "victim": {
+          "end": 11,
+          "receiver": "100304",
+          "sender": "68709",
+          "start": 0,
+          "task_id": "t048"
+        }
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D2-S-0049__anomaly.json.gz",
+      "root_id": "P4-test-D2-S-0049",
+      "sha256": "29a5cdeb2809724f8b5185b5e5068a6885ada6abd1e1c7deaa12096283eb1ae2"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D2-S-0049__control",
+      "layer": "D2-S",
+      "metadata": {
+        "expected_frozen_conflict": false,
+        "type": "paired_normal_control"
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D2-S-0049__control.json.gz",
+      "root_id": "P4-test-D2-S-0049",
+      "sha256": "d40d79bcfe3b25f6f70183fb287013842eb106548b9e2e42180db6eb43bcbaec"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D2-S-0052__anomaly",
+      "layer": "D2-S",
+      "metadata": {
+        "expected_frozen_conflict": true,
+        "type": "frozen_window",
+        "victim": {
+          "end": 161,
+          "receiver": "57856",
+          "sender": "101018",
+          "start": 120,
+          "task_id": "t037"
+        }
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D2-S-0052__anomaly.json.gz",
+      "root_id": "P4-test-D2-S-0052",
+      "sha256": "b3067bf1d3cf574717551e38ed3564de5afdd981e6324f840d9287ce87b1ceec"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D2-S-0052__control",
+      "layer": "D2-S",
+      "metadata": {
+        "expected_frozen_conflict": false,
+        "type": "paired_normal_control"
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D2-S-0052__control.json.gz",
+      "root_id": "P4-test-D2-S-0052",
+      "sha256": "b4061a8229591a6686663f53a1edcbd462dfa63c61b463f856bf69f85e685f8f"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D2-S-0053__anomaly",
+      "layer": "D2-S",
+      "metadata": {
+        "expected_frozen_conflict": true,
+        "type": "frozen_cancel",
+        "victim": {
+          "end": 39,
+          "receiver": "47810",
+          "sender": "58453",
+          "start": 33,
+          "task_id": "t036"
+        }
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D2-S-0053__anomaly.json.gz",
+      "root_id": "P4-test-D2-S-0053",
+      "sha256": "91b2aeab6e3258e72f5ce5df69d4211c56c8489401bdba6e04bbcbd49e23f997"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D2-S-0053__control",
+      "layer": "D2-S",
+      "metadata": {
+        "expected_frozen_conflict": false,
+        "type": "paired_normal_control"
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D2-S-0053__control.json.gz",
+      "root_id": "P4-test-D2-S-0053",
+      "sha256": "5f6b1204e1980d29a65a84b1223480754eb87044a2d342b1692f26647e562dec"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D2-S-0062__anomaly",
+      "layer": "D2-S",
+      "metadata": {
+        "expected_frozen_conflict": true,
+        "type": "frozen_window",
+        "victim": {
+          "end": 25,
+          "receiver": "69958",
+          "sender": "57856",
+          "start": 4,
+          "task_id": "t088"
+        }
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D2-S-0062__anomaly.json.gz",
+      "root_id": "P4-test-D2-S-0062",
+      "sha256": "de3c0d7a171f07e55e67871628081123fa31c7849eb60e82d2b4931fa7f5fb7d"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D2-S-0062__control",
+      "layer": "D2-S",
+      "metadata": {
+        "expected_frozen_conflict": false,
+        "type": "paired_normal_control"
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D2-S-0062__control.json.gz",
+      "root_id": "P4-test-D2-S-0062",
+      "sha256": "b150805a0b88940e4c678bf61a9ebcfe88b1f50c79958e1ed696274ade42a462"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D2-S-0083__anomaly",
+      "layer": "D2-S",
+      "metadata": {
+        "expected_frozen_conflict": true,
+        "type": "frozen_cancel",
+        "victim": {
+          "end": 41,
+          "receiver": "48439",
+          "sender": "61671",
+          "start": 0,
+          "task_id": "t036"
+        }
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D2-S-0083__anomaly.json.gz",
+      "root_id": "P4-test-D2-S-0083",
+      "sha256": "d6c6e59354ed4005386363b8f7ee4b3fea61b5972f08c53fdbdf1e4ac12de0bf"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D2-S-0083__control",
+      "layer": "D2-S",
+      "metadata": {
+        "expected_frozen_conflict": false,
+        "type": "paired_normal_control"
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D2-S-0083__control.json.gz",
+      "root_id": "P4-test-D2-S-0083",
+      "sha256": "483c82f263fe9f30f70d3834d5fafe05673e9bb6669cb21cf0d9284c58e6cfa3"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D2-S-0095__anomaly",
+      "layer": "D2-S",
+      "metadata": {
+        "expected_frozen_conflict": true,
+        "type": "frozen_window",
+        "victim": {
+          "end": 101,
+          "receiver": "63270",
+          "sender": "53036",
+          "start": 60,
+          "task_id": "t032"
+        }
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D2-S-0095__anomaly.json.gz",
+      "root_id": "P4-test-D2-S-0095",
+      "sha256": "413d158b7a45786b40c11205b5bba21c402f22a814ad58f47a7705363d3597e7"
+    },
+    {
+      "events": 1,
+      "key": "P4-test-D2-S-0095__control",
+      "layer": "D2-S",
+      "metadata": {
+        "expected_frozen_conflict": false,
+        "type": "paired_normal_control"
+      },
+      "path": "reports/p5/P5-20261118/inputs/anomalies/P4-test-D2-S-0095__control.json.gz",
+      "root_id": "P4-test-D2-S-0095",
+      "sha256": "07e50674fab7cf0d2ee71bd33dc109eeb84e636e4c335615149e90d92f02e5c2"
+    }
+  ]
+}

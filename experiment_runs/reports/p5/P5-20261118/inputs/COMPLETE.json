@@ -1,0 +1,9 @@
+{
+  "distance_D1": "not_applicable",
+  "phase_cases": {
+    "anomalies": 100,
+    "single_factor": 24960,
+    "windows": 7200
+  },
+  "selection_uses_outcomes": false
+}

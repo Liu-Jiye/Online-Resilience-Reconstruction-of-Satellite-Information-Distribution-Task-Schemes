@@ -1,0 +1,426 @@
+{
+  "containers": {
+    "satellite-p5-ablations": {
+      "command": [
+        "python",
+        "-u",
+        "scripts/run_p5_ablations.py"
+      ],
+      "cpuset": "0",
+      "exit_code": 0,
+      "finished_at": "2026-11-18T09:17:01.929126231Z",
+      "image": "sha256:c465af02e860b05f063ca84b138e1cca72c235574b402937e6fb2eaf5d6ec728",
+      "oom_killed": false,
+      "started_at": "2026-11-18T08:12:46.192668912Z",
+      "status": "exited"
+    },
+    "satellite-p5-acceptance-details": {
+      "command": [
+        "python",
+        "-u",
+        "scripts/audit_stage5_acceptance_details.py"
+      ],
+      "cpuset": "8",
+      "exit_code": 0,
+      "finished_at": "2026-11-18T12:21:08.418861876Z",
+      "image": "sha256:c465af02e860b05f063ca84b138e1cca72c235574b402937e6fb2eaf5d6ec728",
+      "oom_killed": false,
+      "started_at": "2026-11-18T12:15:47.520591541Z",
+      "status": "exited"
+    },
+    "satellite-p5-analysis": {
+      "command": [
+        "python",
+        "-u",
+        "scripts/finish_stage5_analysis.py"
+      ],
+      "cpuset": "8",
+      "exit_code": 0,
+      "finished_at": "2026-11-18T12:48:32.886863192Z",
+      "image": "sha256:c465af02e860b05f063ca84b138e1cca72c235574b402937e6fb2eaf5d6ec728",
+      "oom_killed": false,
+      "started_at": "2026-11-18T12:25:10.02754739Z",
+      "status": "exited"
+    },
+    "satellite-p5-audit-0": {
+      "command": [
+        "python",
+        "-u",
+        "scripts/verify_stage5_evidence.py"
+      ],
+      "cpuset": "2",
+      "exit_code": 0,
+      "finished_at": "2026-11-18T12:30:55.682128428Z",
+      "image": "sha256:c465af02e860b05f063ca84b138e1cca72c235574b402937e6fb2eaf5d6ec728",
+      "oom_killed": false,
+      "started_at": "2026-11-18T08:33:31.560041816Z",
+      "status": "exited"
+    },
+    "satellite-p5-audit-1": {
+      "command": [
+        "python",
+        "-u",
+        "scripts/verify_stage5_evidence.py"
+      ],
+      "cpuset": "4",
+      "exit_code": 0,
+      "finished_at": "2026-11-18T12:35:08.899325101Z",
+      "image": "sha256:c465af02e860b05f063ca84b138e1cca72c235574b402937e6fb2eaf5d6ec728",
+      "oom_killed": false,
+      "started_at": "2026-11-18T08:33:31.625096376Z",
+      "status": "exited"
+    },
+    "satellite-p5-audit-2": {
+      "command": [
+        "python",
+        "-u",
+        "scripts/verify_stage5_evidence.py"
+      ],
+      "cpuset": "6",
+      "exit_code": 0,
+      "finished_at": "2026-11-18T12:26:49.065181889Z",
+      "image": "sha256:c465af02e860b05f063ca84b138e1cca72c235574b402937e6fb2eaf5d6ec728",
+      "oom_killed": false,
+      "started_at": "2026-11-18T08:33:31.569548728Z",
+      "status": "exited"
+    },
+    "satellite-p5-continuous-semantic": {
+      "command": [
+        "python",
+        "-u",
+        "scripts/run_p5_continuous.py"
+      ],
+      "cpuset": "2",
+      "exit_code": 0,
+      "finished_at": "2026-11-18T08:22:26.120690487Z",
+      "image": "sha256:c465af02e860b05f063ca84b138e1cca72c235574b402937e6fb2eaf5d6ec728",
+      "oom_killed": false,
+      "started_at": "2026-11-18T08:22:21.151463748Z",
+      "status": "exited"
+    },
+    "satellite-p5-continuous-semantic-v2": {
+      "command": [
+        "python",
+        "-u",
+        "scripts/run_p5_continuous_v2.py"
+      ],
+      "cpuset": "2",
+      "exit_code": 0,
+      "finished_at": "2026-11-18T08:23:26.849985859Z",
+      "image": "sha256:c465af02e860b05f063ca84b138e1cca72c235574b402937e6fb2eaf5d6ec728",
+      "oom_killed": false,
+      "started_at": "2026-11-18T08:23:21.810111479Z",
+      "status": "exited"
+    },
+    "satellite-p5-fill-0": {
+      "command": [
+        "python",
+        "-u",
+        "scripts/fill_stage5_replay.py",
+        "--worker",
+        "0"
+      ],
+      "cpuset": "8",
+      "exit_code": 0,
+      "finished_at": "2026-11-18T12:32:44.151719183Z",
+      "image": "sha256:c465af02e860b05f063ca84b138e1cca72c235574b402937e6fb2eaf5d6ec728",
+      "oom_killed": false,
+      "started_at": "2026-11-18T12:24:29.635225092Z",
+      "status": "exited"
+    },
+    "satellite-p5-fill-1": {
+      "command": [
+        "python",
+        "-u",
+        "scripts/fill_stage5_replay.py",
+        "--worker",
+        "1"
+      ],
+      "cpuset": "10",
+      "exit_code": 0,
+      "finished_at": "2026-11-18T12:39:28.00358085Z",
+      "image": "sha256:c465af02e860b05f063ca84b138e1cca72c235574b402937e6fb2eaf5d6ec728",
+      "oom_killed": false,
+      "started_at": "2026-11-18T12:24:31.329788231Z",
+      "status": "exited"
+    },
+    "satellite-p5-fill-2": {
+      "command": [
+        "python",
+        "-u",
+        "scripts/fill_stage5_replay.py",
+        "--worker",
+        "2"
+      ],
+      "cpuset": "12",
+      "exit_code": 0,
+      "finished_at": "2026-11-18T12:35:03.031917201Z",
+      "image": "sha256:c465af02e860b05f063ca84b138e1cca72c235574b402937e6fb2eaf5d6ec728",
+      "oom_killed": false,
+      "started_at": "2026-11-18T12:24:33.238931008Z",
+      "status": "exited"
+    },
+    "satellite-p5-fill-3": {
+      "command": [
+        "python",
+        "-u",
+        "scripts/fill_stage5_replay.py",
+        "--worker",
+        "3"
+      ],
+      "cpuset": "14",
+      "exit_code": 0,
+      "finished_at": "2026-11-18T12:39:31.000616598Z",
+      "image": "sha256:c465af02e860b05f063ca84b138e1cca72c235574b402937e6fb2eaf5d6ec728",
+      "oom_killed": false,
+      "started_at": "2026-11-18T12:24:35.259414528Z",
+      "status": "exited"
+    },
+    "satellite-p5-finalizer": {
+      "command": [
+        "python",
+        "-u",
+        "scripts/finalize_stage5_delivery.py"
+      ],
+      "cpuset": "8",
+      "exit_code": 137,
+      "finished_at": "2026-11-18T12:55:14.893992946Z",
+      "image": "sha256:c465af02e860b05f063ca84b138e1cca72c235574b402937e6fb2eaf5d6ec728",
+      "oom_killed": false,
+      "started_at": "2026-11-18T12:49:38.36600802Z",
+      "status": "exited"
+    },
+    "satellite-p5-independent-audit": {
+      "command": [
+        "python",
+        "-u",
+        "scripts/verify_stage5_evidence.py"
+      ],
+      "cpuset": "2",
+      "exit_code": 137,
+      "finished_at": "2026-11-18T08:33:30.471647887Z",
+      "image": "sha256:c465af02e860b05f063ca84b138e1cca72c235574b402937e6fb2eaf5d6ec728",
+      "oom_killed": false,
+      "started_at": "2026-11-18T08:27:38.65747549Z",
+      "status": "exited"
+    },
+    "satellite-p5-input-audit": {
+      "command": [
+        "python",
+        "-u",
+        "scripts/audit_stage5_inputs.py"
+      ],
+      "cpuset": "8",
+      "exit_code": 0,
+      "finished_at": "2026-11-18T08:43:19.653440295Z",
+      "image": "sha256:c465af02e860b05f063ca84b138e1cca72c235574b402937e6fb2eaf5d6ec728",
+      "oom_killed": false,
+      "started_at": "2026-11-18T08:39:56.077795483Z",
+      "status": "exited"
+    },
+    "satellite-p5-input-load-audit": {
+      "command": [
+        "python",
+        "-u",
+        "scripts/audit_stage5_inputs.py"
+      ],
+      "cpuset": "8",
+      "exit_code": 0,
+      "finished_at": "2026-11-18T09:10:18.931532446Z",
+      "image": "sha256:c465af02e860b05f063ca84b138e1cca72c235574b402937e6fb2eaf5d6ec728",
+      "oom_killed": false,
+      "started_at": "2026-11-18T09:06:52.118574181Z",
+      "status": "exited"
+    },
+    "satellite-p5-inputs": {
+      "command": [
+        "python",
+        "-u",
+        "scripts/prepare_p5_special.py"
+      ],
+      "cpuset": "2",
+      "exit_code": 0,
+      "finished_at": "2026-11-18T08:26:43.303092493Z",
+      "image": "sha256:c465af02e860b05f063ca84b138e1cca72c235574b402937e6fb2eaf5d6ec728",
+      "oom_killed": false,
+      "started_at": "2026-11-18T08:15:28.605975209Z",
+      "status": "exited"
+    },
+    "satellite-p5-native-trajectory-precheck": {
+      "command": [
+        "python",
+        "-u",
+        "-c",
+        "import sys;sys.path.insert(0,'scripts');from summarize_stage5 import *;print(native_references(),flush=True);print(trajectories(),flush=True)"
+      ],
+      "cpuset": "10",
+      "exit_code": 1,
+      "finished_at": "2026-11-18T12:17:17.381238433Z",
+      "image": "sha256:c465af02e860b05f063ca84b138e1cca72c235574b402937e6fb2eaf5d6ec728",
+      "oom_killed": false,
+      "started_at": "2026-11-18T12:17:16.001974018Z",
+      "status": "exited"
+    },
+    "satellite-p5-native-trajectory-precheck-v2": {
+      "command": [
+        "python",
+        "-u",
+        "-c",
+        "import sys;sys.path.insert(0,'scripts');from summarize_stage5 import *;print(native_references(),flush=True);print(trajectories(),flush=True)"
+      ],
+      "cpuset": "10",
+      "exit_code": 1,
+      "finished_at": "2026-11-18T12:18:54.163252135Z",
+      "image": "sha256:c465af02e860b05f063ca84b138e1cca72c235574b402937e6fb2eaf5d6ec728",
+      "oom_killed": false,
+      "started_at": "2026-11-18T12:18:52.09496721Z",
+      "status": "exited"
+    },
+    "satellite-p5-native-trajectory-precheck-v3": {
+      "command": [
+        "python",
+        "-u",
+        "-c",
+        "import sys;sys.path.insert(0,'scripts');from summarize_stage5 import *;print(native_references(),flush=True);print(trajectories(),flush=True)"
+      ],
+      "cpuset": "10",
+      "exit_code": 0,
+      "finished_at": "2026-11-18T12:21:22.89643701Z",
+      "image": "sha256:c465af02e860b05f063ca84b138e1cca72c235574b402937e6fb2eaf5d6ec728",
+      "oom_killed": false,
+      "started_at": "2026-11-18T12:20:05.804354676Z",
+      "status": "exited"
+    },
+    "satellite-p5-partial-summary": {
+      "command": [
+        "python",
+        "-u",
+        "scripts/summarize_stage5.py"
+      ],
+      "cpuset": "8",
+      "exit_code": 0,
+      "finished_at": "2026-11-18T09:43:36.250597254Z",
+      "image": "sha256:c465af02e860b05f063ca84b138e1cca72c235574b402937e6fb2eaf5d6ec728",
+      "oom_killed": false,
+      "started_at": "2026-11-18T09:43:13.566397074Z",
+      "status": "exited"
+    },
+    "satellite-p5-pipeline": {
+      "command": [
+        "python",
+        "-u",
+        "scripts/run_p5_pipeline.py"
+      ],
+      "cpuset": "0",
+      "exit_code": 0,
+      "finished_at": "2026-11-18T12:15:04.983926841Z",
+      "image": "sha256:c465af02e860b05f063ca84b138e1cca72c235574b402937e6fb2eaf5d6ec728",
+      "oom_killed": false,
+      "started_at": "2026-11-18T08:24:07.335777374Z",
+      "status": "exited"
+    },
+    "satellite-p5-search-detail-precheck": {
+      "command": [
+        "python",
+        "-c",
+        "import sys;sys.path.insert(0,'scripts');from audit_stage5_acceptance_details import *;counts=check_completed_searches();save(OUT/'search_detail_precheck.json',dict(passed=True,counts=counts,scope='Completed searches only; full acceptance still required'));print(counts)"
+      ],
+      "cpuset": "8",
+      "exit_code": 1,
+      "finished_at": "2026-11-18T10:26:23.284351173Z",
+      "image": "sha256:c465af02e860b05f063ca84b138e1cca72c235574b402937e6fb2eaf5d6ec728",
+      "oom_killed": false,
+      "started_at": "2026-11-18T10:22:45.949673771Z",
+      "status": "exited"
+    },
+    "satellite-p5-search-detail-precheck-v2": {
+      "command": [
+        "python",
+        "-c",
+        "import sys;sys.path.insert(0,'scripts');from audit_stage5_acceptance_details import *;counts=check_completed_searches();save(OUT/'search_detail_precheck.json',dict(passed=True,counts=counts,scope='Completed searches only; full acceptance still required'));print(counts)"
+      ],
+      "cpuset": "8",
+      "exit_code": 0,
+      "finished_at": "2026-11-18T10:33:24.037601546Z",
+      "image": "sha256:c465af02e860b05f063ca84b138e1cca72c235574b402937e6fb2eaf5d6ec728",
+      "oom_killed": false,
+      "started_at": "2026-11-18T10:29:22.245509498Z",
+      "status": "exited"
+    },
+    "satellite-p5-simulation-summary": {
+      "command": [
+        "python",
+        "-u",
+        "scripts/summarize_stage5.py"
+      ],
+      "cpuset": "8",
+      "exit_code": 0,
+      "finished_at": "2026-11-18T09:53:53.777067046Z",
+      "image": "sha256:c465af02e860b05f063ca84b138e1cca72c235574b402937e6fb2eaf5d6ec728",
+      "oom_killed": false,
+      "started_at": "2026-11-18T09:53:31.974097253Z",
+      "status": "exited"
+    },
+    "satellite-p5-timing-analysis": {
+      "command": [
+        "python",
+        "-u",
+        "scripts/extract_stage5_timing.py"
+      ],
+      "cpuset": "8",
+      "exit_code": 0,
+      "finished_at": "2026-11-18T09:17:40.858437366Z",
+      "image": "sha256:c465af02e860b05f063ca84b138e1cca72c235574b402937e6fb2eaf5d6ec728",
+      "oom_killed": false,
+      "started_at": "2026-11-18T08:59:29.720294927Z",
+      "status": "exited"
+    },
+    "satellite-p5-upgrade-summary": {
+      "command": [
+        "python",
+        "-u",
+        "scripts/summarize_stage5.py"
+      ],
+      "cpuset": "8",
+      "exit_code": 0,
+      "finished_at": "2026-11-18T10:13:27.011931102Z",
+      "image": "sha256:c465af02e860b05f063ca84b138e1cca72c235574b402937e6fb2eaf5d6ec728",
+      "oom_killed": false,
+      "started_at": "2026-11-18T10:12:57.687647773Z",
+      "status": "exited"
+    }
+  },
+  "delivery_verification_runtime": {
+    "pandas": "2.3.3",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "python": "3.14.0",
+    "scope": "Host-only final file/hash/denominator and Git-byte checks; no model inference, planning or performance rerun. All formal calls and physical replays used the locked Linux image.",
+    "stopped_container": "satellite-p5-finalizer was stopped during historical file hashing to avoid Docker bind-mount small-file overhead; the same acceptance script was then run on the host. This was not a formal experiment or physical replay failure."
+  },
+  "isolation": "Formal methods serialized on logical CPU0. Input generation/offline replay use other logical CPUs; exact cpusets and exit states are listed above. WSL/Docker and host scheduling may still cause jitter; no hard-real-time guarantee.",
+  "offline_audit_restart": "Initial single offline replay container was stopped (exit137) and replaced by three partitioned workers on CPUs2/4/6. Sealed raw performance shards were retained; final replay checks all shards regardless of worker.",
+  "parent_commit": "a7eaff69672891c1ae3ea01df8ba80c1aa431134",
+  "runtime": {
+    "cpu_model": "model name\t: Intel(R) Core(TM) Ultra 5 125H",
+    "packages": {
+      "alns": "7.0.0",
+      "matplotlib": "3.11.2",
+      "numpy": "2.3.5",
+      "ortools": "9.14.6206",
+      "pandas": "2.3.3",
+      "scipy": "1.16.3",
+      "sgp4": "2.25",
+      "skyfield": "1.53"
+    },
+    "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.36",
+    "python": "3.11.18",
+    "threads": {
+      "MKL_NUM_THREADS": "1",
+      "NUMEXPR_NUM_THREADS": "1",
+      "OMP_NUM_THREADS": "1",
+      "OPENBLAS_NUM_THREADS": "1",
+      "PYTHONHASHSEED": "20261020"
+    }
+  },
+  "timing_scope": "Full Python execute dispatch through return, includes feature extraction, search, validation, metrics and return object; excludes disk, encoding, independent audit and initial reference creation"
+}

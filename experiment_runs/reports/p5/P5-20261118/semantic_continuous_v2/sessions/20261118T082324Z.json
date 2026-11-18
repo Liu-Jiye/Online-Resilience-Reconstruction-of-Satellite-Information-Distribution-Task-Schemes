@@ -1,0 +1,648 @@
+{
+  "affinity": [
+    2
+  ],
+  "python": "3.11.18",
+  "warmups": [
+    {
+      "iteration": 0,
+      "spec": {
+        "name": "Minimal-Repair"
+      },
+      "total_ns": 34177081
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "name": "Minimal-Repair"
+      },
+      "total_ns": 7474250
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "name": "Minimal-Repair"
+      },
+      "total_ns": 14527819
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "name": "Minimal-Repair"
+      },
+      "total_ns": 9394986
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "name": "Minimal-Repair"
+      },
+      "total_ns": 13918130
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "name": "Minimal-Repair"
+      },
+      "total_ns": 6256474
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "name": "Minimal-Repair"
+      },
+      "total_ns": 7447046
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "name": "Minimal-Repair"
+      },
+      "total_ns": 10443646
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "name": "Minimal-Repair"
+      },
+      "total_ns": 11015998
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "name": "Minimal-Repair"
+      },
+      "total_ns": 14595988
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "name": "Minimal-Repair"
+      },
+      "total_ns": 14624663
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "name": "Minimal-Repair"
+      },
+      "total_ns": 14295633
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "name": "Minimal-Repair"
+      },
+      "total_ns": 17954218
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "name": "Minimal-Repair"
+      },
+      "total_ns": 7445812
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "name": "Minimal-Repair"
+      },
+      "total_ns": 15939130
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "name": "Minimal-Repair"
+      },
+      "total_ns": 15424957
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "name": "Minimal-Repair"
+      },
+      "total_ns": 14197579
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "name": "Minimal-Repair"
+      },
+      "total_ns": 15862357
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "name": "Minimal-Repair"
+      },
+      "total_ns": 15964599
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "name": "Minimal-Repair"
+      },
+      "total_ns": 14579984
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "B": 2,
+        "name": "Fixed-PALR",
+        "w": 5
+      },
+      "total_ns": 8373703
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "B": 2,
+        "name": "Fixed-PALR",
+        "w": 5
+      },
+      "total_ns": 9486335
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "B": 2,
+        "name": "Fixed-PALR",
+        "w": 5
+      },
+      "total_ns": 12540698
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "B": 2,
+        "name": "Fixed-PALR",
+        "w": 5
+      },
+      "total_ns": 14555501
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "B": 2,
+        "name": "Fixed-PALR",
+        "w": 5
+      },
+      "total_ns": 10753597
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "B": 2,
+        "name": "Fixed-PALR",
+        "w": 5
+      },
+      "total_ns": 15999287
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "B": 2,
+        "name": "Fixed-PALR",
+        "w": 5
+      },
+      "total_ns": 24762260
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "B": 2,
+        "name": "Fixed-PALR",
+        "w": 5
+      },
+      "total_ns": 20436160
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "B": 2,
+        "name": "Fixed-PALR",
+        "w": 5
+      },
+      "total_ns": 15352845
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "B": 2,
+        "name": "Fixed-PALR",
+        "w": 5
+      },
+      "total_ns": 15012593
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "B": 2,
+        "name": "Fixed-PALR",
+        "w": 5
+      },
+      "total_ns": 17024050
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "B": 2,
+        "name": "Fixed-PALR",
+        "w": 5
+      },
+      "total_ns": 14315273
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "B": 2,
+        "name": "Fixed-PALR",
+        "w": 5
+      },
+      "total_ns": 15638377
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "B": 2,
+        "name": "Fixed-PALR",
+        "w": 5
+      },
+      "total_ns": 9450848
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "B": 2,
+        "name": "Fixed-PALR",
+        "w": 5
+      },
+      "total_ns": 16126856
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "B": 2,
+        "name": "Fixed-PALR",
+        "w": 5
+      },
+      "total_ns": 10342997
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "B": 2,
+        "name": "Fixed-PALR",
+        "w": 5
+      },
+      "total_ns": 14713804
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "B": 2,
+        "name": "Fixed-PALR",
+        "w": 5
+      },
+      "total_ns": 15019083
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "B": 2,
+        "name": "Fixed-PALR",
+        "w": 5
+      },
+      "total_ns": 15682107
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "B": 2,
+        "name": "Fixed-PALR",
+        "w": 5
+      },
+      "total_ns": 21980345
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "B": 1,
+        "name": "Validation-Best-Fixed",
+        "w": 5
+      },
+      "total_ns": 10121081
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "B": 1,
+        "name": "Validation-Best-Fixed",
+        "w": 5
+      },
+      "total_ns": 5064350
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "B": 1,
+        "name": "Validation-Best-Fixed",
+        "w": 5
+      },
+      "total_ns": 16764114
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "B": 1,
+        "name": "Validation-Best-Fixed",
+        "w": 5
+      },
+      "total_ns": 10814031
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "B": 1,
+        "name": "Validation-Best-Fixed",
+        "w": 5
+      },
+      "total_ns": 14622155
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "B": 1,
+        "name": "Validation-Best-Fixed",
+        "w": 5
+      },
+      "total_ns": 14756561
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "B": 1,
+        "name": "Validation-Best-Fixed",
+        "w": 5
+      },
+      "total_ns": 24459370
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "B": 1,
+        "name": "Validation-Best-Fixed",
+        "w": 5
+      },
+      "total_ns": 21036396
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "B": 1,
+        "name": "Validation-Best-Fixed",
+        "w": 5
+      },
+      "total_ns": 22751685
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "B": 1,
+        "name": "Validation-Best-Fixed",
+        "w": 5
+      },
+      "total_ns": 15472603
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "B": 1,
+        "name": "Validation-Best-Fixed",
+        "w": 5
+      },
+      "total_ns": 22145527
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "B": 1,
+        "name": "Validation-Best-Fixed",
+        "w": 5
+      },
+      "total_ns": 31431591
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "B": 1,
+        "name": "Validation-Best-Fixed",
+        "w": 5
+      },
+      "total_ns": 11664295
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "B": 1,
+        "name": "Validation-Best-Fixed",
+        "w": 5
+      },
+      "total_ns": 21210413
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "B": 1,
+        "name": "Validation-Best-Fixed",
+        "w": 5
+      },
+      "total_ns": 16143285
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "B": 1,
+        "name": "Validation-Best-Fixed",
+        "w": 5
+      },
+      "total_ns": 12280081
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "B": 1,
+        "name": "Validation-Best-Fixed",
+        "w": 5
+      },
+      "total_ns": 14458353
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "B": 1,
+        "name": "Validation-Best-Fixed",
+        "w": 5
+      },
+      "total_ns": 14632270
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "B": 1,
+        "name": "Validation-Best-Fixed",
+        "w": 5
+      },
+      "total_ns": 19396099
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "B": 1,
+        "name": "Validation-Best-Fixed",
+        "w": 5
+      },
+      "total_ns": 11568432
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "name": "Rule-PALR"
+      },
+      "total_ns": 20410541
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "name": "Rule-PALR"
+      },
+      "total_ns": 15208698
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "name": "Rule-PALR"
+      },
+      "total_ns": 16075228
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "name": "Rule-PALR"
+      },
+      "total_ns": 13766425
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "name": "Rule-PALR"
+      },
+      "total_ns": 11231882
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "name": "Rule-PALR"
+      },
+      "total_ns": 16506256
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "name": "Rule-PALR"
+      },
+      "total_ns": 20451904
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "name": "Rule-PALR"
+      },
+      "total_ns": 18893290
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "name": "Rule-PALR"
+      },
+      "total_ns": 9312835
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "name": "Rule-PALR"
+      },
+      "total_ns": 12232703
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "name": "Rule-PALR"
+      },
+      "total_ns": 16151881
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "name": "Rule-PALR"
+      },
+      "total_ns": 15985208
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "name": "Rule-PALR"
+      },
+      "total_ns": 11597542
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "name": "Rule-PALR"
+      },
+      "total_ns": 15388092
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "name": "Rule-PALR"
+      },
+      "total_ns": 15579692
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "name": "Rule-PALR"
+      },
+      "total_ns": 14750770
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "name": "Rule-PALR"
+      },
+      "total_ns": 15995036
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "name": "Rule-PALR"
+      },
+      "total_ns": 16276447
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "name": "Rule-PALR"
+      },
+      "total_ns": 12725487
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "name": "Rule-PALR"
+      },
+      "total_ns": 20514399
+    }
+  ]
+}

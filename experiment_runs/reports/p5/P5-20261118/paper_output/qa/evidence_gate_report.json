@@ -1,0 +1,30 @@
+{
+  "P6_started": false,
+  "checkpoint_id": "P5-delivery-evidence",
+  "evidence": [
+    "final_acceptance.json",
+    "acceptance_details.json",
+    "input_independent_audit.json",
+    "historical_integrity.json",
+    "summary_receipt.json",
+    "preflight_tests.xml"
+  ],
+  "failures": [],
+  "score": 100,
+  "score_scope": "Percentage of required delivery checks passed; not scientific merit or performance superiority",
+  "stage": "P5",
+  "status": "PASS",
+  "user_approved_not_applicable": {
+    "A6": "depends on ET,not retrained",
+    "ET": "user-approved rule main line",
+    "IPC_performance": "no full temporal planner/validator adapter,user-approved applicability audit only"
+  },
+  "warnings": [
+    "frozen anomalies cover40D1+10Starlink,noOneWeb",
+    "reference sensitivity compares four light methods",
+    "exploratory CIs conditional on fixed orbit groups",
+    "Python cooperative timing,not hard real time",
+    "A9event-wise offline envelope is optimistic and not deployable",
+    "Rate changes base tasks;urgent rate follows original event generator;distance may change urgent endpoints when events are regenerated"
+  ]
+}

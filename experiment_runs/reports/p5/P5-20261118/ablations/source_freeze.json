@@ -1,0 +1,370 @@
+{
+  "extra": {
+    "expected_bases": 300,
+    "expected_calls": 169200,
+    "specs": [
+      {
+        "B": 0,
+        "name": "Grid-w1-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 0,
+        "w": 1
+      },
+      {
+        "B": 1,
+        "name": "Grid-w1-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 1,
+        "w": 1
+      },
+      {
+        "B": 2,
+        "name": "Grid-w1-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 2,
+        "w": 1
+      },
+      {
+        "B": 3,
+        "name": "Grid-w1-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 3,
+        "w": 1
+      },
+      {
+        "B": 5,
+        "name": "Grid-w1-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 4,
+        "w": 1
+      },
+      {
+        "B": 0,
+        "name": "Grid-w3-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 5,
+        "w": 3
+      },
+      {
+        "B": 1,
+        "name": "Grid-w3-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 6,
+        "w": 3
+      },
+      {
+        "B": 2,
+        "name": "Grid-w3-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 7,
+        "w": 3
+      },
+      {
+        "B": 3,
+        "name": "Grid-w3-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 8,
+        "w": 3
+      },
+      {
+        "B": 5,
+        "name": "Grid-w3-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 9,
+        "w": 3
+      },
+      {
+        "B": 0,
+        "name": "Grid-w5-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 10,
+        "w": 5
+      },
+      {
+        "B": 1,
+        "name": "Grid-w5-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 11,
+        "w": 5
+      },
+      {
+        "B": 2,
+        "name": "Grid-w5-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 12,
+        "w": 5
+      },
+      {
+        "B": 3,
+        "name": "Grid-w5-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 13,
+        "w": 5
+      },
+      {
+        "B": 5,
+        "name": "Grid-w5-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 14,
+        "w": 5
+      },
+      {
+        "B": 0,
+        "name": "Grid-w10-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 15,
+        "w": 10
+      },
+      {
+        "B": 1,
+        "name": "Grid-w10-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 16,
+        "w": 10
+      },
+      {
+        "B": 2,
+        "name": "Grid-w10-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 17,
+        "w": 10
+      },
+      {
+        "B": 3,
+        "name": "Grid-w10-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 18,
+        "w": 10
+      },
+      {
+        "B": 5,
+        "name": "Grid-w10-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 19,
+        "w": 10
+      },
+      {
+        "B": 0,
+        "name": "Grid-w20-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 20,
+        "w": 20
+      },
+      {
+        "B": 1,
+        "name": "Grid-w20-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 21,
+        "w": 20
+      },
+      {
+        "B": 2,
+        "name": "Grid-w20-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 22,
+        "w": 20
+      },
+      {
+        "B": 3,
+        "name": "Grid-w20-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 23,
+        "w": 20
+      },
+      {
+        "B": 5,
+        "name": "Grid-w20-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 24,
+        "w": 20
+      },
+      {
+        "name": "Minimal-Repair",
+        "spec_id": 25
+      },
+      {
+        "name": "Rule-PALR",
+        "spec_id": 26
+      },
+      {
+        "name": "B-only",
+        "spec_id": 27
+      },
+      {
+        "name": "w-only",
+        "spec_id": 28
+      },
+      {
+        "B": 2,
+        "ignore_window": true,
+        "name": "No-window",
+        "spec_id": 29,
+        "w": 5
+      },
+      {
+        "B": 2,
+        "ignore_receiver": true,
+        "name": "No-receiver",
+        "spec_id": 30,
+        "w": 5
+      },
+      {
+        "B": 2,
+        "insertion_only": true,
+        "name": "Insert-only",
+        "spec_id": 31,
+        "w": 5
+      },
+      {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 11,
+        "spec_id": 32,
+        "w": 5
+      },
+      {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 23,
+        "spec_id": 33,
+        "w": 5
+      },
+      {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 47,
+        "spec_id": 34,
+        "w": 5
+      },
+      {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 89,
+        "spec_id": 35,
+        "w": 5
+      },
+      {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 131,
+        "spec_id": 36,
+        "w": 5
+      },
+      {
+        "budget_ms": 5,
+        "name": "Rule-PALR",
+        "spec_id": 37
+      },
+      {
+        "budget_ms": 5,
+        "name": "No-time",
+        "spec_id": 38
+      },
+      {
+        "budget_ms": 10,
+        "name": "Rule-PALR",
+        "spec_id": 39
+      },
+      {
+        "budget_ms": 10,
+        "name": "No-time",
+        "spec_id": 40
+      },
+      {
+        "budget_ms": 20,
+        "name": "Rule-PALR",
+        "spec_id": 41
+      },
+      {
+        "budget_ms": 20,
+        "name": "No-time",
+        "spec_id": 42
+      },
+      {
+        "budget_ms": 50,
+        "name": "Rule-PALR",
+        "spec_id": 43
+      },
+      {
+        "budget_ms": 50,
+        "name": "No-time",
+        "spec_id": 44
+      },
+      {
+        "budget_ms": 100,
+        "name": "Rule-PALR",
+        "spec_id": 45
+      },
+      {
+        "budget_ms": 100,
+        "name": "No-time",
+        "spec_id": 46
+      }
+    ]
+  },
+  "phase": "ablations",
+  "sources": {
+    "protocol/P5_EXECUTION_V1.md": "d8374b7656eeff23bc28102c3c8ffc3dfaa7fa767cbed352f8e91ad30cc0c8cf",
+    "reports/p3/P3-20261110/frozen_parameters.json": "29b122b0d1d1787557eec3747f2e34a2050ae81121f7a7a5a1d1fe60fcc2f07e",
+    "reports/p3/P3-20261110/search_training_statistics.json": "54b32e59f98e57494c8996042f732bf4641015108e61fba3e756b1c41999a277",
+    "reports/p5/P5-20261118/subsets.json": "4caccc44298c68337459cadd1c45c7cc35dfe84927b523db77f189034ea4ac9a",
+    "scripts/build_p5_forks.py": "edae451d385e13c7098e0d54b869a28cce8d45c3e2b6546d9e45a1fca80c768a",
+    "scripts/build_p5_search.py": "229f981e18312fb282476b8e42d3eaa202b349fcb5d28a28d3d80f767ad1d4d0",
+    "scripts/p5_common.py": "5f97a17094e31953838fc18d25e99d5b2acced690265e97f73c38c1bcce5fe2e",
+    "scripts/p5_runner.py": "75e7153443ded450c56367bf1fc8fedb6d0ed3180fe48bed05ee302b52f7be2a",
+    "scripts/prepare_p5.py": "c76652dd017007596c0336be617335f093baae8201b957c50562e2f97e7c71dd",
+    "scripts/run_p5_ablations.py": "607ef82064aab37b64f2520b30822146404e09be7de23d92f1505e6306528c77",
+    "src/isl/__init__.py": "3db3a908474eafe1bf9044fbc7c42d38fb2a2c59d5beae317151f7eb464a64f6",
+    "src/isl/calendar.py": "130108a99fe1025b2beca0baf658d480e49fb651bfa78a45efd5bc19a3a8c98c",
+    "src/isl/events.py": "24ca09c963bffaa7b389d8ad89ea683a91262d78088a7508b8b8ec3891a4a746",
+    "src/isl/load_pilot.py": "e2200b75cdfc8eb94f3b1b00c64ab77824b00a50d8061a4932dd5cc0edacf503",
+    "src/isl/load_pilot_independent.py": "0527102ff3528f55ae229f2c3e8f160588e243b6b1625f158e3804a413e8f744",
+    "src/isl/metrics.py": "d0b72d1b73cfd3553aef3b35447182a4810118783762d3e4c2959b0d7e6c96de",
+    "src/isl/models.py": "9bc427c6c5d3fd3e2db7fbb9f227055b56fb80716a34d376fd80142208ea24e2",
+    "src/isl/p1_generation.py": "db47a4d57982783d55afeaa8d1107db6ab8d0df676442c211f55ef70e6e753b9",
+    "src/isl/p1_orbits.py": "a093bd1512e63158f1db952fe0724e1d14305803e753daeb3a30c49a46c5429e",
+    "src/isl/p1_sources.py": "3f9e83316244e0cb67fb3f04ef9982826952493c8d64f69a1a70efc1bc45d41d",
+    "src/isl/p2_exact.py": "9cdf6c3acc361c43891ea14c37dcce1d0ac116a1189308e4c1f56ff2494363e6",
+    "src/isl/p2_exact_v2.py": "5f8f561f724641d5b03aa301c7209ff6d37bc63cff5341b579fecd0c232ae431",
+    "src/isl/p2_generation.py": "f313c9a9dfdf26fa56c73552c55ee31f364a87bc9fef2dd967f3ce4d536f604d",
+    "src/isl/p2c.py": "9e41780f815c5b1cb32b41134e4939c3cf0811c88e8ad271aa48eaf9dbbf7aae",
+    "src/isl/p3/__init__.py": "507ba4a3111d5ccba9e014c598b17de6c6560b3f9441bb91993e46c7ce0039af",
+    "src/isl/p3/control.py": "c8544a215d3f36541ccedff8ae3a7d9ec1a45e13aa0c156118c4f105328dc331",
+    "src/isl/p3/control_timed.py": "44ce390795067a12228a16922347f4b8477f8afee6ff64f3794a149a94db36b0",
+    "src/isl/p3/indexed.py": "4430f41574b199fc6c67b9b659800ce8fe5b3fc1d86285b8b46c46f7ea4b80d4",
+    "src/isl/p3/model_io.py": "2cf4abc40700d99462deb62d5442da14180854ae942282182d0e8d4805120abd",
+    "src/isl/p3/repair_runtime.py": "d4b3a3b824b9cebfabb3658becc580db659aa96dd7835588044ef31626994bf0",
+    "src/isl/p3/search.py": "f15a5bf6f981e0f4e1612596027aa54706021d027ef3b36c9356dadab20c3a8c",
+    "src/isl/p3/validation_indexed.py": "3b2ed7fb4cbad009905b6f18546b5ceadf353aeae0830ce86d0c4bb259e38cd2",
+    "src/isl/p3r/__init__.py": "3a8db19c9b9aa2cd9760ab8197355427d8aa9f396d536c2931e8fcb1d0b8b8da",
+    "src/isl/p3r/control.py": "b569bc11cfac27a4585e28bddcc5a3b208617f98a8fb492d2e39f84f8f050309",
+    "src/isl/p3r/control_timed.py": "fedaa9742a1980a58573c19e15f01b85b12f11c1944de436a0cd0ac2bda6e4c0",
+    "src/isl/p3r/indexed.py": "c1163655c8b32f53e4261d872f980357fb8839a76adf4831db330b2e33a894b8",
+    "src/isl/p3r/model_io.py": "3569ebbc7895b587c7d8e99d26721033a386b63746a76f25ea25aca9b2275f58",
+    "src/isl/p3r/repair_runtime.py": "1e4cbf643c0a6e57bc504e2eb7afbe3587ec771ec4639e9f5536632143a41f9d",
+    "src/isl/p3r/search.py": "56f5221b8a67f6f3570a8026ffbcf74ce62340df4dac3878e7199b635d139ab3",
+    "src/isl/p3r/sparse_control.py": "f444d44e865e4ff026282f67c7acde6bfb7abc55d917e291ad40b7adbbef0f5f",
+    "src/isl/p3r/validation_indexed.py": "16dd937ec8cd0ccc0c9f051dfa35cd28f73316b9e14265a3ce2892704018a594",
+    "src/isl/p4/__init__.py": "7ec005c402cb3114f0173d009ec2c6c111d2cbe81f00bc8daae486e6b109dc13",
+    "src/isl/p4/online.py": "ee2ebe461db005856c8294c3f52146092c4d75e209d2d30452626c65fadb2e84",
+    "src/isl/p5/__init__.py": "aaf0b214371468b8d74cc7c94ff82b8dae628ea4e058dd5cdcde7789148bccd5",
+    "src/isl/p5/data.py": "ddd128aa6d8610537e57ededb53c3b032fa05dcb6bcf0adb799f3ca576bed376",
+    "src/isl/p5/indexed.py": "f62c9e705d8f7e97114b80150475b448c504d11bde47eb435388b93f12d7a243",
+    "src/isl/p5/online.py": "a1dc9a39b97edc251686765a6c16038c2943149dd3d5ff9fc7f2bae2df7b03ab",
+    "src/isl/p5/repair.py": "f537dfc9499b922953da933ebdb21c96f8280b1f5a37cd3b606ff2892daedb96",
+    "src/isl/p5/search.py": "893609c75194a48d2f49e70f040372ebb7d362cbc37013e4cb876bc0ffd96ce1",
+    "src/isl/p5/solver.py": "365e76960f994b15b2450f7dd14c528f3112a4623bbc9b6926efc95ea19a3bdb",
+    "src/isl/p5/validation_relaxed.py": "05b6e5f56073a987084819458ffa6c741247b83ed8d3436a1571dc690f0aefa5",
+    "src/isl/placement.py": "c3d7eb7a6579609f856b79e0314d4af4b5439e028f6c5d57e0c95e1f2f0733f5",
+    "src/isl/reference.py": "489bd59389a11c4079243df81cdd167fc45bce98c34d5f4ce780828c645c93ca",
+    "src/isl/repair.py": "b44c1dabbc4656ad693bf0f91905ddd3d28d3fa41b96179628d50c212e0e95c9",
+    "src/isl/repair_v2.py": "9c16b47a20051d12cb2b7e4b4ce7b341c72eee576f568bf7cdd92957c232550a",
+    "src/isl/urgent_supplement.py": "309725856e24557d45b7c29c68d6f9a2ea5af72ceab61b0a91c2138440d78b88",
+    "src/isl/validation.py": "d2fa280ffc1984c715fd6ca8a1c93da9447cdcb3ccf0353828f7e195e5415733"
+  }
+}

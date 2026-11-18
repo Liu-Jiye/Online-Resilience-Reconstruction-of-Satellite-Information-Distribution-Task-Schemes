@@ -1,0 +1,13 @@
+{
+  "counts": {
+    "applicable": 48,
+    "calls": 48,
+    "online_success": 1,
+    "timeouts": 47,
+    "validated_replays": 3
+  },
+  "flat_sha256": "90f05fdd79cc0fe481a3630ee593439d0921fc7f44b284aa28bfcd70b69e0663",
+  "freeze": "4e9aab7c193c5ca65543a3fbbe26474346c25c0cb965ed55bdd7b932a5e26a47",
+  "independent_checker": "original isl.validation, including full trace for validated outputs",
+  "raw_sha256": "3f829cb325f6c8018127cd3869d180e5543c767a3d7e5319cea6c3f71e32023e"
+}

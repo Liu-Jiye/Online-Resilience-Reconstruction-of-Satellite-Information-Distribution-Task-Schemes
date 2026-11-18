@@ -1,0 +1,81 @@
+{
+  "assessment_date": "2026-11-18",
+  "frozen_commit": "a7eaff69672891c1ae3ea01df8ba80c1aa431134",
+  "activity": "Read-only secondary analysis of frozen P4 evidence; no methods rerun, no parameter or sample changes.",
+  "checks": {
+    "seed_averaged_rows": 96000,
+    "base_method_clusters": 8000,
+    "events_per_base_method": 12,
+    "published_best_fixed_vs_rule_interval_reproduced": true,
+    "main_raw_calls": 192000
+  },
+  "paired_bootstrap": {
+    "seed": 20261020,
+    "repetitions": 10000,
+    "scheme": "Frozen layer/group/base paired resampling; 12 events kept together",
+    "comparisons": {
+      "Validation-Best-Fixed minus Rule-PALR": {
+        "difference_percentage_points": 0.33333333333333326,
+        "ci95_percentage_points": [
+          -0.008333333333333571,
+          0.6833333333333332
+        ]
+      },
+      "Validation-Best-Fixed minus Minimal-Repair": {
+        "difference_percentage_points": 0.15833333333333338,
+        "ci95_percentage_points": [
+          -0.20833333333333315,
+          0.5333333333333333
+        ]
+      },
+      "Rule-PALR minus Minimal-Repair": {
+        "difference_percentage_points": -0.17499999999999985,
+        "ci95_percentage_points": [
+          -0.5666666666666667,
+          0.21666666666666673
+        ]
+      }
+    },
+    "scope": "Comparisons against Minimal are secondary descriptive audit results, not a new preregistered primary test; only two orbit groups per orbital layer."
+  },
+  "minimal_U_raw_zero_events_by_method": {
+    "ALNS-ISL": 273,
+    "Validation-Best-Fixed": 273,
+    "PUCT-ISL": 273,
+    "Minimal-Repair": 273,
+    "CP-SAT-50ms": 273,
+    "Fixed-PALR": 273,
+    "Rule-PALR": 273,
+    "Frozen-Greedy": 273
+  },
+  "kernel_ontime_service_outputs_that_miss_full_call_deadline_by_method": {
+    "PUCT-ISL": 9301,
+    "ALNS-ISL": 8520,
+    "Fixed-PALR": 8,
+    "CP-SAT-50ms": 121,
+    "Minimal-Repair": 10,
+    "Rule-PALR": 13,
+    "Validation-Best-Fixed": 12,
+    "Frozen-Greedy": 91
+  },
+  "main_raw_calls_by_method": {
+    "Rule-PALR": 12000,
+    "ALNS-ISL": 60000,
+    "Frozen-Greedy": 12000,
+    "PUCT-ISL": 60000,
+    "CP-SAT-50ms": 12000,
+    "Minimal-Repair": 12000,
+    "Validation-Best-Fixed": 12000,
+    "Fixed-PALR": 12000
+  },
+  "source_sha256": {
+    "seed_averaged_events.csv": "f632c950097080bea08ec83239f4ff3aa82d77dd721b7ce219a2dd8e5f9e2eb5",
+    "per_event_results.csv": "1c4987b9b76a2652018f525cf6c8fa7c062791579a1877a234fe11a56e1e24ab",
+    "cluster_bootstrap.json": "11d9e76e4b964fd01d37e69361e0708faa7b7e258067efbbd310b333862025d3",
+    "main_table.csv": "681e1ba9688d382062d4dfb33c98b6db662eb1f51d9e06abe05161ea9c3afa6c",
+    "conditional_quality.csv": "c62568999ac0fe5499de28f83285f29f41447d6a095610e99d5176710871c2e1",
+    "timing_table.csv": "3fe7f899e678b42f106005587c646ed58dc79a2597a069e2b2f1151f5c729cdf",
+    "timing_components.csv": "ae0734d84d6b92ba5cbbcc2ca86f6b60503fbde63a2efb731901fd1e1c8dd9ce",
+    "data/manifest.json": "c8df61e29240419cd54183d057c135dfb10a256eed6ff0d07a4daf804875288a"
+  }
+}

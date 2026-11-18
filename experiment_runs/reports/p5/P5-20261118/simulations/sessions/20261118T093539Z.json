@@ -1,0 +1,2708 @@
+{
+  "affinity": [
+    0
+  ],
+  "python": "3.11.18",
+  "warmups": [
+    {
+      "iteration": 0,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 11,
+        "simulations": 40
+      },
+      "total_ns": 48023667
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 11,
+        "simulations": 40
+      },
+      "total_ns": 48041044
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 11,
+        "simulations": 40
+      },
+      "total_ns": 49528821
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 11,
+        "simulations": 40
+      },
+      "total_ns": 34057546
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 11,
+        "simulations": 40
+      },
+      "total_ns": 50701477
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 11,
+        "simulations": 40
+      },
+      "total_ns": 50060510
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 11,
+        "simulations": 40
+      },
+      "total_ns": 49756132
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 11,
+        "simulations": 40
+      },
+      "total_ns": 49333270
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 11,
+        "simulations": 40
+      },
+      "total_ns": 48268581
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 11,
+        "simulations": 40
+      },
+      "total_ns": 50720638
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 11,
+        "simulations": 40
+      },
+      "total_ns": 50045197
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 11,
+        "simulations": 40
+      },
+      "total_ns": 49965782
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 11,
+        "simulations": 40
+      },
+      "total_ns": 49376717
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 11,
+        "simulations": 40
+      },
+      "total_ns": 49090139
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 11,
+        "simulations": 40
+      },
+      "total_ns": 51223708
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 11,
+        "simulations": 40
+      },
+      "total_ns": 47681573
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 11,
+        "simulations": 40
+      },
+      "total_ns": 48507478
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 11,
+        "simulations": 40
+      },
+      "total_ns": 50166179
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 11,
+        "simulations": 40
+      },
+      "total_ns": 51711564
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 11,
+        "simulations": 40
+      },
+      "total_ns": 48519667
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 23,
+        "simulations": 40
+      },
+      "total_ns": 49318935
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 23,
+        "simulations": 40
+      },
+      "total_ns": 49177871
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 23,
+        "simulations": 40
+      },
+      "total_ns": 50078183
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 23,
+        "simulations": 40
+      },
+      "total_ns": 49117880
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 23,
+        "simulations": 40
+      },
+      "total_ns": 49085795
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 23,
+        "simulations": 40
+      },
+      "total_ns": 49985205
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 23,
+        "simulations": 40
+      },
+      "total_ns": 50099193
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 23,
+        "simulations": 40
+      },
+      "total_ns": 50350514
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 23,
+        "simulations": 40
+      },
+      "total_ns": 28957057
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 23,
+        "simulations": 40
+      },
+      "total_ns": 50001446
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 23,
+        "simulations": 40
+      },
+      "total_ns": 51592210
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 23,
+        "simulations": 40
+      },
+      "total_ns": 49875182
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 23,
+        "simulations": 40
+      },
+      "total_ns": 49182479
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 23,
+        "simulations": 40
+      },
+      "total_ns": 49291289
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 23,
+        "simulations": 40
+      },
+      "total_ns": 49462177
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 23,
+        "simulations": 40
+      },
+      "total_ns": 49583398
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 23,
+        "simulations": 40
+      },
+      "total_ns": 49628831
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 23,
+        "simulations": 40
+      },
+      "total_ns": 51013776
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 23,
+        "simulations": 40
+      },
+      "total_ns": 48855065
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 23,
+        "simulations": 40
+      },
+      "total_ns": 52235764
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 47,
+        "simulations": 40
+      },
+      "total_ns": 51134909
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 47,
+        "simulations": 40
+      },
+      "total_ns": 48666453
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 47,
+        "simulations": 40
+      },
+      "total_ns": 51756001
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 47,
+        "simulations": 40
+      },
+      "total_ns": 47678151
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 47,
+        "simulations": 40
+      },
+      "total_ns": 51684090
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 47,
+        "simulations": 40
+      },
+      "total_ns": 48315606
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 47,
+        "simulations": 40
+      },
+      "total_ns": 49605605
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 47,
+        "simulations": 40
+      },
+      "total_ns": 49836186
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 47,
+        "simulations": 40
+      },
+      "total_ns": 49970786
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 47,
+        "simulations": 40
+      },
+      "total_ns": 50058495
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 47,
+        "simulations": 40
+      },
+      "total_ns": 49755547
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 47,
+        "simulations": 40
+      },
+      "total_ns": 52066501
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 47,
+        "simulations": 40
+      },
+      "total_ns": 49825878
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 47,
+        "simulations": 40
+      },
+      "total_ns": 47491161
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 47,
+        "simulations": 40
+      },
+      "total_ns": 51590206
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 47,
+        "simulations": 40
+      },
+      "total_ns": 41239223
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 47,
+        "simulations": 40
+      },
+      "total_ns": 51957543
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 47,
+        "simulations": 40
+      },
+      "total_ns": 48174285
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 47,
+        "simulations": 40
+      },
+      "total_ns": 51868877
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 47,
+        "simulations": 40
+      },
+      "total_ns": 49650984
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 89,
+        "simulations": 40
+      },
+      "total_ns": 50997921
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 89,
+        "simulations": 40
+      },
+      "total_ns": 47556661
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 89,
+        "simulations": 40
+      },
+      "total_ns": 50063296
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 89,
+        "simulations": 40
+      },
+      "total_ns": 49459386
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 89,
+        "simulations": 40
+      },
+      "total_ns": 49845737
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 89,
+        "simulations": 40
+      },
+      "total_ns": 50290468
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 89,
+        "simulations": 40
+      },
+      "total_ns": 50022213
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 89,
+        "simulations": 40
+      },
+      "total_ns": 50303712
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 89,
+        "simulations": 40
+      },
+      "total_ns": 51240899
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 89,
+        "simulations": 40
+      },
+      "total_ns": 50406599
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 89,
+        "simulations": 40
+      },
+      "total_ns": 50040929
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 89,
+        "simulations": 40
+      },
+      "total_ns": 48413408
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 89,
+        "simulations": 40
+      },
+      "total_ns": 51086081
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 89,
+        "simulations": 40
+      },
+      "total_ns": 48437140
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 89,
+        "simulations": 40
+      },
+      "total_ns": 50752569
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 89,
+        "simulations": 40
+      },
+      "total_ns": 47071634
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 89,
+        "simulations": 40
+      },
+      "total_ns": 51161021
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 89,
+        "simulations": 40
+      },
+      "total_ns": 50087441
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 89,
+        "simulations": 40
+      },
+      "total_ns": 49671754
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 89,
+        "simulations": 40
+      },
+      "total_ns": 51567885
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 131,
+        "simulations": 40
+      },
+      "total_ns": 49281408
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 131,
+        "simulations": 40
+      },
+      "total_ns": 47673754
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 131,
+        "simulations": 40
+      },
+      "total_ns": 47886293
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 131,
+        "simulations": 40
+      },
+      "total_ns": 24645773
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 131,
+        "simulations": 40
+      },
+      "total_ns": 50159438
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 131,
+        "simulations": 40
+      },
+      "total_ns": 49437026
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 131,
+        "simulations": 40
+      },
+      "total_ns": 50053855
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 131,
+        "simulations": 40
+      },
+      "total_ns": 49899782
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 131,
+        "simulations": 40
+      },
+      "total_ns": 49700977
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 131,
+        "simulations": 40
+      },
+      "total_ns": 50544968
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 131,
+        "simulations": 40
+      },
+      "total_ns": 48692900
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 131,
+        "simulations": 40
+      },
+      "total_ns": 52763656
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 131,
+        "simulations": 40
+      },
+      "total_ns": 45848019
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 131,
+        "simulations": 40
+      },
+      "total_ns": 54048352
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 131,
+        "simulations": 40
+      },
+      "total_ns": 48656341
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 131,
+        "simulations": 40
+      },
+      "total_ns": 53726247
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 131,
+        "simulations": 40
+      },
+      "total_ns": 48605350
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 131,
+        "simulations": 40
+      },
+      "total_ns": 52065588
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 131,
+        "simulations": 40
+      },
+      "total_ns": 47130401
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 131,
+        "simulations": 40
+      },
+      "total_ns": 50931938
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 11,
+        "simulations": 100
+      },
+      "total_ns": 48527877
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 11,
+        "simulations": 100
+      },
+      "total_ns": 48936526
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 11,
+        "simulations": 100
+      },
+      "total_ns": 50688824
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 11,
+        "simulations": 100
+      },
+      "total_ns": 48788261
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 11,
+        "simulations": 100
+      },
+      "total_ns": 50213154
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 11,
+        "simulations": 100
+      },
+      "total_ns": 48828544
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 11,
+        "simulations": 100
+      },
+      "total_ns": 49496690
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 11,
+        "simulations": 100
+      },
+      "total_ns": 50001722
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 11,
+        "simulations": 100
+      },
+      "total_ns": 29083452
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 11,
+        "simulations": 100
+      },
+      "total_ns": 49969265
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 11,
+        "simulations": 100
+      },
+      "total_ns": 48077075
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 11,
+        "simulations": 100
+      },
+      "total_ns": 52007364
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 11,
+        "simulations": 100
+      },
+      "total_ns": 48844815
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 11,
+        "simulations": 100
+      },
+      "total_ns": 49689903
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 11,
+        "simulations": 100
+      },
+      "total_ns": 47665568
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 11,
+        "simulations": 100
+      },
+      "total_ns": 47327146
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 11,
+        "simulations": 100
+      },
+      "total_ns": 49525998
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 11,
+        "simulations": 100
+      },
+      "total_ns": 49671115
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 11,
+        "simulations": 100
+      },
+      "total_ns": 50269280
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 11,
+        "simulations": 100
+      },
+      "total_ns": 48349566
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 23,
+        "simulations": 100
+      },
+      "total_ns": 49539418
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 23,
+        "simulations": 100
+      },
+      "total_ns": 48316807
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 23,
+        "simulations": 100
+      },
+      "total_ns": 49590237
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 23,
+        "simulations": 100
+      },
+      "total_ns": 49313411
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 23,
+        "simulations": 100
+      },
+      "total_ns": 50179294
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 23,
+        "simulations": 100
+      },
+      "total_ns": 50837202
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 23,
+        "simulations": 100
+      },
+      "total_ns": 48089533
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 23,
+        "simulations": 100
+      },
+      "total_ns": 49783837
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 23,
+        "simulations": 100
+      },
+      "total_ns": 48772361
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 23,
+        "simulations": 100
+      },
+      "total_ns": 51341384
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 23,
+        "simulations": 100
+      },
+      "total_ns": 47898452
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 23,
+        "simulations": 100
+      },
+      "total_ns": 49435408
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 23,
+        "simulations": 100
+      },
+      "total_ns": 49853672
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 23,
+        "simulations": 100
+      },
+      "total_ns": 32151536
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 23,
+        "simulations": 100
+      },
+      "total_ns": 49844173
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 23,
+        "simulations": 100
+      },
+      "total_ns": 49079225
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 23,
+        "simulations": 100
+      },
+      "total_ns": 49474637
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 23,
+        "simulations": 100
+      },
+      "total_ns": 49986326
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 23,
+        "simulations": 100
+      },
+      "total_ns": 49989984
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 23,
+        "simulations": 100
+      },
+      "total_ns": 51710934
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 47,
+        "simulations": 100
+      },
+      "total_ns": 49697077
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 47,
+        "simulations": 100
+      },
+      "total_ns": 48870709
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 47,
+        "simulations": 100
+      },
+      "total_ns": 50159390
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 47,
+        "simulations": 100
+      },
+      "total_ns": 49162227
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 47,
+        "simulations": 100
+      },
+      "total_ns": 51085876
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 47,
+        "simulations": 100
+      },
+      "total_ns": 50436279
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 47,
+        "simulations": 100
+      },
+      "total_ns": 48285432
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 47,
+        "simulations": 100
+      },
+      "total_ns": 50573907
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 47,
+        "simulations": 100
+      },
+      "total_ns": 49550910
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 47,
+        "simulations": 100
+      },
+      "total_ns": 50129498
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 47,
+        "simulations": 100
+      },
+      "total_ns": 50089977
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 47,
+        "simulations": 100
+      },
+      "total_ns": 49994432
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 47,
+        "simulations": 100
+      },
+      "total_ns": 49840753
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 47,
+        "simulations": 100
+      },
+      "total_ns": 48422724
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 47,
+        "simulations": 100
+      },
+      "total_ns": 49688842
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 47,
+        "simulations": 100
+      },
+      "total_ns": 49172293
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 47,
+        "simulations": 100
+      },
+      "total_ns": 50121087
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 47,
+        "simulations": 100
+      },
+      "total_ns": 50057086
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 47,
+        "simulations": 100
+      },
+      "total_ns": 49825019
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 47,
+        "simulations": 100
+      },
+      "total_ns": 50317803
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 89,
+        "simulations": 100
+      },
+      "total_ns": 30012500
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 89,
+        "simulations": 100
+      },
+      "total_ns": 48881919
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 89,
+        "simulations": 100
+      },
+      "total_ns": 50074069
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 89,
+        "simulations": 100
+      },
+      "total_ns": 49585228
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 89,
+        "simulations": 100
+      },
+      "total_ns": 49713185
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 89,
+        "simulations": 100
+      },
+      "total_ns": 49973005
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 89,
+        "simulations": 100
+      },
+      "total_ns": 50030301
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 89,
+        "simulations": 100
+      },
+      "total_ns": 50150870
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 89,
+        "simulations": 100
+      },
+      "total_ns": 49957873
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 89,
+        "simulations": 100
+      },
+      "total_ns": 49356206
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 89,
+        "simulations": 100
+      },
+      "total_ns": 50221135
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 89,
+        "simulations": 100
+      },
+      "total_ns": 49892875
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 89,
+        "simulations": 100
+      },
+      "total_ns": 49767516
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 89,
+        "simulations": 100
+      },
+      "total_ns": 47223945
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 89,
+        "simulations": 100
+      },
+      "total_ns": 49705395
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 89,
+        "simulations": 100
+      },
+      "total_ns": 49370770
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 89,
+        "simulations": 100
+      },
+      "total_ns": 49782051
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 89,
+        "simulations": 100
+      },
+      "total_ns": 50255825
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 89,
+        "simulations": 100
+      },
+      "total_ns": 50120592
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 89,
+        "simulations": 100
+      },
+      "total_ns": 50493614
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 131,
+        "simulations": 100
+      },
+      "total_ns": 49464178
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 131,
+        "simulations": 100
+      },
+      "total_ns": 50670908
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 131,
+        "simulations": 100
+      },
+      "total_ns": 49829532
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 131,
+        "simulations": 100
+      },
+      "total_ns": 49632851
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 131,
+        "simulations": 100
+      },
+      "total_ns": 49510946
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 131,
+        "simulations": 100
+      },
+      "total_ns": 36456888
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 131,
+        "simulations": 100
+      },
+      "total_ns": 48585567
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 131,
+        "simulations": 100
+      },
+      "total_ns": 50193262
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 131,
+        "simulations": 100
+      },
+      "total_ns": 50110272
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 131,
+        "simulations": 100
+      },
+      "total_ns": 51264023
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 131,
+        "simulations": 100
+      },
+      "total_ns": 50163367
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 131,
+        "simulations": 100
+      },
+      "total_ns": 51618084
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 131,
+        "simulations": 100
+      },
+      "total_ns": 49500932
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 131,
+        "simulations": 100
+      },
+      "total_ns": 48003047
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 131,
+        "simulations": 100
+      },
+      "total_ns": 49174117
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 131,
+        "simulations": 100
+      },
+      "total_ns": 49599862
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 131,
+        "simulations": 100
+      },
+      "total_ns": 49864148
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 131,
+        "simulations": 100
+      },
+      "total_ns": 48978319
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 131,
+        "simulations": 100
+      },
+      "total_ns": 49566316
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 131,
+        "simulations": 100
+      },
+      "total_ns": 50184888
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 11,
+        "simulations": 400
+      },
+      "total_ns": 49336369
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 11,
+        "simulations": 400
+      },
+      "total_ns": 49604652
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 11,
+        "simulations": 400
+      },
+      "total_ns": 49086387
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 11,
+        "simulations": 400
+      },
+      "total_ns": 49564267
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 11,
+        "simulations": 400
+      },
+      "total_ns": 50104080
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 11,
+        "simulations": 400
+      },
+      "total_ns": 49675148
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 11,
+        "simulations": 400
+      },
+      "total_ns": 50388005
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 11,
+        "simulations": 400
+      },
+      "total_ns": 51035800
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 11,
+        "simulations": 400
+      },
+      "total_ns": 50480633
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 11,
+        "simulations": 400
+      },
+      "total_ns": 50362062
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 11,
+        "simulations": 400
+      },
+      "total_ns": 30247881
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 11,
+        "simulations": 400
+      },
+      "total_ns": 51528682
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 11,
+        "simulations": 400
+      },
+      "total_ns": 49575845
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 11,
+        "simulations": 400
+      },
+      "total_ns": 48841947
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 11,
+        "simulations": 400
+      },
+      "total_ns": 49458817
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 11,
+        "simulations": 400
+      },
+      "total_ns": 49723161
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 11,
+        "simulations": 400
+      },
+      "total_ns": 49494317
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 11,
+        "simulations": 400
+      },
+      "total_ns": 48643178
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 11,
+        "simulations": 400
+      },
+      "total_ns": 50236653
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 11,
+        "simulations": 400
+      },
+      "total_ns": 50299618
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 23,
+        "simulations": 400
+      },
+      "total_ns": 49860583
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 23,
+        "simulations": 400
+      },
+      "total_ns": 48831583
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 23,
+        "simulations": 400
+      },
+      "total_ns": 49809023
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 23,
+        "simulations": 400
+      },
+      "total_ns": 49286943
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 23,
+        "simulations": 400
+      },
+      "total_ns": 50075840
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 23,
+        "simulations": 400
+      },
+      "total_ns": 49764444
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 23,
+        "simulations": 400
+      },
+      "total_ns": 50016315
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 23,
+        "simulations": 400
+      },
+      "total_ns": 49963361
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 23,
+        "simulations": 400
+      },
+      "total_ns": 49907025
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 23,
+        "simulations": 400
+      },
+      "total_ns": 50015436
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 23,
+        "simulations": 400
+      },
+      "total_ns": 50049252
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 23,
+        "simulations": 400
+      },
+      "total_ns": 50139274
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 23,
+        "simulations": 400
+      },
+      "total_ns": 49312197
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 23,
+        "simulations": 400
+      },
+      "total_ns": 48930257
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 23,
+        "simulations": 400
+      },
+      "total_ns": 49656593
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 23,
+        "simulations": 400
+      },
+      "total_ns": 35611572
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 23,
+        "simulations": 400
+      },
+      "total_ns": 48954510
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 23,
+        "simulations": 400
+      },
+      "total_ns": 49908890
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 23,
+        "simulations": 400
+      },
+      "total_ns": 49085331
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 23,
+        "simulations": 400
+      },
+      "total_ns": 50091861
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 47,
+        "simulations": 400
+      },
+      "total_ns": 49768627
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 47,
+        "simulations": 400
+      },
+      "total_ns": 48537274
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 47,
+        "simulations": 400
+      },
+      "total_ns": 50007872
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 47,
+        "simulations": 400
+      },
+      "total_ns": 49187265
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 47,
+        "simulations": 400
+      },
+      "total_ns": 49996408
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 47,
+        "simulations": 400
+      },
+      "total_ns": 49419392
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 47,
+        "simulations": 400
+      },
+      "total_ns": 50182371
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 47,
+        "simulations": 400
+      },
+      "total_ns": 49550588
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 47,
+        "simulations": 400
+      },
+      "total_ns": 49830975
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 47,
+        "simulations": 400
+      },
+      "total_ns": 50082628
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 47,
+        "simulations": 400
+      },
+      "total_ns": 49783188
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 47,
+        "simulations": 400
+      },
+      "total_ns": 51675743
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 47,
+        "simulations": 400
+      },
+      "total_ns": 47485806
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 47,
+        "simulations": 400
+      },
+      "total_ns": 48176508
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 47,
+        "simulations": 400
+      },
+      "total_ns": 48953638
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 47,
+        "simulations": 400
+      },
+      "total_ns": 49753903
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 47,
+        "simulations": 400
+      },
+      "total_ns": 50095235
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 47,
+        "simulations": 400
+      },
+      "total_ns": 50115400
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 47,
+        "simulations": 400
+      },
+      "total_ns": 49814376
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 47,
+        "simulations": 400
+      },
+      "total_ns": 29141322
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 89,
+        "simulations": 400
+      },
+      "total_ns": 49530085
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 89,
+        "simulations": 400
+      },
+      "total_ns": 48794230
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 89,
+        "simulations": 400
+      },
+      "total_ns": 49409557
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 89,
+        "simulations": 400
+      },
+      "total_ns": 48175942
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 89,
+        "simulations": 400
+      },
+      "total_ns": 50053449
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 89,
+        "simulations": 400
+      },
+      "total_ns": 49986853
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 89,
+        "simulations": 400
+      },
+      "total_ns": 50283529
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 89,
+        "simulations": 400
+      },
+      "total_ns": 50096098
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 89,
+        "simulations": 400
+      },
+      "total_ns": 49840786
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 89,
+        "simulations": 400
+      },
+      "total_ns": 50185615
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 89,
+        "simulations": 400
+      },
+      "total_ns": 49720809
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 89,
+        "simulations": 400
+      },
+      "total_ns": 49984159
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 89,
+        "simulations": 400
+      },
+      "total_ns": 49402977
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 89,
+        "simulations": 400
+      },
+      "total_ns": 48824818
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 89,
+        "simulations": 400
+      },
+      "total_ns": 50104350
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 89,
+        "simulations": 400
+      },
+      "total_ns": 50257956
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 89,
+        "simulations": 400
+      },
+      "total_ns": 48549595
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 89,
+        "simulations": 400
+      },
+      "total_ns": 49915285
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 89,
+        "simulations": 400
+      },
+      "total_ns": 51742147
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 89,
+        "simulations": 400
+      },
+      "total_ns": 47032477
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 131,
+        "simulations": 400
+      },
+      "total_ns": 52644989
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 131,
+        "simulations": 400
+      },
+      "total_ns": 49764952
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 131,
+        "simulations": 400
+      },
+      "total_ns": 50710670
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 131,
+        "simulations": 400
+      },
+      "total_ns": 49410431
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 131,
+        "simulations": 400
+      },
+      "total_ns": 49574919
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 131,
+        "simulations": 400
+      },
+      "total_ns": 26795035
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 131,
+        "simulations": 400
+      },
+      "total_ns": 50331381
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 131,
+        "simulations": 400
+      },
+      "total_ns": 50588921
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 131,
+        "simulations": 400
+      },
+      "total_ns": 51602272
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 131,
+        "simulations": 400
+      },
+      "total_ns": 47955897
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 131,
+        "simulations": 400
+      },
+      "total_ns": 49984618
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 131,
+        "simulations": 400
+      },
+      "total_ns": 48258833
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 131,
+        "simulations": 400
+      },
+      "total_ns": 50034564
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 131,
+        "simulations": 400
+      },
+      "total_ns": 48411310
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 131,
+        "simulations": 400
+      },
+      "total_ns": 49952423
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 131,
+        "simulations": 400
+      },
+      "total_ns": 49238437
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 131,
+        "simulations": 400
+      },
+      "total_ns": 46228088
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 131,
+        "simulations": 400
+      },
+      "total_ns": 49909456
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 131,
+        "simulations": 400
+      },
+      "total_ns": 49949525
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "name": "PUCT-sensitivity",
+        "seed": 131,
+        "simulations": 400
+      },
+      "total_ns": 50054296
+    }
+  ]
+}

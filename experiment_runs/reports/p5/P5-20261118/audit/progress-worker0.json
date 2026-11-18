@@ -1,0 +1,84 @@
+{
+  "phases": {
+    "ablations": {
+      "applicable": 169200,
+      "calls": 169200,
+      "online_success": 110539,
+      "timeouts": 9471,
+      "validated_replays": 158555
+    },
+    "anomalies": {
+      "applicable": 236,
+      "calls": 236,
+      "online_success": 120,
+      "timeouts": 0,
+      "validated_replays": 120
+    },
+    "calibration": {
+      "applicable": 720,
+      "calls": 720,
+      "online_success": 300,
+      "timeouts": 283,
+      "validated_replays": 675
+    },
+    "continuous": {
+      "applicable": 2640,
+      "calls": 2640,
+      "online_success": 1999,
+      "timeouts": 0,
+      "validated_replays": 2640
+    },
+    "mechanisms": {
+      "applicable": 14400,
+      "calls": 14400,
+      "online_success": 8675,
+      "timeouts": 2909,
+      "validated_replays": 14052
+    },
+    "references": {
+      "applicable": 3360,
+      "calls": 3360,
+      "online_success": 2449,
+      "timeouts": 36,
+      "validated_replays": 3346
+    },
+    "simulations": {
+      "applicable": 18000,
+      "calls": 18000,
+      "online_success": 9846,
+      "timeouts": 4764,
+      "validated_replays": 18000
+    },
+    "single_factor": {
+      "applicable": 92760,
+      "calls": 92760,
+      "online_success": 62563,
+      "timeouts": 7665,
+      "validated_replays": 90037
+    },
+    "transfer": {
+      "applicable": 816,
+      "calls": 816,
+      "online_success": 629,
+      "timeouts": 5,
+      "validated_replays": 815
+    },
+    "upgrades": {
+      "applicable": 25200,
+      "calls": 25200,
+      "online_success": 15248,
+      "timeouts": 6895,
+      "validated_replays": 25155
+    },
+    "windows": {
+      "applicable": 37512,
+      "calls": 37512,
+      "online_success": 17333,
+      "timeouts": 3590,
+      "validated_replays": 25041
+    }
+  },
+  "pipeline_complete": true,
+  "worker": 0,
+  "workers": 3
+}

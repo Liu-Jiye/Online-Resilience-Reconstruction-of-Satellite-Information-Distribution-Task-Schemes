@@ -1,0 +1,24 @@
+{
+  "steps": [
+    {
+      "elapsed_s": 434.0971214771271,
+      "exit_code": 0,
+      "script": "verify_stage5_evidence.py"
+    },
+    {
+      "elapsed_s": 90.66190886497498,
+      "exit_code": 0,
+      "script": "summarize_stage5.py"
+    },
+    {
+      "elapsed_s": 6.549043655395508,
+      "exit_code": 0,
+      "script": "plot_stage5.py"
+    },
+    {
+      "elapsed_s": 0.5825798511505127,
+      "exit_code": 0,
+      "script": "write_stage5_report.py"
+    }
+  ]
+}

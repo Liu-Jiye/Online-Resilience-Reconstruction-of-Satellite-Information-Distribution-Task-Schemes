@@ -1,0 +1,2 @@
+﻿label,event_conditions,applicable,na,base_clusters,success_equivalent,online_success,strict_feasible,timeout_rate,urgent_events,strict_urgent_service,U_exec_mean,valid_output_equivalent,conditional_U,raw_calls,p50_ms,p95_ms,p99_ms,conditional_N_drop,conditional_N_add,conditional_M_all,conditional_N_forced
+Fixed-PALR@10ms,720,720,0,60,300.0,0.4166666666666667,0.9375,0.39305555555555555,240,0.0,1413.3208333333334,437.0,2328.58352402746,720,9.547452,13.24228475,16.873974069999978,0.006864988558352402,0.059496567505720827,0.0,0.0

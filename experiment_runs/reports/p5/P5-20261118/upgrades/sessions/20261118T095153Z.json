@@ -1,0 +1,3788 @@
+{
+  "affinity": [
+    0
+  ],
+  "python": "3.11.18",
+  "warmups": [
+    {
+      "iteration": 0,
+      "spec": {
+        "B": 2,
+        "name": "PALR-only",
+        "w": 5
+      },
+      "total_ns": 9482481
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "B": 2,
+        "name": "PALR-only",
+        "w": 5
+      },
+      "total_ns": 5425485
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "B": 2,
+        "name": "PALR-only",
+        "w": 5
+      },
+      "total_ns": 8101682
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "B": 2,
+        "name": "PALR-only",
+        "w": 5
+      },
+      "total_ns": 33740693
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "B": 2,
+        "name": "PALR-only",
+        "w": 5
+      },
+      "total_ns": 7156298
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "B": 2,
+        "name": "PALR-only",
+        "w": 5
+      },
+      "total_ns": 9476524
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "B": 2,
+        "name": "PALR-only",
+        "w": 5
+      },
+      "total_ns": 8393482
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "B": 2,
+        "name": "PALR-only",
+        "w": 5
+      },
+      "total_ns": 7645124
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "B": 2,
+        "name": "PALR-only",
+        "w": 5
+      },
+      "total_ns": 7111446
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "B": 2,
+        "name": "PALR-only",
+        "w": 5
+      },
+      "total_ns": 6984389
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "B": 2,
+        "name": "PALR-only",
+        "w": 5
+      },
+      "total_ns": 10311012
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "B": 2,
+        "name": "PALR-only",
+        "w": 5
+      },
+      "total_ns": 10034075
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "B": 2,
+        "name": "PALR-only",
+        "w": 5
+      },
+      "total_ns": 7886740
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "B": 2,
+        "name": "PALR-only",
+        "w": 5
+      },
+      "total_ns": 5294849
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "B": 2,
+        "name": "PALR-only",
+        "w": 5
+      },
+      "total_ns": 8771496
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "B": 2,
+        "name": "PALR-only",
+        "w": 5
+      },
+      "total_ns": 6199431
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "B": 2,
+        "name": "PALR-only",
+        "w": 5
+      },
+      "total_ns": 32345299
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "B": 2,
+        "name": "PALR-only",
+        "w": 5
+      },
+      "total_ns": 6755757
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "B": 2,
+        "name": "PALR-only",
+        "w": 5
+      },
+      "total_ns": 7265263
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "B": 2,
+        "name": "PALR-only",
+        "w": 5
+      },
+      "total_ns": 7817586
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 49640707
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 48975369
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 50053909
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 49297281
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 49835370
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 49861951
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 49718335
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 50250461
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 50683467
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 50027788
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 51615992
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 50580611
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 49251406
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 48564017
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 50339432
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 48825651
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 49856584
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 49324804
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 39562140
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 48596604
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 49528845
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 48600087
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 49454038
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 48726020
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 48972485
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 49862025
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 50464317
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 49625730
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 50696170
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 49489160
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 50089182
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 49761456
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 48938027
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 48684381
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 49978552
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 48899834
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 49277495
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 50107122
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 50031416
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 50008090
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 49784799
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 49024559
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 49581786
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 31594147
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 50086880
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 49548687
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 50207868
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 50984179
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 49704879
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 48404083
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 50127472
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 50620556
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 50591443
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 49185598
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 47505256
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 49038578
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 48854941
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 50915169
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 49636458
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 49919675
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 50664756
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 48164202
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 49696888
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 49696543
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 50034104
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 50127957
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 50091678
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 34730558
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 50574554
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 49043760
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 50077439
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 50220901
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 49588400
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 49089360
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 51210200
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 48528552
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 50029212
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 50147996
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 49826606
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 49976719
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 49345836
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 49056646
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 49807175
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 49621062
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 49705447
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 50268444
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 50083571
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 50053653
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 49884294
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 49797819
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 50029411
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 50272890
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 38736774
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 48525245
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 48037816
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 49931276
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 49965146
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 50013592
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 51103816
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "name": "PUCT-only",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 50185832
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 49241806
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 48330816
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 50041960
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 49313138
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 50289030
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 49122957
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 50037775
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 49669250
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 48889170
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 50120117
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 50348167
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 49054124
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 49722958
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 47621333
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 49576849
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 49549897
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 50017243
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 49255255
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 50021846
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 49905198
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 48753239
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 48243909
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 49709892
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 49345749
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 49934937
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 48930557
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 49937249
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 51414404
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 48174026
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 50034055
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 50615075
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 49206790
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 49535195
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 45874937
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 49068909
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 49467927
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 50122093
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 49004445
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 50175344
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 49922483
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 48867249
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 48337276
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 49848774
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 49000536
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 50231898
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 48612651
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 49910653
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 50249011
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 48957054
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 49486243
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 50022046
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 49912111
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 49881033
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 47515704
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 49285853
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 49719472
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 50667472
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 49165596
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 49728031
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 49887830
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 49274771
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 48368694
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 49958144
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 49403071
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 48201022
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 48936646
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 50416579
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 50010864
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 49324319
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 49251164
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 50078194
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 49278300
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 49671990
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 47538465
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 49605126
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 49561242
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 50462250
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 47140829
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 49865910
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 50054585
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 48668316
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 48039791
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 49763255
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 49375226
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 50105457
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 49741435
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 49668579
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 50091091
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 49479492
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 51310256
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 49673475
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 49193338
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 49792631
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 47511122
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 49435374
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 48764531
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 50917628
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 48953548
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 50025643
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "name": "ALNS-only",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 50253921
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 12282300
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 7632587
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 10662951
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 9478025
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 55350348
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 53555586
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 81227267
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 55138057
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 10128716
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 9875830
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 12060639
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 12579076
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 10355444
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 10050536
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 11307452
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 9587667
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 54624925
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 51967420
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 54345800
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 54222515
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 10708493
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 7886040
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 12060252
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 9394625
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 54663912
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 53612031
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 46060560
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 53802520
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 10725562
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 10497227
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 12602692
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 12692289
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 11225317
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 9465071
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 10987492
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 8906685
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 55411308
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 51795811
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 54129068
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 54677062
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 10167104
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 8649844
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 11177518
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 8914763
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 55065076
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 54983342
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 54639754
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 53973514
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 10407345
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 10816650
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 10649684
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 12383311
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 10619559
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 7568052
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 10868050
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 10817523
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 81537127
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 54730953
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 54510634
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 54139492
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 10451259
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 8763886
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 13166538
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 9706618
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 59229541
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 60027914
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 52231929
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 57971854
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 17734798
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 17258691
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 14866231
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 15076437
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 11843812
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 8905888
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 12120012
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 10053579
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 78610312
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 53958589
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 54474407
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 54475533
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 10542416
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 8368357
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 11789356
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 8859526
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 54004625
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 58391087
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 50996390
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 54199904
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 10259500
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 10098139
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 13061504
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 12965279
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 10773108
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 9334171
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 11050734
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 9421170
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 50665330
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 55021427
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 54350064
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "name": "Upgrade-PUCT",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 54377947
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 11504663
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 8892872
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 11120210
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 11900174
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 53695273
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 82533258
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 54082699
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 55117446
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 11357537
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 10159017
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 12936963
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 12842113
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 11613082
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 7847591
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 10786397
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 8930008
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 52313171
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 52508912
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 55536153
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 11,
+        "threshold": 0.95
+      },
+      "total_ns": 54252941
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 13616283
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 8694522
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 11469149
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 9460032
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 63713882
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 52501397
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 53485078
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 58092373
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 10989039
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 10602376
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 13546458
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 12686537
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 10444386
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 7544107
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 10947029
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 51523675
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 54983424
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 55520888
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 54032730
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 23,
+        "threshold": 0.95
+      },
+      "total_ns": 54404238
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 11599360
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 7795153
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 11492392
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 9100797
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 52509882
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 54077480
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 55058506
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 54519398
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 10344790
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 10202374
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 11952121
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 12493169
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 33407074
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 7859031
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 12013105
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 9166253
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 54380694
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 54041557
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 54958910
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 47,
+        "threshold": 0.95
+      },
+      "total_ns": 57777662
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 9573303
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 7734207
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 37853610
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 8780503
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 54517416
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 54493032
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 55040001
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 54267465
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 10828456
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 10845320
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 14418005
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 52331668
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 10503586
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 7969466
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 11373264
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 9141716
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 53887473
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 55973151
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 54458319
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 89,
+        "threshold": 0.95
+      },
+      "total_ns": 54705377
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 51951675
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 8795255
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 11550849
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 9479431
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 54208423
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 54637346
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 54697019
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 54362930
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 11584916
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 53105273
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 12235167
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 13356827
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 10600578
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 7925366
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 12106476
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 9405371
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 54175753
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 54199398
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 81476615
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "name": "Upgrade-ALNS",
+        "seed": 131,
+        "threshold": 0.95
+      },
+      "total_ns": 55536622
+    }
+  ]
+}

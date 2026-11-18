@@ -1,0 +1,91 @@
+{
+  "conclusion": "Applicable P5 experiments completed; performance claims bounded by P5_REPORT.md",
+  "model_route": "Frozen discrete ISL and P5 execution protocol",
+  "not_applicable": {
+    "A6": "depends on ET,not retrained",
+    "ET": "user-approved rule main line",
+    "IPC_performance": "no full temporal planner/validator adapter,user-approved applicability audit only"
+  },
+  "scope": "Experiment evidence only; no manuscript generation authorized",
+  "stage": "P5",
+  "tasks": [
+    {
+      "evidence": "../ablations/COMPLETE.json",
+      "id": "ablations",
+      "metrics": "../tables/ablations_summary.csv",
+      "result_summary": "Required call counts, source/input hashes and original-checker replay passed",
+      "status": "verified"
+    },
+    {
+      "evidence": "../calibration/COMPLETE.json",
+      "id": "calibration",
+      "metrics": "../tables/calibration_summary.csv",
+      "result_summary": "Required call counts, source/input hashes and original-checker replay passed",
+      "status": "verified"
+    },
+    {
+      "evidence": "../mechanisms/COMPLETE.json",
+      "id": "mechanisms",
+      "metrics": "../tables/mechanisms_summary.csv",
+      "result_summary": "Required call counts, source/input hashes and original-checker replay passed",
+      "status": "verified"
+    },
+    {
+      "evidence": "../simulations/COMPLETE.json",
+      "id": "simulations",
+      "metrics": "../tables/simulations_summary.csv",
+      "result_summary": "Required call counts, source/input hashes and original-checker replay passed",
+      "status": "verified"
+    },
+    {
+      "evidence": "../upgrades/COMPLETE.json",
+      "id": "upgrades",
+      "metrics": "../tables/upgrades_summary.csv",
+      "result_summary": "Required call counts, source/input hashes and original-checker replay passed",
+      "status": "verified"
+    },
+    {
+      "evidence": "../single_factor/COMPLETE.json",
+      "id": "single_factor",
+      "metrics": "../tables/single_factor_summary.csv",
+      "result_summary": "Required call counts, source/input hashes and original-checker replay passed",
+      "status": "verified"
+    },
+    {
+      "evidence": "../windows/COMPLETE.json",
+      "id": "windows",
+      "metrics": "../tables/windows_summary.csv",
+      "result_summary": "Required call counts, source/input hashes and original-checker replay passed",
+      "status": "verified"
+    },
+    {
+      "evidence": "../anomalies/COMPLETE.json",
+      "id": "anomalies",
+      "metrics": "../tables/anomalies_summary.csv",
+      "result_summary": "Required call counts, source/input hashes and original-checker replay passed",
+      "status": "verified"
+    },
+    {
+      "evidence": "../references/COMPLETE.json",
+      "id": "references",
+      "metrics": "../tables/references_summary.csv",
+      "result_summary": "Required call counts, source/input hashes and original-checker replay passed",
+      "status": "verified"
+    },
+    {
+      "evidence": "../transfer/COMPLETE.json",
+      "id": "transfer",
+      "metrics": "../tables/transfer_summary.csv",
+      "result_summary": "Required call counts, source/input hashes and original-checker replay passed",
+      "status": "verified"
+    },
+    {
+      "evidence": "../continuous/COMPLETE.json",
+      "id": "continuous",
+      "metrics": "../tables/continuous_summary.csv",
+      "result_summary": "Required call counts, source/input hashes and original-checker replay passed",
+      "status": "verified"
+    }
+  ],
+  "validation_plan": "Full original-checker replay and stage-specific independent acceptance"
+}

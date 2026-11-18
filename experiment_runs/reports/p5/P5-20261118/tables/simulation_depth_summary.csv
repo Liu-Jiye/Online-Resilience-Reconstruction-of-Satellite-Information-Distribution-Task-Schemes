@@ -1,0 +1,4 @@
+requested_simulations,completed_simulations_mean,completed_simulations_min,completed_simulations_max,max_depth_mean,max_depth_min,max_depth_max,expanded_nodes_mean,expanded_nodes_min,expanded_nodes_max
+40,17.968,0,40,0.832,0,11,0.8643333333333333,0,11
+100,44.3675,0,100,0.8378333333333333,0,11,0.8761666666666666,0,11
+400,162.69283333333334,0,400,0.8311666666666667,0,11,0.871,0,11

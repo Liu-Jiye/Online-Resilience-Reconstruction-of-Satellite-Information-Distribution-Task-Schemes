@@ -1,0 +1,59 @@
+{
+  "cases": [
+    {
+      "base_id": "P4-test-D2-O-0060",
+      "expected_outside_count": 48,
+      "scenario": 7,
+      "total_ns": 42412138
+    },
+    {
+      "base_id": "P4-test-D2-O-0197",
+      "expected_outside_count": 39,
+      "scenario": 2,
+      "total_ns": 36936680
+    },
+    {
+      "base_id": "P4-test-D2-O-0216",
+      "expected_outside_count": 45,
+      "scenario": 9,
+      "total_ns": 37743304
+    },
+    {
+      "base_id": "P4-test-D2-S-0032",
+      "expected_outside_count": 43,
+      "scenario": 6,
+      "total_ns": 36122429
+    },
+    {
+      "base_id": "P4-test-D2-S-0062",
+      "expected_outside_count": 30,
+      "scenario": 3,
+      "total_ns": 33041114
+    },
+    {
+      "base_id": "P4-test-D2-S-0174",
+      "expected_outside_count": 38,
+      "scenario": 11,
+      "total_ns": 32114377
+    },
+    {
+      "base_id": "P4-test-D2-S-0275",
+      "expected_outside_count": 35,
+      "scenario": 3,
+      "total_ns": 46583694
+    },
+    {
+      "base_id": "P4-test-D2-S-0275",
+      "expected_outside_count": 43,
+      "scenario": 2,
+      "total_ns": 39040945
+    },
+    {
+      "base_id": "P4-test-D2-S-0288",
+      "expected_outside_count": 60,
+      "scenario": 6,
+      "total_ns": 32555193
+    }
+  ],
+  "explanation": "Cooperative return after baseline validation and before E metadata population; no edits, original surviving plan retained, independently reconstructed E-outside commitments all preserved. No method or raw output changed."
+}

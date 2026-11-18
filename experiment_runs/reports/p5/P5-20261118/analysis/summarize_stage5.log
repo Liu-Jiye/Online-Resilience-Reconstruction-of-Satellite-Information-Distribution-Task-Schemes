@@ -1,0 +1,11 @@
+{"summarized": "ablations", "calls": 169200, "event_conditions": 154800, "base_clusters": 300}
+{"summarized": "calibration", "calls": 720, "event_conditions": 720, "base_clusters": 60}
+{"summarized": "mechanisms", "calls": 14400, "event_conditions": 4800, "base_clusters": 100}
+{"summarized": "simulations", "calls": 18000, "event_conditions": 3600, "base_clusters": 100}
+{"summarized": "upgrades", "calls": 25200, "event_conditions": 6000, "base_clusters": 100}
+{"summarized": "single_factor", "calls": 99840, "event_conditions": 99840, "base_clusters": 100}
+{"summarized": "windows", "calls": 43200, "event_conditions": 43200, "base_clusters": 100}
+{"summarized": "anomalies", "calls": 400, "event_conditions": 400, "base_clusters": 50}
+{"summarized": "references", "calls": 4800, "event_conditions": 4800, "base_clusters": 100}
+{"summarized": "transfer", "calls": 1440, "event_conditions": 1440, "base_clusters": 30}
+{"summarized": "continuous", "calls": 4000, "event_conditions": 4000, "base_clusters": 100}

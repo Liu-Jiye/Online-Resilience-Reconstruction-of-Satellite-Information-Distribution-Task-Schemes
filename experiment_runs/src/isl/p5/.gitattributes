@@ -1,0 +1,2 @@
+# Method hashes must survive Git checkout without newline conversion.
+* -text whitespace=cr-at-eol,-blank-at-eof

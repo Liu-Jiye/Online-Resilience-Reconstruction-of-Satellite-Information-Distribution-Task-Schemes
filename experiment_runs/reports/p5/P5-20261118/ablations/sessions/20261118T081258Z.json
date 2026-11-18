@@ -1,0 +1,9808 @@
+{
+  "affinity": [
+    0
+  ],
+  "python": "3.11.18",
+  "warmups": [
+    {
+      "iteration": 0,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w1-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 0,
+        "w": 1
+      },
+      "total_ns": 20292550
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w1-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 0,
+        "w": 1
+      },
+      "total_ns": 3526546
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w1-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 0,
+        "w": 1
+      },
+      "total_ns": 10601650
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w1-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 0,
+        "w": 1
+      },
+      "total_ns": 5661357
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w1-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 0,
+        "w": 1
+      },
+      "total_ns": 7245412
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w1-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 0,
+        "w": 1
+      },
+      "total_ns": 6144989
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w1-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 0,
+        "w": 1
+      },
+      "total_ns": 6358753
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w1-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 0,
+        "w": 1
+      },
+      "total_ns": 6300070
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w1-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 0,
+        "w": 1
+      },
+      "total_ns": 6200164
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w1-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 0,
+        "w": 1
+      },
+      "total_ns": 6324162
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w1-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 0,
+        "w": 1
+      },
+      "total_ns": 6635701
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w1-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 0,
+        "w": 1
+      },
+      "total_ns": 7014184
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w1-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 0,
+        "w": 1
+      },
+      "total_ns": 6537863
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w1-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 0,
+        "w": 1
+      },
+      "total_ns": 3608546
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w1-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 0,
+        "w": 1
+      },
+      "total_ns": 6214992
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w1-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 0,
+        "w": 1
+      },
+      "total_ns": 5826599
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w1-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 0,
+        "w": 1
+      },
+      "total_ns": 10489535
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w1-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 0,
+        "w": 1
+      },
+      "total_ns": 6432377
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w1-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 0,
+        "w": 1
+      },
+      "total_ns": 6452389
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w1-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 0,
+        "w": 1
+      },
+      "total_ns": 6599542
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w1-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 1,
+        "w": 1
+      },
+      "total_ns": 7299164
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w1-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 1,
+        "w": 1
+      },
+      "total_ns": 5155522
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w1-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 1,
+        "w": 1
+      },
+      "total_ns": 6767806
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w1-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 1,
+        "w": 1
+      },
+      "total_ns": 6442534
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w1-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 1,
+        "w": 1
+      },
+      "total_ns": 6178820
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w1-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 1,
+        "w": 1
+      },
+      "total_ns": 6183909
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w1-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 1,
+        "w": 1
+      },
+      "total_ns": 7467658
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w1-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 1,
+        "w": 1
+      },
+      "total_ns": 6423622
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w1-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 1,
+        "w": 1
+      },
+      "total_ns": 6010225
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w1-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 1,
+        "w": 1
+      },
+      "total_ns": 10837638
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w1-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 1,
+        "w": 1
+      },
+      "total_ns": 7050738
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w1-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 1,
+        "w": 1
+      },
+      "total_ns": 6993105
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w1-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 1,
+        "w": 1
+      },
+      "total_ns": 6253142
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w1-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 1,
+        "w": 1
+      },
+      "total_ns": 4876130
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w1-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 1,
+        "w": 1
+      },
+      "total_ns": 6273781
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w1-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 1,
+        "w": 1
+      },
+      "total_ns": 5846608
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w1-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 1,
+        "w": 1
+      },
+      "total_ns": 6106005
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w1-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 1,
+        "w": 1
+      },
+      "total_ns": 6142443
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w1-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 1,
+        "w": 1
+      },
+      "total_ns": 7811749
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w1-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 1,
+        "w": 1
+      },
+      "total_ns": 7562340
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w1-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 2,
+        "w": 1
+      },
+      "total_ns": 6160544
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w1-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 2,
+        "w": 1
+      },
+      "total_ns": 5848551
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w1-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 2,
+        "w": 1
+      },
+      "total_ns": 7363417
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w1-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 2,
+        "w": 1
+      },
+      "total_ns": 9924231
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w1-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 2,
+        "w": 1
+      },
+      "total_ns": 6244178
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w1-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 2,
+        "w": 1
+      },
+      "total_ns": 7285289
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w1-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 2,
+        "w": 1
+      },
+      "total_ns": 6566403
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w1-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 2,
+        "w": 1
+      },
+      "total_ns": 7475429
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w1-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 2,
+        "w": 1
+      },
+      "total_ns": 6374770
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w1-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 2,
+        "w": 1
+      },
+      "total_ns": 5975128
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w1-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 2,
+        "w": 1
+      },
+      "total_ns": 6399637
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w1-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 2,
+        "w": 1
+      },
+      "total_ns": 6590758
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w1-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 2,
+        "w": 1
+      },
+      "total_ns": 5981330
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w1-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 2,
+        "w": 1
+      },
+      "total_ns": 4924373
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w1-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 2,
+        "w": 1
+      },
+      "total_ns": 7818101
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w1-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 2,
+        "w": 1
+      },
+      "total_ns": 5608082
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w1-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 2,
+        "w": 1
+      },
+      "total_ns": 10530199
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w1-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 2,
+        "w": 1
+      },
+      "total_ns": 6329257
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w1-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 2,
+        "w": 1
+      },
+      "total_ns": 6647805
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w1-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 2,
+        "w": 1
+      },
+      "total_ns": 6601868
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w1-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 3,
+        "w": 1
+      },
+      "total_ns": 6113401
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w1-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 3,
+        "w": 1
+      },
+      "total_ns": 5231208
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w1-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 3,
+        "w": 1
+      },
+      "total_ns": 6243823
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w1-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 3,
+        "w": 1
+      },
+      "total_ns": 6262289
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w1-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 3,
+        "w": 1
+      },
+      "total_ns": 5780757
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w1-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 3,
+        "w": 1
+      },
+      "total_ns": 5879284
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w1-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 3,
+        "w": 1
+      },
+      "total_ns": 7100317
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w1-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 3,
+        "w": 1
+      },
+      "total_ns": 6899646
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w1-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 3,
+        "w": 1
+      },
+      "total_ns": 6409601
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w1-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 3,
+        "w": 1
+      },
+      "total_ns": 10604891
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w1-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 3,
+        "w": 1
+      },
+      "total_ns": 6999624
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w1-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 3,
+        "w": 1
+      },
+      "total_ns": 6702865
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w1-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 3,
+        "w": 1
+      },
+      "total_ns": 6682573
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w1-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 3,
+        "w": 1
+      },
+      "total_ns": 5314156
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w1-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 3,
+        "w": 1
+      },
+      "total_ns": 7168511
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w1-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 3,
+        "w": 1
+      },
+      "total_ns": 5811367
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w1-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 3,
+        "w": 1
+      },
+      "total_ns": 6253760
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w1-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 3,
+        "w": 1
+      },
+      "total_ns": 6263122
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w1-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 3,
+        "w": 1
+      },
+      "total_ns": 7193151
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w1-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 3,
+        "w": 1
+      },
+      "total_ns": 7175409
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w1-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 4,
+        "w": 1
+      },
+      "total_ns": 6558305
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w1-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 4,
+        "w": 1
+      },
+      "total_ns": 4981156
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w1-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 4,
+        "w": 1
+      },
+      "total_ns": 6653560
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w1-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 4,
+        "w": 1
+      },
+      "total_ns": 5381354
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w1-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 4,
+        "w": 1
+      },
+      "total_ns": 11714295
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w1-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 4,
+        "w": 1
+      },
+      "total_ns": 5932215
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w1-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 4,
+        "w": 1
+      },
+      "total_ns": 6520844
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w1-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 4,
+        "w": 1
+      },
+      "total_ns": 6935146
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w1-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 4,
+        "w": 1
+      },
+      "total_ns": 6437178
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w1-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 4,
+        "w": 1
+      },
+      "total_ns": 7002076
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w1-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 4,
+        "w": 1
+      },
+      "total_ns": 6896527
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w1-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 4,
+        "w": 1
+      },
+      "total_ns": 6895971
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w1-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 4,
+        "w": 1
+      },
+      "total_ns": 6566535
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w1-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 4,
+        "w": 1
+      },
+      "total_ns": 5229343
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w1-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 4,
+        "w": 1
+      },
+      "total_ns": 6674044
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w1-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 4,
+        "w": 1
+      },
+      "total_ns": 5518446
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w1-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 4,
+        "w": 1
+      },
+      "total_ns": 7750645
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w1-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 4,
+        "w": 1
+      },
+      "total_ns": 10294011
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w1-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 4,
+        "w": 1
+      },
+      "total_ns": 6497723
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w1-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 4,
+        "w": 1
+      },
+      "total_ns": 6435437
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w3-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 5,
+        "w": 3
+      },
+      "total_ns": 5899626
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w3-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 5,
+        "w": 3
+      },
+      "total_ns": 4108367
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w3-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 5,
+        "w": 3
+      },
+      "total_ns": 6300988
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w3-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 5,
+        "w": 3
+      },
+      "total_ns": 5809711
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w3-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 5,
+        "w": 3
+      },
+      "total_ns": 5665161
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w3-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 5,
+        "w": 3
+      },
+      "total_ns": 5984401
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w3-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 5,
+        "w": 3
+      },
+      "total_ns": 6863292
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w3-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 5,
+        "w": 3
+      },
+      "total_ns": 6547431
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w3-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 5,
+        "w": 3
+      },
+      "total_ns": 6107760
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w3-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 5,
+        "w": 3
+      },
+      "total_ns": 6303358
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w3-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 5,
+        "w": 3
+      },
+      "total_ns": 11058281
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w3-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 5,
+        "w": 3
+      },
+      "total_ns": 6571918
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w3-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 5,
+        "w": 3
+      },
+      "total_ns": 5498867
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w3-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 5,
+        "w": 3
+      },
+      "total_ns": 3481943
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w3-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 5,
+        "w": 3
+      },
+      "total_ns": 6637378
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w3-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 5,
+        "w": 3
+      },
+      "total_ns": 5314389
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w3-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 5,
+        "w": 3
+      },
+      "total_ns": 5954320
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w3-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 5,
+        "w": 3
+      },
+      "total_ns": 7638596
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w3-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 5,
+        "w": 3
+      },
+      "total_ns": 6397328
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w3-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 5,
+        "w": 3
+      },
+      "total_ns": 6447571
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w3-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 6,
+        "w": 3
+      },
+      "total_ns": 6745337
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w3-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 6,
+        "w": 3
+      },
+      "total_ns": 5229185
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w3-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 6,
+        "w": 3
+      },
+      "total_ns": 7228720
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w3-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 6,
+        "w": 3
+      },
+      "total_ns": 6856617
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w3-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 6,
+        "w": 3
+      },
+      "total_ns": 10994863
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w3-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 6,
+        "w": 3
+      },
+      "total_ns": 5852471
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w3-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 6,
+        "w": 3
+      },
+      "total_ns": 6890288
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w3-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 6,
+        "w": 3
+      },
+      "total_ns": 8295941
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w3-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 6,
+        "w": 3
+      },
+      "total_ns": 6663477
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w3-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 6,
+        "w": 3
+      },
+      "total_ns": 6394319
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w3-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 6,
+        "w": 3
+      },
+      "total_ns": 7284598
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w3-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 6,
+        "w": 3
+      },
+      "total_ns": 7694340
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w3-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 6,
+        "w": 3
+      },
+      "total_ns": 7314570
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w3-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 6,
+        "w": 3
+      },
+      "total_ns": 4574283
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w3-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 6,
+        "w": 3
+      },
+      "total_ns": 7402516
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w3-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 6,
+        "w": 3
+      },
+      "total_ns": 5766904
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w3-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 6,
+        "w": 3
+      },
+      "total_ns": 6707012
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w3-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 6,
+        "w": 3
+      },
+      "total_ns": 7007766
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w3-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 6,
+        "w": 3
+      },
+      "total_ns": 10722352
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w3-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 6,
+        "w": 3
+      },
+      "total_ns": 6690371
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w3-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 7,
+        "w": 3
+      },
+      "total_ns": 6551402
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w3-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 7,
+        "w": 3
+      },
+      "total_ns": 5526503
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w3-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 7,
+        "w": 3
+      },
+      "total_ns": 7250137
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w3-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 7,
+        "w": 3
+      },
+      "total_ns": 5965964
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w3-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 7,
+        "w": 3
+      },
+      "total_ns": 6215272
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w3-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 7,
+        "w": 3
+      },
+      "total_ns": 6271579
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w3-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 7,
+        "w": 3
+      },
+      "total_ns": 7012651
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w3-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 7,
+        "w": 3
+      },
+      "total_ns": 7247270
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w3-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 7,
+        "w": 3
+      },
+      "total_ns": 6587593
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w3-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 7,
+        "w": 3
+      },
+      "total_ns": 6892353
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w3-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 7,
+        "w": 3
+      },
+      "total_ns": 7462028
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w3-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 7,
+        "w": 3
+      },
+      "total_ns": 11801677
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w3-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 7,
+        "w": 3
+      },
+      "total_ns": 6638755
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w3-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 7,
+        "w": 3
+      },
+      "total_ns": 5044558
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w3-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 7,
+        "w": 3
+      },
+      "total_ns": 7028796
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w3-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 7,
+        "w": 3
+      },
+      "total_ns": 5707599
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w3-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 7,
+        "w": 3
+      },
+      "total_ns": 6069733
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w3-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 7,
+        "w": 3
+      },
+      "total_ns": 6249900
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w3-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 7,
+        "w": 3
+      },
+      "total_ns": 6726928
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w3-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 7,
+        "w": 3
+      },
+      "total_ns": 7945321
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w3-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 8,
+        "w": 3
+      },
+      "total_ns": 6339277
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w3-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 8,
+        "w": 3
+      },
+      "total_ns": 5094207
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w3-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 8,
+        "w": 3
+      },
+      "total_ns": 6992615
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w3-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 8,
+        "w": 3
+      },
+      "total_ns": 5615002
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w3-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 8,
+        "w": 3
+      },
+      "total_ns": 6457619
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w3-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 8,
+        "w": 3
+      },
+      "total_ns": 11342948
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w3-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 8,
+        "w": 3
+      },
+      "total_ns": 7069987
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w3-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 8,
+        "w": 3
+      },
+      "total_ns": 7082079
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w3-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 8,
+        "w": 3
+      },
+      "total_ns": 6565088
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w3-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 8,
+        "w": 3
+      },
+      "total_ns": 6495327
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w3-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 8,
+        "w": 3
+      },
+      "total_ns": 6990003
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w3-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 8,
+        "w": 3
+      },
+      "total_ns": 7203730
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w3-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 8,
+        "w": 3
+      },
+      "total_ns": 6569435
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w3-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 8,
+        "w": 3
+      },
+      "total_ns": 5129342
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w3-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 8,
+        "w": 3
+      },
+      "total_ns": 7149585
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w3-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 8,
+        "w": 3
+      },
+      "total_ns": 5790263
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w3-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 8,
+        "w": 3
+      },
+      "total_ns": 6225250
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w3-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 8,
+        "w": 3
+      },
+      "total_ns": 6258026
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w3-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 8,
+        "w": 3
+      },
+      "total_ns": 11416923
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w3-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 8,
+        "w": 3
+      },
+      "total_ns": 7305941
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w3-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 9,
+        "w": 3
+      },
+      "total_ns": 6608122
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w3-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 9,
+        "w": 3
+      },
+      "total_ns": 5442659
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w3-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 9,
+        "w": 3
+      },
+      "total_ns": 7376490
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w3-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 9,
+        "w": 3
+      },
+      "total_ns": 6317218
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w3-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 9,
+        "w": 3
+      },
+      "total_ns": 6050645
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w3-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 9,
+        "w": 3
+      },
+      "total_ns": 6210357
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w3-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 9,
+        "w": 3
+      },
+      "total_ns": 7042183
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w3-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 9,
+        "w": 3
+      },
+      "total_ns": 7109941
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w3-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 9,
+        "w": 3
+      },
+      "total_ns": 6577592
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w3-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 9,
+        "w": 3
+      },
+      "total_ns": 6689518
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w3-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 9,
+        "w": 3
+      },
+      "total_ns": 9457509
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w3-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 9,
+        "w": 3
+      },
+      "total_ns": 12854120
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w3-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 9,
+        "w": 3
+      },
+      "total_ns": 7865874
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w3-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 9,
+        "w": 3
+      },
+      "total_ns": 5261890
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w3-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 9,
+        "w": 3
+      },
+      "total_ns": 8764608
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w3-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 9,
+        "w": 3
+      },
+      "total_ns": 6328951
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w3-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 9,
+        "w": 3
+      },
+      "total_ns": 6072399
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w3-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 9,
+        "w": 3
+      },
+      "total_ns": 6098653
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w3-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 9,
+        "w": 3
+      },
+      "total_ns": 6546156
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w3-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 9,
+        "w": 3
+      },
+      "total_ns": 7197870
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w5-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 10,
+        "w": 5
+      },
+      "total_ns": 5783968
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w5-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 10,
+        "w": 5
+      },
+      "total_ns": 3438266
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w5-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 10,
+        "w": 5
+      },
+      "total_ns": 7329425
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w5-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 10,
+        "w": 5
+      },
+      "total_ns": 5462581
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w5-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 10,
+        "w": 5
+      },
+      "total_ns": 5900150
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w5-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 10,
+        "w": 5
+      },
+      "total_ns": 6082969
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w5-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 10,
+        "w": 5
+      },
+      "total_ns": 10317769
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w5-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 10,
+        "w": 5
+      },
+      "total_ns": 6253613
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w5-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 10,
+        "w": 5
+      },
+      "total_ns": 6229982
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w5-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 10,
+        "w": 5
+      },
+      "total_ns": 6066486
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w5-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 10,
+        "w": 5
+      },
+      "total_ns": 6456008
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w5-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 10,
+        "w": 5
+      },
+      "total_ns": 6943054
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w5-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 10,
+        "w": 5
+      },
+      "total_ns": 5792975
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w5-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 10,
+        "w": 5
+      },
+      "total_ns": 3550609
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w5-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 10,
+        "w": 5
+      },
+      "total_ns": 6569145
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w5-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 10,
+        "w": 5
+      },
+      "total_ns": 5204743
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w5-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 10,
+        "w": 5
+      },
+      "total_ns": 5972794
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w5-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 10,
+        "w": 5
+      },
+      "total_ns": 6423072
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w5-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 10,
+        "w": 5
+      },
+      "total_ns": 6590440
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w5-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 10,
+        "w": 5
+      },
+      "total_ns": 10845356
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w5-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 11,
+        "w": 5
+      },
+      "total_ns": 7487670
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w5-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 11,
+        "w": 5
+      },
+      "total_ns": 4897423
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w5-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 11,
+        "w": 5
+      },
+      "total_ns": 7986945
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w5-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 11,
+        "w": 5
+      },
+      "total_ns": 6511924
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w5-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 11,
+        "w": 5
+      },
+      "total_ns": 6016598
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w5-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 11,
+        "w": 5
+      },
+      "total_ns": 6250447
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w5-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 11,
+        "w": 5
+      },
+      "total_ns": 7013521
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w5-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 11,
+        "w": 5
+      },
+      "total_ns": 6704351
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w5-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 11,
+        "w": 5
+      },
+      "total_ns": 8148572
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w5-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 11,
+        "w": 5
+      },
+      "total_ns": 7119197
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w5-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 11,
+        "w": 5
+      },
+      "total_ns": 8652925
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w5-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 11,
+        "w": 5
+      },
+      "total_ns": 8590964
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w5-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 11,
+        "w": 5
+      },
+      "total_ns": 10915681
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w5-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 11,
+        "w": 5
+      },
+      "total_ns": 4602330
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w5-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 11,
+        "w": 5
+      },
+      "total_ns": 7430521
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w5-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 11,
+        "w": 5
+      },
+      "total_ns": 5853967
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w5-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 11,
+        "w": 5
+      },
+      "total_ns": 6546456
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w5-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 11,
+        "w": 5
+      },
+      "total_ns": 6515155
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w5-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 11,
+        "w": 5
+      },
+      "total_ns": 7241890
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w5-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 11,
+        "w": 5
+      },
+      "total_ns": 7364721
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w5-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 12,
+        "w": 5
+      },
+      "total_ns": 7864365
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w5-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 12,
+        "w": 5
+      },
+      "total_ns": 9130403
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w5-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 12,
+        "w": 5
+      },
+      "total_ns": 8164159
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w5-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 12,
+        "w": 5
+      },
+      "total_ns": 6471898
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w5-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 12,
+        "w": 5
+      },
+      "total_ns": 6092976
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w5-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 12,
+        "w": 5
+      },
+      "total_ns": 6446968
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w5-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 12,
+        "w": 5
+      },
+      "total_ns": 7118829
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w5-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 12,
+        "w": 5
+      },
+      "total_ns": 10905587
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w5-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 12,
+        "w": 5
+      },
+      "total_ns": 6763987
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w5-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 12,
+        "w": 5
+      },
+      "total_ns": 6629288
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w5-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 12,
+        "w": 5
+      },
+      "total_ns": 9679051
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w5-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 12,
+        "w": 5
+      },
+      "total_ns": 10144481
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w5-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 12,
+        "w": 5
+      },
+      "total_ns": 7114178
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w5-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 12,
+        "w": 5
+      },
+      "total_ns": 5000187
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w5-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 12,
+        "w": 5
+      },
+      "total_ns": 8581292
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w5-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 12,
+        "w": 5
+      },
+      "total_ns": 6232667
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w5-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 12,
+        "w": 5
+      },
+      "total_ns": 6529348
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w5-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 12,
+        "w": 5
+      },
+      "total_ns": 7226791
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w5-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 12,
+        "w": 5
+      },
+      "total_ns": 7235815
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w5-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 12,
+        "w": 5
+      },
+      "total_ns": 7005818
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w5-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 13,
+        "w": 5
+      },
+      "total_ns": 11055807
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w5-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 13,
+        "w": 5
+      },
+      "total_ns": 5194078
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w5-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 13,
+        "w": 5
+      },
+      "total_ns": 7896724
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w5-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 13,
+        "w": 5
+      },
+      "total_ns": 6190687
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w5-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 13,
+        "w": 5
+      },
+      "total_ns": 6314223
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w5-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 13,
+        "w": 5
+      },
+      "total_ns": 6513628
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w5-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 13,
+        "w": 5
+      },
+      "total_ns": 8066196
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w5-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 13,
+        "w": 5
+      },
+      "total_ns": 7474683
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w5-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 13,
+        "w": 5
+      },
+      "total_ns": 7357156
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w5-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 13,
+        "w": 5
+      },
+      "total_ns": 7246232
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w5-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 13,
+        "w": 5
+      },
+      "total_ns": 8843934
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w5-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 13,
+        "w": 5
+      },
+      "total_ns": 9567672
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w5-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 13,
+        "w": 5
+      },
+      "total_ns": 7144661
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w5-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 13,
+        "w": 5
+      },
+      "total_ns": 5142848
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w5-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 13,
+        "w": 5
+      },
+      "total_ns": 11688285
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w5-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 13,
+        "w": 5
+      },
+      "total_ns": 6148454
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w5-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 13,
+        "w": 5
+      },
+      "total_ns": 6340925
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w5-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 13,
+        "w": 5
+      },
+      "total_ns": 6579947
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w5-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 13,
+        "w": 5
+      },
+      "total_ns": 7083186
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w5-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 13,
+        "w": 5
+      },
+      "total_ns": 7632608
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w5-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 14,
+        "w": 5
+      },
+      "total_ns": 8390134
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w5-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 14,
+        "w": 5
+      },
+      "total_ns": 5450115
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w5-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 14,
+        "w": 5
+      },
+      "total_ns": 8397644
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w5-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 14,
+        "w": 5
+      },
+      "total_ns": 6008777
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w5-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 14,
+        "w": 5
+      },
+      "total_ns": 6311998
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w5-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 14,
+        "w": 5
+      },
+      "total_ns": 6326483
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w5-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 14,
+        "w": 5
+      },
+      "total_ns": 8779562
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w5-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 14,
+        "w": 5
+      },
+      "total_ns": 10924612
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w5-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 14,
+        "w": 5
+      },
+      "total_ns": 7250137
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w5-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 14,
+        "w": 5
+      },
+      "total_ns": 6553148
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w5-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 14,
+        "w": 5
+      },
+      "total_ns": 8789905
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w5-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 14,
+        "w": 5
+      },
+      "total_ns": 9157992
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w5-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 14,
+        "w": 5
+      },
+      "total_ns": 6974069
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w5-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 14,
+        "w": 5
+      },
+      "total_ns": 5399713
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w5-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 14,
+        "w": 5
+      },
+      "total_ns": 7771458
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w5-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 14,
+        "w": 5
+      },
+      "total_ns": 5949026
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w5-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 14,
+        "w": 5
+      },
+      "total_ns": 7030674
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w5-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 14,
+        "w": 5
+      },
+      "total_ns": 6045643
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w5-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 14,
+        "w": 5
+      },
+      "total_ns": 6877659
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w5-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 14,
+        "w": 5
+      },
+      "total_ns": 7369568
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w10-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 15,
+        "w": 10
+      },
+      "total_ns": 6516446
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w10-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 15,
+        "w": 10
+      },
+      "total_ns": 7282067
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w10-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 15,
+        "w": 10
+      },
+      "total_ns": 6450780
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w10-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 15,
+        "w": 10
+      },
+      "total_ns": 5426191
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w10-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 15,
+        "w": 10
+      },
+      "total_ns": 6019294
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w10-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 15,
+        "w": 10
+      },
+      "total_ns": 8174799
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w10-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 15,
+        "w": 10
+      },
+      "total_ns": 6650547
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w10-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 15,
+        "w": 10
+      },
+      "total_ns": 6608858
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w10-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 15,
+        "w": 10
+      },
+      "total_ns": 6267732
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w10-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 15,
+        "w": 10
+      },
+      "total_ns": 6194032
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w10-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 15,
+        "w": 10
+      },
+      "total_ns": 6757051
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w10-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 15,
+        "w": 10
+      },
+      "total_ns": 6698738
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w10-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 15,
+        "w": 10
+      },
+      "total_ns": 7322585
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w10-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 15,
+        "w": 10
+      },
+      "total_ns": 3625535
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w10-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 15,
+        "w": 10
+      },
+      "total_ns": 6640657
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w10-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 15,
+        "w": 10
+      },
+      "total_ns": 9462384
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w10-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 15,
+        "w": 10
+      },
+      "total_ns": 6365967
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w10-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 15,
+        "w": 10
+      },
+      "total_ns": 6134010
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w10-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 15,
+        "w": 10
+      },
+      "total_ns": 6505024
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w10-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 15,
+        "w": 10
+      },
+      "total_ns": 6667733
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w10-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 16,
+        "w": 10
+      },
+      "total_ns": 10593224
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w10-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 16,
+        "w": 10
+      },
+      "total_ns": 5605993
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w10-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 16,
+        "w": 10
+      },
+      "total_ns": 9739073
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w10-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 16,
+        "w": 10
+      },
+      "total_ns": 6681381
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w10-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 16,
+        "w": 10
+      },
+      "total_ns": 8124552
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w10-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 16,
+        "w": 10
+      },
+      "total_ns": 6658386
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w10-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 16,
+        "w": 10
+      },
+      "total_ns": 8663309
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w10-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 16,
+        "w": 10
+      },
+      "total_ns": 9304234
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w10-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 16,
+        "w": 10
+      },
+      "total_ns": 12588011
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w10-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 16,
+        "w": 10
+      },
+      "total_ns": 8836529
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w10-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 16,
+        "w": 10
+      },
+      "total_ns": 11147787
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w10-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 16,
+        "w": 10
+      },
+      "total_ns": 10265294
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w10-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 16,
+        "w": 10
+      },
+      "total_ns": 9603779
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w10-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 16,
+        "w": 10
+      },
+      "total_ns": 4836234
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w10-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 16,
+        "w": 10
+      },
+      "total_ns": 10203367
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w10-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 16,
+        "w": 10
+      },
+      "total_ns": 6526804
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w10-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 16,
+        "w": 10
+      },
+      "total_ns": 6334821
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w10-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 16,
+        "w": 10
+      },
+      "total_ns": 6544331
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w10-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 16,
+        "w": 10
+      },
+      "total_ns": 10446805
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w10-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 16,
+        "w": 10
+      },
+      "total_ns": 8748714
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w10-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 17,
+        "w": 10
+      },
+      "total_ns": 9329727
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w10-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 17,
+        "w": 10
+      },
+      "total_ns": 5463943
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w10-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 17,
+        "w": 10
+      },
+      "total_ns": 14110940
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w10-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 17,
+        "w": 10
+      },
+      "total_ns": 6871391
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w10-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 17,
+        "w": 10
+      },
+      "total_ns": 6788773
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w10-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 17,
+        "w": 10
+      },
+      "total_ns": 6555000
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w10-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 17,
+        "w": 10
+      },
+      "total_ns": 8558773
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w10-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 17,
+        "w": 10
+      },
+      "total_ns": 8558857
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w10-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 17,
+        "w": 10
+      },
+      "total_ns": 8651217
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w10-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 17,
+        "w": 10
+      },
+      "total_ns": 9080343
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w10-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 17,
+        "w": 10
+      },
+      "total_ns": 11229028
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w10-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 17,
+        "w": 10
+      },
+      "total_ns": 10397145
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w10-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 17,
+        "w": 10
+      },
+      "total_ns": 9571479
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w10-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 17,
+        "w": 10
+      },
+      "total_ns": 7700546
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w10-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 17,
+        "w": 10
+      },
+      "total_ns": 9395058
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w10-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 17,
+        "w": 10
+      },
+      "total_ns": 10598344
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w10-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 17,
+        "w": 10
+      },
+      "total_ns": 6743190
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w10-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 17,
+        "w": 10
+      },
+      "total_ns": 7595857
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w10-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 17,
+        "w": 10
+      },
+      "total_ns": 8596072
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w10-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 17,
+        "w": 10
+      },
+      "total_ns": 8768755
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w10-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 18,
+        "w": 10
+      },
+      "total_ns": 9583339
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w10-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 18,
+        "w": 10
+      },
+      "total_ns": 5896367
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w10-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 18,
+        "w": 10
+      },
+      "total_ns": 9783926
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w10-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 18,
+        "w": 10
+      },
+      "total_ns": 7518579
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w10-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 18,
+        "w": 10
+      },
+      "total_ns": 6831193
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w10-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 18,
+        "w": 10
+      },
+      "total_ns": 7091810
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w10-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 18,
+        "w": 10
+      },
+      "total_ns": 8962753
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w10-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 18,
+        "w": 10
+      },
+      "total_ns": 8894147
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w10-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 18,
+        "w": 10
+      },
+      "total_ns": 8688358
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w10-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 18,
+        "w": 10
+      },
+      "total_ns": 13295563
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w10-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 18,
+        "w": 10
+      },
+      "total_ns": 11213384
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w10-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 18,
+        "w": 10
+      },
+      "total_ns": 10668046
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w10-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 18,
+        "w": 10
+      },
+      "total_ns": 9841175
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w10-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 18,
+        "w": 10
+      },
+      "total_ns": 5675249
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w10-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 18,
+        "w": 10
+      },
+      "total_ns": 9335338
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w10-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 18,
+        "w": 10
+      },
+      "total_ns": 6439672
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w10-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 18,
+        "w": 10
+      },
+      "total_ns": 6840635
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w10-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 18,
+        "w": 10
+      },
+      "total_ns": 6695518
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w10-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 18,
+        "w": 10
+      },
+      "total_ns": 8881716
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w10-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 18,
+        "w": 10
+      },
+      "total_ns": 8957779
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w10-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 19,
+        "w": 10
+      },
+      "total_ns": 9622827
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w10-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 19,
+        "w": 10
+      },
+      "total_ns": 6258141
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w10-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 19,
+        "w": 10
+      },
+      "total_ns": 9716418
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w10-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 19,
+        "w": 10
+      },
+      "total_ns": 10753709
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w10-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 19,
+        "w": 10
+      },
+      "total_ns": 6695473
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w10-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 19,
+        "w": 10
+      },
+      "total_ns": 6583921
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w10-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 19,
+        "w": 10
+      },
+      "total_ns": 8513114
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w10-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 19,
+        "w": 10
+      },
+      "total_ns": 8756798
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w10-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 19,
+        "w": 10
+      },
+      "total_ns": 8656353
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w10-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 19,
+        "w": 10
+      },
+      "total_ns": 9112831
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w10-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 19,
+        "w": 10
+      },
+      "total_ns": 11661224
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w10-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 19,
+        "w": 10
+      },
+      "total_ns": 10422306
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w10-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 19,
+        "w": 10
+      },
+      "total_ns": 9267006
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w10-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 19,
+        "w": 10
+      },
+      "total_ns": 5758800
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w10-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 19,
+        "w": 10
+      },
+      "total_ns": 11347741
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w10-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 19,
+        "w": 10
+      },
+      "total_ns": 6517409
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w10-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 19,
+        "w": 10
+      },
+      "total_ns": 10919256
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w10-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 19,
+        "w": 10
+      },
+      "total_ns": 6776722
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w10-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 19,
+        "w": 10
+      },
+      "total_ns": 8493070
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w10-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 19,
+        "w": 10
+      },
+      "total_ns": 9128790
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w20-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 20,
+        "w": 20
+      },
+      "total_ns": 6045639
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w20-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 20,
+        "w": 20
+      },
+      "total_ns": 4498139
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w20-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 20,
+        "w": 20
+      },
+      "total_ns": 6166546
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w20-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 20,
+        "w": 20
+      },
+      "total_ns": 5562810
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w20-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 20,
+        "w": 20
+      },
+      "total_ns": 6431967
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w20-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 20,
+        "w": 20
+      },
+      "total_ns": 6159915
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w20-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 20,
+        "w": 20
+      },
+      "total_ns": 6733018
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w20-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 20,
+        "w": 20
+      },
+      "total_ns": 6308161
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w20-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 20,
+        "w": 20
+      },
+      "total_ns": 5998205
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w20-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 20,
+        "w": 20
+      },
+      "total_ns": 10476513
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w20-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 20,
+        "w": 20
+      },
+      "total_ns": 6436023
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w20-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 20,
+        "w": 20
+      },
+      "total_ns": 6193216
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w20-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 20,
+        "w": 20
+      },
+      "total_ns": 5508231
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w20-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 20,
+        "w": 20
+      },
+      "total_ns": 3496917
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w20-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 20,
+        "w": 20
+      },
+      "total_ns": 6016280
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w20-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 20,
+        "w": 20
+      },
+      "total_ns": 5738563
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w20-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 20,
+        "w": 20
+      },
+      "total_ns": 6222061
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w20-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 20,
+        "w": 20
+      },
+      "total_ns": 6613352
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w20-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 20,
+        "w": 20
+      },
+      "total_ns": 6458226
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "B": 0,
+        "name": "Grid-w20-B0",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 20,
+        "w": 20
+      },
+      "total_ns": 6359762
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w20-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 21,
+        "w": 20
+      },
+      "total_ns": 15474225
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w20-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 21,
+        "w": 20
+      },
+      "total_ns": 6989782
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w20-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 21,
+        "w": 20
+      },
+      "total_ns": 9990318
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w20-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 21,
+        "w": 20
+      },
+      "total_ns": 6182098
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w20-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 21,
+        "w": 20
+      },
+      "total_ns": 12102848
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w20-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 21,
+        "w": 20
+      },
+      "total_ns": 7694232
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w20-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 21,
+        "w": 20
+      },
+      "total_ns": 12194166
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w20-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 21,
+        "w": 20
+      },
+      "total_ns": 12169439
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w20-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 21,
+        "w": 20
+      },
+      "total_ns": 20198440
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w20-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 21,
+        "w": 20
+      },
+      "total_ns": 18624272
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w20-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 21,
+        "w": 20
+      },
+      "total_ns": 11601073
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w20-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 21,
+        "w": 20
+      },
+      "total_ns": 11613002
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w20-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 21,
+        "w": 20
+      },
+      "total_ns": 15031902
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w20-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 21,
+        "w": 20
+      },
+      "total_ns": 7066383
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w20-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 21,
+        "w": 20
+      },
+      "total_ns": 11521299
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w20-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 21,
+        "w": 20
+      },
+      "total_ns": 6504866
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w20-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 21,
+        "w": 20
+      },
+      "total_ns": 7630004
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w20-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 21,
+        "w": 20
+      },
+      "total_ns": 12411915
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w20-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 21,
+        "w": 20
+      },
+      "total_ns": 11034154
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "B": 1,
+        "name": "Grid-w20-B1",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 21,
+        "w": 20
+      },
+      "total_ns": 11059708
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w20-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 22,
+        "w": 20
+      },
+      "total_ns": 15445409
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w20-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 22,
+        "w": 20
+      },
+      "total_ns": 8777449
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w20-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 22,
+        "w": 20
+      },
+      "total_ns": 10092357
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w20-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 22,
+        "w": 20
+      },
+      "total_ns": 6628318
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w20-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 22,
+        "w": 20
+      },
+      "total_ns": 8904159
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w20-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 22,
+        "w": 20
+      },
+      "total_ns": 7451490
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w20-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 22,
+        "w": 20
+      },
+      "total_ns": 11677733
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w20-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 22,
+        "w": 20
+      },
+      "total_ns": 11978808
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w20-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 22,
+        "w": 20
+      },
+      "total_ns": 18865156
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w20-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 22,
+        "w": 20
+      },
+      "total_ns": 18823364
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w20-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 22,
+        "w": 20
+      },
+      "total_ns": 17577134
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w20-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 22,
+        "w": 20
+      },
+      "total_ns": 12635993
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w20-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 22,
+        "w": 20
+      },
+      "total_ns": 15558529
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w20-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 22,
+        "w": 20
+      },
+      "total_ns": 8791242
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w20-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 22,
+        "w": 20
+      },
+      "total_ns": 10108768
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w20-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 22,
+        "w": 20
+      },
+      "total_ns": 6483685
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w20-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 22,
+        "w": 20
+      },
+      "total_ns": 8523198
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w20-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 22,
+        "w": 20
+      },
+      "total_ns": 7773522
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w20-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 22,
+        "w": 20
+      },
+      "total_ns": 11392497
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "B": 2,
+        "name": "Grid-w20-B2",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 22,
+        "w": 20
+      },
+      "total_ns": 10932814
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w20-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 23,
+        "w": 20
+      },
+      "total_ns": 16572007
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w20-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 23,
+        "w": 20
+      },
+      "total_ns": 8474440
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w20-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 23,
+        "w": 20
+      },
+      "total_ns": 9877194
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w20-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 23,
+        "w": 20
+      },
+      "total_ns": 6460395
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w20-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 23,
+        "w": 20
+      },
+      "total_ns": 11761066
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w20-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 23,
+        "w": 20
+      },
+      "total_ns": 7541069
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w20-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 23,
+        "w": 20
+      },
+      "total_ns": 10819570
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w20-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 23,
+        "w": 20
+      },
+      "total_ns": 10872562
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w20-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 23,
+        "w": 20
+      },
+      "total_ns": 20846655
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w20-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 23,
+        "w": 20
+      },
+      "total_ns": 18099743
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w20-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 23,
+        "w": 20
+      },
+      "total_ns": 11292211
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w20-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 23,
+        "w": 20
+      },
+      "total_ns": 11277499
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w20-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 23,
+        "w": 20
+      },
+      "total_ns": 15642433
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w20-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 23,
+        "w": 20
+      },
+      "total_ns": 8474114
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w20-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 23,
+        "w": 20
+      },
+      "total_ns": 10212213
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w20-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 23,
+        "w": 20
+      },
+      "total_ns": 6640580
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w20-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 23,
+        "w": 20
+      },
+      "total_ns": 7769424
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w20-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 23,
+        "w": 20
+      },
+      "total_ns": 7217294
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w20-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 23,
+        "w": 20
+      },
+      "total_ns": 15155583
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "B": 3,
+        "name": "Grid-w20-B3",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 23,
+        "w": 20
+      },
+      "total_ns": 10853790
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w20-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 24,
+        "w": 20
+      },
+      "total_ns": 16176959
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w20-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 24,
+        "w": 20
+      },
+      "total_ns": 8409766
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w20-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 24,
+        "w": 20
+      },
+      "total_ns": 10010478
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w20-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 24,
+        "w": 20
+      },
+      "total_ns": 6387506
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w20-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 24,
+        "w": 20
+      },
+      "total_ns": 7382845
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w20-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 24,
+        "w": 20
+      },
+      "total_ns": 7520588
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w20-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 24,
+        "w": 20
+      },
+      "total_ns": 11280166
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w20-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 24,
+        "w": 20
+      },
+      "total_ns": 11241206
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w20-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 24,
+        "w": 20
+      },
+      "total_ns": 19137437
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w20-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 24,
+        "w": 20
+      },
+      "total_ns": 18116196
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w20-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 24,
+        "w": 20
+      },
+      "total_ns": 11559082
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w20-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 24,
+        "w": 20
+      },
+      "total_ns": 15142078
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w20-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 24,
+        "w": 20
+      },
+      "total_ns": 15615051
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w20-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 24,
+        "w": 20
+      },
+      "total_ns": 8884054
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w20-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 24,
+        "w": 20
+      },
+      "total_ns": 9996214
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w20-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 24,
+        "w": 20
+      },
+      "total_ns": 7046216
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w20-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 24,
+        "w": 20
+      },
+      "total_ns": 9403126
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w20-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 24,
+        "w": 20
+      },
+      "total_ns": 7823605
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w20-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 24,
+        "w": 20
+      },
+      "total_ns": 11307719
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "B": 5,
+        "name": "Grid-w20-B5",
+        "role": "A3/A4/A9-offline-grid",
+        "spec_id": 24,
+        "w": 20
+      },
+      "total_ns": 11641234
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "name": "Minimal-Repair",
+        "spec_id": 25
+      },
+      "total_ns": 4947644
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "name": "Minimal-Repair",
+        "spec_id": 25
+      },
+      "total_ns": 4500009
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "name": "Minimal-Repair",
+        "spec_id": 25
+      },
+      "total_ns": 5477380
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "name": "Minimal-Repair",
+        "spec_id": 25
+      },
+      "total_ns": 5883514
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "name": "Minimal-Repair",
+        "spec_id": 25
+      },
+      "total_ns": 5543305
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "name": "Minimal-Repair",
+        "spec_id": 25
+      },
+      "total_ns": 10714632
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "name": "Minimal-Repair",
+        "spec_id": 25
+      },
+      "total_ns": 7192932
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "name": "Minimal-Repair",
+        "spec_id": 25
+      },
+      "total_ns": 5941901
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "name": "Minimal-Repair",
+        "spec_id": 25
+      },
+      "total_ns": 5822043
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "name": "Minimal-Repair",
+        "spec_id": 25
+      },
+      "total_ns": 7492318
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "name": "Minimal-Repair",
+        "spec_id": 25
+      },
+      "total_ns": 5619796
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "name": "Minimal-Repair",
+        "spec_id": 25
+      },
+      "total_ns": 5971944
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "name": "Minimal-Repair",
+        "spec_id": 25
+      },
+      "total_ns": 5081610
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "name": "Minimal-Repair",
+        "spec_id": 25
+      },
+      "total_ns": 3024037
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "name": "Minimal-Repair",
+        "spec_id": 25
+      },
+      "total_ns": 5423674
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "name": "Minimal-Repair",
+        "spec_id": 25
+      },
+      "total_ns": 4874317
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "name": "Minimal-Repair",
+        "spec_id": 25
+      },
+      "total_ns": 5720517
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "name": "Minimal-Repair",
+        "spec_id": 25
+      },
+      "total_ns": 6344129
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "name": "Minimal-Repair",
+        "spec_id": 25
+      },
+      "total_ns": 11950447
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "name": "Minimal-Repair",
+        "spec_id": 25
+      },
+      "total_ns": 6635974
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "name": "Rule-PALR",
+        "spec_id": 26
+      },
+      "total_ns": 6547317
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "name": "Rule-PALR",
+        "spec_id": 26
+      },
+      "total_ns": 6776894
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "name": "Rule-PALR",
+        "spec_id": 26
+      },
+      "total_ns": 7442128
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "name": "Rule-PALR",
+        "spec_id": 26
+      },
+      "total_ns": 6486516
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "name": "Rule-PALR",
+        "spec_id": 26
+      },
+      "total_ns": 6985249
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "name": "Rule-PALR",
+        "spec_id": 26
+      },
+      "total_ns": 6776702
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "name": "Rule-PALR",
+        "spec_id": 26
+      },
+      "total_ns": 7148381
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "name": "Rule-PALR",
+        "spec_id": 26
+      },
+      "total_ns": 7440817
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "name": "Rule-PALR",
+        "spec_id": 26
+      },
+      "total_ns": 7813768
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "name": "Rule-PALR",
+        "spec_id": 26
+      },
+      "total_ns": 7269065
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "name": "Rule-PALR",
+        "spec_id": 26
+      },
+      "total_ns": 7655672
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "name": "Rule-PALR",
+        "spec_id": 26
+      },
+      "total_ns": 8040521
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "name": "Rule-PALR",
+        "spec_id": 26
+      },
+      "total_ns": 12349440
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "name": "Rule-PALR",
+        "spec_id": 26
+      },
+      "total_ns": 6706882
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "name": "Rule-PALR",
+        "spec_id": 26
+      },
+      "total_ns": 7749482
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "name": "Rule-PALR",
+        "spec_id": 26
+      },
+      "total_ns": 6562658
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "name": "Rule-PALR",
+        "spec_id": 26
+      },
+      "total_ns": 7084386
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "name": "Rule-PALR",
+        "spec_id": 26
+      },
+      "total_ns": 7298417
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "name": "Rule-PALR",
+        "spec_id": 26
+      },
+      "total_ns": 7885551
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "name": "Rule-PALR",
+        "spec_id": 26
+      },
+      "total_ns": 7432134
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "name": "B-only",
+        "spec_id": 27
+      },
+      "total_ns": 6934422
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "name": "B-only",
+        "spec_id": 27
+      },
+      "total_ns": 6407908
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "name": "B-only",
+        "spec_id": 27
+      },
+      "total_ns": 8472772
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "name": "B-only",
+        "spec_id": 27
+      },
+      "total_ns": 6490266
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "name": "B-only",
+        "spec_id": 27
+      },
+      "total_ns": 6652397
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "name": "B-only",
+        "spec_id": 27
+      },
+      "total_ns": 6822962
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "name": "B-only",
+        "spec_id": 27
+      },
+      "total_ns": 12210534
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "name": "B-only",
+        "spec_id": 27
+      },
+      "total_ns": 8258065
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "name": "B-only",
+        "spec_id": 27
+      },
+      "total_ns": 8232353
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "name": "B-only",
+        "spec_id": 27
+      },
+      "total_ns": 6885798
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "name": "B-only",
+        "spec_id": 27
+      },
+      "total_ns": 7722087
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "name": "B-only",
+        "spec_id": 27
+      },
+      "total_ns": 8093846
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "name": "B-only",
+        "spec_id": 27
+      },
+      "total_ns": 8821063
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "name": "B-only",
+        "spec_id": 27
+      },
+      "total_ns": 7814919
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "name": "B-only",
+        "spec_id": 27
+      },
+      "total_ns": 7114038
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "name": "B-only",
+        "spec_id": 27
+      },
+      "total_ns": 6584676
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "name": "B-only",
+        "spec_id": 27
+      },
+      "total_ns": 6712289
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "name": "B-only",
+        "spec_id": 27
+      },
+      "total_ns": 6785306
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "name": "B-only",
+        "spec_id": 27
+      },
+      "total_ns": 7292102
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "name": "B-only",
+        "spec_id": 27
+      },
+      "total_ns": 11190563
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "name": "w-only",
+        "spec_id": 28
+      },
+      "total_ns": 7749820
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "name": "w-only",
+        "spec_id": 28
+      },
+      "total_ns": 6463001
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "name": "w-only",
+        "spec_id": 28
+      },
+      "total_ns": 8987833
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "name": "w-only",
+        "spec_id": 28
+      },
+      "total_ns": 8462513
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "name": "w-only",
+        "spec_id": 28
+      },
+      "total_ns": 6959620
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "name": "w-only",
+        "spec_id": 28
+      },
+      "total_ns": 7423879
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "name": "w-only",
+        "spec_id": 28
+      },
+      "total_ns": 7789899
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "name": "w-only",
+        "spec_id": 28
+      },
+      "total_ns": 7705535
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "name": "w-only",
+        "spec_id": 28
+      },
+      "total_ns": 7323929
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "name": "w-only",
+        "spec_id": 28
+      },
+      "total_ns": 8208109
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "name": "w-only",
+        "spec_id": 28
+      },
+      "total_ns": 8679004
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "name": "w-only",
+        "spec_id": 28
+      },
+      "total_ns": 9917356
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "name": "w-only",
+        "spec_id": 28
+      },
+      "total_ns": 12513624
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "name": "w-only",
+        "spec_id": 28
+      },
+      "total_ns": 6683154
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "name": "w-only",
+        "spec_id": 28
+      },
+      "total_ns": 8640241
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "name": "w-only",
+        "spec_id": 28
+      },
+      "total_ns": 7429078
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "name": "w-only",
+        "spec_id": 28
+      },
+      "total_ns": 7756303
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "name": "w-only",
+        "spec_id": 28
+      },
+      "total_ns": 7045137
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "name": "w-only",
+        "spec_id": 28
+      },
+      "total_ns": 8805968
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "name": "w-only",
+        "spec_id": 28
+      },
+      "total_ns": 8047471
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "B": 2,
+        "ignore_window": true,
+        "name": "No-window",
+        "spec_id": 29,
+        "w": 5
+      },
+      "total_ns": 17678944
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "B": 2,
+        "ignore_window": true,
+        "name": "No-window",
+        "spec_id": 29,
+        "w": 5
+      },
+      "total_ns": 6729594
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "B": 2,
+        "ignore_window": true,
+        "name": "No-window",
+        "spec_id": 29,
+        "w": 5
+      },
+      "total_ns": 18899783
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "B": 2,
+        "ignore_window": true,
+        "name": "No-window",
+        "spec_id": 29,
+        "w": 5
+      },
+      "total_ns": 12856401
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "B": 2,
+        "ignore_window": true,
+        "name": "No-window",
+        "spec_id": 29,
+        "w": 5
+      },
+      "total_ns": 19462032
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "B": 2,
+        "ignore_window": true,
+        "name": "No-window",
+        "spec_id": 29,
+        "w": 5
+      },
+      "total_ns": 13680762
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "B": 2,
+        "ignore_window": true,
+        "name": "No-window",
+        "spec_id": 29,
+        "w": 5
+      },
+      "total_ns": 14675024
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "B": 2,
+        "ignore_window": true,
+        "name": "No-window",
+        "spec_id": 29,
+        "w": 5
+      },
+      "total_ns": 16255262
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "B": 2,
+        "ignore_window": true,
+        "name": "No-window",
+        "spec_id": 29,
+        "w": 5
+      },
+      "total_ns": 17920612
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "B": 2,
+        "ignore_window": true,
+        "name": "No-window",
+        "spec_id": 29,
+        "w": 5
+      },
+      "total_ns": 14959190
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "B": 2,
+        "ignore_window": true,
+        "name": "No-window",
+        "spec_id": 29,
+        "w": 5
+      },
+      "total_ns": 19716862
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "B": 2,
+        "ignore_window": true,
+        "name": "No-window",
+        "spec_id": 29,
+        "w": 5
+      },
+      "total_ns": 20849572
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "B": 2,
+        "ignore_window": true,
+        "name": "No-window",
+        "spec_id": 29,
+        "w": 5
+      },
+      "total_ns": 22446197
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "B": 2,
+        "ignore_window": true,
+        "name": "No-window",
+        "spec_id": 29,
+        "w": 5
+      },
+      "total_ns": 7046914
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "B": 2,
+        "ignore_window": true,
+        "name": "No-window",
+        "spec_id": 29,
+        "w": 5
+      },
+      "total_ns": 20972412
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "B": 2,
+        "ignore_window": true,
+        "name": "No-window",
+        "spec_id": 29,
+        "w": 5
+      },
+      "total_ns": 12796521
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "B": 2,
+        "ignore_window": true,
+        "name": "No-window",
+        "spec_id": 29,
+        "w": 5
+      },
+      "total_ns": 16571193
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "B": 2,
+        "ignore_window": true,
+        "name": "No-window",
+        "spec_id": 29,
+        "w": 5
+      },
+      "total_ns": 14089720
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "B": 2,
+        "ignore_window": true,
+        "name": "No-window",
+        "spec_id": 29,
+        "w": 5
+      },
+      "total_ns": 15324412
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "B": 2,
+        "ignore_window": true,
+        "name": "No-window",
+        "spec_id": 29,
+        "w": 5
+      },
+      "total_ns": 17082793
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "B": 2,
+        "ignore_receiver": true,
+        "name": "No-receiver",
+        "spec_id": 30,
+        "w": 5
+      },
+      "total_ns": 14677648
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "B": 2,
+        "ignore_receiver": true,
+        "name": "No-receiver",
+        "spec_id": 30,
+        "w": 5
+      },
+      "total_ns": 10492507
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "B": 2,
+        "ignore_receiver": true,
+        "name": "No-receiver",
+        "spec_id": 30,
+        "w": 5
+      },
+      "total_ns": 14815151
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "B": 2,
+        "ignore_receiver": true,
+        "name": "No-receiver",
+        "spec_id": 30,
+        "w": 5
+      },
+      "total_ns": 10982711
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "B": 2,
+        "ignore_receiver": true,
+        "name": "No-receiver",
+        "spec_id": 30,
+        "w": 5
+      },
+      "total_ns": 13708902
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "B": 2,
+        "ignore_receiver": true,
+        "name": "No-receiver",
+        "spec_id": 30,
+        "w": 5
+      },
+      "total_ns": 12904174
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "B": 2,
+        "ignore_receiver": true,
+        "name": "No-receiver",
+        "spec_id": 30,
+        "w": 5
+      },
+      "total_ns": 15581229
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "B": 2,
+        "ignore_receiver": true,
+        "name": "No-receiver",
+        "spec_id": 30,
+        "w": 5
+      },
+      "total_ns": 14461254
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "B": 2,
+        "ignore_receiver": true,
+        "name": "No-receiver",
+        "spec_id": 30,
+        "w": 5
+      },
+      "total_ns": 13642288
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "B": 2,
+        "ignore_receiver": true,
+        "name": "No-receiver",
+        "spec_id": 30,
+        "w": 5
+      },
+      "total_ns": 18323596
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "B": 2,
+        "ignore_receiver": true,
+        "name": "No-receiver",
+        "spec_id": 30,
+        "w": 5
+      },
+      "total_ns": 15538359
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "B": 2,
+        "ignore_receiver": true,
+        "name": "No-receiver",
+        "spec_id": 30,
+        "w": 5
+      },
+      "total_ns": 18609395
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "B": 2,
+        "ignore_receiver": true,
+        "name": "No-receiver",
+        "spec_id": 30,
+        "w": 5
+      },
+      "total_ns": 13772845
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "B": 2,
+        "ignore_receiver": true,
+        "name": "No-receiver",
+        "spec_id": 30,
+        "w": 5
+      },
+      "total_ns": 6357822
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "B": 2,
+        "ignore_receiver": true,
+        "name": "No-receiver",
+        "spec_id": 30,
+        "w": 5
+      },
+      "total_ns": 14679758
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "B": 2,
+        "ignore_receiver": true,
+        "name": "No-receiver",
+        "spec_id": 30,
+        "w": 5
+      },
+      "total_ns": 10862877
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "B": 2,
+        "ignore_receiver": true,
+        "name": "No-receiver",
+        "spec_id": 30,
+        "w": 5
+      },
+      "total_ns": 11820780
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "B": 2,
+        "ignore_receiver": true,
+        "name": "No-receiver",
+        "spec_id": 30,
+        "w": 5
+      },
+      "total_ns": 16225298
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "B": 2,
+        "ignore_receiver": true,
+        "name": "No-receiver",
+        "spec_id": 30,
+        "w": 5
+      },
+      "total_ns": 14762154
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "B": 2,
+        "ignore_receiver": true,
+        "name": "No-receiver",
+        "spec_id": 30,
+        "w": 5
+      },
+      "total_ns": 15819788
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "B": 2,
+        "insertion_only": true,
+        "name": "Insert-only",
+        "spec_id": 31,
+        "w": 5
+      },
+      "total_ns": 5838414
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "B": 2,
+        "insertion_only": true,
+        "name": "Insert-only",
+        "spec_id": 31,
+        "w": 5
+      },
+      "total_ns": 5114875
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "B": 2,
+        "insertion_only": true,
+        "name": "Insert-only",
+        "spec_id": 31,
+        "w": 5
+      },
+      "total_ns": 6578285
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "B": 2,
+        "insertion_only": true,
+        "name": "Insert-only",
+        "spec_id": 31,
+        "w": 5
+      },
+      "total_ns": 6806685
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "B": 2,
+        "insertion_only": true,
+        "name": "Insert-only",
+        "spec_id": 31,
+        "w": 5
+      },
+      "total_ns": 6280177
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "B": 2,
+        "insertion_only": true,
+        "name": "Insert-only",
+        "spec_id": 31,
+        "w": 5
+      },
+      "total_ns": 6349419
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "B": 2,
+        "insertion_only": true,
+        "name": "Insert-only",
+        "spec_id": 31,
+        "w": 5
+      },
+      "total_ns": 6674193
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "B": 2,
+        "insertion_only": true,
+        "name": "Insert-only",
+        "spec_id": 31,
+        "w": 5
+      },
+      "total_ns": 6714043
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "B": 2,
+        "insertion_only": true,
+        "name": "Insert-only",
+        "spec_id": 31,
+        "w": 5
+      },
+      "total_ns": 8132901
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "B": 2,
+        "insertion_only": true,
+        "name": "Insert-only",
+        "spec_id": 31,
+        "w": 5
+      },
+      "total_ns": 11471869
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "B": 2,
+        "insertion_only": true,
+        "name": "Insert-only",
+        "spec_id": 31,
+        "w": 5
+      },
+      "total_ns": 7090693
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "B": 2,
+        "insertion_only": true,
+        "name": "Insert-only",
+        "spec_id": 31,
+        "w": 5
+      },
+      "total_ns": 6933067
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "B": 2,
+        "insertion_only": true,
+        "name": "Insert-only",
+        "spec_id": 31,
+        "w": 5
+      },
+      "total_ns": 6194242
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "B": 2,
+        "insertion_only": true,
+        "name": "Insert-only",
+        "spec_id": 31,
+        "w": 5
+      },
+      "total_ns": 4787475
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "B": 2,
+        "insertion_only": true,
+        "name": "Insert-only",
+        "spec_id": 31,
+        "w": 5
+      },
+      "total_ns": 6630477
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "B": 2,
+        "insertion_only": true,
+        "name": "Insert-only",
+        "spec_id": 31,
+        "w": 5
+      },
+      "total_ns": 5876752
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "B": 2,
+        "insertion_only": true,
+        "name": "Insert-only",
+        "spec_id": 31,
+        "w": 5
+      },
+      "total_ns": 6171129
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "B": 2,
+        "insertion_only": true,
+        "name": "Insert-only",
+        "spec_id": 31,
+        "w": 5
+      },
+      "total_ns": 6128399
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "B": 2,
+        "insertion_only": true,
+        "name": "Insert-only",
+        "spec_id": 31,
+        "w": 5
+      },
+      "total_ns": 6609413
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "B": 2,
+        "insertion_only": true,
+        "name": "Insert-only",
+        "spec_id": 31,
+        "w": 5
+      },
+      "total_ns": 6479863
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 11,
+        "spec_id": 32,
+        "w": 5
+      },
+      "total_ns": 7356144
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 11,
+        "spec_id": 32,
+        "w": 5
+      },
+      "total_ns": 5250095
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 11,
+        "spec_id": 32,
+        "w": 5
+      },
+      "total_ns": 7514284
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 11,
+        "spec_id": 32,
+        "w": 5
+      },
+      "total_ns": 10481563
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 11,
+        "spec_id": 32,
+        "w": 5
+      },
+      "total_ns": 7541787
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 11,
+        "spec_id": 32,
+        "w": 5
+      },
+      "total_ns": 6399706
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 11,
+        "spec_id": 32,
+        "w": 5
+      },
+      "total_ns": 7091335
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 11,
+        "spec_id": 32,
+        "w": 5
+      },
+      "total_ns": 7768191
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 11,
+        "spec_id": 32,
+        "w": 5
+      },
+      "total_ns": 7182082
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 11,
+        "spec_id": 32,
+        "w": 5
+      },
+      "total_ns": 6885226
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 11,
+        "spec_id": 32,
+        "w": 5
+      },
+      "total_ns": 9760205
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 11,
+        "spec_id": 32,
+        "w": 5
+      },
+      "total_ns": 9031082
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 11,
+        "spec_id": 32,
+        "w": 5
+      },
+      "total_ns": 8287009
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 11,
+        "spec_id": 32,
+        "w": 5
+      },
+      "total_ns": 5189725
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 11,
+        "spec_id": 32,
+        "w": 5
+      },
+      "total_ns": 8400321
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 11,
+        "spec_id": 32,
+        "w": 5
+      },
+      "total_ns": 6164945
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 11,
+        "spec_id": 32,
+        "w": 5
+      },
+      "total_ns": 10342146
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 11,
+        "spec_id": 32,
+        "w": 5
+      },
+      "total_ns": 6255698
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 11,
+        "spec_id": 32,
+        "w": 5
+      },
+      "total_ns": 7513011
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 11,
+        "spec_id": 32,
+        "w": 5
+      },
+      "total_ns": 7131039
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 23,
+        "spec_id": 33,
+        "w": 5
+      },
+      "total_ns": 7312099
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 23,
+        "spec_id": 33,
+        "w": 5
+      },
+      "total_ns": 5565779
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 23,
+        "spec_id": 33,
+        "w": 5
+      },
+      "total_ns": 7840978
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 23,
+        "spec_id": 33,
+        "w": 5
+      },
+      "total_ns": 6082831
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 23,
+        "spec_id": 33,
+        "w": 5
+      },
+      "total_ns": 6850190
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 23,
+        "spec_id": 33,
+        "w": 5
+      },
+      "total_ns": 7667242
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 23,
+        "spec_id": 33,
+        "w": 5
+      },
+      "total_ns": 7157056
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 23,
+        "spec_id": 33,
+        "w": 5
+      },
+      "total_ns": 7260063
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 23,
+        "spec_id": 33,
+        "w": 5
+      },
+      "total_ns": 7990604
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 23,
+        "spec_id": 33,
+        "w": 5
+      },
+      "total_ns": 12119744
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 23,
+        "spec_id": 33,
+        "w": 5
+      },
+      "total_ns": 9227598
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 23,
+        "spec_id": 33,
+        "w": 5
+      },
+      "total_ns": 8517295
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 23,
+        "spec_id": 33,
+        "w": 5
+      },
+      "total_ns": 7049259
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 23,
+        "spec_id": 33,
+        "w": 5
+      },
+      "total_ns": 5180964
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 23,
+        "spec_id": 33,
+        "w": 5
+      },
+      "total_ns": 7947906
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 23,
+        "spec_id": 33,
+        "w": 5
+      },
+      "total_ns": 6357138
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 23,
+        "spec_id": 33,
+        "w": 5
+      },
+      "total_ns": 6518186
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 23,
+        "spec_id": 33,
+        "w": 5
+      },
+      "total_ns": 6403868
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 23,
+        "spec_id": 33,
+        "w": 5
+      },
+      "total_ns": 7361432
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 23,
+        "spec_id": 33,
+        "w": 5
+      },
+      "total_ns": 7537231
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 47,
+        "spec_id": 34,
+        "w": 5
+      },
+      "total_ns": 7286464
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 47,
+        "spec_id": 34,
+        "w": 5
+      },
+      "total_ns": 5318783
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 47,
+        "spec_id": 34,
+        "w": 5
+      },
+      "total_ns": 8347858
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 47,
+        "spec_id": 34,
+        "w": 5
+      },
+      "total_ns": 8094924
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 47,
+        "spec_id": 34,
+        "w": 5
+      },
+      "total_ns": 10146519
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 47,
+        "spec_id": 34,
+        "w": 5
+      },
+      "total_ns": 6141613
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 47,
+        "spec_id": 34,
+        "w": 5
+      },
+      "total_ns": 8877443
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 47,
+        "spec_id": 34,
+        "w": 5
+      },
+      "total_ns": 7944058
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 47,
+        "spec_id": 34,
+        "w": 5
+      },
+      "total_ns": 7033822
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 47,
+        "spec_id": 34,
+        "w": 5
+      },
+      "total_ns": 6748536
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 47,
+        "spec_id": 34,
+        "w": 5
+      },
+      "total_ns": 9558547
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 47,
+        "spec_id": 34,
+        "w": 5
+      },
+      "total_ns": 8752038
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 47,
+        "spec_id": 34,
+        "w": 5
+      },
+      "total_ns": 7227059
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 47,
+        "spec_id": 34,
+        "w": 5
+      },
+      "total_ns": 5132180
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 47,
+        "spec_id": 34,
+        "w": 5
+      },
+      "total_ns": 7972690
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 47,
+        "spec_id": 34,
+        "w": 5
+      },
+      "total_ns": 6107442
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 47,
+        "spec_id": 34,
+        "w": 5
+      },
+      "total_ns": 6145825
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 47,
+        "spec_id": 34,
+        "w": 5
+      },
+      "total_ns": 11110947
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 47,
+        "spec_id": 34,
+        "w": 5
+      },
+      "total_ns": 7976984
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 47,
+        "spec_id": 34,
+        "w": 5
+      },
+      "total_ns": 6991445
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 89,
+        "spec_id": 35,
+        "w": 5
+      },
+      "total_ns": 7208424
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 89,
+        "spec_id": 35,
+        "w": 5
+      },
+      "total_ns": 5941035
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 89,
+        "spec_id": 35,
+        "w": 5
+      },
+      "total_ns": 7453026
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 89,
+        "spec_id": 35,
+        "w": 5
+      },
+      "total_ns": 6157934
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 89,
+        "spec_id": 35,
+        "w": 5
+      },
+      "total_ns": 6110452
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 89,
+        "spec_id": 35,
+        "w": 5
+      },
+      "total_ns": 6071028
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 89,
+        "spec_id": 35,
+        "w": 5
+      },
+      "total_ns": 7449731
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 89,
+        "spec_id": 35,
+        "w": 5
+      },
+      "total_ns": 7037001
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 89,
+        "spec_id": 35,
+        "w": 5
+      },
+      "total_ns": 6764822
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 89,
+        "spec_id": 35,
+        "w": 5
+      },
+      "total_ns": 6834080
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 89,
+        "spec_id": 35,
+        "w": 5
+      },
+      "total_ns": 14247860
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 89,
+        "spec_id": 35,
+        "w": 5
+      },
+      "total_ns": 9166376
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 89,
+        "spec_id": 35,
+        "w": 5
+      },
+      "total_ns": 7234963
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 89,
+        "spec_id": 35,
+        "w": 5
+      },
+      "total_ns": 5860435
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 89,
+        "spec_id": 35,
+        "w": 5
+      },
+      "total_ns": 9384533
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 89,
+        "spec_id": 35,
+        "w": 5
+      },
+      "total_ns": 6291418
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 89,
+        "spec_id": 35,
+        "w": 5
+      },
+      "total_ns": 6307062
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 89,
+        "spec_id": 35,
+        "w": 5
+      },
+      "total_ns": 6384377
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 89,
+        "spec_id": 35,
+        "w": 5
+      },
+      "total_ns": 7105240
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 89,
+        "spec_id": 35,
+        "w": 5
+      },
+      "total_ns": 7037169
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 131,
+        "spec_id": 36,
+        "w": 5
+      },
+      "total_ns": 7218620
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 131,
+        "spec_id": 36,
+        "w": 5
+      },
+      "total_ns": 5184466
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 131,
+        "spec_id": 36,
+        "w": 5
+      },
+      "total_ns": 7764724
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 131,
+        "spec_id": 36,
+        "w": 5
+      },
+      "total_ns": 6199051
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 131,
+        "spec_id": 36,
+        "w": 5
+      },
+      "total_ns": 11675341
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 131,
+        "spec_id": 36,
+        "w": 5
+      },
+      "total_ns": 7609678
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 131,
+        "spec_id": 36,
+        "w": 5
+      },
+      "total_ns": 6761473
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 131,
+        "spec_id": 36,
+        "w": 5
+      },
+      "total_ns": 6866462
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 131,
+        "spec_id": 36,
+        "w": 5
+      },
+      "total_ns": 7885428
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 131,
+        "spec_id": 36,
+        "w": 5
+      },
+      "total_ns": 6970683
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 131,
+        "spec_id": 36,
+        "w": 5
+      },
+      "total_ns": 8701506
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 131,
+        "spec_id": 36,
+        "w": 5
+      },
+      "total_ns": 8924785
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 131,
+        "spec_id": 36,
+        "w": 5
+      },
+      "total_ns": 7035973
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 131,
+        "spec_id": 36,
+        "w": 5
+      },
+      "total_ns": 5219628
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 131,
+        "spec_id": 36,
+        "w": 5
+      },
+      "total_ns": 8076109
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 131,
+        "spec_id": 36,
+        "w": 5
+      },
+      "total_ns": 6299848
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 131,
+        "spec_id": 36,
+        "w": 5
+      },
+      "total_ns": 6363630
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 131,
+        "spec_id": 36,
+        "w": 5
+      },
+      "total_ns": 6400945
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 131,
+        "spec_id": 36,
+        "w": 5
+      },
+      "total_ns": 11596403
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "B": 2,
+        "name": "Random-ties",
+        "random_ties": true,
+        "seed": 131,
+        "spec_id": 36,
+        "w": 5
+      },
+      "total_ns": 7750863
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "budget_ms": 5,
+        "name": "Rule-PALR",
+        "spec_id": 37
+      },
+      "total_ns": 5348166
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "budget_ms": 5,
+        "name": "Rule-PALR",
+        "spec_id": 37
+      },
+      "total_ns": 4313582
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "budget_ms": 5,
+        "name": "Rule-PALR",
+        "spec_id": 37
+      },
+      "total_ns": 5715715
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "budget_ms": 5,
+        "name": "Rule-PALR",
+        "spec_id": 37
+      },
+      "total_ns": 5910905
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "budget_ms": 5,
+        "name": "Rule-PALR",
+        "spec_id": 37
+      },
+      "total_ns": 5505302
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "budget_ms": 5,
+        "name": "Rule-PALR",
+        "spec_id": 37
+      },
+      "total_ns": 5756295
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "budget_ms": 5,
+        "name": "Rule-PALR",
+        "spec_id": 37
+      },
+      "total_ns": 6743888
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "budget_ms": 5,
+        "name": "Rule-PALR",
+        "spec_id": 37
+      },
+      "total_ns": 6146522
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "budget_ms": 5,
+        "name": "Rule-PALR",
+        "spec_id": 37
+      },
+      "total_ns": 5849916
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "budget_ms": 5,
+        "name": "Rule-PALR",
+        "spec_id": 37
+      },
+      "total_ns": 5491936
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "budget_ms": 5,
+        "name": "Rule-PALR",
+        "spec_id": 37
+      },
+      "total_ns": 6323258
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "budget_ms": 5,
+        "name": "Rule-PALR",
+        "spec_id": 37
+      },
+      "total_ns": 6121104
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "budget_ms": 5,
+        "name": "Rule-PALR",
+        "spec_id": 37
+      },
+      "total_ns": 5498435
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "budget_ms": 5,
+        "name": "Rule-PALR",
+        "spec_id": 37
+      },
+      "total_ns": 9871517
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "budget_ms": 5,
+        "name": "Rule-PALR",
+        "spec_id": 37
+      },
+      "total_ns": 5995352
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "budget_ms": 5,
+        "name": "Rule-PALR",
+        "spec_id": 37
+      },
+      "total_ns": 6247706
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "budget_ms": 5,
+        "name": "Rule-PALR",
+        "spec_id": 37
+      },
+      "total_ns": 5854130
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "budget_ms": 5,
+        "name": "Rule-PALR",
+        "spec_id": 37
+      },
+      "total_ns": 6097563
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "budget_ms": 5,
+        "name": "Rule-PALR",
+        "spec_id": 37
+      },
+      "total_ns": 5804217
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "budget_ms": 5,
+        "name": "Rule-PALR",
+        "spec_id": 37
+      },
+      "total_ns": 5842007
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "budget_ms": 5,
+        "name": "No-time",
+        "spec_id": 38
+      },
+      "total_ns": 5804831
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "budget_ms": 5,
+        "name": "No-time",
+        "spec_id": 38
+      },
+      "total_ns": 4429008
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "budget_ms": 5,
+        "name": "No-time",
+        "spec_id": 38
+      },
+      "total_ns": 5868096
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "budget_ms": 5,
+        "name": "No-time",
+        "spec_id": 38
+      },
+      "total_ns": 5273015
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "budget_ms": 5,
+        "name": "No-time",
+        "spec_id": 38
+      },
+      "total_ns": 5773991
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "budget_ms": 5,
+        "name": "No-time",
+        "spec_id": 38
+      },
+      "total_ns": 5738267
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "budget_ms": 5,
+        "name": "No-time",
+        "spec_id": 38
+      },
+      "total_ns": 5859664
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "budget_ms": 5,
+        "name": "No-time",
+        "spec_id": 38
+      },
+      "total_ns": 5959712
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "budget_ms": 5,
+        "name": "No-time",
+        "spec_id": 38
+      },
+      "total_ns": 5737444
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "budget_ms": 5,
+        "name": "No-time",
+        "spec_id": 38
+      },
+      "total_ns": 11301642
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "budget_ms": 5,
+        "name": "No-time",
+        "spec_id": 38
+      },
+      "total_ns": 6265652
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "budget_ms": 5,
+        "name": "No-time",
+        "spec_id": 38
+      },
+      "total_ns": 5935277
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "budget_ms": 5,
+        "name": "No-time",
+        "spec_id": 38
+      },
+      "total_ns": 6678193
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "budget_ms": 5,
+        "name": "No-time",
+        "spec_id": 38
+      },
+      "total_ns": 4344636
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "budget_ms": 5,
+        "name": "No-time",
+        "spec_id": 38
+      },
+      "total_ns": 6173794
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "budget_ms": 5,
+        "name": "No-time",
+        "spec_id": 38
+      },
+      "total_ns": 5399594
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "budget_ms": 5,
+        "name": "No-time",
+        "spec_id": 38
+      },
+      "total_ns": 5850026
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "budget_ms": 5,
+        "name": "No-time",
+        "spec_id": 38
+      },
+      "total_ns": 5716419
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "budget_ms": 5,
+        "name": "No-time",
+        "spec_id": 38
+      },
+      "total_ns": 6151287
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "budget_ms": 5,
+        "name": "No-time",
+        "spec_id": 38
+      },
+      "total_ns": 6660748
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "budget_ms": 10,
+        "name": "Rule-PALR",
+        "spec_id": 39
+      },
+      "total_ns": 6873454
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "budget_ms": 10,
+        "name": "Rule-PALR",
+        "spec_id": 39
+      },
+      "total_ns": 8030166
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "budget_ms": 10,
+        "name": "Rule-PALR",
+        "spec_id": 39
+      },
+      "total_ns": 7432536
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "budget_ms": 10,
+        "name": "Rule-PALR",
+        "spec_id": 39
+      },
+      "total_ns": 6611179
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "budget_ms": 10,
+        "name": "Rule-PALR",
+        "spec_id": 39
+      },
+      "total_ns": 7469218
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "budget_ms": 10,
+        "name": "Rule-PALR",
+        "spec_id": 39
+      },
+      "total_ns": 11648679
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "budget_ms": 10,
+        "name": "Rule-PALR",
+        "spec_id": 39
+      },
+      "total_ns": 7995366
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "budget_ms": 10,
+        "name": "Rule-PALR",
+        "spec_id": 39
+      },
+      "total_ns": 7492708
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "budget_ms": 10,
+        "name": "Rule-PALR",
+        "spec_id": 39
+      },
+      "total_ns": 6767216
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "budget_ms": 10,
+        "name": "Rule-PALR",
+        "spec_id": 39
+      },
+      "total_ns": 7197479
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "budget_ms": 10,
+        "name": "Rule-PALR",
+        "spec_id": 39
+      },
+      "total_ns": 7417944
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "budget_ms": 10,
+        "name": "Rule-PALR",
+        "spec_id": 39
+      },
+      "total_ns": 7459854
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "budget_ms": 10,
+        "name": "Rule-PALR",
+        "spec_id": 39
+      },
+      "total_ns": 6904989
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "budget_ms": 10,
+        "name": "Rule-PALR",
+        "spec_id": 39
+      },
+      "total_ns": 6592315
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "budget_ms": 10,
+        "name": "Rule-PALR",
+        "spec_id": 39
+      },
+      "total_ns": 7353365
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "budget_ms": 10,
+        "name": "Rule-PALR",
+        "spec_id": 39
+      },
+      "total_ns": 6520780
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "budget_ms": 10,
+        "name": "Rule-PALR",
+        "spec_id": 39
+      },
+      "total_ns": 7060278
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "budget_ms": 10,
+        "name": "Rule-PALR",
+        "spec_id": 39
+      },
+      "total_ns": 7097729
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "budget_ms": 10,
+        "name": "Rule-PALR",
+        "spec_id": 39
+      },
+      "total_ns": 11644507
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "budget_ms": 10,
+        "name": "Rule-PALR",
+        "spec_id": 39
+      },
+      "total_ns": 7207524
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "budget_ms": 10,
+        "name": "No-time",
+        "spec_id": 40
+      },
+      "total_ns": 7532086
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "budget_ms": 10,
+        "name": "No-time",
+        "spec_id": 40
+      },
+      "total_ns": 6976149
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "budget_ms": 10,
+        "name": "No-time",
+        "spec_id": 40
+      },
+      "total_ns": 7407850
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "budget_ms": 10,
+        "name": "No-time",
+        "spec_id": 40
+      },
+      "total_ns": 7232041
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "budget_ms": 10,
+        "name": "No-time",
+        "spec_id": 40
+      },
+      "total_ns": 6783961
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "budget_ms": 10,
+        "name": "No-time",
+        "spec_id": 40
+      },
+      "total_ns": 6857191
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "budget_ms": 10,
+        "name": "No-time",
+        "spec_id": 40
+      },
+      "total_ns": 7891504
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "budget_ms": 10,
+        "name": "No-time",
+        "spec_id": 40
+      },
+      "total_ns": 8357168
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "budget_ms": 10,
+        "name": "No-time",
+        "spec_id": 40
+      },
+      "total_ns": 7197309
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "budget_ms": 10,
+        "name": "No-time",
+        "spec_id": 40
+      },
+      "total_ns": 7015664
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "budget_ms": 10,
+        "name": "No-time",
+        "spec_id": 40
+      },
+      "total_ns": 8357542
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "budget_ms": 10,
+        "name": "No-time",
+        "spec_id": 40
+      },
+      "total_ns": 7830420
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "budget_ms": 10,
+        "name": "No-time",
+        "spec_id": 40
+      },
+      "total_ns": 10271901
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "budget_ms": 10,
+        "name": "No-time",
+        "spec_id": 40
+      },
+      "total_ns": 6423992
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "budget_ms": 10,
+        "name": "No-time",
+        "spec_id": 40
+      },
+      "total_ns": 7627674
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "budget_ms": 10,
+        "name": "No-time",
+        "spec_id": 40
+      },
+      "total_ns": 6706208
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "budget_ms": 10,
+        "name": "No-time",
+        "spec_id": 40
+      },
+      "total_ns": 6796749
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "budget_ms": 10,
+        "name": "No-time",
+        "spec_id": 40
+      },
+      "total_ns": 7166644
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "budget_ms": 10,
+        "name": "No-time",
+        "spec_id": 40
+      },
+      "total_ns": 8104445
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "budget_ms": 10,
+        "name": "No-time",
+        "spec_id": 40
+      },
+      "total_ns": 7946191
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "budget_ms": 20,
+        "name": "Rule-PALR",
+        "spec_id": 41
+      },
+      "total_ns": 7082221
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "budget_ms": 20,
+        "name": "Rule-PALR",
+        "spec_id": 41
+      },
+      "total_ns": 7629086
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "budget_ms": 20,
+        "name": "Rule-PALR",
+        "spec_id": 41
+      },
+      "total_ns": 7690556
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "budget_ms": 20,
+        "name": "Rule-PALR",
+        "spec_id": 41
+      },
+      "total_ns": 6490836
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "budget_ms": 20,
+        "name": "Rule-PALR",
+        "spec_id": 41
+      },
+      "total_ns": 8012710
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "budget_ms": 20,
+        "name": "Rule-PALR",
+        "spec_id": 41
+      },
+      "total_ns": 7182867
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "budget_ms": 20,
+        "name": "Rule-PALR",
+        "spec_id": 41
+      },
+      "total_ns": 12068808
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "budget_ms": 20,
+        "name": "Rule-PALR",
+        "spec_id": 41
+      },
+      "total_ns": 9174043
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "budget_ms": 20,
+        "name": "Rule-PALR",
+        "spec_id": 41
+      },
+      "total_ns": 9210929
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "budget_ms": 20,
+        "name": "Rule-PALR",
+        "spec_id": 41
+      },
+      "total_ns": 8531873
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "budget_ms": 20,
+        "name": "Rule-PALR",
+        "spec_id": 41
+      },
+      "total_ns": 8106796
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "budget_ms": 20,
+        "name": "Rule-PALR",
+        "spec_id": 41
+      },
+      "total_ns": 11699272
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "budget_ms": 20,
+        "name": "Rule-PALR",
+        "spec_id": 41
+      },
+      "total_ns": 11001196
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "budget_ms": 20,
+        "name": "Rule-PALR",
+        "spec_id": 41
+      },
+      "total_ns": 8027355
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "budget_ms": 20,
+        "name": "Rule-PALR",
+        "spec_id": 41
+      },
+      "total_ns": 9669975
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "budget_ms": 20,
+        "name": "Rule-PALR",
+        "spec_id": 41
+      },
+      "total_ns": 9649959
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "budget_ms": 20,
+        "name": "Rule-PALR",
+        "spec_id": 41
+      },
+      "total_ns": 16391938
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "budget_ms": 20,
+        "name": "Rule-PALR",
+        "spec_id": 41
+      },
+      "total_ns": 12918784
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "budget_ms": 20,
+        "name": "Rule-PALR",
+        "spec_id": 41
+      },
+      "total_ns": 8237200
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "budget_ms": 20,
+        "name": "Rule-PALR",
+        "spec_id": 41
+      },
+      "total_ns": 13127884
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "budget_ms": 20,
+        "name": "No-time",
+        "spec_id": 42
+      },
+      "total_ns": 7649492
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "budget_ms": 20,
+        "name": "No-time",
+        "spec_id": 42
+      },
+      "total_ns": 7073736
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "budget_ms": 20,
+        "name": "No-time",
+        "spec_id": 42
+      },
+      "total_ns": 7781405
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "budget_ms": 20,
+        "name": "No-time",
+        "spec_id": 42
+      },
+      "total_ns": 7361749
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "budget_ms": 20,
+        "name": "No-time",
+        "spec_id": 42
+      },
+      "total_ns": 6945787
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "budget_ms": 20,
+        "name": "No-time",
+        "spec_id": 42
+      },
+      "total_ns": 6877276
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "budget_ms": 20,
+        "name": "No-time",
+        "spec_id": 42
+      },
+      "total_ns": 7373397
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "budget_ms": 20,
+        "name": "No-time",
+        "spec_id": 42
+      },
+      "total_ns": 7698140
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "budget_ms": 20,
+        "name": "No-time",
+        "spec_id": 42
+      },
+      "total_ns": 7354014
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "budget_ms": 20,
+        "name": "No-time",
+        "spec_id": 42
+      },
+      "total_ns": 7157165
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "budget_ms": 20,
+        "name": "No-time",
+        "spec_id": 42
+      },
+      "total_ns": 7648966
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "budget_ms": 20,
+        "name": "No-time",
+        "spec_id": 42
+      },
+      "total_ns": 9065591
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "budget_ms": 20,
+        "name": "No-time",
+        "spec_id": 42
+      },
+      "total_ns": 11701971
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "budget_ms": 20,
+        "name": "No-time",
+        "spec_id": 42
+      },
+      "total_ns": 6703669
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "budget_ms": 20,
+        "name": "No-time",
+        "spec_id": 42
+      },
+      "total_ns": 7787302
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "budget_ms": 20,
+        "name": "No-time",
+        "spec_id": 42
+      },
+      "total_ns": 6797323
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "budget_ms": 20,
+        "name": "No-time",
+        "spec_id": 42
+      },
+      "total_ns": 7490898
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "budget_ms": 20,
+        "name": "No-time",
+        "spec_id": 42
+      },
+      "total_ns": 7691390
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "budget_ms": 20,
+        "name": "No-time",
+        "spec_id": 42
+      },
+      "total_ns": 7703860
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "budget_ms": 20,
+        "name": "No-time",
+        "spec_id": 42
+      },
+      "total_ns": 7716487
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "budget_ms": 50,
+        "name": "Rule-PALR",
+        "spec_id": 43
+      },
+      "total_ns": 7424850
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "budget_ms": 50,
+        "name": "Rule-PALR",
+        "spec_id": 43
+      },
+      "total_ns": 6541630
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "budget_ms": 50,
+        "name": "Rule-PALR",
+        "spec_id": 43
+      },
+      "total_ns": 7618280
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "budget_ms": 50,
+        "name": "Rule-PALR",
+        "spec_id": 43
+      },
+      "total_ns": 7032101
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "budget_ms": 50,
+        "name": "Rule-PALR",
+        "spec_id": 43
+      },
+      "total_ns": 7457899
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "budget_ms": 50,
+        "name": "Rule-PALR",
+        "spec_id": 43
+      },
+      "total_ns": 7648014
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "budget_ms": 50,
+        "name": "Rule-PALR",
+        "spec_id": 43
+      },
+      "total_ns": 8232007
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "budget_ms": 50,
+        "name": "Rule-PALR",
+        "spec_id": 43
+      },
+      "total_ns": 11577277
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "budget_ms": 50,
+        "name": "Rule-PALR",
+        "spec_id": 43
+      },
+      "total_ns": 7769976
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "budget_ms": 50,
+        "name": "Rule-PALR",
+        "spec_id": 43
+      },
+      "total_ns": 8329510
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "budget_ms": 50,
+        "name": "Rule-PALR",
+        "spec_id": 43
+      },
+      "total_ns": 7321161
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "budget_ms": 50,
+        "name": "Rule-PALR",
+        "spec_id": 43
+      },
+      "total_ns": 7565062
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "budget_ms": 50,
+        "name": "Rule-PALR",
+        "spec_id": 43
+      },
+      "total_ns": 7131299
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "budget_ms": 50,
+        "name": "Rule-PALR",
+        "spec_id": 43
+      },
+      "total_ns": 6560761
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "budget_ms": 50,
+        "name": "Rule-PALR",
+        "spec_id": 43
+      },
+      "total_ns": 7237779
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "budget_ms": 50,
+        "name": "Rule-PALR",
+        "spec_id": 43
+      },
+      "total_ns": 6503494
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "budget_ms": 50,
+        "name": "Rule-PALR",
+        "spec_id": 43
+      },
+      "total_ns": 7152013
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "budget_ms": 50,
+        "name": "Rule-PALR",
+        "spec_id": 43
+      },
+      "total_ns": 7246549
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "budget_ms": 50,
+        "name": "Rule-PALR",
+        "spec_id": 43
+      },
+      "total_ns": 8437595
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "budget_ms": 50,
+        "name": "Rule-PALR",
+        "spec_id": 43
+      },
+      "total_ns": 7262668
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "budget_ms": 50,
+        "name": "No-time",
+        "spec_id": 44
+      },
+      "total_ns": 10795960
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "budget_ms": 50,
+        "name": "No-time",
+        "spec_id": 44
+      },
+      "total_ns": 6755547
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "budget_ms": 50,
+        "name": "No-time",
+        "spec_id": 44
+      },
+      "total_ns": 7785246
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "budget_ms": 50,
+        "name": "No-time",
+        "spec_id": 44
+      },
+      "total_ns": 10311045
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "budget_ms": 50,
+        "name": "No-time",
+        "spec_id": 44
+      },
+      "total_ns": 7026774
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "budget_ms": 50,
+        "name": "No-time",
+        "spec_id": 44
+      },
+      "total_ns": 7738407
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "budget_ms": 50,
+        "name": "No-time",
+        "spec_id": 44
+      },
+      "total_ns": 7968883
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "budget_ms": 50,
+        "name": "No-time",
+        "spec_id": 44
+      },
+      "total_ns": 7679107
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "budget_ms": 50,
+        "name": "No-time",
+        "spec_id": 44
+      },
+      "total_ns": 7401159
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "budget_ms": 50,
+        "name": "No-time",
+        "spec_id": 44
+      },
+      "total_ns": 7667670
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "budget_ms": 50,
+        "name": "No-time",
+        "spec_id": 44
+      },
+      "total_ns": 7573213
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "budget_ms": 50,
+        "name": "No-time",
+        "spec_id": 44
+      },
+      "total_ns": 7636891
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "budget_ms": 50,
+        "name": "No-time",
+        "spec_id": 44
+      },
+      "total_ns": 7043154
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "budget_ms": 50,
+        "name": "No-time",
+        "spec_id": 44
+      },
+      "total_ns": 6720460
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "budget_ms": 50,
+        "name": "No-time",
+        "spec_id": 44
+      },
+      "total_ns": 13482053
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "budget_ms": 50,
+        "name": "No-time",
+        "spec_id": 44
+      },
+      "total_ns": 6862368
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "budget_ms": 50,
+        "name": "No-time",
+        "spec_id": 44
+      },
+      "total_ns": 6966012
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "budget_ms": 50,
+        "name": "No-time",
+        "spec_id": 44
+      },
+      "total_ns": 7798968
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "budget_ms": 50,
+        "name": "No-time",
+        "spec_id": 44
+      },
+      "total_ns": 8796249
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "budget_ms": 50,
+        "name": "No-time",
+        "spec_id": 44
+      },
+      "total_ns": 7533201
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "budget_ms": 100,
+        "name": "Rule-PALR",
+        "spec_id": 45
+      },
+      "total_ns": 7014169
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "budget_ms": 100,
+        "name": "Rule-PALR",
+        "spec_id": 45
+      },
+      "total_ns": 6727765
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "budget_ms": 100,
+        "name": "Rule-PALR",
+        "spec_id": 45
+      },
+      "total_ns": 7370285
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "budget_ms": 100,
+        "name": "Rule-PALR",
+        "spec_id": 45
+      },
+      "total_ns": 6759328
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "budget_ms": 100,
+        "name": "Rule-PALR",
+        "spec_id": 45
+      },
+      "total_ns": 8765438
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "budget_ms": 100,
+        "name": "Rule-PALR",
+        "spec_id": 45
+      },
+      "total_ns": 7680883
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "budget_ms": 100,
+        "name": "Rule-PALR",
+        "spec_id": 45
+      },
+      "total_ns": 7710662
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "budget_ms": 100,
+        "name": "Rule-PALR",
+        "spec_id": 45
+      },
+      "total_ns": 11859664
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "budget_ms": 100,
+        "name": "Rule-PALR",
+        "spec_id": 45
+      },
+      "total_ns": 7328662
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "budget_ms": 100,
+        "name": "Rule-PALR",
+        "spec_id": 45
+      },
+      "total_ns": 8049199
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "budget_ms": 100,
+        "name": "Rule-PALR",
+        "spec_id": 45
+      },
+      "total_ns": 8045645
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "budget_ms": 100,
+        "name": "Rule-PALR",
+        "spec_id": 45
+      },
+      "total_ns": 8183143
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "budget_ms": 100,
+        "name": "Rule-PALR",
+        "spec_id": 45
+      },
+      "total_ns": 7245640
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "budget_ms": 100,
+        "name": "Rule-PALR",
+        "spec_id": 45
+      },
+      "total_ns": 6900628
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "budget_ms": 100,
+        "name": "Rule-PALR",
+        "spec_id": 45
+      },
+      "total_ns": 7684242
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "budget_ms": 100,
+        "name": "Rule-PALR",
+        "spec_id": 45
+      },
+      "total_ns": 6693482
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "budget_ms": 100,
+        "name": "Rule-PALR",
+        "spec_id": 45
+      },
+      "total_ns": 7882141
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "budget_ms": 100,
+        "name": "Rule-PALR",
+        "spec_id": 45
+      },
+      "total_ns": 9236724
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "budget_ms": 100,
+        "name": "Rule-PALR",
+        "spec_id": 45
+      },
+      "total_ns": 7673327
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "budget_ms": 100,
+        "name": "Rule-PALR",
+        "spec_id": 45
+      },
+      "total_ns": 7700503
+    },
+    {
+      "iteration": 0,
+      "spec": {
+        "budget_ms": 100,
+        "name": "No-time",
+        "spec_id": 46
+      },
+      "total_ns": 7076575
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "budget_ms": 100,
+        "name": "No-time",
+        "spec_id": 46
+      },
+      "total_ns": 11921792
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "budget_ms": 100,
+        "name": "No-time",
+        "spec_id": 46
+      },
+      "total_ns": 7984869
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "budget_ms": 100,
+        "name": "No-time",
+        "spec_id": 46
+      },
+      "total_ns": 6721832
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "budget_ms": 100,
+        "name": "No-time",
+        "spec_id": 46
+      },
+      "total_ns": 7208894
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "budget_ms": 100,
+        "name": "No-time",
+        "spec_id": 46
+      },
+      "total_ns": 7311746
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "budget_ms": 100,
+        "name": "No-time",
+        "spec_id": 46
+      },
+      "total_ns": 8617709
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "budget_ms": 100,
+        "name": "No-time",
+        "spec_id": 46
+      },
+      "total_ns": 7762264
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "budget_ms": 100,
+        "name": "No-time",
+        "spec_id": 46
+      },
+      "total_ns": 7366281
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "budget_ms": 100,
+        "name": "No-time",
+        "spec_id": 46
+      },
+      "total_ns": 7436483
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "budget_ms": 100,
+        "name": "No-time",
+        "spec_id": 46
+      },
+      "total_ns": 7626569
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "budget_ms": 100,
+        "name": "No-time",
+        "spec_id": 46
+      },
+      "total_ns": 7911964
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "budget_ms": 100,
+        "name": "No-time",
+        "spec_id": 46
+      },
+      "total_ns": 6867674
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "budget_ms": 100,
+        "name": "No-time",
+        "spec_id": 46
+      },
+      "total_ns": 6520455
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "budget_ms": 100,
+        "name": "No-time",
+        "spec_id": 46
+      },
+      "total_ns": 11839127
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "budget_ms": 100,
+        "name": "No-time",
+        "spec_id": 46
+      },
+      "total_ns": 6569208
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "budget_ms": 100,
+        "name": "No-time",
+        "spec_id": 46
+      },
+      "total_ns": 8693231
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "budget_ms": 100,
+        "name": "No-time",
+        "spec_id": 46
+      },
+      "total_ns": 9025880
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "budget_ms": 100,
+        "name": "No-time",
+        "spec_id": 46
+      },
+      "total_ns": 8612739
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "budget_ms": 100,
+        "name": "No-time",
+        "spec_id": 46
+      },
+      "total_ns": 8442750
+    }
+  ]
+}

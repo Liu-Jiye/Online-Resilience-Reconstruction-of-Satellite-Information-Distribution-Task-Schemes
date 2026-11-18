@@ -1,0 +1,208 @@
+{
+  "affinity": [
+    0
+  ],
+  "python": "3.11.18",
+  "warmups": [
+    {
+      "iteration": 0,
+      "spec": {
+        "B": 2,
+        "budget_ms": 10,
+        "name": "Fixed-PALR",
+        "w": 5
+      },
+      "total_ns": 27492641
+    },
+    {
+      "iteration": 1,
+      "spec": {
+        "B": 2,
+        "budget_ms": 10,
+        "name": "Fixed-PALR",
+        "w": 5
+      },
+      "total_ns": 8664122
+    },
+    {
+      "iteration": 2,
+      "spec": {
+        "B": 2,
+        "budget_ms": 10,
+        "name": "Fixed-PALR",
+        "w": 5
+      },
+      "total_ns": 11878626
+    },
+    {
+      "iteration": 3,
+      "spec": {
+        "B": 2,
+        "budget_ms": 10,
+        "name": "Fixed-PALR",
+        "w": 5
+      },
+      "total_ns": 6954036
+    },
+    {
+      "iteration": 4,
+      "spec": {
+        "B": 2,
+        "budget_ms": 10,
+        "name": "Fixed-PALR",
+        "w": 5
+      },
+      "total_ns": 6934173
+    },
+    {
+      "iteration": 5,
+      "spec": {
+        "B": 2,
+        "budget_ms": 10,
+        "name": "Fixed-PALR",
+        "w": 5
+      },
+      "total_ns": 10637687
+    },
+    {
+      "iteration": 6,
+      "spec": {
+        "B": 2,
+        "budget_ms": 10,
+        "name": "Fixed-PALR",
+        "w": 5
+      },
+      "total_ns": 11330371
+    },
+    {
+      "iteration": 7,
+      "spec": {
+        "B": 2,
+        "budget_ms": 10,
+        "name": "Fixed-PALR",
+        "w": 5
+      },
+      "total_ns": 11728616
+    },
+    {
+      "iteration": 8,
+      "spec": {
+        "B": 2,
+        "budget_ms": 10,
+        "name": "Fixed-PALR",
+        "w": 5
+      },
+      "total_ns": 8546868
+    },
+    {
+      "iteration": 9,
+      "spec": {
+        "B": 2,
+        "budget_ms": 10,
+        "name": "Fixed-PALR",
+        "w": 5
+      },
+      "total_ns": 7102104
+    },
+    {
+      "iteration": 10,
+      "spec": {
+        "B": 2,
+        "budget_ms": 10,
+        "name": "Fixed-PALR",
+        "w": 5
+      },
+      "total_ns": 9975316
+    },
+    {
+      "iteration": 11,
+      "spec": {
+        "B": 2,
+        "budget_ms": 10,
+        "name": "Fixed-PALR",
+        "w": 5
+      },
+      "total_ns": 10155220
+    },
+    {
+      "iteration": 12,
+      "spec": {
+        "B": 2,
+        "budget_ms": 10,
+        "name": "Fixed-PALR",
+        "w": 5
+      },
+      "total_ns": 9493090
+    },
+    {
+      "iteration": 13,
+      "spec": {
+        "B": 2,
+        "budget_ms": 10,
+        "name": "Fixed-PALR",
+        "w": 5
+      },
+      "total_ns": 7855717
+    },
+    {
+      "iteration": 14,
+      "spec": {
+        "B": 2,
+        "budget_ms": 10,
+        "name": "Fixed-PALR",
+        "w": 5
+      },
+      "total_ns": 10077700
+    },
+    {
+      "iteration": 15,
+      "spec": {
+        "B": 2,
+        "budget_ms": 10,
+        "name": "Fixed-PALR",
+        "w": 5
+      },
+      "total_ns": 6546637
+    },
+    {
+      "iteration": 16,
+      "spec": {
+        "B": 2,
+        "budget_ms": 10,
+        "name": "Fixed-PALR",
+        "w": 5
+      },
+      "total_ns": 10617550
+    },
+    {
+      "iteration": 17,
+      "spec": {
+        "B": 2,
+        "budget_ms": 10,
+        "name": "Fixed-PALR",
+        "w": 5
+      },
+      "total_ns": 6721978
+    },
+    {
+      "iteration": 18,
+      "spec": {
+        "B": 2,
+        "budget_ms": 10,
+        "name": "Fixed-PALR",
+        "w": 5
+      },
+      "total_ns": 10355230
+    },
+    {
+      "iteration": 19,
+      "spec": {
+        "B": 2,
+        "budget_ms": 10,
+        "name": "Fixed-PALR",
+        "w": 5
+      },
+      "total_ns": 7897681
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "counts": {
+    "continuous_input_state_calls_checked": 4000,
+    "continuous_method_trajectories_checked": 400,
+    "local_certified_early_baseline_returns": 9,
+    "local_domain_calls_checked": 14400,
+    "per_base_A9_selections_checked": 300,
+    "simulation_depth_calls_exported": 18000,
+    "upgrade_calls_checked": 12000,
+    "upgrade_phase_plans_checked": 16473,
+    "warm_incumbent_handoffs_checked": 3588
+  },
+  "passed": true,
+  "scope": "Independent original checker for both upgrade phases, cumulative handoff, shared deadline accounting, local E/B2 and candidate eligibility, original per-base A9 selection, method-owned continuous references/tasks/rewards/cancellations/expiry/release/freeze/delivery; no performance rerun"
+}

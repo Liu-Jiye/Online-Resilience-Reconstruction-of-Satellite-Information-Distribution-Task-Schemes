@@ -1,0 +1,13 @@
+﻿label,variant,cases,frozen_conflict,online_success,timeout
+Fixed-PALR,frozen_cancel,25,25,0,0
+Fixed-PALR,frozen_window,25,25,0,0
+Fixed-PALR,paired_normal_control,50,0,49,1
+Minimal-Repair,frozen_cancel,25,25,0,0
+Minimal-Repair,frozen_window,25,25,0,0
+Minimal-Repair,paired_normal_control,50,0,50,0
+Rule-PALR,frozen_cancel,25,25,0,0
+Rule-PALR,frozen_window,25,25,0,0
+Rule-PALR,paired_normal_control,50,0,50,0
+Validation-Best-Fixed,frozen_cancel,25,25,0,0
+Validation-Best-Fixed,frozen_window,25,25,0,0
+Validation-Best-Fixed,paired_normal_control,50,0,50,0

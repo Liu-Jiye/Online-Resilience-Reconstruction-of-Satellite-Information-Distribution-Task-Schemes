@@ -1,0 +1,2 @@
+# Preserve P5 receipts, raw gzip shards and archived evidence byte for byte.
+** -text whitespace=cr-at-eol,-blank-at-eof
