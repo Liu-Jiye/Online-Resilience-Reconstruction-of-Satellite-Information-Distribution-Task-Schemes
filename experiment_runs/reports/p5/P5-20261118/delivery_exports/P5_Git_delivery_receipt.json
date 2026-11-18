@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "accepted_files_with_exact_git_bytes": 19037,
+  "frozen_method_source_files": 66,
+  "analysis_source_files": 14,
+  "all_changes_within_experiment_runs": true,
+  "commit": "27fa69fa54fff94d31ec8b946fac8a41797f59d0",
+  "remote_main": "27fa69fa54fff94d31ec8b946fac8a41797f59d0",
+  "all_remote_git_blobs_matched": 53030,
+  "tree_sha": "7e5db285fe44a2e3926f51ad3a61364fbc89744d",
+  "working_tree_clean": true,
+  "url": "https://github.com/Liu-Jiye/Online-Resilience-Reconstruction-of-Satellite-Information-Distribution-Task-Schemes/commit/27fa69fa54fff94d31ec8b946fac8a41797f59d0"
+}
