@@ -1,0 +1,10 @@
+{
+  "default": {
+    "main_controller": "rule",
+    "reason": "neither sparse candidate passed all predeclared net-benefit gates"
+  },
+  "N500-h0.8": {
+    "main_controller": "rule",
+    "reason": "neither sparse candidate passed all predeclared net-benefit gates"
+  }
+}

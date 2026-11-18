@@ -1,0 +1,9 @@
+{
+  "reason": "Docker Desktop engine stopped externally; existing pipeline container exited 255",
+  "sealed_bases_before_resume": 619,
+  "action": "Started Docker Desktop and existing pipeline container; existing receipts and source freeze verified by collector",
+  "same_image": true,
+  "same_model_and_runtime": true,
+  "retuning": false,
+  "measurement_limitation": "measurement periods differ; per-base paired method order retained"
+}

@@ -1,0 +1,870 @@
+{
+  "scope": "2 training D1 scenes only; no validation selection",
+  "warmup_calls": 20,
+  "rows": [
+    {
+      "load": "default",
+      "base": 0,
+      "scenario": 0,
+      "reference_n": 54,
+      "status": "timeout",
+      "total_ms": 53.255168,
+      "timings_ns": {
+        "input_and_baseline_ns": 35783741,
+        "filter_ns": 1759101,
+        "repair_ns": 0,
+        "accepted_validation_ns": 3003759,
+        "final_validation_ns": 3247129,
+        "control_ns": 0,
+        "unattributed_ns": 9461438
+      },
+      "stop_reason": "cooperative_deadline"
+    },
+    {
+      "load": "default",
+      "base": 0,
+      "scenario": 1,
+      "reference_n": 54,
+      "status": "feasible",
+      "total_ms": 26.234546,
+      "timings_ns": {
+        "input_and_baseline_ns": 4369642,
+        "filter_ns": 2573979,
+        "repair_ns": 15985402,
+        "accepted_validation_ns": 1855746,
+        "final_validation_ns": 1443251,
+        "control_ns": 0,
+        "unattributed_ns": 6526
+      },
+      "stop_reason": "no_improvement"
+    },
+    {
+      "load": "default",
+      "base": 0,
+      "scenario": 2,
+      "reference_n": 54,
+      "status": "timeout",
+      "total_ms": 53.415768,
+      "timings_ns": {
+        "input_and_baseline_ns": 28305136,
+        "filter_ns": 1682940,
+        "repair_ns": 15461445,
+        "accepted_validation_ns": 3830975,
+        "final_validation_ns": 4128774,
+        "control_ns": 0,
+        "unattributed_ns": 6498
+      },
+      "stop_reason": "no_improvement"
+    },
+    {
+      "load": "default",
+      "base": 0,
+      "scenario": 3,
+      "reference_n": 54,
+      "status": "feasible",
+      "total_ms": 24.282134,
+      "timings_ns": {
+        "input_and_baseline_ns": 8818876,
+        "filter_ns": 2209191,
+        "repair_ns": 7344601,
+        "accepted_validation_ns": 2834135,
+        "final_validation_ns": 3067587,
+        "control_ns": 0,
+        "unattributed_ns": 7744
+      },
+      "stop_reason": "no_improvement"
+    },
+    {
+      "load": "default",
+      "base": 0,
+      "scenario": 4,
+      "reference_n": 54,
+      "status": "timeout",
+      "total_ms": 51.519528,
+      "timings_ns": {
+        "input_and_baseline_ns": 0,
+        "filter_ns": 0,
+        "repair_ns": 0,
+        "accepted_validation_ns": 0,
+        "final_validation_ns": 0,
+        "control_ns": 0,
+        "unattributed_ns": 51519528
+      },
+      "stop_reason": "cooperative_deadline"
+    },
+    {
+      "load": "default",
+      "base": 0,
+      "scenario": 5,
+      "reference_n": 54,
+      "status": "timeout",
+      "total_ms": 50.441573,
+      "timings_ns": {
+        "input_and_baseline_ns": 0,
+        "filter_ns": 0,
+        "repair_ns": 0,
+        "accepted_validation_ns": 0,
+        "final_validation_ns": 0,
+        "control_ns": 0,
+        "unattributed_ns": 50441573
+      },
+      "stop_reason": "cooperative_deadline"
+    },
+    {
+      "load": "default",
+      "base": 0,
+      "scenario": 6,
+      "reference_n": 54,
+      "status": "timeout",
+      "total_ms": 54.784563,
+      "timings_ns": {
+        "input_and_baseline_ns": 35640896,
+        "filter_ns": 2179188,
+        "repair_ns": 0,
+        "accepted_validation_ns": 5891307,
+        "final_validation_ns": 4741990,
+        "control_ns": 0,
+        "unattributed_ns": 6331182
+      },
+      "stop_reason": "cooperative_deadline"
+    },
+    {
+      "load": "default",
+      "base": 0,
+      "scenario": 7,
+      "reference_n": 54,
+      "status": "timeout",
+      "total_ms": 53.843759,
+      "timings_ns": {
+        "input_and_baseline_ns": 36669993,
+        "filter_ns": 938877,
+        "repair_ns": 7319344,
+        "accepted_validation_ns": 4390900,
+        "final_validation_ns": 4517700,
+        "control_ns": 0,
+        "unattributed_ns": 6945
+      },
+      "stop_reason": "no_improvement"
+    },
+    {
+      "load": "default",
+      "base": 0,
+      "scenario": 8,
+      "reference_n": 54,
+      "status": "timeout",
+      "total_ms": 51.577785,
+      "timings_ns": {
+        "input_and_baseline_ns": 0,
+        "filter_ns": 0,
+        "repair_ns": 0,
+        "accepted_validation_ns": 0,
+        "final_validation_ns": 0,
+        "control_ns": 0,
+        "unattributed_ns": 51577785
+      },
+      "stop_reason": "cooperative_deadline"
+    },
+    {
+      "load": "default",
+      "base": 0,
+      "scenario": 9,
+      "reference_n": 54,
+      "status": "timeout",
+      "total_ms": 51.352346,
+      "timings_ns": {
+        "input_and_baseline_ns": 0,
+        "filter_ns": 0,
+        "repair_ns": 0,
+        "accepted_validation_ns": 0,
+        "final_validation_ns": 0,
+        "control_ns": 0,
+        "unattributed_ns": 51352346
+      },
+      "stop_reason": "cooperative_deadline"
+    },
+    {
+      "load": "default",
+      "base": 0,
+      "scenario": 10,
+      "reference_n": 54,
+      "status": "timeout",
+      "total_ms": 55.097117,
+      "timings_ns": {
+        "input_and_baseline_ns": 37630869,
+        "filter_ns": 1733426,
+        "repair_ns": 0,
+        "accepted_validation_ns": 4057786,
+        "final_validation_ns": 4756267,
+        "control_ns": 0,
+        "unattributed_ns": 6918769
+      },
+      "stop_reason": "cooperative_deadline"
+    },
+    {
+      "load": "default",
+      "base": 0,
+      "scenario": 11,
+      "reference_n": 54,
+      "status": "timeout",
+      "total_ms": 54.772941,
+      "timings_ns": {
+        "input_and_baseline_ns": 36148177,
+        "filter_ns": 1848350,
+        "repair_ns": 0,
+        "accepted_validation_ns": 4103574,
+        "final_validation_ns": 4705494,
+        "control_ns": 0,
+        "unattributed_ns": 7967346
+      },
+      "stop_reason": "cooperative_deadline"
+    },
+    {
+      "load": "N500-h0.8",
+      "base": 0,
+      "scenario": 0,
+      "reference_n": 165,
+      "status": "timeout",
+      "total_ms": 50.666347,
+      "timings_ns": {
+        "input_and_baseline_ns": 0,
+        "filter_ns": 0,
+        "repair_ns": 0,
+        "accepted_validation_ns": 0,
+        "final_validation_ns": 0,
+        "control_ns": 0,
+        "unattributed_ns": 50666347
+      },
+      "stop_reason": "cooperative_deadline"
+    },
+    {
+      "load": "N500-h0.8",
+      "base": 0,
+      "scenario": 1,
+      "reference_n": 165,
+      "status": "timeout",
+      "total_ms": 52.771767,
+      "timings_ns": {
+        "input_and_baseline_ns": 28422924,
+        "filter_ns": 0,
+        "repair_ns": 0,
+        "accepted_validation_ns": 2631832,
+        "final_validation_ns": 2734313,
+        "control_ns": 0,
+        "unattributed_ns": 18982698
+      },
+      "stop_reason": "cooperative_deadline"
+    },
+    {
+      "load": "N500-h0.8",
+      "base": 0,
+      "scenario": 2,
+      "reference_n": 165,
+      "status": "timeout",
+      "total_ms": 52.347489,
+      "timings_ns": {
+        "input_and_baseline_ns": 0,
+        "filter_ns": 0,
+        "repair_ns": 0,
+        "accepted_validation_ns": 0,
+        "final_validation_ns": 0,
+        "control_ns": 0,
+        "unattributed_ns": 52347489
+      },
+      "stop_reason": "cooperative_deadline"
+    },
+    {
+      "load": "N500-h0.8",
+      "base": 0,
+      "scenario": 3,
+      "reference_n": 165,
+      "status": "timeout",
+      "total_ms": 50.867151,
+      "timings_ns": {
+        "input_and_baseline_ns": 0,
+        "filter_ns": 0,
+        "repair_ns": 0,
+        "accepted_validation_ns": 0,
+        "final_validation_ns": 0,
+        "control_ns": 0,
+        "unattributed_ns": 50867151
+      },
+      "stop_reason": "cooperative_deadline"
+    },
+    {
+      "load": "N500-h0.8",
+      "base": 0,
+      "scenario": 4,
+      "reference_n": 165,
+      "status": "timeout",
+      "total_ms": 50.420128,
+      "timings_ns": {
+        "input_and_baseline_ns": 0,
+        "filter_ns": 0,
+        "repair_ns": 0,
+        "accepted_validation_ns": 0,
+        "final_validation_ns": 0,
+        "control_ns": 0,
+        "unattributed_ns": 50420128
+      },
+      "stop_reason": "cooperative_deadline"
+    },
+    {
+      "load": "N500-h0.8",
+      "base": 0,
+      "scenario": 5,
+      "reference_n": 165,
+      "status": "timeout",
+      "total_ms": 50.187002,
+      "timings_ns": {
+        "input_and_baseline_ns": 0,
+        "filter_ns": 0,
+        "repair_ns": 0,
+        "accepted_validation_ns": 0,
+        "final_validation_ns": 0,
+        "control_ns": 0,
+        "unattributed_ns": 50187002
+      },
+      "stop_reason": "cooperative_deadline"
+    },
+    {
+      "load": "N500-h0.8",
+      "base": 0,
+      "scenario": 6,
+      "reference_n": 165,
+      "status": "timeout",
+      "total_ms": 51.5116,
+      "timings_ns": {
+        "input_and_baseline_ns": 0,
+        "filter_ns": 0,
+        "repair_ns": 0,
+        "accepted_validation_ns": 0,
+        "final_validation_ns": 0,
+        "control_ns": 0,
+        "unattributed_ns": 51511600
+      },
+      "stop_reason": "cooperative_deadline"
+    },
+    {
+      "load": "N500-h0.8",
+      "base": 0,
+      "scenario": 7,
+      "reference_n": 165,
+      "status": "timeout",
+      "total_ms": 53.790987,
+      "timings_ns": {
+        "input_and_baseline_ns": 0,
+        "filter_ns": 0,
+        "repair_ns": 0,
+        "accepted_validation_ns": 0,
+        "final_validation_ns": 0,
+        "control_ns": 0,
+        "unattributed_ns": 53790987
+      },
+      "stop_reason": "cooperative_deadline"
+    },
+    {
+      "load": "N500-h0.8",
+      "base": 0,
+      "scenario": 8,
+      "reference_n": 165,
+      "status": "timeout",
+      "total_ms": 50.380045,
+      "timings_ns": {
+        "input_and_baseline_ns": 0,
+        "filter_ns": 0,
+        "repair_ns": 0,
+        "accepted_validation_ns": 0,
+        "final_validation_ns": 0,
+        "control_ns": 0,
+        "unattributed_ns": 50380045
+      },
+      "stop_reason": "cooperative_deadline"
+    },
+    {
+      "load": "N500-h0.8",
+      "base": 0,
+      "scenario": 9,
+      "reference_n": 165,
+      "status": "timeout",
+      "total_ms": 50.211736,
+      "timings_ns": {
+        "input_and_baseline_ns": 0,
+        "filter_ns": 0,
+        "repair_ns": 0,
+        "accepted_validation_ns": 0,
+        "final_validation_ns": 0,
+        "control_ns": 0,
+        "unattributed_ns": 50211736
+      },
+      "stop_reason": "cooperative_deadline"
+    },
+    {
+      "load": "N500-h0.8",
+      "base": 0,
+      "scenario": 10,
+      "reference_n": 165,
+      "status": "timeout",
+      "total_ms": 53.412103,
+      "timings_ns": {
+        "input_and_baseline_ns": 0,
+        "filter_ns": 0,
+        "repair_ns": 0,
+        "accepted_validation_ns": 0,
+        "final_validation_ns": 0,
+        "control_ns": 0,
+        "unattributed_ns": 53412103
+      },
+      "stop_reason": "cooperative_deadline"
+    },
+    {
+      "load": "N500-h0.8",
+      "base": 0,
+      "scenario": 11,
+      "reference_n": 165,
+      "status": "timeout",
+      "total_ms": 51.208756,
+      "timings_ns": {
+        "input_and_baseline_ns": 0,
+        "filter_ns": 0,
+        "repair_ns": 0,
+        "accepted_validation_ns": 0,
+        "final_validation_ns": 0,
+        "control_ns": 0,
+        "unattributed_ns": 51208756
+      },
+      "stop_reason": "cooperative_deadline"
+    },
+    {
+      "load": "default",
+      "base": 1,
+      "scenario": 0,
+      "reference_n": 50,
+      "status": "timeout",
+      "total_ms": 50.506048,
+      "timings_ns": {
+        "input_and_baseline_ns": 32451125,
+        "filter_ns": 1339357,
+        "repair_ns": 10750809,
+        "accepted_validation_ns": 2847151,
+        "final_validation_ns": 3108373,
+        "control_ns": 0,
+        "unattributed_ns": 9233
+      },
+      "stop_reason": "no_improvement"
+    },
+    {
+      "load": "default",
+      "base": 1,
+      "scenario": 1,
+      "reference_n": 50,
+      "status": "feasible",
+      "total_ms": 10.827731,
+      "timings_ns": {
+        "input_and_baseline_ns": 4268320,
+        "filter_ns": 2285509,
+        "repair_ns": 2828693,
+        "accepted_validation_ns": 715393,
+        "final_validation_ns": 723499,
+        "control_ns": 0,
+        "unattributed_ns": 6317
+      },
+      "stop_reason": "no_improvement"
+    },
+    {
+      "load": "default",
+      "base": 1,
+      "scenario": 2,
+      "reference_n": 50,
+      "status": "feasible",
+      "total_ms": 45.289468,
+      "timings_ns": {
+        "input_and_baseline_ns": 29536681,
+        "filter_ns": 752308,
+        "repair_ns": 7812068,
+        "accepted_validation_ns": 3384195,
+        "final_validation_ns": 3795823,
+        "control_ns": 0,
+        "unattributed_ns": 8393
+      },
+      "stop_reason": "no_improvement"
+    },
+    {
+      "load": "default",
+      "base": 1,
+      "scenario": 3,
+      "reference_n": 50,
+      "status": "feasible",
+      "total_ms": 22.404065,
+      "timings_ns": {
+        "input_and_baseline_ns": 7693685,
+        "filter_ns": 1511981,
+        "repair_ns": 7734393,
+        "accepted_validation_ns": 2616744,
+        "final_validation_ns": 2840277,
+        "control_ns": 0,
+        "unattributed_ns": 6985
+      },
+      "stop_reason": "no_improvement"
+    },
+    {
+      "load": "default",
+      "base": 1,
+      "scenario": 4,
+      "reference_n": 50,
+      "status": "timeout",
+      "total_ms": 54.107602,
+      "timings_ns": {
+        "input_and_baseline_ns": 0,
+        "filter_ns": 0,
+        "repair_ns": 0,
+        "accepted_validation_ns": 3375358,
+        "final_validation_ns": 0,
+        "control_ns": 0,
+        "unattributed_ns": 50732244
+      },
+      "stop_reason": "cooperative_deadline"
+    },
+    {
+      "load": "default",
+      "base": 1,
+      "scenario": 5,
+      "reference_n": 50,
+      "status": "timeout",
+      "total_ms": 52.059541,
+      "timings_ns": {
+        "input_and_baseline_ns": 0,
+        "filter_ns": 0,
+        "repair_ns": 0,
+        "accepted_validation_ns": 3518544,
+        "final_validation_ns": 0,
+        "control_ns": 0,
+        "unattributed_ns": 48540997
+      },
+      "stop_reason": "cooperative_deadline"
+    },
+    {
+      "load": "default",
+      "base": 1,
+      "scenario": 6,
+      "reference_n": 50,
+      "status": "timeout",
+      "total_ms": 54.755065,
+      "timings_ns": {
+        "input_and_baseline_ns": 32148236,
+        "filter_ns": 884948,
+        "repair_ns": 0,
+        "accepted_validation_ns": 4198989,
+        "final_validation_ns": 4362951,
+        "control_ns": 0,
+        "unattributed_ns": 13159941
+      },
+      "stop_reason": "cooperative_deadline"
+    },
+    {
+      "load": "default",
+      "base": 1,
+      "scenario": 7,
+      "reference_n": 50,
+      "status": "feasible",
+      "total_ms": 48.551458,
+      "timings_ns": {
+        "input_and_baseline_ns": 32128786,
+        "filter_ns": 842765,
+        "repair_ns": 6834619,
+        "accepted_validation_ns": 3818035,
+        "final_validation_ns": 4920397,
+        "control_ns": 0,
+        "unattributed_ns": 6856
+      },
+      "stop_reason": "no_improvement"
+    },
+    {
+      "load": "default",
+      "base": 1,
+      "scenario": 8,
+      "reference_n": 50,
+      "status": "timeout",
+      "total_ms": 50.301676,
+      "timings_ns": {
+        "input_and_baseline_ns": 0,
+        "filter_ns": 0,
+        "repair_ns": 0,
+        "accepted_validation_ns": 3582444,
+        "final_validation_ns": 0,
+        "control_ns": 0,
+        "unattributed_ns": 46719232
+      },
+      "stop_reason": "cooperative_deadline"
+    },
+    {
+      "load": "default",
+      "base": 1,
+      "scenario": 9,
+      "reference_n": 50,
+      "status": "timeout",
+      "total_ms": 50.999415,
+      "timings_ns": {
+        "input_and_baseline_ns": 0,
+        "filter_ns": 0,
+        "repair_ns": 0,
+        "accepted_validation_ns": 3512496,
+        "final_validation_ns": 0,
+        "control_ns": 0,
+        "unattributed_ns": 47486919
+      },
+      "stop_reason": "cooperative_deadline"
+    },
+    {
+      "load": "default",
+      "base": 1,
+      "scenario": 10,
+      "reference_n": 50,
+      "status": "timeout",
+      "total_ms": 52.645012,
+      "timings_ns": {
+        "input_and_baseline_ns": 31934955,
+        "filter_ns": 601145,
+        "repair_ns": 11710055,
+        "accepted_validation_ns": 3817429,
+        "final_validation_ns": 4572762,
+        "control_ns": 0,
+        "unattributed_ns": 8666
+      },
+      "stop_reason": "no_improvement"
+    },
+    {
+      "load": "default",
+      "base": 1,
+      "scenario": 11,
+      "reference_n": 50,
+      "status": "feasible",
+      "total_ms": 45.032668,
+      "timings_ns": {
+        "input_and_baseline_ns": 29988230,
+        "filter_ns": 555861,
+        "repair_ns": 6864570,
+        "accepted_validation_ns": 3653067,
+        "final_validation_ns": 3964249,
+        "control_ns": 0,
+        "unattributed_ns": 6691
+      },
+      "stop_reason": "no_improvement"
+    },
+    {
+      "load": "N500-h0.8",
+      "base": 1,
+      "scenario": 0,
+      "reference_n": 181,
+      "status": "timeout",
+      "total_ms": 50.636904,
+      "timings_ns": {
+        "input_and_baseline_ns": 0,
+        "filter_ns": 0,
+        "repair_ns": 0,
+        "accepted_validation_ns": 0,
+        "final_validation_ns": 0,
+        "control_ns": 0,
+        "unattributed_ns": 50636904
+      },
+      "stop_reason": "cooperative_deadline"
+    },
+    {
+      "load": "N500-h0.8",
+      "base": 1,
+      "scenario": 1,
+      "reference_n": 181,
+      "status": "timeout",
+      "total_ms": 52.878242,
+      "timings_ns": {
+        "input_and_baseline_ns": 32736442,
+        "filter_ns": 0,
+        "repair_ns": 0,
+        "accepted_validation_ns": 2621950,
+        "final_validation_ns": 2802793,
+        "control_ns": 0,
+        "unattributed_ns": 14717057
+      },
+      "stop_reason": "cooperative_deadline"
+    },
+    {
+      "load": "N500-h0.8",
+      "base": 1,
+      "scenario": 2,
+      "reference_n": 181,
+      "status": "timeout",
+      "total_ms": 51.664205,
+      "timings_ns": {
+        "input_and_baseline_ns": 0,
+        "filter_ns": 0,
+        "repair_ns": 0,
+        "accepted_validation_ns": 0,
+        "final_validation_ns": 0,
+        "control_ns": 0,
+        "unattributed_ns": 51664205
+      },
+      "stop_reason": "cooperative_deadline"
+    },
+    {
+      "load": "N500-h0.8",
+      "base": 1,
+      "scenario": 3,
+      "reference_n": 181,
+      "status": "timeout",
+      "total_ms": 51.41879,
+      "timings_ns": {
+        "input_and_baseline_ns": 0,
+        "filter_ns": 0,
+        "repair_ns": 0,
+        "accepted_validation_ns": 0,
+        "final_validation_ns": 0,
+        "control_ns": 0,
+        "unattributed_ns": 51418790
+      },
+      "stop_reason": "cooperative_deadline"
+    },
+    {
+      "load": "N500-h0.8",
+      "base": 1,
+      "scenario": 4,
+      "reference_n": 181,
+      "status": "timeout",
+      "total_ms": 50.653497,
+      "timings_ns": {
+        "input_and_baseline_ns": 0,
+        "filter_ns": 0,
+        "repair_ns": 0,
+        "accepted_validation_ns": 0,
+        "final_validation_ns": 0,
+        "control_ns": 0,
+        "unattributed_ns": 50653497
+      },
+      "stop_reason": "cooperative_deadline"
+    },
+    {
+      "load": "N500-h0.8",
+      "base": 1,
+      "scenario": 5,
+      "reference_n": 181,
+      "status": "timeout",
+      "total_ms": 50.854722,
+      "timings_ns": {
+        "input_and_baseline_ns": 0,
+        "filter_ns": 0,
+        "repair_ns": 0,
+        "accepted_validation_ns": 0,
+        "final_validation_ns": 0,
+        "control_ns": 0,
+        "unattributed_ns": 50854722
+      },
+      "stop_reason": "cooperative_deadline"
+    },
+    {
+      "load": "N500-h0.8",
+      "base": 1,
+      "scenario": 6,
+      "reference_n": 181,
+      "status": "timeout",
+      "total_ms": 50.764708,
+      "timings_ns": {
+        "input_and_baseline_ns": 0,
+        "filter_ns": 0,
+        "repair_ns": 0,
+        "accepted_validation_ns": 0,
+        "final_validation_ns": 0,
+        "control_ns": 0,
+        "unattributed_ns": 50764708
+      },
+      "stop_reason": "cooperative_deadline"
+    },
+    {
+      "load": "N500-h0.8",
+      "base": 1,
+      "scenario": 7,
+      "reference_n": 181,
+      "status": "timeout",
+      "total_ms": 50.58985,
+      "timings_ns": {
+        "input_and_baseline_ns": 0,
+        "filter_ns": 0,
+        "repair_ns": 0,
+        "accepted_validation_ns": 0,
+        "final_validation_ns": 0,
+        "control_ns": 0,
+        "unattributed_ns": 50589850
+      },
+      "stop_reason": "cooperative_deadline"
+    },
+    {
+      "load": "N500-h0.8",
+      "base": 1,
+      "scenario": 8,
+      "reference_n": 181,
+      "status": "timeout",
+      "total_ms": 51.275596,
+      "timings_ns": {
+        "input_and_baseline_ns": 0,
+        "filter_ns": 0,
+        "repair_ns": 0,
+        "accepted_validation_ns": 0,
+        "final_validation_ns": 0,
+        "control_ns": 0,
+        "unattributed_ns": 51275596
+      },
+      "stop_reason": "cooperative_deadline"
+    },
+    {
+      "load": "N500-h0.8",
+      "base": 1,
+      "scenario": 9,
+      "reference_n": 181,
+      "status": "timeout",
+      "total_ms": 51.366911,
+      "timings_ns": {
+        "input_and_baseline_ns": 0,
+        "filter_ns": 0,
+        "repair_ns": 0,
+        "accepted_validation_ns": 0,
+        "final_validation_ns": 0,
+        "control_ns": 0,
+        "unattributed_ns": 51366911
+      },
+      "stop_reason": "cooperative_deadline"
+    },
+    {
+      "load": "N500-h0.8",
+      "base": 1,
+      "scenario": 10,
+      "reference_n": 181,
+      "status": "timeout",
+      "total_ms": 50.772777,
+      "timings_ns": {
+        "input_and_baseline_ns": 0,
+        "filter_ns": 0,
+        "repair_ns": 0,
+        "accepted_validation_ns": 0,
+        "final_validation_ns": 0,
+        "control_ns": 0,
+        "unattributed_ns": 50772777
+      },
+      "stop_reason": "cooperative_deadline"
+    },
+    {
+      "load": "N500-h0.8",
+      "base": 1,
+      "scenario": 11,
+      "reference_n": 181,
+      "status": "timeout",
+      "total_ms": 52.173537,
+      "timings_ns": {
+        "input_and_baseline_ns": 0,
+        "filter_ns": 0,
+        "repair_ns": 0,
+        "accepted_validation_ns": 0,
+        "final_validation_ns": 0,
+        "control_ns": 0,
+        "unattributed_ns": 52173537
+      },
+      "stop_reason": "cooperative_deadline"
+    }
+  ]
+}

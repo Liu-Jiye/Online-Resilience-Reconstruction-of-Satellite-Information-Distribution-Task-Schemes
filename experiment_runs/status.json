@@ -1,7 +1,7 @@
 {
   "initialized_on": "2026-11-05",
   "timezone": "Asia/Shanghai",
-  "workspace_status": "P2_complete",
+  "workspace_status": "P4_complete",
   "source_commit": "42209f4c776e227e2fefa0c47777ac547095a7a8",
   "write_scope": "experiment_runs/",
   "original_repository_files_modified": false,
@@ -11,11 +11,17 @@
   "implemented_methods": [
     "Minimal-Repair",
     "Frozen-Greedy",
-    "Fixed-PALR"
+    "Fixed-PALR",
+    "Validation-Best-Fixed",
+    "Rule-PALR",
+    "PUCT-ISL",
+    "ALNS-ISL",
+    "CP-SAT-50ms",
+    "PALR-ET (P3/P3-R validation only)"
   ],
   "correctness_evidence_available": true,
   "stage_execution_policy": "Only the user-specified stage; produce its report, then stop pending the user's next instruction.",
-  "next_stage": "P3",
+  "next_stage": "P5",
   "next_stage_authorized": false,
   "stages": {
     "P0": {
@@ -87,14 +93,37 @@
       "exact_reference_version": "1.0"
     },
     "P3": {
-      "status": "not_started",
-      "run_ids": [],
-      "report": null
+      "status": "complete",
+      "run_ids": [
+        "P3-20261110"
+      ],
+      "report": "reports/P3_REPORT.md",
+      "training_bases": 4000,
+      "validation_bases": 1000,
+      "paired_loads": [
+        "default",
+        "N500-h0.8"
+      ],
+      "records": 992000,
+      "test_instances": 0,
+      "frozen_parameters": "reports/p3/P3-20261110/frozen_parameters.json"
     },
     "P4": {
-      "status": "not_started",
-      "run_ids": [],
-      "report": null
+      "status": "complete",
+      "run_ids": [
+        "P4-20261117"
+      ],
+      "report": "reports/p4/P4-20261117/P4_REPORT.md",
+      "test_bases": 1000,
+      "events": 12000,
+      "main_calls": 192000,
+      "timing_calls": 384000,
+      "load": "default",
+      "required_baselines": 8,
+      "optional_ET_run": false,
+      "medium_competition_test_run": false,
+      "total_call_budget_ms": 50,
+      "all_methods_hard_realtime": false
     },
     "P5": {
       "status": "not_started",
@@ -105,6 +134,22 @@
       "status": "not_started",
       "run_ids": [],
       "report": null
+    },
+    "P3-R": {
+      "status": "complete",
+      "run_ids": [
+        "P3R-20261112"
+      ],
+      "report": "reports/p3r/P3R-20261112/P3R_REPORT.md",
+      "validation_bases": 1000,
+      "records": 168000,
+      "test_instances": 0,
+      "main_controller_by_load": {
+        "default": "rule",
+        "N500-h0.8": "rule"
+      },
+      "engineering_targets_all_met": false,
+      "scope": "Development supplement on existing validation inputs, not independent testing."
     }
   },
   "missing_original_artifacts": [
@@ -115,5 +160,16 @@
     "learned_weights"
   ],
   "implementation_policy": "If original artifacts remain unavailable, explicitly label a paper-based reimplementation; do not claim exact historical reproduction.",
-  "results_scope": "P0 correctness, P1 offline pilots and P2 small discrete exact alignment only; no main-test results"
+  "results_scope": "P0-P4 and independently numbered supplements; P3-R validation includes default and N500-h0.8; P4 tests default load only.",
+  "updated_on": "2026-11-18",
+  "current_navigation": "README.md",
+  "historical_delivery_catalog": "deliveries/catalog.json",
+  "implementation_version_note": "0.1.1 is the initial core version; P3/P3-R/P4 implementations and timing boundaries are frozen separately.",
+  "supplements": {
+    "urgent_diagnosis_and_v2": "reports/P2_URGENT_DIAGNOSTIC_REPORT.md",
+    "natural_urgent_and_conditional_pressure": "reports/P2_URGENT_SUPPLEMENT_REPORT.md",
+    "P2-C": "reports/P2C_REPORT.md",
+    "load_pilot": "reports/LOAD_PILOT_REPORT.md",
+    "P1_current_entry_fix": "reports/P1_CURRENT_ENTRY_FIX_REPORT.md"
+  }
 }

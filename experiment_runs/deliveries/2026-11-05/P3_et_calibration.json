@@ -1,0 +1,543 @@
+{
+  "groups": {
+    "N500-h0.8": {
+      "n": 240000,
+      "brier": 0.27509517536950273,
+      "ECE10": 0.277341302065275,
+      "bins": [
+        {
+          "bin": 0,
+          "n": 67600,
+          "mean_probability": 0.0072984184632503436,
+          "observed_success": 0.0
+        },
+        {
+          "bin": 1,
+          "n": 480,
+          "mean_probability": 0.11686679677203925,
+          "observed_success": 0.0
+        },
+        {
+          "bin": 2,
+          "n": 20,
+          "mean_probability": 0.24777524643720242,
+          "observed_success": 0.0
+        },
+        {
+          "bin": 3,
+          "n": 20,
+          "mean_probability": 0.35667176150106017,
+          "observed_success": 0.0
+        },
+        {
+          "bin": 4,
+          "n": 0,
+          "mean_probability": null,
+          "observed_success": null
+        },
+        {
+          "bin": 5,
+          "n": 0,
+          "mean_probability": null,
+          "observed_success": null
+        },
+        {
+          "bin": 6,
+          "n": 0,
+          "mean_probability": null,
+          "observed_success": null
+        },
+        {
+          "bin": 7,
+          "n": 0,
+          "mean_probability": null,
+          "observed_success": null
+        },
+        {
+          "bin": 8,
+          "n": 0,
+          "mean_probability": null,
+          "observed_success": null
+        },
+        {
+          "bin": 9,
+          "n": 171880,
+          "mean_probability": 0.9998158855302591,
+          "observed_success": 0.6158249941819874
+        }
+      ]
+    },
+    "N500-h0.8/reward_update": {
+      "n": 80000,
+      "brier": 0.45045036644609154,
+      "ECE10": 0.45045505952723414,
+      "bins": [
+        {
+          "bin": 0,
+          "n": 0,
+          "mean_probability": null,
+          "observed_success": null
+        },
+        {
+          "bin": 1,
+          "n": 0,
+          "mean_probability": null,
+          "observed_success": null
+        },
+        {
+          "bin": 2,
+          "n": 0,
+          "mean_probability": null,
+          "observed_success": null
+        },
+        {
+          "bin": 3,
+          "n": 0,
+          "mean_probability": null,
+          "observed_success": null
+        },
+        {
+          "bin": 4,
+          "n": 0,
+          "mean_probability": null,
+          "observed_success": null
+        },
+        {
+          "bin": 5,
+          "n": 0,
+          "mean_probability": null,
+          "observed_success": null
+        },
+        {
+          "bin": 6,
+          "n": 0,
+          "mean_probability": null,
+          "observed_success": null
+        },
+        {
+          "bin": 7,
+          "n": 0,
+          "mean_probability": null,
+          "observed_success": null
+        },
+        {
+          "bin": 8,
+          "n": 0,
+          "mean_probability": null,
+          "observed_success": null
+        },
+        {
+          "bin": 9,
+          "n": 80000,
+          "mean_probability": 0.9999925595272342,
+          "observed_success": 0.5495375
+        }
+      ]
+    },
+    "default": {
+      "n": 240000,
+      "brier": 0.001783258317459762,
+      "ECE10": 0.002365337802033943,
+      "bins": [
+        {
+          "bin": 0,
+          "n": 65400,
+          "mean_probability": 0.00484219443515053,
+          "observed_success": 0.0022477064220183486
+        },
+        {
+          "bin": 1,
+          "n": 780,
+          "mean_probability": 0.1319305689991388,
+          "observed_success": 0.0
+        },
+        {
+          "bin": 2,
+          "n": 200,
+          "mean_probability": 0.2496130390908508,
+          "observed_success": 0.0
+        },
+        {
+          "bin": 3,
+          "n": 160,
+          "mean_probability": 0.3500106393240467,
+          "observed_success": 0.0
+        },
+        {
+          "bin": 4,
+          "n": 20,
+          "mean_probability": 0.40296178418378836,
+          "observed_success": 0.0
+        },
+        {
+          "bin": 5,
+          "n": 40,
+          "mean_probability": 0.52854012655855,
+          "observed_success": 0.0
+        },
+        {
+          "bin": 6,
+          "n": 0,
+          "mean_probability": null,
+          "observed_success": null
+        },
+        {
+          "bin": 7,
+          "n": 0,
+          "mean_probability": null,
+          "observed_success": null
+        },
+        {
+          "bin": 8,
+          "n": 7,
+          "mean_probability": 0.8785552345375783,
+          "observed_success": 1.0
+        },
+        {
+          "bin": 9,
+          "n": 173393,
+          "mean_probability": 0.9997238668711869,
+          "observed_success": 0.9988061801802841
+        }
+      ]
+    },
+    "default/cancellation": {
+      "n": 80000,
+      "brier": 0.00029397474772223885,
+      "ECE10": 0.00010488405059658841,
+      "bins": [
+        {
+          "bin": 0,
+          "n": 0,
+          "mean_probability": null,
+          "observed_success": null
+        },
+        {
+          "bin": 1,
+          "n": 0,
+          "mean_probability": null,
+          "observed_success": null
+        },
+        {
+          "bin": 2,
+          "n": 0,
+          "mean_probability": null,
+          "observed_success": null
+        },
+        {
+          "bin": 3,
+          "n": 0,
+          "mean_probability": null,
+          "observed_success": null
+        },
+        {
+          "bin": 4,
+          "n": 0,
+          "mean_probability": null,
+          "observed_success": null
+        },
+        {
+          "bin": 5,
+          "n": 0,
+          "mean_probability": null,
+          "observed_success": null
+        },
+        {
+          "bin": 6,
+          "n": 0,
+          "mean_probability": null,
+          "observed_success": null
+        },
+        {
+          "bin": 7,
+          "n": 0,
+          "mean_probability": null,
+          "observed_success": null
+        },
+        {
+          "bin": 8,
+          "n": 2,
+          "mean_probability": 0.8966592490409305,
+          "observed_success": 1.0
+        },
+        {
+          "bin": 9,
+          "n": 79998,
+          "mean_probability": 0.9996101897229205,
+          "observed_success": 0.9997124928123203
+        }
+      ]
+    },
+    "default/reward_update": {
+      "n": 80000,
+      "brier": 0.0005764379765692423,
+      "ECE10": 0.00048057899531595005,
+      "bins": [
+        {
+          "bin": 0,
+          "n": 0,
+          "mean_probability": null,
+          "observed_success": null
+        },
+        {
+          "bin": 1,
+          "n": 0,
+          "mean_probability": null,
+          "observed_success": null
+        },
+        {
+          "bin": 2,
+          "n": 0,
+          "mean_probability": null,
+          "observed_success": null
+        },
+        {
+          "bin": 3,
+          "n": 0,
+          "mean_probability": null,
+          "observed_success": null
+        },
+        {
+          "bin": 4,
+          "n": 0,
+          "mean_probability": null,
+          "observed_success": null
+        },
+        {
+          "bin": 5,
+          "n": 0,
+          "mean_probability": null,
+          "observed_success": null
+        },
+        {
+          "bin": 6,
+          "n": 0,
+          "mean_probability": null,
+          "observed_success": null
+        },
+        {
+          "bin": 7,
+          "n": 0,
+          "mean_probability": null,
+          "observed_success": null
+        },
+        {
+          "bin": 8,
+          "n": 0,
+          "mean_probability": null,
+          "observed_success": null
+        },
+        {
+          "bin": 9,
+          "n": 80000,
+          "mean_probability": 0.999905578995316,
+          "observed_success": 0.999425
+        }
+      ]
+    },
+    "N500-h0.8/cancellation": {
+      "n": 80000,
+      "brier": 0.22600046970917698,
+      "ECE10": 0.22607011786884737,
+      "bins": [
+        {
+          "bin": 0,
+          "n": 0,
+          "mean_probability": null,
+          "observed_success": null
+        },
+        {
+          "bin": 1,
+          "n": 0,
+          "mean_probability": null,
+          "observed_success": null
+        },
+        {
+          "bin": 2,
+          "n": 0,
+          "mean_probability": null,
+          "observed_success": null
+        },
+        {
+          "bin": 3,
+          "n": 0,
+          "mean_probability": null,
+          "observed_success": null
+        },
+        {
+          "bin": 4,
+          "n": 0,
+          "mean_probability": null,
+          "observed_success": null
+        },
+        {
+          "bin": 5,
+          "n": 0,
+          "mean_probability": null,
+          "observed_success": null
+        },
+        {
+          "bin": 6,
+          "n": 0,
+          "mean_probability": null,
+          "observed_success": null
+        },
+        {
+          "bin": 7,
+          "n": 0,
+          "mean_probability": null,
+          "observed_success": null
+        },
+        {
+          "bin": 8,
+          "n": 0,
+          "mean_probability": null,
+          "observed_success": null
+        },
+        {
+          "bin": 9,
+          "n": 80000,
+          "mean_probability": 0.9996326178688474,
+          "observed_success": 0.7735625
+        }
+      ]
+    },
+    "N500-h0.8/urgent_insertion": {
+      "n": 80000,
+      "brier": 0.14883468995318844,
+      "ECE10": 0.15549872879978915,
+      "bins": [
+        {
+          "bin": 0,
+          "n": 67600,
+          "mean_probability": 0.0072984184632503436,
+          "observed_success": 0.0
+        },
+        {
+          "bin": 1,
+          "n": 480,
+          "mean_probability": 0.11686679677203925,
+          "observed_success": 0.0
+        },
+        {
+          "bin": 2,
+          "n": 20,
+          "mean_probability": 0.24777524643720242,
+          "observed_success": 0.0
+        },
+        {
+          "bin": 3,
+          "n": 20,
+          "mean_probability": 0.35667176150106017,
+          "observed_success": 0.0
+        },
+        {
+          "bin": 4,
+          "n": 0,
+          "mean_probability": null,
+          "observed_success": null
+        },
+        {
+          "bin": 5,
+          "n": 0,
+          "mean_probability": null,
+          "observed_success": null
+        },
+        {
+          "bin": 6,
+          "n": 0,
+          "mean_probability": null,
+          "observed_success": null
+        },
+        {
+          "bin": 7,
+          "n": 0,
+          "mean_probability": null,
+          "observed_success": null
+        },
+        {
+          "bin": 8,
+          "n": 0,
+          "mean_probability": null,
+          "observed_success": null
+        },
+        {
+          "bin": 9,
+          "n": 11880,
+          "mean_probability": 0.999860287311285,
+          "observed_success": 0.0
+        }
+      ]
+    },
+    "default/urgent_insertion": {
+      "n": 80000,
+      "brier": 0.004479362228087781,
+      "ECE10": 0.006715151423919348,
+      "bins": [
+        {
+          "bin": 0,
+          "n": 65400,
+          "mean_probability": 0.00484219443515053,
+          "observed_success": 0.0022477064220183486
+        },
+        {
+          "bin": 1,
+          "n": 780,
+          "mean_probability": 0.1319305689991388,
+          "observed_success": 0.0
+        },
+        {
+          "bin": 2,
+          "n": 200,
+          "mean_probability": 0.2496130390908508,
+          "observed_success": 0.0
+        },
+        {
+          "bin": 3,
+          "n": 160,
+          "mean_probability": 0.3500106393240467,
+          "observed_success": 0.0
+        },
+        {
+          "bin": 4,
+          "n": 20,
+          "mean_probability": 0.40296178418378836,
+          "observed_success": 0.0
+        },
+        {
+          "bin": 5,
+          "n": 40,
+          "mean_probability": 0.52854012655855,
+          "observed_success": 0.0
+        },
+        {
+          "bin": 6,
+          "n": 0,
+          "mean_probability": null,
+          "observed_success": null
+        },
+        {
+          "bin": 7,
+          "n": 0,
+          "mean_probability": null,
+          "observed_success": null
+        },
+        {
+          "bin": 8,
+          "n": 5,
+          "mean_probability": 0.8713136287362374,
+          "observed_success": 1.0
+        },
+        {
+          "bin": 9,
+          "n": 13395,
+          "mean_probability": 0.9993175193223607,
+          "observed_success": 0.9896976483762598
+        }
+      ]
+    }
+  },
+  "cost_ns": 213642632946,
+  "refitted": false,
+  "scope": "all20 positive-budget validation grid actions; balanced training classifier; no probability recalibration fitted"
+}

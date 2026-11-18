@@ -1,0 +1,93 @@
+{
+  "model_loading_ns": 5192887918,
+  "inference_only_training_benchmark": {
+    "n": 4000,
+    "mean_ms": 58.73135943125,
+    "p50_p95_p99_ms": [
+      57.0450985,
+      71.98270414999999,
+      93.7389205899996
+    ]
+  },
+  "benchmark_scope": "4000 default training feature vectors, all20 actions, six frozen heads; excludes features and repair; no refit or selection",
+  "selected_online": {
+    "default": {
+      "control": {
+        "n": 12000,
+        "mean_ms": 30.426293818666668,
+        "p50_p95_p99_ms": [
+          29.751938,
+          34.867036950000006,
+          45.95963920000006
+        ]
+      },
+      "total": {
+        "n": 12000,
+        "mean_ms": 38.64521068691666,
+        "p50_p95_p99_ms": [
+          37.208188,
+          46.42320414999998,
+          80.55544198
+        ]
+      },
+      "success": {
+        "n": 8330,
+        "mean_ms": 37.53156695558223,
+        "p50_p95_p99_ms": [
+          37.1421405,
+          43.8926904,
+          47.20746219999999
+        ]
+      },
+      "failure": {
+        "n": 3670,
+        "mean_ms": 41.17290885640327,
+        "p50_p95_p99_ms": [
+          37.368434,
+          74.2928501,
+          88.92978873999999
+        ]
+      }
+    },
+    "N500-h0.8": {
+      "control": {
+        "n": 12000,
+        "mean_ms": 32.92193623241667,
+        "p50_p95_p99_ms": [
+          31.9481675,
+          38.021083600000004,
+          60.091646430000004
+        ]
+      },
+      "total": {
+        "n": 12000,
+        "mean_ms": 56.43369958708333,
+        "p50_p95_p99_ms": [
+          54.4518105,
+          72.50132999999998,
+          89.84670543
+        ]
+      },
+      "success": {
+        "n": 1870,
+        "mean_ms": 46.65910019197861,
+        "p50_p95_p99_ms": [
+          46.5335475,
+          49.53517395,
+          49.925014770000004
+        ]
+      },
+      "failure": {
+        "n": 10130,
+        "mean_ms": 58.23809256525173,
+        "p50_p95_p99_ms": [
+          55.79514,
+          73.35048925,
+          91.70427459999999
+        ]
+      }
+    }
+  },
+  "control_scope": "actual recorded online control, including feature extraction, prediction, selection and dispatch; not inference alone",
+  "test_instances": 0
+}

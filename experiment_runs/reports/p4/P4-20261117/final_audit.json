@@ -1,0 +1,29 @@
+{
+  "all_validated_outputs_independently_replayed": true,
+  "bases": 1000,
+  "events": 12000,
+  "main_calls": 192000,
+  "main_counts": {
+    "ALNS-ISL": 60000,
+    "CP-SAT-50ms": 12000,
+    "Fixed-PALR": 12000,
+    "Frozen-Greedy": 12000,
+    "Minimal-Repair": 12000,
+    "PUCT-ISL": 60000,
+    "Rule-PALR": 12000,
+    "Validation-Best-Fixed": 12000
+  },
+  "passed": true,
+  "test_source_unchanged": true,
+  "timing_calls": 384000,
+  "timing_counts": {
+    "ALNS-ISL": 120000,
+    "CP-SAT-50ms": 24000,
+    "Fixed-PALR": 24000,
+    "Frozen-Greedy": 24000,
+    "Minimal-Repair": 24000,
+    "PUCT-ISL": 120000,
+    "Rule-PALR": 24000,
+    "Validation-Best-Fixed": 24000
+  }
+}

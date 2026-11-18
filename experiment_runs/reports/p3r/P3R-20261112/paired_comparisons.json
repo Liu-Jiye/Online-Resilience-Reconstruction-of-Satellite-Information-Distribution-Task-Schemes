@@ -1,0 +1,42 @@
+{
+  "default/action": {
+    "macro_paired_gain": -0.0015046296296294948,
+    "stratified_base_bootstrap_95_interval": [
+      -0.005393518518518519,
+      0.0022916666666666662
+    ],
+    "resamples": 2000,
+    "independent_bases": 1000,
+    "note": "development validation comparison; no independent test claim"
+  },
+  "default/deviation": {
+    "macro_paired_gain": 0.0003472222222222765,
+    "stratified_base_bootstrap_95_interval": [
+      -0.003380208333333333,
+      0.004167824074074068
+    ],
+    "resamples": 2000,
+    "independent_bases": 1000,
+    "note": "development validation comparison; no independent test claim"
+  },
+  "N500-h0.8/action": {
+    "macro_paired_gain": -4.629629629637755e-05,
+    "stratified_base_bootstrap_95_interval": [
+      -0.006505208333333335,
+      0.0062499999999999995
+    ],
+    "resamples": 2000,
+    "independent_bases": 1000,
+    "note": "development validation comparison; no independent test claim"
+  },
+  "N500-h0.8/deviation": {
+    "macro_paired_gain": -0.0006481481481482865,
+    "stratified_base_bootstrap_95_interval": [
+      -0.007246527777777778,
+      0.00638946759259259
+    ],
+    "resamples": 2000,
+    "independent_bases": 1000,
+    "note": "development validation comparison; no independent test claim"
+  }
+}

@@ -1,6 +1,30 @@
 # 分阶段实验执行工作区
 
-本目录专门保存本项目实验的实现、配置、数据登记、日志和结果。P0、P1、P2 已按用户逐阶段指令完成：P0 建立离散模型与正确性验收，P1 完成三层试点与轨道窗口抽查，P2 完成 300 个小规模基实例和 200 个事件的离线精确参照。实际验收状态以 [状态文件](status.json) 和阶段报告为准；P3–P6 尚未运行，未读取测试表现。
+本目录专门保存本项目实验的实现、配置、数据登记、日志和结果。**截至 2026-11-18，P0、P1、P2、P3、P3-R 和 P4 已完成；P5/P6 未启动。** 实际验收状态以 [状态文件](status.json) 和对应阶段报告为准。仓库根 README 保留原资料整理时的文字，当前实验进度以本页为准。
+
+## 当前交付入口
+
+| 阶段/材料 | 规模与状态 | 入口 |
+|---|---|---|
+| P3 | 4000 训练+1000 验证，默认/中竞争配对，992000 记录 | [报告](reports/P3_REPORT.md)、[冻结参数](reports/p3/P3-20261110/frozen_parameters.json) |
+| P3-R | 168000 次修订验证，精简 ET 无预定净收益，两层保留规则；中竞争工程目标未全部达到 | [报告](reports/p3r/P3R-20261112/P3R_REPORT.md)、[完整证据](reports/p3r/P3R-20261112/) |
+| P4 | 仅默认负载、八项基线，1000 测试基实例×12=12000 事件；192000 主调用+384000 计时调用 | [报告](reports/p4/P4-20261117/P4_REPORT.md)、[主表](reports/p4/P4-20261117/main_table.csv)、[逐事件结果](reports/p4/P4-20261117/per_event_results.csv)、[复现说明](reports/p4/P4-20261117/REPRODUCE.md) |
+| 历史对话整理 | 批准范围、设计变更、证据边界及交付缺口 | [整理说明](deliveries/HISTORY_RECONCILIATION.md) |
+| 全部历史交付 | 两日期卫星项目工作区 outputs 的全部 103 个文件，原始字节归档 | [归档与 ZIP 还原](deliveries/README.md)、[来源及哈希清单](deliveries/catalog.json) |
+
+两个超过 GitHub 单文件限制的原始 ZIP 按 32 MiB 分卷，不重新压缩；展开后的原始证据也已保存在 reports 中。标准库只读核验及可选还原命令（从仓库根目录执行）：
+
+```bash
+python experiment_runs/scripts/verify_delivery.py
+python experiment_runs/scripts/verify_delivery.py --restore-dir ./restored
+python experiment_runs/scripts/verify_p3.py
+python experiment_runs/scripts/verify_p3r.py
+python experiment_runs/scripts/verify_archived_stages.py
+```
+
+贡献定位仍为“快速完成轻量局部修复，并明确何时需要更强搜索”。P4 默认层固定择优成功率 70.9583%、规则 70.6250%，配对区间跨零，不能声称规则优于固定，也不依据测试重新选参。P4 使用完整方法调用 50ms，P3-R 保留内核响应计时，不能混用。主表紧急服务率包含迟到，预算内服务率及有效输出条件干扰见 [conditional_quality.csv](reports/p4/P4-20261117/conditional_quality.csv)。所有方法 p99>50ms，不提供硬实时保证。
+
+历史报告中的“未进入 P4”“尚未提交或推送”保留封存时含义，不据此判断当前状态。本次整理不重跑实验、不改参数、不启动后续阶段。
 
 ## 工作边界与依据
 
@@ -31,7 +55,7 @@
 
 P0 语义、HIST 差异和复跑说明见 [实现契约](protocol/P0_IMPLEMENTATION_CONTRACT.md)；原代码缺失登记见 [原始工件清单](protocol/original_artifacts.json)。在独立环境中运行 `experiment_runs/scripts/run_p0.py` 可执行 P0 正确性验收，另有 `run_case.py` 单例入口。原仓库 `python scripts/validate_repository.py` 仍仅检查资料完整性。
 
-P0 已完成：115 项检查通过，12 事件×3 方法联调并独立复核，见 [P0 阶段报告](reports/P0_REPORT.md)。P1 已完成：150/150 有效试点、125 项检查通过、320 对象/星座及全局划分隔离通过，见 [P1 阶段报告](reports/P1_REPORT.md)、[冻结生成契约](protocol/P1_GENERATION_CONTRACT.md) 和 [正式证据批次](reports/p1/P1-20261105T110427Z/)。未触发负载修订；原始 GP 不上传，公开派生实例包可独立复核。P2 已完成：366 次尝试生成 300 个有效基实例，200 个事件全部取得离散局部域最优；另 64 个紧急服务子问题证明不可行，264 个模型全部重放通过，140 项检查通过。见 [P2 报告](reports/P2_REPORT.md)、[精确参照契约](protocol/P2_EXACT_CONTRACT.md) 及 [证据批次](reports/p2/P2-20261105T114327Z/)。本轮停在 P2，P3 等后续阶段等待用户指定。
+P0 已完成：115 项检查通过，12 事件×3 方法联调并独立复核，见 [P0 阶段报告](reports/P0_REPORT.md)。P1 已完成：150/150 有效试点、125 项检查通过、320 对象/星座及全局划分隔离通过，见 [P1 阶段报告](reports/P1_REPORT.md)、[冻结生成契约](protocol/P1_GENERATION_CONTRACT.md) 和 [正式证据批次](reports/p1/P1-20261105T110427Z/)。原 P1 未触发负载修订，后续独立负载试点见 LOAD 报告；原始 GP 不上传，公开派生实例包可独立复核。P2 已完成：366 次尝试生成 300 个有效基实例，200 个事件全部取得离散局部域最优；另 64 个紧急服务子问题证明不可行，264 个模型全部重放通过，140 项检查通过。见 [P2 报告](reports/P2_REPORT.md)、[精确参照契约](protocol/P2_EXACT_CONTRACT.md) 及 [证据批次](reports/p2/P2-20261105T114327Z/)。这是 P2 完成时的历史统计，后续完成状态见本页顶部与总状态。
 
 实际运行时，每批使用独立 `runs/<run_id>/`，禁止覆盖旧结果；至少保存协议与代码版本、环境、数据哈希、划分/实例/事件 ID、参考计划、冻结项、种子、输出计划、独立校验、计时分项、参数轨迹及失败原因。超时、服务失败、未知可行性与证明不可行分开统计，失败事件不得从分母删除。
 

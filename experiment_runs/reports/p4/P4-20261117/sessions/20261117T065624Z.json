@@ -1,0 +1,1929 @@
+{
+  "affinity": [
+    0
+  ],
+  "freeze_sha256": "605e403392a036234cab2be7e3c145337240422143a6aad55f01d7e7aa9ca2e3",
+  "python": "3.11.18",
+  "warmups": [
+    {
+      "iteration": 0,
+      "method": "Minimal-Repair",
+      "seed": 11,
+      "total_ns": 4542331
+    },
+    {
+      "iteration": 1,
+      "method": "Minimal-Repair",
+      "seed": 11,
+      "total_ns": 2656099
+    },
+    {
+      "iteration": 2,
+      "method": "Minimal-Repair",
+      "seed": 11,
+      "total_ns": 35037522
+    },
+    {
+      "iteration": 3,
+      "method": "Minimal-Repair",
+      "seed": 11,
+      "total_ns": 4537776
+    },
+    {
+      "iteration": 4,
+      "method": "Minimal-Repair",
+      "seed": 11,
+      "total_ns": 5020321
+    },
+    {
+      "iteration": 5,
+      "method": "Minimal-Repair",
+      "seed": 11,
+      "total_ns": 5040013
+    },
+    {
+      "iteration": 6,
+      "method": "Minimal-Repair",
+      "seed": 11,
+      "total_ns": 5459883
+    },
+    {
+      "iteration": 7,
+      "method": "Minimal-Repair",
+      "seed": 11,
+      "total_ns": 5447064
+    },
+    {
+      "iteration": 8,
+      "method": "Minimal-Repair",
+      "seed": 11,
+      "total_ns": 5110308
+    },
+    {
+      "iteration": 9,
+      "method": "Minimal-Repair",
+      "seed": 11,
+      "total_ns": 5148163
+    },
+    {
+      "iteration": 10,
+      "method": "Minimal-Repair",
+      "seed": 11,
+      "total_ns": 4959828
+    },
+    {
+      "iteration": 11,
+      "method": "Minimal-Repair",
+      "seed": 11,
+      "total_ns": 4926048
+    },
+    {
+      "iteration": 12,
+      "method": "Minimal-Repair",
+      "seed": 11,
+      "total_ns": 4625353
+    },
+    {
+      "iteration": 13,
+      "method": "Minimal-Repair",
+      "seed": 11,
+      "total_ns": 2662811
+    },
+    {
+      "iteration": 14,
+      "method": "Minimal-Repair",
+      "seed": 11,
+      "total_ns": 4806544
+    },
+    {
+      "iteration": 15,
+      "method": "Minimal-Repair",
+      "seed": 11,
+      "total_ns": 4107445
+    },
+    {
+      "iteration": 16,
+      "method": "Minimal-Repair",
+      "seed": 11,
+      "total_ns": 4760890
+    },
+    {
+      "iteration": 17,
+      "method": "Minimal-Repair",
+      "seed": 11,
+      "total_ns": 4692591
+    },
+    {
+      "iteration": 18,
+      "method": "Minimal-Repair",
+      "seed": 11,
+      "total_ns": 5073899
+    },
+    {
+      "iteration": 19,
+      "method": "Minimal-Repair",
+      "seed": 11,
+      "total_ns": 5342213
+    },
+    {
+      "iteration": 0,
+      "method": "Frozen-Greedy",
+      "seed": 11,
+      "total_ns": 11590285
+    },
+    {
+      "iteration": 1,
+      "method": "Frozen-Greedy",
+      "seed": 11,
+      "total_ns": 4207528
+    },
+    {
+      "iteration": 2,
+      "method": "Frozen-Greedy",
+      "seed": 11,
+      "total_ns": 9581511
+    },
+    {
+      "iteration": 3,
+      "method": "Frozen-Greedy",
+      "seed": 11,
+      "total_ns": 5837799
+    },
+    {
+      "iteration": 4,
+      "method": "Frozen-Greedy",
+      "seed": 11,
+      "total_ns": 14714391
+    },
+    {
+      "iteration": 5,
+      "method": "Frozen-Greedy",
+      "seed": 11,
+      "total_ns": 15071899
+    },
+    {
+      "iteration": 6,
+      "method": "Frozen-Greedy",
+      "seed": 11,
+      "total_ns": 11658355
+    },
+    {
+      "iteration": 7,
+      "method": "Frozen-Greedy",
+      "seed": 11,
+      "total_ns": 11545189
+    },
+    {
+      "iteration": 8,
+      "method": "Frozen-Greedy",
+      "seed": 11,
+      "total_ns": 16370102
+    },
+    {
+      "iteration": 9,
+      "method": "Frozen-Greedy",
+      "seed": 11,
+      "total_ns": 15296200
+    },
+    {
+      "iteration": 10,
+      "method": "Frozen-Greedy",
+      "seed": 11,
+      "total_ns": 12037641
+    },
+    {
+      "iteration": 11,
+      "method": "Frozen-Greedy",
+      "seed": 11,
+      "total_ns": 11658456
+    },
+    {
+      "iteration": 12,
+      "method": "Frozen-Greedy",
+      "seed": 11,
+      "total_ns": 11387450
+    },
+    {
+      "iteration": 13,
+      "method": "Frozen-Greedy",
+      "seed": 11,
+      "total_ns": 4306169
+    },
+    {
+      "iteration": 14,
+      "method": "Frozen-Greedy",
+      "seed": 11,
+      "total_ns": 9723167
+    },
+    {
+      "iteration": 15,
+      "method": "Frozen-Greedy",
+      "seed": 11,
+      "total_ns": 5693120
+    },
+    {
+      "iteration": 16,
+      "method": "Frozen-Greedy",
+      "seed": 11,
+      "total_ns": 14979085
+    },
+    {
+      "iteration": 17,
+      "method": "Frozen-Greedy",
+      "seed": 11,
+      "total_ns": 35754288
+    },
+    {
+      "iteration": 18,
+      "method": "Frozen-Greedy",
+      "seed": 11,
+      "total_ns": 11531996
+    },
+    {
+      "iteration": 19,
+      "method": "Frozen-Greedy",
+      "seed": 11,
+      "total_ns": 12177057
+    },
+    {
+      "iteration": 0,
+      "method": "Fixed-PALR",
+      "seed": 11,
+      "total_ns": 6315139
+    },
+    {
+      "iteration": 1,
+      "method": "Fixed-PALR",
+      "seed": 11,
+      "total_ns": 4168728
+    },
+    {
+      "iteration": 2,
+      "method": "Fixed-PALR",
+      "seed": 11,
+      "total_ns": 6706630
+    },
+    {
+      "iteration": 3,
+      "method": "Fixed-PALR",
+      "seed": 11,
+      "total_ns": 5281336
+    },
+    {
+      "iteration": 4,
+      "method": "Fixed-PALR",
+      "seed": 11,
+      "total_ns": 5044800
+    },
+    {
+      "iteration": 5,
+      "method": "Fixed-PALR",
+      "seed": 11,
+      "total_ns": 5142275
+    },
+    {
+      "iteration": 6,
+      "method": "Fixed-PALR",
+      "seed": 11,
+      "total_ns": 6053646
+    },
+    {
+      "iteration": 7,
+      "method": "Fixed-PALR",
+      "seed": 11,
+      "total_ns": 6070156
+    },
+    {
+      "iteration": 8,
+      "method": "Fixed-PALR",
+      "seed": 11,
+      "total_ns": 5976470
+    },
+    {
+      "iteration": 9,
+      "method": "Fixed-PALR",
+      "seed": 11,
+      "total_ns": 5772708
+    },
+    {
+      "iteration": 10,
+      "method": "Fixed-PALR",
+      "seed": 11,
+      "total_ns": 9326477
+    },
+    {
+      "iteration": 11,
+      "method": "Fixed-PALR",
+      "seed": 11,
+      "total_ns": 7758235
+    },
+    {
+      "iteration": 12,
+      "method": "Fixed-PALR",
+      "seed": 11,
+      "total_ns": 6529295
+    },
+    {
+      "iteration": 13,
+      "method": "Fixed-PALR",
+      "seed": 11,
+      "total_ns": 4833519
+    },
+    {
+      "iteration": 14,
+      "method": "Fixed-PALR",
+      "seed": 11,
+      "total_ns": 6473814
+    },
+    {
+      "iteration": 15,
+      "method": "Fixed-PALR",
+      "seed": 11,
+      "total_ns": 5198683
+    },
+    {
+      "iteration": 16,
+      "method": "Fixed-PALR",
+      "seed": 11,
+      "total_ns": 5079184
+    },
+    {
+      "iteration": 17,
+      "method": "Fixed-PALR",
+      "seed": 11,
+      "total_ns": 4966802
+    },
+    {
+      "iteration": 18,
+      "method": "Fixed-PALR",
+      "seed": 11,
+      "total_ns": 6297663
+    },
+    {
+      "iteration": 19,
+      "method": "Fixed-PALR",
+      "seed": 11,
+      "total_ns": 6304365
+    },
+    {
+      "iteration": 0,
+      "method": "Validation-Best-Fixed",
+      "seed": 11,
+      "total_ns": 6111079
+    },
+    {
+      "iteration": 1,
+      "method": "Validation-Best-Fixed",
+      "seed": 11,
+      "total_ns": 3789834
+    },
+    {
+      "iteration": 2,
+      "method": "Validation-Best-Fixed",
+      "seed": 11,
+      "total_ns": 6819557
+    },
+    {
+      "iteration": 3,
+      "method": "Validation-Best-Fixed",
+      "seed": 11,
+      "total_ns": 7947731
+    },
+    {
+      "iteration": 4,
+      "method": "Validation-Best-Fixed",
+      "seed": 11,
+      "total_ns": 5024492
+    },
+    {
+      "iteration": 5,
+      "method": "Validation-Best-Fixed",
+      "seed": 11,
+      "total_ns": 4955124
+    },
+    {
+      "iteration": 6,
+      "method": "Validation-Best-Fixed",
+      "seed": 11,
+      "total_ns": 5779608
+    },
+    {
+      "iteration": 7,
+      "method": "Validation-Best-Fixed",
+      "seed": 11,
+      "total_ns": 5738066
+    },
+    {
+      "iteration": 8,
+      "method": "Validation-Best-Fixed",
+      "seed": 11,
+      "total_ns": 5751873
+    },
+    {
+      "iteration": 9,
+      "method": "Validation-Best-Fixed",
+      "seed": 11,
+      "total_ns": 5627413
+    },
+    {
+      "iteration": 10,
+      "method": "Validation-Best-Fixed",
+      "seed": 11,
+      "total_ns": 7236336
+    },
+    {
+      "iteration": 11,
+      "method": "Validation-Best-Fixed",
+      "seed": 11,
+      "total_ns": 7484225
+    },
+    {
+      "iteration": 12,
+      "method": "Validation-Best-Fixed",
+      "seed": 11,
+      "total_ns": 5887629
+    },
+    {
+      "iteration": 13,
+      "method": "Validation-Best-Fixed",
+      "seed": 11,
+      "total_ns": 3732377
+    },
+    {
+      "iteration": 14,
+      "method": "Validation-Best-Fixed",
+      "seed": 11,
+      "total_ns": 38599942
+    },
+    {
+      "iteration": 15,
+      "method": "Validation-Best-Fixed",
+      "seed": 11,
+      "total_ns": 5009504
+    },
+    {
+      "iteration": 16,
+      "method": "Validation-Best-Fixed",
+      "seed": 11,
+      "total_ns": 5065406
+    },
+    {
+      "iteration": 17,
+      "method": "Validation-Best-Fixed",
+      "seed": 11,
+      "total_ns": 5473780
+    },
+    {
+      "iteration": 18,
+      "method": "Validation-Best-Fixed",
+      "seed": 11,
+      "total_ns": 6470626
+    },
+    {
+      "iteration": 19,
+      "method": "Validation-Best-Fixed",
+      "seed": 11,
+      "total_ns": 6684803
+    },
+    {
+      "iteration": 0,
+      "method": "Rule-PALR",
+      "seed": 11,
+      "total_ns": 6136708
+    },
+    {
+      "iteration": 1,
+      "method": "Rule-PALR",
+      "seed": 11,
+      "total_ns": 5425158
+    },
+    {
+      "iteration": 2,
+      "method": "Rule-PALR",
+      "seed": 11,
+      "total_ns": 6283565
+    },
+    {
+      "iteration": 3,
+      "method": "Rule-PALR",
+      "seed": 11,
+      "total_ns": 5822971
+    },
+    {
+      "iteration": 4,
+      "method": "Rule-PALR",
+      "seed": 11,
+      "total_ns": 5853601
+    },
+    {
+      "iteration": 5,
+      "method": "Rule-PALR",
+      "seed": 11,
+      "total_ns": 5753972
+    },
+    {
+      "iteration": 6,
+      "method": "Rule-PALR",
+      "seed": 11,
+      "total_ns": 6077584
+    },
+    {
+      "iteration": 7,
+      "method": "Rule-PALR",
+      "seed": 11,
+      "total_ns": 7831174
+    },
+    {
+      "iteration": 8,
+      "method": "Rule-PALR",
+      "seed": 11,
+      "total_ns": 5945572
+    },
+    {
+      "iteration": 9,
+      "method": "Rule-PALR",
+      "seed": 11,
+      "total_ns": 5735868
+    },
+    {
+      "iteration": 10,
+      "method": "Rule-PALR",
+      "seed": 11,
+      "total_ns": 6225115
+    },
+    {
+      "iteration": 11,
+      "method": "Rule-PALR",
+      "seed": 11,
+      "total_ns": 6274686
+    },
+    {
+      "iteration": 12,
+      "method": "Rule-PALR",
+      "seed": 11,
+      "total_ns": 5763865
+    },
+    {
+      "iteration": 13,
+      "method": "Rule-PALR",
+      "seed": 11,
+      "total_ns": 5583980
+    },
+    {
+      "iteration": 14,
+      "method": "Rule-PALR",
+      "seed": 11,
+      "total_ns": 6141069
+    },
+    {
+      "iteration": 15,
+      "method": "Rule-PALR",
+      "seed": 11,
+      "total_ns": 5717346
+    },
+    {
+      "iteration": 16,
+      "method": "Rule-PALR",
+      "seed": 11,
+      "total_ns": 5900761
+    },
+    {
+      "iteration": 17,
+      "method": "Rule-PALR",
+      "seed": 11,
+      "total_ns": 5969834
+    },
+    {
+      "iteration": 18,
+      "method": "Rule-PALR",
+      "seed": 11,
+      "total_ns": 7060508
+    },
+    {
+      "iteration": 19,
+      "method": "Rule-PALR",
+      "seed": 11,
+      "total_ns": 6425073
+    },
+    {
+      "iteration": 0,
+      "method": "PUCT-ISL",
+      "seed": 11,
+      "total_ns": 49494426
+    },
+    {
+      "iteration": 1,
+      "method": "PUCT-ISL",
+      "seed": 11,
+      "total_ns": 48672155
+    },
+    {
+      "iteration": 2,
+      "method": "PUCT-ISL",
+      "seed": 11,
+      "total_ns": 49253963
+    },
+    {
+      "iteration": 3,
+      "method": "PUCT-ISL",
+      "seed": 11,
+      "total_ns": 49746376
+    },
+    {
+      "iteration": 4,
+      "method": "PUCT-ISL",
+      "seed": 11,
+      "total_ns": 49243034
+    },
+    {
+      "iteration": 5,
+      "method": "PUCT-ISL",
+      "seed": 11,
+      "total_ns": 50010394
+    },
+    {
+      "iteration": 6,
+      "method": "PUCT-ISL",
+      "seed": 11,
+      "total_ns": 50315814
+    },
+    {
+      "iteration": 7,
+      "method": "PUCT-ISL",
+      "seed": 11,
+      "total_ns": 30994825
+    },
+    {
+      "iteration": 8,
+      "method": "PUCT-ISL",
+      "seed": 11,
+      "total_ns": 49851599
+    },
+    {
+      "iteration": 9,
+      "method": "PUCT-ISL",
+      "seed": 11,
+      "total_ns": 49754413
+    },
+    {
+      "iteration": 10,
+      "method": "PUCT-ISL",
+      "seed": 11,
+      "total_ns": 50227158
+    },
+    {
+      "iteration": 11,
+      "method": "PUCT-ISL",
+      "seed": 11,
+      "total_ns": 49494037
+    },
+    {
+      "iteration": 12,
+      "method": "PUCT-ISL",
+      "seed": 11,
+      "total_ns": 49825991
+    },
+    {
+      "iteration": 13,
+      "method": "PUCT-ISL",
+      "seed": 11,
+      "total_ns": 49034383
+    },
+    {
+      "iteration": 14,
+      "method": "PUCT-ISL",
+      "seed": 11,
+      "total_ns": 49516812
+    },
+    {
+      "iteration": 15,
+      "method": "PUCT-ISL",
+      "seed": 11,
+      "total_ns": 49266143
+    },
+    {
+      "iteration": 16,
+      "method": "PUCT-ISL",
+      "seed": 11,
+      "total_ns": 50016533
+    },
+    {
+      "iteration": 17,
+      "method": "PUCT-ISL",
+      "seed": 11,
+      "total_ns": 49873288
+    },
+    {
+      "iteration": 18,
+      "method": "PUCT-ISL",
+      "seed": 11,
+      "total_ns": 49829828
+    },
+    {
+      "iteration": 19,
+      "method": "PUCT-ISL",
+      "seed": 11,
+      "total_ns": 49967815
+    },
+    {
+      "iteration": 0,
+      "method": "PUCT-ISL",
+      "seed": 23,
+      "total_ns": 49564314
+    },
+    {
+      "iteration": 1,
+      "method": "PUCT-ISL",
+      "seed": 23,
+      "total_ns": 49050516
+    },
+    {
+      "iteration": 2,
+      "method": "PUCT-ISL",
+      "seed": 23,
+      "total_ns": 49549014
+    },
+    {
+      "iteration": 3,
+      "method": "PUCT-ISL",
+      "seed": 23,
+      "total_ns": 49502885
+    },
+    {
+      "iteration": 4,
+      "method": "PUCT-ISL",
+      "seed": 23,
+      "total_ns": 50222526
+    },
+    {
+      "iteration": 5,
+      "method": "PUCT-ISL",
+      "seed": 23,
+      "total_ns": 49918660
+    },
+    {
+      "iteration": 6,
+      "method": "PUCT-ISL",
+      "seed": 23,
+      "total_ns": 49974941
+    },
+    {
+      "iteration": 7,
+      "method": "PUCT-ISL",
+      "seed": 23,
+      "total_ns": 49972550
+    },
+    {
+      "iteration": 8,
+      "method": "PUCT-ISL",
+      "seed": 23,
+      "total_ns": 49786325
+    },
+    {
+      "iteration": 9,
+      "method": "PUCT-ISL",
+      "seed": 23,
+      "total_ns": 50042028
+    },
+    {
+      "iteration": 10,
+      "method": "PUCT-ISL",
+      "seed": 23,
+      "total_ns": 49881584
+    },
+    {
+      "iteration": 11,
+      "method": "PUCT-ISL",
+      "seed": 23,
+      "total_ns": 49273155
+    },
+    {
+      "iteration": 12,
+      "method": "PUCT-ISL",
+      "seed": 23,
+      "total_ns": 49779227
+    },
+    {
+      "iteration": 13,
+      "method": "PUCT-ISL",
+      "seed": 23,
+      "total_ns": 49036151
+    },
+    {
+      "iteration": 14,
+      "method": "PUCT-ISL",
+      "seed": 23,
+      "total_ns": 33573427
+    },
+    {
+      "iteration": 15,
+      "method": "PUCT-ISL",
+      "seed": 23,
+      "total_ns": 49418087
+    },
+    {
+      "iteration": 16,
+      "method": "PUCT-ISL",
+      "seed": 23,
+      "total_ns": 49546915
+    },
+    {
+      "iteration": 17,
+      "method": "PUCT-ISL",
+      "seed": 23,
+      "total_ns": 50177510
+    },
+    {
+      "iteration": 18,
+      "method": "PUCT-ISL",
+      "seed": 23,
+      "total_ns": 50074951
+    },
+    {
+      "iteration": 19,
+      "method": "PUCT-ISL",
+      "seed": 23,
+      "total_ns": 49685295
+    },
+    {
+      "iteration": 0,
+      "method": "PUCT-ISL",
+      "seed": 47,
+      "total_ns": 49679890
+    },
+    {
+      "iteration": 1,
+      "method": "PUCT-ISL",
+      "seed": 47,
+      "total_ns": 49083512
+    },
+    {
+      "iteration": 2,
+      "method": "PUCT-ISL",
+      "seed": 47,
+      "total_ns": 49808031
+    },
+    {
+      "iteration": 3,
+      "method": "PUCT-ISL",
+      "seed": 47,
+      "total_ns": 49582694
+    },
+    {
+      "iteration": 4,
+      "method": "PUCT-ISL",
+      "seed": 47,
+      "total_ns": 49207343
+    },
+    {
+      "iteration": 5,
+      "method": "PUCT-ISL",
+      "seed": 47,
+      "total_ns": 49938520
+    },
+    {
+      "iteration": 6,
+      "method": "PUCT-ISL",
+      "seed": 47,
+      "total_ns": 50143628
+    },
+    {
+      "iteration": 7,
+      "method": "PUCT-ISL",
+      "seed": 47,
+      "total_ns": 49900047
+    },
+    {
+      "iteration": 8,
+      "method": "PUCT-ISL",
+      "seed": 47,
+      "total_ns": 49726854
+    },
+    {
+      "iteration": 9,
+      "method": "PUCT-ISL",
+      "seed": 47,
+      "total_ns": 49542674
+    },
+    {
+      "iteration": 10,
+      "method": "PUCT-ISL",
+      "seed": 47,
+      "total_ns": 50352459
+    },
+    {
+      "iteration": 11,
+      "method": "PUCT-ISL",
+      "seed": 47,
+      "total_ns": 50092708
+    },
+    {
+      "iteration": 12,
+      "method": "PUCT-ISL",
+      "seed": 47,
+      "total_ns": 49788832
+    },
+    {
+      "iteration": 13,
+      "method": "PUCT-ISL",
+      "seed": 47,
+      "total_ns": 48833114
+    },
+    {
+      "iteration": 14,
+      "method": "PUCT-ISL",
+      "seed": 47,
+      "total_ns": 49670332
+    },
+    {
+      "iteration": 15,
+      "method": "PUCT-ISL",
+      "seed": 47,
+      "total_ns": 49713114
+    },
+    {
+      "iteration": 16,
+      "method": "PUCT-ISL",
+      "seed": 47,
+      "total_ns": 49669859
+    },
+    {
+      "iteration": 17,
+      "method": "PUCT-ISL",
+      "seed": 47,
+      "total_ns": 50015463
+    },
+    {
+      "iteration": 18,
+      "method": "PUCT-ISL",
+      "seed": 47,
+      "total_ns": 50079012
+    },
+    {
+      "iteration": 19,
+      "method": "PUCT-ISL",
+      "seed": 47,
+      "total_ns": 50217481
+    },
+    {
+      "iteration": 0,
+      "method": "PUCT-ISL",
+      "seed": 89,
+      "total_ns": 49810473
+    },
+    {
+      "iteration": 1,
+      "method": "PUCT-ISL",
+      "seed": 89,
+      "total_ns": 33044502
+    },
+    {
+      "iteration": 2,
+      "method": "PUCT-ISL",
+      "seed": 89,
+      "total_ns": 49627546
+    },
+    {
+      "iteration": 3,
+      "method": "PUCT-ISL",
+      "seed": 89,
+      "total_ns": 49544258
+    },
+    {
+      "iteration": 4,
+      "method": "PUCT-ISL",
+      "seed": 89,
+      "total_ns": 49999984
+    },
+    {
+      "iteration": 5,
+      "method": "PUCT-ISL",
+      "seed": 89,
+      "total_ns": 50110334
+    },
+    {
+      "iteration": 6,
+      "method": "PUCT-ISL",
+      "seed": 89,
+      "total_ns": 49563658
+    },
+    {
+      "iteration": 7,
+      "method": "PUCT-ISL",
+      "seed": 89,
+      "total_ns": 50036848
+    },
+    {
+      "iteration": 8,
+      "method": "PUCT-ISL",
+      "seed": 89,
+      "total_ns": 50162087
+    },
+    {
+      "iteration": 9,
+      "method": "PUCT-ISL",
+      "seed": 89,
+      "total_ns": 49827225
+    },
+    {
+      "iteration": 10,
+      "method": "PUCT-ISL",
+      "seed": 89,
+      "total_ns": 49913609
+    },
+    {
+      "iteration": 11,
+      "method": "PUCT-ISL",
+      "seed": 89,
+      "total_ns": 49909337
+    },
+    {
+      "iteration": 12,
+      "method": "PUCT-ISL",
+      "seed": 89,
+      "total_ns": 49095677
+    },
+    {
+      "iteration": 13,
+      "method": "PUCT-ISL",
+      "seed": 89,
+      "total_ns": 49063192
+    },
+    {
+      "iteration": 14,
+      "method": "PUCT-ISL",
+      "seed": 89,
+      "total_ns": 49619102
+    },
+    {
+      "iteration": 15,
+      "method": "PUCT-ISL",
+      "seed": 89,
+      "total_ns": 48841255
+    },
+    {
+      "iteration": 16,
+      "method": "PUCT-ISL",
+      "seed": 89,
+      "total_ns": 49859951
+    },
+    {
+      "iteration": 17,
+      "method": "PUCT-ISL",
+      "seed": 89,
+      "total_ns": 51666799
+    },
+    {
+      "iteration": 18,
+      "method": "PUCT-ISL",
+      "seed": 89,
+      "total_ns": 50149406
+    },
+    {
+      "iteration": 19,
+      "method": "PUCT-ISL",
+      "seed": 89,
+      "total_ns": 49798693
+    },
+    {
+      "iteration": 0,
+      "method": "PUCT-ISL",
+      "seed": 131,
+      "total_ns": 50031011
+    },
+    {
+      "iteration": 1,
+      "method": "PUCT-ISL",
+      "seed": 131,
+      "total_ns": 49116548
+    },
+    {
+      "iteration": 2,
+      "method": "PUCT-ISL",
+      "seed": 131,
+      "total_ns": 49741978
+    },
+    {
+      "iteration": 3,
+      "method": "PUCT-ISL",
+      "seed": 131,
+      "total_ns": 49213531
+    },
+    {
+      "iteration": 4,
+      "method": "PUCT-ISL",
+      "seed": 131,
+      "total_ns": 50012051
+    },
+    {
+      "iteration": 5,
+      "method": "PUCT-ISL",
+      "seed": 131,
+      "total_ns": 49917725
+    },
+    {
+      "iteration": 6,
+      "method": "PUCT-ISL",
+      "seed": 131,
+      "total_ns": 49705670
+    },
+    {
+      "iteration": 7,
+      "method": "PUCT-ISL",
+      "seed": 131,
+      "total_ns": 49954434
+    },
+    {
+      "iteration": 8,
+      "method": "PUCT-ISL",
+      "seed": 131,
+      "total_ns": 35028053
+    },
+    {
+      "iteration": 9,
+      "method": "PUCT-ISL",
+      "seed": 131,
+      "total_ns": 50133398
+    },
+    {
+      "iteration": 10,
+      "method": "PUCT-ISL",
+      "seed": 131,
+      "total_ns": 49954993
+    },
+    {
+      "iteration": 11,
+      "method": "PUCT-ISL",
+      "seed": 131,
+      "total_ns": 49914020
+    },
+    {
+      "iteration": 12,
+      "method": "PUCT-ISL",
+      "seed": 131,
+      "total_ns": 49564310
+    },
+    {
+      "iteration": 13,
+      "method": "PUCT-ISL",
+      "seed": 131,
+      "total_ns": 49177215
+    },
+    {
+      "iteration": 14,
+      "method": "PUCT-ISL",
+      "seed": 131,
+      "total_ns": 49465289
+    },
+    {
+      "iteration": 15,
+      "method": "PUCT-ISL",
+      "seed": 131,
+      "total_ns": 49611243
+    },
+    {
+      "iteration": 16,
+      "method": "PUCT-ISL",
+      "seed": 131,
+      "total_ns": 50006170
+    },
+    {
+      "iteration": 17,
+      "method": "PUCT-ISL",
+      "seed": 131,
+      "total_ns": 49817421
+    },
+    {
+      "iteration": 18,
+      "method": "PUCT-ISL",
+      "seed": 131,
+      "total_ns": 50675097
+    },
+    {
+      "iteration": 19,
+      "method": "PUCT-ISL",
+      "seed": 131,
+      "total_ns": 49923209
+    },
+    {
+      "iteration": 0,
+      "method": "ALNS-ISL",
+      "seed": 11,
+      "total_ns": 414303853
+    },
+    {
+      "iteration": 1,
+      "method": "ALNS-ISL",
+      "seed": 11,
+      "total_ns": 48234928
+    },
+    {
+      "iteration": 2,
+      "method": "ALNS-ISL",
+      "seed": 11,
+      "total_ns": 49291409
+    },
+    {
+      "iteration": 3,
+      "method": "ALNS-ISL",
+      "seed": 11,
+      "total_ns": 49210502
+    },
+    {
+      "iteration": 4,
+      "method": "ALNS-ISL",
+      "seed": 11,
+      "total_ns": 49605436
+    },
+    {
+      "iteration": 5,
+      "method": "ALNS-ISL",
+      "seed": 11,
+      "total_ns": 50316709
+    },
+    {
+      "iteration": 6,
+      "method": "ALNS-ISL",
+      "seed": 11,
+      "total_ns": 48470736
+    },
+    {
+      "iteration": 7,
+      "method": "ALNS-ISL",
+      "seed": 11,
+      "total_ns": 49884673
+    },
+    {
+      "iteration": 8,
+      "method": "ALNS-ISL",
+      "seed": 11,
+      "total_ns": 50241230
+    },
+    {
+      "iteration": 9,
+      "method": "ALNS-ISL",
+      "seed": 11,
+      "total_ns": 48902335
+    },
+    {
+      "iteration": 10,
+      "method": "ALNS-ISL",
+      "seed": 11,
+      "total_ns": 49995933
+    },
+    {
+      "iteration": 11,
+      "method": "ALNS-ISL",
+      "seed": 11,
+      "total_ns": 49939764
+    },
+    {
+      "iteration": 12,
+      "method": "ALNS-ISL",
+      "seed": 11,
+      "total_ns": 49042884
+    },
+    {
+      "iteration": 13,
+      "method": "ALNS-ISL",
+      "seed": 11,
+      "total_ns": 48216398
+    },
+    {
+      "iteration": 14,
+      "method": "ALNS-ISL",
+      "seed": 11,
+      "total_ns": 49688519
+    },
+    {
+      "iteration": 15,
+      "method": "ALNS-ISL",
+      "seed": 11,
+      "total_ns": 49425312
+    },
+    {
+      "iteration": 16,
+      "method": "ALNS-ISL",
+      "seed": 11,
+      "total_ns": 49705302
+    },
+    {
+      "iteration": 17,
+      "method": "ALNS-ISL",
+      "seed": 11,
+      "total_ns": 50043364
+    },
+    {
+      "iteration": 18,
+      "method": "ALNS-ISL",
+      "seed": 11,
+      "total_ns": 49767301
+    },
+    {
+      "iteration": 19,
+      "method": "ALNS-ISL",
+      "seed": 11,
+      "total_ns": 49785119
+    },
+    {
+      "iteration": 0,
+      "method": "ALNS-ISL",
+      "seed": 23,
+      "total_ns": 48220260
+    },
+    {
+      "iteration": 1,
+      "method": "ALNS-ISL",
+      "seed": 23,
+      "total_ns": 48464511
+    },
+    {
+      "iteration": 2,
+      "method": "ALNS-ISL",
+      "seed": 23,
+      "total_ns": 50125320
+    },
+    {
+      "iteration": 3,
+      "method": "ALNS-ISL",
+      "seed": 23,
+      "total_ns": 49136163
+    },
+    {
+      "iteration": 4,
+      "method": "ALNS-ISL",
+      "seed": 23,
+      "total_ns": 49865415
+    },
+    {
+      "iteration": 5,
+      "method": "ALNS-ISL",
+      "seed": 23,
+      "total_ns": 49133388
+    },
+    {
+      "iteration": 6,
+      "method": "ALNS-ISL",
+      "seed": 23,
+      "total_ns": 48917304
+    },
+    {
+      "iteration": 7,
+      "method": "ALNS-ISL",
+      "seed": 23,
+      "total_ns": 50315134
+    },
+    {
+      "iteration": 8,
+      "method": "ALNS-ISL",
+      "seed": 23,
+      "total_ns": 48071237
+    },
+    {
+      "iteration": 9,
+      "method": "ALNS-ISL",
+      "seed": 23,
+      "total_ns": 49884191
+    },
+    {
+      "iteration": 10,
+      "method": "ALNS-ISL",
+      "seed": 23,
+      "total_ns": 50162831
+    },
+    {
+      "iteration": 11,
+      "method": "ALNS-ISL",
+      "seed": 23,
+      "total_ns": 49132177
+    },
+    {
+      "iteration": 12,
+      "method": "ALNS-ISL",
+      "seed": 23,
+      "total_ns": 49640476
+    },
+    {
+      "iteration": 13,
+      "method": "ALNS-ISL",
+      "seed": 23,
+      "total_ns": 47902940
+    },
+    {
+      "iteration": 14,
+      "method": "ALNS-ISL",
+      "seed": 23,
+      "total_ns": 52356763
+    },
+    {
+      "iteration": 15,
+      "method": "ALNS-ISL",
+      "seed": 23,
+      "total_ns": 49404080
+    },
+    {
+      "iteration": 16,
+      "method": "ALNS-ISL",
+      "seed": 23,
+      "total_ns": 77143796
+    },
+    {
+      "iteration": 17,
+      "method": "ALNS-ISL",
+      "seed": 23,
+      "total_ns": 49919045
+    },
+    {
+      "iteration": 18,
+      "method": "ALNS-ISL",
+      "seed": 23,
+      "total_ns": 50124583
+    },
+    {
+      "iteration": 19,
+      "method": "ALNS-ISL",
+      "seed": 23,
+      "total_ns": 49934137
+    },
+    {
+      "iteration": 0,
+      "method": "ALNS-ISL",
+      "seed": 47,
+      "total_ns": 49272857
+    },
+    {
+      "iteration": 1,
+      "method": "ALNS-ISL",
+      "seed": 47,
+      "total_ns": 48288664
+    },
+    {
+      "iteration": 2,
+      "method": "ALNS-ISL",
+      "seed": 47,
+      "total_ns": 49510634
+    },
+    {
+      "iteration": 3,
+      "method": "ALNS-ISL",
+      "seed": 47,
+      "total_ns": 49644423
+    },
+    {
+      "iteration": 4,
+      "method": "ALNS-ISL",
+      "seed": 47,
+      "total_ns": 50087425
+    },
+    {
+      "iteration": 5,
+      "method": "ALNS-ISL",
+      "seed": 47,
+      "total_ns": 49565279
+    },
+    {
+      "iteration": 6,
+      "method": "ALNS-ISL",
+      "seed": 47,
+      "total_ns": 50178229
+    },
+    {
+      "iteration": 7,
+      "method": "ALNS-ISL",
+      "seed": 47,
+      "total_ns": 49478578
+    },
+    {
+      "iteration": 8,
+      "method": "ALNS-ISL",
+      "seed": 47,
+      "total_ns": 49811476
+    },
+    {
+      "iteration": 9,
+      "method": "ALNS-ISL",
+      "seed": 47,
+      "total_ns": 48922146
+    },
+    {
+      "iteration": 10,
+      "method": "ALNS-ISL",
+      "seed": 47,
+      "total_ns": 49551859
+    },
+    {
+      "iteration": 11,
+      "method": "ALNS-ISL",
+      "seed": 47,
+      "total_ns": 50028448
+    },
+    {
+      "iteration": 12,
+      "method": "ALNS-ISL",
+      "seed": 47,
+      "total_ns": 48548782
+    },
+    {
+      "iteration": 13,
+      "method": "ALNS-ISL",
+      "seed": 47,
+      "total_ns": 48585326
+    },
+    {
+      "iteration": 14,
+      "method": "ALNS-ISL",
+      "seed": 47,
+      "total_ns": 49977872
+    },
+    {
+      "iteration": 15,
+      "method": "ALNS-ISL",
+      "seed": 47,
+      "total_ns": 49397386
+    },
+    {
+      "iteration": 16,
+      "method": "ALNS-ISL",
+      "seed": 47,
+      "total_ns": 49827147
+    },
+    {
+      "iteration": 17,
+      "method": "ALNS-ISL",
+      "seed": 47,
+      "total_ns": 49651664
+    },
+    {
+      "iteration": 18,
+      "method": "ALNS-ISL",
+      "seed": 47,
+      "total_ns": 51004941
+    },
+    {
+      "iteration": 19,
+      "method": "ALNS-ISL",
+      "seed": 47,
+      "total_ns": 48462648
+    },
+    {
+      "iteration": 0,
+      "method": "ALNS-ISL",
+      "seed": 89,
+      "total_ns": 49131617
+    },
+    {
+      "iteration": 1,
+      "method": "ALNS-ISL",
+      "seed": 89,
+      "total_ns": 55523932
+    },
+    {
+      "iteration": 2,
+      "method": "ALNS-ISL",
+      "seed": 89,
+      "total_ns": 50109862
+    },
+    {
+      "iteration": 3,
+      "method": "ALNS-ISL",
+      "seed": 89,
+      "total_ns": 49210905
+    },
+    {
+      "iteration": 4,
+      "method": "ALNS-ISL",
+      "seed": 89,
+      "total_ns": 50027910
+    },
+    {
+      "iteration": 5,
+      "method": "ALNS-ISL",
+      "seed": 89,
+      "total_ns": 49828278
+    },
+    {
+      "iteration": 6,
+      "method": "ALNS-ISL",
+      "seed": 89,
+      "total_ns": 49167671
+    },
+    {
+      "iteration": 7,
+      "method": "ALNS-ISL",
+      "seed": 89,
+      "total_ns": 50297577
+    },
+    {
+      "iteration": 8,
+      "method": "ALNS-ISL",
+      "seed": 89,
+      "total_ns": 50051293
+    },
+    {
+      "iteration": 9,
+      "method": "ALNS-ISL",
+      "seed": 89,
+      "total_ns": 49272701
+    },
+    {
+      "iteration": 10,
+      "method": "ALNS-ISL",
+      "seed": 89,
+      "total_ns": 50142349
+    },
+    {
+      "iteration": 11,
+      "method": "ALNS-ISL",
+      "seed": 89,
+      "total_ns": 50648071
+    },
+    {
+      "iteration": 12,
+      "method": "ALNS-ISL",
+      "seed": 89,
+      "total_ns": 48915729
+    },
+    {
+      "iteration": 13,
+      "method": "ALNS-ISL",
+      "seed": 89,
+      "total_ns": 48421957
+    },
+    {
+      "iteration": 14,
+      "method": "ALNS-ISL",
+      "seed": 89,
+      "total_ns": 50015197
+    },
+    {
+      "iteration": 15,
+      "method": "ALNS-ISL",
+      "seed": 89,
+      "total_ns": 48883044
+    },
+    {
+      "iteration": 16,
+      "method": "ALNS-ISL",
+      "seed": 89,
+      "total_ns": 49892287
+    },
+    {
+      "iteration": 17,
+      "method": "ALNS-ISL",
+      "seed": 89,
+      "total_ns": 49352120
+    },
+    {
+      "iteration": 18,
+      "method": "ALNS-ISL",
+      "seed": 89,
+      "total_ns": 50925598
+    },
+    {
+      "iteration": 19,
+      "method": "ALNS-ISL",
+      "seed": 89,
+      "total_ns": 49131012
+    },
+    {
+      "iteration": 0,
+      "method": "ALNS-ISL",
+      "seed": 131,
+      "total_ns": 48707956
+    },
+    {
+      "iteration": 1,
+      "method": "ALNS-ISL",
+      "seed": 131,
+      "total_ns": 49020383
+    },
+    {
+      "iteration": 2,
+      "method": "ALNS-ISL",
+      "seed": 131,
+      "total_ns": 50061268
+    },
+    {
+      "iteration": 3,
+      "method": "ALNS-ISL",
+      "seed": 131,
+      "total_ns": 49469534
+    },
+    {
+      "iteration": 4,
+      "method": "ALNS-ISL",
+      "seed": 131,
+      "total_ns": 50040556
+    },
+    {
+      "iteration": 5,
+      "method": "ALNS-ISL",
+      "seed": 131,
+      "total_ns": 50164261
+    },
+    {
+      "iteration": 6,
+      "method": "ALNS-ISL",
+      "seed": 131,
+      "total_ns": 49393801
+    },
+    {
+      "iteration": 7,
+      "method": "ALNS-ISL",
+      "seed": 131,
+      "total_ns": 49774903
+    },
+    {
+      "iteration": 8,
+      "method": "ALNS-ISL",
+      "seed": 131,
+      "total_ns": 50145241
+    },
+    {
+      "iteration": 9,
+      "method": "ALNS-ISL",
+      "seed": 131,
+      "total_ns": 49667379
+    },
+    {
+      "iteration": 10,
+      "method": "ALNS-ISL",
+      "seed": 131,
+      "total_ns": 50174573
+    },
+    {
+      "iteration": 11,
+      "method": "ALNS-ISL",
+      "seed": 131,
+      "total_ns": 49960794
+    },
+    {
+      "iteration": 12,
+      "method": "ALNS-ISL",
+      "seed": 131,
+      "total_ns": 48562436
+    },
+    {
+      "iteration": 13,
+      "method": "ALNS-ISL",
+      "seed": 131,
+      "total_ns": 47707917
+    },
+    {
+      "iteration": 14,
+      "method": "ALNS-ISL",
+      "seed": 131,
+      "total_ns": 50213755
+    },
+    {
+      "iteration": 15,
+      "method": "ALNS-ISL",
+      "seed": 131,
+      "total_ns": 49176571
+    },
+    {
+      "iteration": 16,
+      "method": "ALNS-ISL",
+      "seed": 131,
+      "total_ns": 50037918
+    },
+    {
+      "iteration": 17,
+      "method": "ALNS-ISL",
+      "seed": 131,
+      "total_ns": 49296370
+    },
+    {
+      "iteration": 18,
+      "method": "ALNS-ISL",
+      "seed": 131,
+      "total_ns": 50080347
+    },
+    {
+      "iteration": 19,
+      "method": "ALNS-ISL",
+      "seed": 131,
+      "total_ns": 50108086
+    },
+    {
+      "iteration": 0,
+      "method": "CP-SAT-50ms",
+      "seed": 11,
+      "total_ns": 65877814
+    },
+    {
+      "iteration": 1,
+      "method": "CP-SAT-50ms",
+      "seed": 11,
+      "total_ns": 29108206
+    },
+    {
+      "iteration": 2,
+      "method": "CP-SAT-50ms",
+      "seed": 11,
+      "total_ns": 35526668
+    },
+    {
+      "iteration": 3,
+      "method": "CP-SAT-50ms",
+      "seed": 11,
+      "total_ns": 26826280
+    },
+    {
+      "iteration": 4,
+      "method": "CP-SAT-50ms",
+      "seed": 11,
+      "total_ns": 48817326
+    },
+    {
+      "iteration": 5,
+      "method": "CP-SAT-50ms",
+      "seed": 11,
+      "total_ns": 47685758
+    },
+    {
+      "iteration": 6,
+      "method": "CP-SAT-50ms",
+      "seed": 11,
+      "total_ns": 47816499
+    },
+    {
+      "iteration": 7,
+      "method": "CP-SAT-50ms",
+      "seed": 11,
+      "total_ns": 47304247
+    },
+    {
+      "iteration": 8,
+      "method": "CP-SAT-50ms",
+      "seed": 11,
+      "total_ns": 47434901
+    },
+    {
+      "iteration": 9,
+      "method": "CP-SAT-50ms",
+      "seed": 11,
+      "total_ns": 47857775
+    },
+    {
+      "iteration": 10,
+      "method": "CP-SAT-50ms",
+      "seed": 11,
+      "total_ns": 37125748
+    },
+    {
+      "iteration": 11,
+      "method": "CP-SAT-50ms",
+      "seed": 11,
+      "total_ns": 39048931
+    },
+    {
+      "iteration": 12,
+      "method": "CP-SAT-50ms",
+      "seed": 11,
+      "total_ns": 49511016
+    },
+    {
+      "iteration": 13,
+      "method": "CP-SAT-50ms",
+      "seed": 11,
+      "total_ns": 41000490
+    },
+    {
+      "iteration": 14,
+      "method": "CP-SAT-50ms",
+      "seed": 11,
+      "total_ns": 35857375
+    },
+    {
+      "iteration": 15,
+      "method": "CP-SAT-50ms",
+      "seed": 11,
+      "total_ns": 30642556
+    },
+    {
+      "iteration": 16,
+      "method": "CP-SAT-50ms",
+      "seed": 11,
+      "total_ns": 48282133
+    },
+    {
+      "iteration": 17,
+      "method": "CP-SAT-50ms",
+      "seed": 11,
+      "total_ns": 47977507
+    },
+    {
+      "iteration": 18,
+      "method": "CP-SAT-50ms",
+      "seed": 11,
+      "total_ns": 47618352
+    },
+    {
+      "iteration": 19,
+      "method": "CP-SAT-50ms",
+      "seed": 11,
+      "total_ns": 66260587
+    }
+  ]
+}

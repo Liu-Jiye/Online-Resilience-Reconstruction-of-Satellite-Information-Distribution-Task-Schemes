@@ -1,0 +1,4615 @@
+{
+  "checks": [
+    {
+      "layer": "D1",
+      "method": "Minimal-Repair",
+      "scenario": 0,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 4985195
+    },
+    {
+      "layer": "D1",
+      "method": "Frozen-Greedy",
+      "scenario": 0,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 14611837
+    },
+    {
+      "layer": "D1",
+      "method": "Fixed-PALR",
+      "scenario": 0,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 7026071
+    },
+    {
+      "layer": "D1",
+      "method": "Validation-Best-Fixed",
+      "scenario": 0,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 6491291
+    },
+    {
+      "layer": "D1",
+      "method": "Rule-PALR",
+      "scenario": 0,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 6613988
+    },
+    {
+      "layer": "D1",
+      "method": "PUCT-ISL",
+      "scenario": 0,
+      "seed": 11,
+      "status": "timeout",
+      "total_ns": 50459444
+    },
+    {
+      "layer": "D1",
+      "method": "PUCT-ISL",
+      "scenario": 0,
+      "seed": 23,
+      "status": "timeout",
+      "total_ns": 62599692
+    },
+    {
+      "layer": "D1",
+      "method": "PUCT-ISL",
+      "scenario": 0,
+      "seed": 47,
+      "status": "feasible",
+      "total_ns": 49692336
+    },
+    {
+      "layer": "D1",
+      "method": "PUCT-ISL",
+      "scenario": 0,
+      "seed": 89,
+      "status": "feasible",
+      "total_ns": 48625161
+    },
+    {
+      "layer": "D1",
+      "method": "PUCT-ISL",
+      "scenario": 0,
+      "seed": 131,
+      "status": "feasible",
+      "total_ns": 49822354
+    },
+    {
+      "layer": "D1",
+      "method": "ALNS-ISL",
+      "scenario": 0,
+      "seed": 11,
+      "status": "timeout",
+      "total_ns": 576490743
+    },
+    {
+      "layer": "D1",
+      "method": "ALNS-ISL",
+      "scenario": 0,
+      "seed": 23,
+      "status": "feasible",
+      "total_ns": 49642649
+    },
+    {
+      "layer": "D1",
+      "method": "ALNS-ISL",
+      "scenario": 0,
+      "seed": 47,
+      "status": "timeout",
+      "total_ns": 50121474
+    },
+    {
+      "layer": "D1",
+      "method": "ALNS-ISL",
+      "scenario": 0,
+      "seed": 89,
+      "status": "feasible",
+      "total_ns": 49852121
+    },
+    {
+      "layer": "D1",
+      "method": "ALNS-ISL",
+      "scenario": 0,
+      "seed": 131,
+      "status": "feasible",
+      "total_ns": 49651537
+    },
+    {
+      "layer": "D1",
+      "method": "CP-SAT-50ms",
+      "scenario": 0,
+      "seed": 11,
+      "status": "no_solver_solution",
+      "total_ns": 47983935
+    },
+    {
+      "layer": "D1",
+      "method": "Minimal-Repair",
+      "scenario": 1,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 4122189
+    },
+    {
+      "layer": "D1",
+      "method": "Frozen-Greedy",
+      "scenario": 1,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 4410676
+    },
+    {
+      "layer": "D1",
+      "method": "Fixed-PALR",
+      "scenario": 1,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 4400176
+    },
+    {
+      "layer": "D1",
+      "method": "Validation-Best-Fixed",
+      "scenario": 1,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 4430080
+    },
+    {
+      "layer": "D1",
+      "method": "Rule-PALR",
+      "scenario": 1,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 6149674
+    },
+    {
+      "layer": "D1",
+      "method": "PUCT-ISL",
+      "scenario": 1,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 47590604
+    },
+    {
+      "layer": "D1",
+      "method": "PUCT-ISL",
+      "scenario": 1,
+      "seed": 23,
+      "status": "timeout",
+      "total_ns": 50832577
+    },
+    {
+      "layer": "D1",
+      "method": "PUCT-ISL",
+      "scenario": 1,
+      "seed": 47,
+      "status": "feasible",
+      "total_ns": 47579195
+    },
+    {
+      "layer": "D1",
+      "method": "PUCT-ISL",
+      "scenario": 1,
+      "seed": 89,
+      "status": "feasible",
+      "total_ns": 48841857
+    },
+    {
+      "layer": "D1",
+      "method": "PUCT-ISL",
+      "scenario": 1,
+      "seed": 131,
+      "status": "feasible",
+      "total_ns": 49049821
+    },
+    {
+      "layer": "D1",
+      "method": "ALNS-ISL",
+      "scenario": 1,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 47687869
+    },
+    {
+      "layer": "D1",
+      "method": "ALNS-ISL",
+      "scenario": 1,
+      "seed": 23,
+      "status": "feasible",
+      "total_ns": 48399892
+    },
+    {
+      "layer": "D1",
+      "method": "ALNS-ISL",
+      "scenario": 1,
+      "seed": 47,
+      "status": "feasible",
+      "total_ns": 49266614
+    },
+    {
+      "layer": "D1",
+      "method": "ALNS-ISL",
+      "scenario": 1,
+      "seed": 89,
+      "status": "feasible",
+      "total_ns": 47157075
+    },
+    {
+      "layer": "D1",
+      "method": "ALNS-ISL",
+      "scenario": 1,
+      "seed": 131,
+      "status": "feasible",
+      "total_ns": 48593178
+    },
+    {
+      "layer": "D1",
+      "method": "CP-SAT-50ms",
+      "scenario": 1,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 32390139
+    },
+    {
+      "layer": "D1",
+      "method": "Minimal-Repair",
+      "scenario": 2,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 5384171
+    },
+    {
+      "layer": "D1",
+      "method": "Frozen-Greedy",
+      "scenario": 2,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 10821965
+    },
+    {
+      "layer": "D1",
+      "method": "Fixed-PALR",
+      "scenario": 2,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 8057202
+    },
+    {
+      "layer": "D1",
+      "method": "Validation-Best-Fixed",
+      "scenario": 2,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 8080501
+    },
+    {
+      "layer": "D1",
+      "method": "Rule-PALR",
+      "scenario": 2,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 7774292
+    },
+    {
+      "layer": "D1",
+      "method": "PUCT-ISL",
+      "scenario": 2,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 49855627
+    },
+    {
+      "layer": "D1",
+      "method": "PUCT-ISL",
+      "scenario": 2,
+      "seed": 23,
+      "status": "feasible",
+      "total_ns": 49770606
+    },
+    {
+      "layer": "D1",
+      "method": "PUCT-ISL",
+      "scenario": 2,
+      "seed": 47,
+      "status": "feasible",
+      "total_ns": 49370150
+    },
+    {
+      "layer": "D1",
+      "method": "PUCT-ISL",
+      "scenario": 2,
+      "seed": 89,
+      "status": "feasible",
+      "total_ns": 49684373
+    },
+    {
+      "layer": "D1",
+      "method": "PUCT-ISL",
+      "scenario": 2,
+      "seed": 131,
+      "status": "feasible",
+      "total_ns": 49884824
+    },
+    {
+      "layer": "D1",
+      "method": "ALNS-ISL",
+      "scenario": 2,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 49925973
+    },
+    {
+      "layer": "D1",
+      "method": "ALNS-ISL",
+      "scenario": 2,
+      "seed": 23,
+      "status": "feasible",
+      "total_ns": 49880728
+    },
+    {
+      "layer": "D1",
+      "method": "ALNS-ISL",
+      "scenario": 2,
+      "seed": 47,
+      "status": "feasible",
+      "total_ns": 49888488
+    },
+    {
+      "layer": "D1",
+      "method": "ALNS-ISL",
+      "scenario": 2,
+      "seed": 89,
+      "status": "feasible",
+      "total_ns": 49723103
+    },
+    {
+      "layer": "D1",
+      "method": "ALNS-ISL",
+      "scenario": 2,
+      "seed": 131,
+      "status": "feasible",
+      "total_ns": 49802959
+    },
+    {
+      "layer": "D1",
+      "method": "CP-SAT-50ms",
+      "scenario": 2,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 39493836
+    },
+    {
+      "layer": "D1",
+      "method": "Minimal-Repair",
+      "scenario": 3,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 5148866
+    },
+    {
+      "layer": "D1",
+      "method": "Frozen-Greedy",
+      "scenario": 3,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 5865008
+    },
+    {
+      "layer": "D1",
+      "method": "Fixed-PALR",
+      "scenario": 3,
+      "seed": 11,
+      "status": "timeout",
+      "total_ns": 51300097
+    },
+    {
+      "layer": "D1",
+      "method": "Validation-Best-Fixed",
+      "scenario": 3,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 5843355
+    },
+    {
+      "layer": "D1",
+      "method": "Rule-PALR",
+      "scenario": 3,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 9437719
+    },
+    {
+      "layer": "D1",
+      "method": "PUCT-ISL",
+      "scenario": 3,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 48993851
+    },
+    {
+      "layer": "D1",
+      "method": "PUCT-ISL",
+      "scenario": 3,
+      "seed": 23,
+      "status": "feasible",
+      "total_ns": 49617592
+    },
+    {
+      "layer": "D1",
+      "method": "PUCT-ISL",
+      "scenario": 3,
+      "seed": 47,
+      "status": "feasible",
+      "total_ns": 48346305
+    },
+    {
+      "layer": "D1",
+      "method": "PUCT-ISL",
+      "scenario": 3,
+      "seed": 89,
+      "status": "feasible",
+      "total_ns": 49528325
+    },
+    {
+      "layer": "D1",
+      "method": "PUCT-ISL",
+      "scenario": 3,
+      "seed": 131,
+      "status": "feasible",
+      "total_ns": 48932960
+    },
+    {
+      "layer": "D1",
+      "method": "ALNS-ISL",
+      "scenario": 3,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 49281125
+    },
+    {
+      "layer": "D1",
+      "method": "ALNS-ISL",
+      "scenario": 3,
+      "seed": 23,
+      "status": "feasible",
+      "total_ns": 49474498
+    },
+    {
+      "layer": "D1",
+      "method": "ALNS-ISL",
+      "scenario": 3,
+      "seed": 47,
+      "status": "feasible",
+      "total_ns": 49267960
+    },
+    {
+      "layer": "D1",
+      "method": "ALNS-ISL",
+      "scenario": 3,
+      "seed": 89,
+      "status": "feasible",
+      "total_ns": 49627439
+    },
+    {
+      "layer": "D1",
+      "method": "ALNS-ISL",
+      "scenario": 3,
+      "seed": 131,
+      "status": "feasible",
+      "total_ns": 49714134
+    },
+    {
+      "layer": "D1",
+      "method": "CP-SAT-50ms",
+      "scenario": 3,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 28862029
+    },
+    {
+      "layer": "D1",
+      "method": "Minimal-Repair",
+      "scenario": 4,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 5054950
+    },
+    {
+      "layer": "D1",
+      "method": "Frozen-Greedy",
+      "scenario": 4,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 15743566
+    },
+    {
+      "layer": "D1",
+      "method": "Fixed-PALR",
+      "scenario": 4,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 5595245
+    },
+    {
+      "layer": "D1",
+      "method": "Validation-Best-Fixed",
+      "scenario": 4,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 5793883
+    },
+    {
+      "layer": "D1",
+      "method": "Rule-PALR",
+      "scenario": 4,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 6338380
+    },
+    {
+      "layer": "D1",
+      "method": "PUCT-ISL",
+      "scenario": 4,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 49676595
+    },
+    {
+      "layer": "D1",
+      "method": "PUCT-ISL",
+      "scenario": 4,
+      "seed": 23,
+      "status": "timeout",
+      "total_ns": 50072452
+    },
+    {
+      "layer": "D1",
+      "method": "PUCT-ISL",
+      "scenario": 4,
+      "seed": 47,
+      "status": "feasible",
+      "total_ns": 49875777
+    },
+    {
+      "layer": "D1",
+      "method": "PUCT-ISL",
+      "scenario": 4,
+      "seed": 89,
+      "status": "feasible",
+      "total_ns": 49862045
+    },
+    {
+      "layer": "D1",
+      "method": "PUCT-ISL",
+      "scenario": 4,
+      "seed": 131,
+      "status": "feasible",
+      "total_ns": 49716128
+    },
+    {
+      "layer": "D1",
+      "method": "ALNS-ISL",
+      "scenario": 4,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 49729144
+    },
+    {
+      "layer": "D1",
+      "method": "ALNS-ISL",
+      "scenario": 4,
+      "seed": 23,
+      "status": "timeout",
+      "total_ns": 50221888
+    },
+    {
+      "layer": "D1",
+      "method": "ALNS-ISL",
+      "scenario": 4,
+      "seed": 47,
+      "status": "feasible",
+      "total_ns": 49832785
+    },
+    {
+      "layer": "D1",
+      "method": "ALNS-ISL",
+      "scenario": 4,
+      "seed": 89,
+      "status": "feasible",
+      "total_ns": 48916777
+    },
+    {
+      "layer": "D1",
+      "method": "ALNS-ISL",
+      "scenario": 4,
+      "seed": 131,
+      "status": "timeout",
+      "total_ns": 50116182
+    },
+    {
+      "layer": "D1",
+      "method": "CP-SAT-50ms",
+      "scenario": 4,
+      "seed": 11,
+      "status": "timeout",
+      "total_ns": 64427903
+    },
+    {
+      "layer": "D1",
+      "method": "Minimal-Repair",
+      "scenario": 5,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 4988139
+    },
+    {
+      "layer": "D1",
+      "method": "Frozen-Greedy",
+      "scenario": 5,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 15213958
+    },
+    {
+      "layer": "D1",
+      "method": "Fixed-PALR",
+      "scenario": 5,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 5404881
+    },
+    {
+      "layer": "D1",
+      "method": "Validation-Best-Fixed",
+      "scenario": 5,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 5472992
+    },
+    {
+      "layer": "D1",
+      "method": "Rule-PALR",
+      "scenario": 5,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 6060862
+    },
+    {
+      "layer": "D1",
+      "method": "PUCT-ISL",
+      "scenario": 5,
+      "seed": 11,
+      "status": "timeout",
+      "total_ns": 50396421
+    },
+    {
+      "layer": "D1",
+      "method": "PUCT-ISL",
+      "scenario": 5,
+      "seed": 23,
+      "status": "timeout",
+      "total_ns": 50069958
+    },
+    {
+      "layer": "D1",
+      "method": "PUCT-ISL",
+      "scenario": 5,
+      "seed": 47,
+      "status": "feasible",
+      "total_ns": 49347630
+    },
+    {
+      "layer": "D1",
+      "method": "PUCT-ISL",
+      "scenario": 5,
+      "seed": 89,
+      "status": "feasible",
+      "total_ns": 49879874
+    },
+    {
+      "layer": "D1",
+      "method": "PUCT-ISL",
+      "scenario": 5,
+      "seed": 131,
+      "status": "timeout",
+      "total_ns": 50122863
+    },
+    {
+      "layer": "D1",
+      "method": "ALNS-ISL",
+      "scenario": 5,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 49799577
+    },
+    {
+      "layer": "D1",
+      "method": "ALNS-ISL",
+      "scenario": 5,
+      "seed": 23,
+      "status": "timeout",
+      "total_ns": 50043243
+    },
+    {
+      "layer": "D1",
+      "method": "ALNS-ISL",
+      "scenario": 5,
+      "seed": 47,
+      "status": "timeout",
+      "total_ns": 50019761
+    },
+    {
+      "layer": "D1",
+      "method": "ALNS-ISL",
+      "scenario": 5,
+      "seed": 89,
+      "status": "feasible",
+      "total_ns": 49281066
+    },
+    {
+      "layer": "D1",
+      "method": "ALNS-ISL",
+      "scenario": 5,
+      "seed": 131,
+      "status": "timeout",
+      "total_ns": 50041454
+    },
+    {
+      "layer": "D1",
+      "method": "CP-SAT-50ms",
+      "scenario": 5,
+      "seed": 11,
+      "status": "no_solver_solution",
+      "total_ns": 46712664
+    },
+    {
+      "layer": "D1",
+      "method": "Minimal-Repair",
+      "scenario": 6,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 6433543
+    },
+    {
+      "layer": "D1",
+      "method": "Frozen-Greedy",
+      "scenario": 6,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 13408592
+    },
+    {
+      "layer": "D1",
+      "method": "Fixed-PALR",
+      "scenario": 6,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 6258811
+    },
+    {
+      "layer": "D1",
+      "method": "Validation-Best-Fixed",
+      "scenario": 6,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 6803511
+    },
+    {
+      "layer": "D1",
+      "method": "Rule-PALR",
+      "scenario": 6,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 7185292
+    },
+    {
+      "layer": "D1",
+      "method": "PUCT-ISL",
+      "scenario": 6,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 49930154
+    },
+    {
+      "layer": "D1",
+      "method": "PUCT-ISL",
+      "scenario": 6,
+      "seed": 23,
+      "status": "timeout",
+      "total_ns": 50038320
+    },
+    {
+      "layer": "D1",
+      "method": "PUCT-ISL",
+      "scenario": 6,
+      "seed": 47,
+      "status": "feasible",
+      "total_ns": 49493003
+    },
+    {
+      "layer": "D1",
+      "method": "PUCT-ISL",
+      "scenario": 6,
+      "seed": 89,
+      "status": "timeout",
+      "total_ns": 52592707
+    },
+    {
+      "layer": "D1",
+      "method": "PUCT-ISL",
+      "scenario": 6,
+      "seed": 131,
+      "status": "feasible",
+      "total_ns": 49975548
+    },
+    {
+      "layer": "D1",
+      "method": "ALNS-ISL",
+      "scenario": 6,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 49688258
+    },
+    {
+      "layer": "D1",
+      "method": "ALNS-ISL",
+      "scenario": 6,
+      "seed": 23,
+      "status": "feasible",
+      "total_ns": 49098882
+    },
+    {
+      "layer": "D1",
+      "method": "ALNS-ISL",
+      "scenario": 6,
+      "seed": 47,
+      "status": "feasible",
+      "total_ns": 49901566
+    },
+    {
+      "layer": "D1",
+      "method": "ALNS-ISL",
+      "scenario": 6,
+      "seed": 89,
+      "status": "feasible",
+      "total_ns": 49326707
+    },
+    {
+      "layer": "D1",
+      "method": "ALNS-ISL",
+      "scenario": 6,
+      "seed": 131,
+      "status": "feasible",
+      "total_ns": 49385645
+    },
+    {
+      "layer": "D1",
+      "method": "CP-SAT-50ms",
+      "scenario": 6,
+      "seed": 11,
+      "status": "no_solver_solution",
+      "total_ns": 45638749
+    },
+    {
+      "layer": "D1",
+      "method": "Minimal-Repair",
+      "scenario": 7,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 5506909
+    },
+    {
+      "layer": "D1",
+      "method": "Frozen-Greedy",
+      "scenario": 7,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 13405026
+    },
+    {
+      "layer": "D1",
+      "method": "Fixed-PALR",
+      "scenario": 7,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 7149459
+    },
+    {
+      "layer": "D1",
+      "method": "Validation-Best-Fixed",
+      "scenario": 7,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 6947441
+    },
+    {
+      "layer": "D1",
+      "method": "Rule-PALR",
+      "scenario": 7,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 7139379
+    },
+    {
+      "layer": "D1",
+      "method": "PUCT-ISL",
+      "scenario": 7,
+      "seed": 11,
+      "status": "timeout",
+      "total_ns": 50045302
+    },
+    {
+      "layer": "D1",
+      "method": "PUCT-ISL",
+      "scenario": 7,
+      "seed": 23,
+      "status": "feasible",
+      "total_ns": 49257998
+    },
+    {
+      "layer": "D1",
+      "method": "PUCT-ISL",
+      "scenario": 7,
+      "seed": 47,
+      "status": "feasible",
+      "total_ns": 49936360
+    },
+    {
+      "layer": "D1",
+      "method": "PUCT-ISL",
+      "scenario": 7,
+      "seed": 89,
+      "status": "feasible",
+      "total_ns": 49917876
+    },
+    {
+      "layer": "D1",
+      "method": "PUCT-ISL",
+      "scenario": 7,
+      "seed": 131,
+      "status": "feasible",
+      "total_ns": 49810007
+    },
+    {
+      "layer": "D1",
+      "method": "ALNS-ISL",
+      "scenario": 7,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 49866830
+    },
+    {
+      "layer": "D1",
+      "method": "ALNS-ISL",
+      "scenario": 7,
+      "seed": 23,
+      "status": "timeout",
+      "total_ns": 50013446
+    },
+    {
+      "layer": "D1",
+      "method": "ALNS-ISL",
+      "scenario": 7,
+      "seed": 47,
+      "status": "timeout",
+      "total_ns": 51499676
+    },
+    {
+      "layer": "D1",
+      "method": "ALNS-ISL",
+      "scenario": 7,
+      "seed": 89,
+      "status": "feasible",
+      "total_ns": 49889245
+    },
+    {
+      "layer": "D1",
+      "method": "ALNS-ISL",
+      "scenario": 7,
+      "seed": 131,
+      "status": "timeout",
+      "total_ns": 50314933
+    },
+    {
+      "layer": "D1",
+      "method": "CP-SAT-50ms",
+      "scenario": 7,
+      "seed": 11,
+      "status": "no_solver_solution",
+      "total_ns": 45399815
+    },
+    {
+      "layer": "D1",
+      "method": "Minimal-Repair",
+      "scenario": 8,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 5332596
+    },
+    {
+      "layer": "D1",
+      "method": "Frozen-Greedy",
+      "scenario": 8,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 16547745
+    },
+    {
+      "layer": "D1",
+      "method": "Fixed-PALR",
+      "scenario": 8,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 6518815
+    },
+    {
+      "layer": "D1",
+      "method": "Validation-Best-Fixed",
+      "scenario": 8,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 6208845
+    },
+    {
+      "layer": "D1",
+      "method": "Rule-PALR",
+      "scenario": 8,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 7045281
+    },
+    {
+      "layer": "D1",
+      "method": "PUCT-ISL",
+      "scenario": 8,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 49871863
+    },
+    {
+      "layer": "D1",
+      "method": "PUCT-ISL",
+      "scenario": 8,
+      "seed": 23,
+      "status": "feasible",
+      "total_ns": 49881289
+    },
+    {
+      "layer": "D1",
+      "method": "PUCT-ISL",
+      "scenario": 8,
+      "seed": 47,
+      "status": "timeout",
+      "total_ns": 50177990
+    },
+    {
+      "layer": "D1",
+      "method": "PUCT-ISL",
+      "scenario": 8,
+      "seed": 89,
+      "status": "feasible",
+      "total_ns": 49742600
+    },
+    {
+      "layer": "D1",
+      "method": "PUCT-ISL",
+      "scenario": 8,
+      "seed": 131,
+      "status": "timeout",
+      "total_ns": 50040514
+    },
+    {
+      "layer": "D1",
+      "method": "ALNS-ISL",
+      "scenario": 8,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 49410020
+    },
+    {
+      "layer": "D1",
+      "method": "ALNS-ISL",
+      "scenario": 8,
+      "seed": 23,
+      "status": "timeout",
+      "total_ns": 50002630
+    },
+    {
+      "layer": "D1",
+      "method": "ALNS-ISL",
+      "scenario": 8,
+      "seed": 47,
+      "status": "feasible",
+      "total_ns": 49891974
+    },
+    {
+      "layer": "D1",
+      "method": "ALNS-ISL",
+      "scenario": 8,
+      "seed": 89,
+      "status": "feasible",
+      "total_ns": 49656599
+    },
+    {
+      "layer": "D1",
+      "method": "ALNS-ISL",
+      "scenario": 8,
+      "seed": 131,
+      "status": "feasible",
+      "total_ns": 49638106
+    },
+    {
+      "layer": "D1",
+      "method": "CP-SAT-50ms",
+      "scenario": 8,
+      "seed": 11,
+      "status": "no_solver_solution",
+      "total_ns": 48305728
+    },
+    {
+      "layer": "D1",
+      "method": "Minimal-Repair",
+      "scenario": 9,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 5782432
+    },
+    {
+      "layer": "D1",
+      "method": "Frozen-Greedy",
+      "scenario": 9,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 16173041
+    },
+    {
+      "layer": "D1",
+      "method": "Fixed-PALR",
+      "scenario": 9,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 6578010
+    },
+    {
+      "layer": "D1",
+      "method": "Validation-Best-Fixed",
+      "scenario": 9,
+      "seed": 11,
+      "status": "timeout",
+      "total_ns": 50250403
+    },
+    {
+      "layer": "D1",
+      "method": "Rule-PALR",
+      "scenario": 9,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 7111096
+    },
+    {
+      "layer": "D1",
+      "method": "PUCT-ISL",
+      "scenario": 9,
+      "seed": 11,
+      "status": "timeout",
+      "total_ns": 50011023
+    },
+    {
+      "layer": "D1",
+      "method": "PUCT-ISL",
+      "scenario": 9,
+      "seed": 23,
+      "status": "feasible",
+      "total_ns": 49915138
+    },
+    {
+      "layer": "D1",
+      "method": "PUCT-ISL",
+      "scenario": 9,
+      "seed": 47,
+      "status": "timeout",
+      "total_ns": 50138969
+    },
+    {
+      "layer": "D1",
+      "method": "PUCT-ISL",
+      "scenario": 9,
+      "seed": 89,
+      "status": "feasible",
+      "total_ns": 49749803
+    },
+    {
+      "layer": "D1",
+      "method": "PUCT-ISL",
+      "scenario": 9,
+      "seed": 131,
+      "status": "timeout",
+      "total_ns": 50097290
+    },
+    {
+      "layer": "D1",
+      "method": "ALNS-ISL",
+      "scenario": 9,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 49889856
+    },
+    {
+      "layer": "D1",
+      "method": "ALNS-ISL",
+      "scenario": 9,
+      "seed": 23,
+      "status": "timeout",
+      "total_ns": 50428295
+    },
+    {
+      "layer": "D1",
+      "method": "ALNS-ISL",
+      "scenario": 9,
+      "seed": 47,
+      "status": "feasible",
+      "total_ns": 49418886
+    },
+    {
+      "layer": "D1",
+      "method": "ALNS-ISL",
+      "scenario": 9,
+      "seed": 89,
+      "status": "feasible",
+      "total_ns": 49141770
+    },
+    {
+      "layer": "D1",
+      "method": "ALNS-ISL",
+      "scenario": 9,
+      "seed": 131,
+      "status": "feasible",
+      "total_ns": 49878893
+    },
+    {
+      "layer": "D1",
+      "method": "CP-SAT-50ms",
+      "scenario": 9,
+      "seed": 11,
+      "status": "no_solver_solution",
+      "total_ns": 47943960
+    },
+    {
+      "layer": "D1",
+      "method": "Minimal-Repair",
+      "scenario": 10,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 5645710
+    },
+    {
+      "layer": "D1",
+      "method": "Frozen-Greedy",
+      "scenario": 10,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 12837195
+    },
+    {
+      "layer": "D1",
+      "method": "Fixed-PALR",
+      "scenario": 10,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 9349827
+    },
+    {
+      "layer": "D1",
+      "method": "Validation-Best-Fixed",
+      "scenario": 10,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 8601752
+    },
+    {
+      "layer": "D1",
+      "method": "Rule-PALR",
+      "scenario": 10,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 7105396
+    },
+    {
+      "layer": "D1",
+      "method": "PUCT-ISL",
+      "scenario": 10,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 49999060
+    },
+    {
+      "layer": "D1",
+      "method": "PUCT-ISL",
+      "scenario": 10,
+      "seed": 23,
+      "status": "timeout",
+      "total_ns": 50175712
+    },
+    {
+      "layer": "D1",
+      "method": "PUCT-ISL",
+      "scenario": 10,
+      "seed": 47,
+      "status": "feasible",
+      "total_ns": 49860330
+    },
+    {
+      "layer": "D1",
+      "method": "PUCT-ISL",
+      "scenario": 10,
+      "seed": 89,
+      "status": "timeout",
+      "total_ns": 51283206
+    },
+    {
+      "layer": "D1",
+      "method": "PUCT-ISL",
+      "scenario": 10,
+      "seed": 131,
+      "status": "timeout",
+      "total_ns": 50048304
+    },
+    {
+      "layer": "D1",
+      "method": "ALNS-ISL",
+      "scenario": 10,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 49591911
+    },
+    {
+      "layer": "D1",
+      "method": "ALNS-ISL",
+      "scenario": 10,
+      "seed": 23,
+      "status": "feasible",
+      "total_ns": 49968302
+    },
+    {
+      "layer": "D1",
+      "method": "ALNS-ISL",
+      "scenario": 10,
+      "seed": 47,
+      "status": "timeout",
+      "total_ns": 50159471
+    },
+    {
+      "layer": "D1",
+      "method": "ALNS-ISL",
+      "scenario": 10,
+      "seed": 89,
+      "status": "timeout",
+      "total_ns": 109168082
+    },
+    {
+      "layer": "D1",
+      "method": "ALNS-ISL",
+      "scenario": 10,
+      "seed": 131,
+      "status": "feasible",
+      "total_ns": 49807002
+    },
+    {
+      "layer": "D1",
+      "method": "CP-SAT-50ms",
+      "scenario": 10,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 40675659
+    },
+    {
+      "layer": "D1",
+      "method": "Minimal-Repair",
+      "scenario": 11,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 5474648
+    },
+    {
+      "layer": "D1",
+      "method": "Frozen-Greedy",
+      "scenario": 11,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 12318725
+    },
+    {
+      "layer": "D1",
+      "method": "Fixed-PALR",
+      "scenario": 11,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 8204097
+    },
+    {
+      "layer": "D1",
+      "method": "Validation-Best-Fixed",
+      "scenario": 11,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 8305337
+    },
+    {
+      "layer": "D1",
+      "method": "Rule-PALR",
+      "scenario": 11,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 6831340
+    },
+    {
+      "layer": "D1",
+      "method": "PUCT-ISL",
+      "scenario": 11,
+      "seed": 11,
+      "status": "timeout",
+      "total_ns": 50296363
+    },
+    {
+      "layer": "D1",
+      "method": "PUCT-ISL",
+      "scenario": 11,
+      "seed": 23,
+      "status": "feasible",
+      "total_ns": 49972151
+    },
+    {
+      "layer": "D1",
+      "method": "PUCT-ISL",
+      "scenario": 11,
+      "seed": 47,
+      "status": "timeout",
+      "total_ns": 50140610
+    },
+    {
+      "layer": "D1",
+      "method": "PUCT-ISL",
+      "scenario": 11,
+      "seed": 89,
+      "status": "feasible",
+      "total_ns": 49995195
+    },
+    {
+      "layer": "D1",
+      "method": "PUCT-ISL",
+      "scenario": 11,
+      "seed": 131,
+      "status": "feasible",
+      "total_ns": 49047051
+    },
+    {
+      "layer": "D1",
+      "method": "ALNS-ISL",
+      "scenario": 11,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 49856804
+    },
+    {
+      "layer": "D1",
+      "method": "ALNS-ISL",
+      "scenario": 11,
+      "seed": 23,
+      "status": "feasible",
+      "total_ns": 49140828
+    },
+    {
+      "layer": "D1",
+      "method": "ALNS-ISL",
+      "scenario": 11,
+      "seed": 47,
+      "status": "feasible",
+      "total_ns": 49618299
+    },
+    {
+      "layer": "D1",
+      "method": "ALNS-ISL",
+      "scenario": 11,
+      "seed": 89,
+      "status": "feasible",
+      "total_ns": 49792889
+    },
+    {
+      "layer": "D1",
+      "method": "ALNS-ISL",
+      "scenario": 11,
+      "seed": 131,
+      "status": "feasible",
+      "total_ns": 49074040
+    },
+    {
+      "layer": "D1",
+      "method": "CP-SAT-50ms",
+      "scenario": 11,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 37230562
+    },
+    {
+      "layer": "D2-S",
+      "method": "Minimal-Repair",
+      "scenario": 0,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 4590727
+    },
+    {
+      "layer": "D2-S",
+      "method": "Frozen-Greedy",
+      "scenario": 0,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 13512406
+    },
+    {
+      "layer": "D2-S",
+      "method": "Fixed-PALR",
+      "scenario": 0,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 8607765
+    },
+    {
+      "layer": "D2-S",
+      "method": "Validation-Best-Fixed",
+      "scenario": 0,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 7075121
+    },
+    {
+      "layer": "D2-S",
+      "method": "Rule-PALR",
+      "scenario": 0,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 8015066
+    },
+    {
+      "layer": "D2-S",
+      "method": "PUCT-ISL",
+      "scenario": 0,
+      "seed": 11,
+      "status": "timeout",
+      "total_ns": 51580615
+    },
+    {
+      "layer": "D2-S",
+      "method": "PUCT-ISL",
+      "scenario": 0,
+      "seed": 23,
+      "status": "feasible",
+      "total_ns": 49379288
+    },
+    {
+      "layer": "D2-S",
+      "method": "PUCT-ISL",
+      "scenario": 0,
+      "seed": 47,
+      "status": "feasible",
+      "total_ns": 49035385
+    },
+    {
+      "layer": "D2-S",
+      "method": "PUCT-ISL",
+      "scenario": 0,
+      "seed": 89,
+      "status": "feasible",
+      "total_ns": 49455904
+    },
+    {
+      "layer": "D2-S",
+      "method": "PUCT-ISL",
+      "scenario": 0,
+      "seed": 131,
+      "status": "feasible",
+      "total_ns": 48672432
+    },
+    {
+      "layer": "D2-S",
+      "method": "ALNS-ISL",
+      "scenario": 0,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 49752945
+    },
+    {
+      "layer": "D2-S",
+      "method": "ALNS-ISL",
+      "scenario": 0,
+      "seed": 23,
+      "status": "feasible",
+      "total_ns": 49017554
+    },
+    {
+      "layer": "D2-S",
+      "method": "ALNS-ISL",
+      "scenario": 0,
+      "seed": 47,
+      "status": "feasible",
+      "total_ns": 49206605
+    },
+    {
+      "layer": "D2-S",
+      "method": "ALNS-ISL",
+      "scenario": 0,
+      "seed": 89,
+      "status": "timeout",
+      "total_ns": 50167961
+    },
+    {
+      "layer": "D2-S",
+      "method": "ALNS-ISL",
+      "scenario": 0,
+      "seed": 131,
+      "status": "feasible",
+      "total_ns": 47975024
+    },
+    {
+      "layer": "D2-S",
+      "method": "CP-SAT-50ms",
+      "scenario": 0,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 42805985
+    },
+    {
+      "layer": "D2-S",
+      "method": "Minimal-Repair",
+      "scenario": 1,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 2982919
+    },
+    {
+      "layer": "D2-S",
+      "method": "Frozen-Greedy",
+      "scenario": 1,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 4428948
+    },
+    {
+      "layer": "D2-S",
+      "method": "Fixed-PALR",
+      "scenario": 1,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 3847069
+    },
+    {
+      "layer": "D2-S",
+      "method": "Validation-Best-Fixed",
+      "scenario": 1,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 3817440
+    },
+    {
+      "layer": "D2-S",
+      "method": "Rule-PALR",
+      "scenario": 1,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 4812161
+    },
+    {
+      "layer": "D2-S",
+      "method": "PUCT-ISL",
+      "scenario": 1,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 48530914
+    },
+    {
+      "layer": "D2-S",
+      "method": "PUCT-ISL",
+      "scenario": 1,
+      "seed": 23,
+      "status": "feasible",
+      "total_ns": 48396135
+    },
+    {
+      "layer": "D2-S",
+      "method": "PUCT-ISL",
+      "scenario": 1,
+      "seed": 47,
+      "status": "feasible",
+      "total_ns": 48602133
+    },
+    {
+      "layer": "D2-S",
+      "method": "PUCT-ISL",
+      "scenario": 1,
+      "seed": 89,
+      "status": "feasible",
+      "total_ns": 48462755
+    },
+    {
+      "layer": "D2-S",
+      "method": "PUCT-ISL",
+      "scenario": 1,
+      "seed": 131,
+      "status": "feasible",
+      "total_ns": 48649315
+    },
+    {
+      "layer": "D2-S",
+      "method": "ALNS-ISL",
+      "scenario": 1,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 49077494
+    },
+    {
+      "layer": "D2-S",
+      "method": "ALNS-ISL",
+      "scenario": 1,
+      "seed": 23,
+      "status": "feasible",
+      "total_ns": 49246128
+    },
+    {
+      "layer": "D2-S",
+      "method": "ALNS-ISL",
+      "scenario": 1,
+      "seed": 47,
+      "status": "feasible",
+      "total_ns": 48949965
+    },
+    {
+      "layer": "D2-S",
+      "method": "ALNS-ISL",
+      "scenario": 1,
+      "seed": 89,
+      "status": "feasible",
+      "total_ns": 49234464
+    },
+    {
+      "layer": "D2-S",
+      "method": "ALNS-ISL",
+      "scenario": 1,
+      "seed": 131,
+      "status": "feasible",
+      "total_ns": 49116101
+    },
+    {
+      "layer": "D2-S",
+      "method": "CP-SAT-50ms",
+      "scenario": 1,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 25613835
+    },
+    {
+      "layer": "D2-S",
+      "method": "Minimal-Repair",
+      "scenario": 2,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 4858754
+    },
+    {
+      "layer": "D2-S",
+      "method": "Frozen-Greedy",
+      "scenario": 2,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 9864226
+    },
+    {
+      "layer": "D2-S",
+      "method": "Fixed-PALR",
+      "scenario": 2,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 6124531
+    },
+    {
+      "layer": "D2-S",
+      "method": "Validation-Best-Fixed",
+      "scenario": 2,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 47758155
+    },
+    {
+      "layer": "D2-S",
+      "method": "Rule-PALR",
+      "scenario": 2,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 6742741
+    },
+    {
+      "layer": "D2-S",
+      "method": "PUCT-ISL",
+      "scenario": 2,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 24319381
+    },
+    {
+      "layer": "D2-S",
+      "method": "PUCT-ISL",
+      "scenario": 2,
+      "seed": 23,
+      "status": "feasible",
+      "total_ns": 21766973
+    },
+    {
+      "layer": "D2-S",
+      "method": "PUCT-ISL",
+      "scenario": 2,
+      "seed": 47,
+      "status": "feasible",
+      "total_ns": 21256162
+    },
+    {
+      "layer": "D2-S",
+      "method": "PUCT-ISL",
+      "scenario": 2,
+      "seed": 89,
+      "status": "feasible",
+      "total_ns": 21870952
+    },
+    {
+      "layer": "D2-S",
+      "method": "PUCT-ISL",
+      "scenario": 2,
+      "seed": 131,
+      "status": "feasible",
+      "total_ns": 20880211
+    },
+    {
+      "layer": "D2-S",
+      "method": "ALNS-ISL",
+      "scenario": 2,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 49893051
+    },
+    {
+      "layer": "D2-S",
+      "method": "ALNS-ISL",
+      "scenario": 2,
+      "seed": 23,
+      "status": "feasible",
+      "total_ns": 49727311
+    },
+    {
+      "layer": "D2-S",
+      "method": "ALNS-ISL",
+      "scenario": 2,
+      "seed": 47,
+      "status": "timeout",
+      "total_ns": 50305277
+    },
+    {
+      "layer": "D2-S",
+      "method": "ALNS-ISL",
+      "scenario": 2,
+      "seed": 89,
+      "status": "feasible",
+      "total_ns": 48047530
+    },
+    {
+      "layer": "D2-S",
+      "method": "ALNS-ISL",
+      "scenario": 2,
+      "seed": 131,
+      "status": "feasible",
+      "total_ns": 49977287
+    },
+    {
+      "layer": "D2-S",
+      "method": "CP-SAT-50ms",
+      "scenario": 2,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 33874231
+    },
+    {
+      "layer": "D2-S",
+      "method": "Minimal-Repair",
+      "scenario": 3,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 6648390
+    },
+    {
+      "layer": "D2-S",
+      "method": "Frozen-Greedy",
+      "scenario": 3,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 5905771
+    },
+    {
+      "layer": "D2-S",
+      "method": "Fixed-PALR",
+      "scenario": 3,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 4675895
+    },
+    {
+      "layer": "D2-S",
+      "method": "Validation-Best-Fixed",
+      "scenario": 3,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 4674249
+    },
+    {
+      "layer": "D2-S",
+      "method": "Rule-PALR",
+      "scenario": 3,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 5631758
+    },
+    {
+      "layer": "D2-S",
+      "method": "PUCT-ISL",
+      "scenario": 3,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 8910923
+    },
+    {
+      "layer": "D2-S",
+      "method": "PUCT-ISL",
+      "scenario": 3,
+      "seed": 23,
+      "status": "feasible",
+      "total_ns": 8843404
+    },
+    {
+      "layer": "D2-S",
+      "method": "PUCT-ISL",
+      "scenario": 3,
+      "seed": 47,
+      "status": "feasible",
+      "total_ns": 8851137
+    },
+    {
+      "layer": "D2-S",
+      "method": "PUCT-ISL",
+      "scenario": 3,
+      "seed": 89,
+      "status": "feasible",
+      "total_ns": 8929310
+    },
+    {
+      "layer": "D2-S",
+      "method": "PUCT-ISL",
+      "scenario": 3,
+      "seed": 131,
+      "status": "feasible",
+      "total_ns": 8881355
+    },
+    {
+      "layer": "D2-S",
+      "method": "ALNS-ISL",
+      "scenario": 3,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 49801961
+    },
+    {
+      "layer": "D2-S",
+      "method": "ALNS-ISL",
+      "scenario": 3,
+      "seed": 23,
+      "status": "feasible",
+      "total_ns": 49660095
+    },
+    {
+      "layer": "D2-S",
+      "method": "ALNS-ISL",
+      "scenario": 3,
+      "seed": 47,
+      "status": "feasible",
+      "total_ns": 49540696
+    },
+    {
+      "layer": "D2-S",
+      "method": "ALNS-ISL",
+      "scenario": 3,
+      "seed": 89,
+      "status": "timeout",
+      "total_ns": 50149994
+    },
+    {
+      "layer": "D2-S",
+      "method": "ALNS-ISL",
+      "scenario": 3,
+      "seed": 131,
+      "status": "feasible",
+      "total_ns": 49678337
+    },
+    {
+      "layer": "D2-S",
+      "method": "CP-SAT-50ms",
+      "scenario": 3,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 27849828
+    },
+    {
+      "layer": "D2-S",
+      "method": "Minimal-Repair",
+      "scenario": 4,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 6223469
+    },
+    {
+      "layer": "D2-S",
+      "method": "Frozen-Greedy",
+      "scenario": 4,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 39812438
+    },
+    {
+      "layer": "D2-S",
+      "method": "Fixed-PALR",
+      "scenario": 4,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 9905111
+    },
+    {
+      "layer": "D2-S",
+      "method": "Validation-Best-Fixed",
+      "scenario": 4,
+      "seed": 11,
+      "status": "timeout",
+      "total_ns": 50595046
+    },
+    {
+      "layer": "D2-S",
+      "method": "Rule-PALR",
+      "scenario": 4,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 10055336
+    },
+    {
+      "layer": "D2-S",
+      "method": "PUCT-ISL",
+      "scenario": 4,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 49981516
+    },
+    {
+      "layer": "D2-S",
+      "method": "PUCT-ISL",
+      "scenario": 4,
+      "seed": 23,
+      "status": "timeout",
+      "total_ns": 50359610
+    },
+    {
+      "layer": "D2-S",
+      "method": "PUCT-ISL",
+      "scenario": 4,
+      "seed": 47,
+      "status": "timeout",
+      "total_ns": 50158802
+    },
+    {
+      "layer": "D2-S",
+      "method": "PUCT-ISL",
+      "scenario": 4,
+      "seed": 89,
+      "status": "timeout",
+      "total_ns": 50167853
+    },
+    {
+      "layer": "D2-S",
+      "method": "PUCT-ISL",
+      "scenario": 4,
+      "seed": 131,
+      "status": "timeout",
+      "total_ns": 50031755
+    },
+    {
+      "layer": "D2-S",
+      "method": "ALNS-ISL",
+      "scenario": 4,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 49461003
+    },
+    {
+      "layer": "D2-S",
+      "method": "ALNS-ISL",
+      "scenario": 4,
+      "seed": 23,
+      "status": "feasible",
+      "total_ns": 49964883
+    },
+    {
+      "layer": "D2-S",
+      "method": "ALNS-ISL",
+      "scenario": 4,
+      "seed": 47,
+      "status": "feasible",
+      "total_ns": 47916359
+    },
+    {
+      "layer": "D2-S",
+      "method": "ALNS-ISL",
+      "scenario": 4,
+      "seed": 89,
+      "status": "feasible",
+      "total_ns": 49080470
+    },
+    {
+      "layer": "D2-S",
+      "method": "ALNS-ISL",
+      "scenario": 4,
+      "seed": 131,
+      "status": "feasible",
+      "total_ns": 49468545
+    },
+    {
+      "layer": "D2-S",
+      "method": "CP-SAT-50ms",
+      "scenario": 4,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 45470860
+    },
+    {
+      "layer": "D2-S",
+      "method": "Minimal-Repair",
+      "scenario": 5,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 4874907
+    },
+    {
+      "layer": "D2-S",
+      "method": "Frozen-Greedy",
+      "scenario": 5,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 13699614
+    },
+    {
+      "layer": "D2-S",
+      "method": "Fixed-PALR",
+      "scenario": 5,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 5306583
+    },
+    {
+      "layer": "D2-S",
+      "method": "Validation-Best-Fixed",
+      "scenario": 5,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 5393330
+    },
+    {
+      "layer": "D2-S",
+      "method": "Rule-PALR",
+      "scenario": 5,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 6690865
+    },
+    {
+      "layer": "D2-S",
+      "method": "PUCT-ISL",
+      "scenario": 5,
+      "seed": 11,
+      "status": "timeout",
+      "total_ns": 50113272
+    },
+    {
+      "layer": "D2-S",
+      "method": "PUCT-ISL",
+      "scenario": 5,
+      "seed": 23,
+      "status": "timeout",
+      "total_ns": 50179743
+    },
+    {
+      "layer": "D2-S",
+      "method": "PUCT-ISL",
+      "scenario": 5,
+      "seed": 47,
+      "status": "timeout",
+      "total_ns": 50162203
+    },
+    {
+      "layer": "D2-S",
+      "method": "PUCT-ISL",
+      "scenario": 5,
+      "seed": 89,
+      "status": "timeout",
+      "total_ns": 50167555
+    },
+    {
+      "layer": "D2-S",
+      "method": "PUCT-ISL",
+      "scenario": 5,
+      "seed": 131,
+      "status": "timeout",
+      "total_ns": 50180660
+    },
+    {
+      "layer": "D2-S",
+      "method": "ALNS-ISL",
+      "scenario": 5,
+      "seed": 11,
+      "status": "timeout",
+      "total_ns": 50127998
+    },
+    {
+      "layer": "D2-S",
+      "method": "ALNS-ISL",
+      "scenario": 5,
+      "seed": 23,
+      "status": "timeout",
+      "total_ns": 50330303
+    },
+    {
+      "layer": "D2-S",
+      "method": "ALNS-ISL",
+      "scenario": 5,
+      "seed": 47,
+      "status": "timeout",
+      "total_ns": 50139576
+    },
+    {
+      "layer": "D2-S",
+      "method": "ALNS-ISL",
+      "scenario": 5,
+      "seed": 89,
+      "status": "timeout",
+      "total_ns": 50405744
+    },
+    {
+      "layer": "D2-S",
+      "method": "ALNS-ISL",
+      "scenario": 5,
+      "seed": 131,
+      "status": "feasible",
+      "total_ns": 49171152
+    },
+    {
+      "layer": "D2-S",
+      "method": "CP-SAT-50ms",
+      "scenario": 5,
+      "seed": 11,
+      "status": "no_solver_solution",
+      "total_ns": 45198836
+    },
+    {
+      "layer": "D2-S",
+      "method": "Minimal-Repair",
+      "scenario": 6,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 6327205
+    },
+    {
+      "layer": "D2-S",
+      "method": "Frozen-Greedy",
+      "scenario": 6,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 46602855
+    },
+    {
+      "layer": "D2-S",
+      "method": "Fixed-PALR",
+      "scenario": 6,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 8453892
+    },
+    {
+      "layer": "D2-S",
+      "method": "Validation-Best-Fixed",
+      "scenario": 6,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 8158670
+    },
+    {
+      "layer": "D2-S",
+      "method": "Rule-PALR",
+      "scenario": 6,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 8826458
+    },
+    {
+      "layer": "D2-S",
+      "method": "PUCT-ISL",
+      "scenario": 6,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 49821089
+    },
+    {
+      "layer": "D2-S",
+      "method": "PUCT-ISL",
+      "scenario": 6,
+      "seed": 23,
+      "status": "feasible",
+      "total_ns": 49526119
+    },
+    {
+      "layer": "D2-S",
+      "method": "PUCT-ISL",
+      "scenario": 6,
+      "seed": 47,
+      "status": "feasible",
+      "total_ns": 49776437
+    },
+    {
+      "layer": "D2-S",
+      "method": "PUCT-ISL",
+      "scenario": 6,
+      "seed": 89,
+      "status": "feasible",
+      "total_ns": 48861888
+    },
+    {
+      "layer": "D2-S",
+      "method": "PUCT-ISL",
+      "scenario": 6,
+      "seed": 131,
+      "status": "feasible",
+      "total_ns": 49485870
+    },
+    {
+      "layer": "D2-S",
+      "method": "ALNS-ISL",
+      "scenario": 6,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 49632079
+    },
+    {
+      "layer": "D2-S",
+      "method": "ALNS-ISL",
+      "scenario": 6,
+      "seed": 23,
+      "status": "feasible",
+      "total_ns": 48742913
+    },
+    {
+      "layer": "D2-S",
+      "method": "ALNS-ISL",
+      "scenario": 6,
+      "seed": 47,
+      "status": "feasible",
+      "total_ns": 49367691
+    },
+    {
+      "layer": "D2-S",
+      "method": "ALNS-ISL",
+      "scenario": 6,
+      "seed": 89,
+      "status": "feasible",
+      "total_ns": 49774478
+    },
+    {
+      "layer": "D2-S",
+      "method": "ALNS-ISL",
+      "scenario": 6,
+      "seed": 131,
+      "status": "feasible",
+      "total_ns": 48502721
+    },
+    {
+      "layer": "D2-S",
+      "method": "CP-SAT-50ms",
+      "scenario": 6,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 35839013
+    },
+    {
+      "layer": "D2-S",
+      "method": "Minimal-Repair",
+      "scenario": 7,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 5395885
+    },
+    {
+      "layer": "D2-S",
+      "method": "Frozen-Greedy",
+      "scenario": 7,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 11421813
+    },
+    {
+      "layer": "D2-S",
+      "method": "Fixed-PALR",
+      "scenario": 7,
+      "seed": 11,
+      "status": "timeout",
+      "total_ns": 51593590
+    },
+    {
+      "layer": "D2-S",
+      "method": "Validation-Best-Fixed",
+      "scenario": 7,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 5934253
+    },
+    {
+      "layer": "D2-S",
+      "method": "Rule-PALR",
+      "scenario": 7,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 7175924
+    },
+    {
+      "layer": "D2-S",
+      "method": "PUCT-ISL",
+      "scenario": 7,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 27487327
+    },
+    {
+      "layer": "D2-S",
+      "method": "PUCT-ISL",
+      "scenario": 7,
+      "seed": 23,
+      "status": "feasible",
+      "total_ns": 27599547
+    },
+    {
+      "layer": "D2-S",
+      "method": "PUCT-ISL",
+      "scenario": 7,
+      "seed": 47,
+      "status": "feasible",
+      "total_ns": 26681838
+    },
+    {
+      "layer": "D2-S",
+      "method": "PUCT-ISL",
+      "scenario": 7,
+      "seed": 89,
+      "status": "feasible",
+      "total_ns": 26279084
+    },
+    {
+      "layer": "D2-S",
+      "method": "PUCT-ISL",
+      "scenario": 7,
+      "seed": 131,
+      "status": "feasible",
+      "total_ns": 27601404
+    },
+    {
+      "layer": "D2-S",
+      "method": "ALNS-ISL",
+      "scenario": 7,
+      "seed": 11,
+      "status": "timeout",
+      "total_ns": 50218134
+    },
+    {
+      "layer": "D2-S",
+      "method": "ALNS-ISL",
+      "scenario": 7,
+      "seed": 23,
+      "status": "feasible",
+      "total_ns": 49126730
+    },
+    {
+      "layer": "D2-S",
+      "method": "ALNS-ISL",
+      "scenario": 7,
+      "seed": 47,
+      "status": "timeout",
+      "total_ns": 50047124
+    },
+    {
+      "layer": "D2-S",
+      "method": "ALNS-ISL",
+      "scenario": 7,
+      "seed": 89,
+      "status": "timeout",
+      "total_ns": 50153480
+    },
+    {
+      "layer": "D2-S",
+      "method": "ALNS-ISL",
+      "scenario": 7,
+      "seed": 131,
+      "status": "feasible",
+      "total_ns": 48857003
+    },
+    {
+      "layer": "D2-S",
+      "method": "CP-SAT-50ms",
+      "scenario": 7,
+      "seed": 11,
+      "status": "no_solver_solution",
+      "total_ns": 47065916
+    },
+    {
+      "layer": "D2-S",
+      "method": "Minimal-Repair",
+      "scenario": 8,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 4839400
+    },
+    {
+      "layer": "D2-S",
+      "method": "Frozen-Greedy",
+      "scenario": 8,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 13759604
+    },
+    {
+      "layer": "D2-S",
+      "method": "Fixed-PALR",
+      "scenario": 8,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 9023463
+    },
+    {
+      "layer": "D2-S",
+      "method": "Validation-Best-Fixed",
+      "scenario": 8,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 8031791
+    },
+    {
+      "layer": "D2-S",
+      "method": "Rule-PALR",
+      "scenario": 8,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 6386871
+    },
+    {
+      "layer": "D2-S",
+      "method": "PUCT-ISL",
+      "scenario": 8,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 48059553
+    },
+    {
+      "layer": "D2-S",
+      "method": "PUCT-ISL",
+      "scenario": 8,
+      "seed": 23,
+      "status": "timeout",
+      "total_ns": 50941266
+    },
+    {
+      "layer": "D2-S",
+      "method": "PUCT-ISL",
+      "scenario": 8,
+      "seed": 47,
+      "status": "feasible",
+      "total_ns": 49974124
+    },
+    {
+      "layer": "D2-S",
+      "method": "PUCT-ISL",
+      "scenario": 8,
+      "seed": 89,
+      "status": "timeout",
+      "total_ns": 50130151
+    },
+    {
+      "layer": "D2-S",
+      "method": "PUCT-ISL",
+      "scenario": 8,
+      "seed": 131,
+      "status": "timeout",
+      "total_ns": 50126184
+    },
+    {
+      "layer": "D2-S",
+      "method": "ALNS-ISL",
+      "scenario": 8,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 48195444
+    },
+    {
+      "layer": "D2-S",
+      "method": "ALNS-ISL",
+      "scenario": 8,
+      "seed": 23,
+      "status": "timeout",
+      "total_ns": 50303247
+    },
+    {
+      "layer": "D2-S",
+      "method": "ALNS-ISL",
+      "scenario": 8,
+      "seed": 47,
+      "status": "feasible",
+      "total_ns": 49197387
+    },
+    {
+      "layer": "D2-S",
+      "method": "ALNS-ISL",
+      "scenario": 8,
+      "seed": 89,
+      "status": "timeout",
+      "total_ns": 50254321
+    },
+    {
+      "layer": "D2-S",
+      "method": "ALNS-ISL",
+      "scenario": 8,
+      "seed": 131,
+      "status": "timeout",
+      "total_ns": 50318843
+    },
+    {
+      "layer": "D2-S",
+      "method": "CP-SAT-50ms",
+      "scenario": 8,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 42554908
+    },
+    {
+      "layer": "D2-S",
+      "method": "Minimal-Repair",
+      "scenario": 9,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 4781854
+    },
+    {
+      "layer": "D2-S",
+      "method": "Frozen-Greedy",
+      "scenario": 9,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 14662452
+    },
+    {
+      "layer": "D2-S",
+      "method": "Fixed-PALR",
+      "scenario": 9,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 9708942
+    },
+    {
+      "layer": "D2-S",
+      "method": "Validation-Best-Fixed",
+      "scenario": 9,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 7399977
+    },
+    {
+      "layer": "D2-S",
+      "method": "Rule-PALR",
+      "scenario": 9,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 6424643
+    },
+    {
+      "layer": "D2-S",
+      "method": "PUCT-ISL",
+      "scenario": 9,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 49679487
+    },
+    {
+      "layer": "D2-S",
+      "method": "PUCT-ISL",
+      "scenario": 9,
+      "seed": 23,
+      "status": "timeout",
+      "total_ns": 50162799
+    },
+    {
+      "layer": "D2-S",
+      "method": "PUCT-ISL",
+      "scenario": 9,
+      "seed": 47,
+      "status": "timeout",
+      "total_ns": 50087345
+    },
+    {
+      "layer": "D2-S",
+      "method": "PUCT-ISL",
+      "scenario": 9,
+      "seed": 89,
+      "status": "feasible",
+      "total_ns": 49794560
+    },
+    {
+      "layer": "D2-S",
+      "method": "PUCT-ISL",
+      "scenario": 9,
+      "seed": 131,
+      "status": "timeout",
+      "total_ns": 50106362
+    },
+    {
+      "layer": "D2-S",
+      "method": "ALNS-ISL",
+      "scenario": 9,
+      "seed": 11,
+      "status": "timeout",
+      "total_ns": 50379211
+    },
+    {
+      "layer": "D2-S",
+      "method": "ALNS-ISL",
+      "scenario": 9,
+      "seed": 23,
+      "status": "feasible",
+      "total_ns": 49994656
+    },
+    {
+      "layer": "D2-S",
+      "method": "ALNS-ISL",
+      "scenario": 9,
+      "seed": 47,
+      "status": "feasible",
+      "total_ns": 49775963
+    },
+    {
+      "layer": "D2-S",
+      "method": "ALNS-ISL",
+      "scenario": 9,
+      "seed": 89,
+      "status": "feasible",
+      "total_ns": 49844015
+    },
+    {
+      "layer": "D2-S",
+      "method": "ALNS-ISL",
+      "scenario": 9,
+      "seed": 131,
+      "status": "feasible",
+      "total_ns": 48400412
+    },
+    {
+      "layer": "D2-S",
+      "method": "CP-SAT-50ms",
+      "scenario": 9,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 44237327
+    },
+    {
+      "layer": "D2-S",
+      "method": "Minimal-Repair",
+      "scenario": 10,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 46889144
+    },
+    {
+      "layer": "D2-S",
+      "method": "Frozen-Greedy",
+      "scenario": 10,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 11308192
+    },
+    {
+      "layer": "D2-S",
+      "method": "Fixed-PALR",
+      "scenario": 10,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 6355770
+    },
+    {
+      "layer": "D2-S",
+      "method": "Validation-Best-Fixed",
+      "scenario": 10,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 6284483
+    },
+    {
+      "layer": "D2-S",
+      "method": "Rule-PALR",
+      "scenario": 10,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 6924260
+    },
+    {
+      "layer": "D2-S",
+      "method": "PUCT-ISL",
+      "scenario": 10,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 27082587
+    },
+    {
+      "layer": "D2-S",
+      "method": "PUCT-ISL",
+      "scenario": 10,
+      "seed": 23,
+      "status": "feasible",
+      "total_ns": 27533767
+    },
+    {
+      "layer": "D2-S",
+      "method": "PUCT-ISL",
+      "scenario": 10,
+      "seed": 47,
+      "status": "feasible",
+      "total_ns": 26275752
+    },
+    {
+      "layer": "D2-S",
+      "method": "PUCT-ISL",
+      "scenario": 10,
+      "seed": 89,
+      "status": "feasible",
+      "total_ns": 25637609
+    },
+    {
+      "layer": "D2-S",
+      "method": "PUCT-ISL",
+      "scenario": 10,
+      "seed": 131,
+      "status": "feasible",
+      "total_ns": 25532852
+    },
+    {
+      "layer": "D2-S",
+      "method": "ALNS-ISL",
+      "scenario": 10,
+      "seed": 11,
+      "status": "timeout",
+      "total_ns": 50183944
+    },
+    {
+      "layer": "D2-S",
+      "method": "ALNS-ISL",
+      "scenario": 10,
+      "seed": 23,
+      "status": "feasible",
+      "total_ns": 49388045
+    },
+    {
+      "layer": "D2-S",
+      "method": "ALNS-ISL",
+      "scenario": 10,
+      "seed": 47,
+      "status": "timeout",
+      "total_ns": 50280865
+    },
+    {
+      "layer": "D2-S",
+      "method": "ALNS-ISL",
+      "scenario": 10,
+      "seed": 89,
+      "status": "feasible",
+      "total_ns": 49414084
+    },
+    {
+      "layer": "D2-S",
+      "method": "ALNS-ISL",
+      "scenario": 10,
+      "seed": 131,
+      "status": "feasible",
+      "total_ns": 49225048
+    },
+    {
+      "layer": "D2-S",
+      "method": "CP-SAT-50ms",
+      "scenario": 10,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 34391398
+    },
+    {
+      "layer": "D2-S",
+      "method": "Minimal-Repair",
+      "scenario": 11,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 5771770
+    },
+    {
+      "layer": "D2-S",
+      "method": "Frozen-Greedy",
+      "scenario": 11,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 11022352
+    },
+    {
+      "layer": "D2-S",
+      "method": "Fixed-PALR",
+      "scenario": 11,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 6122051
+    },
+    {
+      "layer": "D2-S",
+      "method": "Validation-Best-Fixed",
+      "scenario": 11,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 6454452
+    },
+    {
+      "layer": "D2-S",
+      "method": "Rule-PALR",
+      "scenario": 11,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 6884402
+    },
+    {
+      "layer": "D2-S",
+      "method": "PUCT-ISL",
+      "scenario": 11,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 26974445
+    },
+    {
+      "layer": "D2-S",
+      "method": "PUCT-ISL",
+      "scenario": 11,
+      "seed": 23,
+      "status": "feasible",
+      "total_ns": 25634691
+    },
+    {
+      "layer": "D2-S",
+      "method": "PUCT-ISL",
+      "scenario": 11,
+      "seed": 47,
+      "status": "feasible",
+      "total_ns": 48150657
+    },
+    {
+      "layer": "D2-S",
+      "method": "PUCT-ISL",
+      "scenario": 11,
+      "seed": 89,
+      "status": "feasible",
+      "total_ns": 26869954
+    },
+    {
+      "layer": "D2-S",
+      "method": "PUCT-ISL",
+      "scenario": 11,
+      "seed": 131,
+      "status": "feasible",
+      "total_ns": 28101400
+    },
+    {
+      "layer": "D2-S",
+      "method": "ALNS-ISL",
+      "scenario": 11,
+      "seed": 11,
+      "status": "timeout",
+      "total_ns": 50154165
+    },
+    {
+      "layer": "D2-S",
+      "method": "ALNS-ISL",
+      "scenario": 11,
+      "seed": 23,
+      "status": "feasible",
+      "total_ns": 48910536
+    },
+    {
+      "layer": "D2-S",
+      "method": "ALNS-ISL",
+      "scenario": 11,
+      "seed": 47,
+      "status": "timeout",
+      "total_ns": 50090049
+    },
+    {
+      "layer": "D2-S",
+      "method": "ALNS-ISL",
+      "scenario": 11,
+      "seed": 89,
+      "status": "timeout",
+      "total_ns": 50413091
+    },
+    {
+      "layer": "D2-S",
+      "method": "ALNS-ISL",
+      "scenario": 11,
+      "seed": 131,
+      "status": "feasible",
+      "total_ns": 49147776
+    },
+    {
+      "layer": "D2-S",
+      "method": "CP-SAT-50ms",
+      "scenario": 11,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 36351695
+    },
+    {
+      "layer": "D2-O",
+      "method": "Minimal-Repair",
+      "scenario": 0,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 4573877
+    },
+    {
+      "layer": "D2-O",
+      "method": "Frozen-Greedy",
+      "scenario": 0,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 11673972
+    },
+    {
+      "layer": "D2-O",
+      "method": "Fixed-PALR",
+      "scenario": 0,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 6321737
+    },
+    {
+      "layer": "D2-O",
+      "method": "Validation-Best-Fixed",
+      "scenario": 0,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 5598620
+    },
+    {
+      "layer": "D2-O",
+      "method": "Rule-PALR",
+      "scenario": 0,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 6106941
+    },
+    {
+      "layer": "D2-O",
+      "method": "PUCT-ISL",
+      "scenario": 0,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 40458199
+    },
+    {
+      "layer": "D2-O",
+      "method": "PUCT-ISL",
+      "scenario": 0,
+      "seed": 23,
+      "status": "feasible",
+      "total_ns": 43104297
+    },
+    {
+      "layer": "D2-O",
+      "method": "PUCT-ISL",
+      "scenario": 0,
+      "seed": 47,
+      "status": "feasible",
+      "total_ns": 40256923
+    },
+    {
+      "layer": "D2-O",
+      "method": "PUCT-ISL",
+      "scenario": 0,
+      "seed": 89,
+      "status": "feasible",
+      "total_ns": 41295869
+    },
+    {
+      "layer": "D2-O",
+      "method": "PUCT-ISL",
+      "scenario": 0,
+      "seed": 131,
+      "status": "feasible",
+      "total_ns": 43494859
+    },
+    {
+      "layer": "D2-O",
+      "method": "ALNS-ISL",
+      "scenario": 0,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 49701857
+    },
+    {
+      "layer": "D2-O",
+      "method": "ALNS-ISL",
+      "scenario": 0,
+      "seed": 23,
+      "status": "feasible",
+      "total_ns": 49714636
+    },
+    {
+      "layer": "D2-O",
+      "method": "ALNS-ISL",
+      "scenario": 0,
+      "seed": 47,
+      "status": "feasible",
+      "total_ns": 49592652
+    },
+    {
+      "layer": "D2-O",
+      "method": "ALNS-ISL",
+      "scenario": 0,
+      "seed": 89,
+      "status": "feasible",
+      "total_ns": 49554476
+    },
+    {
+      "layer": "D2-O",
+      "method": "ALNS-ISL",
+      "scenario": 0,
+      "seed": 131,
+      "status": "timeout",
+      "total_ns": 50678466
+    },
+    {
+      "layer": "D2-O",
+      "method": "CP-SAT-50ms",
+      "scenario": 0,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 40454987
+    },
+    {
+      "layer": "D2-O",
+      "method": "Minimal-Repair",
+      "scenario": 1,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 3093529
+    },
+    {
+      "layer": "D2-O",
+      "method": "Frozen-Greedy",
+      "scenario": 1,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 4184294
+    },
+    {
+      "layer": "D2-O",
+      "method": "Fixed-PALR",
+      "scenario": 1,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 3860727
+    },
+    {
+      "layer": "D2-O",
+      "method": "Validation-Best-Fixed",
+      "scenario": 1,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 3915978
+    },
+    {
+      "layer": "D2-O",
+      "method": "Rule-PALR",
+      "scenario": 1,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 5140911
+    },
+    {
+      "layer": "D2-O",
+      "method": "PUCT-ISL",
+      "scenario": 1,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 8492431
+    },
+    {
+      "layer": "D2-O",
+      "method": "PUCT-ISL",
+      "scenario": 1,
+      "seed": 23,
+      "status": "timeout",
+      "total_ns": 63144759
+    },
+    {
+      "layer": "D2-O",
+      "method": "PUCT-ISL",
+      "scenario": 1,
+      "seed": 47,
+      "status": "feasible",
+      "total_ns": 8645696
+    },
+    {
+      "layer": "D2-O",
+      "method": "PUCT-ISL",
+      "scenario": 1,
+      "seed": 89,
+      "status": "feasible",
+      "total_ns": 8746440
+    },
+    {
+      "layer": "D2-O",
+      "method": "PUCT-ISL",
+      "scenario": 1,
+      "seed": 131,
+      "status": "feasible",
+      "total_ns": 8649028
+    },
+    {
+      "layer": "D2-O",
+      "method": "ALNS-ISL",
+      "scenario": 1,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 48894268
+    },
+    {
+      "layer": "D2-O",
+      "method": "ALNS-ISL",
+      "scenario": 1,
+      "seed": 23,
+      "status": "feasible",
+      "total_ns": 49001781
+    },
+    {
+      "layer": "D2-O",
+      "method": "ALNS-ISL",
+      "scenario": 1,
+      "seed": 47,
+      "status": "feasible",
+      "total_ns": 48788862
+    },
+    {
+      "layer": "D2-O",
+      "method": "ALNS-ISL",
+      "scenario": 1,
+      "seed": 89,
+      "status": "feasible",
+      "total_ns": 49110842
+    },
+    {
+      "layer": "D2-O",
+      "method": "ALNS-ISL",
+      "scenario": 1,
+      "seed": 131,
+      "status": "feasible",
+      "total_ns": 48222028
+    },
+    {
+      "layer": "D2-O",
+      "method": "CP-SAT-50ms",
+      "scenario": 1,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 28295191
+    },
+    {
+      "layer": "D2-O",
+      "method": "Minimal-Repair",
+      "scenario": 2,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 5234456
+    },
+    {
+      "layer": "D2-O",
+      "method": "Frozen-Greedy",
+      "scenario": 2,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 10572379
+    },
+    {
+      "layer": "D2-O",
+      "method": "Fixed-PALR",
+      "scenario": 2,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 6282627
+    },
+    {
+      "layer": "D2-O",
+      "method": "Validation-Best-Fixed",
+      "scenario": 2,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 6379205
+    },
+    {
+      "layer": "D2-O",
+      "method": "Rule-PALR",
+      "scenario": 2,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 6943815
+    },
+    {
+      "layer": "D2-O",
+      "method": "PUCT-ISL",
+      "scenario": 2,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 22577649
+    },
+    {
+      "layer": "D2-O",
+      "method": "PUCT-ISL",
+      "scenario": 2,
+      "seed": 23,
+      "status": "feasible",
+      "total_ns": 23517285
+    },
+    {
+      "layer": "D2-O",
+      "method": "PUCT-ISL",
+      "scenario": 2,
+      "seed": 47,
+      "status": "feasible",
+      "total_ns": 22441625
+    },
+    {
+      "layer": "D2-O",
+      "method": "PUCT-ISL",
+      "scenario": 2,
+      "seed": 89,
+      "status": "feasible",
+      "total_ns": 21763602
+    },
+    {
+      "layer": "D2-O",
+      "method": "PUCT-ISL",
+      "scenario": 2,
+      "seed": 131,
+      "status": "feasible",
+      "total_ns": 22663222
+    },
+    {
+      "layer": "D2-O",
+      "method": "ALNS-ISL",
+      "scenario": 2,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 49594393
+    },
+    {
+      "layer": "D2-O",
+      "method": "ALNS-ISL",
+      "scenario": 2,
+      "seed": 23,
+      "status": "feasible",
+      "total_ns": 49497441
+    },
+    {
+      "layer": "D2-O",
+      "method": "ALNS-ISL",
+      "scenario": 2,
+      "seed": 47,
+      "status": "timeout",
+      "total_ns": 50178918
+    },
+    {
+      "layer": "D2-O",
+      "method": "ALNS-ISL",
+      "scenario": 2,
+      "seed": 89,
+      "status": "feasible",
+      "total_ns": 49882207
+    },
+    {
+      "layer": "D2-O",
+      "method": "ALNS-ISL",
+      "scenario": 2,
+      "seed": 131,
+      "status": "timeout",
+      "total_ns": 50068858
+    },
+    {
+      "layer": "D2-O",
+      "method": "CP-SAT-50ms",
+      "scenario": 2,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 33440214
+    },
+    {
+      "layer": "D2-O",
+      "method": "Minimal-Repair",
+      "scenario": 3,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 4506168
+    },
+    {
+      "layer": "D2-O",
+      "method": "Frozen-Greedy",
+      "scenario": 3,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 6268674
+    },
+    {
+      "layer": "D2-O",
+      "method": "Fixed-PALR",
+      "scenario": 3,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 5011152
+    },
+    {
+      "layer": "D2-O",
+      "method": "Validation-Best-Fixed",
+      "scenario": 3,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 5273002
+    },
+    {
+      "layer": "D2-O",
+      "method": "Rule-PALR",
+      "scenario": 3,
+      "seed": 11,
+      "status": "timeout",
+      "total_ns": 55304953
+    },
+    {
+      "layer": "D2-O",
+      "method": "PUCT-ISL",
+      "scenario": 3,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 9378024
+    },
+    {
+      "layer": "D2-O",
+      "method": "PUCT-ISL",
+      "scenario": 3,
+      "seed": 23,
+      "status": "feasible",
+      "total_ns": 9054042
+    },
+    {
+      "layer": "D2-O",
+      "method": "PUCT-ISL",
+      "scenario": 3,
+      "seed": 47,
+      "status": "feasible",
+      "total_ns": 9346571
+    },
+    {
+      "layer": "D2-O",
+      "method": "PUCT-ISL",
+      "scenario": 3,
+      "seed": 89,
+      "status": "feasible",
+      "total_ns": 9707832
+    },
+    {
+      "layer": "D2-O",
+      "method": "PUCT-ISL",
+      "scenario": 3,
+      "seed": 131,
+      "status": "feasible",
+      "total_ns": 9037013
+    },
+    {
+      "layer": "D2-O",
+      "method": "ALNS-ISL",
+      "scenario": 3,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 49335201
+    },
+    {
+      "layer": "D2-O",
+      "method": "ALNS-ISL",
+      "scenario": 3,
+      "seed": 23,
+      "status": "feasible",
+      "total_ns": 49698112
+    },
+    {
+      "layer": "D2-O",
+      "method": "ALNS-ISL",
+      "scenario": 3,
+      "seed": 47,
+      "status": "feasible",
+      "total_ns": 48363400
+    },
+    {
+      "layer": "D2-O",
+      "method": "ALNS-ISL",
+      "scenario": 3,
+      "seed": 89,
+      "status": "feasible",
+      "total_ns": 49425316
+    },
+    {
+      "layer": "D2-O",
+      "method": "ALNS-ISL",
+      "scenario": 3,
+      "seed": 131,
+      "status": "feasible",
+      "total_ns": 49128436
+    },
+    {
+      "layer": "D2-O",
+      "method": "CP-SAT-50ms",
+      "scenario": 3,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 28278821
+    },
+    {
+      "layer": "D2-O",
+      "method": "Minimal-Repair",
+      "scenario": 4,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 5346148
+    },
+    {
+      "layer": "D2-O",
+      "method": "Frozen-Greedy",
+      "scenario": 4,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 15179349
+    },
+    {
+      "layer": "D2-O",
+      "method": "Fixed-PALR",
+      "scenario": 4,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 5551017
+    },
+    {
+      "layer": "D2-O",
+      "method": "Validation-Best-Fixed",
+      "scenario": 4,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 6506682
+    },
+    {
+      "layer": "D2-O",
+      "method": "Rule-PALR",
+      "scenario": 4,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 6899511
+    },
+    {
+      "layer": "D2-O",
+      "method": "PUCT-ISL",
+      "scenario": 4,
+      "seed": 11,
+      "status": "timeout",
+      "total_ns": 50321887
+    },
+    {
+      "layer": "D2-O",
+      "method": "PUCT-ISL",
+      "scenario": 4,
+      "seed": 23,
+      "status": "timeout",
+      "total_ns": 50319579
+    },
+    {
+      "layer": "D2-O",
+      "method": "PUCT-ISL",
+      "scenario": 4,
+      "seed": 47,
+      "status": "timeout",
+      "total_ns": 50130360
+    },
+    {
+      "layer": "D2-O",
+      "method": "PUCT-ISL",
+      "scenario": 4,
+      "seed": 89,
+      "status": "feasible",
+      "total_ns": 49968623
+    },
+    {
+      "layer": "D2-O",
+      "method": "PUCT-ISL",
+      "scenario": 4,
+      "seed": 131,
+      "status": "timeout",
+      "total_ns": 50311601
+    },
+    {
+      "layer": "D2-O",
+      "method": "ALNS-ISL",
+      "scenario": 4,
+      "seed": 11,
+      "status": "timeout",
+      "total_ns": 51498537
+    },
+    {
+      "layer": "D2-O",
+      "method": "ALNS-ISL",
+      "scenario": 4,
+      "seed": 23,
+      "status": "feasible",
+      "total_ns": 49963817
+    },
+    {
+      "layer": "D2-O",
+      "method": "ALNS-ISL",
+      "scenario": 4,
+      "seed": 47,
+      "status": "timeout",
+      "total_ns": 50157858
+    },
+    {
+      "layer": "D2-O",
+      "method": "ALNS-ISL",
+      "scenario": 4,
+      "seed": 89,
+      "status": "feasible",
+      "total_ns": 49239524
+    },
+    {
+      "layer": "D2-O",
+      "method": "ALNS-ISL",
+      "scenario": 4,
+      "seed": 131,
+      "status": "feasible",
+      "total_ns": 49871094
+    },
+    {
+      "layer": "D2-O",
+      "method": "CP-SAT-50ms",
+      "scenario": 4,
+      "seed": 11,
+      "status": "no_solver_solution",
+      "total_ns": 46662344
+    },
+    {
+      "layer": "D2-O",
+      "method": "Minimal-Repair",
+      "scenario": 5,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 5466852
+    },
+    {
+      "layer": "D2-O",
+      "method": "Frozen-Greedy",
+      "scenario": 5,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 15389927
+    },
+    {
+      "layer": "D2-O",
+      "method": "Fixed-PALR",
+      "scenario": 5,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 5705923
+    },
+    {
+      "layer": "D2-O",
+      "method": "Validation-Best-Fixed",
+      "scenario": 5,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 5541423
+    },
+    {
+      "layer": "D2-O",
+      "method": "Rule-PALR",
+      "scenario": 5,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 6688541
+    },
+    {
+      "layer": "D2-O",
+      "method": "PUCT-ISL",
+      "scenario": 5,
+      "seed": 11,
+      "status": "timeout",
+      "total_ns": 50271644
+    },
+    {
+      "layer": "D2-O",
+      "method": "PUCT-ISL",
+      "scenario": 5,
+      "seed": 23,
+      "status": "feasible",
+      "total_ns": 49960828
+    },
+    {
+      "layer": "D2-O",
+      "method": "PUCT-ISL",
+      "scenario": 5,
+      "seed": 47,
+      "status": "timeout",
+      "total_ns": 50402523
+    },
+    {
+      "layer": "D2-O",
+      "method": "PUCT-ISL",
+      "scenario": 5,
+      "seed": 89,
+      "status": "timeout",
+      "total_ns": 50005594
+    },
+    {
+      "layer": "D2-O",
+      "method": "PUCT-ISL",
+      "scenario": 5,
+      "seed": 131,
+      "status": "timeout",
+      "total_ns": 50213389
+    },
+    {
+      "layer": "D2-O",
+      "method": "ALNS-ISL",
+      "scenario": 5,
+      "seed": 11,
+      "status": "timeout",
+      "total_ns": 50218216
+    },
+    {
+      "layer": "D2-O",
+      "method": "ALNS-ISL",
+      "scenario": 5,
+      "seed": 23,
+      "status": "feasible",
+      "total_ns": 49046303
+    },
+    {
+      "layer": "D2-O",
+      "method": "ALNS-ISL",
+      "scenario": 5,
+      "seed": 47,
+      "status": "timeout",
+      "total_ns": 51882047
+    },
+    {
+      "layer": "D2-O",
+      "method": "ALNS-ISL",
+      "scenario": 5,
+      "seed": 89,
+      "status": "timeout",
+      "total_ns": 51211268
+    },
+    {
+      "layer": "D2-O",
+      "method": "ALNS-ISL",
+      "scenario": 5,
+      "seed": 131,
+      "status": "timeout",
+      "total_ns": 60741723
+    },
+    {
+      "layer": "D2-O",
+      "method": "CP-SAT-50ms",
+      "scenario": 5,
+      "seed": 11,
+      "status": "no_solver_solution",
+      "total_ns": 45520613
+    },
+    {
+      "layer": "D2-O",
+      "method": "Minimal-Repair",
+      "scenario": 6,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 5685151
+    },
+    {
+      "layer": "D2-O",
+      "method": "Frozen-Greedy",
+      "scenario": 6,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 13921340
+    },
+    {
+      "layer": "D2-O",
+      "method": "Fixed-PALR",
+      "scenario": 6,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 6979181
+    },
+    {
+      "layer": "D2-O",
+      "method": "Validation-Best-Fixed",
+      "scenario": 6,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 6907309
+    },
+    {
+      "layer": "D2-O",
+      "method": "Rule-PALR",
+      "scenario": 6,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 6855169
+    },
+    {
+      "layer": "D2-O",
+      "method": "PUCT-ISL",
+      "scenario": 6,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 28886160
+    },
+    {
+      "layer": "D2-O",
+      "method": "PUCT-ISL",
+      "scenario": 6,
+      "seed": 23,
+      "status": "feasible",
+      "total_ns": 28897335
+    },
+    {
+      "layer": "D2-O",
+      "method": "PUCT-ISL",
+      "scenario": 6,
+      "seed": 47,
+      "status": "feasible",
+      "total_ns": 28011322
+    },
+    {
+      "layer": "D2-O",
+      "method": "PUCT-ISL",
+      "scenario": 6,
+      "seed": 89,
+      "status": "feasible",
+      "total_ns": 27830097
+    },
+    {
+      "layer": "D2-O",
+      "method": "PUCT-ISL",
+      "scenario": 6,
+      "seed": 131,
+      "status": "feasible",
+      "total_ns": 28019784
+    },
+    {
+      "layer": "D2-O",
+      "method": "ALNS-ISL",
+      "scenario": 6,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 49907592
+    },
+    {
+      "layer": "D2-O",
+      "method": "ALNS-ISL",
+      "scenario": 6,
+      "seed": 23,
+      "status": "timeout",
+      "total_ns": 50072026
+    },
+    {
+      "layer": "D2-O",
+      "method": "ALNS-ISL",
+      "scenario": 6,
+      "seed": 47,
+      "status": "feasible",
+      "total_ns": 48795347
+    },
+    {
+      "layer": "D2-O",
+      "method": "ALNS-ISL",
+      "scenario": 6,
+      "seed": 89,
+      "status": "feasible",
+      "total_ns": 49604228
+    },
+    {
+      "layer": "D2-O",
+      "method": "ALNS-ISL",
+      "scenario": 6,
+      "seed": 131,
+      "status": "feasible",
+      "total_ns": 49956728
+    },
+    {
+      "layer": "D2-O",
+      "method": "CP-SAT-50ms",
+      "scenario": 6,
+      "seed": 11,
+      "status": "timeout",
+      "total_ns": 67853711
+    },
+    {
+      "layer": "D2-O",
+      "method": "Minimal-Repair",
+      "scenario": 7,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 7005339
+    },
+    {
+      "layer": "D2-O",
+      "method": "Frozen-Greedy",
+      "scenario": 7,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 48466063
+    },
+    {
+      "layer": "D2-O",
+      "method": "Fixed-PALR",
+      "scenario": 7,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 9945146
+    },
+    {
+      "layer": "D2-O",
+      "method": "Validation-Best-Fixed",
+      "scenario": 7,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 8660636
+    },
+    {
+      "layer": "D2-O",
+      "method": "Rule-PALR",
+      "scenario": 7,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 10260994
+    },
+    {
+      "layer": "D2-O",
+      "method": "PUCT-ISL",
+      "scenario": 7,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 49232398
+    },
+    {
+      "layer": "D2-O",
+      "method": "PUCT-ISL",
+      "scenario": 7,
+      "seed": 23,
+      "status": "feasible",
+      "total_ns": 45708904
+    },
+    {
+      "layer": "D2-O",
+      "method": "PUCT-ISL",
+      "scenario": 7,
+      "seed": 47,
+      "status": "feasible",
+      "total_ns": 48394169
+    },
+    {
+      "layer": "D2-O",
+      "method": "PUCT-ISL",
+      "scenario": 7,
+      "seed": 89,
+      "status": "feasible",
+      "total_ns": 49598768
+    },
+    {
+      "layer": "D2-O",
+      "method": "PUCT-ISL",
+      "scenario": 7,
+      "seed": 131,
+      "status": "feasible",
+      "total_ns": 49963768
+    },
+    {
+      "layer": "D2-O",
+      "method": "ALNS-ISL",
+      "scenario": 7,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 49612263
+    },
+    {
+      "layer": "D2-O",
+      "method": "ALNS-ISL",
+      "scenario": 7,
+      "seed": 23,
+      "status": "timeout",
+      "total_ns": 50190172
+    },
+    {
+      "layer": "D2-O",
+      "method": "ALNS-ISL",
+      "scenario": 7,
+      "seed": 47,
+      "status": "feasible",
+      "total_ns": 48889749
+    },
+    {
+      "layer": "D2-O",
+      "method": "ALNS-ISL",
+      "scenario": 7,
+      "seed": 89,
+      "status": "feasible",
+      "total_ns": 49743218
+    },
+    {
+      "layer": "D2-O",
+      "method": "ALNS-ISL",
+      "scenario": 7,
+      "seed": 131,
+      "status": "feasible",
+      "total_ns": 49295854
+    },
+    {
+      "layer": "D2-O",
+      "method": "CP-SAT-50ms",
+      "scenario": 7,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 32749652
+    },
+    {
+      "layer": "D2-O",
+      "method": "Minimal-Repair",
+      "scenario": 8,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 5031182
+    },
+    {
+      "layer": "D2-O",
+      "method": "Frozen-Greedy",
+      "scenario": 8,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 43868217
+    },
+    {
+      "layer": "D2-O",
+      "method": "Fixed-PALR",
+      "scenario": 8,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 6546547
+    },
+    {
+      "layer": "D2-O",
+      "method": "Validation-Best-Fixed",
+      "scenario": 8,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 6793548
+    },
+    {
+      "layer": "D2-O",
+      "method": "Rule-PALR",
+      "scenario": 8,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 7105244
+    },
+    {
+      "layer": "D2-O",
+      "method": "PUCT-ISL",
+      "scenario": 8,
+      "seed": 11,
+      "status": "timeout",
+      "total_ns": 50281931
+    },
+    {
+      "layer": "D2-O",
+      "method": "PUCT-ISL",
+      "scenario": 8,
+      "seed": 23,
+      "status": "timeout",
+      "total_ns": 50194630
+    },
+    {
+      "layer": "D2-O",
+      "method": "PUCT-ISL",
+      "scenario": 8,
+      "seed": 47,
+      "status": "timeout",
+      "total_ns": 50343271
+    },
+    {
+      "layer": "D2-O",
+      "method": "PUCT-ISL",
+      "scenario": 8,
+      "seed": 89,
+      "status": "feasible",
+      "total_ns": 49584941
+    },
+    {
+      "layer": "D2-O",
+      "method": "PUCT-ISL",
+      "scenario": 8,
+      "seed": 131,
+      "status": "feasible",
+      "total_ns": 49962735
+    },
+    {
+      "layer": "D2-O",
+      "method": "ALNS-ISL",
+      "scenario": 8,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 49981422
+    },
+    {
+      "layer": "D2-O",
+      "method": "ALNS-ISL",
+      "scenario": 8,
+      "seed": 23,
+      "status": "timeout",
+      "total_ns": 50347674
+    },
+    {
+      "layer": "D2-O",
+      "method": "ALNS-ISL",
+      "scenario": 8,
+      "seed": 47,
+      "status": "feasible",
+      "total_ns": 49095726
+    },
+    {
+      "layer": "D2-O",
+      "method": "ALNS-ISL",
+      "scenario": 8,
+      "seed": 89,
+      "status": "feasible",
+      "total_ns": 49923440
+    },
+    {
+      "layer": "D2-O",
+      "method": "ALNS-ISL",
+      "scenario": 8,
+      "seed": 131,
+      "status": "feasible",
+      "total_ns": 49897132
+    },
+    {
+      "layer": "D2-O",
+      "method": "CP-SAT-50ms",
+      "scenario": 8,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 43898761
+    },
+    {
+      "layer": "D2-O",
+      "method": "Minimal-Repair",
+      "scenario": 9,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 5209440
+    },
+    {
+      "layer": "D2-O",
+      "method": "Frozen-Greedy",
+      "scenario": 9,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 14687557
+    },
+    {
+      "layer": "D2-O",
+      "method": "Fixed-PALR",
+      "scenario": 9,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 6031928
+    },
+    {
+      "layer": "D2-O",
+      "method": "Validation-Best-Fixed",
+      "scenario": 9,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 7107786
+    },
+    {
+      "layer": "D2-O",
+      "method": "Rule-PALR",
+      "scenario": 9,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 49062795
+    },
+    {
+      "layer": "D2-O",
+      "method": "PUCT-ISL",
+      "scenario": 9,
+      "seed": 11,
+      "status": "timeout",
+      "total_ns": 50287986
+    },
+    {
+      "layer": "D2-O",
+      "method": "PUCT-ISL",
+      "scenario": 9,
+      "seed": 23,
+      "status": "timeout",
+      "total_ns": 50573712
+    },
+    {
+      "layer": "D2-O",
+      "method": "PUCT-ISL",
+      "scenario": 9,
+      "seed": 47,
+      "status": "feasible",
+      "total_ns": 49987964
+    },
+    {
+      "layer": "D2-O",
+      "method": "PUCT-ISL",
+      "scenario": 9,
+      "seed": 89,
+      "status": "timeout",
+      "total_ns": 51688927
+    },
+    {
+      "layer": "D2-O",
+      "method": "PUCT-ISL",
+      "scenario": 9,
+      "seed": 131,
+      "status": "timeout",
+      "total_ns": 50247136
+    },
+    {
+      "layer": "D2-O",
+      "method": "ALNS-ISL",
+      "scenario": 9,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 49835827
+    },
+    {
+      "layer": "D2-O",
+      "method": "ALNS-ISL",
+      "scenario": 9,
+      "seed": 23,
+      "status": "feasible",
+      "total_ns": 49907709
+    },
+    {
+      "layer": "D2-O",
+      "method": "ALNS-ISL",
+      "scenario": 9,
+      "seed": 47,
+      "status": "feasible",
+      "total_ns": 49537082
+    },
+    {
+      "layer": "D2-O",
+      "method": "ALNS-ISL",
+      "scenario": 9,
+      "seed": 89,
+      "status": "timeout",
+      "total_ns": 50029108
+    },
+    {
+      "layer": "D2-O",
+      "method": "ALNS-ISL",
+      "scenario": 9,
+      "seed": 131,
+      "status": "feasible",
+      "total_ns": 49887813
+    },
+    {
+      "layer": "D2-O",
+      "method": "CP-SAT-50ms",
+      "scenario": 9,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 43523570
+    },
+    {
+      "layer": "D2-O",
+      "method": "Minimal-Repair",
+      "scenario": 10,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 7109173
+    },
+    {
+      "layer": "D2-O",
+      "method": "Frozen-Greedy",
+      "scenario": 10,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 12324765
+    },
+    {
+      "layer": "D2-O",
+      "method": "Fixed-PALR",
+      "scenario": 10,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 6273965
+    },
+    {
+      "layer": "D2-O",
+      "method": "Validation-Best-Fixed",
+      "scenario": 10,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 6157920
+    },
+    {
+      "layer": "D2-O",
+      "method": "Rule-PALR",
+      "scenario": 10,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 6452467
+    },
+    {
+      "layer": "D2-O",
+      "method": "PUCT-ISL",
+      "scenario": 10,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 27273200
+    },
+    {
+      "layer": "D2-O",
+      "method": "PUCT-ISL",
+      "scenario": 10,
+      "seed": 23,
+      "status": "feasible",
+      "total_ns": 49549755
+    },
+    {
+      "layer": "D2-O",
+      "method": "PUCT-ISL",
+      "scenario": 10,
+      "seed": 47,
+      "status": "feasible",
+      "total_ns": 28124638
+    },
+    {
+      "layer": "D2-O",
+      "method": "PUCT-ISL",
+      "scenario": 10,
+      "seed": 89,
+      "status": "feasible",
+      "total_ns": 29032582
+    },
+    {
+      "layer": "D2-O",
+      "method": "PUCT-ISL",
+      "scenario": 10,
+      "seed": 131,
+      "status": "feasible",
+      "total_ns": 27032313
+    },
+    {
+      "layer": "D2-O",
+      "method": "ALNS-ISL",
+      "scenario": 10,
+      "seed": 11,
+      "status": "timeout",
+      "total_ns": 50074298
+    },
+    {
+      "layer": "D2-O",
+      "method": "ALNS-ISL",
+      "scenario": 10,
+      "seed": 23,
+      "status": "feasible",
+      "total_ns": 49969126
+    },
+    {
+      "layer": "D2-O",
+      "method": "ALNS-ISL",
+      "scenario": 10,
+      "seed": 47,
+      "status": "feasible",
+      "total_ns": 49326461
+    },
+    {
+      "layer": "D2-O",
+      "method": "ALNS-ISL",
+      "scenario": 10,
+      "seed": 89,
+      "status": "timeout",
+      "total_ns": 50165716
+    },
+    {
+      "layer": "D2-O",
+      "method": "ALNS-ISL",
+      "scenario": 10,
+      "seed": 131,
+      "status": "timeout",
+      "total_ns": 50431519
+    },
+    {
+      "layer": "D2-O",
+      "method": "CP-SAT-50ms",
+      "scenario": 10,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 34769709
+    },
+    {
+      "layer": "D2-O",
+      "method": "Minimal-Repair",
+      "scenario": 11,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 5701082
+    },
+    {
+      "layer": "D2-O",
+      "method": "Frozen-Greedy",
+      "scenario": 11,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 12314755
+    },
+    {
+      "layer": "D2-O",
+      "method": "Fixed-PALR",
+      "scenario": 11,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 6177665
+    },
+    {
+      "layer": "D2-O",
+      "method": "Validation-Best-Fixed",
+      "scenario": 11,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 6336086
+    },
+    {
+      "layer": "D2-O",
+      "method": "Rule-PALR",
+      "scenario": 11,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 7028666
+    },
+    {
+      "layer": "D2-O",
+      "method": "PUCT-ISL",
+      "scenario": 11,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 28179998
+    },
+    {
+      "layer": "D2-O",
+      "method": "PUCT-ISL",
+      "scenario": 11,
+      "seed": 23,
+      "status": "feasible",
+      "total_ns": 28566098
+    },
+    {
+      "layer": "D2-O",
+      "method": "PUCT-ISL",
+      "scenario": 11,
+      "seed": 47,
+      "status": "feasible",
+      "total_ns": 49020087
+    },
+    {
+      "layer": "D2-O",
+      "method": "PUCT-ISL",
+      "scenario": 11,
+      "seed": 89,
+      "status": "feasible",
+      "total_ns": 27627778
+    },
+    {
+      "layer": "D2-O",
+      "method": "PUCT-ISL",
+      "scenario": 11,
+      "seed": 131,
+      "status": "feasible",
+      "total_ns": 28388438
+    },
+    {
+      "layer": "D2-O",
+      "method": "ALNS-ISL",
+      "scenario": 11,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 49510180
+    },
+    {
+      "layer": "D2-O",
+      "method": "ALNS-ISL",
+      "scenario": 11,
+      "seed": 23,
+      "status": "timeout",
+      "total_ns": 50023262
+    },
+    {
+      "layer": "D2-O",
+      "method": "ALNS-ISL",
+      "scenario": 11,
+      "seed": 47,
+      "status": "feasible",
+      "total_ns": 49123726
+    },
+    {
+      "layer": "D2-O",
+      "method": "ALNS-ISL",
+      "scenario": 11,
+      "seed": 89,
+      "status": "timeout",
+      "total_ns": 50222344
+    },
+    {
+      "layer": "D2-O",
+      "method": "ALNS-ISL",
+      "scenario": 11,
+      "seed": 131,
+      "status": "timeout",
+      "total_ns": 50161014
+    },
+    {
+      "layer": "D2-O",
+      "method": "CP-SAT-50ms",
+      "scenario": 11,
+      "seed": 11,
+      "status": "feasible",
+      "total_ns": 34433574
+    }
+  ],
+  "passed": true,
+  "protocol": "all outcomes retained; no performance-based tuning",
+  "test_calls": 0
+}

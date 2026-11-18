@@ -1,0 +1,31 @@
+{
+  "run": "LOAD-pilot-20261105T141600Z",
+  "selection": {
+    "version": "1.0",
+    "source_config_sha256": "fa8a4022cc3f459f627c3f446915fc6ad55c108c3bd6937e5af23c447abee6b7",
+    "default": {
+      "N": 100,
+      "h": 0.0,
+      "preserved": true
+    },
+    "new_layers": {
+      "medium": {
+        "candidate": {
+          "N": 500,
+          "h": 0.8
+        },
+        "frozen": true,
+        "validation_reasons": []
+      },
+      "high": {
+        "frozen": false,
+        "reason": "no_training_candidate"
+      }
+    },
+    "validation_fallback_performed": false,
+    "P3_started": false,
+    "repair_methods_run": []
+  },
+  "evidence_zip_sha256": "200fa13ce8528fab55fc2a29e3c92ed347c8a547ebafdf1310b0243ba94e1793",
+  "note": "Evidence supplement; full original P1 dependencies remain available in the Git repository."
+}

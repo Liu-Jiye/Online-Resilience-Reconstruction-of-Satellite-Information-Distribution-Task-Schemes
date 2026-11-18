@@ -1,0 +1,81 @@
+{
+  "date": "2026-11-18",
+  "stage_integrity": {
+    "passed": true,
+    "stages": {
+      "P3": {
+        "passed": true,
+        "acceptance_files": 8103,
+        "source_freeze_files": 0,
+        "archived_independent_audit_passed": true
+      },
+      "P3-R": {
+        "passed": true,
+        "acceptance_files": 3253,
+        "source_freeze_files": 41,
+        "archived_independent_audit_passed": true
+      },
+      "P4": {
+        "passed": true,
+        "acceptance_files": 4224,
+        "source_freeze_files": 47,
+        "archived_independent_audit_passed": true
+      }
+    },
+    "verification_scope": "Byte integrity and preserved audit certificates; no new semantic replay or timing."
+  },
+  "delivery_integrity": {
+    "passed": true,
+    "deliverables": 103,
+    "split_archives": 2,
+    "original_bytes": 490475740,
+    "restore_dir": null
+  },
+  "restored_zip_checks": [
+    {
+      "name": "P3R_reproducibility_package.zip",
+      "bytes": 210330363,
+      "sha256": "29e06cf6653bf4ccd72f1e4850346db5ea91f37fda5e13da6fcb471d9a40f662",
+      "members": 3260,
+      "crc_passed": true
+    },
+    {
+      "name": "P4_reproducibility_package.zip",
+      "bytes": 187524941,
+      "sha256": "86be78e0125483debe6329125a32729ed34c8c90ed55136f9686af662676dc05",
+      "members": 4289,
+      "crc_passed": true
+    }
+  ],
+  "regression_tests": {
+    "passed": 29,
+    "environment": "Existing Windows/Python3.14 development venv; functional tests only, not formal Linux timing."
+  },
+  "frozen_byte_restoration": [
+    "environment/p3/Dockerfile",
+    "environment/p3/requirements.in",
+    "environment/p3/requirements.lock.txt",
+    "scripts/accept_p3_runtime.py"
+  ],
+  "no_online_experiments_rerun": true,
+  "git_index": {
+    "passed": true,
+    "accepted_and_delivered_files_verified_in_git_index": 15696,
+    "bytes_verified": 998084038,
+    "changed_files": 7621,
+    "write_scope": "experiment_runs/",
+    "all_new_files_below_100MB": true
+  },
+  "public_read_only_verifiers": {
+    "verify_p3.py": {
+      "passed": true,
+      "bases": 5000,
+      "records": 992000
+    },
+    "verify_p3r.py": {
+      "passed": true,
+      "bases": 1000,
+      "records": 168000
+    }
+  }
+}

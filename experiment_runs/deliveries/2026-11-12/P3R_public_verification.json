@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "bases": 1000,
+  "records": 168000,
+  "files": 3253,
+  "scope": "Final delivered revision manifest hashes verified after report interpretation update; recorded metric verifier previously exited 0",
+  "test_instances": 0
+}

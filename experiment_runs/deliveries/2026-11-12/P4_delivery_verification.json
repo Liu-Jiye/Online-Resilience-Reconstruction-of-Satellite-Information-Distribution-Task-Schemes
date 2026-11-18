@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "files": 4224,
+  "main_calls": 192000,
+  "timing_calls": 384000,
+  "package_bytes": 187524941,
+  "package_sha256": "86be78e0125483debe6329125a32729ed34c8c90ed55136f9686af662676dc05",
+  "zip_crc_checked": true
+}

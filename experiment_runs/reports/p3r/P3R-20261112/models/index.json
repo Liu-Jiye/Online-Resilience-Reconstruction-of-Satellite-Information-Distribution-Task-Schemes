@@ -1,0 +1,62 @@
+{
+  "params": {
+    "n_estimators": 32,
+    "max_depth": 6,
+    "min_samples_leaf": 5,
+    "random_state": 20261112,
+    "n_jobs": 1
+  },
+  "actions": [
+    [
+      3,
+      1
+    ],
+    [
+      5,
+      1
+    ],
+    [
+      5,
+      2
+    ],
+    [
+      10,
+      3
+    ]
+  ],
+  "files": {
+    "action": {
+      "sha256": "ebab4ec4dc05acb7e1bdeccbca2e03376864f134e3a366f7638fbf383cb895be",
+      "bytes": 99096,
+      "fit_and_save_ns": 61558341,
+      "label_counts": {
+        "-1": 1278,
+        "0": 2091,
+        "1": 508,
+        "2": 521,
+        "3": 202
+      }
+    },
+    "deviation": {
+      "sha256": "812624860aa972d92aeacd962dde4157f8497f89d0f835c4b0c90b5c7802182f",
+      "bytes": 65858,
+      "fit_and_save_ns": 62891874,
+      "label_counts": {
+        "-1": 4114,
+        "0": 188,
+        "1": 157,
+        "2": 85,
+        "3": 56
+      }
+    }
+  },
+  "costs": {
+    "old_records": 80000,
+    "new_records": 2400,
+    "new_label_response_ns": 73907529032,
+    "new_feature_ns": 2428357213
+  },
+  "states": 4600,
+  "independent_training_bases": 4000,
+  "validation_used": false
+}

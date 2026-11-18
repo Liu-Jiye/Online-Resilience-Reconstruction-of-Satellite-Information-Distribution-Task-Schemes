@@ -1,0 +1,43 @@
+         111904541 function calls (110273665 primitive calls) in 90.814 seconds
+
+   Ordered by: cumulative time
+   List reduced from 125 to 35 due to restriction <35>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+     1440    0.664    0.000   92.375    0.064 /workspace/experiment_runs/src/isl/p3r/repair_runtime.py:71(run_method)
+12181/8334   37.185    0.003   49.124    0.006 /workspace/experiment_runs/src/isl/p3r/validation_indexed.py:21(validate)
+     1440    0.052    0.000   18.336    0.013 /workspace/experiment_runs/src/isl/metrics.py:33(scored_metrics)
+     1440    0.109    0.000   18.263    0.013 /workspace/experiment_runs/src/isl/metrics.py:4(raw_metrics)
+     2880    0.024    0.000   17.360    0.006 /workspace/experiment_runs/src/isl/models.py:198(effective_instance)
+     2880    0.244    0.000   17.337    0.006 /workspace/experiment_runs/src/isl/models.py:168(apply_event)
+   866880    4.326    0.000   16.084    0.000 /usr/local/lib/python3.11/dataclasses.py:1455(replace)
+     1549    0.080    0.000   15.116    0.010 /workspace/experiment_runs/src/isl/p3r/repair_runtime.py:99(audit)
+   866880    0.715    0.000   13.076    0.000 /workspace/experiment_runs/src/isl/models.py:173(<genexpr>)
+   324885    0.279    0.000   10.801    0.000 /usr/local/lib/python3.11/dataclasses.py:1265(asdict)
+1951914/324885    4.199    0.000   10.362    0.000 /usr/local/lib/python3.11/dataclasses.py:1289(_asdict_inner)
+   416443    0.286    0.000    9.976    0.000 {built-in method builtins.sum}
+   137253    0.458    0.000    9.178    0.000 /workspace/experiment_runs/src/isl/metrics.py:16(<genexpr>)
+   278647    0.152    0.000    9.065    0.000 /workspace/experiment_runs/src/isl/models.py:133(task_map)
+   278647    8.912    0.000    8.912    0.000 /workspace/experiment_runs/src/isl/models.py:135(<dictcomp>)
+   864000    3.077    0.000    5.375    0.000 /workspace/experiment_runs/src/isl/models.py:37(__post_init__)
+  2311338    4.677    0.000    5.143    0.000 {built-in method builtins.sorted}
+     1440    0.060    0.000    4.526    0.003 /workspace/experiment_runs/src/isl/p3r/repair_runtime.py:312(<listcomp>)
+     2880    0.010    0.000    3.801    0.001 <string>:2(__init__)
+     2880    3.464    0.001    3.791    0.001 /workspace/experiment_runs/src/isl/models.py:112(__post_init__)
+  1621821    1.918    0.000    2.678    0.000 /usr/local/lib/python3.11/copy.py:128(deepcopy)
+    62325    0.615    0.000    2.353    0.000 /workspace/experiment_runs/src/isl/p3r/indexed.py:52(earliest)
+ 15312045    1.970    0.000    1.970    0.000 {method 'setdefault' of 'dict' objects}
+  1166146    0.583    0.000    1.889    0.000 {built-in method builtins.any}
+  3143679    1.063    0.000    1.867    0.000 /usr/local/lib/python3.11/dataclasses.py:1253(_is_dataclass_instance)
+ 20460321    1.747    0.000    1.747    0.000 {method 'append' of 'list' objects}
+ 13201194    1.313    0.000    1.313    0.000 {built-in method builtins.getattr}
+  8498146    1.290    0.000    1.290    0.000 {method 'get' of 'dict' objects}
+     1440    1.029    0.001    1.224    0.001 /workspace/experiment_runs/src/isl/p3r/indexed.py:7(__init__)
+   324885    0.724    0.000    1.184    0.000 /usr/local/lib/python3.11/dataclasses.py:1235(fields)
+  2687795    1.080    0.000    1.080    0.000 /workspace/experiment_runs/src/isl/p3r/validation_indexed.py:66(<genexpr>)
+  2687040    0.812    0.000    1.042    0.000 /workspace/experiment_runs/src/isl/models.py:13(identifier)
+     1440    0.013    0.000    0.958    0.001 /workspace/experiment_runs/src/isl/p3r/repair_runtime.py:318(<listcomp>)
+      156    0.002    0.000    0.952    0.006 /workspace/experiment_runs/src/isl/p3r/repair_runtime.py:115(accept)
+    62325    0.506    0.000    0.923    0.000 /workspace/experiment_runs/src/isl/p3r/indexed.py:26(occupied)
+
+

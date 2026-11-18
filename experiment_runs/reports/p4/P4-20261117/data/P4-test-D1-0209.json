@@ -1,0 +1,11 @@
+{
+  "archive_sha256": "9c331710fabc7ae2058db8c95c12c33185344ca9aae11e22a7a288fcec8e7c7d",
+  "generation_ns": 41012213,
+  "geometry": {
+    "type": "synthetic"
+  },
+  "id": "P4-test-D1-0209",
+  "layer": "D1",
+  "payload_sha256": "e2d68ac26353f9a72bae231669dbc3970f37fb43e8fd4e98da6508a74b336d6b",
+  "seed": 390209
+}

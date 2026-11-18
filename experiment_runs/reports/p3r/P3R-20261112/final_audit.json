@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "records": 168000,
+  "validation_bases": 1000,
+  "receipts": 1000,
+  "frozen_P3_files_verified": 8103,
+  "independent_replay": "original isl.validation was run on every validated output by the collector before sealing each receipt",
+  "source_freeze_verified": true,
+  "test_instances": 0,
+  "P4_started": false,
+  "selected": {
+    "default": {
+      "main_controller": "rule",
+      "reason": "neither sparse candidate passed all predeclared net-benefit gates"
+    },
+    "N500-h0.8": {
+      "main_controller": "rule",
+      "reason": "neither sparse candidate passed all predeclared net-benefit gates"
+    }
+  }
+}

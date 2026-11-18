@@ -1,0 +1,604 @@
+{
+  "fixed/N500-h0.8": {
+    "n": 12000,
+    "total": {
+      "mean_ms": 44.44753084058333,
+      "p50_p95_p99_ms": [
+        41.708261,
+        74.64848669999998,
+        87.87267912
+      ]
+    },
+    "components": {
+      "accepted_validation_ns": {
+        "mean_ms": 7.04584416175,
+        "p50_p95_p99_ms": [
+          5.999502,
+          13.773118299999998,
+          21.530992640000004
+        ]
+      },
+      "control_ns": {
+        "mean_ms": 0.0,
+        "p50_p95_p99_ms": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "filter_ns": {
+        "mean_ms": 3.5695457923333334,
+        "p50_p95_p99_ms": [
+          0.0,
+          13.201929299999996,
+          14.252565830000002
+        ]
+      },
+      "final_validation_ns": {
+        "mean_ms": 14.192316717,
+        "p50_p95_p99_ms": [
+          13.875528,
+          24.616129749999992,
+          30.949978840000018
+        ]
+      },
+      "input_and_baseline_ns": {
+        "mean_ms": 8.0881074825,
+        "p50_p95_p99_ms": [
+          7.475049,
+          13.02394305,
+          20.49524983000002
+        ]
+      },
+      "repair_ns": {
+        "mean_ms": 0.000271281,
+        "p50_p95_p99_ms": [
+          0.0,
+          0.0009700499999999993,
+          0.0013110200000000004
+        ]
+      },
+      "unattributed_ns": {
+        "mean_ms": 11.551445406,
+        "p50_p95_p99_ms": [
+          14.1220275,
+          24.822047849999997,
+          31.009776480000003
+        ]
+      }
+    },
+    "timeouts": 4225,
+    "valid_but_late": 4196,
+    "feasible_but_unserved": 3992,
+    "caution": "component timers can be incomplete after cooperative deadline; percentiles are not additive; no physical infeasibility certificate"
+  },
+  "fixed/default": {
+    "n": 12000,
+    "total": {
+      "mean_ms": 9.122367069166666,
+      "p50_p95_p99_ms": [
+        7.9548625,
+        17.209047399999996,
+        26.30008003
+      ]
+    },
+    "components": {
+      "accepted_validation_ns": {
+        "mean_ms": 1.87084812775,
+        "p50_p95_p99_ms": [
+          1.2649515,
+          4.281062999999998,
+          16.13798849000001
+        ]
+      },
+      "control_ns": {
+        "mean_ms": 0.0,
+        "p50_p95_p99_ms": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "filter_ns": {
+        "mean_ms": 1.8345117467499998,
+        "p50_p95_p99_ms": [
+          1.7195475,
+          2.96760565,
+          4.1526315600000085
+        ]
+      },
+      "final_validation_ns": {
+        "mean_ms": 1.8249340871666668,
+        "p50_p95_p99_ms": [
+          1.6597765,
+          3.0766578999999994,
+          4.598938550000001
+        ]
+      },
+      "input_and_baseline_ns": {
+        "mean_ms": 2.4611176028333333,
+        "p50_p95_p99_ms": [
+          2.203928,
+          3.7314671999999995,
+          6.135072380000001
+        ]
+      },
+      "repair_ns": {
+        "mean_ms": 1.0493600158333334,
+        "p50_p95_p99_ms": [
+          0.8045435,
+          2.8340380499999998,
+          4.062842850000001
+        ]
+      },
+      "unattributed_ns": {
+        "mean_ms": 0.08159548883333334,
+        "p50_p95_p99_ms": [
+          0.011171,
+          0.022080349999999995,
+          0.041160420000000024
+        ]
+      }
+    },
+    "timeouts": 1,
+    "valid_but_late": 1,
+    "feasible_but_unserved": 3327,
+    "caution": "component timers can be incomplete after cooperative deadline; percentiles are not additive; no physical infeasibility certificate"
+  },
+  "rule/N500-h0.8": {
+    "n": 12000,
+    "total": {
+      "mean_ms": 49.68007165275,
+      "p50_p95_p99_ms": [
+        46.2526505,
+        75.81329389999998,
+        85.67049539
+      ]
+    },
+    "components": {
+      "accepted_validation_ns": {
+        "mean_ms": 6.739310598833334,
+        "p50_p95_p99_ms": [
+          5.6275605,
+          12.788384,
+          16.650571910000004
+        ]
+      },
+      "control_ns": {
+        "mean_ms": 3.680801659416667,
+        "p50_p95_p99_ms": [
+          2.8842195,
+          6.3362256,
+          8.760235590000002
+        ]
+      },
+      "filter_ns": {
+        "mean_ms": 2.8248520679166664,
+        "p50_p95_p99_ms": [
+          0.0,
+          11.873084650000001,
+          13.13177203
+        ]
+      },
+      "final_validation_ns": {
+        "mean_ms": 14.245588194916667,
+        "p50_p95_p99_ms": [
+          13.9583015,
+          24.6849416,
+          28.627855680000003
+        ]
+      },
+      "input_and_baseline_ns": {
+        "mean_ms": 7.337294652333333,
+        "p50_p95_p99_ms": [
+          6.8114005,
+          10.866992049999997,
+          15.825974420000026
+        ]
+      },
+      "repair_ns": {
+        "mean_ms": 0.04446296883333333,
+        "p50_p95_p99_ms": [
+          0.0,
+          0.00077,
+          0.0010300200000000004
+        ]
+      },
+      "unattributed_ns": {
+        "mean_ms": 14.8077615105,
+        "p50_p95_p99_ms": [
+          15.404437,
+          26.29928265,
+          29.59084396
+        ]
+      }
+    },
+    "timeouts": 4248,
+    "valid_but_late": 4248,
+    "feasible_but_unserved": 3999,
+    "caution": "component timers can be incomplete after cooperative deadline; percentiles are not additive; no physical infeasibility certificate"
+  },
+  "rule/default": {
+    "n": 12000,
+    "total": {
+      "mean_ms": 8.5661532275,
+      "p50_p95_p99_ms": [
+        7.761224,
+        15.69966039999999,
+        21.14889382000001
+      ]
+    },
+    "components": {
+      "accepted_validation_ns": {
+        "mean_ms": 1.5822006889166667,
+        "p50_p95_p99_ms": [
+          1.173195,
+          3.815110399999997,
+          11.243869940000002
+        ]
+      },
+      "control_ns": {
+        "mean_ms": 1.1719262485833333,
+        "p50_p95_p99_ms": [
+          1.108378,
+          1.5560488,
+          2.066022860000001
+        ]
+      },
+      "filter_ns": {
+        "mean_ms": 1.7112221911666665,
+        "p50_p95_p99_ms": [
+          1.640406,
+          2.50043605,
+          3.2577901800000046
+        ]
+      },
+      "final_validation_ns": {
+        "mean_ms": 1.6531334123333334,
+        "p50_p95_p99_ms": [
+          1.537832,
+          2.6975973499999997,
+          3.855655210000005
+        ]
+      },
+      "input_and_baseline_ns": {
+        "mean_ms": 2.1117207574999997,
+        "p50_p95_p99_ms": [
+          1.9890885,
+          2.7961851,
+          3.8005410600000014
+        ]
+      },
+      "repair_ns": {
+        "mean_ms": 0.31306621483333336,
+        "p50_p95_p99_ms": [
+          0.000706,
+          2.3972689499999986,
+          3.587418000000001
+        ]
+      },
+      "unattributed_ns": {
+        "mean_ms": 0.02288371416666667,
+        "p50_p95_p99_ms": [
+          0.007772,
+          0.010490049999999999,
+          0.018411300000000005
+        ]
+      }
+    },
+    "timeouts": 0,
+    "valid_but_late": 0,
+    "feasible_but_unserved": 3323,
+    "caution": "component timers can be incomplete after cooperative deadline; percentiles are not additive; no physical infeasibility certificate"
+  },
+  "et_original/N500-h0.8": {
+    "n": 12000,
+    "total": {
+      "mean_ms": 56.43369958708333,
+      "p50_p95_p99_ms": [
+        54.4518105,
+        72.50132999999998,
+        89.84670543
+      ]
+    },
+    "components": {
+      "accepted_validation_ns": {
+        "mean_ms": 6.619748434916667,
+        "p50_p95_p99_ms": [
+          5.1369645,
+          12.59586585,
+          16.333605930000015
+        ]
+      },
+      "control_ns": {
+        "mean_ms": 32.92193623241667,
+        "p50_p95_p99_ms": [
+          31.9481675,
+          38.021083600000004,
+          60.091646430000004
+        ]
+      },
+      "filter_ns": {
+        "mean_ms": 0.10418367158333333,
+        "p50_p95_p99_ms": [
+          0.0,
+          0.0,
+          4.638045190000001
+        ]
+      },
+      "final_validation_ns": {
+        "mean_ms": 5.55821485025,
+        "p50_p95_p99_ms": [
+          4.816827,
+          14.694560599999996,
+          17.432658970000002
+        ]
+      },
+      "input_and_baseline_ns": {
+        "mean_ms": 4.792047601666667,
+        "p50_p95_p99_ms": [
+          5.991887,
+          9.063661049999999,
+          9.834269370000001
+        ]
+      },
+      "repair_ns": {
+        "mean_ms": 0.0,
+        "p50_p95_p99_ms": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "unattributed_ns": {
+        "mean_ms": 6.43756879625,
+        "p50_p95_p99_ms": [
+          8.194149,
+          15.03401985,
+          17.942134590000002
+        ]
+      }
+    },
+    "timeouts": 9683,
+    "valid_but_late": 6035,
+    "feasible_but_unserved": 2721,
+    "caution": "component timers can be incomplete after cooperative deadline; percentiles are not additive; no physical infeasibility certificate"
+  },
+  "et_original/default": {
+    "n": 12000,
+    "total": {
+      "mean_ms": 38.64521068691666,
+      "p50_p95_p99_ms": [
+        37.208188,
+        46.42320414999998,
+        80.55544198
+      ]
+    },
+    "components": {
+      "accepted_validation_ns": {
+        "mean_ms": 1.7283655396666666,
+        "p50_p95_p99_ms": [
+          1.2223525,
+          3.5636908999999943,
+          5.33177809
+        ]
+      },
+      "control_ns": {
+        "mean_ms": 30.426293818666668,
+        "p50_p95_p99_ms": [
+          29.751938,
+          34.867036950000006,
+          45.95963920000006
+        ]
+      },
+      "filter_ns": {
+        "mean_ms": 1.6499658593333333,
+        "p50_p95_p99_ms": [
+          1.671981,
+          2.43460155,
+          2.92663791
+        ]
+      },
+      "final_validation_ns": {
+        "mean_ms": 1.7693779969999999,
+        "p50_p95_p99_ms": [
+          1.595177,
+          2.6009778999999993,
+          3.4217959
+        ]
+      },
+      "input_and_baseline_ns": {
+        "mean_ms": 2.393748578333333,
+        "p50_p95_p99_ms": [
+          2.378958,
+          3.1730024999999986,
+          3.8630456700000013
+        ]
+      },
+      "repair_ns": {
+        "mean_ms": 0.265728113,
+        "p50_p95_p99_ms": [
+          0.000758,
+          2.0884523,
+          4.107573810000002
+        ]
+      },
+      "unattributed_ns": {
+        "mean_ms": 0.41173078091666665,
+        "p50_p95_p99_ms": [
+          0.016187,
+          0.03288789999999989,
+          4.201241210000008
+        ]
+      }
+    },
+    "timeouts": 377,
+    "valid_but_late": 129,
+    "feasible_but_unserved": 3339,
+    "caution": "component timers can be incomplete after cooperative deadline; percentiles are not additive; no physical infeasibility certificate"
+  },
+  "puct/default": {
+    "n": 12000,
+    "total": {
+      "mean_ms": 38.32408221525,
+      "p50_p95_p99_ms": [
+        48.9470595,
+        50.349027,
+        51.651231540000005
+      ]
+    },
+    "components": {
+      "final_validation_ns": {
+        "mean_ms": 1.7728510516666667,
+        "p50_p95_p99_ms": [
+          1.4396685,
+          2.40680615,
+          3.9988000600000047
+        ]
+      },
+      "input_and_baseline_ns": {
+        "mean_ms": 2.8904144205,
+        "p50_p95_p99_ms": [
+          2.67882,
+          3.73193815,
+          5.24112182
+        ]
+      },
+      "search_ns": {
+        "mean_ms": 33.66081674308334,
+        "p50_p95_p99_ms": [
+          43.986492,
+          46.52542955,
+          46.90251737
+        ]
+      }
+    },
+    "timeouts": 1665,
+    "valid_but_late": 1665,
+    "feasible_but_unserved": 3673,
+    "caution": "component timers can be incomplete after cooperative deadline; percentiles are not additive; no physical infeasibility certificate"
+  },
+  "puct/N500-h0.8": {
+    "n": 12000,
+    "total": {
+      "mean_ms": 50.799080716750005,
+      "p50_p95_p99_ms": [
+        49.8659195,
+        55.90095115,
+        71.98276205000022
+      ]
+    },
+    "components": {
+      "final_validation_ns": {
+        "mean_ms": 7.225946692916667,
+        "p50_p95_p99_ms": [
+          5.880737,
+          13.27065315,
+          29.43529419000028
+        ]
+      },
+      "input_and_baseline_ns": {
+        "mean_ms": 11.06350697625,
+        "p50_p95_p99_ms": [
+          9.943424,
+          17.2599217,
+          29.730784670000006
+        ]
+      },
+      "search_ns": {
+        "mean_ms": 32.509627047583336,
+        "p50_p95_p99_ms": [
+          33.5413945,
+          39.25175585,
+          40.835150660000004
+        ]
+      }
+    },
+    "timeouts": 5942,
+    "valid_but_late": 5942,
+    "feasible_but_unserved": 4000,
+    "caution": "component timers can be incomplete after cooperative deadline; percentiles are not additive; no physical infeasibility certificate"
+  },
+  "alns/N500-h0.8": {
+    "n": 12000,
+    "total": {
+      "mean_ms": 51.236021101666665,
+      "p50_p95_p99_ms": [
+        50.4549265,
+        56.34609945,
+        79.45138056000002
+      ]
+    },
+    "components": {
+      "final_validation_ns": {
+        "mean_ms": 7.340671814333334,
+        "p50_p95_p99_ms": [
+          5.8669445,
+          13.299585899999997,
+          35.41350569
+        ]
+      },
+      "input_and_baseline_ns": {
+        "mean_ms": 11.060960159166665,
+        "p50_p95_p99_ms": [
+          9.9329855,
+          17.3347568,
+          28.33470997000005
+        ]
+      },
+      "search_ns": {
+        "mean_ms": 32.83438912816667,
+        "p50_p95_p99_ms": [
+          33.740473,
+          39.8092178,
+          41.72938553
+        ]
+      }
+    },
+    "timeouts": 6315,
+    "valid_but_late": 6315,
+    "feasible_but_unserved": 4000,
+    "caution": "component timers can be incomplete after cooperative deadline; percentiles are not additive; no physical infeasibility certificate"
+  },
+  "alns/default": {
+    "n": 12000,
+    "total": {
+      "mean_ms": 49.81957461733333,
+      "p50_p95_p99_ms": [
+        49.6777055,
+        50.51509815,
+        51.84662936000002
+      ]
+    },
+    "components": {
+      "final_validation_ns": {
+        "mean_ms": 1.6134113048333332,
+        "p50_p95_p99_ms": [
+          1.3164565,
+          2.1927759999999994,
+          3.5825690800000043
+        ]
+      },
+      "input_and_baseline_ns": {
+        "mean_ms": 2.8897045224166664,
+        "p50_p95_p99_ms": [
+          2.6822745,
+          3.7104158499999995,
+          5.21286335
+        ]
+      },
+      "search_ns": {
+        "mean_ms": 45.31645879008333,
+        "p50_p95_p99_ms": [
+          45.645188,
+          46.786645299999996,
+          47.1468707
+        ]
+      }
+    },
+    "timeouts": 2822,
+    "valid_but_late": 2822,
+    "feasible_but_unserved": 3328,
+    "caution": "component timers can be incomplete after cooperative deadline; percentiles are not additive; no physical infeasibility certificate"
+  }
+}

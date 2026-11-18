@@ -1,0 +1,8 @@
+{
+  "stage": "P3",
+  "status": "complete",
+  "run_id": "P3-20261110",
+  "test_instances": 0,
+  "P4_started": false,
+  "report": "experiment_runs/reports/P3_REPORT.md"
+}

@@ -1,0 +1,14 @@
+{
+  "archive_sha256": "e7df878f09499c6fb35d23f75db12400bba9a7fbaed4a3e7297bbb83f881953f",
+  "generation_ns": 217982343,
+  "geometry": {
+    "group": "g09",
+    "offset_s": 11294,
+    "step_s": 5,
+    "type": "oneweb"
+  },
+  "id": "P4-test-D2-O-0277",
+  "layer": "D2-O",
+  "payload_sha256": "946d539b345bc35d8244a49e0c67a2d5a28f4413eae1dbae8f0aa992484b3502",
+  "seed": 390977
+}

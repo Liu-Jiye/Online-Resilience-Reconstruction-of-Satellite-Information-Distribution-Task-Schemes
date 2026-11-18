@@ -1,0 +1,57 @@
+{
+  "passed": true,
+  "modes": {
+    "labels": {
+      "records": 80000,
+      "base_files": 4000,
+      "sampled_independent_replays": 2000,
+      "validated": 80000,
+      "timeouts": 1,
+      "not_online_success": 22202,
+      "incomplete_controller_feature_census": 0
+    },
+    "grid": {
+      "records": 600000,
+      "base_files": 1000,
+      "sampled_independent_replays": 2000,
+      "validated": 599438,
+      "timeouts": 113447,
+      "not_online_success": 254152,
+      "incomplete_controller_feature_census": 0
+    },
+    "rules": {
+      "records": 72000,
+      "base_files": 1000,
+      "sampled_independent_replays": 2000,
+      "validated": 72000,
+      "timeouts": 12740,
+      "not_online_success": 29735,
+      "incomplete_controller_feature_census": 0
+    },
+    "et": {
+      "records": 144000,
+      "base_files": 1000,
+      "sampled_independent_replays": 2000,
+      "validated": 120564,
+      "timeouts": 60751,
+      "not_online_success": 83221,
+      "incomplete_controller_feature_census": 267
+    },
+    "search": {
+      "records": 96000,
+      "base_files": 1000,
+      "sampled_independent_replays": 2000,
+      "validated": 96000,
+      "timeouts": 32005,
+      "not_online_success": 51057,
+      "incomplete_controller_feature_census": 0
+    }
+  },
+  "total_records": 992000,
+  "original_validator_replay_at_generation": "every validated response, asserted before shard receipt",
+  "additional_sample_replays": 10000,
+  "model_hashes_passed": true,
+  "test_instances": 0,
+  "P4_started": false,
+  "elapsed_ns": 1241723547828
+}

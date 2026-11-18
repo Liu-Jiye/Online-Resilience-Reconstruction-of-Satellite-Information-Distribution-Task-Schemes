@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-10",
+  "recorded_utc": "2026-11-10T08:25:04.726151+00:00",
+  "stage": "P3",
+  "status": "environment_not_ready",
+  "P3_completed": false,
+  "P4_started": false,
+  "formal_base_instances_generated": 0,
+  "formal_method_calls": 0,
+  "ET_action_records": 0,
+  "ET_models": 0,
+  "rule_adjustment_rounds": 0,
+  "test_performance_accessed": false,
+  "approved_default_counts": {
+    "D1": [
+      1600,
+      400
+    ],
+    "D2-S": [
+      1200,
+      300
+    ],
+    "D2-O": [
+      1200,
+      300
+    ]
+  },
+  "approved_paired_medium": {
+    "N": 500,
+    "h": 0.8,
+    "hot_satellites": 4,
+    "independent_new_base_count": 0
+  },
+  "approved_validation_scenarios_per_base": 12,
+  "fixed_grid_calls_planned": 720000,
+  "ET_action_record_cap": 80000,
+  "environment": "Linux/Python3.11 requested; Docker Linux engine startup failed",
+  "docker_backend_error_lines": [
+    "[2026-11-10T08:18:17.646358300Z][com.docker.backend.exe] backend cancelling with error: starting services: initializing Inference manager: listening on unix://<HOME>\\AppData\\Local\\Docker\\run\\dockerInference: remove <HOME>\\AppData\\Local\\Docker\\run\\dockerInference: The file cannot be accessed by the system. (listener: The filename, directory name, or volume label syntax is incorrect.)",
+    "[2026-11-10T08:18:49.653476200Z][com.docker.backend.exe] backend crashed, dumping error to file and reporting to user: starting services: initializing Inference manager: listening on unix://<HOME>\\AppData\\Local\\Docker\\run\\dockerInference: remove <HOME>\\AppData\\Local\\Docker\\run\\dockerInference: The file cannot be accessed by the system. (listener: The filename, directory name, or volume label syntax is incorrect.)",
+    "[2026-11-10T08:21:42.091597200Z][com.docker.backend.exe] backend cancelling with error: starting services: initializing Secrets Engine: listening on unix://<HOME>\\AppData\\Local\\docker-secrets-engine\\engine.sock: remove <HOME>\\AppData\\Local\\docker-secrets-engine\\engine.sock: The file cannot be accessed by the system. (listener: The filename, directory name, or volume label syntax is incorrect.)",
+    "[2026-11-10T08:22:14.100536800Z][com.docker.backend.exe] backend crashed, dumping error to file and reporting to user: starting services: initializing Secrets Engine: listening on unix://<HOME>\\AppData\\Local\\docker-secrets-engine\\engine.sock: remove <HOME>\\AppData\\Local\\docker-secrets-engine\\engine.sock: The file cannot be accessed by the system. (listener: The filename, directory name, or volume label syntax is incorrect.)",
+    "[2026-11-10T08:23:32.828534800Z][com.docker.backend.exe] backend cancelling with error: starting services: initializing Secrets Engine: listening on unix://<HOME>\\AppData\\Local\\docker-secrets-engine\\engine.sock: remove <HOME>\\AppData\\Local\\docker-secrets-engine\\engine.sock: The file cannot be accessed by the system. (listener: The filename, directory name, or volume label syntax is incorrect.)",
+    "[2026-11-10T08:24:04.837658900Z][com.docker.backend.exe] backend crashed, dumping error to file and reporting to user: starting services: initializing Secrets Engine: listening on unix://<HOME>\\AppData\\Local\\docker-secrets-engine\\engine.sock: remove <HOME>\\AppData\\Local\\docker-secrets-engine\\engine.sock: The file cannot be accessed by the system. (listener: The filename, directory name, or volume label syntax is incorrect.)"
+  ],
+  "read_reparse_point_winerror": 1920,
+  "scope_source_commit": "805de91a32916080561d1d453f74c99e86a23209",
+  "source_GP_not_redistributed": true,
+  "source_sha256": {
+    "experiment_runs/data/raw/p1_snapshot_20261105/starlink.json": "f447b5867dd5fa1dbca87f26e007f594b7cdb9f30576be6a77be713b91fc5bcf",
+    "experiment_runs/data/raw/p1_snapshot_20261105/oneweb.json": "db03ee1c4def9717135425a58df2a398d426319e217b325104704aa16894bfbe",
+    "experiment_runs/reports/p1/starlink_groups.json": "5bcf155139be62723e0bb399db1baf13d9e9e2e121cfa49b419fee8e88af5471",
+    "experiment_runs/reports/p1/oneweb_groups.json": "be5dc0e71c9beaa3121c66149aeacc5cc2721fdaf8f828194bf214993ea4a0ff",
+    "experiment_runs/protocol/P3_APPROVED_SCOPE_V1.md": "ca765fa2a183ffb77dfd9c39c6518f19d82b8a3502d820e715a28c47a29e198c",
+    "experiment_runs/reports/P3_ENVIRONMENT_PREFLIGHT_REPORT.md": "989d999442d008351539c4c8a71d512327745d4fa3ae55b8967b64c37b82ed65"
+  }
+}

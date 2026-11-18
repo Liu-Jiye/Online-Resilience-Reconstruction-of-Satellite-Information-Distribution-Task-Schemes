@@ -1,0 +1,45 @@
+{
+  "training_bases": 60,
+  "checker_field_equivalence_checks": 5760,
+  "no_deadline_behavior_cases": 144,
+  "passed": true,
+  "profile_overhead_in_revised": true,
+  "groups": {
+    "old/default": {
+      "n": 720,
+      "timeouts": 6,
+      "p50_p95_p99_ms": [
+        13.140782,
+        30.803607550000002,
+        49.34999198999988
+      ]
+    },
+    "revised/default": {
+      "n": 720,
+      "timeouts": 24,
+      "p50_p95_p99_ms": [
+        28.225876,
+        46.42942384999999,
+        65.04680916999997
+      ]
+    },
+    "old/N500-h0.8": {
+      "n": 720,
+      "timeouts": 593,
+      "p50_p95_p99_ms": [
+        67.992841,
+        112.00373905,
+        121.77850332
+      ]
+    },
+    "revised/N500-h0.8": {
+      "n": 720,
+      "timeouts": 590,
+      "p50_p95_p99_ms": [
+        56.1186315,
+        68.75007889999999,
+        85.43900543999992
+      ]
+    }
+  }
+}

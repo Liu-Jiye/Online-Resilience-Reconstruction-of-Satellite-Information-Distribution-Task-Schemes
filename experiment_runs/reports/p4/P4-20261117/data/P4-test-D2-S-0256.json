@@ -1,0 +1,14 @@
+{
+  "archive_sha256": "89ee4e31577c3e93e2937fd903bc081f23d4c81205666668a7575623ba1f0e1d",
+  "generation_ns": 326695201,
+  "geometry": {
+    "group": "g08",
+    "offset_s": -42556,
+    "step_s": 5,
+    "type": "starlink"
+  },
+  "id": "P4-test-D2-S-0256",
+  "layer": "D2-S",
+  "payload_sha256": "4f64136663e8cd8fa5a921a0d1eeabcbc068f437129f308ba304ab5e4e0fca87",
+  "seed": 390656
+}

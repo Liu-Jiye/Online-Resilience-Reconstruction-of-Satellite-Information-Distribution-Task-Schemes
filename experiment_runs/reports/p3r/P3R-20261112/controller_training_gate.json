@@ -1,0 +1,49 @@
+{
+  "training_bases": 60,
+  "calls": 2880,
+  "source_sha256": {
+    "control.py": "b569bc11cfac27a4585e28bddcc5a3b208617f98a8fb492d2e39f84f8f050309",
+    "control_timed.py": "fedaa9742a1980a58573c19e15f01b85b12f11c1944de436a0cd0ac2bda6e4c0",
+    "indexed.py": "c1163655c8b32f53e4261d872f980357fb8839a76adf4831db330b2e33a894b8",
+    "model_io.py": "3569ebbc7895b587c7d8e99d26721033a386b63746a76f25ea25aca9b2275f58",
+    "repair_runtime.py": "1e4cbf643c0a6e57bc504e2eb7afbe3587ec771ec4639e9f5536632143a41f9d",
+    "search.py": "56f5221b8a67f6f3570a8026ffbcf74ce62340df4dac3878e7199b635d139ab3",
+    "sparse_control.py": "f444d44e865e4ff026282f67c7acde6bfb7abc55d917e291ad40b7adbbef0f5f",
+    "validation_indexed.py": "16dd937ec8cd0ccc0c9f051dfa35cd28f73316b9e14265a3ce2892704018a594",
+    "__init__.py": "3a8db19c9b9aa2cd9760ab8197355427d8aa9f396d536c2931e8fcb1d0b8b8da"
+  },
+  "groups": {
+    "default/action": {
+      "n": 720,
+      "control_p95_ms": 3.3278237499999994,
+      "control_target_pass": false,
+      "invoked": 182,
+      "timeouts": 0,
+      "total_p95_ms": 30.721934349999977
+    },
+    "default/deviation": {
+      "n": 720,
+      "control_p95_ms": 3.1986958999999993,
+      "control_target_pass": false,
+      "invoked": 182,
+      "timeouts": 0,
+      "total_p95_ms": 32.805927999999994
+    },
+    "N500-h0.8/action": {
+      "n": 720,
+      "control_p95_ms": 7.3561960499999985,
+      "control_target_pass": false,
+      "invoked": 395,
+      "timeouts": 19,
+      "total_p95_ms": 48.82620285
+    },
+    "N500-h0.8/deviation": {
+      "n": 720,
+      "control_p95_ms": 7.8144031,
+      "control_target_pass": false,
+      "invoked": 389,
+      "timeouts": 22,
+      "total_p95_ms": 48.8918345
+    }
+  }
+}

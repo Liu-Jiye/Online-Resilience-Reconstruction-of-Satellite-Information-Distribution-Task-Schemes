@@ -1,0 +1,1006 @@
+{
+  "schema_version": 1,
+  "collected_on": "2026-11-18",
+  "timezone": "Asia/Shanghai",
+  "original_repository_commit": "c1801edb3ff912759bfb4326d7c35f6c535c03f9",
+  "recovered_dependencies": [
+    "experiment_runs/data/processed/p1/oneweb_eligible.json",
+    "experiment_runs/data/processed/p1/starlink_eligible.json"
+  ],
+  "files": [
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "CONTRIBUTION_SCOPE_V1.md",
+      "bytes": 4560,
+      "sha256": "f55d4f5a894e64f450594845d2a8c4d27308630583b212fe78dcc63d5ae010cf",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/CONTRIBUTION_SCOPE_V1.md"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "LOAD_acceptance_manifest.json",
+      "bytes": 7856,
+      "sha256": "ccfa7f37904bd10b6259f228648a47cf4a56e262a445376b04fb3bae549e52fc",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/LOAD_acceptance_manifest.json"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "LOAD_delivery_receipt.json",
+      "bytes": 864,
+      "sha256": "bca0b8e2f8f46abe7f970745f4a0917b12899b745cc84ff90b03ff60de94891a",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/LOAD_delivery_receipt.json"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "LOAD_frozen_load_protocol.json",
+      "bytes": 527,
+      "sha256": "e6e85d2cfcd3c77fb012c25a1a2695349a0a23571ce7c13a626d886e781fee02",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/LOAD_frozen_load_protocol.json"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "LOAD_group_summary.csv",
+      "bytes": 8850,
+      "sha256": "d69ed1d9c64d820aa83a81a2eda9207e2f677ce3188ac14e3b47963ac5f957f0",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/LOAD_group_summary.csv"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "LOAD_independent_audit.json",
+      "bytes": 1583,
+      "sha256": "45d21c43c6c14a5e1914e144fb8b2fbb5edb58cd43d4dd71662d457855ab9382",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/LOAD_independent_audit.json"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "LOAD_per_context.csv",
+      "bytes": 374173,
+      "sha256": "8e8d900cd2767fa149f40f5427e0fa1155a9fc818f2355ac6ca498a491a55efa",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/LOAD_per_context.csv"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "LOAD_pilot_evidence.zip",
+      "bytes": 26891240,
+      "sha256": "200fa13ce8528fab55fc2a29e3c92ed347c8a547ebafdf1310b0243ba94e1793",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/LOAD_pilot_evidence.zip"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "LOAD_PILOT_REPORT.md",
+      "bytes": 10328,
+      "sha256": "8d0b6d024031cbe52dd414b109e2dff8db29ca9818f108275658aeec91683135",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/LOAD_PILOT_REPORT.md"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "LOAD_PILOT_V1_CONTRACT.md",
+      "bytes": 6426,
+      "sha256": "891e06d2e46426a2ae481b33f4215c56d15dff6ea997e38bd7e36824fdc07340",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/LOAD_PILOT_V1_CONTRACT.md"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "LOAD_probe_summary.csv",
+      "bytes": 2635,
+      "sha256": "8bc89c493beaaa6254f1a46030578fd74025c10abd2960d2f1d9e62c7d9a709a",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/LOAD_probe_summary.csv"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P0_P2_REASSESSMENT.md",
+      "bytes": 9060,
+      "sha256": "2cdd25f9c565c83f4be5b09fc042355a83c26594fe2950f72bbd42e5b43b7310",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/P0_P2_REASSESSMENT.md"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P0阶段报告.md",
+      "bytes": 12285,
+      "sha256": "31e17f02ad0356287426bd3a274dfb9218c393e5815905afac8c4eb96b4a1e8a",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/P0阶段报告.md"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "p1/LOAD-pilot-20261105T141600Z/load_competition_grid.png",
+      "bytes": 186812,
+      "sha256": "ff7797ab7af030ba7a62c86bcd974f92ad6092558f4e2e74f74a3b52ddacd675",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/p1/LOAD-pilot-20261105T141600Z/load_competition_grid.png"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "p1/LOAD-pilot-20261105T141600Z/load_validation_comparison.png",
+      "bytes": 85686,
+      "sha256": "518efc5fdf72a20ab189d55577c1d9f1ac46914b93ab9272985df2603c552bd0",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/p1/LOAD-pilot-20261105T141600Z/load_validation_comparison.png"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P1_current_entry_fix_evidence.zip",
+      "bytes": 20325,
+      "sha256": "3bf0c0dcc8b08ee14007ef9de20e3d1a54f9ba3128b76dbcb9f8cc55393ca01a",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/P1_current_entry_fix_evidence.zip"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P1_CURRENT_ENTRY_FIX_REPORT.md",
+      "bytes": 4475,
+      "sha256": "b31d3a036e31046601300b57b4e39b42452622c5898b99ba86138f668988d5fb",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/P1_CURRENT_ENTRY_FIX_REPORT.md"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P1_current_fix_acceptance_manifest.json",
+      "bytes": 8729,
+      "sha256": "360c1a49e5d69e5b5717d7215b993f4a99edab1227986361b7a9e08195804927",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/P1_current_fix_acceptance_manifest.json"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P1_current_verification.json",
+      "bytes": 6280,
+      "sha256": "95cb03d55a2845706f168b278ba5ce224a6c60bf8890bd692cf19ef597e42969",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/P1_current_verification.json"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P1分布与负载.png",
+      "bytes": 136331,
+      "sha256": "754982db3804db79e5a29cdb55a7b99b848797aae8d34f1e529e724d463aa48c",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/P1分布与负载.png"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P1窗口抽查.png",
+      "bytes": 111404,
+      "sha256": "7c812a626302240c93893d066b9c89a1e1e957c1251ea21debf33487c0bfb9a7",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/P1窗口抽查.png"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P1试点派生实例.zip",
+      "bytes": 4021043,
+      "sha256": "7dab42a9fe806b74f41d529887a742e8cdec69fea9487745f280104209befeaa",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/P1试点派生实例.zip"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P1逐实例分布.csv",
+      "bytes": 30222,
+      "sha256": "cfe92619eeab52baa7eac3b8a01a747d0913b0ffbd9cf28afad5fcc98e63df72",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/P1逐实例分布.csv"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P1阶段报告.md",
+      "bytes": 12768,
+      "sha256": "0a65641e8c3ce7d38421541ad818949ad33d5dabb09702185f069857151400ef",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/P1阶段报告.md"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P1验收哈希清单.json",
+      "bytes": 4033,
+      "sha256": "25d426eadd00c91cee71f2ddc12df81b5a2ce2cb95e3799c0946dba28dbd3b40",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/P1验收哈希清单.json"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P2_urgent_pressure_service.png",
+      "bytes": 47295,
+      "sha256": "6d8c25736653a326c93d1dd07ddd2d56fa28a1427e8c5d29f2d8ca80bd104c27",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/P2_urgent_pressure_service.png"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P2_urgent_service_and_shortfall.png",
+      "bytes": 90129,
+      "sha256": "6057ebc08c6c908cee94334cd407c5c2db9aab30edbce4ffd10700438b9c0fce",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/P2_urgent_service_and_shortfall.png"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P2_urgent_supplement_acceptance_manifest.json",
+      "bytes": 5855,
+      "sha256": "a80e15c9eec9fccfee785a152e1aea8cc583846a140089d4e45f81e8e4342eec",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/P2_urgent_supplement_acceptance_manifest.json"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P2_urgent_supplement_evidence.zip",
+      "bytes": 6546373,
+      "sha256": "218e3bde80232c599e682e9bcdb388f0ad22ae2ef2184e595ca1b1a51464a76e",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/P2_urgent_supplement_evidence.zip"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P2_urgent_supplement_per_event.csv",
+      "bytes": 97700,
+      "sha256": "c13f969275bc0be130cf43f1baa1988969df3b1d0f397250be2b19e496d8cf05",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/P2_urgent_supplement_per_event.csv"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P2_URGENT_SUPPLEMENT_REPORT.md",
+      "bytes": 10612,
+      "sha256": "b4823ff5f0e38f0c67fd75ce75c4aaa6b23bb1673964673244f69c8091d75274",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/P2_URGENT_SUPPLEMENT_REPORT.md"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P2C_acceptance_manifest.json",
+      "bytes": 8226,
+      "sha256": "40596fe1e60ec243135c1bdcb9cf399b8b1ddf3e610bde063c84225b66925320",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/P2C_acceptance_manifest.json"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P2C_coverage_and_results.png",
+      "bytes": 131765,
+      "sha256": "37f60b984f7f9c8f788b33b32c482828ec79bdc6929b2d1b9bd09ffdddc8caff",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/P2C_coverage_and_results.png"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P2C_evidence.zip",
+      "bytes": 2864035,
+      "sha256": "7edba7436eeb2a1fea4223b87fe05703cbeaf2dd01f7c74d8641a184a3f19bd2",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/P2C_evidence.zip"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P2C_per_event_detailed.csv",
+      "bytes": 81849,
+      "sha256": "744236068b2b5bf9ca1516c32094798e3908e61ed10df7045710e97446da8977",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/P2C_per_event_detailed.csv"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P2C_REPORT.md",
+      "bytes": 12260,
+      "sha256": "13f3da945a066c68e490c6758689c8e904250e578e91682c5eeb4381ccf0533d",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/P2C_REPORT.md"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P2完整复核证据包.zip",
+      "bytes": 2786815,
+      "sha256": "40751bc048972db6947b40d74aa9df092ca01532ef5f42707bcb05ce2745b358",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/P2完整复核证据包.zip"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P2对齐与时间.png",
+      "bytes": 101038,
+      "sha256": "fa606cde82006c24575d0e802492aa6c614a07f80971e5b3f9a18292745c0250",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/P2对齐与时间.png"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P2最优差距.png",
+      "bytes": 108469,
+      "sha256": "0ba31eaab50738274b99d52422fa5d480b7938aacc8904887b39eacce6de0889",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/P2最优差距.png"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P2紧急事件分层诊断报告.md",
+      "bytes": 8833,
+      "sha256": "451eb08cfcda3252e46fb0f63a544bf8eaa09a5d42fdac342ee0c50498f045c1",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/P2紧急事件分层诊断报告.md"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P2紧急事件逐项诊断.csv",
+      "bytes": 10268,
+      "sha256": "01b8b7154d329d2eb5e8ef864e83ac15cb88b7b178674110002983e846bbed50",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/P2紧急事件逐项诊断.csv"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P2紧急诊断完整证据.zip",
+      "bytes": 875409,
+      "sha256": "bd779676d35d955ac12ef93b3e82ca3e55737f72531a17f596182a6f4e00e2d3",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/P2紧急诊断完整证据.zip"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P2紧急诊断验收清单.json",
+      "bytes": 2976,
+      "sha256": "37ea1633458e03b21b11536857476d9582fd017c1ab91009e0fcc672c0aa1eb0",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/P2紧急诊断验收清单.json"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P2逐事件比较.csv",
+      "bytes": 43319,
+      "sha256": "a1186030120ca339b8151e538ee7e92674ac7cf33df2f71e0db7acf77aad28a9",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/P2逐事件比较.csv"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P2阶段报告.md",
+      "bytes": 14352,
+      "sha256": "8de55aecaedb4de150138619601428354214d8bbdc1210b27eaa47bc85082553",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/P2阶段报告.md"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P2验收哈希清单.json",
+      "bytes": 7837,
+      "sha256": "eb0e6ff6efcedc3b7e4bb8bca7416b5fefeda53de783d1b67c0d0b3e956fe987",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/P2验收哈希清单.json"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P3_acceptance_manifest.json",
+      "bytes": 1284374,
+      "sha256": "69a65b4a7d357e2a2fc195127ab6310c9145a3b5f210f483c11dce9030a39dff",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/P3_acceptance_manifest.json"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P3_APPROVED_SCOPE_V1.md",
+      "bytes": 4341,
+      "sha256": "ca765fa2a183ffb77dfd9c39c6518f19d82b8a3502d820e715a28c47a29e198c",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/P3_APPROVED_SCOPE_V1.md"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P3_ENVIRONMENT_PREFLIGHT_REPORT.md",
+      "bytes": 4672,
+      "sha256": "989d999442d008351539c4c8a71d512327745d4fa3ae55b8967b64c37b82ed65",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/P3_ENVIRONMENT_PREFLIGHT_REPORT.md"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P3_et_calibration.json",
+      "bytes": 12403,
+      "sha256": "24a94d244fde5bdb53b7c5456a428d4477a2200cc9348a85a37ab0303f76ac9f",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/P3_et_calibration.json"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P3_et_cost_audit.json",
+      "bytes": 2190,
+      "sha256": "50cf4e90f7ef52a2c85e491fcb17f6df5a185b092061b7454513aaa94b92c3b3",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/P3_et_cost_audit.json"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P3_EXECUTION_CONTRACT_V1.md",
+      "bytes": 3086,
+      "sha256": "9252ca7cc51c8d320d971c17a12a2eca382327398a0a3403b920e5993617ad3e",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/P3_EXECUTION_CONTRACT_V1.md"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P3_final_audit.json",
+      "bytes": 1562,
+      "sha256": "127bc69c4d5e636ba7caef0d3c51f130aa7f47dc03ed1b113d954a0f6e6d2634",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/P3_final_audit.json"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P3_frozen_parameters.json",
+      "bytes": 2849,
+      "sha256": "29b122b0d1d1787557eec3747f2e34a2050ae81121f7a7a5a1d1fe60fcc2f07e",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/P3_frozen_parameters.json"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P3_input_summary.json",
+      "bytes": 20176,
+      "sha256": "13fe1a921da5038bd8ae8dce2f3ad00b9109ade506c07a4ee09500401fe4c203",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/P3_input_summary.json"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P3_linux_environment.json",
+      "bytes": 32547,
+      "sha256": "83aa2729a775b3eaa9c2bea86e6a635db4a77a0b628f6bd92538786e909e858d",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/P3_linux_environment.json"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P3_LINUX_RECOVERY_AND_RUNTIME_GATE.md",
+      "bytes": 3949,
+      "sha256": "510552f8457081b7be10adaf93c85ff70c06b4a7e72d3337c5ee16c0a7d478da",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/P3_LINUX_RECOVERY_AND_RUNTIME_GATE.md"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P3_preflight.json",
+      "bytes": 4379,
+      "sha256": "603918cc90d88909adbfcbfa83d8bcc7205a1138653fe7f16278e556c8c828e5",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/P3_preflight.json"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P3_progress.json",
+      "bytes": 169,
+      "sha256": "d78f56a732a6a8d9aa3f625c9e3590499d23329ca31cd9a73819bcd25f4326ce",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/P3_progress.json"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P3_REPORT.md",
+      "bytes": 9986,
+      "sha256": "87f362b4e0a8a7bafef6d12121f7e3a0ac2f2fd424b9aac470bf255235cc7da2",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/P3_REPORT.md"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P3_requirements.lock.txt",
+      "bytes": 534,
+      "sha256": "179a610b1e0949dad44379ea4a74b7bb424a8d7e81bfca3440849369815528aa",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/P3_requirements.lock.txt"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P3_runtime_acceptance.json",
+      "bytes": 43109,
+      "sha256": "ebc4185d429b0f13093c2e649cffc246bf9ed10f3be688f5cd803ac18c3a86db",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/P3_runtime_acceptance.json"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P3_RUNTIME_FREEZE_V1.md",
+      "bytes": 3410,
+      "sha256": "05b40f07e23e1c8545d33a6f5aa6510e639180cd0d4c5c8410ac8160fc7ea36b",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/P3_RUNTIME_FREEZE_V1.md"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P3_runtime_smoke.json",
+      "bytes": 22099,
+      "sha256": "47c2fdac1c585168304bbbacce3f1be06377d3dd0982bf1bfa01e28720047139",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/P3_runtime_smoke.json"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P3_selected_validation_results.csv",
+      "bytes": 1492,
+      "sha256": "d680849bc061145758b259d5d64bc20905c4a6a4ce20bc004478b9e5fca2cf48",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/P3_selected_validation_results.csv"
+    },
+    {
+      "source_date": "2026-11-05",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "紧急规则修订与压力组提案_待确认.md",
+      "bytes": 5271,
+      "sha256": "d8bd0cc59bf6521a547a1f40e873769f81c6d996871eb35de0b6b50d04692bad",
+      "storage": "file",
+      "path": "deliveries/2026-11-05/紧急规则修订与压力组提案_待确认.md"
+    },
+    {
+      "source_date": "2026-11-12",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P3R_acceptance_manifest.json",
+      "bytes": 483041,
+      "sha256": "5662ec6c719ecfe1f9f422d042745c76e12433c6771db3b2a1e8a1744d84dfd7",
+      "storage": "file",
+      "path": "deliveries/2026-11-12/P3R_acceptance_manifest.json"
+    },
+    {
+      "source_date": "2026-11-12",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P3R_EXECUTION_V1.md",
+      "bytes": 4956,
+      "sha256": "dec345c721c2111949f7cb54912d893d59f138606b48c5a6faeeaaed8d09334e",
+      "storage": "file",
+      "path": "deliveries/2026-11-12/P3R_EXECUTION_V1.md"
+    },
+    {
+      "source_date": "2026-11-12",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P3R_final_audit.json",
+      "bytes": 640,
+      "sha256": "0a65da1786454554f1624733d27c607d94b0db9e6e183410c0c49fe910e98108",
+      "storage": "file",
+      "path": "deliveries/2026-11-12/P3R_final_audit.json"
+    },
+    {
+      "source_date": "2026-11-12",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P3R_historical_timing.json",
+      "bytes": 15088,
+      "sha256": "1ec4eb5073269236d8d602a1fa4929650b67f7d42bceb3f5d1abbffe24c2fe39",
+      "storage": "file",
+      "path": "deliveries/2026-11-12/P3R_historical_timing.json"
+    },
+    {
+      "source_date": "2026-11-12",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P3R_paired_comparisons.json",
+      "bytes": 1273,
+      "sha256": "5c0d78c20f1c309ffa1a4181672d6339033105ddd741d00607bb5a600a547f01",
+      "storage": "file",
+      "path": "deliveries/2026-11-12/P3R_paired_comparisons.json"
+    },
+    {
+      "source_date": "2026-11-12",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P3R_public_verification.json",
+      "bytes": 252,
+      "sha256": "23015f5d7d96a152071cac1f03b10c095cf58070baafc585d1418be4ea64c983",
+      "storage": "file",
+      "path": "deliveries/2026-11-12/P3R_public_verification.json"
+    },
+    {
+      "source_date": "2026-11-12",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P3R_REPORT.md",
+      "bytes": 7772,
+      "sha256": "a37ad77ceca3a945a49fc247c981ac2b127469061d5b385802c556bd91adf18a",
+      "storage": "file",
+      "path": "deliveries/2026-11-12/P3R_REPORT.md"
+    },
+    {
+      "source_date": "2026-11-12",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P3R_reproducibility_package.zip",
+      "bytes": 210330363,
+      "sha256": "29e06cf6653bf4ccd72f1e4850346db5ea91f37fda5e13da6fcb471d9a40f662",
+      "storage": "split",
+      "parts": [
+        {
+          "path": "deliveries/2026-11-12/P3R_reproducibility_package.zip.part001",
+          "bytes": 33554432,
+          "sha256": "67b9423f2df58ed7f0cd8c64e3e77d681e8ef01aa39b69577463ef8643859a1e"
+        },
+        {
+          "path": "deliveries/2026-11-12/P3R_reproducibility_package.zip.part002",
+          "bytes": 33554432,
+          "sha256": "85e8466ef05f203867553ec39d0c3357b8618010019b270dee18d9e923401130"
+        },
+        {
+          "path": "deliveries/2026-11-12/P3R_reproducibility_package.zip.part003",
+          "bytes": 33554432,
+          "sha256": "c55b37fe130a49055dd55aaaf461a14f25f2229cdacbf82a8a9457bd0094913f"
+        },
+        {
+          "path": "deliveries/2026-11-12/P3R_reproducibility_package.zip.part004",
+          "bytes": 33554432,
+          "sha256": "704c08654fbc79fc34448fb4974df1e01b52c087c3dcb664c5b1ae8dbf3e34e5"
+        },
+        {
+          "path": "deliveries/2026-11-12/P3R_reproducibility_package.zip.part005",
+          "bytes": 33554432,
+          "sha256": "233167fd3a45cfe987e943d37876147a07f6eb51d31a0e8bbb1d699a5fb9eb96"
+        },
+        {
+          "path": "deliveries/2026-11-12/P3R_reproducibility_package.zip.part006",
+          "bytes": 33554432,
+          "sha256": "a64ef2dca0b8fb473d3e8f4e1497e1c86bead2a04311edf048095cffc1777d6d"
+        },
+        {
+          "path": "deliveries/2026-11-12/P3R_reproducibility_package.zip.part007",
+          "bytes": 9003771,
+          "sha256": "5a28b126e4ac60754b91c32fc2bbae2d05c60b8f773152f9f63d08f0d8d3cd9b"
+        }
+      ]
+    },
+    {
+      "source_date": "2026-11-12",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P3R_selected_controllers.json",
+      "bytes": 271,
+      "sha256": "21554a40f6e2718c4b60a60a71335020e36b8ae0ea6db14c60cf337280ab6873",
+      "storage": "file",
+      "path": "deliveries/2026-11-12/P3R_selected_controllers.json"
+    },
+    {
+      "source_date": "2026-11-12",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P3R_training_controller_gate.json",
+      "bytes": 1725,
+      "sha256": "fc9be8e592f08b850002f72a919f0bd92ba14896dac8692764cba8e52471da38",
+      "storage": "file",
+      "path": "deliveries/2026-11-12/P3R_training_controller_gate.json"
+    },
+    {
+      "source_date": "2026-11-12",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P3R_training_runtime_gate.json",
+      "bytes": 3032,
+      "sha256": "78bc5dc73122d95f061415438ce45142a51407f11d9f4de90956445baa731d14",
+      "storage": "file",
+      "path": "deliveries/2026-11-12/P3R_training_runtime_gate.json"
+    },
+    {
+      "source_date": "2026-11-12",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P3R_validation_freeze.json",
+      "bytes": 4659,
+      "sha256": "f74a94000c4824569f2cec3fb11586c4572f803403fdfb6213f668e2181d882f",
+      "storage": "file",
+      "path": "deliveries/2026-11-12/P3R_validation_freeze.json"
+    },
+    {
+      "source_date": "2026-11-12",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P3R_validation_summary.csv",
+      "bytes": 4182,
+      "sha256": "118a01af517d00a417cd5c80ef5046215fc198bc9496bfb74c568289f9eb5780",
+      "storage": "file",
+      "path": "deliveries/2026-11-12/P3R_validation_summary.csv"
+    },
+    {
+      "source_date": "2026-11-12",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P3R_validation_summary.json",
+      "bytes": 10735,
+      "sha256": "b348c99a4ec9582858084944d00ea32074574da2c90dcb89b5e6e1d2d3fde316",
+      "storage": "file",
+      "path": "deliveries/2026-11-12/P3R_validation_summary.json"
+    },
+    {
+      "source_date": "2026-11-12",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P4_acceptance_manifest.json",
+      "bytes": 747417,
+      "sha256": "2211bb1213f4b321b15779d98dbafbd9a2167cf8b7780bdb992589f19f559a1e",
+      "storage": "file",
+      "path": "deliveries/2026-11-12/P4_acceptance_manifest.json"
+    },
+    {
+      "source_date": "2026-11-12",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P4_cluster_bootstrap.json",
+      "bytes": 2774,
+      "sha256": "11d9e76e4b964fd01d37e69361e0708faa7b7e258067efbbd310b333862025d3",
+      "storage": "file",
+      "path": "deliveries/2026-11-12/P4_cluster_bootstrap.json"
+    },
+    {
+      "source_date": "2026-11-12",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P4_conditional_quality.csv",
+      "bytes": 941,
+      "sha256": "c62568999ac0fe5499de28f83285f29f41447d6a095610e99d5176710871c2e1",
+      "storage": "file",
+      "path": "deliveries/2026-11-12/P4_conditional_quality.csv"
+    },
+    {
+      "source_date": "2026-11-12",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P4_delivery_verification.json",
+      "bytes": 242,
+      "sha256": "8d1265af94755829fc0ae3fb314cdaccb906e24ef78eb9e6674d00f1e7dd0af5",
+      "storage": "file",
+      "path": "deliveries/2026-11-12/P4_delivery_verification.json"
+    },
+    {
+      "source_date": "2026-11-12",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P4_environment.json",
+      "bytes": 28662,
+      "sha256": "d5242ab7cc99a6e026f649a824d28dd4ea70beacb26325146046835c9c0c709f",
+      "storage": "file",
+      "path": "deliveries/2026-11-12/P4_environment.json"
+    },
+    {
+      "source_date": "2026-11-12",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P4_EXECUTION_V1.md",
+      "bytes": 3238,
+      "sha256": "8e7521b0e0c0f43f77b8ee63a4a0e704585fc7b06a025eb1ab5ac789ef8e5db5",
+      "storage": "file",
+      "path": "deliveries/2026-11-12/P4_EXECUTION_V1.md"
+    },
+    {
+      "source_date": "2026-11-12",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P4_final_audit.json",
+      "bytes": 674,
+      "sha256": "0dc76066b027835b340be80b77fa8044c3177056c95491566027e2b280129972",
+      "storage": "file",
+      "path": "deliveries/2026-11-12/P4_final_audit.json"
+    },
+    {
+      "source_date": "2026-11-12",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P4_historical_integrity.json",
+      "bytes": 323,
+      "sha256": "68246cafa22f7787cd507b9524c6d6aca1c4ecaff21b3e2a08c7092d0cfa55ce",
+      "storage": "file",
+      "path": "deliveries/2026-11-12/P4_historical_integrity.json"
+    },
+    {
+      "source_date": "2026-11-12",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P4_main_table.csv",
+      "bytes": 4289,
+      "sha256": "681e1ba9688d382062d4dfb33c98b6db662eb1f51d9e06abe05161ea9c3afa6c",
+      "storage": "file",
+      "path": "deliveries/2026-11-12/P4_main_table.csv"
+    },
+    {
+      "source_date": "2026-11-12",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P4_main_table.json",
+      "bytes": 9680,
+      "sha256": "c03eabad90bbda38421b9b61c9d67f2ce129f64e8675cd0a79fc684a218f74e0",
+      "storage": "file",
+      "path": "deliveries/2026-11-12/P4_main_table.json"
+    },
+    {
+      "source_date": "2026-11-12",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P4_per_event_results.csv",
+      "bytes": 29696168,
+      "sha256": "1c4987b9b76a2652018f525cf6c8fa7c062791579a1877a234fe11a56e1e24ab",
+      "storage": "file",
+      "path": "deliveries/2026-11-12/P4_per_event_results.csv"
+    },
+    {
+      "source_date": "2026-11-12",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P4_REPORT.md",
+      "bytes": 6292,
+      "sha256": "87d1c12d399ba13a4e181a85c34ed386a70ad68beb62ae068ddc361918ca0a7f",
+      "storage": "file",
+      "path": "deliveries/2026-11-12/P4_REPORT.md"
+    },
+    {
+      "source_date": "2026-11-12",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P4_REPRODUCE.md",
+      "bytes": 1193,
+      "sha256": "a77605dcba9416b95ef208b70f13f9703519edc8b84620d63a4249223507154e",
+      "storage": "file",
+      "path": "deliveries/2026-11-12/P4_REPRODUCE.md"
+    },
+    {
+      "source_date": "2026-11-12",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P4_reproducibility_package.zip",
+      "bytes": 187524941,
+      "sha256": "86be78e0125483debe6329125a32729ed34c8c90ed55136f9686af662676dc05",
+      "storage": "split",
+      "parts": [
+        {
+          "path": "deliveries/2026-11-12/P4_reproducibility_package.zip.part001",
+          "bytes": 33554432,
+          "sha256": "03d882f16c9ae1e2e4c42896153268fb40df076915d4cb66aeb858b8b33dd3b9"
+        },
+        {
+          "path": "deliveries/2026-11-12/P4_reproducibility_package.zip.part002",
+          "bytes": 33554432,
+          "sha256": "79edc284581a59cda9d41e4d00fb3cce0108764873f985118ebbd2668596babc"
+        },
+        {
+          "path": "deliveries/2026-11-12/P4_reproducibility_package.zip.part003",
+          "bytes": 33554432,
+          "sha256": "f2ab627ae07320dac264237365ebc982fcfeb2f2486e5a086e2a7feed76fbe09"
+        },
+        {
+          "path": "deliveries/2026-11-12/P4_reproducibility_package.zip.part004",
+          "bytes": 33554432,
+          "sha256": "9ceb8af76cbd22c5171645003cf17ac0c0b6e6b67729f8c111c261bb97bcdb1c"
+        },
+        {
+          "path": "deliveries/2026-11-12/P4_reproducibility_package.zip.part005",
+          "bytes": 33554432,
+          "sha256": "9bea81b3b5b17c8fbc52938877428a530113ffe62d5d6dff71836731db1cf05d"
+        },
+        {
+          "path": "deliveries/2026-11-12/P4_reproducibility_package.zip.part006",
+          "bytes": 19752781,
+          "sha256": "5ffa7fc58869ad0937f1447ea1981e4fef6c6bc8b386fc91f3393e196c513380"
+        }
+      ]
+    },
+    {
+      "source_date": "2026-11-12",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P4_runtime_regression.xml",
+      "bytes": 3410,
+      "sha256": "9441d284872fce259c28a602524e2265d463874a507c23949debd92a9a223e8f",
+      "storage": "file",
+      "path": "deliveries/2026-11-12/P4_runtime_regression.xml"
+    },
+    {
+      "source_date": "2026-11-12",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P4_search_seed_counts.csv",
+      "bytes": 644,
+      "sha256": "e9f9cd59e91598a33b9f2f9bac763aa71c1373ede1bede8671a14643ef9615c3",
+      "storage": "file",
+      "path": "deliveries/2026-11-12/P4_search_seed_counts.csv"
+    },
+    {
+      "source_date": "2026-11-12",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P4_seed_averaged_events.csv",
+      "bytes": 14185310,
+      "sha256": "f632c950097080bea08ec83239f4ff3aa82d77dd721b7ce219a2dd8e5f9e2eb5",
+      "storage": "file",
+      "path": "deliveries/2026-11-12/P4_seed_averaged_events.csv"
+    },
+    {
+      "source_date": "2026-11-12",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P4_STATISTICS_V1.md",
+      "bytes": 883,
+      "sha256": "2e49315f40696dbeaf2448cb803f3931a36a0f93621d10226f0da6faa4503824",
+      "storage": "file",
+      "path": "deliveries/2026-11-12/P4_STATISTICS_V1.md"
+    },
+    {
+      "source_date": "2026-11-12",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P4_stratified_table.csv",
+      "bytes": 12060,
+      "sha256": "8691108ad408cf6b94799a1a970890da29d74971f2b05d17aefad3f8bdf4bf53",
+      "storage": "file",
+      "path": "deliveries/2026-11-12/P4_stratified_table.csv"
+    },
+    {
+      "source_date": "2026-11-12",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P4_test_freeze.json",
+      "bytes": 5097,
+      "sha256": "605e403392a036234cab2be7e3c145337240422143a6aad55f01d7e7aa9ca2e3",
+      "storage": "file",
+      "path": "deliveries/2026-11-12/P4_test_freeze.json"
+    },
+    {
+      "source_date": "2026-11-12",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P4_timing_components.csv",
+      "bytes": 3650,
+      "sha256": "ae0734d84d6b92ba5cbbcc2ca86f6b60503fbde63a2efb731901fd1e1c8dd9ce",
+      "storage": "file",
+      "path": "deliveries/2026-11-12/P4_timing_components.csv"
+    },
+    {
+      "source_date": "2026-11-12",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P4_timing_table.csv",
+      "bytes": 1521,
+      "sha256": "3fe7f899e678b42f106005587c646ed58dc79a2597a069e2b2f1151f5c729cdf",
+      "storage": "file",
+      "path": "deliveries/2026-11-12/P4_timing_table.csv"
+    },
+    {
+      "source_date": "2026-11-12",
+      "source_workspace": "https-github-com-liu-jiye-online-2",
+      "original_name": "P4_training_preflight.json",
+      "bytes": 91834,
+      "sha256": "41d79037776348e44076ea57fe98d2da39908376e00a3ccc94d6c0ffc4ab2a8f",
+      "storage": "file",
+      "path": "deliveries/2026-11-12/P4_training_preflight.json"
+    }
+  ]
+}

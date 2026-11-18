@@ -1,0 +1,104 @@
+{
+  "environment": {
+    "system": "Linux",
+    "python": "3.11.18 (main, Nov  5 2026, 08:03:00) [GCC 12.2.0]"
+  },
+  "formal_linux_gate": true,
+  "profiled": false,
+  "training_bases": 60,
+  "calls": 5760,
+  "exact_behavior_checks": 288,
+  "source_sha256": {
+    "src/isl/p3r/control.py": "b569bc11cfac27a4585e28bddcc5a3b208617f98a8fb492d2e39f84f8f050309",
+    "src/isl/p3r/control_timed.py": "fedaa9742a1980a58573c19e15f01b85b12f11c1944de436a0cd0ac2bda6e4c0",
+    "src/isl/p3r/indexed.py": "c1163655c8b32f53e4261d872f980357fb8839a76adf4831db330b2e33a894b8",
+    "src/isl/p3r/model_io.py": "3569ebbc7895b587c7d8e99d26721033a386b63746a76f25ea25aca9b2275f58",
+    "src/isl/p3r/repair_runtime.py": "1e4cbf643c0a6e57bc504e2eb7afbe3587ec771ec4639e9f5536632143a41f9d",
+    "src/isl/p3r/search.py": "56f5221b8a67f6f3570a8026ffbcf74ce62340df4dac3878e7199b635d139ab3",
+    "src/isl/p3r/sparse_control.py": "f444d44e865e4ff026282f67c7acde6bfb7abc55d917e291ad40b7adbbef0f5f",
+    "src/isl/p3r/validation_indexed.py": "16dd937ec8cd0ccc0c9f051dfa35cd28f73316b9e14265a3ce2892704018a594",
+    "src/isl/p3r/__init__.py": "3a8db19c9b9aa2cd9760ab8197355427d8aa9f396d536c2931e8fcb1d0b8b8da"
+  },
+  "groups": {
+    "old/default/B0": {
+      "n": 720,
+      "timeouts": 4,
+      "response_p50_p95_p99_ms": [
+        7.226055,
+        13.68786225,
+        27.220260209999875
+      ],
+      "baseline_p99_ms": 16.923603789999976
+    },
+    "revised/default/B0": {
+      "n": 720,
+      "timeouts": 1,
+      "response_p50_p95_p99_ms": [
+        4.331503,
+        10.25121735,
+        19.02297502999999
+      ],
+      "baseline_p99_ms": 15.696726519999965
+    },
+    "old/default/B2": {
+      "n": 720,
+      "timeouts": 0,
+      "response_p50_p95_p99_ms": [
+        8.70111,
+        21.735913299999996,
+        35.40589932999999
+      ],
+      "baseline_p99_ms": 18.03495864999997
+    },
+    "revised/default/B2": {
+      "n": 720,
+      "timeouts": 0,
+      "response_p50_p95_p99_ms": [
+        5.4245395,
+        14.280093699999995,
+        21.396237869999926
+      ],
+      "baseline_p99_ms": 15.712158909999996
+    },
+    "old/N500-h0.8/B0": {
+      "n": 720,
+      "timeouts": 362,
+      "response_p50_p95_p99_ms": [
+        50.117092,
+        82.82298374999999,
+        96.15735811999997
+      ],
+      "baseline_p99_ms": 35.758510269999995
+    },
+    "revised/N500-h0.8/B0": {
+      "n": 720,
+      "timeouts": 4,
+      "response_p50_p95_p99_ms": [
+        19.004937,
+        31.343617749999996,
+        44.668126929999985
+      ],
+      "baseline_p99_ms": 27.795472879999956
+    },
+    "old/N500-h0.8/B2": {
+      "n": 720,
+      "timeouts": 353,
+      "response_p50_p95_p99_ms": [
+        49.2692685,
+        81.76501489999998,
+        99.73441858999979
+      ],
+      "baseline_p99_ms": 39.04475764999995
+    },
+    "revised/N500-h0.8/B2": {
+      "n": 720,
+      "timeouts": 9,
+      "response_p50_p95_p99_ms": [
+        34.3846655,
+        46.79913715,
+        51.79113972999993
+      ],
+      "baseline_p99_ms": 32.44188574999994
+    }
+  }
+}

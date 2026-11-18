@@ -1,0 +1,130 @@
+{
+  "independent_base_clusters": 1000,
+  "method": "stratified hierarchical paired bootstrap; orbit groups then bases; seeds averaged within event",
+  "orbit_test_groups": {
+    "D2-O": [
+      "g08",
+      "g09"
+    ],
+    "D2-S": [
+      "g08",
+      "g09"
+    ]
+  },
+  "repetitions": 10000,
+  "results": {
+    "ALNS-ISL": {
+      "base_cluster_only_success_ci95": [
+        0.5528,
+        0.5626166666666667
+      ],
+      "difference_vs_rule_ci95": [
+        -0.16011666666666668,
+        -0.13713333333333344
+      ],
+      "success_ci95": [
+        0.5440829166666666,
+        0.57135
+      ]
+    },
+    "CP-SAT-50ms": {
+      "base_cluster_only_success_ci95": [
+        0.17566666666666667,
+        0.2080833333333333
+      ],
+      "difference_vs_rule_ci95": [
+        -0.5315,
+        -0.4975
+      ],
+      "success_ci95": [
+        0.1755,
+        0.20825
+      ]
+    },
+    "Fixed-PALR": {
+      "base_cluster_only_success_ci95": [
+        0.70475,
+        0.7133333333333334
+      ],
+      "difference_vs_rule_ci95": [
+        -0.0008333333333332416,
+        0.0063333333333333046
+      ],
+      "success_ci95": [
+        0.7041666666666666,
+        0.714
+      ]
+    },
+    "Frozen-Greedy": {
+      "base_cluster_only_success_ci95": [
+        0.6967479166666666,
+        0.7055833333333335
+      ],
+      "difference_vs_rule_ci95": [
+        -0.009333333333333305,
+        -0.0008333333333332416
+      ],
+      "success_ci95": [
+        0.6964166666666667,
+        0.706
+      ]
+    },
+    "Minimal-Repair": {
+      "base_cluster_only_success_ci95": [
+        0.7037500000000001,
+        0.71225
+      ],
+      "difference_vs_rule_ci95": [
+        -0.00216666666666665,
+        0.005666666666666709
+      ],
+      "success_ci95": [
+        0.7019166666666667,
+        0.7141666666666667
+      ]
+    },
+    "PUCT-ISL": {
+      "base_cluster_only_success_ci95": [
+        0.4949995833333332,
+        0.5048166666666667
+      ],
+      "difference_vs_rule_ci95": [
+        -0.2145999999999999,
+        -0.1984329166666666
+      ],
+      "success_ci95": [
+        0.49033291666666673,
+        0.5093166666666666
+      ]
+    },
+    "Rule-PALR": {
+      "base_cluster_only_success_ci95": [
+        0.7019166666666666,
+        0.7105833333333333
+      ],
+      "difference_vs_rule_ci95": [
+        0.0,
+        0.0
+      ],
+      "success_ci95": [
+        0.7009166666666666,
+        0.7115
+      ]
+    },
+    "Validation-Best-Fixed": {
+      "base_cluster_only_success_ci95": [
+        0.7054166666666667,
+        0.7138333333333333
+      ],
+      "difference_vs_rule_ci95": [
+        -8.333333333343518e-05,
+        0.006833333333333358
+      ],
+      "success_ci95": [
+        0.7045833333333333,
+        0.7146666666666668
+      ]
+    }
+  },
+  "seed": 20261020
+}
