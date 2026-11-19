@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "zip_integrity_passed": true,
+  "bundle_files": 194,
+  "bundle_scope": "Report/tables/figures/code/acceptance; full replicate arrays and raw audit directly in Git, omitted from convenience ZIP",
+  "files": {
+    "P6第七阶段实验报告.md": {
+      "bytes": 17073,
+      "sha256": "9cfc91884c1b2c5c3070519fffd435c10a5a00a350554ac9ae2375dceb913b17"
+    },
+    "P0-P6最终结果摘要.md": {
+      "bytes": 2954,
+      "sha256": "dfb7f9595e8263d10cc76975c28198df63ab36be65e8fe3e6fc60ce8f874ba74"
+    },
+    "P6复现实验指南.md": {
+      "bytes": 3721,
+      "sha256": "f77bec2e8ec668a10330d3f0b506fbce6efff34fc2b776ffc8c36e8ff07f0ad4"
+    },
+    "P6最终验收.json": {
+      "bytes": 1877,
+      "sha256": "f5d2314351ca01967b6c629a4ba677b4a48f18c5b6038f81bbafaae056de5cc7"
+    },
+    "P6阶段报告_汇总表_图表.zip": {
+      "bytes": 10556566,
+      "sha256": "ff317bde12351009ec7559075edbfd6f06812afce097536b2fdada4e4e20e563"
+    },
+    "P6_Git_delivery_receipt.json": {
+      "bytes": 846,
+      "sha256": "c9cb34cf75c663b5562926439e62d4ec2b596932a41c2e022dad1395cb767ba9"
+    }
+  }
+}
