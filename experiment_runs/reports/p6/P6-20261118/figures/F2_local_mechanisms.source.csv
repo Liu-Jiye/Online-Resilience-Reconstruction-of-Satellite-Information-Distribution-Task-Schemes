@@ -1,0 +1,4 @@
+right,phase,condition,view,stratum,resampling_plan,left,metric,estimate,bootstrap,ci95_low,ci95_high,defined_replicates,undefined_replicates,paired_valid_events,paired_valid_clusters,display
+PUCT-local,mechanisms,all,overall,all,fdef8b988e598e04,PALR-local,online_success,2.21666666666668,hierarchical,1.00641025641026,3.36281337535015,10000,0,,,PALR-local vs PUCT-local
+ALNS-local,mechanisms,all,overall,all,fdef8b988e598e04,PALR-local,online_success,27.66666666666666,hierarchical,26.26666666666666,29.219302884615377,10000,0,,,PALR-local vs ALNS-local
+CP-local,mechanisms,all,overall,all,fdef8b988e598e04,PALR-local,online_success,8.66666666666666,hierarchical,6.75,10.61458333333332,10000,0,,,PALR-local vs CP-local

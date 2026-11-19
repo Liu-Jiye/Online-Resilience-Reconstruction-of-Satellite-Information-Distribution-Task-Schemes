@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "plans": 8,
+  "explicit_index_comparisons": 48,
+  "unit": "Expanded sampled base IDs versus normalized integer weights; unequal orbit-group sizes retained"
+}

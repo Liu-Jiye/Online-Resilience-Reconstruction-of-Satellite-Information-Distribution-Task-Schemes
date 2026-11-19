@@ -1,0 +1,4 @@
+category,phase,base_id,scenario,method,status,total_ms,online_success,errors,source
+urgent_failure,P4,P4-test-D1-0000,6,Rule-PALR,feasible,6.655421,0,,reports/p4/P4-20261117/main/P4-test-D1-0000.json.gz
+cancellation_success,P4,P4-test-D1-0000,2,ALNS-ISL,feasible,49.679123,1,,reports/p4/P4-20261117/main/P4-test-D1-0000.json.gz
+window_or_receiver_counterexample,ablations,P4-test-D1-0007,11,No-window,no_feasible_repair_found,14.549923,0,contact_window,reports/p5/P5-20261118/ablations/P4-test-D1-0007.json.gz

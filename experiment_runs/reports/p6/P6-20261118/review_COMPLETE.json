@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "total_calls": 573200,
+  "original_timing_calls_separately_reused": 384000,
+  "latency": "Raw call distributions; seeds pooled and explicitly counted; no quantiles of seed averages",
+  "cancelled_supplements": {
+    "containers_stopped_and_removed": [
+      "medium-p4-audit",
+      "medium-p4-formal",
+      "medium-preflight",
+      "medium-prepare"
+    ],
+    "excluded": [
+      "P4-M",
+      "P5-M",
+      "MEDIUM_P4_P5_EXECUTION_V1.md",
+      "medium*.py"
+    ],
+    "local_file_deletion": "Automatic approval review rejected deletion with blocked by policy; untracked local remnants excluded from Git and evidence"
+  }
+}

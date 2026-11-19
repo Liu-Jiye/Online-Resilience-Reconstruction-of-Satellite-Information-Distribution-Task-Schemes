@@ -1,0 +1,439 @@
+{
+  "comparisons": [
+    {
+      "phase": "P4",
+      "left": "Rule-PALR",
+      "right": "ALNS-ISL"
+    },
+    {
+      "phase": "P4",
+      "left": "Rule-PALR",
+      "right": "CP-SAT-50ms"
+    },
+    {
+      "phase": "P4",
+      "left": "Rule-PALR",
+      "right": "Fixed-PALR"
+    },
+    {
+      "phase": "P4",
+      "left": "Rule-PALR",
+      "right": "Frozen-Greedy"
+    },
+    {
+      "phase": "P4",
+      "left": "Rule-PALR",
+      "right": "Minimal-Repair"
+    },
+    {
+      "phase": "P4",
+      "left": "Rule-PALR",
+      "right": "PUCT-ISL"
+    },
+    {
+      "phase": "P4",
+      "left": "Rule-PALR",
+      "right": "Validation-Best-Fixed"
+    },
+    {
+      "phase": "P4",
+      "left": "Fixed-PALR",
+      "right": "ALNS-ISL"
+    },
+    {
+      "phase": "P4",
+      "left": "Fixed-PALR",
+      "right": "CP-SAT-50ms"
+    },
+    {
+      "phase": "P4",
+      "left": "Fixed-PALR",
+      "right": "Minimal-Repair"
+    },
+    {
+      "phase": "P4",
+      "left": "Fixed-PALR",
+      "right": "PUCT-ISL"
+    },
+    {
+      "phase": "P4",
+      "left": "Validation-Best-Fixed",
+      "right": "ALNS-ISL"
+    },
+    {
+      "phase": "P4",
+      "left": "Validation-Best-Fixed",
+      "right": "CP-SAT-50ms"
+    },
+    {
+      "phase": "P4",
+      "left": "Validation-Best-Fixed",
+      "right": "Minimal-Repair"
+    },
+    {
+      "phase": "P4",
+      "left": "Validation-Best-Fixed",
+      "right": "PUCT-ISL"
+    },
+    {
+      "phase": "ablations",
+      "left": "Rule-PALR",
+      "right": "Minimal-Repair"
+    },
+    {
+      "phase": "ablations",
+      "left": "Rule-PALR",
+      "right": "Grid-w5-B2"
+    },
+    {
+      "phase": "ablations",
+      "left": "Rule-PALR",
+      "right": "Grid-w5-B1"
+    },
+    {
+      "phase": "ablations",
+      "left": "Rule-PALR",
+      "right": "B-only"
+    },
+    {
+      "phase": "ablations",
+      "left": "Rule-PALR",
+      "right": "w-only"
+    },
+    {
+      "phase": "ablations",
+      "left": "Insert-only",
+      "right": "Grid-w5-B2"
+    },
+    {
+      "phase": "ablations",
+      "left": "Random-ties",
+      "right": "Grid-w5-B2"
+    },
+    {
+      "phase": "ablations",
+      "left": "No-window",
+      "right": "Grid-w5-B2"
+    },
+    {
+      "phase": "ablations",
+      "left": "No-receiver",
+      "right": "Grid-w5-B2"
+    },
+    {
+      "phase": "ablations",
+      "left": "Grid-w1-B0",
+      "right": "Grid-w5-B2"
+    },
+    {
+      "phase": "ablations",
+      "left": "Grid-w1-B1",
+      "right": "Grid-w5-B2"
+    },
+    {
+      "phase": "ablations",
+      "left": "Grid-w1-B2",
+      "right": "Grid-w5-B2"
+    },
+    {
+      "phase": "ablations",
+      "left": "Grid-w1-B3",
+      "right": "Grid-w5-B2"
+    },
+    {
+      "phase": "ablations",
+      "left": "Grid-w1-B5",
+      "right": "Grid-w5-B2"
+    },
+    {
+      "phase": "ablations",
+      "left": "Grid-w10-B0",
+      "right": "Grid-w5-B2"
+    },
+    {
+      "phase": "ablations",
+      "left": "Grid-w10-B1",
+      "right": "Grid-w5-B2"
+    },
+    {
+      "phase": "ablations",
+      "left": "Grid-w10-B2",
+      "right": "Grid-w5-B2"
+    },
+    {
+      "phase": "ablations",
+      "left": "Grid-w10-B3",
+      "right": "Grid-w5-B2"
+    },
+    {
+      "phase": "ablations",
+      "left": "Grid-w10-B5",
+      "right": "Grid-w5-B2"
+    },
+    {
+      "phase": "ablations",
+      "left": "Grid-w20-B0",
+      "right": "Grid-w5-B2"
+    },
+    {
+      "phase": "ablations",
+      "left": "Grid-w20-B1",
+      "right": "Grid-w5-B2"
+    },
+    {
+      "phase": "ablations",
+      "left": "Grid-w20-B2",
+      "right": "Grid-w5-B2"
+    },
+    {
+      "phase": "ablations",
+      "left": "Grid-w20-B3",
+      "right": "Grid-w5-B2"
+    },
+    {
+      "phase": "ablations",
+      "left": "Grid-w20-B5",
+      "right": "Grid-w5-B2"
+    },
+    {
+      "phase": "ablations",
+      "left": "Grid-w3-B0",
+      "right": "Grid-w5-B2"
+    },
+    {
+      "phase": "ablations",
+      "left": "Grid-w3-B1",
+      "right": "Grid-w5-B2"
+    },
+    {
+      "phase": "ablations",
+      "left": "Grid-w3-B2",
+      "right": "Grid-w5-B2"
+    },
+    {
+      "phase": "ablations",
+      "left": "Grid-w3-B3",
+      "right": "Grid-w5-B2"
+    },
+    {
+      "phase": "ablations",
+      "left": "Grid-w3-B5",
+      "right": "Grid-w5-B2"
+    },
+    {
+      "phase": "ablations",
+      "left": "Grid-w5-B0",
+      "right": "Grid-w5-B2"
+    },
+    {
+      "phase": "ablations",
+      "left": "Grid-w5-B1",
+      "right": "Grid-w5-B2"
+    },
+    {
+      "phase": "ablations",
+      "left": "Grid-w5-B3",
+      "right": "Grid-w5-B2"
+    },
+    {
+      "phase": "ablations",
+      "left": "Grid-w5-B5",
+      "right": "Grid-w5-B2"
+    },
+    {
+      "phase": "ablations",
+      "left": "Rule-PALR@5ms",
+      "right": "No-time@5ms"
+    },
+    {
+      "phase": "ablations",
+      "left": "Rule-PALR@10ms",
+      "right": "No-time@10ms"
+    },
+    {
+      "phase": "ablations",
+      "left": "Rule-PALR@20ms",
+      "right": "No-time@20ms"
+    },
+    {
+      "phase": "ablations",
+      "left": "Rule-PALR@50ms",
+      "right": "No-time@50ms"
+    },
+    {
+      "phase": "ablations",
+      "left": "Rule-PALR@100ms",
+      "right": "No-time@100ms"
+    },
+    {
+      "phase": "mechanisms",
+      "left": "PALR-local",
+      "right": "ALNS-local"
+    },
+    {
+      "phase": "mechanisms",
+      "left": "PALR-local",
+      "right": "CP-local"
+    },
+    {
+      "phase": "mechanisms",
+      "left": "PALR-local",
+      "right": "PUCT-local"
+    },
+    {
+      "phase": "simulations",
+      "left": "PUCT-sensitivity@sim100",
+      "right": "PUCT-sensitivity@sim40"
+    },
+    {
+      "phase": "simulations",
+      "left": "PUCT-sensitivity@sim400",
+      "right": "PUCT-sensitivity@sim40"
+    },
+    {
+      "phase": "upgrades",
+      "left": "Upgrade-PUCT",
+      "right": "PALR-only"
+    },
+    {
+      "phase": "upgrades",
+      "left": "Upgrade-ALNS",
+      "right": "PALR-only"
+    },
+    {
+      "phase": "upgrades",
+      "left": "Upgrade-PUCT",
+      "right": "PUCT-only"
+    },
+    {
+      "phase": "upgrades",
+      "left": "Upgrade-ALNS",
+      "right": "ALNS-only"
+    },
+    {
+      "phase": "single_factor",
+      "left": "Rule-PALR",
+      "right": "Fixed-PALR"
+    },
+    {
+      "phase": "single_factor",
+      "left": "Rule-PALR",
+      "right": "Minimal-Repair"
+    },
+    {
+      "phase": "single_factor",
+      "left": "Rule-PALR",
+      "right": "Validation-Best-Fixed"
+    },
+    {
+      "phase": "single_factor",
+      "left": "Fixed-PALR",
+      "right": "Minimal-Repair"
+    },
+    {
+      "phase": "windows",
+      "left": "Rule-PALR",
+      "right": "Fixed-PALR"
+    },
+    {
+      "phase": "windows",
+      "left": "Rule-PALR",
+      "right": "Minimal-Repair"
+    },
+    {
+      "phase": "windows",
+      "left": "Rule-PALR",
+      "right": "No-receiver"
+    },
+    {
+      "phase": "windows",
+      "left": "Rule-PALR",
+      "right": "No-window"
+    },
+    {
+      "phase": "windows",
+      "left": "Rule-PALR",
+      "right": "Validation-Best-Fixed"
+    },
+    {
+      "phase": "windows",
+      "left": "Fixed-PALR",
+      "right": "Minimal-Repair"
+    },
+    {
+      "phase": "windows",
+      "left": "No-window",
+      "right": "Fixed-PALR"
+    },
+    {
+      "phase": "windows",
+      "left": "No-receiver",
+      "right": "Fixed-PALR"
+    },
+    {
+      "phase": "anomalies",
+      "left": "Rule-PALR",
+      "right": "Fixed-PALR"
+    },
+    {
+      "phase": "anomalies",
+      "left": "Rule-PALR",
+      "right": "Minimal-Repair"
+    },
+    {
+      "phase": "anomalies",
+      "left": "Rule-PALR",
+      "right": "Validation-Best-Fixed"
+    },
+    {
+      "phase": "anomalies",
+      "left": "Fixed-PALR",
+      "right": "Minimal-Repair"
+    },
+    {
+      "phase": "references",
+      "left": "Rule-PALR",
+      "right": "Fixed-PALR"
+    },
+    {
+      "phase": "references",
+      "left": "Rule-PALR",
+      "right": "Minimal-Repair"
+    },
+    {
+      "phase": "references",
+      "left": "Rule-PALR",
+      "right": "Validation-Best-Fixed"
+    },
+    {
+      "phase": "references",
+      "left": "Fixed-PALR",
+      "right": "Minimal-Repair"
+    },
+    {
+      "phase": "transfer",
+      "left": "Rule-PALR",
+      "right": "Fixed-PALR"
+    },
+    {
+      "phase": "transfer",
+      "left": "Rule-PALR",
+      "right": "Minimal-Repair"
+    },
+    {
+      "phase": "transfer",
+      "left": "Rule-PALR",
+      "right": "Validation-Best-Fixed"
+    },
+    {
+      "phase": "transfer",
+      "left": "Fixed-PALR",
+      "right": "Minimal-Repair"
+    }
+  ],
+  "p_values": false,
+  "intervals": "Marginal percentile 95%, not simultaneous; no significance selection",
+  "shared_valid": "Both methods valid on every seed of event; conservative event-level intersection, explicit counts",
+  "repetitions": 10000,
+  "seed": 20261020
+}

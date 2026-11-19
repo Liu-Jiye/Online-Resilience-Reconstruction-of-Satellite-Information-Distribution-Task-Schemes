@@ -1,0 +1,8 @@
+{
+  "events": 200,
+  "optimal": 200,
+  "full_lexicographic_matches": 173,
+  "mean_absolute_utility_gap": 5.9,
+  "max_absolute_utility_gap": 111,
+  "version_scope": "P2 v1 discrete local domain, earlier implementation; not a certificate of P4/P5 global online optimality"
+}

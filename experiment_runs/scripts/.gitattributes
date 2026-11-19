@@ -1,2 +1,4 @@
 *p5*.py -text whitespace=cr-at-eol,-blank-at-eof
 *stage5*.py -text whitespace=cr-at-eol,-blank-at-eof
+*p6*.py -text whitespace=cr-at-eol,-blank-at-eof
+*stage6*.py -text whitespace=cr-at-eol,-blank-at-eof

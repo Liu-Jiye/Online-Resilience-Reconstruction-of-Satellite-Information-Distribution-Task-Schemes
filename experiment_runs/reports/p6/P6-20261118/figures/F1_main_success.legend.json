@@ -1,0 +1,15 @@
+{
+  "conclusion": "Rule PALR exceeds the three global search baselines; comparison with fixed PALR remains uncertain.",
+  "source": "P4_effects.csv",
+  "archetype": "single quantitative panel",
+  "dimensions_inches": [
+    7.2,
+    4.0600000000000005
+  ],
+  "backend": "Python matplotlib",
+  "independent_unit": "Base instance; whole trajectory for F6; P2 legacy event certificate for F7",
+  "interval": "10,000 paired cluster bootstrap, orbital group then instance, percentile 95%; F7 and F8 are descriptive",
+  "seeds": "11,23,47,89,131 averaged within event before resampling; not independent n",
+  "test": "No p values; marginal intervals, no simultaneous coverage",
+  "render": "Editable PDF/SVG plus 300 dpi PNG; no smoothing or invented observations"
+}

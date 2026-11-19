@@ -1,0 +1,23 @@
+{
+  "pdf": "C:\\Users\\25735\\Documents\\Codex\\2026-11-18\\https-github-com-liu-jiye-online-3\\work\\repository\\experiment_runs\\reports\\p6\\P6-20261118\\figures\\F2_local_mechanisms.pdf",
+  "auditable": true,
+  "verdict": "PASS",
+  "page_count": 1,
+  "visible_text_box_count": 12,
+  "text_trace_count": 12,
+  "stroke_path_count": 16,
+  "filled_region_count": 12,
+  "image_region_count": 0,
+  "summary": {
+    "fail": 0,
+    "warn": 0,
+    "contained_fill_overlays": 0,
+    "contained_image_overlays": 0
+  },
+  "thresholds": {
+    "text_inset_pt": 0.6,
+    "min_overlap_ratio": 0.05,
+    "clipping_tolerance_pt": 0.5
+  },
+  "findings": []
+}

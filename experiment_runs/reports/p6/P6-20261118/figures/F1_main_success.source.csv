@@ -1,0 +1,8 @@
+right,phase,condition,view,stratum,resampling_plan,left,metric,estimate,bootstrap,ci95_low,ci95_high,defined_replicates,undefined_replicates,paired_valid_events,paired_valid_clusters,display
+Minimal-Repair,P4,all,overall,all,b19b4765c6413586,Rule-PALR,online_success,-0.17499999999999,hierarchical,-0.56666666666667,0.20833333333332998,10000,0,,,Rule-PALR vs Minimal-Repair
+Frozen-Greedy,P4,all,overall,all,b19b4765c6413586,Rule-PALR,online_success,0.50833333333333,hierarchical,0.09166666666666,0.9333333333333299,10000,0,,,Rule-PALR vs Frozen-Greedy
+Fixed-PALR,P4,all,overall,all,b19b4765c6413586,Rule-PALR,online_success,-0.27499999999999003,hierarchical,-0.625,0.08333333333332,10000,0,,,Rule-PALR vs Fixed-PALR
+Validation-Best-Fixed,P4,all,overall,all,b19b4765c6413586,Rule-PALR,online_success,-0.33333333333332,hierarchical,-0.69166666666666,0.008333333333332416,10000,0,,,Rule-PALR vs Validation-Best-Fixed
+PUCT-ISL,P4,all,overall,all,b19b4765c6413586,Rule-PALR,online_success,20.626666666666647,hierarchical,19.83833333333333,21.43333333333332,10000,0,,,Rule-PALR vs PUCT-ISL
+ALNS-ISL,P4,all,overall,all,b19b4765c6413586,Rule-PALR,online_success,14.851666666666672,hierarchical,13.713291666666649,16.005,10000,0,,,Rule-PALR vs ALNS-ISL
+CP-SAT-50ms,P4,all,overall,all,b19b4765c6413586,Rule-PALR,online_success,51.44166666666668,hierarchical,49.8,53.15,10000,0,,,Rule-PALR vs CP-SAT-50ms

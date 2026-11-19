@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "phases": {
+    "mechanisms": 14400,
+    "simulations": 18000,
+    "upgrades": 25200,
+    "references": 4800,
+    "transfer": 1440,
+    "continuous": 4000,
+    "anomalies": 400
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "passed": true,
+  "reviewed_figures": ["F1_main_success", "F2_local_mechanisms", "F3_A5_controls", "F4_shared_upgrades", "F5_load_boundary", "F6_trajectories", "F7_legacy_exact_gap", "F8_quality_disturbance", "F9_window_sensitivity"],
+  "method": "Rendered PNGs inspected individually; final PDF font and collision audits retained for every figure.",
+  "alignment": "Nine independent single-axis figures; multi-panel alignment is not applicable and recorded by the audit tool.",
+  "source_warnings_reviewed": [
+    "PNG is a 300 dpi report preview. Editable PDF and SVG are authoritative vector exports; no journal submission TIFF was requested.",
+    "The 600 dpi raster default is unnecessary for vector line-art delivery accompanied by a 300 dpi preview."
+  ],
+  "notes": [
+    "F1 uses a common effect axis to compare all original baselines; small controller differences are resolved numerically in the paired-effect tables and in F3 for the separate P5 cohort.",
+    "F3 explicitly distinguishes fixed w5/B2 from validation-selected w5/B1, and shows both single-control baselines.",
+    "F5 includes all five task-count levels and all four light methods with the same hierarchical 95% interval definition.",
+    "F7 uses a linear numerical gap axis and all 200 earlier local certificates; no global-optimum interpretation.",
+    "F8 is descriptive, with different outcome denominators explicitly identified. Near-coincident light-method points are not jittered; complete numeric data and distinct markers remain available.",
+    "All inferential forests show predefined comparisons, including intervals crossing zero; none selected by observed sign."
+  ]
+}

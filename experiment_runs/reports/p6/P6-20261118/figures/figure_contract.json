@@ -1,0 +1,17 @@
+{
+  "backend": "Python, reused from existing project plotting workflow",
+  "figures": {
+    "F1_main_success": "Rule PALR exceeds the three global search baselines; comparison with fixed PALR remains uncertain.",
+    "F2_local_mechanisms": "Same neighborhood and operation budget require a separate mechanism comparison.",
+    "F3_A5_controls": "Rule-only ablation does not establish a control advantage over fixed parameters.",
+    "F4_shared_upgrades": "Shared 50 ms upgrades need to improve over PALR-only and their search-only counterparts.",
+    "F5_load_boundary": "Load increases expose the online deadline boundary.",
+    "F6_trajectories": "Delivered utility is compared with the whole trajectory as the independent unit.",
+    "F7_legacy_exact_gap": "P2 local discrete certificates quantify an earlier implementation only.",
+    "F8_quality_disturbance": "Execution utility and conditional movement describe different populations.",
+    "F9_window_sensitivity": "Changed versus original windows are paired by base instance and event."
+  },
+  "policy": "Predefined contrasts shown without selecting by sign or interval; all other contrasts in tables",
+  "architecture": "Independent single-panel figures; no composite alignment issue",
+  "glyph_floor_pt": 5
+}

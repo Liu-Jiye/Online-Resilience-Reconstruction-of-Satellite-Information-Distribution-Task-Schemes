@@ -1,0 +1,6 @@
+{
+  "passed": true,
+  "repetitions": 10000,
+  "comparisons": 280,
+  "scope": "CP reference and paired window conditions versus original P4 same-root input; latency not pooled"
+}

@@ -1,0 +1,5 @@
+right,phase,condition,view,stratum,resampling_plan,left,metric,estimate,bootstrap,ci95_low,ci95_high,defined_replicates,undefined_replicates,paired_valid_events,paired_valid_clusters,display
+Grid-w5-B2,ablations,all,overall,all,369642fa7796086d,Rule-PALR,online_success,0.05555555555555,hierarchical,-0.05910165484632,0.20330969267138999,10000,0,,,Rule-PALR vs Grid-w5-B2
+Grid-w5-B1,ablations,all,overall,all,369642fa7796086d,Rule-PALR,online_success,0.027777777777769998,hierarchical,-0.0626477541371,0.13888888888888,10000,0,,,Rule-PALR vs Grid-w5-B1
+B-only,ablations,all,overall,all,369642fa7796086d,Rule-PALR,online_success,0.0,hierarchical,-0.09042553191489999,0.09042553191489,10000,0,,,Rule-PALR vs B-only
+w-only,ablations,all,overall,all,369642fa7796086d,Rule-PALR,online_success,0.0,hierarchical,-0.09219858156028,0.08333333333333,10000,0,,,Rule-PALR vs w-only

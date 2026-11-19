@@ -1,0 +1,42 @@
+{
+  "repetitions": 10000,
+  "seed": 20261020,
+  "ids": [
+    "P4-test-D1-0013",
+    "P4-test-D1-0040",
+    "P4-test-D1-0059",
+    "P4-test-D1-0075",
+    "P4-test-D1-0105",
+    "P4-test-D1-0146",
+    "P4-test-D1-0165",
+    "P4-test-D1-0183",
+    "P4-test-D1-0211",
+    "P4-test-D1-0226",
+    "P4-test-D1-0237",
+    "P4-test-D1-0245",
+    "P4-test-D1-0264",
+    "P4-test-D1-0278",
+    "P4-test-D1-0307",
+    "P4-test-D1-0314",
+    "P4-test-D1-0338",
+    "P4-test-D1-0344",
+    "P4-test-D1-0355",
+    "P4-test-D1-0380",
+    "P4-test-D2-S-0011",
+    "P4-test-D2-S-0031",
+    "P4-test-D2-S-0049",
+    "P4-test-D2-S-0053",
+    "P4-test-D2-S-0083"
+  ],
+  "layer_counts": {
+    "D1": 20,
+    "D2-S": 5
+  },
+  "orbit_groups": {
+    "D2-S": {
+      "g09": 5
+    }
+  },
+  "original_layer_weights_preserved": true,
+  "counts_file_sha256": "e0a1b897cf4e99899a02e45b4b6674c971d262766450966558bb75bf09bc19e8"
+}

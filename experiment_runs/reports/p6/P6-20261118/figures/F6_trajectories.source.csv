@@ -1,0 +1,4 @@
+left,right,metric,bootstrap,estimate,ci95_low,ci95_high,defined_replicates,undefined_replicates,display
+Rule-PALR,Fixed-PALR,delivered_utility,hierarchical,2.3299999999999272,-1.5065178571429043,6.54887263655455,10000,0,Rule-PALR vs Fixed-PALR
+Rule-PALR,Minimal-Repair,delivered_utility,hierarchical,31.559999999999945,19.42042647058808,44.91137775735304,10000,0,Rule-PALR vs Minimal-Repair
+Rule-PALR,Validation-Best-Fixed,delivered_utility,hierarchical,2.9700000000000277,-2.0700882352942758,8.359426470588357,10000,0,Rule-PALR vs Validation-Best-Fixed

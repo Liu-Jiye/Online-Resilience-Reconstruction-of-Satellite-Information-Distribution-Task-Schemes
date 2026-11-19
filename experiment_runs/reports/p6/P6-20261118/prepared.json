@@ -1,0 +1,66 @@
+{
+  "phases": {
+    "P4": {
+      "raw_calls": 192000,
+      "event_method_conditions": 96000,
+      "root_clusters": 1000
+    },
+    "ablations": {
+      "raw_calls": 169200,
+      "event_method_conditions": 154800,
+      "root_clusters": 300
+    },
+    "calibration": {
+      "raw_calls": 720,
+      "event_method_conditions": 720,
+      "root_clusters": 60
+    },
+    "mechanisms": {
+      "raw_calls": 14400,
+      "event_method_conditions": 4800,
+      "root_clusters": 100
+    },
+    "simulations": {
+      "raw_calls": 18000,
+      "event_method_conditions": 3600,
+      "root_clusters": 100
+    },
+    "upgrades": {
+      "raw_calls": 25200,
+      "event_method_conditions": 6000,
+      "root_clusters": 100
+    },
+    "single_factor": {
+      "raw_calls": 99840,
+      "event_method_conditions": 99840,
+      "root_clusters": 100
+    },
+    "windows": {
+      "raw_calls": 43200,
+      "event_method_conditions": 43200,
+      "root_clusters": 100
+    },
+    "anomalies": {
+      "raw_calls": 400,
+      "event_method_conditions": 400,
+      "root_clusters": 50
+    },
+    "references": {
+      "raw_calls": 4800,
+      "event_method_conditions": 4800,
+      "root_clusters": 100
+    },
+    "transfer": {
+      "raw_calls": 1440,
+      "event_method_conditions": 1440,
+      "root_clusters": 30
+    },
+    "continuous": {
+      "raw_calls": 4000,
+      "event_method_conditions": 4000,
+      "root_clusters": 100
+    }
+  },
+  "all_search_seed_sets_complete": true,
+  "scope": "Published P4/P5 only; cancelled P4-M/P5-M excluded"
+}

@@ -1,0 +1,5 @@
+{
+  "scope": "Observed per-base choice among25 grid calls using all12 event outcomes, optimistic post-selection descriptive envelope; bootstrap freezes selected actions and does not correct selection optimism; not an online50ms policy or general optimum",
+  "base_clusters": 300,
+  "selection_source_sha256": "1b2c4e246c3516e303f55a0bab95b4856e3a7001d2dab6ed6e6e36d385eaf5aa"
+}

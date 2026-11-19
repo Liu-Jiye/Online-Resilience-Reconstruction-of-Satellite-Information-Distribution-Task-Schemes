@@ -1,0 +1,5 @@
+phase,condition,view,stratum,resampling_plan,left,right,metric,estimate,bootstrap,ci95_low,ci95_high,defined_replicates,undefined_replicates,paired_valid_events,paired_valid_clusters,display
+upgrades,all,overall,all,fdef8b988e598e04,Upgrade-PUCT,PALR-only,online_success,-10.133333333333331,hierarchical,-11.450000000000001,-8.81591770361994,10000,0,,,Upgrade-PUCT vs PALR-only
+upgrades,all,overall,all,fdef8b988e598e04,Upgrade-ALNS,PALR-only,online_success,-10.45000000000001,hierarchical,-11.866691176470589,-9.08333333333337,10000,0,,,Upgrade-ALNS vs PALR-only
+upgrades,all,overall,all,fdef8b988e598e04,Upgrade-PUCT,PUCT-only,online_success,6.63333333333332,hierarchical,5.22080729166667,8.08333333333332,10000,0,,,Upgrade-PUCT vs PUCT-only
+upgrades,all,overall,all,fdef8b988e598e04,Upgrade-ALNS,ALNS-only,online_success,4.66666666666665,hierarchical,2.3833035714285598,6.94479932598038,10000,0,,,Upgrade-ALNS vs ALNS-only

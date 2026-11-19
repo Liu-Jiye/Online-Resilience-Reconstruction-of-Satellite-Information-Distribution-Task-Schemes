@@ -25,11 +25,11 @@
     "per_instance_logs",
     "learned_weights"
   ],
-  "next_stage": "P6",
+  "next_stage": null,
   "next_stage_authorized": false,
   "original_repository_files_modified": false,
   "results_available": true,
-  "results_scope": "P0-P5 and independently numbered supplements; P3-R validation includes default and N500-h0.8; P4 tests default load only; P5 adds ablations, load/window/reference/transfer/continuous sensitivity under its approved scope.",
+  "results_scope": "P0-P6 and previously delivered independent supplements; P6 covers delivered P0-P5, with10000 paired hierarchical cluster bootstrap and573200 raw-call scoring checks. Undelivered P4-M/P5-M cancelled and excluded; original P5 load sensitivity retained.",
   "source_commit": "42209f4c776e227e2fefa0c47777ac547095a7a8",
   "stage_execution_policy": "Only the user-specified stage; produce its report, then stop pending the user's next instruction.",
   "stages": {
@@ -170,9 +170,20 @@
       "status": "complete"
     },
     "P6": {
-      "report": null,
-      "run_ids": [],
-      "status": "not_started"
+      "report": "reports/p6/P6-20261118/P6_REPORT.md",
+      "acceptance": "reports/p6/P6-20261118/final_acceptance.json",
+      "run_ids": ["P6-20261118"],
+      "status": "complete",
+      "paired_bootstrap_repetitions": 10000,
+      "orbital_groups_first": true,
+      "raw_calls_recomputed": 573200,
+      "new_physical_plan_checks": 86950,
+      "figures": 9,
+      "cancelled_supplements": ["P4-M", "P5-M"],
+      "local_medium_file_deletion": "Automatic approval rejected deletion; untracked remnants excluded from Git and statistics",
+      "hard_realtime_established": false,
+      "rule_superiority_established": false,
+      "final_user_requested_stage": true
     }
   },
   "supplements": {
@@ -184,6 +195,6 @@
   },
   "timezone": "Asia/Shanghai",
   "updated_on": "2026-11-18",
-  "workspace_status": "P5_complete",
+  "workspace_status": "P6_complete_experiments_finished",
   "write_scope": "experiment_runs/"
 }

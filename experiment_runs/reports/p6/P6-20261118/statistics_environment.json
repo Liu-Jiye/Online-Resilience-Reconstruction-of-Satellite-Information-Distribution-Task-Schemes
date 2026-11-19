@@ -1,0 +1,8 @@
+{
+  "numpy": "2.3.5",
+  "pandas": "2.3.3",
+  "OPENBLAS_NUM_THREADS": 1,
+  "OMP_NUM_THREADS": 1,
+  "performance_measurement": false,
+  "method": "Read-only statistical recomputation"
+}

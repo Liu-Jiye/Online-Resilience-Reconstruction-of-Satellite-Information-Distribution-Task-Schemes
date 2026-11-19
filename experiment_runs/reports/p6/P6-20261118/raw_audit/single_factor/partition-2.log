@@ -1,0 +1,13 @@
+{"audit_phase": "single_factor", "shards": 1, "calls": 48}
+{"audit_phase": "single_factor", "shards": 51, "calls": 2208}
+{"audit_phase": "single_factor", "shards": 101, "calls": 4368}
+{"audit_phase": "single_factor", "shards": 151, "calls": 6552}
+{"audit_phase": "single_factor", "shards": 201, "calls": 8712}
+{"audit_phase": "single_factor", "shards": 251, "calls": 10920}
+{"audit_phase": "single_factor", "shards": 301, "calls": 13128}
+{"audit_phase": "single_factor", "shards": 351, "calls": 15312}
+{"audit_phase": "single_factor", "shards": 401, "calls": 17520}
+{"audit_phase": "single_factor", "shards": 451, "calls": 19728}
+{"audit_phase": "single_factor", "shards": 501, "calls": 21912}
+{"audit_phase": "single_factor", "shards": 551, "calls": 24120}
+{"phase_complete": "single_factor", "physical_plans_newly_checked": 4552, "validated_trace_samples_checked": 2245, "calls": 24960, "applicable": 24960, "online_success": 15593, "timeouts": 3589, "not_validated": 2307, "unserved": 6170, "metric_fields_recomputed": 574080, "exclusive_urgent_unserved": 5778, "exclusive_timeout": 3589}

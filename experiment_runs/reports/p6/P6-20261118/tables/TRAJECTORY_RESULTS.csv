@@ -1,0 +1,5 @@
+label,completed_tasks,cumulative_active_drops,cumulative_movement,delivered_utility,expired_unserved_tasks,failure_to_success_recoveries,failures,online_success_events,unserved_with_individually_feasible_window,unserved_without_any_individual_window
+Fixed-PALR,29.66,0.09,2.55,1733.22,25.19,2.47,2.47,7.53,30.49,20.88
+Minimal-Repair,29.32,0.0,0.0,1703.99,25.2,2.48,2.48,7.52,31.02,20.88
+Rule-PALR,29.68,0.0,0.0,1735.55,25.19,2.47,2.48,7.52,30.48,20.88
+Validation-Best-Fixed,29.65,0.1,0.0,1732.58,25.19,2.47,2.47,7.53,30.52,20.88
