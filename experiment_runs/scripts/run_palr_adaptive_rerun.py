@@ -87,11 +87,11 @@ def collector_hash():
     return hashlib.sha256(source.encode()).hexdigest()
 
 
-def summarize_comparison(rows, comparator, config):
+def summarize_comparison(rows, comparator, config, candidate='adaptive'):
     rng = np.random.default_rng(config['seed'])
     by_layer = defaultdict(lambda: defaultdict(lambda: defaultdict(lambda: np.zeros(4))))
     outcome = {}
-    for method in (comparator, 'adaptive'):
+    for method in (comparator, candidate):
         records = [row['methods'][method] for row in rows]
         values = [record['metrics'] for record in records]
         valid = [value for value in values if value['valid_output']]
@@ -107,7 +107,7 @@ def summarize_comparison(rows, comparator, config):
     differences = 0
     for row in rows:
         fixed = row['methods'][comparator]
-        adaptive = row['methods']['adaptive']
+        adaptive = row['methods'][candidate]
         differences += fixed['plan_sha256'] != adaptive['plan_sha256']
         fixed_ms = fixed['metrics']['L_total_ms']
         adaptive_ms = adaptive['metrics']['L_total_ms']
@@ -139,7 +139,7 @@ def summarize_comparison(rows, comparator, config):
     result['passed'] = bool(
         result['faster_share_ci95'][0] > config['minimum_event_share']
         and result['mean_reduction_ci95'][0] >= config['minimum_mean_reduction']
-        and differences == 0 and all(outcome[comparator][key] == outcome['adaptive'][key]
+        and differences == 0 and all(outcome[comparator][key] == outcome[candidate][key]
                                     for key in ('online_success', 'valid_output', 'timeout', 'u_exec'))
     )
     return result

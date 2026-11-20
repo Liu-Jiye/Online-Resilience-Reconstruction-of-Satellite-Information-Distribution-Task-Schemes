@@ -1,0 +1,1561 @@
+{
+  "calls": 18000,
+  "events": 3600,
+  "evidence_sha256": "d3b758b62d36b40ea619a3c5ed076d752ea1a85cefc2719664ae871cdf1353a8",
+  "results": {
+    "all": {
+      "B_only": {
+        "actions": {
+          "w5/B0": 3092,
+          "w5/B1": 243,
+          "w5/B2": 265
+        },
+        "comparisons": {
+          "fixed": {
+            "different_plans": 149,
+            "events": 3600,
+            "faster_10pct": 2723,
+            "faster_share": 0.7563888888888889,
+            "faster_share_ci95": [
+              0.7379428191489362,
+              0.7737484276729559
+            ],
+            "latency_passed": true,
+            "mean_reduction": 0.21200816284806534,
+            "mean_reduction_ci95": [
+              0.2001870737179891,
+              0.22276928802737625
+            ],
+            "methods": {
+              "B_only": {
+                "conditional_u": 2470.4825,
+                "latency_quantiles_ms": [
+                  12.7135,
+                  20.492389999999997,
+                  26.07356499999998
+                ],
+                "mean_ms": 13.378927527777778,
+                "online_success": 2639,
+                "strict_feasible": 3600,
+                "timeout": 0,
+                "u_exec": 2470.4825,
+                "valid_output": 3600
+              },
+              "fixed": {
+                "conditional_u": 2472.1111419838844,
+                "latency_quantiles_ms": [
+                  15.8314,
+                  27.426429999999982,
+                  35.04229499999997
+                ],
+                "mean_ms": 16.978510305555556,
+                "online_success": 2638,
+                "strict_feasible": 3600,
+                "timeout": 1,
+                "u_exec": 2471.4244444444444,
+                "valid_output": 3599
+              }
+            },
+            "passed": false
+          },
+          "operator_only": {
+            "different_plans": 148,
+            "events": 3600,
+            "faster_10pct": 630,
+            "faster_share": 0.175,
+            "faster_share_ci95": [
+              0.15990543735224585,
+              0.1904874994424372
+            ],
+            "latency_passed": false,
+            "mean_reduction": -0.032397603849035894,
+            "mean_reduction_ci95": [
+              -0.043971637406604216,
+              -0.021076373558607416
+            ],
+            "methods": {
+              "B_only": {
+                "conditional_u": 2470.4825,
+                "latency_quantiles_ms": [
+                  12.7135,
+                  20.492389999999997,
+                  26.07356499999998
+                ],
+                "mean_ms": 13.378927527777778,
+                "online_success": 2639,
+                "strict_feasible": 3600,
+                "timeout": 0,
+                "u_exec": 2470.4825,
+                "valid_output": 3600
+              },
+              "operator_only": {
+                "conditional_u": 2472.445833333333,
+                "latency_quantiles_ms": [
+                  12.24465,
+                  20.825429999999997,
+                  27.48539299999998
+                ],
+                "mean_ms": 12.959084249999998,
+                "online_success": 2639,
+                "strict_feasible": 3600,
+                "timeout": 0,
+                "u_exec": 2472.445833333333,
+                "valid_output": 3600
+              }
+            },
+            "passed": false
+          }
+        }
+      },
+      "joint": {
+        "actions": {
+          "w3/B0": 1560,
+          "w3/B1": 240,
+          "w5/B0": 1532,
+          "w5/B1": 3,
+          "w5/B2": 265
+        },
+        "comparisons": {
+          "fixed": {
+            "different_plans": 149,
+            "events": 3600,
+            "faster_10pct": 2719,
+            "faster_share": 0.7552777777777778,
+            "faster_share_ci95": [
+              0.7367610815602836,
+              0.7728465670859538
+            ],
+            "latency_passed": true,
+            "mean_reduction": 0.2115690080394127,
+            "mean_reduction_ci95": [
+              0.1991138979985068,
+              0.2227109457341695
+            ],
+            "methods": {
+              "fixed": {
+                "conditional_u": 2472.1111419838844,
+                "latency_quantiles_ms": [
+                  15.8314,
+                  27.426429999999982,
+                  35.04229499999997
+                ],
+                "mean_ms": 16.978510305555556,
+                "online_success": 2638,
+                "strict_feasible": 3600,
+                "timeout": 1,
+                "u_exec": 2471.4244444444444,
+                "valid_output": 3599
+              },
+              "joint": {
+                "conditional_u": 2470.4825,
+                "latency_quantiles_ms": [
+                  12.6994,
+                  20.96408,
+                  25.42907299999999
+                ],
+                "mean_ms": 13.386383722222222,
+                "online_success": 2639,
+                "strict_feasible": 3600,
+                "timeout": 0,
+                "u_exec": 2470.4825,
+                "valid_output": 3600
+              }
+            },
+            "passed": false
+          },
+          "operator_only": {
+            "different_plans": 148,
+            "events": 3600,
+            "faster_10pct": 636,
+            "faster_share": 0.17666666666666667,
+            "faster_share_ci95": [
+              0.16083866084571125,
+              0.1922222222222222
+            ],
+            "latency_passed": false,
+            "mean_reduction": -0.03297296814952233,
+            "mean_reduction_ci95": [
+              -0.04528435738007842,
+              -0.021740691506783857
+            ],
+            "methods": {
+              "joint": {
+                "conditional_u": 2470.4825,
+                "latency_quantiles_ms": [
+                  12.6994,
+                  20.96408,
+                  25.42907299999999
+                ],
+                "mean_ms": 13.386383722222222,
+                "online_success": 2639,
+                "strict_feasible": 3600,
+                "timeout": 0,
+                "u_exec": 2470.4825,
+                "valid_output": 3600
+              },
+              "operator_only": {
+                "conditional_u": 2472.445833333333,
+                "latency_quantiles_ms": [
+                  12.24465,
+                  20.825429999999997,
+                  27.48539299999998
+                ],
+                "mean_ms": 12.959084249999998,
+                "online_success": 2639,
+                "strict_feasible": 3600,
+                "timeout": 0,
+                "u_exec": 2472.445833333333,
+                "valid_output": 3600
+              }
+            },
+            "passed": false
+          }
+        }
+      },
+      "w_only": {
+        "actions": {
+          "w3/B2": 1800,
+          "w5/B2": 1800
+        },
+        "comparisons": {
+          "fixed": {
+            "different_plans": 28,
+            "events": 3600,
+            "faster_10pct": 2809,
+            "faster_share": 0.7802777777777777,
+            "faster_share_ci95": [
+              0.7644444444444445,
+              0.7950635482180294
+            ],
+            "latency_passed": true,
+            "mean_reduction": 0.21539043020118653,
+            "mean_reduction_ci95": [
+              0.2065934572783716,
+              0.22350666604741853
+            ],
+            "methods": {
+              "fixed": {
+                "conditional_u": 2472.1111419838844,
+                "latency_quantiles_ms": [
+                  15.8314,
+                  27.426429999999982,
+                  35.04229499999997
+                ],
+                "mean_ms": 16.978510305555556,
+                "online_success": 2638,
+                "strict_feasible": 3600,
+                "timeout": 1,
+                "u_exec": 2471.4244444444444,
+                "valid_output": 3599
+              },
+              "w_only": {
+                "conditional_u": 2472.200277777778,
+                "latency_quantiles_ms": [
+                  12.5512,
+                  21.261764999999993,
+                  28.073591999999948
+                ],
+                "mean_ms": 13.321501666666668,
+                "online_success": 2639,
+                "strict_feasible": 3600,
+                "timeout": 0,
+                "u_exec": 2472.200277777778,
+                "valid_output": 3600
+              }
+            },
+            "passed": false
+          },
+          "operator_only": {
+            "different_plans": 25,
+            "events": 3600,
+            "faster_10pct": 709,
+            "faster_share": 0.19694444444444445,
+            "faster_share_ci95": [
+              0.18287821156162185,
+              0.21082822327044023
+            ],
+            "latency_passed": false,
+            "mean_reduction": -0.027966282931347397,
+            "mean_reduction_ci95": [
+              -0.0363699676404492,
+              -0.01957393369825728
+            ],
+            "methods": {
+              "operator_only": {
+                "conditional_u": 2472.445833333333,
+                "latency_quantiles_ms": [
+                  12.24465,
+                  20.825429999999997,
+                  27.48539299999998
+                ],
+                "mean_ms": 12.959084249999998,
+                "online_success": 2639,
+                "strict_feasible": 3600,
+                "timeout": 0,
+                "u_exec": 2472.445833333333,
+                "valid_output": 3600
+              },
+              "w_only": {
+                "conditional_u": 2472.200277777778,
+                "latency_quantiles_ms": [
+                  12.5512,
+                  21.261764999999993,
+                  28.073591999999948
+                ],
+                "mean_ms": 13.321501666666668,
+                "online_success": 2639,
+                "strict_feasible": 3600,
+                "timeout": 0,
+                "u_exec": 2472.200277777778,
+                "valid_output": 3600
+              }
+            },
+            "passed": false
+          }
+        }
+      }
+    },
+    "cancellation": {
+      "B_only": {
+        "actions": {
+          "w5/B0": 931,
+          "w5/B1": 59,
+          "w5/B2": 210
+        },
+        "comparisons": {
+          "fixed": {
+            "different_plans": 41,
+            "events": 1200,
+            "faster_10pct": 924,
+            "faster_share": 0.77,
+            "faster_share_ci95": [
+              0.7464936019670815,
+              0.7928450003345378
+            ],
+            "latency_passed": true,
+            "mean_reduction": 0.22327150873304924,
+            "mean_reduction_ci95": [
+              0.2115365631154822,
+              0.2347698548337536
+            ],
+            "methods": {
+              "B_only": {
+                "conditional_u": 1796.3908333333334,
+                "latency_quantiles_ms": [
+                  11.6655,
+                  18.69764,
+                  23.52919
+                ],
+                "mean_ms": 12.119007583333333,
+                "online_success": 1200,
+                "strict_feasible": 1200,
+                "timeout": 0,
+                "u_exec": 1796.3908333333334,
+                "valid_output": 1200
+              },
+              "fixed": {
+                "conditional_u": 1797.755,
+                "latency_quantiles_ms": [
+                  14.91675,
+                  25.730269999999997,
+                  31.947188999999995
+                ],
+                "mean_ms": 15.602630416666665,
+                "online_success": 1200,
+                "strict_feasible": 1200,
+                "timeout": 0,
+                "u_exec": 1797.755,
+                "valid_output": 1200
+              }
+            },
+            "passed": false
+          },
+          "operator_only": {
+            "different_plans": 41,
+            "events": 1200,
+            "faster_10pct": 169,
+            "faster_share": 0.14083333333333334,
+            "faster_share_ci95": [
+              0.11925531914893615,
+              0.16289347484276728
+            ],
+            "latency_passed": false,
+            "mean_reduction": -0.06525912272038492,
+            "mean_reduction_ci95": [
+              -0.08213585594980174,
+              -0.04812539343300011
+            ],
+            "methods": {
+              "B_only": {
+                "conditional_u": 1796.3908333333334,
+                "latency_quantiles_ms": [
+                  11.6655,
+                  18.69764,
+                  23.52919
+                ],
+                "mean_ms": 12.119007583333333,
+                "online_success": 1200,
+                "strict_feasible": 1200,
+                "timeout": 0,
+                "u_exec": 1796.3908333333334,
+                "valid_output": 1200
+              },
+              "operator_only": {
+                "conditional_u": 1797.755,
+                "latency_quantiles_ms": [
+                  10.75845,
+                  18.818449999999995,
+                  23.36069299999998
+                ],
+                "mean_ms": 11.376581833333333,
+                "online_success": 1200,
+                "strict_feasible": 1200,
+                "timeout": 0,
+                "u_exec": 1797.755,
+                "valid_output": 1200
+              }
+            },
+            "passed": false
+          }
+        }
+      },
+      "joint": {
+        "actions": {
+          "w3/B0": 541,
+          "w3/B1": 59,
+          "w5/B0": 390,
+          "w5/B2": 210
+        },
+        "comparisons": {
+          "fixed": {
+            "different_plans": 41,
+            "events": 1200,
+            "faster_10pct": 945,
+            "faster_share": 0.7875,
+            "faster_share_ci95": [
+              0.764520666064499,
+              0.8108336845978856
+            ],
+            "latency_passed": true,
+            "mean_reduction": 0.22497755653540585,
+            "mean_reduction_ci95": [
+              0.21230152993092102,
+              0.23757395669293777
+            ],
+            "methods": {
+              "fixed": {
+                "conditional_u": 1797.755,
+                "latency_quantiles_ms": [
+                  14.91675,
+                  25.730269999999997,
+                  31.947188999999995
+                ],
+                "mean_ms": 15.602630416666665,
+                "online_success": 1200,
+                "strict_feasible": 1200,
+                "timeout": 0,
+                "u_exec": 1797.755,
+                "valid_output": 1200
+              },
+              "joint": {
+                "conditional_u": 1796.3908333333334,
+                "latency_quantiles_ms": [
+                  11.661100000000001,
+                  19.448764999999998,
+                  23.738633
+                ],
+                "mean_ms": 12.09238875,
+                "online_success": 1200,
+                "strict_feasible": 1200,
+                "timeout": 0,
+                "u_exec": 1796.3908333333334,
+                "valid_output": 1200
+              }
+            },
+            "passed": false
+          },
+          "operator_only": {
+            "different_plans": 41,
+            "events": 1200,
+            "faster_10pct": 176,
+            "faster_share": 0.14666666666666667,
+            "faster_share_ci95": [
+              0.1234395657701057,
+              0.17051469456710824
+            ],
+            "latency_passed": false,
+            "mean_reduction": -0.0629193308810343,
+            "mean_reduction_ci95": [
+              -0.0820560448881765,
+              -0.044431659925589846
+            ],
+            "methods": {
+              "joint": {
+                "conditional_u": 1796.3908333333334,
+                "latency_quantiles_ms": [
+                  11.661100000000001,
+                  19.448764999999998,
+                  23.738633
+                ],
+                "mean_ms": 12.09238875,
+                "online_success": 1200,
+                "strict_feasible": 1200,
+                "timeout": 0,
+                "u_exec": 1796.3908333333334,
+                "valid_output": 1200
+              },
+              "operator_only": {
+                "conditional_u": 1797.755,
+                "latency_quantiles_ms": [
+                  10.75845,
+                  18.818449999999995,
+                  23.36069299999998
+                ],
+                "mean_ms": 11.376581833333333,
+                "online_success": 1200,
+                "strict_feasible": 1200,
+                "timeout": 0,
+                "u_exec": 1797.755,
+                "valid_output": 1200
+              }
+            },
+            "passed": false
+          }
+        }
+      },
+      "w_only": {
+        "actions": {
+          "w3/B2": 600,
+          "w5/B2": 600
+        },
+        "comparisons": {
+          "fixed": {
+            "different_plans": 11,
+            "events": 1200,
+            "faster_10pct": 966,
+            "faster_share": 0.805,
+            "faster_share_ci95": [
+              0.7778040278335341,
+              0.8288525943396227
+            ],
+            "latency_passed": true,
+            "mean_reduction": 0.24224960144941377,
+            "mean_reduction_ci95": [
+              0.22975139931108565,
+              0.2535066152361017
+            ],
+            "methods": {
+              "fixed": {
+                "conditional_u": 1797.755,
+                "latency_quantiles_ms": [
+                  14.91675,
+                  25.730269999999997,
+                  31.947188999999995
+                ],
+                "mean_ms": 15.602630416666665,
+                "online_success": 1200,
+                "strict_feasible": 1200,
+                "timeout": 0,
+                "u_exec": 1797.755,
+                "valid_output": 1200
+              },
+              "w_only": {
+                "conditional_u": 1797.6083333333333,
+                "latency_quantiles_ms": [
+                  11.31465,
+                  18.338894999999994,
+                  22.566551999999998
+                ],
+                "mean_ms": 11.822899416666665,
+                "online_success": 1200,
+                "strict_feasible": 1200,
+                "timeout": 0,
+                "u_exec": 1797.6083333333333,
+                "valid_output": 1200
+              }
+            },
+            "passed": false
+          },
+          "operator_only": {
+            "different_plans": 11,
+            "events": 1200,
+            "faster_10pct": 225,
+            "faster_share": 0.1875,
+            "faster_share_ci95": [
+              0.1644779372407333,
+              0.21089661949685534
+            ],
+            "latency_passed": false,
+            "mean_reduction": -0.03923125503528868,
+            "mean_reduction_ci95": [
+              -0.05438156862473934,
+              -0.0239984241114826
+            ],
+            "methods": {
+              "operator_only": {
+                "conditional_u": 1797.755,
+                "latency_quantiles_ms": [
+                  10.75845,
+                  18.818449999999995,
+                  23.36069299999998
+                ],
+                "mean_ms": 11.376581833333333,
+                "online_success": 1200,
+                "strict_feasible": 1200,
+                "timeout": 0,
+                "u_exec": 1797.755,
+                "valid_output": 1200
+              },
+              "w_only": {
+                "conditional_u": 1797.6083333333333,
+                "latency_quantiles_ms": [
+                  11.31465,
+                  18.338894999999994,
+                  22.566551999999998
+                ],
+                "mean_ms": 11.822899416666665,
+                "online_success": 1200,
+                "strict_feasible": 1200,
+                "timeout": 0,
+                "u_exec": 1797.6083333333333,
+                "valid_output": 1200
+              }
+            },
+            "passed": false
+          }
+        }
+      }
+    },
+    "holdout": {
+      "B_only": {
+        "actions": {
+          "w5/B0": 869,
+          "w5/B1": 67,
+          "w5/B2": 72
+        },
+        "comparisons": {
+          "fixed": {
+            "different_plans": 56,
+            "events": 1008,
+            "faster_10pct": 771,
+            "faster_share": 0.7648809523809523,
+            "faster_share_ci95": [
+              0.7390195105820107,
+              0.7928132631257632
+            ],
+            "latency_passed": true,
+            "mean_reduction": 0.22042095545820795,
+            "mean_reduction_ci95": [
+              0.20122510107156297,
+              0.23922461153986743
+            ],
+            "methods": {
+              "B_only": {
+                "conditional_u": 2477.8998015873017,
+                "latency_quantiles_ms": [
+                  12.801449999999999,
+                  20.81065,
+                  26.27553299999999
+                ],
+                "mean_ms": 13.433596428571427,
+                "online_success": 735,
+                "strict_feasible": 1008,
+                "timeout": 0,
+                "u_exec": 2477.8998015873017,
+                "valid_output": 1008
+              },
+              "fixed": {
+                "conditional_u": 2479.4716981132074,
+                "latency_quantiles_ms": [
+                  16.04435,
+                  27.653184999999997,
+                  39.677601999999965
+                ],
+                "mean_ms": 17.231859325396826,
+                "online_success": 735,
+                "strict_feasible": 1008,
+                "timeout": 1,
+                "u_exec": 2477.0119047619046,
+                "valid_output": 1007
+              }
+            },
+            "passed": false
+          },
+          "operator_only": {
+            "different_plans": 56,
+            "events": 1008,
+            "faster_10pct": 189,
+            "faster_share": 0.1875,
+            "faster_share_ci95": [
+              0.15873015873015872,
+              0.21825396825396826
+            ],
+            "latency_passed": false,
+            "mean_reduction": -0.016072766577611253,
+            "mean_reduction_ci95": [
+              -0.03733219286937602,
+              0.008004534974390647
+            ],
+            "methods": {
+              "B_only": {
+                "conditional_u": 2477.8998015873017,
+                "latency_quantiles_ms": [
+                  12.801449999999999,
+                  20.81065,
+                  26.27553299999999
+                ],
+                "mean_ms": 13.433596428571427,
+                "online_success": 735,
+                "strict_feasible": 1008,
+                "timeout": 0,
+                "u_exec": 2477.8998015873017,
+                "valid_output": 1008
+              },
+              "operator_only": {
+                "conditional_u": 2480.249007936508,
+                "latency_quantiles_ms": [
+                  12.4592,
+                  21.298029999999997,
+                  29.382662999999987
+                ],
+                "mean_ms": 13.221096825396826,
+                "online_success": 735,
+                "strict_feasible": 1008,
+                "timeout": 0,
+                "u_exec": 2480.249007936508,
+                "valid_output": 1008
+              }
+            },
+            "passed": false
+          }
+        }
+      },
+      "joint": {
+        "actions": {
+          "w3/B0": 438,
+          "w3/B1": 66,
+          "w5/B0": 431,
+          "w5/B1": 1,
+          "w5/B2": 72
+        },
+        "comparisons": {
+          "fixed": {
+            "different_plans": 56,
+            "events": 1008,
+            "faster_10pct": 774,
+            "faster_share": 0.7678571428571429,
+            "faster_share_ci95": [
+              0.7380952380952381,
+              0.7955059523809523
+            ],
+            "latency_passed": true,
+            "mean_reduction": 0.21791316520337467,
+            "mean_reduction_ci95": [
+              0.19886658747225702,
+              0.23840405840981627
+            ],
+            "methods": {
+              "fixed": {
+                "conditional_u": 2479.4716981132074,
+                "latency_quantiles_ms": [
+                  16.04435,
+                  27.653184999999997,
+                  39.677601999999965
+                ],
+                "mean_ms": 17.231859325396826,
+                "online_success": 735,
+                "strict_feasible": 1008,
+                "timeout": 1,
+                "u_exec": 2477.0119047619046,
+                "valid_output": 1007
+              },
+              "joint": {
+                "conditional_u": 2477.8998015873017,
+                "latency_quantiles_ms": [
+                  12.75105,
+                  21.354419999999998,
+                  26.749686999999998
+                ],
+                "mean_ms": 13.476810317460318,
+                "online_success": 735,
+                "strict_feasible": 1008,
+                "timeout": 0,
+                "u_exec": 2477.8998015873017,
+                "valid_output": 1008
+              }
+            },
+            "passed": false
+          },
+          "operator_only": {
+            "different_plans": 56,
+            "events": 1008,
+            "faster_10pct": 193,
+            "faster_share": 0.19146825396825398,
+            "faster_share_ci95": [
+              0.16071428571428573,
+              0.22354624542124538
+            ],
+            "latency_passed": false,
+            "mean_reduction": -0.019341322088518575,
+            "mean_reduction_ci95": [
+              -0.043542167058904846,
+              0.009492332693934763
+            ],
+            "methods": {
+              "joint": {
+                "conditional_u": 2477.8998015873017,
+                "latency_quantiles_ms": [
+                  12.75105,
+                  21.354419999999998,
+                  26.749686999999998
+                ],
+                "mean_ms": 13.476810317460318,
+                "online_success": 735,
+                "strict_feasible": 1008,
+                "timeout": 0,
+                "u_exec": 2477.8998015873017,
+                "valid_output": 1008
+              },
+              "operator_only": {
+                "conditional_u": 2480.249007936508,
+                "latency_quantiles_ms": [
+                  12.4592,
+                  21.298029999999997,
+                  29.382662999999987
+                ],
+                "mean_ms": 13.221096825396826,
+                "online_success": 735,
+                "strict_feasible": 1008,
+                "timeout": 0,
+                "u_exec": 2480.249007936508,
+                "valid_output": 1008
+              }
+            },
+            "passed": false
+          }
+        }
+      },
+      "w_only": {
+        "actions": {
+          "w3/B2": 504,
+          "w5/B2": 504
+        },
+        "comparisons": {
+          "fixed": {
+            "different_plans": 11,
+            "events": 1008,
+            "faster_10pct": 793,
+            "faster_share": 0.7867063492063492,
+            "faster_share_ci95": [
+              0.7527770146520146,
+              0.8174603174603174
+            ],
+            "latency_passed": true,
+            "mean_reduction": 0.21856328528422198,
+            "mean_reduction_ci95": [
+              0.20220248015631012,
+              0.2343552284479015
+            ],
+            "methods": {
+              "fixed": {
+                "conditional_u": 2479.4716981132074,
+                "latency_quantiles_ms": [
+                  16.04435,
+                  27.653184999999997,
+                  39.677601999999965
+                ],
+                "mean_ms": 17.231859325396826,
+                "online_success": 735,
+                "strict_feasible": 1008,
+                "timeout": 1,
+                "u_exec": 2477.0119047619046,
+                "valid_output": 1007
+              },
+              "w_only": {
+                "conditional_u": 2479.9246031746034,
+                "latency_quantiles_ms": [
+                  12.719999999999999,
+                  22.241805,
+                  29.295414999999984
+                ],
+                "mean_ms": 13.465607539682539,
+                "online_success": 735,
+                "strict_feasible": 1008,
+                "timeout": 0,
+                "u_exec": 2479.9246031746034,
+                "valid_output": 1008
+              }
+            },
+            "passed": false
+          },
+          "operator_only": {
+            "different_plans": 11,
+            "events": 1008,
+            "faster_10pct": 211,
+            "faster_share": 0.20932539682539683,
+            "faster_share_ci95": [
+              0.17956349206349206,
+              0.23947089947089945
+            ],
+            "latency_passed": false,
+            "mean_reduction": -0.01849398106033262,
+            "mean_reduction_ci95": [
+              -0.04067544581863736,
+              0.00250469713363113
+            ],
+            "methods": {
+              "operator_only": {
+                "conditional_u": 2480.249007936508,
+                "latency_quantiles_ms": [
+                  12.4592,
+                  21.298029999999997,
+                  29.382662999999987
+                ],
+                "mean_ms": 13.221096825396826,
+                "online_success": 735,
+                "strict_feasible": 1008,
+                "timeout": 0,
+                "u_exec": 2480.249007936508,
+                "valid_output": 1008
+              },
+              "w_only": {
+                "conditional_u": 2479.9246031746034,
+                "latency_quantiles_ms": [
+                  12.719999999999999,
+                  22.241805,
+                  29.295414999999984
+                ],
+                "mean_ms": 13.465607539682539,
+                "online_success": 735,
+                "strict_feasible": 1008,
+                "timeout": 0,
+                "u_exec": 2479.9246031746034,
+                "valid_output": 1008
+              }
+            },
+            "passed": false
+          }
+        }
+      }
+    },
+    "reward_update": {
+      "B_only": {
+        "actions": {
+          "w5/B0": 1200
+        },
+        "comparisons": {
+          "fixed": {
+            "different_plans": 63,
+            "events": 1200,
+            "faster_10pct": 958,
+            "faster_share": 0.7983333333333333,
+            "faster_share_ci95": [
+              0.7716130319148937,
+              0.8232075471698113
+            ],
+            "latency_passed": true,
+            "mean_reduction": 0.23091324949920966,
+            "mean_reduction_ci95": [
+              0.21434146464324993,
+              0.24659965596560332
+            ],
+            "methods": {
+              "B_only": {
+                "conditional_u": 2780.795833333333,
+                "latency_quantiles_ms": [
+                  12.99385,
+                  19.777085,
+                  24.765044
+                ],
+                "mean_ms": 13.5981665,
+                "online_success": 1200,
+                "strict_feasible": 1200,
+                "timeout": 0,
+                "u_exec": 2780.795833333333,
+                "valid_output": 1200
+              },
+              "fixed": {
+                "conditional_u": 2783.5658333333336,
+                "latency_quantiles_ms": [
+                  16.592149999999997,
+                  26.789569999999998,
+                  35.226749
+                ],
+                "mean_ms": 17.68092675,
+                "online_success": 1200,
+                "strict_feasible": 1200,
+                "timeout": 0,
+                "u_exec": 2783.5658333333336,
+                "valid_output": 1200
+              }
+            },
+            "passed": false
+          },
+          "operator_only": {
+            "different_plans": 63,
+            "events": 1200,
+            "faster_10pct": 238,
+            "faster_share": 0.19833333333333333,
+            "faster_share_ci95": [
+              0.17304920212765956,
+              0.22394654088050317
+            ],
+            "latency_passed": false,
+            "mean_reduction": -0.009878444184633572,
+            "mean_reduction_ci95": [
+              -0.02752847808148794,
+              0.007187933494198566
+            ],
+            "methods": {
+              "B_only": {
+                "conditional_u": 2780.795833333333,
+                "latency_quantiles_ms": [
+                  12.99385,
+                  19.777085,
+                  24.765044
+                ],
+                "mean_ms": 13.5981665,
+                "online_success": 1200,
+                "strict_feasible": 1200,
+                "timeout": 0,
+                "u_exec": 2780.795833333333,
+                "valid_output": 1200
+              },
+              "operator_only": {
+                "conditional_u": 2783.6283333333336,
+                "latency_quantiles_ms": [
+                  12.70635,
+                  20.879269999999995,
+                  27.485393
+                ],
+                "mean_ms": 13.465151750000002,
+                "online_success": 1200,
+                "strict_feasible": 1200,
+                "timeout": 0,
+                "u_exec": 2783.6283333333336,
+                "valid_output": 1200
+              }
+            },
+            "passed": false
+          }
+        }
+      },
+      "joint": {
+        "actions": {
+          "w3/B0": 600,
+          "w5/B0": 600
+        },
+        "comparisons": {
+          "fixed": {
+            "different_plans": 63,
+            "events": 1200,
+            "faster_10pct": 942,
+            "faster_share": 0.785,
+            "faster_share_ci95": [
+              0.7560638297872341,
+              0.8118710691823899
+            ],
+            "latency_passed": true,
+            "mean_reduction": 0.2252875121492146,
+            "mean_reduction_ci95": [
+              0.20466885729420228,
+              0.24434221025395422
+            ],
+            "methods": {
+              "fixed": {
+                "conditional_u": 2783.5658333333336,
+                "latency_quantiles_ms": [
+                  16.592149999999997,
+                  26.789569999999998,
+                  35.226749
+                ],
+                "mean_ms": 17.68092675,
+                "online_success": 1200,
+                "strict_feasible": 1200,
+                "timeout": 0,
+                "u_exec": 2783.5658333333336,
+                "valid_output": 1200
+              },
+              "joint": {
+                "conditional_u": 2780.795833333333,
+                "latency_quantiles_ms": [
+                  12.988,
+                  20.591184999999992,
+                  25.431881999999998
+                ],
+                "mean_ms": 13.69763475,
+                "online_success": 1200,
+                "strict_feasible": 1200,
+                "timeout": 0,
+                "u_exec": 2780.795833333333,
+                "valid_output": 1200
+              }
+            },
+            "passed": false
+          },
+          "operator_only": {
+            "different_plans": 63,
+            "events": 1200,
+            "faster_10pct": 242,
+            "faster_share": 0.20166666666666666,
+            "faster_share_ci95": [
+              0.1760891459253312,
+              0.22746889636023016
+            ],
+            "latency_passed": false,
+            "mean_reduction": -0.017265531374349274,
+            "mean_reduction_ci95": [
+              -0.03883403562557706,
+              0.0027966881554167084
+            ],
+            "methods": {
+              "joint": {
+                "conditional_u": 2780.795833333333,
+                "latency_quantiles_ms": [
+                  12.988,
+                  20.591184999999992,
+                  25.431881999999998
+                ],
+                "mean_ms": 13.69763475,
+                "online_success": 1200,
+                "strict_feasible": 1200,
+                "timeout": 0,
+                "u_exec": 2780.795833333333,
+                "valid_output": 1200
+              },
+              "operator_only": {
+                "conditional_u": 2783.6283333333336,
+                "latency_quantiles_ms": [
+                  12.70635,
+                  20.879269999999995,
+                  27.485393
+                ],
+                "mean_ms": 13.465151750000002,
+                "online_success": 1200,
+                "strict_feasible": 1200,
+                "timeout": 0,
+                "u_exec": 2783.6283333333336,
+                "valid_output": 1200
+              }
+            },
+            "passed": false
+          }
+        }
+      },
+      "w_only": {
+        "actions": {
+          "w3/B2": 600,
+          "w5/B2": 600
+        },
+        "comparisons": {
+          "fixed": {
+            "different_plans": 9,
+            "events": 1200,
+            "faster_10pct": 956,
+            "faster_share": 0.7966666666666666,
+            "faster_share_ci95": [
+              0.7736515790177975,
+              0.8187583299879566
+            ],
+            "latency_passed": true,
+            "mean_reduction": 0.21711770566551314,
+            "mean_reduction_ci95": [
+              0.20580224505759984,
+              0.22829297516791267
+            ],
+            "methods": {
+              "fixed": {
+                "conditional_u": 2783.5658333333336,
+                "latency_quantiles_ms": [
+                  16.592149999999997,
+                  26.789569999999998,
+                  35.226749
+                ],
+                "mean_ms": 17.68092675,
+                "online_success": 1200,
+                "strict_feasible": 1200,
+                "timeout": 0,
+                "u_exec": 2783.5658333333336,
+                "valid_output": 1200
+              },
+              "w_only": {
+                "conditional_u": 2783.2741666666666,
+                "latency_quantiles_ms": [
+                  12.99535,
+                  21.621459999999995,
+                  26.04615899999999
+                ],
+                "mean_ms": 13.8420845,
+                "online_success": 1200,
+                "strict_feasible": 1200,
+                "timeout": 0,
+                "u_exec": 2783.2741666666666,
+                "valid_output": 1200
+              }
+            },
+            "passed": false
+          },
+          "operator_only": {
+            "different_plans": 8,
+            "events": 1200,
+            "faster_10pct": 247,
+            "faster_share": 0.20583333333333334,
+            "faster_share_ci95": [
+              0.18137438110531243,
+              0.23028419811320755
+            ],
+            "latency_passed": false,
+            "mean_reduction": -0.02799320475537903,
+            "mean_reduction_ci95": [
+              -0.04363899870413226,
+              -0.01140316552459243
+            ],
+            "methods": {
+              "operator_only": {
+                "conditional_u": 2783.6283333333336,
+                "latency_quantiles_ms": [
+                  12.70635,
+                  20.879269999999995,
+                  27.485393
+                ],
+                "mean_ms": 13.465151750000002,
+                "online_success": 1200,
+                "strict_feasible": 1200,
+                "timeout": 0,
+                "u_exec": 2783.6283333333336,
+                "valid_output": 1200
+              },
+              "w_only": {
+                "conditional_u": 2783.2741666666666,
+                "latency_quantiles_ms": [
+                  12.99535,
+                  21.621459999999995,
+                  26.04615899999999
+                ],
+                "mean_ms": 13.8420845,
+                "online_success": 1200,
+                "strict_feasible": 1200,
+                "timeout": 0,
+                "u_exec": 2783.2741666666666,
+                "valid_output": 1200
+              }
+            },
+            "passed": false
+          }
+        }
+      }
+    },
+    "urgent_insertion": {
+      "B_only": {
+        "actions": {
+          "w5/B0": 961,
+          "w5/B1": 184,
+          "w5/B2": 55
+        },
+        "comparisons": {
+          "fixed": {
+            "different_plans": 45,
+            "events": 1200,
+            "faster_10pct": 841,
+            "faster_share": 0.7008333333333333,
+            "faster_share_ci95": [
+              0.6658510638297872,
+              0.7316670597484277
+            ],
+            "latency_passed": true,
+            "mean_reduction": 0.18311636397034625,
+            "mean_reduction_ci95": [
+              0.16637240812524112,
+              0.19890937218124435
+            ],
+            "methods": {
+              "B_only": {
+                "conditional_u": 2834.2608333333333,
+                "latency_quantiles_ms": [
+                  13.3674,
+                  22.392355,
+                  28.208917
+                ],
+                "mean_ms": 14.4196085,
+                "online_success": 239,
+                "strict_feasible": 1200,
+                "timeout": 0,
+                "u_exec": 2834.2608333333333,
+                "valid_output": 1200
+              },
+              "fixed": {
+                "conditional_u": 2835.3152627189324,
+                "latency_quantiles_ms": [
+                  15.68365,
+                  28.82902,
+                  40.65663599999999
+                ],
+                "mean_ms": 17.65197375,
+                "online_success": 238,
+                "strict_feasible": 1200,
+                "timeout": 1,
+                "u_exec": 2832.9525,
+                "valid_output": 1199
+              }
+            },
+            "passed": false
+          },
+          "operator_only": {
+            "different_plans": 44,
+            "events": 1200,
+            "faster_10pct": 223,
+            "faster_share": 0.18583333333333332,
+            "faster_share_ci95": [
+              0.16214406028368794,
+              0.21062092700388063
+            ],
+            "latency_passed": false,
+            "mean_reduction": -0.027365523766696098,
+            "mean_reduction_ci95": [
+              -0.045691107051211904,
+              -0.00901023956806582
+            ],
+            "methods": {
+              "B_only": {
+                "conditional_u": 2834.2608333333333,
+                "latency_quantiles_ms": [
+                  13.3674,
+                  22.392355,
+                  28.208917
+                ],
+                "mean_ms": 14.4196085,
+                "online_success": 239,
+                "strict_feasible": 1200,
+                "timeout": 0,
+                "u_exec": 2834.2608333333333,
+                "valid_output": 1200
+              },
+              "operator_only": {
+                "conditional_u": 2835.954166666667,
+                "latency_quantiles_ms": [
+                  13.02815,
+                  21.957204999999995,
+                  30.09626499999999
+                ],
+                "mean_ms": 14.035519166666667,
+                "online_success": 239,
+                "strict_feasible": 1200,
+                "timeout": 0,
+                "u_exec": 2835.954166666667,
+                "valid_output": 1200
+              }
+            },
+            "passed": false
+          }
+        }
+      },
+      "joint": {
+        "actions": {
+          "w3/B0": 419,
+          "w3/B1": 181,
+          "w5/B0": 542,
+          "w5/B1": 3,
+          "w5/B2": 55
+        },
+        "comparisons": {
+          "fixed": {
+            "different_plans": 45,
+            "events": 1200,
+            "faster_10pct": 832,
+            "faster_share": 0.6933333333333334,
+            "faster_share_ci95": [
+              0.6612384751773049,
+              0.7233333333333334
+            ],
+            "latency_passed": true,
+            "mean_reduction": 0.18597614804029083,
+            "mean_reduction_ci95": [
+              0.17237087490959552,
+              0.19848000034851637
+            ],
+            "methods": {
+              "fixed": {
+                "conditional_u": 2835.3152627189324,
+                "latency_quantiles_ms": [
+                  15.68365,
+                  28.82902,
+                  40.65663599999999
+                ],
+                "mean_ms": 17.65197375,
+                "online_success": 238,
+                "strict_feasible": 1200,
+                "timeout": 1,
+                "u_exec": 2832.9525,
+                "valid_output": 1199
+              },
+              "joint": {
+                "conditional_u": 2834.2608333333333,
+                "latency_quantiles_ms": [
+                  13.475549999999998,
+                  22.507479999999994,
+                  26.744259
+                ],
+                "mean_ms": 14.369127666666667,
+                "online_success": 239,
+                "strict_feasible": 1200,
+                "timeout": 0,
+                "u_exec": 2834.2608333333333,
+                "valid_output": 1200
+              }
+            },
+            "passed": false
+          },
+          "operator_only": {
+            "different_plans": 44,
+            "events": 1200,
+            "faster_10pct": 218,
+            "faster_share": 0.18166666666666667,
+            "faster_share_ci95": [
+              0.15734200622240063,
+              0.20705974842767294
+            ],
+            "latency_passed": false,
+            "mean_reduction": -0.02376887495492852,
+            "mean_reduction_ci95": [
+              -0.03886802211197292,
+              -0.007626460966916201
+            ],
+            "methods": {
+              "joint": {
+                "conditional_u": 2834.2608333333333,
+                "latency_quantiles_ms": [
+                  13.475549999999998,
+                  22.507479999999994,
+                  26.744259
+                ],
+                "mean_ms": 14.369127666666667,
+                "online_success": 239,
+                "strict_feasible": 1200,
+                "timeout": 0,
+                "u_exec": 2834.2608333333333,
+                "valid_output": 1200
+              },
+              "operator_only": {
+                "conditional_u": 2835.954166666667,
+                "latency_quantiles_ms": [
+                  13.02815,
+                  21.957204999999995,
+                  30.09626499999999
+                ],
+                "mean_ms": 14.035519166666667,
+                "online_success": 239,
+                "strict_feasible": 1200,
+                "timeout": 0,
+                "u_exec": 2835.954166666667,
+                "valid_output": 1200
+              }
+            },
+            "passed": false
+          }
+        }
+      },
+      "w_only": {
+        "actions": {
+          "w3/B2": 600,
+          "w5/B2": 600
+        },
+        "comparisons": {
+          "fixed": {
+            "different_plans": 8,
+            "events": 1200,
+            "faster_10pct": 887,
+            "faster_share": 0.7391666666666666,
+            "faster_share_ci95": [
+              0.7128900709219859,
+              0.7641678459119496
+            ],
+            "latency_passed": true,
+            "mean_reduction": 0.1899194228445229,
+            "mean_reduction_ci95": [
+              0.1774522902471121,
+              0.2014940433368868
+            ],
+            "methods": {
+              "fixed": {
+                "conditional_u": 2835.3152627189324,
+                "latency_quantiles_ms": [
+                  15.68365,
+                  28.82902,
+                  40.65663599999999
+                ],
+                "mean_ms": 17.65197375,
+                "online_success": 238,
+                "strict_feasible": 1200,
+                "timeout": 1,
+                "u_exec": 2832.9525,
+                "valid_output": 1199
+              },
+              "w_only": {
+                "conditional_u": 2835.7183333333332,
+                "latency_quantiles_ms": [
+                  13.302299999999999,
+                  23.298595000000002,
+                  31.598878
+                ],
+                "mean_ms": 14.299521083333335,
+                "online_success": 239,
+                "strict_feasible": 1200,
+                "timeout": 0,
+                "u_exec": 2835.7183333333332,
+                "valid_output": 1200
+              }
+            },
+            "passed": false
+          },
+          "operator_only": {
+            "different_plans": 6,
+            "events": 1200,
+            "faster_10pct": 237,
+            "faster_share": 0.1975,
+            "faster_share_ci95": [
+              0.17293907232704406,
+              0.22345927003880636
+            ],
+            "latency_passed": false,
+            "mean_reduction": -0.018809558344920152,
+            "mean_reduction_ci95": [
+              -0.031075090410446565,
+              -0.006339993284015335
+            ],
+            "methods": {
+              "operator_only": {
+                "conditional_u": 2835.954166666667,
+                "latency_quantiles_ms": [
+                  13.02815,
+                  21.957204999999995,
+                  30.09626499999999
+                ],
+                "mean_ms": 14.035519166666667,
+                "online_success": 239,
+                "strict_feasible": 1200,
+                "timeout": 0,
+                "u_exec": 2835.954166666667,
+                "valid_output": 1200
+              },
+              "w_only": {
+                "conditional_u": 2835.7183333333332,
+                "latency_quantiles_ms": [
+                  13.302299999999999,
+                  23.298595000000002,
+                  31.598878
+                ],
+                "mean_ms": 14.299521083333335,
+                "online_success": 239,
+                "strict_feasible": 1200,
+                "timeout": 0,
+                "u_exec": 2835.7183333333332,
+                "valid_output": 1200
+              }
+            },
+            "passed": false
+          }
+        }
+      }
+    }
+  }
+}
