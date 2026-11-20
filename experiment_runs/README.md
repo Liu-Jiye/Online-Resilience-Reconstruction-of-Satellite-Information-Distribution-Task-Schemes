@@ -6,6 +6,7 @@
 
 | 阶段/材料 | 规模与状态 | 入口 |
 |---|---|---|
+| PALR 自适应算子专项复跑 | P4 默认负载 1,000 基实例、12,000 事件、四方法 48,000 次调用，提速验收通过 | [专项报告](reports/palr_adaptive_rerun/REPORT.md)、[验收统计](reports/palr_adaptive_rerun/acceptance.json)、[运行协议与复现](protocol/PALR_ADAPTIVE_RERUN.md) |
 | P6最终统计 | 10000次配对簇重采，轨道先组再实例；573200主/专项调用评分复核，9图 | [阶段报告](reports/p6/P6-20261118/P6_REPORT.md)、[最终结果](reports/p6/P6-20261118/FINAL_RESULTS.md)、[验收](reports/p6/P6-20261118/final_acceptance.json)、[复现指南](reports/p6/P6-20261118/REPRODUCE.md) |
 | P3 | 4000 训练+1000 验证，默认/中竞争配对，992000 记录 | [报告](reports/P3_REPORT.md)、[冻结参数](reports/p3/P3-20261110/frozen_parameters.json) |
 | P3-R | 168000 次修订验证，精简 ET 无预定净收益，两层保留规则；中竞争工程目标未全部达到 | [报告](reports/p3r/P3R-20261112/P3R_REPORT.md)、[完整证据](reports/p3r/P3R-20261112/) |
