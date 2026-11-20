@@ -1,0 +1,48 @@
+{
+  "selected-fixed": [
+    10,
+    3
+  ],
+  "adaptive-w": {
+    "cancellation": [
+      10,
+      3
+    ],
+    "urgent_insertion": [
+      10,
+      3
+    ],
+    "reward_update": [
+      10,
+      3
+    ]
+  },
+  "adaptive-B": {
+    "cancellation": [
+      10,
+      3
+    ],
+    "urgent_insertion": [
+      10,
+      2
+    ],
+    "reward_update": [
+      10,
+      3
+    ]
+  },
+  "adaptive-joint": {
+    "cancellation": [
+      10,
+      3
+    ],
+    "urgent_insertion": [
+      10,
+      2
+    ],
+    "reward_update": [
+      10,
+      3
+    ]
+  }
+}

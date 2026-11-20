@@ -1,0 +1,13 @@
+kind,envelope,events,utility_mean_gap,utility_positive_events,success_gap_pp,success_extra
+all,w-only,2400,0.0,0,0.0,0
+all,B-only,2400,0.0,0,0.0,0
+all,joint,2400,0.0,0,0.0,0
+cancellation,w-only,800,0.0,0,0.0,0
+cancellation,B-only,800,0.0,0,0.0,0
+cancellation,joint,800,0.0,0,0.0,0
+urgent_insertion,w-only,800,0.0,0,0.0,0
+urgent_insertion,B-only,800,0.0,0,0.0,0
+urgent_insertion,joint,800,0.0,0,0.0,0
+reward_update,w-only,800,0.0,0,0.0,0
+reward_update,B-only,800,0.0,0,0.0,0
+reward_update,joint,800,0.0,0,0.0,0

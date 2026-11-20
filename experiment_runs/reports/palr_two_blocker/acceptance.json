@@ -1,0 +1,15 @@
+{
+  "logical_mechanism_cases": 340,
+  "natural_urgent_local_minimum": {
+    "None": 715,
+    "0": 80,
+    "1": 5
+  },
+  "new_action_events": [],
+  "eligible_two_blocker_natural_urgent": 0,
+  "validation_rows": 6480,
+  "test_rows": 38400,
+  "independently_validated_test_outputs": 38400,
+  "invalid_plan_count": 0,
+  "bootstrap_replicates": 10000
+}
