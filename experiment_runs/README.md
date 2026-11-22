@@ -4,9 +4,11 @@
 
 ## 当前交付入口
 
+当前论文和汇总使用 [P5 A5 复跑结果表](reports/palr_rule_ablations/REPORT.md#p5-a5-复跑结果)。P5、P6 封存报告中的首次 A5 表、图和配对统计对应历史验收批次。
+
 | 阶段/材料 | 规模与状态 | 入口 |
 |---|---|---|
-| PALR 参数规则消融复跑 | P5 A5 的 300 个基实例、3,600 个事件，含仅 B、仅 w、联合规则 | [报告与复现](reports/palr_rule_ablations/REPORT.md)、[完整统计](reports/palr_rule_ablations/acceptance.json) |
+| P5 A5 参数规则消融 | 复跑结果覆盖 300 个基实例、3,600 个共同事件，含共享算子优化的固定对照 | [现行结果表](reports/palr_rule_ablations/REPORT.md#p5-a5-复跑结果)、[完整统计](reports/palr_rule_ablations/acceptance.json) |
 | PALR 自适应算子专项复跑 | P4 默认负载 1,000 基实例、12,000 事件、四方法 48,000 次调用，提速验收通过 | [专项报告](reports/palr_adaptive_rerun/REPORT.md)、[验收统计](reports/palr_adaptive_rerun/acceptance.json)、[运行协议与复现](protocol/PALR_ADAPTIVE_RERUN.md) |
 | P6最终统计 | 10000次配对簇重采，轨道先组再实例；573200主/专项调用评分复核，9图 | [阶段报告](reports/p6/P6-20261118/P6_REPORT.md)、[最终结果](reports/p6/P6-20261118/FINAL_RESULTS.md)、[验收](reports/p6/P6-20261118/final_acceptance.json)、[复现指南](reports/p6/P6-20261118/REPRODUCE.md) |
 | P3 | 4000 训练+1000 验证，默认/中竞争配对，992000 记录 | [报告](reports/P3_REPORT.md)、[冻结参数](reports/p3/P3-20261110/frozen_parameters.json) |

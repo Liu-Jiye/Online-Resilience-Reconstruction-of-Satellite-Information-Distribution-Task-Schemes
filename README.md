@@ -8,6 +8,7 @@
 2. 按 [材料目录](docs/00_materials.md) 查找历史来源与修订后的论文要素口径。
 3. 用 [需求追踪矩阵](docs/01_requirements.md)、[方法接口与约束](docs/04_method_contract.md)、[数据与基线](docs/05_data_and_baselines.md) 和 [论文提纲](paper/outline.md) 对齐论文。
 4. 查阅实验设计时使用 [初始完整方案](experiments/complete_experimental_plan.md) 和 [机器可读设计](experiments/configs/experimental_design_v1.json)。实际执行、范围及证据以 [阶段报告](experiment_runs/STAGES.md) 为准。
+5. 论文中的 P5 A5 参数规则消融统一引用 [3,600 个事件的复跑结果表](experiment_runs/reports/palr_rule_ablations/REPORT.md#p5-a5-复跑结果)。
 
 ## 目录
 

@@ -33,7 +33,7 @@ P4 运行 Minimal-Repair、Frozen-Greedy、Fixed-PALR、Validation-Best-Fixed、
 
 严格可行需通过独立计划校验。严格紧急服务还需纳入紧急任务，在线成功还需在时限内返回。完整调用时延计入状态提取、控制、修复、校验及返回开销。失败和超时保留在适用事件分母中，不适用事件单列。迟到或无严格可行输出的适用事件执行效用计零，按时可行输出的条件质量单报。[指标源码](../experiment_runs/src/isl/metrics.py)
 
-P5 已执行窗口与接收端检查、B/w 扫描、固定/仅 B/仅 w/联合规则及离线网格比较。读取测试结果的网格参照用于事后诊断。P6 以基实例配对，轨道层先重采卫星组、再重采组内实例，报告 10000 次配对簇重采样的 95% 区间。[P5 报告](../experiment_runs/reports/p5/P5-20261118/P5_REPORT.md) · [P6 报告](../experiment_runs/reports/p6/P6-20261118/P6_REPORT.md)
+P5 已执行窗口与接收端检查、B/w 扫描、固定/仅 B/仅 w/联合规则及离线网格比较。A5 结果以 3,600 个事件的复跑表为准。读取测试结果的网格参照用于事后诊断。P6 以基实例配对，轨道层先重采卫星组、再重采组内实例，报告 10000 次配对簇重采样的 95% 区间。[A5 复跑结果表](../experiment_runs/reports/palr_rule_ablations/REPORT.md#p5-a5-复跑结果) · [P5 报告](../experiment_runs/reports/p5/P5-20261118/P5_REPORT.md) · [P6 报告](../experiment_runs/reports/p6/P6-20261118/P6_REPORT.md)
 
 ## ICAPS 已录用论文调研
 
