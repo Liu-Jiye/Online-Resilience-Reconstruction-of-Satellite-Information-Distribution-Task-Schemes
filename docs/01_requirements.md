@@ -9,7 +9,7 @@
 | R03 | 研究思路 | [当前方法契约](04_method_contract.md) | 方法总览 | 冻结前缀、原索引邻域、累计新接纳预算、硬约束和词典序构成完整流程 |
 | R04 | 技术科学问题 | S02、[P0 实现契约](../experiment_runs/protocol/P0_IMPLEMENTATION_CONTRACT.md) | 建模及难点 | 形式化双端联合可行性、紧急服务与效用/干扰的裁决、w/B 选择 |
 | R05 | 技术思路 | [ISL 修复源码](../experiment_runs/src/isl/repair.py)、[裁决源码](../experiment_runs/src/isl/metrics.py) | 算法框、性质说明 | 正文与代码一致，明确冻结冲突、邻域、预算、紧急优先和独立校验 |
-| R06 | 创新点 | S04、[当前实验报告](../experiment_runs/README.md) | 贡献段与相关工作对照 | 说明历史机制、已实现的窗口扩展和已评估的参数控制 |
+| R06 | 创新点 | S04、[当前实验报告](../experiment_runs/README.md)、[短时限修复](../experiment_runs/reports/palr_short_budget/REPORT.md) | 贡献段与相关工作对照 | 说明历史机制、窗口扩展、参数控制评估，以及短时限下优先插入并校验紧急任务的算法贡献 |
 | R07 | 实验数据 | [数据与基线](05_data_and_baselines.md) | 论文数据与历史结果说明 | 区分历史观测协议、合成 ISL 和公开轨道派生层，明确规模及 IPC 审计边界 |
 | R08 | 实验设计 | [执行与验收](../experiment_runs/STAGES.md)、[数据与基线](05_data_and_baselines.md) | 论文实验与复现说明 | 正式八基线、指标及失败分母、实际消融与配对统计可追溯，录用论文和第三方源码待核验项明确 |
 | R09 | 星间接触时间窗 | [P0 实现契约](../experiment_runs/protocol/P0_IMPLEMENTATION_CONTRACT.md)、[P5 消融报告](../experiment_runs/reports/p5/P5-20261118/P5_REPORT.md) | 论文模型及正确性说明 | 单窗口覆盖含建链的整数占用，双端终端和忙日历通过独立校验 |
