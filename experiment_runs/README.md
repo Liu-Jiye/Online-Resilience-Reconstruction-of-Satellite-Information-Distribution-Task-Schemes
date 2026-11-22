@@ -4,6 +4,8 @@
 
 ## 当前交付入口
 
+[短预算紧急任务优先修复](reports/palr_short_budget/REPORT.md)提供 10 ms 和 20 ms 的可选入口、配对回放与复现命令。
+
 当前论文和汇总使用 [P5 A5 复跑结果表](reports/palr_rule_ablations/REPORT.md#p5-a5-复跑结果)。P5、P6 封存报告中的首次 A5 表、图和配对统计对应历史验收批次。
 
 | 阶段/材料 | 规模与状态 | 入口 |

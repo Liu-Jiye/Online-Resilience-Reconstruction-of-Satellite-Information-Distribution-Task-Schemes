@@ -17,7 +17,8 @@ def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--case', required=True, type=Path)
     parser.add_argument('--index', type=int, default=0, help='Index if input is a case list')
-    parser.add_argument('--method', choices=['Fixed-PALR', 'Minimal-Repair', 'Frozen-Greedy'], default='Fixed-PALR')
+    parser.add_argument('--method', choices=['Fixed-PALR', 'Minimal-Repair', 'Frozen-Greedy',
+                                           'Short-Budget-PALR'], default='Fixed-PALR')
     parser.add_argument('--w', type=int, default=5)
     parser.add_argument('--B', type=int)
     parser.add_argument('--budget-ms', type=float, default=50)
@@ -30,7 +31,22 @@ def main():
         parser.error('output already exists; preserve prior evidence')
     raw = json.loads(args.case.read_text(encoding='utf-8'))
     case = case_from_dict(raw[args.index] if isinstance(raw, list) else raw)
-    result = run_method(case, args.method, w=args.w, B=args.B, budget_ms=args.budget_ms)
+    if args.method == 'Short-Budget-PALR':
+        if args.budget_ms not in (10, 20):
+            parser.error('Short-Budget-PALR requires a 10 or 20 ms budget')
+        from time import perf_counter_ns
+        import numpy as np
+        from isl.p5.online import rescore
+        from isl.p5.repair_short_budget import run_method as run_short_budget
+
+        # Load NumPy's random module before measuring the online request.
+        np.random.Generator(np.random.PCG64(11))
+        start = perf_counter_ns()
+        result = run_short_budget(case, w=args.w, B=args.B, budget_ms=args.budget_ms)
+        result = rescore(case, result, perf_counter_ns() - start, args.budget_ms)
+        result['method'] = args.method
+    else:
+        result = run_method(case, args.method, w=args.w, B=args.B, budget_ms=args.budget_ms)
     result['case'] = case_to_dict(case)
     result['case_sha256'] = hashlib.sha256(canonical_json(result['case']).encode()).hexdigest()
     result['source_commit'] = subprocess.check_output(['git', 'rev-parse', 'HEAD'], cwd=ROOT, text=True).strip()
